@@ -1,6 +1,7 @@
 const ids=['q','month','status','sort','cards','empty','lastUpdated','statCases','statConfirmed','statLargest','statRange','tabVerifiedCount','tabCandidateCount','tabAllCount','viewNotice'];
 const els=Object.fromEntries(ids.map(id=>[id,document.getElementById(id)]));
 let data=[], currentView='verified';
+
 const statusLabel={confirmed:'漏えい確認',possible:'漏えいの可能性',candidate:'報道検知・要確認'};
 const priorityLabel={A:'優先確認 A',B:'優先確認 B',C:'優先確認 C'};
 const fmt=n=>Number.isFinite(Number(n))&&Number(n)>0?new Intl.NumberFormat('ja-JP').format(Number(n))+'件':'非公表/調査中';
@@ -21,6 +22,18 @@ async function init(){
     els.status.value='';
     render();
   }));
+
+  document.addEventListener('click',e=>{
+    const copy=e.target.closest('[data-copy-id]');
+    if(copy){
+      navigator.clipboard.writeText(copy.dataset.copyId).then(()=>{
+        const old=copy.textContent;
+        copy.textContent='コピーしました';
+        setTimeout(()=>copy.textContent=old,1200);
+      });
+    }
+  });
+
   render();
 }
 
@@ -44,7 +57,7 @@ function render(){
 
   const q=els.q.value.trim().toLowerCase(), month=els.month.value, status=els.status.value;
   let rows=rowsForView().filter(x=>{
-    const hay=[x.company,x.service,x.summary,x.exposed_data].join(' ').toLowerCase();
+    const hay=[x.company,x.service,x.summary,x.exposed_data,x.id].join(' ').toLowerCase();
     return (!q||hay.includes(q))&&(!month||x.published?.startsWith(month))&&(!status||x.status===status);
   });
 
@@ -67,10 +80,32 @@ function render(){
   els.statRange.textContent=dates.length?`${dates[0].slice(0,7)}〜${dates.at(-1).slice(0,7)}`:'-';
 }
 
+function sourceHost(url=''){
+  try{
+    const u=new URL(url);
+    if(u.hostname.includes('news.google.com')) return 'Googleニュース';
+    return u.hostname.replace(/^www\./,'');
+  }catch{return '参照元'}
+}
+
+function sourceBlock(x){
+  const sources=x.sources||[];
+  if(!sources.length) return '';
+  const preview=sources.slice(0,3).map(s=>sourceHost(s.url)).join(' / ');
+  const more=sources.length>3?` / ほか${sources.length-3}件`:'';
+  const links=sources.map((s,i)=>`<li><a href="${s.url}" target="_blank" rel="noopener">${escapeHtml(s.name||sourceHost(s.url)||`情報源${i+1}`)}</a></li>`).join('');
+  return `<details class="source-details">
+    <summary>情報源：${sources.length}件 <span>${escapeHtml(preview+more)}</span></summary>
+    <ul>${links}</ul>
+  </details>`;
+}
+
 function card(x){
-  const sources=(x.sources||[]).map(s=>`<a href="${s.url}" target="_blank" rel="noopener">${escapeHtml(s.name)}</a>`).join('');
   const priority=x.status==='candidate'&&x.priority?`<span class="badge priority priority-${x.priority}">${priorityLabel[x.priority]||x.priority}</span>`:'';
   const articles=x.status==='candidate'&&Number(x.article_count)>1?`<span class="badge merged">${x.article_count}記事</span>`:'';
+  const idTools=x.status==='candidate'?`<div class="incident-tools"><code>${escapeHtml(x.id||'')}</code><button type="button" data-copy-id="${escapeHtml(x.id||'')}">案件IDをコピー</button></div>`:'';
+  const reviewMeta=x.reviewed_at?`<p class="review-meta">確認日: ${escapeHtml(x.reviewed_at)}${x.review_note?` / ${escapeHtml(x.review_note)}`:''}</p>`:'';
+
   return `<article class="card">
     <div>
       <div class="date">${escapeHtml(x.published||'-')}</div>
@@ -86,7 +121,9 @@ function card(x){
       <p class="count">対象規模: ${fmt(x.affected_count)}</p>
       <p>${escapeHtml(x.summary||'')}</p>
       ${x.exposed_data?`<p><strong>情報:</strong> ${escapeHtml(x.exposed_data)}</p>`:''}
-      <div class="sources">${sources}</div>
+      ${reviewMeta}
+      ${sourceBlock(x)}
+      ${idTools}
     </div>
   </article>`;
 }
