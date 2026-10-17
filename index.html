@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="国内の個人情報漏えい・流出案件を一覧化する公開トラッカー" />
+  <title>個人情報漏えいトラッカー</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <div>
+        <p class="eyebrow">PRIVACY INCIDENT TRACKER</p>
+        <h1>個人情報漏えいトラッカー</h1>
+        <p class="lead">国内で公表された個人情報漏えい・流出・不正アクセス案件を、公式発表と主要ニュース媒体の情報から整理します。</p>
+      </div>
+      <div class="updated-card">
+        <span>最終更新</span>
+        <strong id="lastUpdated">読み込み中...</strong>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap main-grid">
+    <section class="panel controls" aria-label="絞り込み">
+      <div class="control wide">
+        <label for="q">検索</label>
+        <input id="q" type="search" placeholder="企業名・サービス名・概要で検索" />
+      </div>
+      <div class="control">
+        <label for="month">公表月</label>
+        <select id="month"><option value="">すべて</option></select>
+      </div>
+      <div class="control">
+        <label for="status">確認状況</label>
+        <select id="status">
+          <option value="">すべて</option>
+          <option value="confirmed">漏えい確認</option>
+          <option value="possible">漏えいの可能性</option>
+          <option value="candidate">報道検知・要確認</option>
+        </select>
+      </div>
+      <div class="control">
+        <label for="sort">並び順</label>
+        <select id="sort">
+          <option value="date-desc">新しい順</option>
+          <option value="date-asc">古い順</option>
+          <option value="count-desc">件数が多い順</option>
+        </select>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="統計">
+      <article><span>表示件数</span><strong id="statCases">-</strong></article>
+      <article><span>確認済み</span><strong id="statConfirmed">-</strong></article>
+      <article><span>最大規模</span><strong id="statLargest">-</strong></article>
+      <article><span>期間</span><strong id="statRange">-</strong></article>
+    </section>
+
+    <section>
+      <div class="section-head">
+        <div>
+          <h2>案件一覧</h2>
+          <p>件数は企業発表・報道に基づく概数を含みます。詳細は各ソースを必ず確認してください。</p>
+        </div>
+      </div>
+      <div id="cards" class="cards" aria-live="polite"></div>
+      <p id="empty" class="empty" hidden>条件に一致する案件はありません。</p>
+    </section>
+
+    <section class="methodology panel">
+      <h2>更新ルール</h2>
+      <p>毎日1回、主要ニュース検索・指定RSSから候補記事を取得し、重複を除去して <code>data/incidents.json</code> に反映します。自動取得した案件は <strong>「報道検知・要確認」</strong> として表示できます。公式発表などで確認後、<code>status</code> を <code>confirmed</code> または <code>possible</code> に変更してください。</p>
+      <p>GitHub ActionsでJSON更新→GitHubへ自動コミット→Cloudflare Pages / GitHub Pagesが自動公開、という構成を想定しています。</p>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <p>※ 本サイトは注意喚起・情報整理を目的とした非公式データベースです。個別案件の正確な範囲・対象者・対応方法は企業等の公式発表を確認してください。</p>
+  </footer>
+  <script src="app.js" defer></script>
+</body>
+</html>

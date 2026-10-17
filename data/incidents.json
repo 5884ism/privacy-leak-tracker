@@ -1,0 +1,145 @@
+{
+  "last_updated": "2026-10-17",
+  "incidents": [
+    {
+      "id": "2026-10-15-sourcenext",
+      "published": "2026-10-15",
+      "company": "ソースネクスト",
+      "service": "会員情報取得API",
+      "affected_count": 22519960,
+      "status": "confirmed",
+      "cause": "API不正利用",
+      "summary": "会員情報取得APIが第三者に不正利用され、最大22,519,960件の会員情報が漏えいした可能性。クレジットカード情報は対象外。",
+      "exposed_data": "メールアドレス、パスワード、氏名、住所、性別、電話番号、FAX、生年月日、会社名、役職、部署、利用サービス等",
+      "sources": [
+        {"name": "ソースネクスト公式", "url": "https://www.sourcenext.com/support/i/2026/1015_info/"}
+      ]
+    },
+    {
+      "id": "2026-10-lawson-id",
+      "published": "2026-10-09",
+      "company": "ローソン",
+      "service": "ローソンID",
+      "affected_count": 2155345,
+      "status": "confirmed",
+      "cause": "不正アクセス",
+      "summary": "ローソンID会員情報の一部が漏えい。",
+      "exposed_data": "メールアドレス、氏名、性別、電話番号、住所等",
+      "sources": [
+        {"name": "ITmedia", "url": "https://www.itmedia.co.jp/news/"}
+      ]
+    },
+    {
+      "id": "2026-10-jre",
+      "published": "2026-10-09",
+      "company": "JR東日本",
+      "service": "えきねっと / 大人の休日倶楽部",
+      "affected_count": 2060000,
+      "status": "possible",
+      "cause": "クラウド関連不正アクセス",
+      "summary": "外部クラウドサービスへの不正アクセスに関連して会員情報が漏えいした可能性。",
+      "exposed_data": "メールアドレス、会員番号、生年月日、カード有効期限等",
+      "sources": [
+        {"name": "INTERNET Watch", "url": "https://internet.watch.impress.co.jp/"}
+      ]
+    },
+    {
+      "id": "2026-09-timescar",
+      "published": "2026-09-30",
+      "company": "パーク24",
+      "service": "タイムズカー",
+      "affected_count": 6600000,
+      "status": "confirmed",
+      "cause": "不正アクセス",
+      "summary": "タイムズカー会員情報等が第三者に取得されたことを確認。",
+      "exposed_data": "会員情報、本人確認関連情報等",
+      "sources": [
+        {"name": "ニュース報道", "url": "https://news.mynavi.jp/techplus/"}
+      ]
+    },
+    {
+      "id": "2026-09-gyazo",
+      "published": "2026-09-20",
+      "company": "Helpfeel",
+      "service": "Gyazo",
+      "affected_count": 23620000,
+      "status": "confirmed",
+      "cause": "不正アクセス",
+      "summary": "ユーザー情報と大量の画像メタデータが外部流出。",
+      "exposed_data": "ユーザー情報、画像メタデータ等",
+      "sources": [
+        {"name": "INTERNET Watch", "url": "https://internet.watch.impress.co.jp/"}
+      ]
+    },
+    {
+      "id": "2026-08-yellowhat",
+      "published": "2026-08-01",
+      "company": "イエローハット",
+      "service": "WEB作業予約",
+      "affected_count": 1797124,
+      "status": "confirmed",
+      "cause": "不正アクセス",
+      "summary": "WEB作業予約の利用者情報が外部流出。",
+      "exposed_data": "氏名、住所、生年月日、電話番号、メールアドレス、会員番号、ID等",
+      "sources": [
+        {"name": "公式・報道", "url": "https://www.yellowhat.jp/"}
+      ]
+    },
+    {
+      "id": "2026-07-sagawa",
+      "published": "2026-07-01",
+      "company": "佐川急便",
+      "service": "スマートクラブ",
+      "affected_count": 70000,
+      "status": "confirmed",
+      "cause": "システム不具合",
+      "summary": "システム不具合により別利用者の情報を誤表示。",
+      "exposed_data": "氏名、メールアドレス、送り状番号等",
+      "sources": [
+        {"name": "INTERNET Watch", "url": "https://internet.watch.impress.co.jp/"}
+      ]
+    },
+    {
+      "id": "2026-06-kddi-mail",
+      "published": "2026-06-01",
+      "company": "KDDI",
+      "service": "ISP向けメールシステム",
+      "affected_count": 12230000,
+      "status": "confirmed",
+      "cause": "不正アクセス",
+      "summary": "ISP各社向けメール基盤への侵入によりメールアドレス等が漏えい。",
+      "exposed_data": "メールアドレス、パスワード等",
+      "sources": [
+        {"name": "INTERNET Watch", "url": "https://internet.watch.impress.co.jp/"}
+      ]
+    },
+    {
+      "id": "2026-05-moneyforward",
+      "published": "2026-05-01",
+      "company": "マネーフォワード",
+      "service": "GitHubリポジトリ",
+      "affected_count": 0,
+      "status": "confirmed",
+      "cause": "認証情報流出",
+      "summary": "GitHub認証情報が流出し、第三者にリポジトリをコピーされた。",
+      "exposed_data": "一部顧客・取引先・従業員情報、ソースコード等",
+      "sources": [
+        {"name": "マネーフォワード公式", "url": "https://corp.moneyforward.com/news/"}
+      ]
+    },
+    {
+      "id": "2026-04-campfire",
+      "published": "2026-04-20",
+      "company": "CAMPFIRE",
+      "service": "クラウドファンディング",
+      "affected_count": 220000,
+      "status": "possible",
+      "cause": "不正アクセス",
+      "summary": "クラウドファンディング利用者情報等が漏えいした可能性。",
+      "exposed_data": "利用者情報等",
+      "sources": [
+        {"name": "INTERNET Watch", "url": "https://internet.watch.impress.co.jp/"}
+      ]
+    }
+  ]
+}
