@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
-"""Daily detector + stronger cleanup for Japanese privacy/data-breach incidents.
+"""Daily detector + final cleanup for Japanese privacy/data-breach incidents.
 
-v1.3
-- confirmed / possible rows are preserved.
-- candidate rows are cleaned every run.
-- advice/commentary articles are removed.
-- company/entity names are normalized more aggressively.
-- candidate duplicates are merged using entity/date/count/title similarity.
-- candidates duplicating verified incidents are removed using entity/date/count rules.
-- new discoveries are added only as candidate.
+v1.4
+- preserve confirmed/possible records
+- clean candidate records every run
+- remove generic advice/commentary pieces
+- normalize company/entity labels more aggressively
+- merge duplicates using entity/date/count/title similarity
+- remove candidate duplicates of verified incidents
+- strip trailing count/contact-data phrases from entity names
 """
 
 import json
@@ -45,18 +45,11 @@ GENERIC_COMPANIES = {
     "情報流出", "旅行予約", "サイバー攻撃", "ランサムウェア",
 }
 
-MEDIA_SUFFIXES = [
-    "nhk", "nhkニュース", "itmedia", "itmedia news", "itmedia ビジネスオンライン",
-    "日本経済新聞", "朝日新聞", "読売新聞", "毎日新聞", "産経新聞",
-    "47news", "共同通信", "時事通信", "abema", "abema times",
-    "yahoo!ニュース", "yahooニュース", "河北新報オンライン",
-    "西日本新聞me", "stV札幌テレビ", "テレビ朝日", "tbs news dig",
+ENTITY_TRAILING_PATTERNS = [
+    r"\s+(?:電話番号|メールアドレス|住所|氏名|顧客情報|会員情報|個人情報)(?:など)?(?:約?\d[\d,.]*万?\s*(?:件|人|名|アカウント)?)?.*$",
+    r"\s+約?\d[\d,.]*万?\s*(?:件|人|名|アカウント).*$",
+    r"\s+(?:最大|約)?\d[\d,.]*\s*(?:件|人|名|アカウント).*$",
 ]
-
-LEGAL_SUFFIXES = (
-    "株式会社", "有限会社", "合同会社", "一般社団法人", "公益社団法人",
-    "一般財団法人", "公益財団法人", "社会福祉法人", "学校法人",
-)
 
 def nfkc(s):
     return unicodedata.normalize("NFKC", s or "")
@@ -70,7 +63,7 @@ def rss_url(q):
 def fetch(url):
     req = urllib.request.Request(
         url,
-        headers={"User-Agent": "privacy-leak-tracker/1.3"}
+        headers={"User-Agent": "privacy-leak-tracker/1.4"}
     )
     with urllib.request.urlopen(req, timeout=30) as r:
         return r.read()
@@ -81,7 +74,6 @@ def text(el, tag):
 
 def clean_title(title):
     s = nfkc(title)
-    # Google News: headline - media
     s = re.sub(r"\s+-\s+[^-]+$", "", s).strip()
     s = re.sub(r"^[【\[]\s*(?:速報|続報|独自|更新)[^】\]]*[】\]]\s*", "", s)
     return s.strip()
@@ -91,18 +83,15 @@ def strip_region_prefix(s):
     s = re.sub(r"^[【\[]([^】\]]*(?:都|道|府|県|市|区|町|村))[^】\]]*[】\]]\s*", "", s)
     return s.strip()
 
-def strip_media_suffix(s):
-    t = nfkc(s).strip()
-    low = t.lower()
-    for m in MEDIA_SUFFIXES:
-        ml = nfkc(m).lower()
-        if low.endswith(" " + ml):
-            t = t[:-(len(m)+1)].strip()
-            break
-    return t
+def trim_entity_tail(s):
+    s = nfkc(s).strip()
+    for p in ENTITY_TRAILING_PATTERNS:
+        s = re.sub(p, "", s).strip()
+    s = re.sub(r"\s+(?:情報流出|情報漏えい|情報漏洩|漏えい|漏洩|流出|不正アクセス|調査結果を発表).*$", "", s)
+    return s.strip(" -—:：")
 
 def normalize(s):
-    s = strip_region_prefix(strip_media_suffix(clean_title(s)))
+    s = trim_entity_tail(strip_region_prefix(clean_title(s)))
     s = re.sub(r"[【\[].*?[】\]]", " ", s)
     s = re.sub(r"[「」『』（）()：:｜|／/・,，。!！?？]", " ", s)
     s = re.sub(
@@ -112,45 +101,37 @@ def normalize(s):
         " ",
         s,
     )
-    s = re.sub(r"\s+", " ", s).strip().lower()
-    return s
+    return re.sub(r"\s+", " ", s).strip().lower()
 
 def company_from_title(title):
     s = strip_region_prefix(clean_title(title))
     s = re.sub(r"^(?:速報|続報)\s*", "", s)
 
-    # 先頭の主体を抜く。典型的なニュース表現をかなり広く吸収する。
     patterns = [
         r"^(.+?)(?:で|が|に|の)(?:個人情報|顧客情報|会員情報|情報漏えい|情報漏洩|情報流出|漏えい|漏洩|流出|不正アクセス|ランサムウェア)",
         r"^(.+?)(?:、|：|:)",
         r"^(.+?)\s+(?:個人情報|顧客情報|会員情報|情報漏えい|情報流出|漏えい|流出|不正アクセス|ランサムウェア)",
-        r"^(.+?)\s+(?:電話番号|メールアドレス|住所|氏名|会員情報).*?(?:漏えい|流出)",
+        r"^(.+?)\s+(?:電話番号|メールアドレス|住所|氏名|顧客|会員|個人情報).*?(?:漏えい|流出)",
     ]
 
     for p in patterns:
         m = re.search(p, s)
         if m:
-            candidate = m.group(1).strip(" 「」『』")
-            candidate = re.sub(r"^(?:速報|続報)\s*", "", candidate)
-            # 見出しの修飾語を削る
-            candidate = re.sub(r"\s+(?:電話番号など|メールアドレスなど|約?\d.*)$", "", candidate)
+            candidate = trim_entity_tail(m.group(1).strip(" 「」『』"))
             if 1 < len(candidate) <= 40:
                 return candidate
 
     # 「ヤマト運輸 電話番号など約531万件...」型
-    m = re.match(r"^(.{2,25}?)\s+(?:電話番号|メールアドレス|住所|氏名|顧客|会員|個人情報)", s)
+    m = re.match(r"^(.{2,30}?)\s+(?:電話番号|メールアドレス|住所|氏名|顧客情報|会員情報|個人情報)", s)
     if m:
-        return m.group(1).strip()
+        return trim_entity_tail(m.group(1))
 
-    # 法人格があればそこまで優先
-    for suffix in LEGAL_SUFFIXES:
-        pos = s.find(suffix)
-        if 0 <= pos <= 25:
-            end = pos + len(suffix)
-            return s[:end].strip()
+    # 最初の句の末尾を削る
+    candidate = trim_entity_tail(s)
+    if 1 < len(candidate) <= 40:
+        return candidate
 
-    # 最後の手段: 最初の空白区切り2語まで
-    words = s.split()
+    words = candidate.split()
     if words:
         return " ".join(words[:2])[:40]
     return "要確認"
@@ -188,7 +169,7 @@ def date_distance(a, b):
     da, db = safe_date(a), safe_date(b)
     if not da or not db:
         return 9999
-    return abs((da - db).days)
+    return abs((da-db).days)
 
 def entity_key(company, summary=""):
     c = normalize(company)
@@ -207,17 +188,24 @@ def title_similarity(a, b):
     jaccard = len(ta & tb) / max(1, len(ta | tb))
     return max(ratio, jaccard)
 
+def count_close(a, b):
+    a, b = int(a or 0), int(b or 0)
+    if a <= 0 or b <= 0:
+        return False
+    if a == b:
+        return True
+    larger, smaller = max(a,b), min(a,b)
+    return smaller / larger >= 0.97
+
 def choose_company(a, b):
     vals = []
-    for x in (a, b):
+    for x in (a,b):
         if not x:
             continue
-        x2 = company_from_title(x) if len(x) > 40 else strip_region_prefix(x)
+        x2 = trim_entity_tail(strip_region_prefix(x))
         if not looks_generic_company(x2):
             vals.append(x2)
-    if vals:
-        return min(vals, key=len)
-    return (a or b or "要確認")[:40]
+    return min(vals, key=len) if vals else trim_entity_tail(a or b or "要確認")[:40]
 
 def union_sources(a, b):
     out, seen = [], set()
@@ -243,14 +231,12 @@ def merge_two(base, other):
     ):
         base["published"] = other["published"]
 
-    bs, os = base.get("summary", ""), other.get("summary", "")
+    bs, os = base.get("summary",""), other.get("summary","")
     if len(os) > len(bs) and len(os) <= 180:
         base["summary"] = os
-
     return base
 
 def same_incident(a, b):
-    """Candidate/verified or candidate/candidate incident matcher."""
     ak = entity_key(a.get("company",""), a.get("summary",""))
     bk = entity_key(b.get("company",""), b.get("summary",""))
     if not ak or not bk or ak != bk:
@@ -260,16 +246,16 @@ def same_incident(a, b):
     ac, bc = int(a.get("affected_count") or 0), int(b.get("affected_count") or 0)
     sim = title_similarity(a.get("summary",""), b.get("summary",""))
 
-    # 同じ対象・同じ件数はかなり強い
-    if ac > 0 and bc > 0 and ac == bc and dd <= 21:
+    # 同一企業 + 件数一致/ほぼ一致 = 強く同一視
+    if count_close(ac,bc) and dd <= 30:
         return True
 
-    # 一方だけ件数判明でも日付が近くタイトルも似る
-    if dd <= 5 and sim >= 0.38:
+    # 同一企業 + 近い日付 + 類似見出し
+    if dd <= 7 and sim >= 0.34:
         return True
 
-    # 件数不明同士は少し厳しめ
-    if ac == 0 and bc == 0 and dd <= 3 and sim >= 0.52:
+    # 件数不明同士は保守的
+    if ac == 0 and bc == 0 and dd <= 3 and sim >= 0.50:
         return True
 
     return False
@@ -291,19 +277,23 @@ def cleanup_existing_candidates(incidents):
             continue
 
         inferred = company_from_title(y["summary"])
-        current = y.get("company","")
-        if looks_generic_company(current) or len(current) > 32:
+        current = trim_entity_tail(strip_region_prefix(y.get("company","")))
+
+        if looks_generic_company(current) or len(current) > 28:
             y["company"] = inferred
         else:
-            # 地域タグや速報語だけは既存名からも除去
-            y["company"] = strip_region_prefix(current)
+            # 既存値に情報項目や件数がぶら下がっていれば必ず削る
+            y["company"] = trim_entity_tail(current)
 
         y["affected_count"] = max(
             int(y.get("affected_count") or 0),
             extract_count(y["summary"])
         )
         y["sources"] = union_sources(y.get("sources"), [])
-        y["article_count"] = max(int(y.get("article_count") or 0), len(y["sources"]) or 1)
+        y["article_count"] = max(
+            int(y.get("article_count") or 0),
+            len(y["sources"]) or 1
+        )
 
         if any(same_incident(y, v) for v in verified):
             removed_verified_dupes += 1
@@ -313,18 +303,18 @@ def cleanup_existing_candidates(incidents):
 
     merged = []
     merged_count = 0
-    cleaned.sort(key=lambda x: x.get("published",""))
+    cleaned.sort(key=lambda x:x.get("published",""))
 
     for x in cleaned:
         hit = None
-        for i, m in enumerate(merged):
-            if same_incident(x, m):
+        for i,m in enumerate(merged):
+            if same_incident(x,m):
                 hit = i
                 break
         if hit is None:
             merged.append(x)
         else:
-            merged[hit] = merge_two(merged[hit], x)
+            merged[hit] = merge_two(merged[hit],x)
             merged_count += 1
 
     stats = {
@@ -345,7 +335,7 @@ def main():
     existing_urls = {
         s.get("url")
         for x in incidents
-        for s in x.get("sources", [])
+        for s in x.get("sources",[])
         if s.get("url")
     }
     existing_ids = {x.get("id") for x in incidents if x.get("id")}
@@ -359,13 +349,13 @@ def main():
         try:
             root = ET.fromstring(fetch(rss_url(q)))
         except Exception as e:
-            print("feed error:", q, e)
+            print("feed error:",q,e)
             continue
 
         for item in root.findall("./channel/item"):
-            title = text(item, "title")
-            link = text(item, "link")
-            pub = text(item, "pubDate")
+            title = text(item,"title")
+            link = text(item,"link")
+            pub = text(item,"pubDate")
 
             if not title or not link or link in existing_urls or is_noise(title):
                 continue
@@ -375,29 +365,29 @@ def main():
             count = extract_count(summary)
 
             new_item = {
-                "id": "",
-                "published": today,
-                "company": company,
-                "service": "",
-                "affected_count": count,
-                "status": "candidate",
-                "cause": "報道自動検知",
-                "summary": summary,
-                "exposed_data": "要確認",
-                "sources": [{"name":"Googleニュース経由","url":link}],
-                "auto_detected": True,
-                "rss_pub_date": pub,
-                "article_count": 1,
+                "id":"",
+                "published":today,
+                "company":company,
+                "service":"",
+                "affected_count":count,
+                "status":"candidate",
+                "cause":"報道自動検知",
+                "summary":summary,
+                "exposed_data":"要確認",
+                "sources":[{"name":"Googleニュース経由","url":link}],
+                "auto_detected":True,
+                "rss_pub_date":pub,
+                "article_count":1,
             }
 
-            if any(same_incident(new_item, v) for v in verified):
+            if any(same_incident(new_item,v) for v in verified):
                 existing_urls.add(link)
                 continue
 
             merged = False
-            for i, old in enumerate(candidates):
-                if same_incident(new_item, old):
-                    candidates[i] = merge_two(old, new_item)
+            for i,old in enumerate(candidates):
+                if same_incident(new_item,old):
+                    candidates[i] = merge_two(old,new_item)
                     merged_new_articles += 1
                     merged = True
                     break
@@ -416,24 +406,24 @@ def main():
 
     non_candidates = [x for x in incidents if x.get("status") != "candidate"]
     incidents = non_candidates + candidates
-    incidents.sort(key=lambda x: x.get("published",""), reverse=True)
+    incidents.sort(key=lambda x:x.get("published",""), reverse=True)
 
     db["incidents"] = incidents
     db["last_updated"] = datetime.now(JST).strftime("%Y-%m-%d %H:%M JST")
     db["maintenance"] = {
-        "last_cleanup": db["last_updated"],
+        "last_cleanup":db["last_updated"],
         **cleanup_stats,
-        "new_candidates_added": added,
-        "new_articles_merged": merged_new_articles,
-        "cleanup_version": "1.3",
+        "new_candidates_added":added,
+        "new_articles_merged":merged_new_articles,
+        "cleanup_version":"1.4",
     }
 
     DATA.write_text(
-        json.dumps(db, ensure_ascii=False, indent=2) + "\n",
+        json.dumps(db,ensure_ascii=False,indent=2) + "\n",
         encoding="utf-8"
     )
 
-    print("cleanup:", json.dumps(cleanup_stats, ensure_ascii=False))
+    print("cleanup:",json.dumps(cleanup_stats,ensure_ascii=False))
     print(f"added {added} candidate(s), merged {merged_new_articles} new article(s)")
 
 if __name__ == "__main__":
