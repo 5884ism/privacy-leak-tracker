@@ -1,26 +1,6 @@
 {
-  "last_updated": "2026-10-18 08:34 JST",
+  "last_updated": "2026-10-18 08:40 JST",
   "incidents": [
-    {
-      "id": "2026-10-18-auto-20d3646de5",
-      "published": "2026-10-18",
-      "company": "ヤマト運輸 電話番号など約531万件",
-      "service": "",
-      "affected_count": 5310000,
-      "status": "candidate",
-      "cause": "報道自動検知",
-      "summary": "ヤマト運輸 電話番号など約531万件の情報流出 不正アクセス調査結果を発表",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "Googleニュース経由",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9naUpLU3ZWbnlSaldkU2EwMXpULWRlT2RzbjE0MHZCenppSE0wSVBEVUVBbklmemZHOVB6M2ZkMTdiUGpQcnVKY1Jlek5uYnI5MWdXSk1FVENaMm8?oc=5"
-        }
-      ],
-      "auto_detected": true,
-      "rss_pub_date": "Sat, 17 Oct 2026 19:00:48 GMT",
-      "article_count": 1
-    },
     {
       "id": "2026-10-18-auto-8e5bb0ae6f",
       "published": "2026-10-18",
@@ -108,7 +88,7 @@
     {
       "id": "2026-10-18-auto-a85383732d",
       "published": "2026-10-18",
-      "company": "出会いの場関連の個人情報 不正アクセス",
+      "company": "出会いの場関連の個人情報",
       "service": "",
       "affected_count": 0,
       "status": "candidate",
@@ -128,7 +108,7 @@
     {
       "id": "2026-10-18-auto-81cb7240a9",
       "published": "2026-10-18",
-      "company": "【速報】札幌など道内20自治体に影響 不正アクセス",
+      "company": "【速報】札幌など道内20自治体に影響",
       "service": "",
       "affected_count": 0,
       "status": "candidate",
@@ -163,26 +143,6 @@
       ],
       "auto_detected": true,
       "rss_pub_date": "Sat, 17 Oct 2026 10:25:00 GMT",
-      "article_count": 1
-    },
-    {
-      "id": "2026-10-18-auto-89d67b4183",
-      "published": "2026-10-18",
-      "company": "豊前市(地図)",
-      "service": "",
-      "affected_count": 0,
-      "status": "candidate",
-      "cause": "報道自動検知",
-      "summary": "豊前市(地図) - [福岡県]苅田町と豊前市でも個人情報の流出恐れ 不正アクセス",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "Googleニュース経由",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE42aWhQaWtDOG9lekpDN2J6U3B5bS1STk9RSG1tbDZFaG5LSzBuWHhaS3RkRURMS2NVeTlNWTZMRzIzSFN5enZxVUg4MnN3d24wSGFxekJMUQ?oc=5"
-        }
-      ],
-      "auto_detected": true,
-      "rss_pub_date": "Sat, 17 Oct 2026 21:20:13 GMT",
       "article_count": 1
     },
     {
@@ -283,26 +243,6 @@
       ],
       "auto_detected": true,
       "rss_pub_date": "Sat, 17 Oct 2026 06:26:50 GMT",
-      "article_count": 1
-    },
-    {
-      "id": "2026-10-18-auto-1e2bfac0d1",
-      "published": "2026-10-18",
-      "company": "筑豊地区の地図",
-      "service": "",
-      "affected_count": 0,
-      "status": "candidate",
-      "cause": "報道自動検知",
-      "summary": "筑豊地区の地図 - 防災配信会社への不正アクセス 情報流出、福岡・筑豊でも",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "Googleニュース経由",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5qeWVHeGhpVjhqa21LOTBHd2I2elNWYVcyRlRzbW9abW5qOEQ5aEZackhWTjRNNF9IdXVRS0FlOFBlMTBnbXRrQ2J5WlAzYlo0VXRpU0NvUQ?oc=5"
-        }
-      ],
-      "auto_detected": true,
-      "rss_pub_date": "Sat, 17 Oct 2026 02:04:32 GMT",
       "article_count": 1
     },
     {
@@ -526,6 +466,66 @@
       "article_count": 1
     },
     {
+      "id": "2026-10-18-auto-89d67b4183",
+      "published": "2026-10-18",
+      "company": "豊前市(地図) - [福岡県]苅田町と豊前市でも個人情報",
+      "service": "",
+      "affected_count": 0,
+      "status": "candidate",
+      "cause": "報道自動検知",
+      "summary": "豊前市(地図) - [福岡県]苅田町と豊前市でも個人情報の流出恐れ 不正アクセス - 写真・画像(2/2)",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE42aWhQaWtDOG9lekpDN2J6U3B5bS1STk9RSG1tbDZFaG5LSzBuWHhaS3RkRURMS2NVeTlNWTZMRzIzSFN5enZxVUg4MnN3d24wSGFxekJMUQ?oc=5"
+        }
+      ],
+      "auto_detected": true,
+      "rss_pub_date": "Sat, 17 Oct 2026 21:20:13 GMT",
+      "article_count": 1
+    },
+    {
+      "id": "2026-10-18-auto-1e2bfac0d1",
+      "published": "2026-10-18",
+      "company": "筑豊地区の地図 - 防災配信会社へ",
+      "service": "",
+      "affected_count": 0,
+      "status": "candidate",
+      "cause": "報道自動検知",
+      "summary": "筑豊地区の地図 - 防災配信会社への不正アクセス 情報流出、福岡・筑豊でも - 写真・画像(1/1)",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5qeWVHeGhpVjhqa21LOTBHd2I2elNWYVcyRlRzbW9abW5qOEQ5aEZackhWTjRNNF9IdXVRS0FlOFBlMTBnbXRrQ2J5WlAzYlo0VXRpU0NvUQ?oc=5"
+        }
+      ],
+      "auto_detected": true,
+      "rss_pub_date": "Sat, 17 Oct 2026 02:04:32 GMT",
+      "article_count": 1
+    },
+    {
+      "id": "2026-10-18-auto-c4e814d8a9",
+      "published": "2026-10-18",
+      "company": "「焼肉きんぐ」やGMOグループ会社も...相次ぐ「不正アクセス」大阪公立大学では",
+      "service": "",
+      "affected_count": 0,
+      "status": "candidate",
+      "cause": "報道自動検知",
+      "summary": "「焼肉きんぐ」やGMOグループ会社も...相次ぐ「不正アクセス」大阪公立大学では大規模なシステム障害 8日まですべての授業が休講 Premiership Rugby (shRRWHSOfZ)",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTkZQUzh6RWU0S21BQ2dzN1BUWThvdFFaUEdqZ2d4S0hsQURXenpoX3JwNmxnSUphTXprclQ4dmdmUm9pWGZEdWdJNGRvRlZyVklIb3pUQWR1RHY3bFRlbHIyVnF3c1lVejZyTzZqY1hXR2pPUEF5bzVZNlJzbFhVZjB4ODBVZnc?oc=5"
+        }
+      ],
+      "auto_detected": true,
+      "rss_pub_date": "Sat, 17 Oct 2026 10:50:10 GMT",
+      "article_count": 1
+    },
+    {
       "id": "2026-10-17-auto-0cb8b660db",
       "published": "2026-10-17",
       "company": "【更新中】スカイチケット“不正アクセス”",
@@ -736,7 +736,7 @@
     {
       "id": "2026-10-17-auto-456fd8715d",
       "published": "2026-10-17",
-      "company": "IT企業への不正アクセス 諫早市の道の駅 個人情報",
+      "company": "IT企業への不正アクセス 諫早市の道の駅",
       "service": "",
       "affected_count": 0,
       "status": "candidate",
@@ -768,7 +768,7 @@
     {
       "id": "2026-10-17-auto-6b5582eb2e",
       "published": "2026-10-17",
-      "company": "岡山県警職員4千人分の情報流出か アルカディア不正アクセス問題",
+      "company": "岡山県警職員4千人分",
       "service": "",
       "affected_count": 0,
       "status": "candidate",
@@ -963,11 +963,23 @@
         {
           "name": "Googleニュース経由",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRVVzWks3bkV6Y0xIbTlHV3JSRUR3M3lLZVpYOGZoeHlRZ0tSMXRaS18zWmpPWDR6VHM2a29yZW9fSXQ4NmZKN0hsNnBOd0JjUlJGRm9DOFoxTmpiT1VyTlhrQy1fVFJKS0lKLXowalpfakFfSjl4MnRwUFdoaEstSE1uRUl4RHk1LXQ5T2N3?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBIRnN2XzRkZ2JTV1VrSHN5MFZVNFZmYzhpcVU5VkVqNVNGNFNQeDZzMlpudDVyYXRGWVpYZGhhbjJSM3d3dGxlN0txWjFQTHFuVUlFVTlvTVBoZ2M1WGdIUmJaOWVxNDhjUS1fazBSVE9GeUk?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE52WG1DSzlNSi1fNzZ2eFIzQS03ZmVmYzNxT2VEdV9UaXd3RWl0S2pQLTFwRU9ybzBESjE3OHZZNmFHZjl5YjRHdDJ0bFF4bnkxcmx5U193?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9naUpLU3ZWbnlSaldkU2EwMXpULWRlT2RzbjE0MHZCenppSE0wSVBEVUVBbklmemZHOVB6M2ZkMTdiUGpQcnVKY1Jlek5uYnI5MWdXSk1FVENaMm8?oc=5"
         }
       ],
       "auto_detected": true,
       "rss_pub_date": "Fri, 16 Oct 2026 11:09:00 GMT",
-      "article_count": 9
+      "article_count": 12
     },
     {
       "id": "2026-10-17-auto-d62092d61f",
@@ -1012,7 +1024,7 @@
     {
       "id": "2026-10-17-auto-feef165e8b",
       "published": "2026-10-17",
-      "company": "ファンケルグループ 不正アクセス",
+      "company": "ファンケルグループ",
       "service": "",
       "affected_count": 830000,
       "status": "candidate",
@@ -1180,7 +1192,7 @@
     {
       "id": "2026-10-17-auto-3e6fcd62a4",
       "published": "2026-10-17",
-      "company": "日経新聞にまた不正アクセス 個人情報約183万件",
+      "company": "日経新聞にまた不正アクセス",
       "service": "",
       "affected_count": 1830000,
       "status": "candidate",
@@ -1260,7 +1272,7 @@
     {
       "id": "2026-10-17-auto-5e465ed08f",
       "published": "2026-10-17",
-      "company": "ECサイトシステム運営会社の情報漏えい 2335万件を確認",
+      "company": "ECサイトシステム運営会社の情報漏えい",
       "service": "",
       "affected_count": 23350000,
       "status": "candidate",
@@ -1404,7 +1416,7 @@
     {
       "id": "2026-10-17-auto-d9842c206b",
       "published": "2026-10-17",
-      "company": "防災配信会社への不正アクセス 情報流出",
+      "company": "防災配信会社への不正アクセス",
       "service": "",
       "affected_count": 0,
       "status": "candidate",
@@ -1508,7 +1520,7 @@
     {
       "id": "2026-10-17-auto-09a2ce2d1a",
       "published": "2026-10-17",
-      "company": "Studio 不正アクセスによるサイバー攻撃のまとめ-LUUP2万1,368件",
+      "company": "Studio",
       "service": "",
       "affected_count": 21368,
       "status": "candidate",
@@ -1820,7 +1832,7 @@
     {
       "id": "2026-10-17-auto-ae181d5a4c",
       "published": "2026-10-17",
-      "company": "阿南市採用試験システム提供会社に不正アクセス 情報漏えいか",
+      "company": "阿南市採用試験システム提供会社に不正アクセス",
       "service": "",
       "affected_count": 0,
       "status": "candidate",
@@ -2086,30 +2098,6 @@
       "article_count": 1
     },
     {
-      "id": "2026-10-17-auto-d614203a84",
-      "published": "2026-10-17",
-      "company": "ヤマト運輸",
-      "service": "",
-      "affected_count": 5260000,
-      "status": "candidate",
-      "cause": "報道自動検知",
-      "summary": "ヤマト運輸、利用者情報約526万件の持ち出し判明 「クロネコ代金後払い」不正アクセスの第4報",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "Googleニュース経由",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBIRnN2XzRkZ2JTV1VrSHN5MFZVNFZmYzhpcVU5VkVqNVNGNFNQeDZzMlpudDVyYXRGWVpYZGhhbjJSM3d3dGxlN0txWjFQTHFuVUlFVTlvTVBoZ2M1WGdIUmJaOWVxNDhjUS1fazBSVE9GeUk?oc=5"
-        },
-        {
-          "name": "Googleニュース経由",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE52WG1DSzlNSi1fNzZ2eFIzQS03ZmVmYzNxT2VEdV9UaXd3RWl0S2pQLTFwRU9ybzBESjE3OHZZNmFHZjl5YjRHdDJ0bFF4bnkxcmx5U193?oc=5"
-        }
-      ],
-      "auto_detected": true,
-      "rss_pub_date": "Sat, 17 Oct 2026 02:50:46 GMT",
-      "article_count": 2
-    },
-    {
       "id": "2026-10-17-auto-138573b648",
       "published": "2026-10-17",
       "company": "アルカディアへの不正アクセス影響拡大 五所川原市やつ",
@@ -2232,7 +2220,7 @@
     {
       "id": "2026-10-17-auto-0b955682d1",
       "published": "2026-10-17",
-      "company": "日本郵便偽メール52万通 不正アクセス",
+      "company": "日本郵便偽メール52万通",
       "service": "",
       "affected_count": 520000,
       "status": "candidate",
@@ -2252,7 +2240,7 @@
     {
       "id": "2026-10-17-auto-9363716838",
       "published": "2026-10-17",
-      "company": "顧客管理アプリ運営のトイポ 不正アクセス",
+      "company": "顧客管理アプリ運営のトイポ",
       "service": "",
       "affected_count": 690007,
       "status": "candidate",
@@ -2440,7 +2428,7 @@
     {
       "id": "2026-10-17-auto-56739fc038",
       "published": "2026-10-17",
-      "company": "個人情報ヤマト 531万件流出",
+      "company": "個人情報ヤマト",
       "service": "",
       "affected_count": 5310000,
       "status": "candidate",
@@ -2793,14 +2781,14 @@
     }
   ],
   "maintenance": {
-    "last_cleanup": "2026-10-18 08:34 JST",
-    "candidate_before": 121,
-    "removed_noise": 0,
+    "last_cleanup": "2026-10-18 08:40 JST",
+    "candidate_before": 120,
+    "removed_noise": 2,
     "removed_verified_duplicates": 0,
-    "merged_candidate_records": 1,
-    "candidate_after": 120,
-    "new_candidates_added": 0,
+    "merged_candidate_records": 2,
+    "candidate_after": 116,
+    "new_candidates_added": 3,
     "new_articles_merged": 0,
-    "cleanup_version": "1.3"
+    "cleanup_version": "1.4"
   }
 }
