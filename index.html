@@ -51,9 +51,16 @@
       </div>
     </section>
 
+    <nav class="view-tabs" aria-label="表示区分">
+      <button type="button" class="view-tab active" data-view="verified">確認済み・可能性あり <span id="tabVerifiedCount">0</span></button>
+      <button type="button" class="view-tab" data-view="candidate">要確認候補 <span id="tabCandidateCount">0</span></button>
+      <button type="button" class="view-tab" data-view="all">すべて <span id="tabAllCount">0</span></button>
+    </nav>
+    <p id="viewNotice" class="view-notice">公式発表・報道で内容を整理した案件を表示しています。</p>
+
     <section class="stats" aria-label="統計">
       <article><span>表示件数</span><strong id="statCases">-</strong></article>
-      <article><span>確認済み</span><strong id="statConfirmed">-</strong></article>
+      <article><span>漏えい確認</span><strong id="statConfirmed">-</strong></article>
       <article><span>最大規模</span><strong id="statLargest">-</strong></article>
       <article><span>期間</span><strong id="statRange">-</strong></article>
     </section>
@@ -71,8 +78,9 @@
 
     <section class="methodology panel">
       <h2>更新ルール</h2>
-      <p>毎日1回、主要ニュース検索・指定RSSから候補記事を取得し、重複を除去して <code>data/incidents.json</code> に反映します。自動取得した案件は <strong>「報道検知・要確認」</strong> として表示できます。公式発表などで確認後、<code>status</code> を <code>confirmed</code> または <code>possible</code> に変更してください。</p>
-      <p>GitHub ActionsでJSON更新→GitHubへ自動コミット→Cloudflare Pages / GitHub Pagesが自動公開、という構成を想定しています。</p>
+      <p>毎日1回、主要ニュース検索・指定RSSから候補記事を取得し、類似記事を同一案件にまとめて <code>data/incidents.json</code> に反映します。自動取得した案件は <strong>「要確認候補」</strong> に分離し、通常表示には含めません。</p>
+      <p>公式発表などで確認後、<code>status</code> を <code>confirmed</code>（漏えい確認）または <code>possible</code>（漏えいの可能性）に変更すると通常一覧へ表示されます。</p>
+      <p>GitHub ActionsでJSON更新 → GitHubへ自動コミット → Cloudflare Pagesが自動公開する構成です。</p>
     </section>
   </main>
 
