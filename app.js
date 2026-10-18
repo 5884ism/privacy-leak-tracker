@@ -1,4 +1,4 @@
-const ids=['q','month','status','sort','cards','empty','lastUpdated','statCases','statConfirmed','statLargest','statRange','tabVerifiedCount','tabCandidateCount','tabAllCount','viewNotice'];
+const ids=['q','month','status','sort','cards','empty','lastUpdated','statCases','statConfirmed','statTodayReviewed','statLargest','statRange','tabVerifiedCount','tabCandidateCount','tabAllCount','viewNotice'];
 const els=Object.fromEntries(ids.map(id=>[id,document.getElementById(id)]));
 let data=[], currentView='verified';
 
@@ -43,6 +43,15 @@ function rowsForView(){
   return data.slice();
 }
 
+
+function todayJst(){
+  const parts=new Intl.DateTimeFormat('en-CA',{
+    timeZone:'Asia/Tokyo',year:'numeric',month:'2-digit',day:'2-digit'
+  }).formatToParts(new Date());
+  const get=t=>parts.find(p=>p.type===t)?.value||'';
+  return `${get('year')}-${get('month')}-${get('day')}`;
+}
+
 function render(){
   els.tabVerifiedCount.textContent=data.filter(x=>x.status==='confirmed'||x.status==='possible').length;
   els.tabCandidateCount.textContent=data.filter(x=>x.status==='candidate').length;
@@ -73,6 +82,8 @@ function render(){
   els.empty.hidden=rows.length>0;
   els.statCases.textContent=rows.length;
   els.statConfirmed.textContent=rows.filter(x=>x.status==='confirmed').length;
+  const today=todayJst();
+  els.statTodayReviewed.textContent=data.filter(x=>String(x.reviewed_at||'').startsWith(today)).length;
 
   const largest=rows.reduce((m,x)=>(x.affected_count||0)>(m.affected_count||0)?x:m,{affected_count:0});
   els.statLargest.textContent=largest.affected_count?fmt(largest.affected_count):'-';
