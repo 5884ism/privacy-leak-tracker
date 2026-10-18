@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-18 08:54 JST",
+  "last_updated": "2026-10-18 09:08 JST",
   "incidents": [
     {
       "id": "2026-10-18-auto-8e5bb0ae6f",
@@ -1005,11 +1005,15 @@
       "company": "ヤマト運輸",
       "service": "",
       "affected_count": 5310000,
-      "status": "candidate",
+      "status": "confirmed",
       "cause": "報道自動検知",
       "summary": "ヤマト運輸、個人情報「531万件」流出 商品明細も漏えい、クレカやパスワードの流出はなし (ITmedia ビジネスオンライン)",
       "exposed_data": "要確認",
       "sources": [
+        {
+          "name": "ヤマト運輸公式",
+          "url": "https://www.yamato-hd.co.jp/important/info_260929_1.html"
+        },
         {
           "name": "Googleニュース経由",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE05S1VPV1g3ek1IZ3QwM0Y1blZSYnRkMHNlM3BHTVdldl83bks2T1lvMkNvYl92M1d2VlF6c1JxMEF2VTFuTVhmWDVodGFGNlMzejAxUjlxNmI2TDBhNUVVdzY0aw?oc=5"
@@ -1062,8 +1066,8 @@
       "auto_detected": true,
       "rss_pub_date": "Fri, 16 Oct 2026 11:09:00 GMT",
       "article_count": 12,
-      "priority": "A",
-      "priority_score": 12
+      "reviewed_at": "2026-10-18 09:08 JST",
+      "review_note": "公式発表確認済み"
     },
     {
       "id": "2026-10-17-auto-d62092d61f",
