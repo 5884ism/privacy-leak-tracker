@@ -52,18 +52,31 @@
     </section>
 
     <details class="panel my-services-panel" id="myServicesPanel">
-      <summary>自分の利用サービスを登録して対象案件をチェック</summary>
-      <div class="my-services-body">
+      <summary>自分の利用サービスを選んで対象案件をチェック</summary>
+      <div class="service-picker-head">
         <div>
-          <label for="myServices">利用サービス・企業名</label>
-          <textarea id="myServices" rows="3" placeholder="例：タイムズカー、ソースネクスト、ローソン、えきねっと&#10;カンマまたは改行で区切って入力"></textarea>
-          <p class="privacy-note">この入力内容はこのブラウザ内だけに保存され、GitHubやサーバーには送信しません。</p>
+          <label for="myServiceSearch">企業・サービスを絞り込み</label>
+          <input id="myServiceSearch" type="search" placeholder="例：ローソン、ソースネクスト" />
         </div>
-        <div class="my-services-actions">
-          <button type="button" id="saveMyServices">保存して照合</button>
-          <button type="button" id="clearMyServices" class="secondary">登録をクリア</button>
-        </div>
+        <div class="selected-count">選択中 <strong id="selectedServiceCount">0</strong>件</div>
       </div>
+
+      <div class="service-picker-groups">
+        <section>
+          <h3>確認済み・可能性ありの一覧から選択</h3>
+          <div id="servicePickerVerified" class="service-picker-list"></div>
+        </section>
+        <section>
+          <h3>要確認候補の一覧から選択</h3>
+          <div id="servicePickerCandidate" class="service-picker-list"></div>
+        </section>
+      </div>
+
+      <div class="my-services-actions">
+        <button type="button" id="saveMyServices">選択を保存して照合</button>
+        <button type="button" id="clearMyServices" class="secondary">選択をすべて解除</button>
+      </div>
+      <p class="privacy-note">選択内容はこのブラウザ内だけに保存され、GitHubやサーバーには送信しません。</p>
     </details>
 
     <nav class="view-tabs" aria-label="表示区分">
@@ -96,8 +109,7 @@
     <section class="methodology panel">
       <h2>更新ルール</h2>
       <p>毎日1回、主要ニュース検索・指定RSSから候補記事を取得し、類似記事を同一案件にまとめて <code>data/incidents.json</code> に反映します。自動取得した案件は <strong>「要確認候補」</strong> に分離し、通常表示には含めません。</p>
-      <p>「自分に関連」は、ブラウザ内に保存した利用サービス名と企業名・サービス名・概要を照合します。表示はあくまで<strong>利用サービスとの関連可能性</strong>であり、実際に漏えい対象者であることを意味しません。</p>
-      <p>公式発表などで確認後、<code>status</code> を <code>confirmed</code>（漏えい確認）または <code>possible</code>（漏えいの可能性）に変更すると通常一覧へ表示されます。</p>
+      <p>「自分に関連」は、選択した企業・サービスと案件の企業名・サービス名・概要を照合します。表示はあくまで<strong>関連可能性</strong>であり、実際に漏えい対象者であることを意味しません。</p>
     </section>
   </main>
 
