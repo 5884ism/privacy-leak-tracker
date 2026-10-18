@@ -98,3 +98,22 @@ a{color:var(--accent)} .wrap{width:min(1180px,calc(100% - 32px));margin:auto}
 .card-related{box-shadow:inset 4px 0 0 #2447d8}
 .relation-note{background:#f7f9ff;border:1px solid #dbe3ff;border-radius:10px;padding:9px 11px;font-size:13px}
 @media(max-width:800px){.my-services-body{grid-template-columns:1fr}.my-services-actions{align-items:flex-start}}
+
+/* v2.1 list-based personal service picker */
+.service-picker-head{display:grid;grid-template-columns:1fr auto;gap:16px;align-items:end;margin-top:14px}
+.service-picker-head label{display:block;font-size:12px;font-weight:700;color:var(--muted);margin-bottom:6px}
+.service-picker-head input{width:100%;height:40px;border:1px solid var(--line);border-radius:10px;padding:0 12px;font:inherit}
+.selected-count{font-size:13px;color:var(--muted);padding-bottom:9px}
+.service-picker-groups{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:16px}
+.service-picker-groups section{border:1px solid var(--line);border-radius:12px;padding:12px;background:#fafbfe}
+.service-picker-groups h3{font-size:14px;margin:0 0 10px}
+.service-picker-list{display:grid;gap:6px;max-height:300px;overflow:auto;padding-right:4px}
+.service-choice{display:grid;grid-template-columns:auto 1fr auto;gap:9px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:9px;padding:8px 9px;cursor:pointer}
+.service-choice:hover{border-color:#bfc9ff;background:#f8faff}
+.service-choice input{width:17px;height:17px}
+.service-choice-name{font-size:13px;font-weight:650}
+.service-choice-count{font-size:11px;color:var(--muted);background:#eef1f6;border-radius:999px;padding:2px 7px}
+.picker-empty{color:var(--muted);font-size:12px}
+@media(max-width:800px){
+  .service-picker-head,.service-picker-groups{grid-template-columns:1fr}
+}
