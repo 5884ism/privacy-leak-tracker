@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-18 09:08 JST",
+  "last_updated": "2026-10-18 09:22 JST",
   "incidents": [
     {
       "id": "2026-10-18-auto-8e5bb0ae6f",
@@ -625,11 +625,15 @@
       "company": "Eストアー",
       "service": "",
       "affected_count": 23356000,
-      "status": "candidate",
+      "status": "confirmed",
       "cause": "報道自動検知",
       "summary": "【最大2335万人の情報漏えい】Eストアー、「ショップサーブ」不正アクセスの最終報告で明らかに (日本ネット経済新聞)",
       "exposed_data": "要確認",
       "sources": [
+        {
+          "name": "公式発表",
+          "url": "https://estore.jp/press/20261016/"
+        },
         {
           "name": "Googleニュース経由",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBSWWZmRmdwMkRkRV9lM2N5bktuTTJjTHNPR3VaS25FNXoyV2VCRmlDQm9wdHp5M1A0b0xyd2lZOWhibFI5amdzbkd0SWNYM3h5MkhzODF2MXppMEoxTGlIZW00NTF1V2p5ZVNGSmpmTFpQR2NCMWgzZ0dJQWdVVms?oc=5"
@@ -650,8 +654,7 @@
       "auto_detected": true,
       "rss_pub_date": "Sat, 17 Oct 2026 03:10:00 GMT",
       "article_count": 4,
-      "priority": "A",
-      "priority_score": 10
+      "reviewed_at": "2026-10-18 09:22 JST"
     },
     {
       "id": "2026-10-17-auto-90f349add5",
