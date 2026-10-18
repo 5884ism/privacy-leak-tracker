@@ -74,3 +74,8 @@ a{color:var(--accent)} .wrap{width:min(1180px,calc(100% - 32px));margin:auto}
   line-height:1.7;
 }
 .review-help a{font-weight:700}
+
+/* v1.9 daily review counter */
+.stats.stats-five{grid-template-columns:repeat(5,1fr)}
+@media(max-width:1000px){.stats.stats-five{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:800px){.stats.stats-five{grid-template-columns:1fr 1fr}}
