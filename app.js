@@ -1,4 +1,4 @@
-const ids=['q','month','status','sort','cards','empty','lastUpdated','statCases','statConfirmed','statTodayReviewed','statLargest','statRange','tabVerifiedCount','tabMineCount','tabCandidateCount','tabAllCount','viewNotice','myServiceSearch','servicePickerVerified','servicePickerCandidate','selectedServiceCount','saveMyServices','clearMyServices'];
+const ids=['q','month','status','sort','cards','empty','lastUpdated','statCases','statConfirmed','statTodayReviewed','statLargest','statRange','tabVerifiedCount','tabMineCount','tabCandidateCount','tabAllCount','viewNotice','myServiceSearch','servicePickerVerified','selectedServiceCount','saveMyServices','clearMyServices'];
 const els=Object.fromEntries(ids.map(id=>[id,document.getElementById(id)]));
 let data=[], currentView='verified', selectedServices=[];
 
@@ -51,31 +51,36 @@ function updateSelectedCount(){
 }
 function buildServiceChoices(){
   const map=new Map();
+
   for(const x of data){
+    if(!(x.status==='confirmed'||x.status==='possible')) continue;
+
     const company=(x.company||'').trim();
     const service=(x.service||'').trim();
     if(!company) continue;
+
     const key=serviceKey(company,service);
-    const verified=x.status==='confirmed'||x.status==='possible';
     if(!map.has(key)){
-      map.set(key,{key,company,service,label:serviceLabel(company,service),verified,count:1});
-    }else{
-      const item=map.get(key);
-      item.count++;
-      if(verified) item.verified=true;
+      map.set(key,{
+        key,
+        company,
+        service,
+        label:serviceLabel(company,service)
+      });
     }
   }
 
   const selectedKeys=new Set(selectedServices.map(x=>x.key));
   const filter=norm(els.myServiceSearch?.value||'');
+
   const items=[...map.values()]
     .filter(x=>!filter||norm(x.label).includes(filter))
     .sort((a,b)=>a.label.localeCompare(b.label,'ja'));
 
-  const html=group=>{
-    const rows=items.filter(x=>x.verified===group);
-    if(!rows.length) return '<p class="picker-empty">該当する企業・サービスはありません。</p>';
-    return rows.map(x=>`
+  if(!items.length){
+    els.servicePickerVerified.innerHTML='<p class="picker-empty">該当する企業・サービスはありません。</p>';
+  }else{
+    els.servicePickerVerified.innerHTML=items.map(x=>`
       <label class="service-choice">
         <input type="checkbox"
           value="${escapeHtml(x.key)}"
@@ -84,12 +89,9 @@ function buildServiceChoices(){
           data-label="${escapeHtml(x.label)}"
           ${selectedKeys.has(x.key)?'checked':''}>
         <span class="service-choice-name">${escapeHtml(x.label)}</span>
-        <span class="service-choice-count">${x.count}件</span>
       </label>`).join('');
-  };
+  }
 
-  els.servicePickerVerified.innerHTML=html(true);
-  els.servicePickerCandidate.innerHTML=html(false);
   document.querySelectorAll('.service-choice input').forEach(x=>x.addEventListener('change',updateSelectedCount));
   updateSelectedCount();
 }
