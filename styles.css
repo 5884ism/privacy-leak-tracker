@@ -79,3 +79,22 @@ a{color:var(--accent)} .wrap{width:min(1180px,calc(100% - 32px));margin:auto}
 .stats.stats-five{grid-template-columns:repeat(5,1fr)}
 @media(max-width:1000px){.stats.stats-five{grid-template-columns:repeat(3,1fr)}}
 @media(max-width:800px){.stats.stats-five{grid-template-columns:1fr 1fr}}
+
+/* v2.0 personal relevance checker */
+.my-services-panel{margin-top:18px}
+.my-services-panel summary{cursor:pointer;font-weight:800;color:var(--accent)}
+.my-services-body{display:grid;grid-template-columns:1fr auto;gap:16px;align-items:end;margin-top:14px}
+.my-services-body label{display:block;font-size:12px;font-weight:700;color:var(--muted);margin-bottom:6px}
+.my-services-body textarea{width:100%;border:1px solid var(--line);border-radius:10px;padding:10px 12px;font:inherit;resize:vertical;background:#fff}
+.privacy-note{font-size:12px;color:var(--muted);margin:6px 0 0}
+.my-services-actions{display:flex;gap:8px;flex-wrap:wrap}
+.my-services-actions button{border:0;border-radius:9px;padding:9px 13px;background:var(--accent);color:#fff;font:inherit;font-size:13px;font-weight:700;cursor:pointer}
+.my-services-actions button.secondary{background:#eef1f6;color:#45516a}
+.view-tab.my-tab{border-color:#bfc9ff}
+.badge.relation{font-weight:800}
+.badge.relation-3{background:#e8f5e9;color:#067647;border:1px solid #a6e3bd}
+.badge.relation-2{background:#fff4e5;color:#b54708;border:1px solid #fedf89}
+.badge.relation-1{background:#eef4ff;color:#3538cd;border:1px solid #c7d7fe}
+.card-related{box-shadow:inset 4px 0 0 #2447d8}
+.relation-note{background:#f7f9ff;border:1px solid #dbe3ff;border-radius:10px;padding:9px 11px;font-size:13px}
+@media(max-width:800px){.my-services-body{grid-template-columns:1fr}.my-services-actions{align-items:flex-start}}
