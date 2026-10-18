@@ -1,8 +1,8 @@
-const ids=['q','month','status','sort','cards','empty','lastUpdated','statCases','statConfirmed','statTodayReviewed','statLargest','statRange','tabVerifiedCount','tabMineCount','tabCandidateCount','tabAllCount','viewNotice','myServices','saveMyServices','clearMyServices'];
+const ids=['q','month','status','sort','cards','empty','lastUpdated','statCases','statConfirmed','statTodayReviewed','statLargest','statRange','tabVerifiedCount','tabMineCount','tabCandidateCount','tabAllCount','viewNotice','myServiceSearch','servicePickerVerified','servicePickerCandidate','selectedServiceCount','saveMyServices','clearMyServices'];
 const els=Object.fromEntries(ids.map(id=>[id,document.getElementById(id)]));
-let data=[], currentView='verified', myKeywords=[];
+let data=[], currentView='verified', selectedServices=[];
 
-const STORAGE_KEY='privacyLeakTracker.myServices.v1';
+const STORAGE_KEY='privacyLeakTracker.selectedServices.v2';
 const statusLabel={confirmed:'漏えい確認',possible:'漏えいの可能性',candidate:'報道検知・要確認'};
 const priorityLabel={A:'優先確認 A',B:'優先確認 B',C:'優先確認 C'};
 const fmt=n=>Number.isFinite(Number(n))&&Number(n)>0?new Intl.NumberFormat('ja-JP').format(Number(n))+'件':'非公表/調査中';
@@ -10,61 +10,116 @@ const fmt=n=>Number.isFinite(Number(n))&&Number(n)>0?new Intl.NumberFormat('ja-J
 function norm(v=''){
   return String(v).normalize('NFKC').toLowerCase().replace(/\s+/g,' ').trim();
 }
-function parseKeywords(v=''){
-  return [...new Set(String(v).split(/[\n,、]+/).map(norm).filter(x=>x.length>=2))];
+function serviceKey(company='',service=''){
+  return `${norm(company)}|||${norm(service)}`;
 }
-function loadMyServices(){
+function serviceLabel(company='',service=''){
+  return service ? `${company} / ${service}` : company;
+}
+function loadSelections(){
   try{
-    const saved=localStorage.getItem(STORAGE_KEY)||'';
-    els.myServices.value=saved;
-    myKeywords=parseKeywords(saved);
-  }catch{ myKeywords=[]; }
+    const v=JSON.parse(localStorage.getItem(STORAGE_KEY)||'[]');
+    selectedServices=Array.isArray(v)?v:[];
+  }catch{ selectedServices=[]; }
 }
-function saveMyServices(){
-  const value=els.myServices.value.trim();
-  try{ localStorage.setItem(STORAGE_KEY,value); }catch{}
-  myKeywords=parseKeywords(value);
+function saveSelections(){
+  const checked=[...document.querySelectorAll('.service-choice input:checked')];
+  selectedServices=checked.map(input=>({
+    key:input.value,
+    company:input.dataset.company||'',
+    service:input.dataset.service||'',
+    label:input.dataset.label||''
+  }));
+  try{localStorage.setItem(STORAGE_KEY,JSON.stringify(selectedServices));}catch{}
+  updateSelectedCount();
   render();
 }
-function clearMyServices(){
-  els.myServices.value='';
-  try{ localStorage.removeItem(STORAGE_KEY); }catch{}
-  myKeywords=[];
+function clearSelections(){
+  selectedServices=[];
+  try{localStorage.removeItem(STORAGE_KEY);}catch{}
+  document.querySelectorAll('.service-choice input').forEach(x=>x.checked=false);
+  updateSelectedCount();
   if(currentView==='mine'){
     currentView='verified';
     document.querySelectorAll('.view-tab').forEach(b=>b.classList.toggle('active',b.dataset.view==='verified'));
   }
   render();
 }
+function updateSelectedCount(){
+  const n=document.querySelectorAll('.service-choice input:checked').length;
+  els.selectedServiceCount.textContent=n;
+}
+function buildServiceChoices(){
+  const map=new Map();
+  for(const x of data){
+    const company=(x.company||'').trim();
+    const service=(x.service||'').trim();
+    if(!company) continue;
+    const key=serviceKey(company,service);
+    const verified=x.status==='confirmed'||x.status==='possible';
+    if(!map.has(key)){
+      map.set(key,{key,company,service,label:serviceLabel(company,service),verified,count:1});
+    }else{
+      const item=map.get(key);
+      item.count++;
+      if(verified) item.verified=true;
+    }
+  }
+
+  const selectedKeys=new Set(selectedServices.map(x=>x.key));
+  const filter=norm(els.myServiceSearch?.value||'');
+  const items=[...map.values()]
+    .filter(x=>!filter||norm(x.label).includes(filter))
+    .sort((a,b)=>a.label.localeCompare(b.label,'ja'));
+
+  const html=group=>{
+    const rows=items.filter(x=>x.verified===group);
+    if(!rows.length) return '<p class="picker-empty">該当する企業・サービスはありません。</p>';
+    return rows.map(x=>`
+      <label class="service-choice">
+        <input type="checkbox"
+          value="${escapeHtml(x.key)}"
+          data-company="${escapeHtml(x.company)}"
+          data-service="${escapeHtml(x.service)}"
+          data-label="${escapeHtml(x.label)}"
+          ${selectedKeys.has(x.key)?'checked':''}>
+        <span class="service-choice-name">${escapeHtml(x.label)}</span>
+        <span class="service-choice-count">${x.count}件</span>
+      </label>`).join('');
+  };
+
+  els.servicePickerVerified.innerHTML=html(true);
+  els.servicePickerCandidate.innerHTML=html(false);
+  document.querySelectorAll('.service-choice input').forEach(x=>x.addEventListener('change',updateSelectedCount));
+  updateSelectedCount();
+}
 
 function relationFor(x){
-  if(!myKeywords.length) return null;
-  const company=norm(x.company);
-  const service=norm(x.service);
-  const summary=norm(x.summary);
-  const exposed=norm(x.exposed_data);
-
+  if(!selectedServices.length) return null;
+  const xc=norm(x.company), xs=norm(x.service), summary=norm(x.summary);
   let best=null;
-  for(const k of myKeywords){
-    let level=0, reason='';
-    if(company===k || service===k){
-      level=3; reason='企業・サービス名が一致';
-    }else if(company.includes(k) || service.includes(k) || k.includes(company) && company.length>=3){
-      level=3; reason='企業・サービス名に一致';
-    }else if(summary.includes(k)){
-      level=2; reason='概要に利用サービス名が含まれる';
-    }else if(exposed.includes(k)){
-      level=1; reason='関連情報にキーワードが含まれる';
+
+  for(const sel of selectedServices){
+    const sc=norm(sel.company), ss=norm(sel.service);
+    let level=0,reason='';
+
+    if((sc&&xc===sc)||(ss&&xs===ss)){
+      level=3; reason='選択した企業・サービス名が一致';
+    }else if((sc&&xc.includes(sc))||(ss&&xs.includes(ss))){
+      level=3; reason='選択した企業・サービス名に一致';
+    }else if((sc&&summary.includes(sc))||(ss&&summary.includes(ss))){
+      level=2; reason='案件概要に選択した企業・サービス名が含まれる';
     }
-    if(level && (!best || level>best.level)) best={level,keyword:k,reason};
+
+    if(level&&(!best||level>best.level)){
+      best={level,label:level>=3?'関連度 高':'関連度 中',reason,selected:sel.label};
+    }
   }
-  if(!best) return null;
-  best.label=best.level>=3?'関連度 高':best.level===2?'関連度 中':'関連度 低';
   return best;
 }
 
 async function init(){
-  loadMyServices();
+  loadSelections();
   const res=await fetch('data/incidents.json',{cache:'no-store'});
   const json=await res.json();
   data=json.incidents||[];
@@ -74,8 +129,9 @@ async function init(){
   months.forEach(m=>els.month.insertAdjacentHTML('beforeend',`<option value="${m}">${m.replace('-','年')}月</option>`));
 
   ['q','month','status','sort'].forEach(k=>els[k].addEventListener(k==='q'?'input':'change',render));
-  els.saveMyServices.addEventListener('click',saveMyServices);
-  els.clearMyServices.addEventListener('click',clearMyServices);
+  els.myServiceSearch.addEventListener('input',buildServiceChoices);
+  els.saveMyServices.addEventListener('click',saveSelections);
+  els.clearMyServices.addEventListener('click',clearSelections);
 
   document.querySelectorAll('.view-tab').forEach(btn=>btn.addEventListener('click',()=>{
     currentView=btn.dataset.view;
@@ -95,6 +151,7 @@ async function init(){
     }
   });
 
+  buildServiceChoices();
   render();
 }
 
@@ -104,13 +161,11 @@ function rowsForView(){
   if(currentView==='candidate') return data.filter(x=>x.status==='candidate');
   return data.slice();
 }
-
 function todayJst(){
   const parts=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Tokyo',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date());
   const get=t=>parts.find(p=>p.type===t)?.value||'';
   return `${get('year')}-${get('month')}-${get('day')}`;
 }
-
 function render(){
   const mine=data.filter(x=>relationFor(x));
   els.tabVerifiedCount.textContent=data.filter(x=>x.status==='confirmed'||x.status==='possible').length;
@@ -120,9 +175,9 @@ function render(){
 
   const notices={
     verified:'公式発表・報道で内容を整理した案件を表示しています。',
-    mine:myKeywords.length
-      ?'登録した利用サービスと一致・関連する案件です。関連度は利用サービス名との文字列照合であり、実際の漏えい対象者であることを保証しません。'
-      :'利用サービスを登録すると、自分に関連する可能性のある案件を表示できます。',
+    mine:selectedServices.length
+      ?'選択した企業・サービスに関連する案件です。実際に漏えい対象者であるかは、公式発表の対象条件を確認してください。'
+      :'上の一覧から利用している企業・サービスを選択してください。',
     candidate:'ニュースから自動検知した未確認候補です。A→B→Cの順に確認優先度が高くなります。',
     all:'確認済み案件と自動検知候補をすべて表示しています。'
   };
@@ -135,10 +190,7 @@ function render(){
   });
 
   if(currentView==='mine'){
-    rows.sort((a,b)=>{
-      const ra=relationFor(a)?.level||0, rb=relationFor(b)?.level||0;
-      return rb-ra || (b.status==='confirmed')-(a.status==='confirmed') || (b.affected_count||0)-(a.affected_count||0) || (b.published||'').localeCompare(a.published||'');
-    });
+    rows.sort((a,b)=>(relationFor(b)?.level||0)-(relationFor(a)?.level||0)||(b.affected_count||0)-(a.affected_count||0)||(b.published||'').localeCompare(a.published||''));
   }else if(currentView==='candidate' && els.sort.value==='date-desc'){
     rows.sort((a,b)=>(b.priority_score||0)-(a.priority_score||0)||(b.affected_count||0)-(a.affected_count||0)||(b.published||'').localeCompare(a.published||''));
   }else if(els.sort.value==='date-desc'){
@@ -151,9 +203,7 @@ function render(){
   els.empty.hidden=rows.length>0;
   els.statCases.textContent=rows.length;
   els.statConfirmed.textContent=rows.filter(x=>x.status==='confirmed').length;
-  const today=todayJst();
-  els.statTodayReviewed.textContent=data.filter(x=>String(x.reviewed_at||'').startsWith(today)).length;
-
+  els.statTodayReviewed.textContent=data.filter(x=>String(x.reviewed_at||'').startsWith(todayJst())).length;
   const largest=rows.reduce((m,x)=>(x.affected_count||0)>(m.affected_count||0)?x:m,{affected_count:0});
   els.statLargest.textContent=largest.affected_count?fmt(largest.affected_count):'-';
   const dates=rows.map(x=>x.published).filter(Boolean).sort();
@@ -179,11 +229,10 @@ function officialSearchUrl(x){
   const q=[(x.company||'').trim(),(x.service||'').trim(),'個人情報 漏えい 公式'].filter(Boolean).join(' ');
   return `https://www.google.com/search?q=${encodeURIComponent(q)}`;
 }
-
 function card(x){
   const relation=relationFor(x);
-  const relationBadge=relation?`<span class="badge relation relation-${relation.level}">${relation.label}：${escapeHtml(relation.keyword)}</span>`:'';
-  const relationInfo=relation?`<p class="relation-note"><strong>${relation.label}</strong> — ${escapeHtml(relation.reason)}。実際の対象者かどうかは公式発表の対象条件を確認してください。</p>`:'';
+  const relationBadge=relation?`<span class="badge relation relation-${relation.level}">${relation.label}</span>`:'';
+  const relationInfo=relation?`<p class="relation-note"><strong>${relation.label}</strong> — 「${escapeHtml(relation.selected)}」と関連。${escapeHtml(relation.reason)}。実際の対象者かどうかは公式発表の対象条件を確認してください。</p>`:'';
   const priority=x.status==='candidate'&&x.priority?`<span class="badge priority priority-${x.priority}">${priorityLabel[x.priority]||x.priority}</span>`:'';
   const articles=x.status==='candidate'&&Number(x.article_count)>1?`<span class="badge merged">${x.article_count}記事</span>`:'';
   const officialButton=x.status==='candidate'&&x.priority==='A'?`<a class="review-search-btn" href="${officialSearchUrl(x)}" target="_blank" rel="noopener">公式発表を検索</a>`:'';
@@ -195,10 +244,7 @@ function card(x){
   return `<article class="card ${relation?'card-related':''}">
     <div>
       <div class="date">${escapeHtml(x.published||'-')}</div>
-      <div class="meta">
-        <span class="badge ${x.status}">${statusLabel[x.status]||x.status}</span>
-        ${relationBadge}${priority}${articles}${x.cause?`<span class="badge">${escapeHtml(x.cause)}</span>`:''}
-      </div>
+      <div class="meta"><span class="badge ${x.status}">${statusLabel[x.status]||x.status}</span>${relationBadge}${priority}${articles}${x.cause?`<span class="badge">${escapeHtml(x.cause)}</span>`:''}</div>
     </div>
     <div>
       <h3>${escapeHtml(x.company||'要確認')}${x.service?` / ${escapeHtml(x.service)}`:''}</h3>
@@ -209,6 +255,5 @@ function card(x){
     </div>
   </article>`;
 }
-
 function escapeHtml(v=''){return String(v).replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]))}
 init().catch(e=>{els.cards.innerHTML=`<p>データの読み込みに失敗しました: ${escapeHtml(e.message)}</p>`});
