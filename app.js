@@ -100,10 +100,26 @@ function sourceBlock(x){
   </details>`;
 }
 
+function officialSearchUrl(x){
+  const company=(x.company||'').trim();
+  const service=(x.service||'').trim();
+  const q=[company,service,'個人情報 漏えい 公式'].filter(Boolean).join(' ');
+  return `https://www.google.com/search?q=${encodeURIComponent(q)}`;
+}
+
 function card(x){
   const priority=x.status==='candidate'&&x.priority?`<span class="badge priority priority-${x.priority}">${priorityLabel[x.priority]||x.priority}</span>`:'';
   const articles=x.status==='candidate'&&Number(x.article_count)>1?`<span class="badge merged">${x.article_count}記事</span>`:'';
-  const idTools=x.status==='candidate'?`<div class="incident-tools"><code>${escapeHtml(x.id||'')}</code><button type="button" data-copy-id="${escapeHtml(x.id||'')}">案件IDをコピー</button></div>`:'';
+  const officialButton=x.status==='candidate'&&x.priority==='A'
+    ?`<a class="review-search-btn" href="${officialSearchUrl(x)}" target="_blank" rel="noopener">公式発表を検索</a>`
+    :'';
+  const idTools=x.status==='candidate'
+    ?`<div class="incident-tools">
+        ${officialButton}
+        <code>${escapeHtml(x.id||'')}</code>
+        <button type="button" data-copy-id="${escapeHtml(x.id||'')}">案件IDをコピー</button>
+      </div>`
+    :'';
   const reviewMeta=x.reviewed_at?`<p class="review-meta">確認日: ${escapeHtml(x.reviewed_at)}${x.review_note?` / ${escapeHtml(x.review_note)}`:''}</p>`:'';
 
   return `<article class="card">
