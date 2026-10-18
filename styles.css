@@ -117,3 +117,8 @@ a{color:var(--accent)} .wrap{width:min(1180px,calc(100% - 32px));margin:auto}
 @media(max-width:800px){
   .service-picker-head,.service-picker-groups{grid-template-columns:1fr}
 }
+
+/* v2.2 verified-only personal service picker */
+.service-picker-groups.single{grid-template-columns:1fr}
+.service-picker-groups.single section{max-width:none}
+.service-choice{grid-template-columns:auto 1fr}
