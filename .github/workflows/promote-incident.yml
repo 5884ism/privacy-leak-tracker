@@ -1,0 +1,72 @@
+name: Promote incident
+
+on:
+  workflow_dispatch:
+    inputs:
+      incident_id:
+        description: "候補カードの案件ID"
+        required: true
+        type: string
+      status:
+        description: "確認状況"
+        required: true
+        default: "confirmed"
+        type: choice
+        options:
+          - confirmed
+          - possible
+      official_url:
+        description: "公式発表URL（任意）"
+        required: false
+        type: string
+      source_name:
+        description: "情報源名（例: ヤマト運輸公式）"
+        required: false
+        default: "公式発表"
+        type: string
+      note:
+        description: "確認メモ（任意）"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  promote:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Promote incident
+        env:
+          INCIDENT_ID: ${{ inputs.incident_id }}
+          STATUS: ${{ inputs.status }}
+          OFFICIAL_URL: ${{ inputs.official_url }}
+          SOURCE_NAME: ${{ inputs.source_name }}
+          NOTE: ${{ inputs.note }}
+        run: |
+          python scripts/promote.py \
+            --id "$INCIDENT_ID" \
+            --status "$STATUS" \
+            --official-url "$OFFICIAL_URL" \
+            --source-name "$SOURCE_NAME" \
+            --note "$NOTE"
+
+      - name: Commit changes
+        run: |
+          git config user.name "privacy-leak-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/incidents.json
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+          git commit -m "review: promote incident ${{ inputs.incident_id }}"
+          git push
