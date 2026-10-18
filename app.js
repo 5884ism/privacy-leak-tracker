@@ -113,9 +113,22 @@ function card(x){
   const officialButton=x.status==='candidate'&&x.priority==='A'
     ?`<a class="review-search-btn" href="${officialSearchUrl(x)}" target="_blank" rel="noopener">公式発表を検索</a>`
     :'';
+  const promoteUrl='https://github.com/5884ism/privacy-leak-tracker/actions/workflows/promote-incident.yml';
+  const reviewHelp=x.status==='candidate'&&x.priority==='A'
+    ?`<details class="review-help">
+        <summary>昇格手順を見る</summary>
+        <ol>
+          <li>「公式発表を検索」で公式情報を確認</li>
+          <li>「案件IDをコピー」を押す</li>
+          <li><a href="${promoteUrl}" target="_blank" rel="noopener">GitHubの Promote incident を開く</a></li>
+          <li>incident_idを貼り付け、confirmed / possible を選択し、公式URLを入力して実行</li>
+        </ol>
+      </details>`
+    :'';
   const idTools=x.status==='candidate'
     ?`<div class="incident-tools">
         ${officialButton}
+        ${reviewHelp}
         <code>${escapeHtml(x.id||'')}</code>
         <button type="button" data-copy-id="${escapeHtml(x.id||'')}">案件IDをコピー</button>
       </div>`
