@@ -39,3 +39,38 @@ a{color:var(--accent)} .wrap{width:min(1180px,calc(100% - 32px));margin:auto}
   font-weight:700;
 }
 .review-search-btn:hover{background:#e2e8ff}
+
+/* v1.8 review help */
+.review-help{display:inline-block}
+.review-help summary{
+  cursor:pointer;
+  list-style:none;
+  border:1px solid var(--line);
+  background:#fff;
+  color:var(--accent);
+  border-radius:8px;
+  padding:6px 10px;
+  font-size:12px;
+  font-weight:700;
+}
+.review-help summary::-webkit-details-marker{display:none}
+.review-help[open]{
+  flex-basis:100%;
+  margin-top:4px;
+  background:#f8faff;
+  border:1px solid #d9e2ff;
+  border-radius:10px;
+  padding:10px 12px;
+}
+.review-help[open] summary{
+  display:inline-block;
+  margin-bottom:6px;
+}
+.review-help ol{
+  margin:6px 0 0 18px;
+  padding:0;
+  color:var(--muted);
+  font-size:12px;
+  line-height:1.7;
+}
+.review-help a{font-weight:700}
