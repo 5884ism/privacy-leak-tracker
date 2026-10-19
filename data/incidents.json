@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-19 15:00 JST",
+  "last_updated": "2026-10-19 15:01 JST",
   "incidents": [
     {
       "id": "2026-10-19-auto-4506c2e847",
@@ -2737,11 +2737,15 @@
       "company": "ファンケルグループ",
       "service": "",
       "affected_count": 830000,
-      "status": "candidate",
+      "status": "confirmed",
       "cause": "報道自動検知",
       "summary": "ファンケルグループ 不正アクセスで83万件個人情報流出(TBS NEWS DIG Powered by JNN)",
       "exposed_data": "要確認",
       "sources": [
+        {
+          "name": "公式発表",
+          "url": "https://www.fancl.jp/news/pdf/husei.pdf"
+        },
         {
           "name": "Googleニュース経由",
           "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1PSmd6QmZuQUhwMi1qbFVjSEpzSHM3UGFrbnlHbnY5N2lPb3J4bDhEMHRaWXVmTm54TmFaWGswN19EUEt4eHBWMjgtYVdTU3JPMzRHbV9LOA?oc=5"
@@ -2758,8 +2762,7 @@
       "auto_detected": true,
       "rss_pub_date": "Fri, 16 Oct 2026 10:45:54 GMT",
       "article_count": 3,
-      "priority": "A",
-      "priority_score": 9
+      "reviewed_at": "2026-10-19 15:01 JST"
     },
     {
       "id": "2026-10-17-auto-690ddfd851",
