@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-19 15:03 JST",
+  "last_updated": "2026-10-19 15:04 JST",
   "incidents": [
     {
       "id": "2026-10-19-auto-4506c2e847",
@@ -3315,11 +3315,15 @@
       "company": "skyticket」クレカ情報も流出",
       "service": "",
       "affected_count": 6140,
-      "status": "candidate",
+      "status": "confirmed",
       "cause": "報道自動検知",
       "summary": "「skyticket」クレカ情報も流出、カード番号など最大6140人分 「流出なし」の初報を訂正 (ITmedia NEWS)",
       "exposed_data": "要確認",
       "sources": [
+        {
+          "name": "公式発表",
+          "url": "https://skyticket.jp/news/maintenance/67603/"
+        },
         {
           "name": "Googleニュース経由",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1DOU9nWEtJeWtVdGhvQm9BQUY2elBvUGZBQ0t6cHZDTlZmUGtHTkRMX2dNdGtoVVV1YVNHNjlhZHJENVpQem5ZcUZmTmhlQXFscU42c1hPR3JKY3RwdVU5MWZsTHNQb3JJeVE?oc=5"
@@ -3340,8 +3344,7 @@
       "auto_detected": true,
       "rss_pub_date": "Sat, 17 Oct 2026 01:42:34 GMT",
       "article_count": 4,
-      "priority": "A",
-      "priority_score": 9
+      "reviewed_at": "2026-10-19 15:04 JST"
     },
     {
       "id": "2026-10-17-auto-84d999c891",
