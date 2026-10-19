@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-20 07:56 JST",
+  "last_updated": "2026-10-20 08:00 JST",
   "incidents": [
     {
       "id": "2026-10-20-auto-80616f6f01",
@@ -3673,11 +3673,16 @@
       "company": "NTTソルマーレの「コミックシーモア",
       "service": "",
       "affected_count": 0,
-      "status": "candidate",
+      "status": "confirmed",
       "cause": "報道自動検知",
       "summary": "NTTソルマーレの「コミックシーモア」に不正アクセス、サービスを停止し精査中(INTERNET Watch)",
       "exposed_data": "要確認",
       "sources": [
+        {
+          "name": "公式発表",
+          "url": "https://www.nttsolmare.com/press/2026/1016-1.html",
+          "official": true
+        },
         {
           "name": "Googleニュース経由",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8xVjJWZk1yRTQ1bGlKVE85ZU9oYzNrVk5BWXNUVWhfY3hZcVh2S25fOVhhTWF2UW1CY0tGbDBUNERRUlJCUldpRlBKaUtSQVBsaFBhM0hoMHliUTJqbkc4V0UxbU5yOEJvUnFwWEpqLS1QNVYtWU1OY1lobXRWYUU?oc=5"
@@ -3690,8 +3695,10 @@
       "auto_detected": true,
       "rss_pub_date": "Mon, 19 Oct 2026 07:37:00 GMT",
       "article_count": 2,
-      "priority": "B",
-      "priority_score": 4
+      "reviewed_at": "2026-10-20 08:00 JST",
+      "official_urls": [
+        "https://www.nttsolmare.com/press/2026/1016-1.html"
+      ]
     },
     {
       "id": "2026-10-19-auto-1ee6e21937",
