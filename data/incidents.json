@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-19 19:16 JST",
+  "last_updated": "2026-10-20 00:40 JST",
   "incidents": [
     {
       "id": "2026-10-19-auto-2015b7fcc8",
@@ -3369,11 +3369,16 @@
       "company": "ニフティ、回線申込管理システム",
       "service": "",
       "affected_count": 542513,
-      "status": "candidate",
+      "status": "possible",
       "cause": "報道自動検知",
       "summary": "ニフティの回線申込・受付管理システムへ不正アクセスによるサイバー攻撃、最大54万2,513件の個人情報漏えいの可能性",
       "exposed_data": "要確認",
       "sources": [
+        {
+          "name": "公式発表",
+          "url": "https://www.nifty.co.jp/newsrelease/nifty202610195434.htm",
+          "official": true
+        },
         {
           "name": "Googleニュース経由",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBPV1lTUDZES3ZVbDlwc21jWTVJSjJQZ1pPa2Z1c2dGOW1LRnh5YmJVSWtGdWsyRmwxV0xsYktRdGoxVDJMRGpZanhjZTdXbHNQVDVKTkYtaWMwdUloYkRERThNbzlvV2lheVBz?oc=5"
@@ -3390,8 +3395,10 @@
       "auto_detected": true,
       "rss_pub_date": "Mon, 19 Oct 2026 08:42:22 GMT",
       "article_count": 3,
-      "priority": "A",
-      "priority_score": 9
+      "reviewed_at": "2026-10-20 00:40 JST",
+      "official_urls": [
+        "https://www.nifty.co.jp/newsrelease/nifty202610195434.htm"
+      ]
     },
     {
       "id": "2026-10-19-auto-5993878d9a",
