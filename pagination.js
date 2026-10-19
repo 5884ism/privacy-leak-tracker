@@ -28,8 +28,10 @@
     const cards = [...cardsWrap.querySelectorAll(':scope > .card')];
     const total = cards.length;
 
+    // 毎回いったん全カードからページ非表示クラスを外す
+    cards.forEach(card => card.classList.remove('pagination-hidden'));
+
     if(total <= PAGE_SIZE){
-      cards.forEach(c => c.hidden = false);
       return;
     }
 
@@ -41,7 +43,9 @@
     const end = Math.min(start + PAGE_SIZE, total);
 
     cards.forEach((card, i) => {
-      card.hidden = !(i >= start && i < end);
+      if(i < start || i >= end){
+        card.classList.add('pagination-hidden');
+      }
     });
 
     const pager = document.createElement('nav');
@@ -68,8 +72,7 @@
 
     pager.querySelectorAll('[data-page]').forEach(btn => {
       btn.addEventListener('click', () => {
-        const next = Number(btn.dataset.page || 1);
-        setPage(next);
+        setPage(Number(btn.dataset.page || 1));
         applyPagination();
 
         const heading = document.querySelector('.section-head') || cardsWrap;
@@ -84,23 +87,26 @@
 
   function patch(){
     if(typeof render !== 'function') return false;
-    if(window.__paginationV28Patched) return true;
-    window.__paginationV28Patched = true;
+    if(window.__paginationV281Patched) return true;
+    window.__paginationV281Patched = true;
 
     const originalRender = render;
     render = function(){
       originalRender();
-      requestAnimationFrame(applyPagination);
+
+      // mine-merge / candidate-filter / official-updates 等の
+      // 後処理が終わってからページングを適用
+      requestAnimationFrame(() => {
+        requestAnimationFrame(applyPagination);
+      });
     };
 
-    // 絞り込み条件変更時は1ページ目に戻す
     ['q','month','status','sort'].forEach(id => {
       const el = document.getElementById(id);
       if(!el) return;
       el.addEventListener(id === 'q' ? 'input' : 'change', resetCurrentPage, {capture:true});
     });
 
-    // タブ切り替え時はそのタブの1ページ目へ
     document.querySelectorAll('.view-tab').forEach(btn => {
       btn.addEventListener('click', () => {
         const view = btn.dataset.view;
