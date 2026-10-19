@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-19 18:53 JST",
+  "last_updated": "2026-10-19 18:56 JST",
   "incidents": [
     {
       "id": "2026-10-19-auto-4506c2e847",
@@ -1389,11 +1389,16 @@
       "company": "GMOリサーチ&AI 運営のアンケートサイト「infoQ",
       "service": "",
       "affected_count": 894082,
-      "status": "candidate",
+      "status": "confirmed",
       "cause": "報道自動検知",
       "summary": "GMOリサーチ&AI 運営のアンケートサイト「infoQ」に不正アクセス、89万4,082件の個人情報外部持ち出しを確認 2枚目の写真・画像",
       "exposed_data": "要確認",
       "sources": [
+        {
+          "name": "公式発表",
+          "url": "https://gmo-research.ai/pressroom/notice/notice-20261005",
+          "official": true
+        },
         {
           "name": "Googleニュース経由",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9CVG56Z2F5SDh1M3VKbS1wQ3h0ZzJUMlppVE9uQUNUZ2tmbGdySXRtM29ZQjZsVVp0alZCX0FNTHozcEtoclFVQTU4VjhYZTZGT1ZmMTJUWGtqM0dFTDZVYlBuemQ3Wlp4cUVv?oc=5"
@@ -1410,8 +1415,10 @@
       "auto_detected": true,
       "rss_pub_date": "Sun, 18 Oct 2026 23:05:00 GMT",
       "article_count": 3,
-      "priority": "A",
-      "priority_score": 9
+      "reviewed_at": "2026-10-19 18:56 JST",
+      "official_urls": [
+        "https://gmo-research.ai/pressroom/notice/notice-20261005"
+      ]
     },
     {
       "id": "2026-10-19-auto-a70f34ab8e",
