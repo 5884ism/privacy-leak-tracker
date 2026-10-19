@@ -43,10 +43,13 @@ jobs:
         run: |
           git config user.name "privacy-leak-bot"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/incidents.json data/public-incidents.json
+
+          git add data/incidents.json data/public-incidents.json data/candidate-update.json
+
           if git diff --cached --quiet; then
             echo "No changes"
             exit 0
           fi
-          git commit -m "chore: daily incident update and public feed"
+
+          git commit -m "chore: daily incident update and candidate summary"
           git push
