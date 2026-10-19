@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-20 08:03 JST",
+  "last_updated": "2026-10-20 08:12 JST",
   "incidents": [
     {
       "id": "2026-10-20-auto-80616f6f01",
@@ -2701,11 +2701,16 @@
       "company": "岩井コスモ証券、4611人",
       "service": "",
       "affected_count": 4611,
-      "status": "candidate",
+      "status": "confirmed",
       "cause": "報道自動検知",
       "summary": "岩井コスモ証券、4611人の顧客情報漏えい 委託先に不正アクセス (アスキー)",
       "exposed_data": "要確認",
       "sources": [
+        {
+          "name": "公式発表",
+          "url": "https://www.busitec.co.jp/news/info",
+          "official": true
+        },
         {
           "name": "Googleニュース経由",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5uR2VlTURhMFNlMm5qc3pGeXg3U3Q5YmU1T1pJZTdvY1dYcmlNNHpRLWNpal94ckxzZTByOFN5SlRLOHJGWVJ1LVF2cjQ4TWhsdEFTbDBWNjVhdnc2UHgzWVBnemV4bmZsTWljeGxkZ2tuZmpNQzVIbnduREhOdEk?oc=5"
@@ -2722,8 +2727,10 @@
       "auto_detected": true,
       "rss_pub_date": "Mon, 19 Oct 2026 00:25:00 GMT",
       "article_count": 3,
-      "priority": "A",
-      "priority_score": 7
+      "reviewed_at": "2026-10-20 08:12 JST",
+      "official_urls": [
+        "https://www.busitec.co.jp/news/info"
+      ]
     },
     {
       "id": "2026-10-19-auto-dd56af2ba7",
