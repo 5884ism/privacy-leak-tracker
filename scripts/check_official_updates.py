@@ -15,6 +15,29 @@ UPDATE_WORDS = re.compile(
 )
 STRONG_FOLLOWUP = re.compile(r"(第\s*[2-9]\s*報|続報|最終報|最終報告|追加報告|調査結果)", re.I)
 
+# 明らかなニュース/メディアドメイン。
+# official=True のURLでもこの一覧は除外する安全弁。
+NEWS_DOMAINS = {
+    "itmedia.co.jp",
+    "impress.co.jp",
+    "internet.watch.impress.co.jp",
+    "watch.impress.co.jp",
+    "nikkei.com",
+    "nhk.or.jp",
+    "yahoo.co.jp",
+    "news.yahoo.co.jp",
+    "mainichi.jp",
+    "asahi.com",
+    "yomiuri.co.jp",
+    "sankei.com",
+    "jiji.com",
+    "kyodonews.jp",
+    "47news.jp",
+    "news.mynavi.jp",
+    "security-next.com",
+    "scan.netsecurity.ne.jp",
+}
+
 def now_jst():
     return datetime.now(JST).strftime("%Y-%m-%d %H:%M JST")
 
@@ -25,7 +48,7 @@ def fetch(url, timeout=25):
     req = urllib.request.Request(
         url,
         headers={
-            "User-Agent": "privacy-leak-tracker/2.3",
+            "User-Agent": "privacy-leak-tracker/2.4",
             "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
         },
     )
@@ -42,6 +65,12 @@ def is_google_news(url):
     h = host(url)
     return h == "news.google.com" or h.endswith(".news.google.com")
 
+def is_news_domain(url):
+    h=host(url)
+    if not h:
+        return False
+    return any(h==d or h.endswith("."+d) for d in NEWS_DOMAINS)
+
 def same_domain(a,b):
     ha,hb=host(a),host(b)
     return bool(ha and hb and (ha==hb or ha.endswith("."+hb) or hb.endswith("."+ha)))
@@ -55,6 +84,71 @@ def normalize_url(url):
         return urllib.parse.urlunsplit((p.scheme.lower(),p.netloc.lower(),path,urllib.parse.urlencode(q),""))
     except Exception:
         return url
+
+def source_is_official(s):
+    """True only for an explicitly designated official source."""
+    url=s.get("url","")
+    if not url or is_google_news(url) or is_news_domain(url):
+        return False
+
+    if s.get("official") is True:
+        return True
+
+    # backward compatibility for previously promoted incidents
+    name=nfkc(s.get("name",""))
+    return bool(re.search(r"(公式|official|企業発表|プレスリリース)", name, re.I))
+
+def official_seed_sources(incident):
+    out=[]
+    seen=set()
+
+    # New canonical field
+    for url in incident.get("official_urls",[]) or []:
+        if not url or is_news_domain(url) or is_google_news(url):
+            continue
+        key=normalize_url(url)
+        if key not in seen:
+            seen.add(key)
+            out.append({"name":"公式発表","url":url,"official":True})
+
+    # Backward-compatible sources
+    for s in incident.get("sources",[]) or []:
+        if not source_is_official(s):
+            continue
+        key=normalize_url(s.get("url",""))
+        if key and key not in seen:
+            seen.add(key)
+            out.append(s)
+
+    return out
+
+def cleanup_official_updates(incident, official):
+    """Remove old false positives that do not belong to an official domain."""
+    domains={host(s.get("url","")) for s in official if host(s.get("url",""))}
+    old=incident.get("official_updates",[]) or []
+
+    if not domains:
+        # No verified official domain -> do not expose any "official update history".
+        removed=len(old)
+        if removed:
+            incident["official_updates"]=[]
+            incident["official_update_pending"]=False
+        return removed
+
+    kept=[]
+    for u in old:
+        url=u.get("url","")
+        if not url or is_news_domain(url) or is_google_news(url):
+            continue
+        uh=host(url)
+        if any(uh==d or uh.endswith("."+d) or d.endswith("."+uh) for d in domains):
+            kept.append(u)
+
+    removed=len(old)-len(kept)
+    if removed:
+        incident["official_updates"]=kept
+        incident["official_update_pending"]=any(u.get("reviewed") is not True for u in kept)
+    return removed
 
 class Parser(HTMLParser):
     def __init__(self):
@@ -101,21 +195,32 @@ def relevant_title(title,incident):
 
 def add_update(incident,url,title,kind):
     url=normalize_url(url)
+
+    # Final safety gate: official history must never point to news/media.
+    if is_google_news(url) or is_news_domain(url):
+        return False
+
+    official=official_seed_sources(incident)
+    if not official or not any(same_domain(s.get("url",""),url) for s in official):
+        return False
+
     existing={normalize_url(u.get("url","")) for u in incident.get("official_updates",[]) if u.get("url")}
-    current={normalize_url(s.get("url","")) for s in incident.get("sources",[])
-             if s.get("url") and not is_google_news(s.get("url",""))}
-    if kind!="page_changed" and (url in existing or url in current): return False
+    if kind!="page_changed" and url in existing:
+        return False
+
     if kind=="page_changed":
         today=now_jst()[:10]
         for u in incident.get("official_updates",[]):
             if normalize_url(u.get("url",""))==url and u.get("kind")==kind and str(u.get("detected_at","")).startswith(today):
                 return False
+
     incident.setdefault("official_updates",[]).append({
         "detected_at":now_jst(),
         "title":title.strip() or "公式発表の更新",
         "url":url,
         "kind":kind,
         "reviewed":False,
+        "official":True,
     })
     incident["official_update_pending"]=True
     return True
@@ -127,6 +232,7 @@ def discover_links(seed_url,p,incident):
         if not href or not title: continue
         absolute=urllib.parse.urljoin(seed_url,html.unescape(href))
         if not same_domain(seed_url,absolute): continue
+        if is_news_domain(absolute): continue
         tt=nfkc(title)
         likely=STRONG_FOLLOWUP.search(tt) or (
             re.search(r"(漏えい|漏洩|流出|不正アクセス)",tt,re.I)
@@ -152,60 +258,97 @@ def resolve(link):
     try:
         req=urllib.request.Request(link,headers={"User-Agent":"Mozilla/5.0"})
         with urllib.request.urlopen(req,timeout=15) as r: return r.geturl()
-    except Exception: return link
+    except Exception:
+        return link
 
 def monitor(incident):
     changed=0
     watch=incident.setdefault("official_watch",{})
     hashes=watch.setdefault("page_hashes",{})
-    official=[s for s in incident.get("sources",[]) if s.get("url") and not is_google_news(s.get("url",""))]
-    if not official: return 0
+
+    official=official_seed_sources(incident)
+
+    # First remove already stored media false positives.
+    removed=cleanup_official_updates(incident,official)
+    changed+=removed
+
+    if not official:
+        watch["last_checked"]=now_jst()
+        watch["status"]="no_verified_official_source"
+        return changed
+
     domains=set()
+
     for s in official:
-        url=s["url"]; domains.add(host(url))
-        try: raw,ctype,final=fetch(url)
+        url=s["url"]
+        domains.add(host(url))
+
+        try:
+            raw,ctype,final=fetch(url)
         except Exception as e:
             watch["last_error"]=f"{type(e).__name__}: {url}"
             continue
-        if "html" not in ctype.lower(): continue
+
+        if "html" not in ctype.lower():
+            continue
+
         p=parse_html(raw)
         fp=meaningful_fingerprint(p)
         key=normalize_url(final)
+
         if fp:
             old=hashes.get(key)
             if old and old!=fp:
-                if add_update(incident,final,f'{incident.get("company","")} 公式ページ内容更新を検知',"page_changed"):
+                if add_update(
+                    incident,
+                    final,
+                    f'{incident.get("company","")} 公式ページ内容更新を検知',
+                    "page_changed"
+                ):
                     changed+=1
             hashes[key]=fp
+
         changed+=discover_links(final,p,incident)
 
-    for domain in sorted(d for d in domains if d):
+    # Search only the verified official domains.
+    for domain in sorted(d for d in domains if d and not is_news_domain("https://"+d)):
         for title,link in google_news_candidates(domain,incident.get("company","")):
-            if not relevant_title(title,incident): continue
+            if not relevant_title(title,incident):
+                continue
             final=resolve(link)
-            if same_domain("https://"+domain+"/",final):
-                if add_update(incident,final,title,"new_official_page"): changed+=1
+            if same_domain("https://"+domain+"/",final) and not is_news_domain(final):
+                if add_update(incident,final,title,"new_official_page"):
+                    changed+=1
+
     watch["last_checked"]=now_jst()
+    watch["status"]="ok"
     return changed
 
 def main():
     db=json.loads(DATA.read_text(encoding="utf-8"))
     changed=0; monitored=0
+
     for x in db.get("incidents",[]):
-        if x.get("status") not in ("confirmed","possible"): continue
+        if x.get("status") not in ("confirmed","possible"):
+            continue
         monitored+=1
-        try: changed+=monitor(x)
+        try:
+            changed+=monitor(x)
         except Exception as e:
             x.setdefault("official_watch",{})["last_error"]=type(e).__name__
-    if changed: db["last_updated"]=now_jst()
+
+    if changed:
+        db["last_updated"]=now_jst()
+
     db["official_monitor"]={
         "last_checked":now_jst(),
         "monitored_incidents":monitored,
-        "new_updates_detected":changed,
-        "version":"2.3"
+        "updates_or_cleanup_changes":changed,
+        "version":"2.4"
     }
+
     DATA.write_text(json.dumps(db,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
-    print(f"official monitor: {monitored} incidents, {changed} new update(s)")
+    print(f"official monitor: {monitored} incidents, {changed} update/cleanup change(s)")
 
 if __name__=="__main__":
     main()
