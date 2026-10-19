@@ -22,6 +22,14 @@ def now_utc():
 def today_jst():
     return now_utc().astimezone(JST).strftime("%Y-%m-%d")
 
+def jst_date_from_iso(value):
+    if not value:
+        return ""
+    try:
+        return datetime.fromisoformat(value.replace("Z", "+00:00")).astimezone(JST).strftime("%Y-%m-%d")
+    except Exception:
+        return ""
+
 def load_incidents():
     data = json.loads(DATA_PATH.read_text(encoding="utf-8"))
     return data.get("incidents", []) if isinstance(data, dict) else data
@@ -41,6 +49,8 @@ def public_rows():
             "summary": x.get("summary", ""),
             "resolution_date": x.get("resolution_date", ""),
             "resolution_note": x.get("resolution_note", ""),
+            # 集計復元用。public-update.json に含まれても個人情報ではない運用日時のみ。
+            "reviewed_at": x.get("reviewed_at", ""),
         })
     return rows
 
@@ -62,6 +72,9 @@ def fmt_count(v):
 def esc(v):
     return str(v or "").replace("|", "\\|").replace("\n", " ")
 
+def reviewed_today(x, day):
+    return str(x.get("reviewed_at") or "").startswith(day)
+
 def snapshot(path):
     rows = public_rows()
     Path(path).write_text(
@@ -70,43 +83,45 @@ def snapshot(path):
     )
     print(f"Public snapshot saved: {len(rows)} items")
 
+def fresh_state(day, before_count):
+    return {
+        "version": "1.2",
+        "date": day,
+        "day_start_count": before_count,
+        "added": [],
+        "changed": [],
+    }
+
 def load_daily_state(day, before_count):
     if not OUT_PATH.exists():
-        return {
-            "version": "1.1",
-            "date": day,
-            "day_start_count": before_count,
-            "added": [],
-            "changed": [],
-        }
+        return fresh_state(day, before_count)
 
     try:
         state = json.loads(OUT_PATH.read_text(encoding="utf-8"))
     except Exception:
-        state = {}
+        return fresh_state(day, before_count)
 
-    # JSTで日付が変わったら、前日分は引き継がず新しい一日を開始する。
-    if state.get("date") != day:
-        return {
-            "version": "1.1",
-            "date": day,
-            "day_start_count": before_count,
-            "added": [],
-            "changed": [],
-        }
+    state_day = state.get("date", "")
 
-    state.setdefault("version", "1.1")
-    state.setdefault("date", day)
-    state.setdefault("day_start_count", before_count)
+    # v1.0 → v1.2 移行時、date がなくても generated_at が今日なら内容を引き継ぐ。
+    if not state_day:
+        state_day = jst_date_from_iso(state.get("generated_at", ""))
+
+    if state_day != day:
+        return fresh_state(day, before_count)
+
+    state["version"] = "1.2"
+    state["date"] = day
+    state.setdefault("day_start_count", state.get("before_count", before_count))
     state.setdefault("added", [])
     state.setdefault("changed", [])
     return state
 
-def merge_added(existing, run_added):
+def merge_added(existing, incoming):
     by_id = {key(x): dict(x) for x in existing if key(x)}
     order = [key(x) for x in existing if key(x)]
 
-    for x in run_added:
+    for x in incoming:
         k = key(x)
         if not k:
             continue
@@ -116,33 +131,45 @@ def merge_added(existing, run_added):
 
     return [by_id[k] for k in order if k in by_id]
 
-def merge_changed(existing, run_changed, added_ids):
+def merge_changed(existing, incoming, added_ids):
     by_id = {key(x): dict(x) for x in existing if key(x)}
     order = [key(x) for x in existing if key(x)]
 
-    for x in run_changed:
+    for x in incoming:
         k = key(x)
         if not k or k in added_ids:
-            # 今日NEWになった案件はNEWのまま表示し、最終状態だけadded側へ反映する。
             continue
 
         if k in by_id:
             old = by_id[k]
-            # 最初の変更元を維持し、最新の変更先へ更新する。
-            old["to_status"] = x.get("to_status", old.get("to_status", ""))
-            old["to_label"] = x.get("to_label", old.get("to_label", ""))
-            old["company"] = x.get("company", old.get("company", ""))
-            old["service"] = x.get("service", old.get("service", ""))
-            old["published"] = x.get("published", old.get("published", ""))
-            old["affected_count"] = x.get("affected_count", old.get("affected_count", 0))
-            old["summary"] = x.get("summary", old.get("summary", ""))
-            old["resolution_date"] = x.get("resolution_date", old.get("resolution_date", ""))
-            old["resolution_note"] = x.get("resolution_note", old.get("resolution_note", ""))
+            # 最初の変更元は維持、変更先は最新状態にする。
+            old.update({
+                "to_status": x.get("to_status", old.get("to_status", "")),
+                "to_label": x.get("to_label", old.get("to_label", "")),
+                "company": x.get("company", old.get("company", "")),
+                "service": x.get("service", old.get("service", "")),
+                "published": x.get("published", old.get("published", "")),
+                "affected_count": x.get("affected_count", old.get("affected_count", 0)),
+                "summary": x.get("summary", old.get("summary", "")),
+                "resolution_date": x.get("resolution_date", old.get("resolution_date", "")),
+                "resolution_note": x.get("resolution_note", old.get("resolution_note", "")),
+            })
         else:
             by_id[k] = dict(x)
             order.append(k)
 
     return [by_id[k] for k in order if k in by_id]
+
+def recover_today_promotions(state, after, day):
+    """
+    Promote incident は reviewed_at に JST の実行日時を記録する。
+    public-update.json が途中で初期化・移行された場合でも、
+    今日昇格した公開案件を incidents.json から復元する。
+    """
+    recovered = [x for x in after if reviewed_today(x, day)]
+    if recovered:
+        state["added"] = merge_added(state.get("added", []), recovered)
+    return len(recovered)
 
 def report(path):
     before_path = Path(path)
@@ -176,19 +203,20 @@ def report(path):
     day = today_jst()
     state = load_daily_state(day, len(before))
 
-    # まず本日のNEWを累積。
+    # 今回の差分を累積。
     state["added"] = merge_added(state.get("added", []), run_added)
+
+    # 同日中に失われたNEWも reviewed_at から復元。
+    recovered_count = recover_today_promotions(state, after, day)
+
     added_ids = {key(x) for x in state["added"] if key(x)}
 
-    # 今日NEWになった案件が、その後同日に status 更新された場合、
-    # NEW項目の最新状態を更新して、UPDATEDには重複掲載しない。
-    latest_after = {key(x): x for x in after if key(x)}
+    # NEW案件は常に最新状態へ更新。
     for i, x in enumerate(state["added"]):
         k = key(x)
-        if k in latest_after:
-            state["added"][i] = dict(latest_after[k])
+        if k in am:
+            state["added"][i] = dict(am[k])
 
-    # 既存公開案件のstatus変更はUPDATEDとして日次累積。
     state["changed"] = merge_changed(
         state.get("changed", []),
         run_changed,
@@ -196,14 +224,16 @@ def report(path):
     )
 
     generated = now_utc().isoformat(timespec="seconds")
+    day_start_count = int(state.get("day_start_count", len(before)))
+
     state.update({
-        "version": "1.1",
+        "version": "1.2",
         "date": day,
         "generated_at": generated,
         "last_checked_at": generated,
-        "day_start_count": int(state.get("day_start_count", len(before))),
+        "day_start_count": day_start_count,
         "after_count": len(after),
-        "net_change": len(after) - int(state.get("day_start_count", len(before))),
+        "net_change": len(after) - day_start_count,
         "added_count": len(state["added"]),
         "changed_count": len(state["changed"]),
         "added_ids": [key(x) for x in state["added"] if key(x)],
@@ -220,7 +250,7 @@ def report(path):
     headline = (
         f"{day} 今日の更新: 新規公開 {state['added_count']}件 / "
         f"ステータス更新 {state['changed_count']}件 / "
-        f"公開対象総数 {state['day_start_count']} → {state['after_count']}件 "
+        f"公開対象総数 {day_start_count} → {state['after_count']}件 "
         f"(差分 {sign}{state['net_change']})"
     )
 
@@ -230,6 +260,7 @@ def report(path):
         f"今回の実行差分: 新規公開 {len(run_added)}件 / "
         f"ステータス更新 {len(run_changed)}件"
     )
+    print(f"本日 reviewed_at 復元対象: {recovered_count}件")
 
     if run_added or run_changed:
         print(f"::notice title=公開版更新::{headline}")
