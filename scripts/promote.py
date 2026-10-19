@@ -38,13 +38,34 @@ def main():
     found.pop("priority",None)
     found.pop("priority_score",None)
     found["reviewed_at"]=datetime.now(JST).strftime("%Y-%m-%d %H:%M JST")
+
     if args.note:
         found["review_note"]=args.note
 
     if args.official_url:
         sources=found.setdefault("sources",[])
-        if not any(s.get("url")==args.official_url for s in sources):
-            sources.insert(0,{"name":args.source_name or "公式発表","url":args.official_url})
+        existing=None
+        for s in sources:
+            if s.get("url")==args.official_url:
+                existing=s
+                break
+
+        if existing:
+            # 既存情報源が同じURLなら、公式情報源として明示的に昇格
+            existing["official"]=True
+            if args.source_name:
+                existing["name"]=args.source_name
+        else:
+            sources.insert(0,{
+                "name":args.source_name or "公式発表",
+                "url":args.official_url,
+                "official":True,
+            })
+
+        # 監視対象の公式URLも別フィールドに保持
+        official_urls=found.setdefault("official_urls",[])
+        if args.official_url not in official_urls:
+            official_urls.append(args.official_url)
 
     db["last_updated"]=datetime.now(JST).strftime("%Y-%m-%d %H:%M JST")
     DATA.write_text(json.dumps(db,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
