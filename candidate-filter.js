@@ -67,13 +67,9 @@
     const days=daysApart(a.published,b.published);
     const ratio=countRatio(ac,bc);
 
-    // H2O / 阪急阪神百貨店のような、名称が違っても件数が同じ案件
     if(ac>=100000 && bc>=100000 && days<=7 && ratio>=0.995)return true;
-
-    // 100万件超は見出しで多少丸められるため2%差まで許容
     if(ac>=1000000 && bc>=1000000 && days<=3 && ratio>=0.98)return true;
 
-    // 従来型: 企業・サービス表記が互いに包含される
     const aa=norm(a.company||''), bb=norm(b.company||'');
     if(aa && bb && (aa.includes(bb)||bb.includes(aa)) && days<=30){
       if(ratio>=0.8 || ac===0 || bc===0)return true;
@@ -98,10 +94,11 @@
     x.affected_count=Math.max(Number(a.affected_count||0),Number(b.affected_count||0));
     x.sources=uniqSources([...(a.sources||[]),...(b.sources||[])]);
     x.article_count=Number(a.article_count||1)+Number(b.article_count||1);
-    x.priority = ['A','B','C'].sort((p,q)=>0)[0]; // overwritten below safely
+
     const ranks={A:3,B:2,C:1};
     x.priority=(ranks[a.priority]||0)>=(ranks[b.priority]||0)?a.priority:b.priority;
     x.priority_score=Math.max(Number(a.priority_score||0),Number(b.priority_score||0));
+
     x._candidateMergedIds=[
       ...(a._candidateMergedIds||[a.id]).filter(Boolean),
       ...(b._candidateMergedIds||[b.id]).filter(Boolean)
@@ -112,7 +109,10 @@
   }
 
   function visibleCandidates(){
-    const verified=data.filter(x=>x.status==='confirmed'||x.status==='possible');
+    // cleared も「既に結論が出ている案件」として扱い、
+    // 同一事故を要確認候補に再表示しない。
+    const verified=data.filter(x=>['confirmed','possible','cleared'].includes(x.status));
+
     const raw=data.filter(x=>x.status==='candidate')
       .filter(x=>!verified.some(v=>candidateDuplicatesVerified(x,v)));
 
@@ -130,8 +130,8 @@
 
   function patch(){
     if(typeof rowsForView!=='function'||typeof render!=='function')return false;
-    if(window.__candidateFilterV30Patched)return true;
-    window.__candidateFilterV30Patched=true;
+    if(window.__candidateFilterClearedV1Patched)return true;
+    window.__candidateFilterClearedV1Patched=true;
 
     const originalRowsForView=rowsForView;
     rowsForView=function(){
@@ -150,6 +150,7 @@
 
       const candidates=visibleCandidates();
       if(els?.tabCandidateCount)els.tabCandidateCount.textContent=candidates.length;
+
       if(els?.tabAllCount){
         els.tabAllCount.textContent=
           data.filter(x=>x.status!=='candidate').length+candidates.length;
@@ -157,13 +158,19 @@
 
       if(currentView==='candidate'){
         let rows=rowsForView();
-        if(els.sort.value==='date-desc')rows.sort((a,b)=>(b.published||'').localeCompare(a.published||''));
-        else if(els.sort.value==='date-asc')rows.sort((a,b)=>(a.published||'').localeCompare(b.published||''));
-        else if(els.sort.value==='count-desc')rows.sort((a,b)=>(b.affected_count||0)-(a.affected_count||0));
+
+        if(els.sort.value==='date-desc'){
+          rows.sort((a,b)=>(b.published||'').localeCompare(a.published||''));
+        }else if(els.sort.value==='date-asc'){
+          rows.sort((a,b)=>(a.published||'').localeCompare(b.published||''));
+        }else if(els.sort.value==='count-desc'){
+          rows.sort((a,b)=>(b.affected_count||0)-(a.affected_count||0));
+        }
 
         document.querySelectorAll('#cards .card').forEach((card,i)=>{
           const x=rows[i];
           if(!x||x._candidateMergedCount<=1)return;
+
           const meta=card.querySelector('.meta');
           if(meta&&!meta.querySelector('.candidate-merged')){
             const b=document.createElement('span');
@@ -174,10 +181,13 @@
         });
       }
     };
+
     return true;
   }
 
   if(!patch()){
-    window.addEventListener('DOMContentLoaded',()=>{if(patch())render();});
+    window.addEventListener('DOMContentLoaded',()=>{
+      if(patch())render();
+    });
   }
 })();
