@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "last_updated": "2026-10-19 18:34 JST",
+  "last_updated": "2026-10-19 18:48 JST",
   "incidents": [
     {
       "published": "2026-10-17",
@@ -330,8 +330,26 @@
       "exposed_data": "会員情報、本人確認関連情報等",
       "sources": [
         {
+          "name": "公式発表",
+          "url": "https://www.park24.co.jp/news/2026/10/20261016-1.html"
+        },
+        {
           "name": "ニュース報道",
           "url": "https://news.mynavi.jp/techplus/"
+        }
+      ],
+      "official_updates": [
+        {
+          "detected_at": "2026-10-19 18:48 JST",
+          "title": "タイムズカーWebシステムへの不正アクセスに関する調査結果および今後の対応について（第2報）",
+          "url": "https://www.park24.co.jp/news/2026/09/20260928-1.html",
+          "kind": "new_official_page"
+        },
+        {
+          "detected_at": "2026-10-19 18:48 JST",
+          "title": "タイムズカーWebシステムへの不正アクセスに関する調査結果および今後の対応について（第3報）",
+          "url": "https://www.park24.co.jp/news/2026/09/20260929-1.html",
+          "kind": "new_official_page"
         }
       ]
     },
