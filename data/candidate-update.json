@@ -1,12 +1,33 @@
 {
-  "version": "1.0",
-  "generated_at": "2026-10-19T22:23:24+00:00",
-  "before_count": 275,
-  "after_count": 275,
-  "net_change": 0,
-  "new_count": 0,
+  "version": "1.1",
+  "generated_at": "2026-10-19T22:36:33+00:00",
+  "before_count": 153,
+  "after_count": 154,
+  "net_change": 1,
+  "new_count": 1,
   "removed_count": 0,
-  "new_candidate_ids": [],
-  "new_candidates": [],
+  "visible_before_count": 153,
+  "visible_after_count": 154,
+  "visible_net_change": 1,
+  "raw_before_count": 275,
+  "raw_after_count": 276,
+  "raw_net_change": 1,
+  "new_candidate_ids": [
+    "2026-10-20-auto-203f36cb04"
+  ],
+  "new_candidates": [
+    {
+      "id": "2026-10-20-auto-203f36cb04",
+      "member_ids": [
+        "2026-10-20-auto-203f36cb04"
+      ],
+      "priority": "C",
+      "published": "2026-10-20",
+      "company": "スクウェア・エニックスのアカウントに不正ログイン",
+      "service": "",
+      "affected_count": 0,
+      "summary": "スクウェア・エニックスのアカウントに不正ログイン、他社流出とみられる認証情報を悪用―全アカウントのパスワードリセットも検討"
+    }
+  ],
   "removed_candidates": []
 }
