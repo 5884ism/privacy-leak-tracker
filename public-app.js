@@ -11,7 +11,8 @@ const STORAGE_KEY='privacyLeakTracker.public.selectedServices.v1';
 const PAGE_SIZE=10;
 const statusLabel={
   confirmed:'漏えい確認',
-  possible:'漏えいの可能性'
+  possible:'漏えいの可能性',
+  cleared:'漏えいなし確認'
 };
 
 let data=[];
@@ -210,7 +211,8 @@ function mineRows(){
 }
 
 function rowsForView(){
-  return currentView==='mine'?mineRows():data.slice();
+  if(currentView==='mine') return mineRows();
+  return data.filter(x=>x.status==='confirmed'||x.status==='possible');
 }
 
 function sourceBlock(x){
@@ -244,6 +246,19 @@ function officialUpdateBlock(x){
   </details>`;
 }
 
+function resolutionBlock(x){
+  if(x.status!=='cleared')return '';
+  const link=x.resolution_url
+    ?`<a href="${escapeHtml(x.resolution_url)}" target="_blank" rel="noopener">公式発表を確認</a>`
+    :'';
+  return `<div class="resolution-note">
+    <strong>漏えいなし確認</strong>
+    ${x.resolution_date?`<span>${escapeHtml(x.resolution_date)}</span>`:''}
+    <p>${escapeHtml(x.resolution_note||'公式発表により漏えいなしと確認されました。')}</p>
+    ${link}
+  </div>`;
+}
+
 function card(x){
   // 関連度・関連理由は「自分に関連」タブでだけ表示する。
   // 「確認済み・可能性あり」は純粋な案件一覧として見せる。
@@ -268,6 +283,7 @@ function card(x){
       <p>${escapeHtml(x.summary||'')}</p>
       ${x.exposed_data?`<p><strong>情報:</strong> ${escapeHtml(x.exposed_data)}</p>`:''}
       ${relationInfo}
+      ${resolutionBlock(x)}
       ${officialUpdateBlock(x)}
       ${sourceBlock(x)}
     </div>
@@ -302,7 +318,7 @@ function filteredRows(){
 }
 
 function render(){
-  const verifiedCount=data.length;
+  const verifiedCount=data.filter(x=>x.status==='confirmed'||x.status==='possible').length;
   const mineCount=mineRows().length;
   els.tabVerifiedCount.textContent=verifiedCount;
   els.tabMineCount.textContent=mineCount;
@@ -365,7 +381,7 @@ async function init(){
 
   const res=await fetch('data/public-incidents.json',{cache:'no-store'});
   const json=await res.json();
-  data=(json.incidents||[]).filter(x=>x.status==='confirmed'||x.status==='possible');
+  data=(json.incidents||[]).filter(x=>['confirmed','possible','cleared'].includes(x.status));
   els.lastUpdated.textContent=json.last_updated||'-';
 
   const months=[...new Set(
