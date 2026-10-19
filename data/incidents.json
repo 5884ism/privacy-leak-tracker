@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-19 18:07 JST",
+  "last_updated": "2026-10-19 18:34 JST",
   "incidents": [
     {
       "id": "2026-10-19-auto-4506c2e847",
@@ -6210,11 +6210,16 @@
       "company": "JR東日本",
       "service": "えきねっと / 大人の休日倶楽部",
       "affected_count": 2060000,
-      "status": "possible",
+      "status": "cleared",
       "cause": "クラウド関連不正アクセス",
       "summary": "外部クラウドサービスへの不正アクセスに関連して会員情報が漏えいした可能性。",
       "exposed_data": "メールアドレス、会員番号、生年月日、カード有効期限等",
       "sources": [
+        {
+          "name": "公式発表",
+          "url": "https://www.jreast.co.jp/press/2026/20261009_ho02.pdf",
+          "official": true
+        },
         {
           "name": "INTERNET Watch",
           "url": "https://internet.watch.impress.co.jp/"
@@ -6228,7 +6233,14 @@
         "status": "no_verified_official_source"
       },
       "official_updates": [],
-      "official_update_pending": false
+      "official_update_pending": false,
+      "resolution_date": "2026-10-19",
+      "resolution_note": "公式発表により個人情報の漏えいはなかったと判断",
+      "resolution_url": "https://www.jreast.co.jp/press/2026/20261009_ho02.pdf",
+      "resolved_at": "2026-10-19 18:34 JST",
+      "official_urls": [
+        "https://www.jreast.co.jp/press/2026/20261009_ho02.pdf"
+      ]
     },
     {
       "id": "2026-09-timescar",
