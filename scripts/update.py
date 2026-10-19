@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Daily detector + candidate cleanup + priority scoring.
 
-v1.6
-- stronger verified/candidate duplicate suppression using count/date fingerprints
+v1.7
+- stronger candidate-to-candidate duplicate merging using count/date fingerprints
 - preserve confirmed/possible records
 - clean candidate rows every run
 - normalize company/entity names
@@ -61,7 +61,7 @@ def rss_url(q):
     })
 
 def fetch(url):
-    req = urllib.request.Request(url, headers={"User-Agent":"privacy-leak-tracker/1.6"})
+    req = urllib.request.Request(url, headers={"User-Agent":"privacy-leak-tracker/1.7"})
     with urllib.request.urlopen(req, timeout=30) as r:
         return r.read()
 
@@ -168,39 +168,6 @@ def count_close(a,b):
     if a==b: return True
     return min(a,b)/max(a,b)>=0.97
 
-def strong_count_fingerprint(a,b):
-    """Large incidents can be matched safely even when media-derived entity names differ.
-
-    Examples:
-    E-store / BASE subsidiary / ShopServe: ~23.35M
-    Nikkei / Nikkei Shimbun: 1.83M
-    """
-    ac=int(a.get("affected_count") or 0)
-    bc=int(b.get("affected_count") or 0)
-    if ac < 100_000 or bc < 100_000:
-        return False
-    ratio=min(ac,bc)/max(ac,bc)
-    return ratio >= 0.98 and date_distance(a.get("published"),b.get("published")) <= 14
-
-def incident_context(x):
-    s=nfkc(" ".join([
-        x.get("company",""),
-        x.get("service",""),
-        x.get("summary",""),
-    ]))
-    return bool(re.search(
-        r"(漏えい|漏洩|流出|不正アクセス|サイバー攻撃|ランサムウェア|"
-        r"個人情報|会員情報|顧客情報|クレジット|免許証)", s
-    ))
-
-def verified_duplicate(candidate, verified):
-    # Strong numeric fingerprint first. This intentionally does not require entity-name equality.
-    if incident_context(candidate) and incident_context(verified) and strong_count_fingerprint(candidate,verified):
-        return True
-
-    # Fall back to the existing entity/title similarity rule.
-    return same_incident(candidate,verified)
-
 def choose_company(a,b):
     vals=[]
     for x in (a,b):
@@ -239,6 +206,33 @@ def same_incident(a,b):
     if count_close(ac,bc) and dd<=30: return True
     if dd<=7 and sim>=0.34: return True
     if ac==0 and bc==0 and dd<=3 and sim>=0.50: return True
+    return False
+
+def candidate_duplicate(a,b):
+    """More aggressive merge rule for candidate-vs-candidate records only.
+
+    Exact/near-exact large affected counts published close together are a
+    strong fingerprint even when media headlines infer different entity names.
+    """
+    if same_incident(a,b):
+        return True
+
+    ac=int(a.get("affected_count") or 0)
+    bc=int(b.get("affected_count") or 0)
+    dd=date_distance(a.get("published"),b.get("published"))
+
+    # Large incidents: near-identical counts within a few days.
+    if ac >= 100_000 and bc >= 100_000 and dd <= 7:
+        ratio=min(ac,bc)/max(ac,bc)
+        if ratio >= 0.995 and incident_context(a) and incident_context(b):
+            return True
+
+    # Very large incidents: allow slight rounding differences for same news cycle.
+    if ac >= 1_000_000 and bc >= 1_000_000 and dd <= 3:
+        ratio=min(ac,bc)/max(ac,bc)
+        if ratio >= 0.98 and incident_context(a) and incident_context(b):
+            return True
+
     return False
 
 def priority_for(x):
@@ -297,7 +291,7 @@ def cleanup_existing_candidates(incidents):
         y["affected_count"]=max(int(y.get("affected_count") or 0),extract_count(y["summary"]))
         y["sources"]=union_sources(y.get("sources"),[])
         y["article_count"]=max(int(y.get("article_count") or 0),len(y["sources"]) or 1)
-        if any(verified_duplicate(y,v) for v in verified):
+        if any(same_incident(y,v) for v in verified):
             removed_verified+=1; continue
         cleaned.append(y)
 
@@ -306,7 +300,7 @@ def cleanup_existing_candidates(incidents):
     for x in cleaned:
         hit=None
         for i,m in enumerate(merged):
-            if same_incident(x,m): hit=i; break
+            if candidate_duplicate(x,m): hit=i; break
         if hit is None: merged.append(x)
         else:
             merged[hit]=merge_two(merged[hit],x); merged_count+=1
@@ -350,12 +344,12 @@ def main():
                 "sources":[{"name":"Googleニュース経由","url":link}],
                 "auto_detected":True,"rss_pub_date":pub,"article_count":1,
             }
-            if any(verified_duplicate(new_item,v) for v in verified):
+            if any(same_incident(new_item,v) for v in verified):
                 existing_urls.add(link); continue
 
             merged=False
             for i,old in enumerate(candidates):
-                if same_incident(new_item,old):
+                if candidate_duplicate(new_item,old):
                     candidates[i]=merge_two(old,new_item); merged_new+=1; merged=True; break
 
             if not merged:
@@ -376,7 +370,7 @@ def main():
     db["maintenance"]={
         "last_cleanup":db["last_updated"],**cleanup_stats,
         "new_candidates_added":added,"new_articles_merged":merged_new,
-        "cleanup_version":"1.6",
+        "cleanup_version":"1.7",
     }
     DATA.write_text(json.dumps(db,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print("cleanup:",json.dumps(cleanup_stats,ensure_ascii=False))
