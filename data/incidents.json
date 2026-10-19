@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-20 08:21 JST",
+  "last_updated": "2026-10-20 08:31 JST",
   "incidents": [
     {
       "id": "2026-10-20-auto-80616f6f01",
@@ -2334,11 +2334,16 @@
       "company": "【大和証券】委託先のサーバー",
       "service": "",
       "affected_count": 110000,
-      "status": "candidate",
+      "status": "confirmed",
       "cause": "報道自動検知",
       "summary": "【大和証券】委託先のサーバーに不正アクセス 約11万人の個人情報流出のおそれ Tyler Stephenson (G2fqDpfKQq)",
       "exposed_data": "要確認",
       "sources": [
+        {
+          "name": "公式発表",
+          "url": "https://www.nikkei.com/nkd/disclosure/tdnr/20261005545891/",
+          "official": true
+        },
         {
           "name": "Googleニュース経由",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9EQ0VfaTlhemtwM1lYN0UwUU4xVHVubjRSUkFScUNKV3ZLQ3llbVZvX3g5TUdCWWg0WVNycG82VUkwcEk1eDJ0a1k2SDV6Skl6eTBTc1RRSHR4aWlfVGZzY0ozWV94Tnd2LWdmbA?oc=5"
@@ -2347,8 +2352,10 @@
       "auto_detected": true,
       "rss_pub_date": "Sun, 18 Oct 2026 11:57:45 GMT",
       "article_count": 1,
-      "priority": "B",
-      "priority_score": 5
+      "reviewed_at": "2026-10-20 08:31 JST",
+      "official_urls": [
+        "https://www.nikkei.com/nkd/disclosure/tdnr/20261005545891/"
+      ]
     },
     {
       "id": "2026-10-19-auto-13243097de",

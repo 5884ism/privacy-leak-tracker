@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "last_updated": "2026-10-20 08:21 JST",
+  "last_updated": "2026-10-20 08:31 JST",
   "incidents": [
     {
       "published": "2026-10-19",
@@ -399,6 +399,26 @@
         {
           "name": "Googleニュース経由",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1GQU9rQ0hUejhicU4xa1NWMENTdlNvRVhZSW1yc0d1THBFZHNOdHh4a29GTzVXbW1HanFOMGVlSXNmSXdKcmlYcjZxMm11TWM2TGZZUXpxa3lLelFfdmoyV29rN3o?oc=5"
+        }
+      ]
+    },
+    {
+      "published": "2026-10-19",
+      "company": "【大和証券】委託先のサーバー",
+      "service": "",
+      "affected_count": 110000,
+      "status": "confirmed",
+      "cause": "報道自動検知",
+      "summary": "【大和証券】委託先のサーバーに不正アクセス 約11万人の個人情報流出のおそれ Tyler Stephenson (G2fqDpfKQq)",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "公式発表",
+          "url": "https://www.nikkei.com/nkd/disclosure/tdnr/20261005545891/"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9EQ0VfaTlhemtwM1lYN0UwUU4xVHVubjRSUkFScUNKV3ZLQ3llbVZvX3g5TUdCWWg0WVNycG82VUkwcEk1eDJ0a1k2SDV6Skl6eTBTc1RRSHR4aWlfVGZzY0ozWV94Tnd2LWdmbA?oc=5"
         }
       ]
     },
