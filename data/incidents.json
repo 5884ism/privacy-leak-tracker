@@ -1,6 +1,50 @@
 {
-  "last_updated": "2026-10-20 08:43 JST",
+  "last_updated": "2026-10-20 08:49 JST",
   "incidents": [
+    {
+      "id": "2026-10-20-auto-337c52b27c",
+      "published": "2026-10-20",
+      "company": "音源販売「SONICWIRE」",
+      "service": "",
+      "affected_count": 420000,
+      "status": "confirmed",
+      "cause": "報道自動検知",
+      "summary": "音源販売「SONICWIRE」不正アクセス、「Mythosで状況把握」 会員情報最大42万件漏えいか(ITmedia NEWS)",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "公式発表",
+          "url": "https://www.crypton.co.jp/cfm/news/2026/10/20info",
+          "official": true
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBWVy1rVHNUNXQ0cWZyNjE0MHNSeENiNDAzdF9tX291eEFsZWV2Uzc3OTFhZDVES0ExU0dBbDdTVFFuVGtLWWNfcjlyNUdmNE1QeHBKalJWYTVrMmhvTjVyMy1Wc2p2d01jWXNTT9IBckFVX3lxTFB6bDl4VnUwRFVaYlJvN29wS3lNcHNISXpxcjNqcVJYRUgxVTlFZmRfc2tYTUNDLWVCdGxmb0FoZWhjWlJkUmUwOEdYbGlzNXBGaXpvQjBiZ25BTzBybXFfcEJPOHEwbzRLWUluNXlycWlGUQ?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBJN2ZocW1wb1Z6RFlVbmZxRVByTjVoczJMZVBmQXgwMHBKN2ZJaDQ3RjRfZ19PaFJDT3E3bEpQaXRKXy1IWXVMeEhieFV6OFJyR2J0SFlXT0JqV0stWFNIMkwxTzhKUGZsM0RMc3E2OERYcWx2WnVPd29URl9uWEU?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE54OTlHNDdCRUxOclFTMzR3NHduQ1d5TkRwX1pVQzYyallNeUxkTFQ0NEVCYklSV3E5RjJ5eTU4QllsRWQ5a0duclNSQmlXaEh2eGVkVXZTWFJFQXBLc2VOLTA2b1RyRHVWOUE?oc=5"
+        }
+      ],
+      "auto_detected": true,
+      "rss_pub_date": "Mon, 19 Oct 2026 11:10:43 GMT",
+      "article_count": 3,
+      "reviewed_at": "2026-10-20 08:43 JST",
+      "official_urls": [
+        "https://www.crypton.co.jp/cfm/news/2026/10/20info"
+      ],
+      "official_watch": {
+        "page_hashes": {
+          "https://www.crypton.co.jp/cfm/news/2026/10/20info": "7f150426f401e54934aa7ba5c3577b40cca8cd7f59dfa920f803e4dbdf17afda"
+        },
+        "last_checked": "2026-10-20 08:49 JST",
+        "status": "ok"
+      }
+    },
     {
       "id": "2026-10-20-auto-80616f6f01",
       "published": "2026-10-20",
@@ -616,43 +660,6 @@
       "priority_score": 3
     },
     {
-      "id": "2026-10-20-auto-337c52b27c",
-      "published": "2026-10-20",
-      "company": "音源販売「SONICWIRE」",
-      "service": "",
-      "affected_count": 420000,
-      "status": "confirmed",
-      "cause": "報道自動検知",
-      "summary": "音源販売「SONICWIRE」不正アクセス、「Mythosで状況把握」 会員情報最大42万件漏えいか(ITmedia NEWS)",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "公式発表",
-          "url": "https://www.crypton.co.jp/cfm/news/2026/10/20info",
-          "official": true
-        },
-        {
-          "name": "Googleニュース経由",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBWVy1rVHNUNXQ0cWZyNjE0MHNSeENiNDAzdF9tX291eEFsZWV2Uzc3OTFhZDVES0ExU0dBbDdTVFFuVGtLWWNfcjlyNUdmNE1QeHBKalJWYTVrMmhvTjVyMy1Wc2p2d01jWXNTT9IBckFVX3lxTFB6bDl4VnUwRFVaYlJvN29wS3lNcHNISXpxcjNqcVJYRUgxVTlFZmRfc2tYTUNDLWVCdGxmb0FoZWhjWlJkUmUwOEdYbGlzNXBGaXpvQjBiZ25BTzBybXFfcEJPOHEwbzRLWUluNXlycWlGUQ?oc=5"
-        },
-        {
-          "name": "Googleニュース経由",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBJN2ZocW1wb1Z6RFlVbmZxRVByTjVoczJMZVBmQXgwMHBKN2ZJaDQ3RjRfZ19PaFJDT3E3bEpQaXRKXy1IWXVMeEhieFV6OFJyR2J0SFlXT0JqV0stWFNIMkwxTzhKUGZsM0RMc3E2OERYcWx2WnVPd29URl9uWEU?oc=5"
-        },
-        {
-          "name": "Googleニュース経由",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE54OTlHNDdCRUxOclFTMzR3NHduQ1d5TkRwX1pVQzYyallNeUxkTFQ0NEVCYklSV3E5RjJ5eTU4QllsRWQ5a0duclNSQmlXaEh2eGVkVXZTWFJFQXBLc2VOLTA2b1RyRHVWOUE?oc=5"
-        }
-      ],
-      "auto_detected": true,
-      "rss_pub_date": "Mon, 19 Oct 2026 11:10:43 GMT",
-      "article_count": 3,
-      "reviewed_at": "2026-10-20 08:43 JST",
-      "official_urls": [
-        "https://www.crypton.co.jp/cfm/news/2026/10/20info"
-      ]
-    },
-    {
       "id": "2026-10-20-auto-ebed980532",
       "published": "2026-10-20",
       "company": "郵政ポイントサイト",
@@ -961,6 +968,28 @@
       "priority_score": 1
     },
     {
+      "id": "2026-10-20-auto-838bb2fd3a",
+      "published": "2026-10-20",
+      "company": "GETTIIS",
+      "service": "",
+      "affected_count": 0,
+      "status": "candidate",
+      "cause": "報道自動検知",
+      "summary": "「GETTIIS」で会員情報が外部流出、リンクステーションの「Gettii-Lite」に不正アクセスによるサイバー攻撃",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQM1kwdFNETnBwd2pJSUhCVnZOSFJlWE5LczlzUENFTjBFM1pNcVVYZFpnZmx6OTZYazhGanBZZkFoZWR0UUlVdHVsazNoWEhkQUdRZ0tuTVdkVmpkbGZQZ05nUHNlcDBwUW9rVE1Bc0x0UVhmTmlSMFlUSldNT3BZZF9KRmszS1B6REpfOWZ4SWVuMm01OWs5SVJjREFOVHBRNnU4?oc=5"
+        }
+      ],
+      "auto_detected": true,
+      "rss_pub_date": "Mon, 19 Oct 2026 23:45:41 GMT",
+      "article_count": 1,
+      "priority": "C",
+      "priority_score": 1
+    },
+    {
       "id": "2026-10-19-auto-2015b7fcc8",
       "published": "2026-10-19",
       "company": "ノーコードWeb制作「Studio",
@@ -1004,7 +1033,7 @@
         "page_hashes": {
           "https://studio.design/ja/whats-new/unauthorized-access-2026-10": "874c557a34eed02f9659e1c422fbc34829a3df8778c69e5bfac99ff749a767d5"
         },
-        "last_checked": "2026-10-20 08:40 JST",
+        "last_checked": "2026-10-20 08:49 JST",
         "status": "ok"
       }
     },
@@ -1044,7 +1073,7 @@
         "page_hashes": {
           "https://www.jfa.jp/news/00036934": "aa957a26cae4b62b332190b78727766537377c74261d5c3a49fecd615914137b"
         },
-        "last_checked": "2026-10-20 08:41 JST",
+        "last_checked": "2026-10-20 08:49 JST",
         "status": "ok"
       }
     },
@@ -1088,7 +1117,7 @@
         "page_hashes": {
           "https://gmo-research.ai/pressroom/notice/notice-20261005": "d745594192321178f33b231a4ed60f8f3d9024fae67902a171d12c56e8d5e5ad"
         },
-        "last_checked": "2026-10-20 08:41 JST",
+        "last_checked": "2026-10-20 08:49 JST",
         "status": "ok"
       }
     },
@@ -1326,7 +1355,7 @@
       ],
       "official_watch": {
         "page_hashes": {},
-        "last_checked": "2026-10-20 08:41 JST",
+        "last_checked": "2026-10-20 08:49 JST",
         "status": "ok"
       }
     },
@@ -1368,7 +1397,7 @@
       ],
       "official_watch": {
         "page_hashes": {},
-        "last_checked": "2026-10-20 08:41 JST",
+        "last_checked": "2026-10-20 08:49 JST",
         "status": "ok"
       }
     },
@@ -1412,7 +1441,7 @@
         "page_hashes": {
           "https://www.nifty.co.jp/newsrelease/nifty202610195434.htm": "abc779205a823250475713e543bc4fb1bbd2eda142f7547a9b63635620cfac96"
         },
-        "last_checked": "2026-10-20 08:41 JST",
+        "last_checked": "2026-10-20 08:49 JST",
         "status": "ok"
       }
     },
@@ -1452,7 +1481,7 @@
         "page_hashes": {
           "https://www.nttsolmare.com/press/2026/1016-1.html": "01cbfece6f2b630c496c8b6dc3fd95f4e0df3fd79984d4ff94918fe58da66c6f"
         },
-        "last_checked": "2026-10-20 08:41 JST",
+        "last_checked": "2026-10-20 08:49 JST",
         "status": "ok"
       }
     },
@@ -1534,7 +1563,7 @@
       ],
       "official_watch": {
         "page_hashes": {},
-        "last_checked": "2026-10-20 08:41 JST",
+        "last_checked": "2026-10-20 08:49 JST",
         "status": "no_verified_official_source"
       }
     },
@@ -1585,7 +1614,7 @@
           "https://www.busitec.co.jp/news/info": "a6d4eecfe53d3a4f69308c0c2ce53bec337a33bb6a843217f5305bcc6b66f01e",
           "https://www.iwaicosmo.co.jp/news/2026/10161410.html": "68ed9895e1cd360f343c406da4412916047e86105d5fae0d7b1a55759d3ae4f5"
         },
-        "last_checked": "2026-10-20 08:41 JST",
+        "last_checked": "2026-10-20 08:49 JST",
         "status": "ok"
       }
     },
@@ -1619,7 +1648,7 @@
       ],
       "official_watch": {
         "page_hashes": {},
-        "last_checked": "2026-10-20 08:41 JST",
+        "last_checked": "2026-10-20 08:49 JST",
         "status": "no_verified_official_source"
       }
     },
@@ -3654,7 +3683,7 @@
       "published": "2026-10-19",
       "company": "JETRO",
       "service": "",
-      "affected_count": 0,
+      "affected_count": 743,
       "status": "candidate",
       "cause": "報道自動検知",
       "summary": "JETRO、不正アクセス被害...HP公開一時停止 情報漏えい調査中(日テレNEWS NNN)",
@@ -3667,13 +3696,17 @@
         {
           "name": "Googleニュース経由",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBuZENMd0FXX1Z6dGN6VE9OUEtEeEx5dGEzWlVCSTdfakdFeE9WZktueXVsbUUyWWF5bDJjbG5ZcU8ydE9SeVJtRlREdy1pZlR4NkVlMkRxVG9lQUtFQk52YXBVQ2VCRUpFZEhZQTJYNEt4ZXhVM0pkNGJvV1JNbEE?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1rTU9UNlF6dkFYanpGM3B3THA0ZDJMcjRZa1VzUUM3TzFCSmxFaDBYS0ZxNWVTd3N5dFBLRUlKZWpuVHNIMjk3V3g4bjRCZXJKR3pwbGl4YWpRNVpxTnFvWEhObEdTd0hGQjg0RkFXNlJsajgzU0MtbGpWR2pSY2M?oc=5"
         }
       ],
       "auto_detected": true,
       "rss_pub_date": "Mon, 19 Oct 2026 04:28:00 GMT",
-      "article_count": 2,
+      "article_count": 3,
       "priority": "B",
-      "priority_score": 4
+      "priority_score": 6
     },
     {
       "id": "2026-10-19-auto-a9f8abfea7",
@@ -5678,7 +5711,7 @@
         "page_hashes": {
           "https://estore.jp/press/20261016": "be4c429dfc263b93e45f8b2193434fb563436c5533772a39363f4ed1efe3918b"
         },
-        "last_checked": "2026-10-20 08:41 JST",
+        "last_checked": "2026-10-20 08:49 JST",
         "status": "ok"
       },
       "official_urls": [
@@ -5759,7 +5792,7 @@
         "page_hashes": {
           "https://www.yamato-hd.co.jp/important/info_260929_1.html": "86f2493737c8c5fdabb53d80356b8c11e15ea7b697846ba21b13bccc86923b81"
         },
-        "last_checked": "2026-10-20 08:41 JST",
+        "last_checked": "2026-10-20 08:49 JST",
         "status": "ok"
       },
       "official_updates": [
@@ -5823,7 +5856,7 @@
         "page_hashes": {
           "https://www.nikkei.co.jp/nikkeiinfo/news/information/1561.html": "b61366ca8e2564a22cc26f2d660aa9e560bd3c9cf9322c4066b2c9ada1f5dad4"
         },
-        "last_checked": "2026-10-20 08:41 JST",
+        "last_checked": "2026-10-20 08:49 JST",
         "status": "ok"
       }
     },
@@ -5861,7 +5894,7 @@
       "reviewed_at": "2026-10-19 15:01 JST",
       "official_watch": {
         "page_hashes": {},
-        "last_checked": "2026-10-20 08:41 JST",
+        "last_checked": "2026-10-20 08:49 JST",
         "status": "ok"
       }
     },
@@ -5907,7 +5940,7 @@
       "reviewed_at": "2026-10-19 15:03 JST",
       "official_watch": {
         "page_hashes": {},
-        "last_checked": "2026-10-20 08:41 JST",
+        "last_checked": "2026-10-20 08:49 JST",
         "status": "ok"
       }
     },
@@ -5951,7 +5984,7 @@
         "page_hashes": {
           "https://skyticket.jp/news/maintenance/67603": "60f1c93eb8c544b271fb90da041c58cce408b214a9d89d043d3307e951bca587"
         },
-        "last_checked": "2026-10-20 08:41 JST",
+        "last_checked": "2026-10-20 08:49 JST",
         "status": "ok"
       }
     },
@@ -5986,7 +6019,7 @@
       "official_watch": {
         "page_hashes": {},
         "last_error": "HTTPError: https://www.burgerking.co.jp/images/notice/2026/10/15/d4d114ca-ebd7-4f3d-94ef-c4ea7a84a139.pdf",
-        "last_checked": "2026-10-20 08:41 JST",
+        "last_checked": "2026-10-20 08:49 JST",
         "status": "ok"
       }
     },
@@ -6038,7 +6071,7 @@
         "page_hashes": {
           "https://raiden.site.ktaiwork.jp/archives/4597": "deaf073eed3de1dabdca7603326d4259d612446754b78a8ab170cfadfcca5e8f"
         },
-        "last_checked": "2026-10-20 08:41 JST",
+        "last_checked": "2026-10-20 08:49 JST",
         "status": "ok"
       }
     },
@@ -7698,7 +7731,7 @@
         "page_hashes": {
           "https://www.sourcenext.com/support/i/2026/1015_info": "bd3a867fa25adca2140519f72cff539d9765a8029484b7b9ac21219265c68541"
         },
-        "last_checked": "2026-10-20 08:41 JST",
+        "last_checked": "2026-10-20 08:49 JST",
         "status": "ok"
       }
     },
@@ -7728,7 +7761,7 @@
           "https://www.itmedia.co.jp/news": "c6c690ff8e2b32bf1c83de5d9d58ae2d5bf199e58a8ce3a29036ff097bee6b0b",
           "https://www.lawson.co.jp/contents/cont07/1533174_3310.html": "b82104efb335bf62f3e1880e0e697b177806694f62895ba4067cc61f6b2d21af"
         },
-        "last_checked": "2026-10-20 08:41 JST",
+        "last_checked": "2026-10-20 08:49 JST",
         "status": "ok"
       },
       "official_updates": [],
@@ -7802,7 +7835,7 @@
           "https://news.mynavi.jp/techplus": "7ff358f33687d971405287ecb91be7c8ba8bc7c8c3ef45bd9bb3f3e0bfa55251",
           "https://www.park24.co.jp/news/2026/10/20261016-1.html": "769f2045d07a9a55faf09903d00e6bca73f3ae8a1117bb37455bfa76ea8b23e1"
         },
-        "last_checked": "2026-10-20 08:41 JST",
+        "last_checked": "2026-10-20 08:50 JST",
         "status": "ok"
       },
       "official_updates": [
@@ -7855,7 +7888,7 @@
           "https://internet.watch.impress.co.jp/": "670acfefd250d7da4fb8f5992dadb6118ac7cd8ab472a51cb44d4a162df83b85",
           "https://corp.helpfeel.com/news/news-20260916-1": "4c590cfd4dc93662fb2c971f989954b92284263d1a55328609f1fb73f11ba522"
         },
-        "last_checked": "2026-10-20 08:41 JST",
+        "last_checked": "2026-10-20 08:50 JST",
         "status": "ok"
       },
       "official_updates": [],
@@ -7889,7 +7922,7 @@
       "official_watch": {
         "page_hashes": {},
         "last_error": "HTTPError: https://www.yellowhat.jp/",
-        "last_checked": "2026-10-20 08:41 JST",
+        "last_checked": "2026-10-20 08:50 JST",
         "status": "ok"
       },
       "reviewed_at": "2026-10-19 19:10 JST",
@@ -7917,7 +7950,7 @@
         "page_hashes": {
           "https://internet.watch.impress.co.jp/": "670acfefd250d7da4fb8f5992dadb6118ac7cd8ab472a51cb44d4a162df83b85"
         },
-        "last_checked": "2026-10-20 08:41 JST",
+        "last_checked": "2026-10-20 08:50 JST",
         "status": "no_verified_official_source"
       },
       "official_updates": [],
@@ -7943,7 +7976,7 @@
         "page_hashes": {
           "https://internet.watch.impress.co.jp/": "670acfefd250d7da4fb8f5992dadb6118ac7cd8ab472a51cb44d4a162df83b85"
         },
-        "last_checked": "2026-10-20 08:41 JST",
+        "last_checked": "2026-10-20 08:50 JST",
         "status": "no_verified_official_source"
       },
       "official_updates": [],
@@ -7967,7 +8000,7 @@
       ],
       "official_watch": {
         "page_hashes": {},
-        "last_checked": "2026-10-20 08:41 JST",
+        "last_checked": "2026-10-20 08:50 JST",
         "status": "ok"
       }
     },
@@ -7991,7 +8024,7 @@
         "page_hashes": {
           "https://internet.watch.impress.co.jp/": "670acfefd250d7da4fb8f5992dadb6118ac7cd8ab472a51cb44d4a162df83b85"
         },
-        "last_checked": "2026-10-20 08:41 JST",
+        "last_checked": "2026-10-20 08:50 JST",
         "status": "no_verified_official_source"
       },
       "official_updates": [],
@@ -7999,7 +8032,7 @@
     }
   ],
   "maintenance": {
-    "last_cleanup": "2026-10-20 08:40 JST",
+    "last_cleanup": "2026-10-20 08:49 JST",
     "candidate_before": 280,
     "removed_noise": 0,
     "removed_verified_duplicates": 0,
@@ -8010,8 +8043,8 @@
     "cleanup_version": "1.8"
   },
   "official_monitor": {
-    "last_checked": "2026-10-20 08:41 JST",
-    "monitored_incidents": 27,
+    "last_checked": "2026-10-20 08:50 JST",
+    "monitored_incidents": 28,
     "updates_or_cleanup_changes": 0,
     "version": "2.4"
   }

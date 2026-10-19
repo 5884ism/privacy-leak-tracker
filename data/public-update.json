@@ -1,5 +1,5 @@
 {
-  "version": "1.1",
+  "version": "1.2",
   "date": "2026-10-20",
   "day_start_count": 28,
   "added": [
@@ -12,18 +12,97 @@
       "affected_count": 420000,
       "summary": "音源販売「SONICWIRE」不正アクセス、「Mythosで状況把握」 会員情報最大42万件漏えいか(ITmedia NEWS)",
       "resolution_date": "",
-      "resolution_note": ""
+      "resolution_note": "",
+      "reviewed_at": "2026-10-20 08:43 JST"
+    },
+    {
+      "id": "2026-10-19-auto-86c1b21212",
+      "status": "possible",
+      "published": "2026-10-19",
+      "company": "ニフティ、回線申込管理システム",
+      "service": "",
+      "affected_count": 542513,
+      "summary": "ニフティの回線申込・受付管理システムへ不正アクセスによるサイバー攻撃、最大54万2,513件の個人情報漏えいの可能性",
+      "resolution_date": "",
+      "resolution_note": "",
+      "reviewed_at": "2026-10-20 00:40 JST"
+    },
+    {
+      "id": "2026-10-19-auto-c22f67811c",
+      "status": "confirmed",
+      "published": "2026-10-19",
+      "company": "NTTソルマーレの「コミックシーモア",
+      "service": "",
+      "affected_count": 0,
+      "summary": "NTTソルマーレの「コミックシーモア」に不正アクセス、サービスを停止し精査中(INTERNET Watch)",
+      "resolution_date": "",
+      "resolution_note": "",
+      "reviewed_at": "2026-10-20 08:00 JST"
+    },
+    {
+      "id": "2026-10-19-auto-0e6344c2a4",
+      "status": "confirmed",
+      "published": "2026-10-19",
+      "company": "ユミルリンク",
+      "service": "",
+      "affected_count": 9000000,
+      "summary": "不正アクセスで個人情報延べ900万件漏えいか メール配信サービス「ユミルリンク」 (テレビ朝日系(ANN))",
+      "resolution_date": "",
+      "resolution_note": "",
+      "reviewed_at": "2026-10-20 07:56 JST"
+    },
+    {
+      "id": "2026-10-19-auto-159f8c0dbd",
+      "status": "confirmed",
+      "published": "2026-10-19",
+      "company": "岩井コスモ証券、4611人",
+      "service": "",
+      "affected_count": 4611,
+      "summary": "岩井コスモ証券、4611人の顧客情報漏えい 委託先に不正アクセス (アスキー)",
+      "resolution_date": "",
+      "resolution_note": "",
+      "reviewed_at": "2026-10-20 08:13 JST"
+    },
+    {
+      "id": "2026-10-19-auto-6072632f96",
+      "status": "confirmed",
+      "published": "2026-10-19",
+      "company": "【大和証券】委託先のサーバー",
+      "service": "",
+      "affected_count": 110000,
+      "summary": "【大和証券】委託先のサーバーに不正アクセス 約11万人の個人情報流出のおそれ Tyler Stephenson (G2fqDpfKQq)",
+      "resolution_date": "",
+      "resolution_note": "",
+      "reviewed_at": "2026-10-20 08:31 JST"
+    },
+    {
+      "id": "2026-10-17-auto-b8a44fe43d",
+      "status": "confirmed",
+      "published": "2026-10-17",
+      "company": "警察官・職員2000人の個人情報",
+      "service": "",
+      "affected_count": 2000,
+      "summary": "【画像】警察官・職員2000人の個人情報が流出した可能性...「アルカディア」不正アクセス、現時点で業務への影響なし",
+      "resolution_date": "",
+      "resolution_note": "",
+      "reviewed_at": "2026-10-20 00:48 JST"
     }
   ],
   "changed": [],
-  "generated_at": "2026-10-19T23:43:30+00:00",
-  "last_checked_at": "2026-10-19T23:43:30+00:00",
+  "generated_at": "2026-10-19T23:50:09+00:00",
+  "last_checked_at": "2026-10-19T23:50:09+00:00",
   "after_count": 29,
   "net_change": 1,
-  "added_count": 1,
+  "added_count": 7,
   "changed_count": 0,
   "added_ids": [
-    "2026-10-20-auto-337c52b27c"
+    "2026-10-20-auto-337c52b27c",
+    "2026-10-19-auto-86c1b21212",
+    "2026-10-19-auto-c22f67811c",
+    "2026-10-19-auto-0e6344c2a4",
+    "2026-10-19-auto-159f8c0dbd",
+    "2026-10-19-auto-6072632f96",
+    "2026-10-17-auto-b8a44fe43d"
   ],
   "changed_ids": []
 }
