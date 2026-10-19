@@ -37,12 +37,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: "3.12"
+
+      - name: Snapshot public incidents before promotion
+        run: python scripts/report_public_changes.py snapshot /tmp/public-before.json
 
       - name: Promote incident
         env:
@@ -59,11 +62,17 @@ jobs:
             --source-name "$SOURCE_NAME" \
             --note "$NOTE"
 
+      - name: Generate public feed
+        run: python scripts/export_public.py
+
+      - name: Report public changes
+        run: python scripts/report_public_changes.py report /tmp/public-before.json
+
       - name: Commit changes
         run: |
           git config user.name "privacy-leak-bot"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/incidents.json
+          git add data/incidents.json data/public-incidents.json data/public-update.json
           if git diff --cached --quiet; then
             echo "No changes"
             exit 0
