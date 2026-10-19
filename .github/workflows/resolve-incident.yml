@@ -1,0 +1,79 @@
+name: Resolve incident
+
+on:
+  workflow_dispatch:
+    inputs:
+      incident_id:
+        description: "confirmed / possible 案件の案件ID"
+        required: true
+        type: string
+
+      resolution_date:
+        description: "漏えいなし確認日 (YYYY-MM-DD)"
+        required: true
+        type: string
+
+      resolution_url:
+        description: "漏えいなしと確認できる公式発表URL"
+        required: true
+        type: string
+
+      resolution_note:
+        description: "確定理由（例: 公式発表により個人情報の漏えいはなかったと判断）"
+        required: true
+        type: string
+
+      source_name:
+        description: "公式情報源の表示名"
+        required: false
+        default: "公式発表"
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  resolve:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Resolve incident
+        env:
+          INCIDENT_ID: ${{ inputs.incident_id }}
+          RESOLUTION_DATE: ${{ inputs.resolution_date }}
+          RESOLUTION_URL: ${{ inputs.resolution_url }}
+          RESOLUTION_NOTE: ${{ inputs.resolution_note }}
+          SOURCE_NAME: ${{ inputs.source_name }}
+        run: |
+          python scripts/resolve_incident.py \
+            --id "$INCIDENT_ID" \
+            --resolution-date "$RESOLUTION_DATE" \
+            --resolution-url "$RESOLUTION_URL" \
+            --resolution-note "$RESOLUTION_NOTE" \
+            --source-name "$SOURCE_NAME"
+
+      - name: Generate public feed
+        run: python scripts/export_public.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "privacy-leak-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add data/incidents.json data/public-incidents.json
+
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+
+          git commit -m "review: resolve incident ${{ inputs.incident_id }}"
+          git push
