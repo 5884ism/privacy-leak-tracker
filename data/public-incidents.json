@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "last_updated": "2026-10-19 18:48 JST",
+  "last_updated": "2026-10-19 18:49 JST",
   "incidents": [
     {
       "published": "2026-10-17",
@@ -290,6 +290,10 @@
       "summary": "ローソンID会員情報の一部が漏えい。",
       "exposed_data": "メールアドレス、氏名、性別、電話番号、住所等",
       "sources": [
+        {
+          "name": "公式発表",
+          "url": "https://www.lawson.co.jp/contents/cont07/1533174_3310.html"
+        },
         {
           "name": "ITmedia",
           "url": "https://www.itmedia.co.jp/news/"
