@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "last_updated": "2026-10-19 19:16 JST",
+  "last_updated": "2026-10-20 07:09 JST",
   "incidents": [
     {
       "published": "2026-10-19",
@@ -308,6 +308,34 @@
     },
     {
       "published": "2026-10-19",
+      "company": "ニフティ、回線申込管理システム",
+      "service": "",
+      "affected_count": 542513,
+      "status": "possible",
+      "cause": "報道自動検知",
+      "summary": "ニフティの回線申込・受付管理システムへ不正アクセスによるサイバー攻撃、最大54万2,513件の個人情報漏えいの可能性",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "公式発表",
+          "url": "https://www.nifty.co.jp/newsrelease/nifty202610195434.htm"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBPV1lTUDZES3ZVbDlwc21jWTVJSjJQZ1pPa2Z1c2dGOW1LRnh5YmJVSWtGdWsyRmwxV0xsYktRdGoxVDJMRGpZanhjZTdXbHNQVDVKTkYtaWMwdUloYkRERThNbzlvV2lheVBz?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNOUs5VjRGUS05RDNlaTNzcXFOeElCN28ycjVXVWlpQlVLX2VSQ05zUjAxZGI2TlNJTHRzSVRiNERvaU1JcnhVcWpEU1k3SmhUcElGX3RPWWIyYmVHaVl0b080TWZHU1JYWWZtX1FZeW0tR2psVnpGbmZHZEI3cmNNQ1FUa0hMdWw3QjBFT3VTRERCODl4NVhuRzVoRE9fSlM5U09rMXVNUHlHZFk?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1GQU9rQ0hUejhicU4xa1NWMENTdlNvRVhZSW1yc0d1THBFZHNOdHh4a29GTzVXbW1HanFOMGVlSXNmSXdKcmlYcjZxMm11TWM2TGZZUXpxa3lLelFfdmoyV29rN3o?oc=5"
+        }
+      ]
+    },
+    {
+      "published": "2026-10-19",
       "company": "ノーコードWeb制作「Studio",
       "service": "",
       "affected_count": 0,
@@ -597,6 +625,42 @@
         {
           "name": "Googleニュース経由",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSzNLZ1BMU21hdFVZek9nYi1xWnkzRUZ2Znl1WlVUcVluUHRKdGF1azZuSUhfSFljOUlvVXVSSjgtN0RFeC1EZWlBd18tZHFockNsNTAzX0kyZGUwU1M0MGZpYVBlN2lIZzk0RVdLSFNodDRiNVBVMDVxRUJJWlVfV2ZiXzRUTjNDYlExUWJFS3lzSkNUaFQ1QlJxSdIBmwFBVV95cUxNSzNLZ1BMU21hdFVZek9nYi1xWnkzRUZ2Znl1WlVUcVluUHRKdGF1azZuSUhfSFljOUlvVXVSSjgtN0RFeC1EZWlBd18tZHFockNsNTAzX0kyZGUwU1M0MGZpYVBlN2lIZzk0RVdLSFNodDRiNVBVMDVxRUJJWlVfV2ZiXzRUTjNDYlExUWJFS3lzSkNUaFQ1QlJxSQ?oc=5"
+        }
+      ]
+    },
+    {
+      "published": "2026-10-17",
+      "company": "警察官・職員2000人の個人情報",
+      "service": "",
+      "affected_count": 2000,
+      "status": "confirmed",
+      "cause": "報道自動検知",
+      "summary": "【画像】警察官・職員2000人の個人情報が流出した可能性...「アルカディア」不正アクセス、現時点で業務への影響なし",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "公式発表",
+          "url": "https://raiden.site.ktaiwork.jp/archives/4597"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5CRlRrUkQyNjZJSmhtdWs2RmtoQnlnVF9ERmdxc0JPVTJHR1FhbXZBTjlDVFFfZkJYdFZVdEQ2NmhfaTZFcGdEalBLeFdlTWtjSDVId3RjNFcxY3ZHeHBwUkM4VGZYQQ?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQX2Q2aHJPZ3BmS2RYNWtTYzc0dWdQZ0w1bHJURUNDZDlkTXJ2SUs2cWV6OUNaVkpDYjNEVElDNWJkUDA1LThGRE1PUGJRbmhIZERrdTZXbjgtX3o2elIxQWY4ckY3aEd0bDBoYnVoSmU0VTBWUDU3akJCdmhiOTduYUZaS2NiMGtKaTRlVy1n?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOeGc5MW16MTdfMFVRMjZmdTU5OFBGTDNsVmJMTzJsMFhPMDk1RkN6eVF2ZmVTdmlTNXJNZHJiVmdkNEk5VVZXSVQ4b21ialNuaDhGLVE5RjFNOWVvWUk4eXhzM3VSWllFMEE5Uk5JaVIzZk54ZDNqQzVPOGFnbXNGSFVWWHpxX1hVN3fSAYoBQVVfeXFMTnhnOTFtejE3XzBVUTI2ZnU1OThQRkwzbFZiTE8ybDBYTzA5NUZDenlRdmZlU3ZpUzVyTWRyYlZnZDRJOVVWV0lUOG9tYmpTbmg4Ri1ROUYxTTllb1lJOHl4czN1UlpZRTBBOVJOSWlSM2ZOeGQzakM1TzhhZ21zRkhVVlh6cV9YVTd3?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE00QlZuVU1vdHNjYWlPLTk4UGNBNkxzOXZVeXVwMWdrSUxIbnI4STJFTmgyX0RTUWhpd2ttaXJQTjFqNm9aQ0VhMHNZUHpBNEE3NGoxNFAzWW1KbDBYQW9qM0VYcFdkdFdfQVBpUnczT2VpSVBvellCZm90aTg?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBUZFJBTFMyUHNESkM4TTFNdGtwLU9GS2xBSjMtRjZrUjhlSWdVeWg5anVwVTctdGYzS2xJQXFfYVN6aFJ4LVFXRllQQzJ2MmlYVHh0UTVGM3k2bWFDUzc5WEg2U1g3ZHBTOTE1Nm1sSXBnNGJpS3BWN2J6NF91WUE?oc=5"
         }
       ]
     },
