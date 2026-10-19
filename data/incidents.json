@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-19 19:08 JST",
+  "last_updated": "2026-10-19 19:10 JST",
   "incidents": [
     {
       "id": "2026-10-19-auto-4506c2e847",
@@ -6387,6 +6387,11 @@
       "exposed_data": "氏名、住所、生年月日、電話番号、メールアドレス、会員番号、ID等",
       "sources": [
         {
+          "name": "公式発表",
+          "url": "https://www.yellowhat.jp/information/yellowhat/202610_2.html",
+          "official": true
+        },
+        {
           "name": "公式・報道",
           "url": "https://www.yellowhat.jp/"
         }
@@ -6396,7 +6401,11 @@
         "last_error": "HTTPError: https://www.yellowhat.jp/",
         "last_checked": "2026-10-19 18:50 JST",
         "status": "ok"
-      }
+      },
+      "reviewed_at": "2026-10-19 19:10 JST",
+      "official_urls": [
+        "https://www.yellowhat.jp/information/yellowhat/202610_2.html"
+      ]
     },
     {
       "id": "2026-07-sagawa",
