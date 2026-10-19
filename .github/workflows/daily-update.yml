@@ -6,7 +6,6 @@ on:
     # 21:10 UTC = 06:10 JST
     - cron: '10 21 * * *'
 
-  # GitHub画面から手動実行もできるようにする
   workflow_dispatch:
 
 permissions:
@@ -28,6 +27,9 @@ jobs:
       - name: Update incidents
         run: python scripts/update.py
 
+      - name: Check official follow-up announcements
+        run: python scripts/check_official_updates.py
+
       - name: Commit changes
         run: |
           git config user.name "privacy-leak-bot"
@@ -40,5 +42,5 @@ jobs:
             exit 0
           fi
 
-          git commit -m "chore: daily incident update"
+          git commit -m "chore: daily incident and official update check"
           git push
