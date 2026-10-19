@@ -27,7 +27,6 @@
 
   function ensurePanel(){
     if(document.getElementById('candidateUpdatePanel')) return;
-
     const tabs = document.querySelector('.view-tabs');
     if(!tabs) return;
 
@@ -35,7 +34,6 @@
     panel.id = 'candidateUpdatePanel';
     panel.className = 'candidate-update-panel';
     panel.setAttribute('aria-live','polite');
-
     tabs.parentNode.insertBefore(panel, tabs);
   }
 
@@ -44,10 +42,18 @@
     const panel = document.getElementById('candidateUpdatePanel');
     if(!panel || !updateInfo) return;
 
-    const net = Number(updateInfo.net_change || 0);
+    const net = Number(updateInfo.visible_net_change ?? updateInfo.net_change ?? 0);
     const netText = `${net > 0 ? '+' : ''}${net}`;
     const newCount = Number(updateInfo.new_count || 0);
     const rows = updateInfo.new_candidates || [];
+
+    const before = Number(updateInfo.visible_before_count ?? updateInfo.before_count ?? 0);
+    const after = Number(updateInfo.visible_after_count ?? updateInfo.after_count ?? 0);
+
+    const rawBefore = Number(updateInfo.raw_before_count ?? 0);
+    const rawAfter = Number(updateInfo.raw_after_count ?? 0);
+    const rawNet = Number(updateInfo.raw_net_change ?? (rawAfter - rawBefore));
+    const rawNetText = `${rawNet > 0 ? '+' : ''}${rawNet}`;
 
     const summaryClass = newCount > 0 ? 'has-new' : 'no-new';
 
@@ -55,20 +61,26 @@
       <div class="candidate-update-head ${summaryClass}">
         <div>
           <span class="candidate-update-kicker">LATEST UPDATE</span>
-          <strong>今回の更新：新規候補 ${newCount}件</strong>
+          <strong>今回の更新：新規表示候補 ${newCount}件</strong>
           <span class="candidate-update-total">
-            候補総数 ${Number(updateInfo.before_count || 0)}
-            → ${Number(updateInfo.after_count || 0)}件
+            表示候補総数 ${before} → ${after}件
             （差分 ${esc(netText)}）
           </span>
+          ${rawBefore || rawAfter ? `
+            <span class="candidate-update-total">
+              内部candidate生データ ${rawBefore} → ${rawAfter}件
+              （差分 ${esc(rawNetText)}）
+            </span>
+          ` : ''}
         </div>
         <span class="candidate-update-time">
           更新 ${esc(jstTime(updateInfo.generated_at))}
         </span>
       </div>
+
       ${rows.length ? `
         <details class="candidate-update-details" open>
-          <summary>今回追加された案件を見る</summary>
+          <summary>今回追加された表示候補を見る</summary>
           <div class="candidate-update-list">
             ${rows.map(x => `
               <article class="candidate-update-item">
@@ -85,7 +97,7 @@
             `).join('')}
           </div>
         </details>
-      ` : `<p class="candidate-update-empty">今回、新たな要確認候補はありません。</p>`}
+      ` : `<p class="candidate-update-empty">今回、新たな表示候補はありません。</p>`}
     `;
   }
 
