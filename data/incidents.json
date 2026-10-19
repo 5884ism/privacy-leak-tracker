@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-20 00:40 JST",
+  "last_updated": "2026-10-20 00:48 JST",
   "incidents": [
     {
       "id": "2026-10-19-auto-2015b7fcc8",
@@ -5005,11 +5005,16 @@
       "company": "警察官・職員2000人の個人情報",
       "service": "",
       "affected_count": 2000,
-      "status": "candidate",
+      "status": "confirmed",
       "cause": "報道自動検知",
       "summary": "【画像】警察官・職員2000人の個人情報が流出した可能性...「アルカディア」不正アクセス、現時点で業務への影響なし",
       "exposed_data": "要確認",
       "sources": [
+        {
+          "name": "公式発表",
+          "url": "https://raiden.site.ktaiwork.jp/archives/4597",
+          "official": true
+        },
         {
           "name": "Googleニュース経由",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5CRlRrUkQyNjZJSmhtdWs2RmtoQnlnVF9ERmdxc0JPVTJHR1FhbXZBTjlDVFFfZkJYdFZVdEQ2NmhfaTZFcGdEalBLeFdlTWtjSDVId3RjNFcxY3ZHeHBwUkM4VGZYQQ?oc=5"
@@ -5034,8 +5039,10 @@
       "auto_detected": true,
       "rss_pub_date": "Sat, 17 Oct 2026 00:51:00 GMT",
       "article_count": 5,
-      "priority": "A",
-      "priority_score": 7
+      "reviewed_at": "2026-10-20 00:48 JST",
+      "official_urls": [
+        "https://raiden.site.ktaiwork.jp/archives/4597"
+      ]
     },
     {
       "id": "2026-10-17-auto-456fd8715d",
