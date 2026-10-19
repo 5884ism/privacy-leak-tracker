@@ -1,7 +1,5 @@
 (() => {
   let updateInfo = null;
-  let addedIds = new Set();
-  let changedIds = new Set();
 
   const esc = v => String(v ?? '').replace(/[&<>'"]/g, c => ({
     '&':'&amp;', '<':'&lt;', '>':'&gt;', "'":'&#39;', '"':'&quot;'
@@ -51,23 +49,25 @@
     panel.innerHTML = `
       <div class="public-update-head ${hasUpdate ? 'has-update' : 'no-update'}">
         <div>
-          <span class="public-update-kicker">LATEST UPDATE</span>
+          <span class="public-update-kicker">TODAY'S UPDATE</span>
           <strong>
-            今回の更新：新規公開 ${added}件
+            今日の更新：新規公開 ${added}件
             ${changed ? ` / ステータス更新 ${changed}件` : ''}
           </strong>
           <span class="public-update-total">
-            公開対象総数 ${Number(updateInfo.before_count || 0)}
+            公開対象総数 ${Number(updateInfo.day_start_count || 0)}
             → ${Number(updateInfo.after_count || 0)}件
-            （差分 ${esc(netText)}）
+            （本日差分 ${esc(netText)}）
           </span>
         </div>
-        <span class="public-update-time">更新 ${esc(jstTime(updateInfo.generated_at))}</span>
+        <span class="public-update-time">
+          最終確認 ${esc(jstTime(updateInfo.last_checked_at || updateInfo.generated_at))}
+        </span>
       </div>
 
       ${hasUpdate ? `
         <details class="public-update-details" open>
-          <summary>今回の更新内容を見る</summary>
+          <summary>今日の更新内容を見る</summary>
           <div class="public-update-list">
             ${addedRows.map(x => `
               <article class="public-update-item">
@@ -98,25 +98,26 @@
         </details>
       ` : `
         <p class="public-update-empty">
-          今回、新たな公開案件・ステータス更新はありません。
+          本日はまだ新たな公開案件・ステータス更新はありません。
         </p>
       `}
     `;
   }
 
   function decorateCards(){
+    if(!updateInfo) return;
+
     document.querySelectorAll('#cards .card').forEach(card => {
       const h3 = card.querySelector('h3');
       if(!h3) return;
 
-      // public-app.js のカードにはIDが出ないため、表示名・日付で更新対象を照合
       const date = card.querySelector('.date')?.textContent?.trim() || '';
       const title = h3.textContent.trim();
 
-      const added = (updateInfo?.added || []).find(
+      const added = (updateInfo.added || []).find(
         x => label(x) === title && String(x.published || '-') === date
       );
-      const changed = (updateInfo?.changed || []).find(
+      const changed = (updateInfo.changed || []).find(
         x => label(x) === title && String(x.published || '-') === date
       );
 
@@ -129,9 +130,7 @@
         badge.className = 'badge public-new';
         badge.textContent = 'NEW';
         meta.prepend(badge);
-      }
-
-      if(changed && !meta.querySelector('.public-updated')){
+      } else if(changed && !meta.querySelector('.public-updated')){
         card.classList.add('public-updated-card');
         const badge = document.createElement('span');
         badge.className = 'badge public-updated';
@@ -146,8 +145,6 @@
       const res = await fetch('data/public-update.json', {cache:'no-store'});
       if(!res.ok) return;
       updateInfo = await res.json();
-      addedIds = new Set(updateInfo.added_ids || []);
-      changedIds = new Set(updateInfo.changed_ids || []);
       renderPanel();
       decorateCards();
     }catch(e){
