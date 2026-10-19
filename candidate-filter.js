@@ -22,35 +22,54 @@
 
   function leakContext(x){
     const s=`${x.company||''} ${x.service||''} ${x.summary||''}`;
-    return /(漏えい|漏洩|流出|不正アクセス|サイバー攻撃|ランサムウェア|個人情報|会員情報|顧客情報|免許証)/i.test(s);
+    return /(漏えい|漏洩|流出|不正アクセス|サイバー攻撃|ランサムウェア|個人情報|会員情報|顧客情報|免許証|クレジット)/i.test(s);
   }
 
   function verifiedTokens(v){
     const out=[];
     const c=norm(v.company||'');
     const s=norm(v.service||'');
-    if(c.length>=3)out.push(c);
-    if(s.length>=3)out.push(s);
+    if(c.length>=2)out.push(c);
+    if(s.length>=2)out.push(s);
+
+    // 確定案件のsummaryに出る固有サービス名も補助トークンにする
+    const raw=v.summary||'';
+    const quoted=[...raw.matchAll(/[「『](.{2,30}?)[」』]/g)].map(m=>norm(m[1]));
+    out.push(...quoted.filter(x=>x.length>=2));
+
     return [...new Set(out)];
   }
 
   function primaryText(x){
-    return norm(`${x.company||''} ${(x.summary||'').slice(0,80)}`);
+    return norm(`${x.company||''} ${x.service||''} ${x.summary||''}`);
+  }
+
+  function strongCountMatch(c,v){
+    const ca=Number(c.affected_count||0);
+    const va=Number(v.affected_count||0);
+    if(ca<100000 || va<100000) return false;
+    return countRatio(ca,va)>=0.98 && daysApart(c.published,v.published)<=14;
   }
 
   function candidateDuplicatesVerified(c,v){
+    if(!leakContext(c)) return false;
+
+    // 1) 大規模案件は件数+日付を強い指紋として扱う。
+    // Eストアー 23,356,000 vs 23,350,000、日経 1,830,000等。
+    if(strongCountMatch(c,v)) return true;
+
     const ct=primaryText(c);
     const tokens=verifiedTokens(v);
-    if(!tokens.length||!leakContext(c))return false;
-
-    const tokenHit=tokens.some(t=>ct.includes(t));
+    const tokenHit=tokens.some(t=>t && ct.includes(t));
     if(!tokenHit)return false;
 
     const days=daysApart(c.published,v.published);
     const ratio=countRatio(c.affected_count,v.affected_count);
 
+    // 2) 名称一致 + 件数が近い
     if(ratio>=0.75 && days<=120)return true;
 
+    // 3) 件数不明の続報・反応記事
     if(Number(c.affected_count||0)===0 && days<=60){
       const s=`${c.company||''} ${c.summary||''}`;
       if(/(続報|第\d+報|最終報|調査結果|再開|変更|会員|利用者|怒り|免許証|被害|流出|漏えい|漏洩|不正アクセス)/i.test(s)){
@@ -58,8 +77,9 @@
       }
     }
 
+    // 4) サービス名が一致
     const vs=norm(v.service||'');
-    if(vs.length>=3 && ct.includes(vs) && days<=90)return true;
+    if(vs.length>=2 && ct.includes(vs) && days<=90)return true;
 
     return false;
   }
@@ -74,12 +94,16 @@
 
   function patch(){
     if(typeof rowsForView!=='function'||typeof render!=='function')return false;
-    if(window.__candidateFilterV27Patched)return true;
-    window.__candidateFilterV27Patched=true;
+    if(window.__candidateFilterV29Patched)return true;
+    window.__candidateFilterV29Patched=true;
 
     const originalRowsForView=rowsForView;
     rowsForView=function(){
       if(currentView==='candidate') return visibleCandidates();
+      if(currentView==='all'){
+        const nonCandidates=originalRowsForView().filter(x=>x.status!=='candidate');
+        return nonCandidates.concat(visibleCandidates());
+      }
       return originalRowsForView();
     };
 
@@ -91,9 +115,8 @@
       if(els?.tabCandidateCount) els.tabCandidateCount.textContent=candidates.length;
 
       if(els?.tabAllCount){
-        const verifiedCount=data.filter(x=>x.status==='confirmed'||x.status==='possible').length;
-        const otherCount=data.filter(x=>!['confirmed','possible','candidate'].includes(x.status)).length;
-        els.tabAllCount.textContent=verifiedCount+candidates.length+otherCount;
+        const nonCandidateCount=data.filter(x=>x.status!=='candidate').length;
+        els.tabAllCount.textContent=nonCandidateCount+candidates.length;
       }
     };
 
