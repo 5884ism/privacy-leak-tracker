@@ -1,97 +1,32 @@
 {
   "version": "1.1",
-  "generated_at": "2026-10-19T23:21:51+00:00",
-  "before_count": 151,
+  "generated_at": "2026-10-19T23:40:58+00:00",
+  "before_count": 156,
   "after_count": 157,
-  "net_change": 6,
-  "new_count": 6,
+  "net_change": 1,
+  "new_count": 1,
   "removed_count": 0,
-  "visible_before_count": 151,
+  "visible_before_count": 156,
   "visible_after_count": 157,
-  "visible_net_change": 6,
-  "raw_before_count": 274,
+  "visible_net_change": 1,
+  "raw_before_count": 280,
   "raw_after_count": 281,
-  "raw_net_change": 7,
+  "raw_net_change": 1,
   "new_candidate_ids": [
-    "2026-10-20-auto-16032e28c0",
-    "2026-10-20-auto-823e8d4b86",
-    "2026-10-20-auto-019a90fadc",
-    "2026-10-20-auto-43f3bd5c19",
-    "2026-10-20-auto-3727995eaa",
-    "2026-10-20-auto-fa2f319585"
+    "2026-10-20-auto-eab2abc4ee"
   ],
   "new_candidates": [
     {
-      "id": "2026-10-20-auto-16032e28c0",
+      "id": "2026-10-20-auto-eab2abc4ee",
       "member_ids": [
-        "2026-10-20-auto-16032e28c0"
+        "2026-10-20-auto-eab2abc4ee"
       ],
       "priority": "C",
       "published": "2026-10-20",
-      "company": "らしんばん運営サービス",
+      "company": "東邦HD子会社エンタッチ",
       "service": "",
       "affected_count": 0,
-      "summary": "らしんばん運営サービスに不正アクセス、顧客情報が漏えいした可能性"
-    },
-    {
-      "id": "2026-10-20-auto-823e8d4b86",
-      "member_ids": [
-        "2026-10-20-auto-823e8d4b86"
-      ],
-      "priority": "C",
-      "published": "2026-10-20",
-      "company": "VOISING が利用する BI ツール",
-      "service": "",
-      "affected_count": 0,
-      "summary": "VOISING が利用する BI ツールに不正アクセス、SNS で個人情報の公開も確認"
-    },
-    {
-      "id": "2026-10-20-auto-019a90fadc",
-      "member_ids": [
-        "2026-10-20-auto-019a90fadc"
-      ],
-      "priority": "C",
-      "published": "2026-10-20",
-      "company": "ALSOKジョイライフの端末",
-      "service": "",
-      "affected_count": 0,
-      "summary": "ALSOKジョイライフの端末に不正アクセス、ベルパージュ奈良あやめ池入居者の情報が閲覧された可能性"
-    },
-    {
-      "id": "2026-10-20-auto-43f3bd5c19",
-      "member_ids": [
-        "2026-10-20-auto-43f3bd5c19"
-      ],
-      "priority": "C",
-      "published": "2026-10-20",
-      "company": "アフラック生命保険へ",
-      "service": "",
-      "affected_count": 0,
-      "summary": "アフラック生命保険への不正アクセス、契約者専用サイトのサービス再開"
-    },
-    {
-      "id": "2026-10-20-auto-3727995eaa",
-      "member_ids": [
-        "2026-10-20-auto-3727995eaa"
-      ],
-      "priority": "C",
-      "published": "2026-10-20",
-      "company": "ゴルフダイジェスト・オンライン",
-      "service": "",
-      "affected_count": 0,
-      "summary": "ゴルフダイジェスト・オンラインに不正アクセス、攻撃者にファイルがダウンロードされたことを確認"
-    },
-    {
-      "id": "2026-10-20-auto-fa2f319585",
-      "member_ids": [
-        "2026-10-20-auto-fa2f319585"
-      ],
-      "priority": "C",
-      "published": "2026-10-20",
-      "company": "吉野家がアルバイト採用業務を一部委託していた ApplyNow",
-      "service": "",
-      "affected_count": 0,
-      "summary": "吉野家がアルバイト採用業務を一部委託していた ApplyNow の採用管理プラットフォームに不正アクセス、契約終了後もデータ消去されず"
+      "summary": "東邦HD子会社エンタッチにランサムウェア攻撃、医療従事者や面談予約情報の漏えいを確認"
     }
   ],
   "removed_candidates": []

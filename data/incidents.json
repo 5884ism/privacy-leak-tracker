@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-20 08:31 JST",
+  "last_updated": "2026-10-20 08:40 JST",
   "incidents": [
     {
       "id": "2026-10-20-auto-80616f6f01",
@@ -633,13 +633,17 @@
         {
           "name": "Googleニュース経由",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBJN2ZocW1wb1Z6RFlVbmZxRVByTjVoczJMZVBmQXgwMHBKN2ZJaDQ3RjRfZ19PaFJDT3E3bEpQaXRKXy1IWXVMeEhieFV6OFJyR2J0SFlXT0JqV0stWFNIMkwxTzhKUGZsM0RMc3E2OERYcWx2WnVPd29URl9uWEU?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE54OTlHNDdCRUxOclFTMzR3NHduQ1d5TkRwX1pVQzYyallNeUxkTFQ0NEVCYklSV3E5RjJ5eTU4QllsRWQ5a0duclNSQmlXaEh2eGVkVXZTWFJFQXBLc2VOLTA2b1RyRHVWOUE?oc=5"
         }
       ],
       "auto_detected": true,
       "rss_pub_date": "Mon, 19 Oct 2026 11:10:43 GMT",
-      "article_count": 2,
+      "article_count": 3,
       "priority": "A",
-      "priority_score": 8
+      "priority_score": 9
     },
     {
       "id": "2026-10-20-auto-ebed980532",
@@ -928,6 +932,28 @@
       "priority_score": 0
     },
     {
+      "id": "2026-10-20-auto-eab2abc4ee",
+      "published": "2026-10-20",
+      "company": "東邦HD子会社エンタッチ",
+      "service": "",
+      "affected_count": 0,
+      "status": "candidate",
+      "cause": "報道自動検知",
+      "summary": "東邦HD子会社エンタッチにランサムウェア攻撃、医療従事者や面談予約情報の漏えいを確認",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPcXhXREphR29lWDRaV3FBUjhyRENhR3B4c0xPQzAzdWNQR1hCdDVVYnlHdUhTU0ZmcEVtaFluQkw4S2Jwb2h2Y3pqVk54a0l6dU03Tzl1LTNPbEp1dy02LWtYamNIclB5VlhtY0piUk1ULTBhWEJKWEZLcGJCdHB4eUFqLTRObnhNVldwaThhRDF0X2Ryd0FsTQ?oc=5"
+        }
+      ],
+      "auto_detected": true,
+      "rss_pub_date": "Mon, 19 Oct 2026 23:30:38 GMT",
+      "article_count": 1,
+      "priority": "C",
+      "priority_score": 1
+    },
+    {
       "id": "2026-10-19-auto-2015b7fcc8",
       "published": "2026-10-19",
       "company": "ノーコードWeb制作「Studio",
@@ -971,7 +997,7 @@
         "page_hashes": {
           "https://studio.design/ja/whats-new/unauthorized-access-2026-10": "874c557a34eed02f9659e1c422fbc34829a3df8778c69e5bfac99ff749a767d5"
         },
-        "last_checked": "2026-10-20 08:21 JST",
+        "last_checked": "2026-10-20 08:40 JST",
         "status": "ok"
       }
     },
@@ -1011,7 +1037,7 @@
         "page_hashes": {
           "https://www.jfa.jp/news/00036934": "aa957a26cae4b62b332190b78727766537377c74261d5c3a49fecd615914137b"
         },
-        "last_checked": "2026-10-20 08:21 JST",
+        "last_checked": "2026-10-20 08:41 JST",
         "status": "ok"
       }
     },
@@ -1055,7 +1081,7 @@
         "page_hashes": {
           "https://gmo-research.ai/pressroom/notice/notice-20261005": "d745594192321178f33b231a4ed60f8f3d9024fae67902a171d12c56e8d5e5ad"
         },
-        "last_checked": "2026-10-20 08:21 JST",
+        "last_checked": "2026-10-20 08:41 JST",
         "status": "ok"
       }
     },
@@ -1293,7 +1319,7 @@
       ],
       "official_watch": {
         "page_hashes": {},
-        "last_checked": "2026-10-20 08:21 JST",
+        "last_checked": "2026-10-20 08:41 JST",
         "status": "ok"
       }
     },
@@ -1335,7 +1361,7 @@
       ],
       "official_watch": {
         "page_hashes": {},
-        "last_checked": "2026-10-20 08:21 JST",
+        "last_checked": "2026-10-20 08:41 JST",
         "status": "ok"
       }
     },
@@ -1379,7 +1405,7 @@
         "page_hashes": {
           "https://www.nifty.co.jp/newsrelease/nifty202610195434.htm": "abc779205a823250475713e543bc4fb1bbd2eda142f7547a9b63635620cfac96"
         },
-        "last_checked": "2026-10-20 08:21 JST",
+        "last_checked": "2026-10-20 08:41 JST",
         "status": "ok"
       }
     },
@@ -1419,7 +1445,7 @@
         "page_hashes": {
           "https://www.nttsolmare.com/press/2026/1016-1.html": "01cbfece6f2b630c496c8b6dc3fd95f4e0df3fd79984d4ff94918fe58da66c6f"
         },
-        "last_checked": "2026-10-20 08:21 JST",
+        "last_checked": "2026-10-20 08:41 JST",
         "status": "ok"
       }
     },
@@ -1501,7 +1527,7 @@
       ],
       "official_watch": {
         "page_hashes": {},
-        "last_checked": "2026-10-20 08:21 JST",
+        "last_checked": "2026-10-20 08:41 JST",
         "status": "no_verified_official_source"
       }
     },
@@ -1552,8 +1578,42 @@
           "https://www.busitec.co.jp/news/info": "a6d4eecfe53d3a4f69308c0c2ce53bec337a33bb6a843217f5305bcc6b66f01e",
           "https://www.iwaicosmo.co.jp/news/2026/10161410.html": "68ed9895e1cd360f343c406da4412916047e86105d5fae0d7b1a55759d3ae4f5"
         },
-        "last_checked": "2026-10-20 08:22 JST",
+        "last_checked": "2026-10-20 08:41 JST",
         "status": "ok"
+      }
+    },
+    {
+      "id": "2026-10-19-auto-6072632f96",
+      "published": "2026-10-19",
+      "company": "【大和証券】委託先のサーバー",
+      "service": "",
+      "affected_count": 110000,
+      "status": "confirmed",
+      "cause": "報道自動検知",
+      "summary": "【大和証券】委託先のサーバーに不正アクセス 約11万人の個人情報流出のおそれ Tyler Stephenson (G2fqDpfKQq)",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "公式発表",
+          "url": "https://www.nikkei.com/nkd/disclosure/tdnr/20261005545891/",
+          "official": true
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9EQ0VfaTlhemtwM1lYN0UwUU4xVHVubjRSUkFScUNKV3ZLQ3llbVZvX3g5TUdCWWg0WVNycG82VUkwcEk1eDJ0a1k2SDV6Skl6eTBTc1RRSHR4aWlfVGZzY0ozWV94Tnd2LWdmbA?oc=5"
+        }
+      ],
+      "auto_detected": true,
+      "rss_pub_date": "Sun, 18 Oct 2026 11:57:45 GMT",
+      "article_count": 1,
+      "reviewed_at": "2026-10-20 08:31 JST",
+      "official_urls": [
+        "https://www.nikkei.com/nkd/disclosure/tdnr/20261005545891/"
+      ],
+      "official_watch": {
+        "page_hashes": {},
+        "last_checked": "2026-10-20 08:41 JST",
+        "status": "no_verified_official_source"
       }
     },
     {
@@ -2327,35 +2387,6 @@
       "article_count": 1,
       "priority": "C",
       "priority_score": 1
-    },
-    {
-      "id": "2026-10-19-auto-6072632f96",
-      "published": "2026-10-19",
-      "company": "【大和証券】委託先のサーバー",
-      "service": "",
-      "affected_count": 110000,
-      "status": "confirmed",
-      "cause": "報道自動検知",
-      "summary": "【大和証券】委託先のサーバーに不正アクセス 約11万人の個人情報流出のおそれ Tyler Stephenson (G2fqDpfKQq)",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "公式発表",
-          "url": "https://www.nikkei.com/nkd/disclosure/tdnr/20261005545891/",
-          "official": true
-        },
-        {
-          "name": "Googleニュース経由",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9EQ0VfaTlhemtwM1lYN0UwUU4xVHVubjRSUkFScUNKV3ZLQ3llbVZvX3g5TUdCWWg0WVNycG82VUkwcEk1eDJ0a1k2SDV6Skl6eTBTc1RRSHR4aWlfVGZzY0ozWV94Tnd2LWdmbA?oc=5"
-        }
-      ],
-      "auto_detected": true,
-      "rss_pub_date": "Sun, 18 Oct 2026 11:57:45 GMT",
-      "article_count": 1,
-      "reviewed_at": "2026-10-20 08:31 JST",
-      "official_urls": [
-        "https://www.nikkei.com/nkd/disclosure/tdnr/20261005545891/"
-      ]
     },
     {
       "id": "2026-10-19-auto-13243097de",
@@ -5640,7 +5671,7 @@
         "page_hashes": {
           "https://estore.jp/press/20261016": "be4c429dfc263b93e45f8b2193434fb563436c5533772a39363f4ed1efe3918b"
         },
-        "last_checked": "2026-10-20 08:22 JST",
+        "last_checked": "2026-10-20 08:41 JST",
         "status": "ok"
       },
       "official_urls": [
@@ -5721,7 +5752,7 @@
         "page_hashes": {
           "https://www.yamato-hd.co.jp/important/info_260929_1.html": "86f2493737c8c5fdabb53d80356b8c11e15ea7b697846ba21b13bccc86923b81"
         },
-        "last_checked": "2026-10-20 08:22 JST",
+        "last_checked": "2026-10-20 08:41 JST",
         "status": "ok"
       },
       "official_updates": [
@@ -5785,7 +5816,7 @@
         "page_hashes": {
           "https://www.nikkei.co.jp/nikkeiinfo/news/information/1561.html": "b61366ca8e2564a22cc26f2d660aa9e560bd3c9cf9322c4066b2c9ada1f5dad4"
         },
-        "last_checked": "2026-10-20 08:22 JST",
+        "last_checked": "2026-10-20 08:41 JST",
         "status": "ok"
       }
     },
@@ -5823,7 +5854,7 @@
       "reviewed_at": "2026-10-19 15:01 JST",
       "official_watch": {
         "page_hashes": {},
-        "last_checked": "2026-10-20 08:22 JST",
+        "last_checked": "2026-10-20 08:41 JST",
         "status": "ok"
       }
     },
@@ -5869,7 +5900,7 @@
       "reviewed_at": "2026-10-19 15:03 JST",
       "official_watch": {
         "page_hashes": {},
-        "last_checked": "2026-10-20 08:22 JST",
+        "last_checked": "2026-10-20 08:41 JST",
         "status": "ok"
       }
     },
@@ -5913,7 +5944,7 @@
         "page_hashes": {
           "https://skyticket.jp/news/maintenance/67603": "60f1c93eb8c544b271fb90da041c58cce408b214a9d89d043d3307e951bca587"
         },
-        "last_checked": "2026-10-20 08:22 JST",
+        "last_checked": "2026-10-20 08:41 JST",
         "status": "ok"
       }
     },
@@ -5948,7 +5979,7 @@
       "official_watch": {
         "page_hashes": {},
         "last_error": "HTTPError: https://www.burgerking.co.jp/images/notice/2026/10/15/d4d114ca-ebd7-4f3d-94ef-c4ea7a84a139.pdf",
-        "last_checked": "2026-10-20 08:22 JST",
+        "last_checked": "2026-10-20 08:41 JST",
         "status": "ok"
       }
     },
@@ -6000,7 +6031,7 @@
         "page_hashes": {
           "https://raiden.site.ktaiwork.jp/archives/4597": "deaf073eed3de1dabdca7603326d4259d612446754b78a8ab170cfadfcca5e8f"
         },
-        "last_checked": "2026-10-20 08:22 JST",
+        "last_checked": "2026-10-20 08:41 JST",
         "status": "ok"
       }
     },
@@ -7660,7 +7691,7 @@
         "page_hashes": {
           "https://www.sourcenext.com/support/i/2026/1015_info": "bd3a867fa25adca2140519f72cff539d9765a8029484b7b9ac21219265c68541"
         },
-        "last_checked": "2026-10-20 08:22 JST",
+        "last_checked": "2026-10-20 08:41 JST",
         "status": "ok"
       }
     },
@@ -7690,7 +7721,7 @@
           "https://www.itmedia.co.jp/news": "c6c690ff8e2b32bf1c83de5d9d58ae2d5bf199e58a8ce3a29036ff097bee6b0b",
           "https://www.lawson.co.jp/contents/cont07/1533174_3310.html": "b82104efb335bf62f3e1880e0e697b177806694f62895ba4067cc61f6b2d21af"
         },
-        "last_checked": "2026-10-20 08:22 JST",
+        "last_checked": "2026-10-20 08:41 JST",
         "status": "ok"
       },
       "official_updates": [],
@@ -7764,7 +7795,7 @@
           "https://news.mynavi.jp/techplus": "7ff358f33687d971405287ecb91be7c8ba8bc7c8c3ef45bd9bb3f3e0bfa55251",
           "https://www.park24.co.jp/news/2026/10/20261016-1.html": "769f2045d07a9a55faf09903d00e6bca73f3ae8a1117bb37455bfa76ea8b23e1"
         },
-        "last_checked": "2026-10-20 08:22 JST",
+        "last_checked": "2026-10-20 08:41 JST",
         "status": "ok"
       },
       "official_updates": [
@@ -7817,7 +7848,7 @@
           "https://internet.watch.impress.co.jp/": "670acfefd250d7da4fb8f5992dadb6118ac7cd8ab472a51cb44d4a162df83b85",
           "https://corp.helpfeel.com/news/news-20260916-1": "4c590cfd4dc93662fb2c971f989954b92284263d1a55328609f1fb73f11ba522"
         },
-        "last_checked": "2026-10-20 08:22 JST",
+        "last_checked": "2026-10-20 08:41 JST",
         "status": "ok"
       },
       "official_updates": [],
@@ -7851,7 +7882,7 @@
       "official_watch": {
         "page_hashes": {},
         "last_error": "HTTPError: https://www.yellowhat.jp/",
-        "last_checked": "2026-10-20 08:22 JST",
+        "last_checked": "2026-10-20 08:41 JST",
         "status": "ok"
       },
       "reviewed_at": "2026-10-19 19:10 JST",
@@ -7879,7 +7910,7 @@
         "page_hashes": {
           "https://internet.watch.impress.co.jp/": "670acfefd250d7da4fb8f5992dadb6118ac7cd8ab472a51cb44d4a162df83b85"
         },
-        "last_checked": "2026-10-20 08:22 JST",
+        "last_checked": "2026-10-20 08:41 JST",
         "status": "no_verified_official_source"
       },
       "official_updates": [],
@@ -7905,7 +7936,7 @@
         "page_hashes": {
           "https://internet.watch.impress.co.jp/": "670acfefd250d7da4fb8f5992dadb6118ac7cd8ab472a51cb44d4a162df83b85"
         },
-        "last_checked": "2026-10-20 08:22 JST",
+        "last_checked": "2026-10-20 08:41 JST",
         "status": "no_verified_official_source"
       },
       "official_updates": [],
@@ -7929,7 +7960,7 @@
       ],
       "official_watch": {
         "page_hashes": {},
-        "last_checked": "2026-10-20 08:22 JST",
+        "last_checked": "2026-10-20 08:41 JST",
         "status": "ok"
       }
     },
@@ -7953,7 +7984,7 @@
         "page_hashes": {
           "https://internet.watch.impress.co.jp/": "670acfefd250d7da4fb8f5992dadb6118ac7cd8ab472a51cb44d4a162df83b85"
         },
-        "last_checked": "2026-10-20 08:22 JST",
+        "last_checked": "2026-10-20 08:41 JST",
         "status": "no_verified_official_source"
       },
       "official_updates": [],
@@ -7961,19 +7992,19 @@
     }
   ],
   "maintenance": {
-    "last_cleanup": "2026-10-20 08:21 JST",
-    "candidate_before": 274,
+    "last_cleanup": "2026-10-20 08:40 JST",
+    "candidate_before": 280,
     "removed_noise": 0,
     "removed_verified_duplicates": 0,
     "merged_candidate_records": 0,
-    "candidate_after": 274,
-    "new_candidates_added": 7,
+    "candidate_after": 280,
+    "new_candidates_added": 1,
     "new_articles_merged": 1,
     "cleanup_version": "1.8"
   },
   "official_monitor": {
-    "last_checked": "2026-10-20 08:22 JST",
-    "monitored_incidents": 26,
+    "last_checked": "2026-10-20 08:41 JST",
+    "monitored_incidents": 27,
     "updates_or_cleanup_changes": 0,
     "version": "2.4"
   }
