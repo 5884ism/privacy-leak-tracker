@@ -5,7 +5,6 @@ on:
     # GitHub Actions uses UTC.
     # 21:10 UTC = 06:10 JST
     - cron: '10 21 * * *'
-
   workflow_dispatch:
 
 permissions:
@@ -24,8 +23,15 @@ jobs:
         with:
           python-version: '3.12'
 
+      - name: Snapshot candidates before update
+        run: python scripts/report_candidate_changes.py snapshot /tmp/candidates-before.json
+
       - name: Update incidents
         run: python scripts/update.py
+
+      - name: Report candidate changes
+        if: always()
+        run: python scripts/report_candidate_changes.py report /tmp/candidates-before.json
 
       - name: Check official follow-up announcements
         run: python scripts/check_official_updates.py
@@ -37,13 +43,10 @@ jobs:
         run: |
           git config user.name "privacy-leak-bot"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
           git add data/incidents.json data/public-incidents.json
-
           if git diff --cached --quiet; then
             echo "No changes"
             exit 0
           fi
-
           git commit -m "chore: daily incident update and public feed"
           git push
