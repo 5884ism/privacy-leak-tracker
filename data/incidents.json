@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-19 18:51 JST",
+  "last_updated": "2026-10-19 18:53 JST",
   "incidents": [
     {
       "id": "2026-10-19-auto-4506c2e847",
@@ -2124,11 +2124,16 @@
       "company": "ファンケルとアテニアのECサイト",
       "service": "",
       "affected_count": 780000,
-      "status": "candidate",
+      "status": "confirmed",
       "cause": "報道自動検知",
       "summary": "ファンケルとアテニア、不正アクセスで78万人分の個人情報漏えい 住所・氏名・電話番号など(アスキー)",
       "exposed_data": "要確認",
       "sources": [
+        {
+          "name": "公式発表",
+          "url": "https://www.fancl.jp/news/pdf/husei.pdf",
+          "official": true
+        },
         {
           "name": "Googleニュース経由",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE83aW9MOUlXSjFpVExoSkpJYXBGOUFTek5HT1dUQW11djJ3bXMzRVJlM1RtWExlSE15ajBkeHJGT0lZOF9lRXdySHh0a1VTanRuMWg2Sw?oc=5"
@@ -2145,8 +2150,10 @@
       "auto_detected": true,
       "rss_pub_date": "Mon, 19 Oct 2026 03:35:00 GMT",
       "article_count": 3,
-      "priority": "A",
-      "priority_score": 11
+      "reviewed_at": "2026-10-19 18:53 JST",
+      "official_urls": [
+        "https://www.fancl.jp/news/pdf/husei.pdf"
+      ]
     },
     {
       "id": "2026-10-19-auto-79b5f0e477",
