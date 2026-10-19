@@ -188,3 +188,11 @@ a{color:var(--accent)} .wrap{width:min(1180px,calc(100% - 32px));margin:auto}
   border:1px solid #c7d7fe;
   font-weight:800;
 }
+
+/* v2.5 related-tab duplicate merge */
+.badge.same-incident-merged{
+  background:#eef4ff;
+  color:#3538cd;
+  border:1px solid #c7d7fe;
+  font-weight:800;
+}
