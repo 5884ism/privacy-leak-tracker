@@ -30,17 +30,20 @@ jobs:
       - name: Check official follow-up announcements
         run: python scripts/check_official_updates.py
 
+      - name: Generate public feed
+        run: python scripts/export_public.py
+
       - name: Commit changes
         run: |
           git config user.name "privacy-leak-bot"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add data/incidents.json
+          git add data/incidents.json data/public-incidents.json
 
           if git diff --cached --quiet; then
             echo "No changes"
             exit 0
           fi
 
-          git commit -m "chore: daily incident and official update check"
+          git commit -m "chore: daily incident update and public feed"
           git push
