@@ -1,5 +1,4 @@
-
-/* Public latest update UI v1.0 */
+/* Public latest update UI v1.3 */
 .public-update-panel{
   margin:18px 0 14px;
   border:1px solid #d8e1f0;
@@ -81,6 +80,33 @@
   color:#667085;
   font-size:13px;
 }
+.public-update-sources{
+  display:flex;
+  gap:9px;
+  align-items:flex-start;
+  margin-top:9px;
+  padding-top:8px;
+  border-top:1px solid #eef2f6;
+  font-size:11px;
+}
+.public-update-sources > span{
+  flex:0 0 auto;
+  color:#667085;
+  font-weight:700;
+}
+.public-update-source-links{
+  display:flex;
+  flex-wrap:wrap;
+  gap:6px 10px;
+}
+.public-update-source-links a{
+  color:#2447d8;
+  text-decoration:none;
+  font-weight:700;
+}
+.public-update-source-links a:hover{
+  text-decoration:underline;
+}
 .badge.public-new{
   background:#eef4ff;
   color:#3538cd;
@@ -106,5 +132,9 @@
   .public-update-head{
     align-items:flex-start;
     flex-direction:column;
+  }
+  .public-update-sources{
+    flex-direction:column;
+    gap:5px;
   }
 }

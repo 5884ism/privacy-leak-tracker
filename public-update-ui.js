@@ -20,6 +20,29 @@
     }).format(d);
   }
 
+  function sourceLinks(x){
+    const sources = Array.isArray(x.sources) ? x.sources : [];
+    const links = sources.map(s => {
+      const name = s.official ? `公式発表：${s.name || '公式サイト'}` : (s.name || '情報源');
+      return `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(name)}</a>`;
+    });
+
+    if(x.resolution_url && !sources.some(s => s.url === x.resolution_url)){
+      links.unshift(
+        `<a href="${esc(x.resolution_url)}" target="_blank" rel="noopener">公式発表：漏えいなし確認</a>`
+      );
+    }
+
+    if(!links.length) return '';
+
+    return `
+      <div class="public-update-sources">
+        <span>情報源</span>
+        <div class="public-update-source-links">${links.join('')}</div>
+      </div>
+    `;
+  }
+
   function ensurePanel(){
     if(document.getElementById('publicUpdatePanel')) return;
     const tabs = document.querySelector('.content-switcher');
@@ -77,6 +100,7 @@
                 </div>
                 <strong>${esc(label(x))}</strong>
                 <p>${esc(x.summary || '')}</p>
+                ${sourceLinks(x)}
               </article>
             `).join('')}
 
@@ -92,6 +116,7 @@
                   → <strong>${esc(x.to_label || x.to_status)}</strong>
                 </p>
                 ${x.resolution_note ? `<p>${esc(x.resolution_note)}</p>` : ''}
+                ${sourceLinks(x)}
               </article>
             `).join('')}
           </div>
