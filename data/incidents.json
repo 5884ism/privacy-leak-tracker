@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-20 07:36 JST",
+  "last_updated": "2026-10-20 07:56 JST",
   "incidents": [
     {
       "id": "2026-10-20-auto-80616f6f01",
@@ -4377,11 +4377,16 @@
       "company": "ユミルリンク",
       "service": "",
       "affected_count": 9000000,
-      "status": "candidate",
+      "status": "confirmed",
       "cause": "報道自動検知",
       "summary": "不正アクセスで個人情報延べ900万件漏えいか メール配信サービス「ユミルリンク」 (テレビ朝日系(ANN))",
       "exposed_data": "要確認",
       "sources": [
+        {
+          "name": "公式発表",
+          "url": "https://www.nikkei.com/nkd/disclosure/tdnr/20261019553124/",
+          "official": true
+        },
         {
           "name": "Googleニュース経由",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQ3AzLUZjV3V5ODhtTGxKdC03X2d2aWZCanl1VlVJTE9aSmdyNlByYmVZMXlnMlA2Ql9vSW9WZ2dJYktqMU5vUHhxdzJpVlA4akh3d1VISGQ4X1NDZkQ4VmZsVEIzSXE0SmZVbGhSNEE0RDNIZUtzWXZkaVlfYk1hQmxOTHBZTTJEcVE1TjlNbVZpSkhQYVpxUURn?oc=5"
@@ -4438,8 +4443,10 @@
       "auto_detected": true,
       "rss_pub_date": "Mon, 19 Oct 2026 08:57:49 GMT",
       "article_count": 13,
-      "priority": "A",
-      "priority_score": 10
+      "reviewed_at": "2026-10-20 07:56 JST",
+      "official_urls": [
+        "https://www.nikkei.com/nkd/disclosure/tdnr/20261019553124/"
+      ]
     },
     {
       "id": "2026-10-19-auto-c1a278c09d",
