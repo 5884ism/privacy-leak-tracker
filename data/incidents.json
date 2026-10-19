@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-20 08:40 JST",
+  "last_updated": "2026-10-20 08:43 JST",
   "incidents": [
     {
       "id": "2026-10-20-auto-80616f6f01",
@@ -621,11 +621,16 @@
       "company": "音源販売「SONICWIRE」",
       "service": "",
       "affected_count": 420000,
-      "status": "candidate",
+      "status": "confirmed",
       "cause": "報道自動検知",
       "summary": "音源販売「SONICWIRE」不正アクセス、「Mythosで状況把握」 会員情報最大42万件漏えいか(ITmedia NEWS)",
       "exposed_data": "要確認",
       "sources": [
+        {
+          "name": "公式発表",
+          "url": "https://www.crypton.co.jp/cfm/news/2026/10/20info",
+          "official": true
+        },
         {
           "name": "Googleニュース経由",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBWVy1rVHNUNXQ0cWZyNjE0MHNSeENiNDAzdF9tX291eEFsZWV2Uzc3OTFhZDVES0ExU0dBbDdTVFFuVGtLWWNfcjlyNUdmNE1QeHBKalJWYTVrMmhvTjVyMy1Wc2p2d01jWXNTT9IBckFVX3lxTFB6bDl4VnUwRFVaYlJvN29wS3lNcHNISXpxcjNqcVJYRUgxVTlFZmRfc2tYTUNDLWVCdGxmb0FoZWhjWlJkUmUwOEdYbGlzNXBGaXpvQjBiZ25BTzBybXFfcEJPOHEwbzRLWUluNXlycWlGUQ?oc=5"
@@ -642,8 +647,10 @@
       "auto_detected": true,
       "rss_pub_date": "Mon, 19 Oct 2026 11:10:43 GMT",
       "article_count": 3,
-      "priority": "A",
-      "priority_score": 9
+      "reviewed_at": "2026-10-20 08:43 JST",
+      "official_urls": [
+        "https://www.crypton.co.jp/cfm/news/2026/10/20info"
+      ]
     },
     {
       "id": "2026-10-20-auto-ebed980532",
