@@ -30,6 +30,23 @@ def jst_date_from_iso(value):
     except Exception:
         return ""
 
+def clean_sources(items):
+    out = []
+    seen = set()
+    for s in items or []:
+        if not isinstance(s, dict):
+            continue
+        url = str(s.get("url") or "").strip()
+        if not url or url in seen:
+            continue
+        seen.add(url)
+        out.append({
+            "name": str(s.get("name") or "情報源"),
+            "url": url,
+            "official": bool(s.get("official")),
+        })
+    return out
+
 def load_incidents():
     data = json.loads(DATA_PATH.read_text(encoding="utf-8"))
     return data.get("incidents", []) if isinstance(data, dict) else data
@@ -49,8 +66,9 @@ def public_rows():
             "summary": x.get("summary", ""),
             "resolution_date": x.get("resolution_date", ""),
             "resolution_note": x.get("resolution_note", ""),
-            # 集計復元用。public-update.json に含まれても個人情報ではない運用日時のみ。
+            "resolution_url": x.get("resolution_url", ""),
             "reviewed_at": x.get("reviewed_at", ""),
+            "sources": clean_sources(x.get("sources", [])),
         })
     return rows
 
@@ -85,7 +103,7 @@ def snapshot(path):
 
 def fresh_state(day, before_count):
     return {
-        "version": "1.2",
+        "version": "1.3",
         "date": day,
         "day_start_count": before_count,
         "added": [],
@@ -95,22 +113,19 @@ def fresh_state(day, before_count):
 def load_daily_state(day, before_count):
     if not OUT_PATH.exists():
         return fresh_state(day, before_count)
-
     try:
         state = json.loads(OUT_PATH.read_text(encoding="utf-8"))
     except Exception:
         return fresh_state(day, before_count)
 
     state_day = state.get("date", "")
-
-    # v1.0 → v1.2 移行時、date がなくても generated_at が今日なら内容を引き継ぐ。
     if not state_day:
         state_day = jst_date_from_iso(state.get("generated_at", ""))
 
     if state_day != day:
         return fresh_state(day, before_count)
 
-    state["version"] = "1.2"
+    state["version"] = "1.3"
     state["date"] = day
     state.setdefault("day_start_count", state.get("before_count", before_count))
     state.setdefault("added", [])
@@ -120,7 +135,6 @@ def load_daily_state(day, before_count):
 def merge_added(existing, incoming):
     by_id = {key(x): dict(x) for x in existing if key(x)}
     order = [key(x) for x in existing if key(x)]
-
     for x in incoming:
         k = key(x)
         if not k:
@@ -128,7 +142,6 @@ def merge_added(existing, incoming):
         if k not in by_id:
             order.append(k)
         by_id[k] = dict(x)
-
     return [by_id[k] for k in order if k in by_id]
 
 def merge_changed(existing, incoming, added_ids):
@@ -142,7 +155,6 @@ def merge_changed(existing, incoming, added_ids):
 
         if k in by_id:
             old = by_id[k]
-            # 最初の変更元は維持、変更先は最新状態にする。
             old.update({
                 "to_status": x.get("to_status", old.get("to_status", "")),
                 "to_label": x.get("to_label", old.get("to_label", "")),
@@ -153,6 +165,8 @@ def merge_changed(existing, incoming, added_ids):
                 "summary": x.get("summary", old.get("summary", "")),
                 "resolution_date": x.get("resolution_date", old.get("resolution_date", "")),
                 "resolution_note": x.get("resolution_note", old.get("resolution_note", "")),
+                "resolution_url": x.get("resolution_url", old.get("resolution_url", "")),
+                "sources": x.get("sources", old.get("sources", [])),
             })
         else:
             by_id[k] = dict(x)
@@ -161,11 +175,6 @@ def merge_changed(existing, incoming, added_ids):
     return [by_id[k] for k in order if k in by_id]
 
 def recover_today_promotions(state, after, day):
-    """
-    Promote incident は reviewed_at に JST の実行日時を記録する。
-    public-update.json が途中で初期化・移行された場合でも、
-    今日昇格した公開案件を incidents.json から復元する。
-    """
     recovered = [x for x in after if reviewed_today(x, day)]
     if recovered:
         state["added"] = merge_added(state.get("added", []), recovered)
@@ -198,20 +207,18 @@ def report(path):
                 "to_label": STATUS_LABEL.get(new.get("status"), new.get("status", "")),
                 "resolution_date": new.get("resolution_date", ""),
                 "resolution_note": new.get("resolution_note", ""),
+                "resolution_url": new.get("resolution_url", ""),
+                "sources": new.get("sources", []),
             })
 
     day = today_jst()
     state = load_daily_state(day, len(before))
 
-    # 今回の差分を累積。
     state["added"] = merge_added(state.get("added", []), run_added)
-
-    # 同日中に失われたNEWも reviewed_at から復元。
-    recovered_count = recover_today_promotions(state, after, day)
+    recover_today_promotions(state, after, day)
 
     added_ids = {key(x) for x in state["added"] if key(x)}
 
-    # NEW案件は常に最新状態へ更新。
     for i, x in enumerate(state["added"]):
         k = key(x)
         if k in am:
@@ -227,7 +234,7 @@ def report(path):
     day_start_count = int(state.get("day_start_count", len(before)))
 
     state.update({
-        "version": "1.2",
+        "version": "1.3",
         "date": day,
         "generated_at": generated,
         "last_checked_at": generated,
@@ -256,20 +263,6 @@ def report(path):
 
     print("\n=== 公開版 今日の更新 ===")
     print(headline)
-    print(
-        f"今回の実行差分: 新規公開 {len(run_added)}件 / "
-        f"ステータス更新 {len(run_changed)}件"
-    )
-    print(f"本日 reviewed_at 復元対象: {recovered_count}件")
-
-    if run_added or run_changed:
-        print(f"::notice title=公開版更新::{headline}")
-    else:
-        print(
-            f"::notice title=公開版更新::今回の実行では差分なし / "
-            f"本日累計 新規公開 {state['added_count']}件・"
-            f"ステータス更新 {state['changed_count']}件"
-        )
 
     summary = os.getenv("GITHUB_STEP_SUMMARY")
     if summary:
@@ -278,11 +271,7 @@ def report(path):
             "",
             f"**{headline}**",
             "",
-            f"今回の実行差分：新規公開 {len(run_added)}件 / "
-            f"ステータス更新 {len(run_changed)}件",
-            "",
         ]
-
         if state["added"]:
             lines += [
                 "### 本日の新規公開",
@@ -298,7 +287,6 @@ def report(path):
                     f"`{esc(x.get('id') or '-')}` |"
                 )
             lines.append("")
-
         if state["changed"]:
             lines += [
                 "### 本日のステータス更新",
@@ -312,10 +300,8 @@ def report(path):
                     f"{esc(x.get('to_label'))} | `{esc(x.get('id') or '-')}` |"
                 )
             lines.append("")
-
         if not state["added"] and not state["changed"]:
             lines += ["✅ 本日はまだ公開案件の更新がありません。", ""]
-
         with open(summary, "a", encoding="utf-8") as f:
             f.write("\n".join(lines) + "\n")
 
@@ -323,7 +309,6 @@ if __name__ == "__main__":
     if len(sys.argv) != 3 or sys.argv[1] not in {"snapshot", "report"}:
         print("Usage: report_public_changes.py {snapshot|report} <snapshot-file>")
         raise SystemExit(2)
-
     if sys.argv[1] == "snapshot":
         snapshot(sys.argv[2])
     else:
