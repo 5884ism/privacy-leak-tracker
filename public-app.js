@@ -245,7 +245,9 @@ function officialUpdateBlock(x){
 }
 
 function card(x){
-  const relation=relationFor(x);
+  // 関連度・関連理由は「自分に関連」タブでだけ表示する。
+  // 「確認済み・可能性あり」は純粋な案件一覧として見せる。
+  const relation=currentView==='mine' ? relationFor(x) : null;
   const relationBadge=relation
     ?`<span class="badge relation relation-${relation.level}">${relation.label}</span>`:'';
   const relationInfo=relation
