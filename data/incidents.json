@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-19 18:56 JST",
+  "last_updated": "2026-10-19 18:59 JST",
   "incidents": [
     {
       "id": "2026-10-19-auto-4506c2e847",
@@ -97,11 +97,16 @@
       "company": "ノーコードWeb制作「Studio",
       "service": "",
       "affected_count": 0,
-      "status": "candidate",
+      "status": "possible",
       "cause": "報道自動検知",
       "summary": "ノーコードWeb制作「Studio」が不正アクセスで全顧客情報流出の可能性、パスワード変更など要請(Web担当者Forum)",
       "exposed_data": "要確認",
       "sources": [
+        {
+          "name": "公式発表",
+          "url": "https://studio.design/ja/whats-new/unauthorized-access-2026-10",
+          "official": true
+        },
         {
           "name": "Googleニュース経由",
           "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNaklHc1pRQ2RkSDM4cDJBdGJmVGJMRlFlSkM0S2s4Um9zQ093Q1hNSDJFdWR2MDFYS1ZmWFEtNG9uaEh5NnJZS2xHMVFmNjJ1R2hOS3NubDVXazctTnhiNzVxYTFYQzZtR1gyUUQ0aWxQeDc5ZmZtWG1NWHFwaXRELU1fdGxHR2RNa2FDOWROSnBGWUhEcjRpRnNSemNsT2JvQmp1VENLRERicHVORE40Nmx5dUtISExFcWhfaVppX01SMVFiT3BxUEZCQU9yeEJBcDlXbE5JY0lFRUtXcWQ2Y0ZacENCc3RCWDBzQ0FZWHRlX01QX3hPdzE3RTJMajJI?oc=5"
@@ -122,8 +127,10 @@
       "auto_detected": true,
       "rss_pub_date": "Sun, 18 Oct 2026 22:14:52 GMT",
       "article_count": 4,
-      "priority": "A",
-      "priority_score": 7
+      "reviewed_at": "2026-10-19 18:59 JST",
+      "official_urls": [
+        "https://studio.design/ja/whats-new/unauthorized-access-2026-10"
+      ]
     },
     {
       "id": "2026-10-19-auto-510eb1804a",
