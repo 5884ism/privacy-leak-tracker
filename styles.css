@@ -328,3 +328,11 @@ a{color:var(--accent)} .wrap{width:min(1180px,calc(100% - 32px));margin:auto}
     justify-content:space-between;
   }
 }
+
+/* v3.0 candidate duplicate merge */
+.badge.candidate-merged{
+  background:#fff6ed;
+  color:#c4320a;
+  border:1px solid #fedf89;
+  font-weight:800;
+}
