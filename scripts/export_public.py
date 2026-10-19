@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """Generate the public data feed from the internal incident database.
 
-Only confirmed/possible incidents are exported.
-Internal review/candidate/automation metadata is intentionally excluded.
+Exports confirmed/possible incidents plus cleared incidents so that a user who
+selected a related service can see the final "no leak confirmed" resolution.
+Candidate/operator metadata is intentionally excluded.
 """
 
 import json
@@ -12,7 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SRC = ROOT / "data" / "incidents.json"
 DST = ROOT / "data" / "public-incidents.json"
 
-PUBLIC_STATUS = {"confirmed", "possible"}
+PUBLIC_STATUS = {"confirmed", "possible", "cleared"}
 
 def clean_source(s):
     return {
@@ -21,8 +22,6 @@ def clean_source(s):
     }
 
 def clean_update(u):
-    # Public users may see the existence/title/link of official follow-ups,
-    # but never the operator review state.
     return {
         k: u.get(k)
         for k in ("published", "detected_at", "title", "url", "kind")
@@ -45,6 +44,11 @@ def clean_incident(x):
             if s.get("url")
         ],
     }
+
+    if x.get("status") == "cleared":
+        for key in ("resolution_date", "resolution_note", "resolution_url"):
+            if x.get(key):
+                out[key] = x.get(key)
 
     updates = [
         clean_update(u)
@@ -71,7 +75,7 @@ def main():
     )
 
     public = {
-        "version": "1.0",
+        "version": "1.1",
         "last_updated": db.get("last_updated", ""),
         "incidents": incidents,
     }
