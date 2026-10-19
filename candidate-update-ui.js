@@ -2,6 +2,8 @@
   let updateInfo = null;
   let newIds = new Set();
 
+  const PROMOTE_URL='https://github.com/5884ism/privacy-leak-tracker/actions/workflows/promote-incident.yml';
+
   const esc = v => String(v ?? '').replace(/[&<>'"]/g, c => ({
     '&':'&amp;', '<':'&lt;', '>':'&gt;', "'":'&#39;', '"':'&quot;'
   }[c]));
@@ -101,7 +103,32 @@
     `;
   }
 
+  function addPromoteActions(){
+    document.querySelectorAll('#cards .card').forEach(card => {
+      if(!card.querySelector('.badge.candidate')) return;
+
+      const tools=card.querySelector('.incident-tools');
+      if(!tools) return;
+
+      tools.querySelectorAll('.review-help').forEach(el=>el.remove());
+
+      if(!tools.querySelector('.candidate-promote-link')){
+        const link=document.createElement('a');
+        link.className='review-search-btn candidate-promote-link';
+        link.href=PROMOTE_URL;
+        link.target='_blank';
+        link.rel='noopener';
+        link.textContent='昇格させる';
+
+        const code=tools.querySelector('code');
+        tools.insertBefore(link, code || tools.firstChild);
+      }
+    });
+  }
+
   function decorateCards(){
+    addPromoteActions();
+
     if(!updateInfo || !newIds.size) return;
 
     document.querySelectorAll('#cards .card').forEach(card => {
@@ -150,6 +177,7 @@
 
   window.addEventListener('DOMContentLoaded', async () => {
     patchRender();
+    addPromoteActions();
     await loadUpdateInfo();
   });
 })();
