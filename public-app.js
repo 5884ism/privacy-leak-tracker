@@ -12,6 +12,7 @@ const PAGE_SIZE=10;
 const statusLabel={
   confirmed:'漏えい確認',
   possible:'漏えいの可能性',
+  cleared:'漏えいなし確認',
   cleared:'漏えいなし確認'
 };
 
@@ -260,30 +261,60 @@ function resolutionBlock(x){
 }
 
 function card(x){
-  // 関連度・関連理由は「自分に関連」タブでだけ表示する。
-  // 「確認済み・可能性あり」は純粋な案件一覧として見せる。
+  // 関連度・関連理由は「自分に関連」タブだけで表示。
   const relation=currentView==='mine' ? relationFor(x) : null;
+
   const relationBadge=relation
     ?`<span class="badge relation relation-${relation.level}">${relation.label}</span>`:'';
+
   const relationInfo=relation
     ?`<p class="relation-note"><strong>${relation.label}</strong> — 「${escapeHtml(relation.selected)}」と関連。${escapeHtml(relation.reason)}。実際の対象者かどうかは公式発表の対象条件を確認してください。</p>`:'';
 
-  return `<article class="card ${relation?'card-related':''}">
+  const clearedBadge=x.status==='cleared'
+    ?`<span class="badge cleared cleared-primary">漏えいなし確認</span>`:'';
+
+  const statusBadge=x.status==='cleared'
+    ? clearedBadge
+    : `<span class="badge ${x.status}">${statusLabel[x.status]||x.status}</span>`;
+
+  const clearedSummary=x.status==='cleared'
+    ?`<div class="cleared-summary">
+        <div class="cleared-summary-head">
+          <strong>漏えいなし確認</strong>
+          ${x.resolution_date
+            ?`<span>${escapeHtml(x.resolution_date)} 公式発表により確認</span>`
+            :''}
+        </div>
+        <p>${escapeHtml(
+          x.resolution_note||
+          'その後の公式調査により、個人情報の漏えいはなかったと確認されています。'
+        )}</p>
+        ${x.resolution_url
+          ?`<a href="${escapeHtml(x.resolution_url)}" target="_blank" rel="noopener">公式発表を確認</a>`
+          :''}
+      </div>`:'';
+
+  return `<article class="card ${relation?'card-related':''} ${x.status==='cleared'?'card-cleared':''}">
     <div>
       <div class="date">${escapeHtml(x.published||'-')}</div>
       <div class="meta">
-        <span class="badge ${x.status}">${statusLabel[x.status]||x.status}</span>
+        ${statusBadge}
         ${relationBadge}
         ${x.cause?`<span class="badge">${escapeHtml(x.cause)}</span>`:''}
       </div>
     </div>
     <div>
       <h3>${escapeHtml(x.company||'')}${x.service?` / ${escapeHtml(x.service)}`:''}</h3>
-      <p class="count">対象規模: ${fmt(x.affected_count)}</p>
+
+      ${x.status==='cleared'
+        ?`<p class="count muted-count">当初の対象規模: ${fmt(x.affected_count)}</p>`
+        :`<p class="count">対象規模: ${fmt(x.affected_count)}</p>`}
+
       <p>${escapeHtml(x.summary||'')}</p>
       ${x.exposed_data?`<p><strong>情報:</strong> ${escapeHtml(x.exposed_data)}</p>`:''}
+
+      ${clearedSummary}
       ${relationInfo}
-      ${resolutionBlock(x)}
       ${officialUpdateBlock(x)}
       ${sourceBlock(x)}
     </div>
