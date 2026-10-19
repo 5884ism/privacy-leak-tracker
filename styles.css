@@ -353,3 +353,30 @@ a{color:var(--accent)} .wrap{width:min(1180px,calc(100% - 32px));margin:auto}
     grid-template-columns:repeat(2,minmax(0,1fr));
   }
 }
+
+/* cleared status v1.0 */
+.badge.cleared{
+  background:#eef2f6;
+  color:#344054;
+  border:1px solid #d0d5dd;
+  font-weight:800;
+}
+.resolution-note{
+  margin:12px 0;
+  padding:12px 14px;
+  border:1px solid #98a2b3;
+  border-radius:10px;
+  background:#f8fafc;
+  color:#344054;
+}
+.resolution-note strong{
+  display:inline-block;
+  margin-right:10px;
+}
+.resolution-note span{
+  color:#667085;
+  font-size:12px;
+}
+.resolution-note p{
+  margin:7px 0 4px;
+}
