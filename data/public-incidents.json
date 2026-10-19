@@ -1,7 +1,343 @@
 {
   "version": "1.1",
-  "last_updated": "2026-10-19 18:49 JST",
+  "last_updated": "2026-10-19 19:16 JST",
   "incidents": [
+    {
+      "published": "2026-10-19",
+      "company": "H2O",
+      "service": "",
+      "affected_count": 1260000,
+      "status": "confirmed",
+      "cause": "報道自動検知",
+      "summary": "「阪急阪神百貨店」公式通販などに不正アクセス 約126万件の個人情報が漏えい 名前や住所など「多大なるご心配とご迷惑 深くおわび」 | MBSニュース | 関西の最新ニュースを分かりやすく。 (1ページ)",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "公式発表",
+          "url": "https://data.swcms.net/file/h2o-retailing/ja/news/auto_20261019552921/pdfFile.pdf"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBNSjhwWGh0ZTVvdWc5Z0RuMGdiVTZzY2plRlRRVjRyYjFUWUhfZFpJU0ZVTUc1UTVyeTR6UUo1RFVpNENtd3lqamVqNjI5aGs0RXJYZnNOT2dIVE5BMXhUUHFPbzRjX1NkUEdWdER3ZGpYLTBKOUFiWXJxci1qV2c?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9WNW9CdzhoT3lGdGU4QU1JWmNpSi14bHVWdWlvU0VHZ3FMTTFEZDdQcjdNN3ZLamt1Q01UNG1ha2VabE14QkFhamQ3aVotRno0ZTY0?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdFpTV1VJVk1nLXFiSkJsTWkxcTh0YnY5LU9HWmlBdGc4UFFLWW5QSWo3allsczFyV1RIR0hGZFBxQVJCVkhfbWJmeGFROWd2WlV5dVNWYzlrTm5xbkktYnJrdkhEdDhQSUwtQ2ZWbEJGV3QxT0llMkpfNkptbzlMSEN5VzRNMzlVUFBRVjZQM2FDWjBKSEQ0?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5zZlVCSEp4dkVrdDcwcXNzNVYwN1MybWVFY2RmU3FLWGtwekR2c0h4aEFFUkI5Sl8zUXRkT19zUjBlTWptUTdvUGZnNGVTeTc3eVhRd2dZOWlSZw?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBMbTNFSkVOUmJRaTRPa3NVSWtoOFpJR3YwaUdVWDlHdGdqZjhQakcwUk02VFdCWjAteVNMQ09td3hESGp5b2dLRUtwbHRJaHBCSXIxYXBjRWdoaTRlUFg2QjhOQXhTSEpvc1Q5RUNDcE1qY1o2Sk5RbndxclpxYTA?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOYTVTb2Z4X2dRSlpueF83aGRoTXk2TTliVzY0djhrdFdhN0dHLUQ5UGJCd09tMEVlUm5pamZ5STYybk5VVk9aWU1xVFZjdG54M2lGQ0tnamxvQjdYOHVQZGplUTN1UWZuTlJtdjFJNlZFREdoQmlXWU8za0RZc1lOU21VSdIBgwFBVV95cUxOYTVTb2Z4X2dRSlpueF83aGRoTXk2TTliVzY0djhrdFdhN0dHLUQ5UGJCd09tMEVlUm5pamZ5STYybk5VVk9aWU1xVFZjdG54M2lGQ0tnamxvQjdYOHVQZGplUTN1UWZuTlJtdjFJNlZFREdoQmlXWU8za0RZc1lOU21VSQ?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5CQkgxWTdmeUIwTkJkM05KdVY1V1lLVFVtcmNuaVk3YmFYVVhYdUxtRmVBNU0tX2dRYWFuUGdfVDMwUTdjMmlDbXRWY3RyUUtTV0l3b05nVnB0Vmh5NjcwYnptWDN6akJOYzJXcg?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE11cFdJMEtVSy1nUDI5RUF6TTFQVzFva2VQMW1VNmI0czN4ZXh0NmpjdldhR0IxNXc5aVV3dVJoNFF0bmVEVWdSa1h3RmluUQ?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE55bkpnR0EwQnBRWGNpVEQ4b01raThPVVh5ZUJvdnJSMTBPbDhKT09NRDNHNFA3aFVfeUN4aW5DNUlqcERrbmZuNUFXUVRPUFo4RkwzZzFUYU9MQ3VWbGQxQVFjdlpEZ3FP?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8yUnh0QjdqRHZSZFNYbVRsODF0akJmZzd0bzQ1UUtxRy04ZmoxbnZGWGMyNDJnQ2pCQk9QTXMyWHJWODdfT2tCTkJHb2swcnlCNmIydmRjdWFLOTE1eW43bUdKbHRzUnVyQUhKYy1WSWgtQmww?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1VSlBQUlE2RFdVQnVPOXhhbnhzR3U5QnBEbjY2TXJmc0NacFpXN1gtZGJPd1cyS0xDS2FRV0xXbnU3dEVyNm5aVW9EVDZlaFhjTmhXYjhYbDh1YUJVb1Z4ak5UYzQ4V29yZlZ4SlVyUXhSTlFvaGc?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5PNHFfQWhyTTRKNWNzUGF3ZFBMMEpHR0dZbEtvanpYc2RvSURqYTBHajFySmRJU0xZZFhfZnRHV0szeW5SX2lXaXkzblJaTDFwSWZLMExsQ0p5Wi16UXU3Nm1EVXZ6TlBKSGt5SUV5MnQ?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1mel9fV2VUbVVoQndXNm1vNUlTWm5CaUVmbEdMQXI2bGt3QWFEcFJLWE5pR3VEWWwzcGg5cUpfTGZ0UmlTeFJ3NnQya1E1MkhsdXVwelNIUDl4ZnhxYWc?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9MMlhpMXVQTm5LRWZtUHFKbVdDTllSVllvaXBROTBNS3pVaFJkYW5QZUZybDhLN1RjSEtyUzUwUno4SERmLVl0aHR3ZS1ORE5M?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZWlUZTF0S281dE1jLU1tVVBSalFIZHFFRGIteWhTMkRVdkNFcnZBczhlQ2FhMUZxWlJlMzgwNjhEWkZRQWxqRy1MTU5vWnJTTW1aTk5FY2RveFdRTlN1NGI1a1NZZkpKSjh5MTBoaFBidGNwb2FtcGNKN0Rkbjl0XzM0THJfVWZLUUk4ZVJ0RUFibnpDUnVLb2JQeGZhOHdJ0gGTAUFVX3lxTE02R0VJemg1bDBZT0szcUE2dEhCbW0zVG5XUXQ4S1ZpOFhKN1NpYlhqT3pGM3l0VW5FME5wSEdNYTVvV1ljMjhYeXkyRkNFR2V0VlJ6MXdjQnJ5WmRPRVphUHBveGdOUjN6ZUNTSDk2d1c3cGI5Y1BYTWNhQTR4eVRHdWdvaHFjLW5aUVhLN2NicWJxTQ?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5SbVRjMHcwMzR5M2NDYk03bF9LcV9kQmxCQ1hlek5rSmlMT251dnZrYnZ6Njk4ZEZyejM2SUhNQjFHeFJpblI4YjUxWjl1RlM4RnJXSUFn?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE52azRTZ0tKNVpfS1F4cU9pRDVoVFh1ZG1DV2RzdERnMVk0SmVnNmhIMkd6RWZkNkJFalZsaVBOTXhYYzM3Y1A3VnhzVEtUOGR4ejJ3eDJxcHk0cTA?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9neXFkTk5SX2VDcTJEdElLWUV6dEJLYTFDSFh4ZTg0NkNJS0Vwa3FrLWxDQWRnVkRUM3Z2VkRSQnhWX0ctdTRMbHRyZ0hJUVFleUc5ejc1bXIxRXNLUnJGXzE3QQ?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ZQlZHakk1MVJnYVRTUFBtdUhtOGF4ZzJTREpITU5DR2phV0hSNzVQX0xaZzNCQUQwS3ZIS3YtbmhfR28yMmZjR3NUWFQ0eG5pczlTQl96UU01LUpGSHhkdmJ6UHRUc2Qxd2VLOGE0SDJzd2ZDYk1PWHotNS1tMVU?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5TZ1IyU290cEtldHJYby0wNFdQOEwxY1E5R0lOYmtXQXlleV9SVzRRZExUb1dDNVNJU3AydWgwamNUenlMVGV5U2N0X05DbEpMRFE?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcXl5bWo3VEJWZlZkbVhaYmdPWXRMR29PVlZrd1gxQ1JZRU13cURkZEtlM0stMEcwaUdLazRzTGlwLTg2ZGYzVEJJR3lfQS1nallMWUtCWUVzRXJUTzZ1VGptYUVyeUo2WVZ0YzdIVFEtLUNWd0UtS3ZXczZfaVV2eUlFME5YUG9PZWhDbW00VDZDZjhvYzNmVDg2TXJrc3hMMDhhNjFicDE0cVlPWW9IQtIBsAFBVV95cUxOcXl5bWo3VEJWZlZkbVhaYmdPWXRMR29PVlZrd1gxQ1JZRU13cURkZEtlM0stMEcwaUdLazRzTGlwLTg2ZGYzVEJJR3lfQS1nallMWUtCWUVzRXJUTzZ1VGptYUVyeUo2WVZ0YzdIVFEtLUNWd0UtS3ZXczZfaVV2eUlFME5YUG9PZWhDbW00VDZDZjhvYzNmVDg2TXJrc3hMMDhhNjFicDE0cVlPWW9IQg?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMipwNBVV95cUxOaG1kaDhtZFVuR192MmxUYkxVVDBKdG9XMUotNzhpZ2NWX1NPdkRNY3hSYktJaFlpTUoybm9mNVk1bW1BVi12NnBHclBYeDkyVVFiTW5mWFFYZTZ2WmVEWThGejZGczhMR0ZKeVZ6bnQ0M3RSS3JEUHVZRVhoRjNJU0I0LVRKRmZTQmRnNl9KUTV2aHhuWmR4UDR0eThGUE5UT0pUVjNwMk8yazlid084Z3NIbG5nU01QZk5rb2U2UW5ZcW1NUnJxYXFOeEMyLV9yZ3RNdTRUX1JZR1E5cDZvcTBVY2Ffc1FrRS1KNXlQUzVBdW1PRS11RnFnOHZ3RU56aktqUkQ5SU9IWmptbU8xYzF1QTZEdEVjQWJRSVdFbWxEcGFPNnlXcFJBODAwZ0M0UzNQbVV6Zk01WTFvME1Sc2s1LUo5Tk83Qi1FdWp0RVBOOEVPM29QUG1hYkxVTHBiRk1VbWtrTXBVbUxWYmlBNlphT3diRVVSQnRhODFQZEhRd1FKQ0VvLW1SRDR1eFR0bzMzVlk3ak1oMUVYQlphblJYaG4yQVE?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbW04cURoOVlLNE1qWlg4OEVOR2ZZMzI4bm9HLXpCanVOUTFEdWZWT1pBbURFMXRFZ2ZfMEVpSERhWWdNNnlMMDg2VVRoSUVvU0h1cEVoSFB3LThpeUFmZkVEOHNKV3k1ckRPVFFqcTRwTTR4dlNVbENzNzRUb2pURlo5Y2dYWkE?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1lMnlTWE5sdHVHd29hUDJ6MERpNnR6bjVUNzdMbjFIVmVwRWh3WVNuM2NCMUVyNmNCdWpfam01TjZENndfTUljaVBLZENTMVVESExxb3c3VWVPc0ZNS0tZVmdjN2dHVVoxbzd2TUZZTXlGSlpLZkdFenU5cjduM0k?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBJX21NYkJ1OEVpa0xFWXR6RUFYZ1hYQUs5alZtT1BzT0RPY0xxc3NZcHFjTzJJakJOVWw4MFJ1eDlpcWdJenR2eHZiZ0E0NVdzUTUzTE93cXlldGVVUXJKTTJRc25uOWxIcFJRTG16OWpScHBKZmwteWNtOU9NZDA?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5wVmhROXdqb1ZqTW5fSFRTWGxKN3dhN0NSRHYxSmVOQkdUXzM4S0gtUTExbDBhZlJFNGhjVEdYZFB0SUpLdUkxU1Q5ZzhUYl8yWW1aTjNPTDU3VThIQ0VENUl4eXdtUQ?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFByMW55M0FlcDI1Zkd5eG1RVTVjdUM0c3J6d1gyZVlONkNuN2ppYnpBZGd5ZS1nLW5PMm1VdlZoY0p5Y2ZDdmV0V1B6NA?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5SajNLRDFEazJUNU1BQXowanhzemRjWUJaWThnYXlqbE9NWkEyczdwZ2FZWjV5Y2JfSUR5ZkFYQV9jai11VElZMl9VaE1kX3hvSlFYMVZaV0NISjFHNDZtVFlRbTR4QUREOVBvenR4VlQ1d9IBd0FVX3lxTE9vTGlOUU9pa2ZqYW8wbWtvN0xpRDBsMG1YU2U5dXBRaFdzaFJLNE5GZXlwU01zZGFoaFBMV0lLb2Q1cW0xM1dlcVBWT3BfNjFOOWlpb1JEblhiOEJaNHBlTmNkY3JwZVE0YnE4YWYyekV0VlIxbGow?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5xS3pNQll6R3lEb2QwcWJydS1TR2x4REN3aXFqdDdXb0U1cHR1S0RsRmNCZEpsaG5jQ1BuMDJSd2t1WVlvRmxsUGJ4dHFrWW1q?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE92S3NqSUpodVhEQnJYdFJHa2l2SXJQVG1pLTZlcDBvQmVVU1UwSUtPY0JsRWU0Ry1WX1c4R2dkb1pvcUJmeEFZZXp5VldVZkNNMGRKaTNHa0t2VTN6NVJFX2hR?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9tVlhQRzgtb2Fid3JJckluUXZwLXBBOEwzUTU2T0M2ZVl4WFRuY2RTTVNSYmZLbEppazRCLUl6Q2tmNGliREkyQnBoX0lZbldGNkZ4UlVPNzNSZTBJOWFoZlluNA?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNkdFSXpoNWwwWU9LM3FBNnRIQm1tM1RuV1F0OEtWaThYSjdTaWJYak96RjN5dFVuRTBOcEhHTWE1b1dZYzI4WHl5MkZDRUdldFZSejF3Y0JyeVpkT0VaYVBwb3hnTlIzemVDU0g5NndXN3BiOWNQWE1jYUE0eHlUR3Vnb2hxYy1uWlFYSzdjYnFicU3SAZMBQVVfeXFMTTZHRUl6aDVsMFlPSzNxQTZ0SEJtbTNUbldRdDhLVmk4WEo3U2liWGpPekYzeXRVbkUwTnBIR01hNW9XWWMyOFh5eTJGQ0VHZXRWUnoxd2NCcnlaZE9FWmFQcG94Z05SM3plQ1NIOTZ3VzdwYjljUFhNY2FBNHh5VEd1Z29ocWMtblpRWEs3Y2JxYnFN?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBtUzVuUWdTWGlqWXFFNlNpalRsSU1YUVFQOGpJbVJ5aHdrTUZTVkhreHJJQjQwZWRCdWlnRTMwV2FhTXpJSHlaWDQ1TzJtdDA5eERjbkdVVQ?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9MMlRzd2QtUFpCRmFWbThRNjB3dVd3UE1maWI2eGt6Tzh3b1V3VWozN1E2OXpBelNWVTJDWVZXYUVlRmo0X3ZybjNkQ0drU0trbEFLZEpRQ3BsWEh0cG9iTUJWVG5CUExpa0hmNGlMaTRZbHR3?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5wekhuSDdMVW1LRktHaFg0SDc1a1VMTlZQazRlRWdnSmFnQzdfcVBUX1A4aGVzak9BVk1DbWxZOHdyek1HUGRBVEZ1dnVmZ3Mx?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1XUFktQkRKb285amlWZVktVmFXX0FfaExGRFhoR0RlNDlKT1dPZjNjSmlabUx6c3NPUmtqbzFETm9rcEI0Y2l5bEN2bFhmMTNLQnRybm5pT2Myc3FqU0dZM2F6SzBKMDBxYURuRTQwV1JfZGFKN0t1UklTalpNREE?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0yTlpkNkFqRUtsMURIQVVrU2t3X0FueXhZS2RSQWpoSjlWblkzWnBNV0NiMDc5cU5WTW95eEppdTl2X3dxWjZkcERhbVp5d0VwV0xraTA3RTE2UDhUclN6ZWN3?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85YUpLQmRRcC1yS05tVjVYUHBnQ0hVcE1ZQnVZbEJLdm9DazAycVctU1NYNHFpbE5ITW50QkRKYV9wTVAyUk1rTzZWLVpiaVFJSTF3bnQ2end1dnZDTS1lWXRwT052Vzg?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5PY2JNSm9NamFwR0F2Mkhwd0k2c3JzeFpaalgzdEUtMEFkUTJyaU1PVFB3T2ctQUFGZU9SN0FwdmI3N2NIeVV4MGQ2T0ViM1hLRGZkeXg1YnBsUzRDSTB0UTZ2TmJPS1h6ZkJkbjg4eVFZR1ctUnhZUGpTeW8?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9YTFRXWS1vUTVNT0szYU1ONUxFMDd6Z3U3T19mMy1kN2xaUDBXMzBLWWpocm9PcGtvN29CVjcxbVVZQUZuWmZyaG9kQk90SWdRYVY1dlp2cTAzdnY5VVdRbVh5Ul9FdWVjNjd5YURwa3B0MWtOaU0wVUlYajJqRUU?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQd1g4Mzk5N2w2M2I4b2JZRGdtXzlDc3FxMllOT19IeC04YlBsaVBSVXJBY1R4OTVrZE9xYU9meUw3WGkzNWd5VmdoRUJROE8yQVZJLVZSYlJMQ1B5cElxSDJhaDNKc2pIRzN4R0NJdXpnejAyZ3BHSnRvQ0lSSURLWTg5dEVoU3NxY2xLZkMxUlN2a1XSAZMBQVVfeXFMUHdYODM5OTdsNjNiOG9iWURnbV85Q3NxcTJZTk9fSHgtOGJQbGlQUlVyQWNUeDk1a2RPcWFPZnlMN1hpMzVneVZnaEVCUThPMkFWSS1WUmJSTENQeXBJcUgyYWgzSnNqSEczeEdDSXV6Z3owMmdwR0p0b0NJUklES1k4OXRFaFNzcWNsS2ZDMVJTdmtV?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5UNTNFM0VjYVhOazc1SzhiVkdiQi1FQ3ROaXJkSzRuT0d4OWdFZXVmQWtYZHM3QmxwTXhTM0RQM05fTDJtREZVVUhEaUFtZDN0bWdZX3Fn?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5yNG04clBvUGFqX0pzd0dWOXdmc0hsUVI0WGZNWkI2VHRIeHdlRDI4SElIQnhVdE5aNkxsMTY1MXFoOFZ1dUVKd01DWEVKZHBCYzZRM0htaHRlM0hudURNRDkxaXM0em0xTVR0ZGJPLXI5bkFhRTRuWm9SZVE1Z9IBgwFBVV95cUxNQ1FZYmVfSlg1S3VOSDY5Mmd2bU9jeUpnVjBWMmNHaHNxX2Zmem91S3o4UHpYZHQzLTVfV1QtYTVnUFE4dDA3UlhhU0pfdWdmX2IzYVZHbU9EVDUtUTI3dHNqYnczTVpMaHF4OGdycWdXb1FrOG84bHktZnlkQkY2WjEyZw?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBGLVJsMi1RamNwcUdSSVR4MnQ1ckNPQmJxdmxJc2lOdDNmZ3NzcmJSTURMTEhXODNUdnk4RDBydG5aek1RN2VlN3d4SEJnMDFTb2c0Y1FuRmZqZ0xySE5CbkdYaDN3a3NMc0lfam5uSEowTFk0bE9FanBfSHYyZVE?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPYkwzcW5GWlRDZ2J4LW9RaFp6UExxcm1GY0ZMaWVZYW9Ib19JZmNSN2Mzd0VhUzF4dnFNX2FsY3FWd0JXczdLOVZwbEllTHVsVGs2aUkwdXdCZEFRUWNBTDJXLVpzX3pZVE5hZlljWnMxWUpDN3JUUWpDeVc0SVU5eEl5dVA3THc3UmhCNzJR?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE05N290cFVacTk2czQwQUdQZVVBWFNrZXVJYmgycVhNT2t6ZkVObW5pdTRiLXFqZkdVeGJkV01INkQwakdnbTAyMm1pTWZkNC1MakZ6RlBZWHcyWER3Y3c?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9OUmxBRFVSb291ZXR6dUZoYTNTQTFOU2gxbW1jcXZPSnFiclRiU0d3N0RUZV96TnN2ajh2eEZiWmRCNFhyd2RuZllXNUI4SVVFY2tfZ3dheXduUFBr?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA5TnpLNVRXRTlBSHRfc2VPVEllQ1ROMUdmUmdjbWJoaEhGTXp6LTJTSy1JYWI4SUcxaUZiYkxzSFhiZDlvM2dVLVVwX0pzbFZJUHVxNkFjR29PLUpRWG9RbWk5Y2RwWEk?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9tSjVJR2gwRzJGWE5HbEdjbjNnYVVGM0VQQlltY0stYi1xNEFaWDR5YWlzWHo0UXB5ZDNFXzZLaUJqVmpGbFVJRDZTSDlLR0dPcmwwaW1tZF93VngwWG9PX3pWSHBEQkE?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1Ja3hFTDhZTkM0UThHMXI4Y0dVdHpLeWxHUTduYnVjWWt4N3JzM2swb0VvX3FvYXduZzFIM1pXYWpocWVEc2gydUpVMA?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB4OXRXb2NjREZJUl92OWw2YTB0OFEzNEg0TG8wd0JqRDFicHd6b0ZGR3BCZmdVekE2YlAyVURMdmY4U2ZvZ19NZDdrZzFkWnlXalNYOGU1UF9VczVCMC03WXB0UExMQ0lYNjZ1S0NyRDdnakl1Q3dBajExdGRLRkU?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5OYllHdFJ5a2RhMjAweE9abnA5SkROY3U5MVBaZmpycHZaWHhNSmRKRUhSOFF5a1FHaTRNV01CRGdWWHc3NDk5X3BXTDVJNHV4bUhJSU9qaDgtUk95?oc=5"
+        }
+      ]
+    },
+    {
+      "published": "2026-10-19",
+      "company": "GMOリサーチ&AI 運営のアンケートサイト「infoQ",
+      "service": "",
+      "affected_count": 894082,
+      "status": "confirmed",
+      "cause": "報道自動検知",
+      "summary": "GMOリサーチ&AI 運営のアンケートサイト「infoQ」に不正アクセス、89万4,082件の個人情報外部持ち出しを確認 2枚目の写真・画像",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "公式発表",
+          "url": "https://gmo-research.ai/pressroom/notice/notice-20261005"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9CVG56Z2F5SDh1M3VKbS1wQ3h0ZzJUMlppVE9uQUNUZ2tmbGdySXRtM29ZQjZsVVp0alZCX0FNTHozcEtoclFVQTU4VjhYZTZGT1ZmMTJUWGtqM0dFTDZVYlBuemQ3Wlp4cUVv?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1fLUxiRWJwenlWcjZEVVZNcXBXWnd3V0VyeHllT2phcUZuZEtJWXVZeXQ0RHlBVGR0aWNnS1NVR2pqcENyaEE3TDdhT19yN0VfQVFlaVp1SDVPcDJMNjROMC0xWHhnQm41MXZudQ?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5BQTVpanlxbTlaNUIwM0h2VmV3MG9TU05SODJoUVVCQnhSQlhTUDdLNDZvMkpUM0dpNERXOThKRVkzd3cxVlhITDRPTTZUdW5QaTh5WHlyb3l1bnZIVWp1SHFmM2ZpS0VTZE9rck54aGZtRVBHVkE?oc=5"
+        }
+      ]
+    },
+    {
+      "published": "2026-10-19",
+      "company": "ファンケルとアテニアのECサイト",
+      "service": "",
+      "affected_count": 780000,
+      "status": "confirmed",
+      "cause": "報道自動検知",
+      "summary": "ファンケルとアテニア、不正アクセスで78万人分の個人情報漏えい 住所・氏名・電話番号など(アスキー)",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "公式発表",
+          "url": "https://www.fancl.jp/news/pdf/husei.pdf"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE83aW9MOUlXSjFpVExoSkpJYXBGOUFTek5HT1dUQW11djJ3bXMzRVJlM1RtWExlSE15ajBkeHJGT0lZOF9lRXdySHh0a1VTanRuMWg2Sw?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9BVkY1eGNEY0dNRERKRnVFSV9WTmhtejNnOWNNSi1Uc2lONmh0cWlJVVpQVTZsSU1MV1UzSzBscl9sbXpXNEhyM3dObkJUUXdxTU1aSE1XRGl5MTdlS3luV0lpYnZlSXBnS3JXWWg1cDZvZ2UwREY5VGtFczgwZlk?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE10aTkzSWluZ195TkUtTTVZVElrMHNTdnRUT2pPMW1LdkszT3I5cWtrYzVrRkljY2NaODI3bUswb1AwYk9qbmEyQQ?oc=5"
+        }
+      ]
+    },
+    {
+      "published": "2026-10-19",
+      "company": "70万人登録の日本サッカー協会公式アプリ",
+      "service": "",
+      "affected_count": 700000,
+      "status": "possible",
+      "cause": "報道自動検知",
+      "summary": "70万人登録の日本サッカー協会公式アプリに不正アクセス、個人情報含む利用者情報への影響は調査中 (読売新聞オンライン)",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "公式発表",
+          "url": "https://www.jfa.jp/news/00036934/"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9Hc3R4Rzg3Z0FHa0tRNmJnamMyQ1R6dzhPZzNwRFUyeVl1QzNlNnBIZVhSWU1KZ29xQ0NZMzhjNURoaVV4X0w5Y3NqTlRLX2ZPSDRONExWWUFkX08tVFlTeThHNUd2Uk1WN3hGdmhPT2NPWXdKeXdUVFp3OVk2VjQ?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZDFQNEdyel91aWVaQjZubUU2TWFGbWdEdGs2MGFnMjlHVHgzTVMtMllZOXl4cEhHSzdpNE9mWEpPanBVMzNYa3NTZmVrSFlaTWl5QS0wdjQ0dkNDUTV2elNpeFFsUEQtWDE2TjlndkNXdEpkLS04T0VyQ2xwbWw0S1NoaTFLOXVZWV9nN29R?oc=5"
+        }
+      ]
+    },
+    {
+      "published": "2026-10-19",
+      "company": "ノーコードWeb制作「Studio",
+      "service": "",
+      "affected_count": 0,
+      "status": "possible",
+      "cause": "報道自動検知",
+      "summary": "ノーコードWeb制作「Studio」が不正アクセスで全顧客情報流出の可能性、パスワード変更など要請(Web担当者Forum)",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "公式発表",
+          "url": "https://studio.design/ja/whats-new/unauthorized-access-2026-10"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNaklHc1pRQ2RkSDM4cDJBdGJmVGJMRlFlSkM0S2s4Um9zQ093Q1hNSDJFdWR2MDFYS1ZmWFEtNG9uaEh5NnJZS2xHMVFmNjJ1R2hOS3NubDVXazctTnhiNzVxYTFYQzZtR1gyUUQ0aWxQeDc5ZmZtWG1NWHFwaXRELU1fdGxHR2RNa2FDOWROSnBGWUhEcjRpRnNSemNsT2JvQmp1VENLRERicHVORE40Nmx5dUtISExFcWhfaVppX01SMVFiT3BxUEZCQU9yeEJBcDlXbE5JY0lFRUtXcWQ2Y0ZacENCc3RCWDBzQ0FZWHRlX01QX3hPdzE3RTJMajJI?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUzB6UGJzQVNWREJlV1hXcHZ0R3lxSm9LaUNpdjlIUnp1dEllcVVxYjJqRmk5TzZWUldCUTJwTE4yU1NUbXlBcVBEVEo5VG9zN0xzVXpYQWotRlJZSTNpZEVhNG9CbmJBVmFDMFdxUVRSMlA0aF9YR0ZIT21fN3hqQ0tMYk9IQUZBanJWMW9BMlM1M2RZcExnMnlSU2hPYW5TTGtmTXNNbll4cHNDdkwzLQ?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZ1pKMHh5UWQ3UDNHd1B1R01QQS0wWnpKdjcteHQxN2xjTWNId19zS1FQVGRtN1VqTzE1dnFwT2p1aFU4OGpsbXdKMXM3Z0pOWWZOSHZyU3o0YXRUdWVCYkZ1SzlhSzZlcW9FR1JSQkRpSk1xV2x6cUI5Q0JOV2h6MVUyd1ZlaWR3SGNpTzhyaDllU0xLaUJVTTc3MzRibGRYMjc3LW9ldjU4V0U?oc=5"
+        },
+        {
+          "name": "Googleニュース経由",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5JZEQ5QnI3b1NFaUlPTUd5NUQyZFFaZ192Z042S2ZfU09RdmlTRGtOZXpnSXMtWFpqWEVNV3pHRHJTVjZwNzZacTVBQ3BQMDJWSXF4SkMtVXpJRVhQRS1yb2lCTDFVWTJ2ck5XR0RIMHdVOWhuUUE2V3NKU3BDME0?oc=5"
+        }
+      ]
+    },
     {
       "published": "2026-10-17",
       "company": "Eストアー",
@@ -368,6 +704,10 @@
       "exposed_data": "ユーザー情報、画像メタデータ等",
       "sources": [
         {
+          "name": "公式発表",
+          "url": "https://corp.helpfeel.com/news/news-20260916-1"
+        },
+        {
           "name": "INTERNET Watch",
           "url": "https://internet.watch.impress.co.jp/"
         }
@@ -383,6 +723,10 @@
       "summary": "WEB作業予約の利用者情報が外部流出。",
       "exposed_data": "氏名、住所、生年月日、電話番号、メールアドレス、会員番号、ID等",
       "sources": [
+        {
+          "name": "公式発表",
+          "url": "https://www.yellowhat.jp/information/yellowhat/202610_2.html"
+        },
         {
           "name": "公式・報道",
           "url": "https://www.yellowhat.jp/"
