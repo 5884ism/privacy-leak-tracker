@@ -336,3 +336,20 @@ a{color:var(--accent)} .wrap{width:min(1180px,calc(100% - 32px));margin:auto}
   border:1px solid #fedf89;
   font-weight:800;
 }
+
+/* public v1.0 */
+.public-tabs{
+  grid-template-columns:repeat(2,minmax(0,max-content));
+}
+.public-stats{
+  grid-template-columns:repeat(4,minmax(0,1fr));
+}
+.public-official-updates{
+  border-color:#dbe5ff;
+  background:#f8faff;
+}
+@media(max-width:800px){
+  .public-stats{
+    grid-template-columns:repeat(2,minmax(0,1fr));
+  }
+}
