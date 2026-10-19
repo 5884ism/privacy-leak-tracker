@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-19 10:20 JST",
+  "last_updated": "2026-10-19 15:00 JST",
   "incidents": [
     {
       "id": "2026-10-19-auto-4506c2e847",
@@ -4145,11 +4145,15 @@
       "company": "バーガーキング",
       "service": "",
       "affected_count": 11180000,
-      "status": "candidate",
+      "status": "confirmed",
       "cause": "報道自動検知",
       "summary": "バーガーキング、公式アプリ会員情報約1118万件の漏えいを確認",
       "exposed_data": "要確認",
       "sources": [
+        {
+          "name": "公式発表",
+          "url": "https://www.burgerking.co.jp/images/notice/2026/10/15/d4d114ca-ebd7-4f3d-94ef-c4ea7a84a139.pdf"
+        },
         {
           "name": "Googleニュース経由",
           "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRy01T2NKM091UGtjOF9LZTc2ZG1nZkxxcGhQc3hvUU12bElINURCWW1HN1FxZmtudzl0YU9MQmVPTFNTNVE2WU52c2xnN3RCLVRKeHlWYVduMWcwQzJEMlVtdkZCQTlaVjUzZHVMWGEzZV8wd2lXX1ZtazdGbTYzbTdaWDdIdG80Y3lJ?oc=5"
@@ -4162,8 +4166,7 @@
       "auto_detected": true,
       "rss_pub_date": "Fri, 16 Oct 2026 19:15:51 GMT",
       "article_count": 2,
-      "priority": "A",
-      "priority_score": 9
+      "reviewed_at": "2026-10-19 15:00 JST"
     },
     {
       "id": "2026-10-17-auto-5449e02dd3",
