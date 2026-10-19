@@ -9,16 +9,38 @@
   function daysApart(a,b){
     const da=(a||'').slice(0,10), db=(b||'').slice(0,10);
     if(!da||!db)return 9999;
-    const x=new Date(da+'T00:00:00'), y=new Date(db+'T00:00:00');
-    return Math.abs((x-y)/86400000);
+    return Math.abs(
+      (new Date(da+'T00:00:00')-new Date(db+'T00:00:00'))/86400000
+    );
+  }
+
+  function relationInfo(x){
+    try{return relationFor(x)||null}catch{return null}
   }
 
   function relationKey(x){
-    try{
-      const r=relationFor(x);
-      if(r?.selected) return norm(r.selected);
-    }catch{}
-    return norm(x.company||'');
+    const r=relationInfo(x);
+    return norm(r?.selected || x.company || '');
+  }
+
+  function selectedTokens(x){
+    const r=relationInfo(x);
+    const s=(r?.selected||'').split(/\s*\/\s*/);
+    return s.map(norm).filter(v=>v.length>=2);
+  }
+
+  function textBlob(x){
+    return norm(`${x.company||''} ${x.service||''} ${x.summary||''}`);
+  }
+
+  function mentionsSelection(x){
+    const blob=textBlob(x);
+    return selectedTokens(x).some(t=>blob.includes(t));
+  }
+
+  function hasLeakContext(x){
+    const raw=`${x.company||''} ${x.service||''} ${x.summary||''}`;
+    return /(漏えい|漏洩|流出|不正アクセス|サイバー攻撃|免許証|個人情報|会員情報|顧客情報)/i.test(raw);
   }
 
   function countRatio(a,b){
@@ -27,46 +49,64 @@
     return Math.min(a,b)/Math.max(a,b);
   }
 
-  function incidentWords(x){
-    const s=norm(`${x.company||''} ${x.service||''} ${x.summary||''}`);
-    const words=[
-      '不正アクセス','漏えい','漏洩','流出','ランサムウェア',
-      '後払い','クロネコ','会員情報','顧客情報','個人情報'
-    ];
-    return new Set(words.filter(w=>s.includes(norm(w))));
+  function statusRank(s){
+    return s==='confirmed'?3:s==='possible'?2:s==='candidate'?1:0;
   }
 
-  function keywordOverlap(a,b){
-    const aa=incidentWords(a), bb=incidentWords(b);
-    for(const x of aa) if(bb.has(x)) return true;
-    return false;
+  function isVerified(x){
+    return x.status==='confirmed'||x.status==='possible';
+  }
+
+  function explicitService(x){
+    return norm(x.service||'');
   }
 
   function sameLikelyIncident(a,b){
-    // 「自分に関連」で同じ選択サービスに紐づくことを最優先
+    // まず「自分に関連」で同じ選択先に紐づくことが必須
     const ka=relationKey(a), kb=relationKey(b);
     if(!ka||!kb||ka!==kb)return false;
 
-    // サービス名が明確に一致
-    const sa=norm(a.service||''), sb=norm(b.service||'');
-    if(sa && sb && sa===sb)return true;
+    const da=daysApart(a.published,b.published);
+    const sa=explicitService(a), sb=explicitService(b);
 
-    // 対象件数が近ければ同一事故とみなす
-    if(countRatio(a.affected_count,b.affected_count)>=0.85 &&
-       daysApart(a.published,b.published)<=45){
+    // 両方に明示サービス名があり、それが違う場合は原則別事故。
+    // 例: 佐川急便「スマートクラブ」と「お荷物問い合わせサービス」
+    if(sa && sb && sa!==sb){
+      // ただし片方のサービス名がもう片方を包含する軽微な表記差は許容
+      if(!(sa.includes(sb)||sb.includes(sa))) return false;
+    }
+
+    // 明示サービスが一致すればかなり強い
+    if(sa && sb && (sa===sb||sa.includes(sb)||sb.includes(sa)) && da<=120){
       return true;
     }
 
-    // 件数不明でも、日付が近く事故キーワードが重なる場合
-    if(daysApart(a.published,b.published)<=14 && keywordOverlap(a,b)){
+    // 件数が近い場合。660万 vs 660万、531万 vs 526万など
+    if(countRatio(a.affected_count,b.affected_count)>=0.80 && da<=90){
       return true;
+    }
+
+    // 確定/可能性ありの代表案件と、その後のニュース・続報。
+    // 件数0の記事（免許証ルール変更、利用者の声等）もここで吸収。
+    if((isVerified(a)||isVerified(b)) && da<=60){
+      const candidate=isVerified(a)?b:a;
+      if(mentionsSelection(candidate) && hasLeakContext(candidate)){
+        return true;
+      }
+    }
+
+    // 候補同士は、同じ選択サービスを明記し、2週間以内ならまとめる。
+    if(!isVerified(a)&&!isVerified(b) && da<=14){
+      if(mentionsSelection(a)&&mentionsSelection(b)&&hasLeakContext(a)&&hasLeakContext(b)){
+        return true;
+      }
     }
 
     return false;
   }
 
   function uniqByUrl(arr=[]){
-    const out=[], seen=new Set();
+    const out=[],seen=new Set();
     for(const s of arr){
       const u=s?.url||'';
       if(!u||seen.has(u))continue;
@@ -76,16 +116,14 @@
     return out;
   }
 
-  function statusRank(s){
-    return s==='confirmed'?3:s==='possible'?2:s==='candidate'?1:0;
-  }
-
   function chooseRepresentative(a,b){
-    // 確認済みを代表カードとして優先
-    if(statusRank(b.status)>statusRank(a.status)) return [b,a];
-    if(statusRank(a.status)>statusRank(b.status)) return [a,b];
+    if(statusRank(b.status)>statusRank(a.status))return [b,a];
+    if(statusRank(a.status)>statusRank(b.status))return [a,b];
 
-    // 同ステータスなら情報源の多い方を代表
+    // 明示的なserviceを持つ方を優先
+    if(a.service&&!b.service)return [a,b];
+    if(b.service&&!a.service)return [b,a];
+
     const as=(a.sources||[]).length, bs=(b.sources||[]).length;
     if(bs>as)return [b,a];
     return [a,b];
@@ -100,92 +138,109 @@
       Number(b.affected_count||0)
     );
 
-    x.sources=uniqByUrl([
-      ...(a.sources||[]),
-      ...(b.sources||[])
-    ]);
-
+    x.sources=uniqByUrl([...(a.sources||[]),...(b.sources||[])]);
     x.official_updates=uniqByUrl([
       ...(a.official_updates||[]),
       ...(b.official_updates||[])
     ]);
 
-    const hasUnreviewed=x.official_updates.some(u=>u.reviewed!==true);
     x.official_update_pending=
       a.official_update_pending===true ||
       b.official_update_pending===true ||
-      hasUnreviewed;
+      x.official_updates.some(u=>u.reviewed!==true);
 
     x.article_count=
-      Number(a.article_count||1)+
-      Number(b.article_count||1);
+      Number(a.article_count||1)+Number(b.article_count||1);
 
-    // confirmed/possible の内容を優先して残す
-    if(statusRank(rep.status)<statusRank(other.status)){
-      x.status=other.status;
-    }
+    // 確定案件側のタイトル・概要・service・IDを代表として残す
+    x.id=rep.id;
+    x.company=rep.company;
+    x.service=rep.service;
+    x.summary=rep.summary;
+    x.exposed_data=rep.exposed_data;
+    x.status=rep.status;
+    x.cause=rep.cause;
 
     x._mergedIds=[
       ...(a._mergedIds||[a.id]).filter(Boolean),
       ...(b._mergedIds||[b.id]).filter(Boolean)
     ];
     x._mergedIds=[...new Set(x._mergedIds)];
-    x._mergedCount=x._mergedIds.length || ((a._mergedCount||1)+(b._mergedCount||1));
-
-    // 表示上の代表IDは確認済み案件のIDを維持
-    x.id=rep.id;
+    x._mergedCount=x._mergedIds.length;
 
     return x;
   }
 
   function mergeMineRows(rows){
-    // confirmed を先に処理して代表カードになりやすくする
+    // 確定案件を先に置き、候補をそこへ吸収する
     const ordered=[...rows].sort((a,b)=>
       statusRank(b.status)-statusRank(a.status) ||
+      (a.published||'').localeCompare(b.published||'') ||
       (b.sources||[]).length-(a.sources||[]).length
     );
 
     const out=[];
     for(const row of ordered){
-      const idx=out.findIndex(x=>sameLikelyIncident(x,row));
+      let idx=out.findIndex(x=>sameLikelyIncident(x,row));
       if(idx<0){
         out.push({...row,_mergedIds:[row.id].filter(Boolean),_mergedCount:1});
       }else{
         out[idx]=mergeIncident(out[idx],row);
+
+        // 連鎖的にまとめられる既存クラスタがあればさらに統合
+        let changed=true;
+        while(changed){
+          changed=false;
+          for(let j=0;j<out.length;j++){
+            if(j===idx)continue;
+            if(sameLikelyIncident(out[idx],out[j])){
+              out[idx]=mergeIncident(out[idx],out[j]);
+              out.splice(j,1);
+              if(j<idx)idx--;
+              changed=true;
+              break;
+            }
+          }
+        }
       }
     }
     return out;
   }
 
   function patch(){
-    if(typeof rowsForView!=='function' || typeof render!=='function')return false;
-    if(window.__mineMergeV25Patched)return true;
-    window.__mineMergeV25Patched=true;
+    if(typeof rowsForView!=='function'||typeof render!=='function')return false;
+    if(window.__mineMergeV26Patched)return true;
+    window.__mineMergeV26Patched=true;
 
     const originalRowsForView=rowsForView;
     rowsForView=function(){
       const rows=originalRowsForView();
-      return currentView==='mine' ? mergeMineRows(rows) : rows;
+      return currentView==='mine'?mergeMineRows(rows):rows;
     };
 
     const originalRender=render;
     render=function(){
       originalRender();
-
       if(currentView!=='mine')return;
 
-      const merged=rowsForView();
+      let merged=rowsForView();
 
-      // タブ件数も統合後の件数へ
-      if(els?.tabMineCount) els.tabMineCount.textContent=merged.length;
+      // app.js と同じ並び順を適用して、カードとデータのindexを合わせる
+      if(els.sort.value==='date-desc'){
+        merged.sort((a,b)=>(b.published||'').localeCompare(a.published||''));
+      }else if(els.sort.value==='date-asc'){
+        merged.sort((a,b)=>(a.published||'').localeCompare(b.published||''));
+      }else if(els.sort.value==='count-desc'){
+        merged.sort((a,b)=>(b.affected_count||0)-(a.affected_count||0));
+      }
 
-      // 表示カードに統合件数バッジ
+      if(els?.tabMineCount)els.tabMineCount.textContent=merged.length;
+
       document.querySelectorAll('#cards .card').forEach((card,i)=>{
         const x=merged[i];
-        if(!x || x._mergedCount<=1)return;
-
+        if(!x||x._mergedCount<=1)return;
         const meta=card.querySelector('.meta');
-        if(meta && !meta.querySelector('.same-incident-merged')){
+        if(meta&&!meta.querySelector('.same-incident-merged')){
           const badge=document.createElement('span');
           badge.className='badge same-incident-merged';
           badge.textContent=`同一案件 ${x._mergedCount}件を統合`;
@@ -197,12 +252,9 @@
     return true;
   }
 
-  // app.js の後に読み込まれる想定。念のため遅延でも再試行。
   if(!patch()){
     window.addEventListener('DOMContentLoaded',()=>{
-      if(patch()) render();
+      if(patch())render();
     });
-  }else{
-    // app.js の非同期fetch完了後のrenderから自動的に利用される
   }
 })();
