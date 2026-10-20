@@ -7,18 +7,15 @@ on:
         description: "既存 confirmed / possible 案件の案件ID"
         required: true
         type: string
-
       official_url:
         description: "公式発表URL"
         required: true
         type: string
-
       source_name:
         description: "表示名（例: ローソン公式）"
         required: false
         default: "公式発表"
         type: string
-
       note:
         description: "運用メモ（任意）"
         required: false
@@ -27,19 +24,20 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: privacy-leak-data-write
+  cancel-in-progress: false
+
 jobs:
   add-official-source:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
-
+        uses: actions/checkout@v7
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: "3.12"
-
       - name: Attach official source
         env:
           INCIDENT_ID: ${{ inputs.incident_id }}
@@ -47,29 +45,23 @@ jobs:
           SOURCE_NAME: ${{ inputs.source_name }}
           NOTE: ${{ inputs.note }}
         run: |
-          python scripts/add_official_source.py \
-            --id "$INCIDENT_ID" \
-            --official-url "$OFFICIAL_URL" \
-            --source-name "$SOURCE_NAME" \
-            --note "$NOTE"
-
+          python scripts/add_official_source.py             --id "$INCIDENT_ID"             --official-url "$OFFICIAL_URL"             --source-name "$SOURCE_NAME"             --note "$NOTE"
       - name: Check official follow-up announcements
         run: python scripts/check_official_updates.py
-
+      - name: Normalize source media names
+        run: python scripts/normalize_source_names.py
       - name: Generate public feed
         run: python scripts/export_public.py
-
       - name: Commit changes
         run: |
           git config user.name "privacy-leak-bot"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
           git add data/incidents.json data/public-incidents.json
-
           if git diff --cached --quiet; then
             echo "No changes"
             exit 0
           fi
-
           git commit -m "review: add official source ${{ inputs.incident_id }}"
-          git push
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main

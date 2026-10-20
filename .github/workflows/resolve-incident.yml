@@ -16,7 +16,7 @@ on:
         required: true
         type: string
       resolution_note:
-        description: "確定理由（例: 公式発表により個人情報の漏えいはなかったと判断）"
+        description: "確定理由"
         required: true
         type: string
       source_name:
@@ -28,22 +28,22 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: privacy-leak-data-write
+  cancel-in-progress: false
+
 jobs:
   resolve:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v7
-
       - name: Set up Python
         uses: actions/setup-python@v7
         with:
           python-version: "3.12"
-
       - name: Snapshot public incidents before resolution
         run: python scripts/report_public_changes.py snapshot /tmp/public-before.json
-
       - name: Resolve incident
         env:
           INCIDENT_ID: ${{ inputs.incident_id }}
@@ -52,33 +52,23 @@ jobs:
           RESOLUTION_NOTE: ${{ inputs.resolution_note }}
           SOURCE_NAME: ${{ inputs.source_name }}
         run: |
-          python scripts/resolve_incident.py \
-            --id "$INCIDENT_ID" \
-            --resolution-date "$RESOLUTION_DATE" \
-            --resolution-url "$RESOLUTION_URL" \
-            --resolution-note "$RESOLUTION_NOTE" \
-            --source-name "$SOURCE_NAME"
-
+          python scripts/resolve_incident.py             --id "$INCIDENT_ID"             --resolution-date "$RESOLUTION_DATE"             --resolution-url "$RESOLUTION_URL"             --resolution-note "$RESOLUTION_NOTE"             --source-name "$SOURCE_NAME"
       - name: Normalize source media names
         run: python scripts/normalize_source_names.py
-
       - name: Generate public feed
         run: python scripts/export_public.py
-
       - name: Report public changes
         run: python scripts/report_public_changes.py report /tmp/public-before.json
-
       - name: Commit changes
         run: |
           git config user.name "privacy-leak-bot"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
           git add data/incidents.json data/public-incidents.json data/public-update.json
-
           if git diff --cached --quiet; then
             echo "No changes"
             exit 0
           fi
-
           git commit -m "review: resolve incident ${{ inputs.incident_id }}"
-          git push
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main

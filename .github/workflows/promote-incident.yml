@@ -12,9 +12,7 @@ on:
         required: true
         default: "confirmed"
         type: choice
-        options:
-          - confirmed
-          - possible
+        options: [confirmed, possible]
       official_url:
         description: "公式発表URL（任意）"
         required: false
@@ -32,21 +30,22 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: privacy-leak-data-write
+  cancel-in-progress: false
+
 jobs:
   promote:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v7
-
       - name: Set up Python
         uses: actions/setup-python@v7
         with:
           python-version: "3.12"
-
       - name: Snapshot public incidents before promotion
         run: python scripts/report_public_changes.py snapshot /tmp/public-before.json
-
       - name: Promote incident
         env:
           INCIDENT_ID: ${{ inputs.incident_id }}
@@ -55,22 +54,13 @@ jobs:
           SOURCE_NAME: ${{ inputs.source_name }}
           NOTE: ${{ inputs.note }}
         run: |
-          python scripts/promote.py \
-            --id "$INCIDENT_ID" \
-            --status "$STATUS" \
-            --official-url "$OFFICIAL_URL" \
-            --source-name "$SOURCE_NAME" \
-            --note "$NOTE"
-
+          python scripts/promote.py             --id "$INCIDENT_ID"             --status "$STATUS"             --official-url "$OFFICIAL_URL"             --source-name "$SOURCE_NAME"             --note "$NOTE"
       - name: Normalize source media names
         run: python scripts/normalize_source_names.py
-
       - name: Generate public feed
         run: python scripts/export_public.py
-
       - name: Report public changes
         run: python scripts/report_public_changes.py report /tmp/public-before.json
-
       - name: Commit changes
         run: |
           git config user.name "privacy-leak-bot"
@@ -81,4 +71,6 @@ jobs:
             exit 0
           fi
           git commit -m "review: promote incident ${{ inputs.incident_id }}"
-          git push
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main

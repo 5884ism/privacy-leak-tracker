@@ -2,64 +2,54 @@ name: Daily privacy incident update
 
 on:
   schedule:
-    # GitHub Actions uses UTC.
-    # 21:10 UTC = 06:10 JST
     - cron: '10 21 * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: privacy-leak-data-write
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-slim
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v7
-
       - name: Set up Python
         uses: actions/setup-python@v7
         with:
           python-version: '3.12'
-
       - name: Snapshot candidates before update
         run: python scripts/report_candidate_changes.py snapshot /tmp/candidates-before.json
-
       - name: Snapshot public incidents before update
         run: python scripts/report_public_changes.py snapshot /tmp/public-before.json
-
       - name: Update incidents
         run: python scripts/update.py
-
       - name: Normalize source media names
         run: python scripts/normalize_source_names.py
-
       - name: Report candidate changes
         if: always()
         run: python scripts/report_candidate_changes.py report /tmp/candidates-before.json
-
       - name: Check official follow-up announcements
         run: python scripts/check_official_updates.py
-
       - name: Generate public feed
         run: python scripts/export_public.py
-
       - name: Report public changes
         if: always()
         run: python scripts/report_public_changes.py report /tmp/public-before.json
-
       - name: Commit changes
         run: |
           git config user.name "privacy-leak-bot"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
           git add data/incidents.json data/public-incidents.json data/candidate-update.json data/public-update.json
-
           if git diff --cached --quiet; then
             echo "No changes"
             exit 0
           fi
-
           git commit -m "chore: daily incident update and source names"
-          git push
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
