@@ -48,9 +48,15 @@
     const visible=[...official, ...media.slice(0,3)];
     const hidden=media.slice(3);
 
-    const linkHtml=s=>`<a href="${esc(s.url)}" target="_blank" rel="noopener">${
-      s.official ? '公式発表：' : ''
-    }${esc(s.displayName)}</a>`;
+    const linkHtml=s=>{
+      let text=s.displayName;
+      if(s.official){
+        text = s.displayName === '公式発表'
+          ? '公式発表'
+          : `公式発表：${s.displayName}`;
+      }
+      return `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(text)}</a>`;
+    };
 
     return `
       <div class="public-update-sources">
