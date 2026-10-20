@@ -33,6 +33,9 @@ jobs:
       - name: Report candidate changes
         if: always()
         run: python scripts/report_candidate_changes.py report /tmp/candidates-before.json
+      - name: Enrich candidate update details
+        if: always()
+        run: python scripts/enrich_candidate_update.py
       - name: Check official follow-up announcements
         run: python scripts/check_official_updates.py
       - name: Generate public feed
