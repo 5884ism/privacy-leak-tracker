@@ -27,8 +27,62 @@
     }).format(d);
   }
 
+  function cleanSourceName(s){
+    const n=String(s?.name || '').trim();
+    if(s?.official) return n || '公式発表';
+    if(!n || n==='Googleニュース経由' || n==='Google News') return 'Googleニュース';
+    return n;
+  }
+
+  function sourceLinks(x){
+    const srcs=[];
+    const seen=new Set();
+
+    for(const s of (Array.isArray(x.sources) ? x.sources : [])){
+      if(!s?.url) continue;
+      const name=cleanSourceName(s);
+      const key=(s.official?'official:':'media:') + name.toLowerCase();
+      if(seen.has(key)) continue;
+      seen.add(key);
+      srcs.push({...s, displayName:name});
+    }
+
+    if(!srcs.length) return '';
+
+    srcs.sort((a,b)=>Number(Boolean(b.official))-Number(Boolean(a.official)));
+
+    return `
+      <div class="candidate-update-sources">
+        <span>情報源</span>
+        <div class="candidate-update-source-links">
+          ${srcs.map(s=>{
+            const text = s.official && s.displayName !== '公式発表'
+              ? `公式発表：${s.displayName}`
+              : s.displayName;
+            return `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(text)}</a>`;
+          }).join('')}
+        </div>
+      </div>
+    `;
+  }
+
+  function promoteButton(x){
+    if(!x.id) return '';
+    return `
+      <a
+        class="review-search-btn candidate-update-promote-link"
+        href="${PROMOTE_URL}"
+        target="_blank"
+        rel="noopener"
+        data-incident-id="${esc(x.id)}"
+        title="案件ID ${esc(x.id)} をコピーして Promote incident を開きます"
+      >昇格させる</a>
+    `;
+  }
+
   function ensurePanel(){
     if(document.getElementById('candidateUpdatePanel')) return;
+
     const tabs = document.querySelector('.view-tabs');
     if(!tabs) return;
 
@@ -36,6 +90,7 @@
     panel.id = 'candidateUpdatePanel';
     panel.className = 'candidate-update-panel';
     panel.setAttribute('aria-live','polite');
+
     tabs.parentNode.insertBefore(panel, tabs);
   }
 
@@ -94,13 +149,29 @@
                 <strong>${esc(label(x))}</strong>
                 <span class="candidate-update-count">${esc(fmtCount(x.affected_count))}</span>
                 ${x.summary ? `<p>${esc(x.summary)}</p>` : ''}
-                ${x.id ? `<code>${esc(x.id)}</code>` : ''}
+                ${sourceLinks(x)}
+                <div class="candidate-update-actions">
+                  ${promoteButton(x)}
+                  ${x.id ? `<code>${esc(x.id)}</code>` : ''}
+                </div>
               </article>
             `).join('')}
           </div>
         </details>
       ` : `<p class="candidate-update-empty">今回、新たな表示候補はありません。</p>`}
     `;
+
+    panel.querySelectorAll('.candidate-update-promote-link').forEach(link=>{
+      link.addEventListener('click', async ()=>{
+        const id=link.dataset.incidentId;
+        if(!id) return;
+        try{
+          await navigator.clipboard.writeText(id);
+        }catch(e){
+          console.warn('incident id copy failed', e);
+        }
+      });
+    });
   }
 
   function addPromoteActions(){
