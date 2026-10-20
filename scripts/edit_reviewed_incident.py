@@ -1,13 +1,18 @@
 #!/usr/bin/env python3
-"""Fully overwrite operator-managed fields on a reviewed incident.
+"""Partially overwrite operator-managed fields on a reviewed incident.
 
-System-managed fields such as id, auto_detected, rss_pub_date and article_count
-are preserved. Existing non-official media sources are also preserved, while
-official source information is replaced by the newly entered official source.
+Only incident ID is required.
+Blank optional inputs preserve the current value.
+
+affected_count accepts:
+  4454097
+  4,454,097
+  4,454,097件
 """
 
 import argparse
 import json
+import re
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -16,24 +21,40 @@ DATA = ROOT / "data" / "incidents.json"
 JST = timezone(timedelta(hours=9))
 
 
+def parse_affected_count(raw: str):
+    raw = (raw or "").strip()
+    if not raw:
+        return None
+
+    # Accept Japanese/full-width digits, commas, spaces and "件".
+    trans = str.maketrans("０１２３４５６７８９，", "0123456789,")
+    s = raw.translate(trans)
+    s = s.replace(",", "").replace("件", "").replace(" ", "").replace("　", "")
+
+    if not re.fullmatch(r"\d+", s):
+        raise argparse.ArgumentTypeError(
+            f"対象規模は数字で入力してください: {raw!r} "
+            "(例: 4454097 / 4,454,097 / 4,454,097件)"
+        )
+
+    return int(s)
+
+
 def main():
     p = argparse.ArgumentParser()
     p.add_argument("--id", required=True)
-    p.add_argument("--published", required=True)
-    p.add_argument("--company", required=True)
+    p.add_argument("--published", default="")
+    p.add_argument("--company", default="")
     p.add_argument("--service", default="")
-    p.add_argument("--affected-count", required=True, type=int)
-    p.add_argument("--status", required=True, choices=["confirmed", "possible"])
-    p.add_argument("--cause", required=True)
-    p.add_argument("--summary", required=True)
-    p.add_argument("--exposed-data", required=True)
-    p.add_argument("--official-url", required=True)
-    p.add_argument("--source-name", required=True)
-    p.add_argument("--note", required=True)
+    p.add_argument("--affected-count", default="")
+    p.add_argument("--status", default="", choices=["", "confirmed", "possible"])
+    p.add_argument("--cause", default="")
+    p.add_argument("--summary", default="")
+    p.add_argument("--exposed-data", default="")
+    p.add_argument("--official-url", default="")
+    p.add_argument("--source-name", default="")
+    p.add_argument("--note", default="")
     args = p.parse_args()
-
-    if args.affected_count < 0:
-        raise SystemExit("affected-count must be 0 or greater")
 
     db = json.loads(DATA.read_text(encoding="utf-8"))
     found = next((x for x in db.get("incidents", []) if x.get("id") == args.id), None)
@@ -47,42 +68,68 @@ def main():
             f"current status={found.get('status')}"
         )
 
-    # Preserve only non-official media/reference sources.
-    old_sources = found.get("sources", [])
-    media_sources = [
-        s for s in old_sources
-        if not s.get("official")
-        and s.get("url") != args.official_url
-    ]
+    # Blank inputs preserve the current value.
+    if args.published.strip():
+        found["published"] = args.published.strip()
 
-    # Explicitly overwrite all operator-managed fields.
-    found["published"] = args.published
-    found["company"] = args.company
-    found["service"] = args.service
-    found["affected_count"] = args.affected_count
-    found["status"] = args.status
-    found["cause"] = args.cause
-    found["summary"] = args.summary
-    found["exposed_data"] = args.exposed_data
+    if args.company.strip():
+        found["company"] = args.company.strip()
 
-    # Replace all official source data with the newly entered official source.
-    found["sources"] = [{
-        "name": args.source_name,
-        "url": args.official_url,
-        "official": True,
-    }] + media_sources
-    found["official_urls"] = [args.official_url]
+    # For service, blank preserves existing value.
+    if args.service.strip():
+        found["service"] = args.service.strip()
 
-    # Reset watcher state because the official URL may have changed.
-    found.pop("official_watch", None)
+    count = parse_affected_count(args.affected_count)
+    if count is not None:
+        found["affected_count"] = count
 
-    # Remove candidate-only review priority fields if any remain.
+    if args.status:
+        found["status"] = args.status
+
+    if args.cause.strip():
+        found["cause"] = args.cause.strip()
+
+    if args.summary.strip():
+        found["summary"] = args.summary.strip()
+
+    if args.exposed_data.strip():
+        found["exposed_data"] = args.exposed_data.strip()
+
+    # Official source replacement is only performed when a new URL is supplied.
+    if args.official_url.strip():
+        new_url = args.official_url.strip()
+        new_name = args.source_name.strip() or "公式発表"
+
+        old_sources = found.get("sources", [])
+        media_sources = [
+            s for s in old_sources
+            if not s.get("official") and s.get("url") != new_url
+        ]
+
+        found["sources"] = [{
+            "name": new_name,
+            "url": new_url,
+            "official": True,
+        }] + media_sources
+        found["official_urls"] = [new_url]
+
+        # URL changed: reset watcher state so monitoring starts cleanly.
+        found.pop("official_watch", None)
+    elif args.source_name.strip():
+        # If only source_name is supplied, rename existing official sources.
+        name = args.source_name.strip()
+        for s in found.get("sources", []):
+            if s.get("official"):
+                s["name"] = name
+
     found.pop("priority", None)
     found.pop("priority_score", None)
 
     now = datetime.now(JST).strftime("%Y-%m-%d %H:%M JST")
     found["reviewed_at"] = now
-    found["review_note"] = args.note
+
+    if args.note.strip():
+        found["review_note"] = args.note.strip()
 
     db["last_updated"] = now
     DATA.write_text(
@@ -90,7 +137,7 @@ def main():
         encoding="utf-8",
     )
 
-    print(f"fully updated reviewed incident: {args.id}")
+    print(f"updated reviewed incident: {args.id}")
 
 
 if __name__ == "__main__":
