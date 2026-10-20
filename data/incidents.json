@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-20 18:06 JST",
+  "last_updated": "2026-10-20 18:10 JST",
   "incidents": [
     {
       "id": "2026-10-20-auto-337c52b27c",
@@ -997,7 +997,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "朝日新聞",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQaVZ3TEZ6SGVqVnZaM3dNMm4tRVBJZmppRWtFZEVNRUJ4N0VuczYwcUJYSWdLdC1oeWRwZmtKaGU1QWdaZHMtMGFONHhzdFZ2Q0NQWXJSQUo5MW8xc1YyMldrTkJVRHN0QkxXU1JyRkJobEF6dU1OTGotdkczOFJkanc2X2hDQQ?oc=5"
         }
       ],
@@ -1041,7 +1041,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "テレビユー山形",
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBPUkRhNWgyUXpJQTByT2tiX01nTEx6UVdEOUIxTGREbHV5N3ltaWU0TTJ2RG9ucTljdE92R1U3cW40ZjhtUkMwVEtxSnF2cWUyMnpBcU9rclZZUQ?oc=5"
         }
       ],
@@ -1107,7 +1107,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "RKB毎日放送",
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE81dGpSbHJJeTBsejRfQ1F0b2tBTEJSVXRWRWZrUFlmSVBjTDhzT1hOSG42NjYyRkVUYUoxcTNpQ0VwWXhMQ2MxcHc4Z2lrMDRSNEZoQU00RmJyQQ?oc=5"
         }
       ],
@@ -1907,7 +1907,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "日本経済新聞",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5MdmU2eWhEa280cllkQWV0Q09JZU4yQm9YX3FmM09XTmUyUW41RERHMTRuVlhpaC1HUTI4T3RUalVJNXk5dzF2QzhoUVpHUW5FeUVtWUZ3?oc=5"
         }
       ],
@@ -2033,11 +2033,16 @@
       "company": "不正アクセスによる寄付者様情報の外部流出に関するお詫びとお知らせ",
       "service": "",
       "affected_count": 0,
-      "status": "candidate",
+      "status": "confirmed",
       "cause": "報道自動検知",
       "summary": "不正アクセスによる寄付者様情報の外部流出に関するお詫びとお知らせ",
       "exposed_data": "要確認",
       "sources": [
+        {
+          "name": "公式発表",
+          "url": "2026-10-20-auto-00c8bd2611",
+          "official": true
+        },
         {
           "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE05WFc0SnFsNUZDZXkwRGlYeHpmODZtM0tKWFZfRHpoc2s2NnJmUl9MYWlMTkduZHFYOG5kS0JkNjF2THpFRkdtendDQkM1NVJyS1NYVU9zWDgxdnhMLUN4bmRtM0lpMXdwSW1pTw?oc=5"
@@ -2046,8 +2051,10 @@
       "auto_detected": true,
       "rss_pub_date": "Tue, 20 Oct 2026 09:03:34 GMT",
       "article_count": 1,
-      "priority": "C",
-      "priority_score": 0
+      "reviewed_at": "2026-10-20 18:10 JST",
+      "official_urls": [
+        "2026-10-20-auto-00c8bd2611"
+      ]
     },
     {
       "id": "2026-10-20-auto-3273918644",
@@ -2263,7 +2270,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "テレビ朝日",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE10WW5mQ3lOZW5icWsxbFBSMmNWN09qVE9lMjhJYU9Xa0NDaDJOSmVlRzc3ZXQ4RDZLWWZsX19xMkpOYmxmYzVzcm9iZmFpejZORERIVlRkWU03dUlYMks4eUZvYnBqT1c5Q1Jpb2xLdnlhMEZ6N0g4SlpSaUxPakk?oc=5"
         }
       ],
@@ -2307,7 +2314,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "テレビユー山形",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBOMThDNEdCdW52bFBDMzFqRTFONUNLQXN5MllXZ2dkZnlMTVRyalE1SC1QVHF3MTVlRkNnWGRRMGY4MXhiYVdqMXQ3V1hwcVZ0SnVqVllXVjMxWElpb0g3YllFcENxN1E?oc=5"
         }
       ],
@@ -2351,7 +2358,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "共同通信",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Wbl9CcUIwX3MyVlF4MkxlNnpSU0I4ZERrV2dNamt5dk1wZ2YwVk92a21aT0VGb0h2UG1jX2ZlYzFQUFZnVTBqZDdITDhWU0drS0puWGw1WjFQUl9HNnJZbjdKVnBBT3BIYkZEeFdFcW5weWNfUTZzbWkwVHVFeHc?oc=5"
         }
       ],
@@ -7973,7 +7980,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "時事通信",
+          "name": "Yahoo!ファイナンス",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQcFI0RHRCcFdNcUNfcE1mbXZ3VlMxOHdNbW8yQkhVT0hURmJwc0l3RmlsdG5JUDVyOWw1S0VweHRVWVJhdGttWGV1RHFzem9YVTdLd0ZIRWVMVVRTdUllS3FkY1UwcGZLcGJjR19Ec2x0c1BUZUFZTDJhanI0Q2N3eUU5UFBraWs?oc=5"
         }
       ],
