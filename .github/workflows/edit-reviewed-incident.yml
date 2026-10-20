@@ -4,57 +4,67 @@ on:
   workflow_dispatch:
     inputs:
       incident_id:
-        description: "修正対象の案件ID（このIDだけは検索キーなので変更しません）"
+        description: "修正対象の案件ID（必須）"
         required: true
         type: string
       published:
-        description: "公表日 (YYYY-MM-DD)"
-        required: true
+        description: "公表日 (YYYY-MM-DD) ※空欄なら変更なし"
+        required: false
+        default: ""
         type: string
       company:
-        description: "企業・団体名"
-        required: true
+        description: "企業・団体名 ※空欄なら変更なし"
+        required: false
+        default: ""
         type: string
       service:
-        description: "サービス名（ない場合は空欄）"
+        description: "サービス名 ※空欄なら変更なし"
         required: false
         default: ""
         type: string
       affected_count:
-        description: "対象規模（不明・非公表は 0）"
-        required: true
+        description: "対象規模 ※空欄なら変更なし（4,454,097件 でも可）"
+        required: false
+        default: ""
         type: string
       status:
-        description: "確認状況"
-        required: true
-        default: "confirmed"
+        description: "確認状況 ※未選択なら変更なし"
+        required: false
+        default: ""
         type: choice
-        options: [confirmed, possible]
+        options:
+          - ""
+          - confirmed
+          - possible
       cause:
-        description: "原因・分類"
-        required: true
+        description: "原因・分類 ※空欄なら変更なし"
+        required: false
+        default: ""
         type: string
       summary:
-        description: "案件概要"
-        required: true
+        description: "案件概要 ※空欄なら変更なし"
+        required: false
+        default: ""
         type: string
       exposed_data:
-        description: "漏えい・対象情報"
-        required: true
+        description: "漏えい・対象情報 ※空欄なら変更なし"
+        required: false
+        default: ""
         type: string
       official_url:
-        description: "正しい公式発表URL"
-        required: true
+        description: "公式発表URL ※空欄なら変更なし"
+        required: false
+        default: ""
         type: string
       source_name:
-        description: "公式情報源の表示名"
-        required: true
-        default: "公式発表"
+        description: "公式情報源の表示名 ※空欄なら変更なし"
+        required: false
+        default: ""
         type: string
       note:
-        description: "確認・修正メモ"
-        required: true
-        default: "案件情報を再確認し全項目を上書き"
+        description: "確認・修正メモ ※空欄なら変更なし"
+        required: false
+        default: ""
         type: string
 
 permissions:
@@ -79,7 +89,7 @@ jobs:
       - name: Snapshot public incidents before edit
         run: python scripts/report_public_changes.py snapshot /tmp/public-before.json
 
-      - name: Overwrite reviewed incident
+      - name: Edit reviewed incident
         env:
           INCIDENT_ID: ${{ inputs.incident_id }}
           PUBLISHED: ${{ inputs.published }}
