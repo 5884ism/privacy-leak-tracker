@@ -1,0 +1,163 @@
+/* Operator focus v1.1 - desktop operations only */
+
+.operator-work-summary{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:12px;
+  margin-bottom:16px;
+}
+.operator-work-summary article{
+  position:relative;
+  overflow:hidden;
+  min-height:92px;
+  padding:16px 17px;
+  border:1px solid #dbe2ec;
+  border-radius:16px;
+  background:#fff;
+  box-shadow:0 7px 22px rgba(27,45,93,.035);
+}
+.operator-work-summary article::before{
+  content:"";
+  position:absolute;
+  inset:0 auto 0 0;
+  width:3px;
+  background:linear-gradient(180deg,#4166ec,#9bb0ff);
+}
+.operator-work-summary .priority-card::before{
+  background:linear-gradient(180deg,#e44b4b,#ff9d72);
+}
+.operator-work-summary span{
+  display:block;
+  color:#667085;
+  font-size:12px;
+  font-weight:800;
+}
+.operator-work-summary strong{
+  display:block;
+  margin-top:7px;
+  color:#172033;
+  font-size:28px;
+  line-height:1;
+}
+.operator-work-summary small{
+  display:block;
+  margin-top:7px;
+  color:#98a2b3;
+  font-size:10px;
+}
+
+.operator-tabs{
+  margin-top:18px;
+}
+.operator-tabs .view-tab[data-view="candidate"].active{
+  background:#2447d8;
+  color:#fff;
+}
+
+.operator-section-head{
+  display:flex;
+  align-items:flex-end;
+  justify-content:space-between;
+  gap:24px;
+}
+.operator-section-kicker{
+  margin:0 0 5px!important;
+  color:#2447d8;
+  font-size:10px!important;
+  font-weight:900;
+  letter-spacing:.16em;
+}
+.operator-quick-links{
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+  justify-content:flex-end;
+  padding-bottom:3px;
+}
+.operator-quick-links a,
+.operator-maintenance-actions a{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  border:1px solid #cfd8f6;
+  border-radius:8px;
+  background:#fff;
+  color:#2447d8;
+  padding:8px 10px;
+  text-decoration:none;
+  font-size:11px;
+  font-weight:800;
+}
+.operator-quick-links a:hover,
+.operator-maintenance-actions a:hover{
+  border-color:#9fb2ff;
+  background:#f7f9ff;
+}
+
+.operator-maintenance-actions{
+  display:flex;
+  gap:7px;
+  flex-wrap:wrap;
+  margin-top:10px;
+  padding-top:10px;
+  border-top:1px solid #edf0f5;
+}
+.operator-maintenance-actions .resolve-action{
+  border-color:#f4c7c7;
+  color:#b42318;
+  background:#fffafa;
+}
+.operator-maintenance-actions .resolve-action:hover{
+  border-color:#ef9a9a;
+  background:#fff4f3;
+}
+
+.operator-rules{
+  margin-top:30px;
+}
+.operator-flow{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:10px;
+  margin-top:12px;
+}
+.operator-flow > div{
+  display:flex;
+  gap:10px;
+  min-height:84px;
+  padding:12px;
+  border:1px solid #e4e7ec;
+  border-radius:12px;
+  background:#fff;
+}
+.operator-flow b{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  flex:0 0 25px;
+  width:25px;
+  height:25px;
+  border-radius:50%;
+  background:#eef3ff;
+  color:#2447d8;
+  font-size:11px;
+}
+.operator-flow span{
+  color:#667085;
+  font-size:11px;
+  line-height:1.55;
+}
+.operator-flow strong{
+  display:block;
+  margin-bottom:3px;
+  color:#344054;
+  font-size:12px;
+}
+
+.operator-compat{display:none!important}
+
+/* Remove any residual public-personal UI if cached markup exists */
+#myServicesPanel,
+.view-tab.my-tab{
+  display:none!important;
+}

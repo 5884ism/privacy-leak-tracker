@@ -3,19 +3,21 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="description" content="国内の個人情報漏えい・流出案件を一覧化する公開トラッカー" />
-  <title>個人情報漏えいトラッカー</title>
+  <meta name="description" content="個人情報漏えいトラッカー運営管理画面" />
+  <title>個人情報漏えいトラッカー | OPERATOR</title>
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="candidate-update-ui.css" />
   <link rel="stylesheet" href="operator-ui-v1.0.css?v=1.0" />
+  <link rel="stylesheet" href="operator-focus-v1.1.css?v=1.1" />
 </head>
 <body>
   <header class="site-header">
     <div class="wrap">
       <div>
         <p class="eyebrow">PRIVACY INCIDENT TRACKER</p>
+        <span class="operator-mode-badge">OPERATOR</span>
         <h1>個人情報漏えいトラッカー</h1>
-        <p class="lead">国内で公表された個人情報漏えい・流出・不正アクセス案件を、公式発表と主要ニュース媒体の情報から整理します。</p>
+        <p class="lead">要確認候補の審査・昇格と、確認済み案件のメンテナンスを行う運営画面です。</p>
       </div>
       <div class="updated-card">
         <span>最終更新</span>
@@ -25,10 +27,33 @@
   </header>
 
   <main class="wrap main-grid">
+    <section class="operator-work-summary" aria-label="運営状況">
+      <article>
+        <span>要確認候補</span>
+        <strong id="opCandidateCount">-</strong>
+        <small>審査待ち</small>
+      </article>
+      <article class="priority-card">
+        <span>優先度A</span>
+        <strong id="opPriorityACount">-</strong>
+        <small>優先確認</small>
+      </article>
+      <article>
+        <span>本日確認済み</span>
+        <strong id="opTodayReviewed">-</strong>
+        <small>今日の処理件数</small>
+      </article>
+      <article>
+        <span>確認済み案件</span>
+        <strong id="opVerifiedCount">-</strong>
+        <small>confirmed / possible</small>
+      </article>
+    </section>
+
     <section class="panel controls" aria-label="絞り込み">
       <div class="control wide">
         <label for="q">検索</label>
-        <input id="q" type="search" placeholder="企業名・サービス名・概要で検索" />
+        <input id="q" type="search" placeholder="企業名・サービス名・概要・案件IDで検索" />
       </div>
       <div class="control">
         <label for="month">公表月</label>
@@ -53,39 +78,33 @@
       </div>
     </section>
 
-    <details class="panel my-services-panel" id="myServicesPanel">
-      <summary>自分の利用サービスを選んで対象案件をチェック</summary>
-      <div class="service-picker-head">
-        <div>
-          <label for="myServiceSearch">企業・サービスを絞り込み</label>
-          <input id="myServiceSearch" type="search" placeholder="例：ローソン、ソースネクスト" />
-        </div>
-        <div class="selected-count">選択中 <strong id="selectedServiceCount">0</strong>件</div>
-      </div>
-
-      <div class="service-picker-groups single">
-        <section>
-          <h3>確認済み・可能性ありの一覧から選択</h3>
-          <div id="servicePickerVerified" class="service-picker-list"></div>
-        </section>
-      </div>
-
-      <div class="my-services-actions">
-        <button type="button" id="saveMyServices">選択を保存して照合</button>
-        <button type="button" id="clearMyServices" class="secondary">選択をすべて解除</button>
-      </div>
-      <p class="privacy-note">選択内容はこのブラウザ内だけに保存され、GitHubやサーバーには送信しません。</p>
-    </details>
-
-    <nav class="view-tabs" aria-label="表示区分">
-      <button type="button" class="view-tab active" data-view="verified">確認済み・可能性あり <span id="tabVerifiedCount">0</span></button>
-      <button type="button" class="view-tab my-tab" data-view="mine">自分に関連 <span id="tabMineCount">0</span></button>
-      <button type="button" class="view-tab" data-view="candidate">要確認候補 <span id="tabCandidateCount">0</span></button>
-      <button type="button" class="view-tab" data-view="all">すべて <span id="tabAllCount">0</span></button>
+    <nav class="view-tabs operator-tabs" aria-label="表示区分">
+      <button type="button" class="view-tab active" data-view="candidate">
+        要確認候補 <span id="tabCandidateCount">0</span>
+      </button>
+      <button type="button" class="view-tab" data-view="verified">
+        確認済み案件 <span id="tabVerifiedCount">0</span>
+      </button>
+      <button type="button" class="view-tab" data-view="all">
+        すべて <span id="tabAllCount">0</span>
+      </button>
     </nav>
-    <p id="viewNotice" class="view-notice">公式発表・報道で内容を整理した案件を表示しています。</p>
 
-    <section class="stats stats-five" aria-label="統計">
+    <p id="viewNotice" class="view-notice">
+      ニュースから自動検知した未確認候補です。A→B→Cの順に確認優先度が高くなります。
+    </p>
+
+    <!-- app.js compatibility: public "自分に関連" UI is intentionally hidden on operator site. -->
+    <div class="operator-compat" hidden aria-hidden="true">
+      <input id="myServiceSearch" type="search" />
+      <div id="servicePickerVerified"></div>
+      <strong id="selectedServiceCount">0</strong>
+      <button type="button" id="saveMyServices"></button>
+      <button type="button" id="clearMyServices"></button>
+      <button type="button" class="view-tab" data-view="mine"><span id="tabMineCount">0</span></button>
+    </div>
+
+    <section class="stats stats-five" aria-label="表示中の統計">
       <article><span>表示件数</span><strong id="statCases">-</strong></article>
       <article><span>漏えい確認</span><strong id="statConfirmed">-</strong></article>
       <article><span>本日確認済み</span><strong id="statTodayReviewed">-</strong></article>
@@ -94,32 +113,46 @@
     </section>
 
     <section>
-      <div class="section-head">
+      <div class="section-head operator-section-head">
         <div>
-          <h2>案件一覧</h2>
-          <p>件数は企業発表・報道に基づく概数を含みます。詳細は各ソースを必ず確認してください。</p>
+          <p class="operator-section-kicker">INCIDENT OPERATIONS</p>
+          <h2 id="operatorListTitle">要確認候補</h2>
+          <p id="operatorListHelp">公式発表を確認し、confirmed / possible へ昇格してください。</p>
+        </div>
+        <div class="operator-quick-links">
+          <a href="https://github.com/5884ism/privacy-leak-tracker/actions/workflows/promote-incident.yml"
+             target="_blank" rel="noopener">昇格ワークフロー</a>
+          <a href="https://github.com/5884ism/privacy-leak-tracker/actions/workflows/resolve-incident.yml"
+             target="_blank" rel="noopener">漏えいなしへ変更</a>
         </div>
       </div>
+
       <div id="cards" class="cards" aria-live="polite"></div>
       <p id="empty" class="empty" hidden>条件に一致する案件はありません。</p>
     </section>
 
-    <section class="methodology panel">
-      <h2>更新ルール</h2>
-      <p>毎日1回、主要ニュース検索・指定RSSから候補記事を取得し、類似記事を同一案件にまとめて <code>data/incidents.json</code> に反映します。自動取得した案件は <strong>「要確認候補」</strong> に分離し、通常表示には含めません。</p>
-      <p>「自分に関連」は、選択した企業・サービスと案件の企業名・サービス名・概要を照合します。表示はあくまで<strong>関連可能性</strong>であり、実際に漏えい対象者であることを意味しません。</p>
+    <section class="methodology panel operator-rules">
+      <h2>運営フロー</h2>
+      <div class="operator-flow">
+        <div><b>1</b><span><strong>候補を確認</strong>ニュースから自動検知した案件を確認</span></div>
+        <div><b>2</b><span><strong>公式情報を確認</strong>企業・団体の公式発表で事実関係を確認</span></div>
+        <div><b>3</b><span><strong>昇格</strong>confirmed / possible に判定して公開データへ反映</span></div>
+        <div><b>4</b><span><strong>後日更新</strong>追加発表があれば情報源追加・漏えいなし判明時は cleared へ変更</span></div>
+      </div>
     </section>
   </main>
 
   <footer class="wrap footer">
-    <p>※ 本サイトは注意喚起・情報整理を目的とした非公式データベースです。個別案件の正確な範囲・対象者・対応方法は企業等の公式発表を確認してください。</p>
+    <p>運営管理画面 — 公開情報の正確性を確認したうえでステータスを更新してください。</p>
   </footer>
+
   <script src="app.js" defer></script>
   <script src="mine-merge.js" defer></script>
   <script src="candidate-filter.js" defer></script>
   <script src="pagination.js" defer></script>
   <script src="official-updates.js" defer></script>
   <script src="candidate-update-ui.js" defer></script>
-  <script src="operator-ui-v1.0.js?v=1.0" defer></script>
   <script src="candidate-update-ui-state-fix.js" defer></script>
-
+  <script src="operator-focus-v1.1.js?v=1.1" defer></script>
+</body>
+</html>
