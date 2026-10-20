@@ -1,0 +1,202 @@
+/* Public mobile density tuning v1.0
+   Applies only to phones / narrow screens. */
+@media (max-width: 560px){
+
+  /* Tabs + notice */
+  .public-tabs{
+    gap:8px;
+    margin-bottom:8px;
+  }
+  .public-tabs .view-tab{
+    padding:9px 12px;
+    font-size:15px;
+    line-height:1.2;
+  }
+  .public-tabs .view-tab span{
+    font-size:11px;
+    padding:2px 7px;
+  }
+  .view-notice{
+    font-size:12px;
+    line-height:1.55;
+    margin-bottom:14px;
+  }
+
+  /* Stats: keep 2 columns, but reduce visual weight */
+  .public-stats{
+    gap:9px;
+    margin:12px 0 24px;
+  }
+  .public-stats article{
+    min-height:82px;
+    padding:12px 13px;
+    border-radius:14px;
+  }
+  .public-stats span{
+    font-size:11px;
+  }
+  .public-stats strong{
+    margin-top:6px;
+    font-size:22px;
+    line-height:1.15;
+  }
+
+  /* Incident section heading */
+  .incident-section{
+    margin-top:0;
+  }
+  .section-head{
+    margin-bottom:10px;
+  }
+  .section-head h2{
+    font-size:26px;
+    line-height:1.15;
+    letter-spacing:-.02em;
+  }
+  .section-head p{
+    font-size:12px;
+    line-height:1.6;
+    margin-top:7px;
+  }
+  .section-eyebrow{
+    font-size:9px;
+    letter-spacing:.14em;
+    margin-bottom:4px;
+  }
+
+  /* Cards: denser mobile layout */
+  .public-cards{
+    gap:10px;
+  }
+  .public-cards .card{
+    padding:14px 13px;
+    border-radius:15px;
+    gap:10px;
+  }
+  .public-cards .date{
+    font-size:12px;
+    line-height:1.25;
+  }
+  .public-cards .meta{
+    gap:6px;
+    margin:7px 0 4px;
+  }
+  .public-cards .badge{
+    font-size:10px;
+    line-height:1.2;
+    padding:4px 7px;
+  }
+  .public-cards .card h3{
+    margin:2px 0 4px;
+    font-size:17px;
+    line-height:1.35;
+    letter-spacing:-.01em;
+  }
+  .public-cards .card p{
+    margin:6px 0;
+    font-size:13px;
+    line-height:1.58;
+  }
+  .public-cards .count{
+    font-size:15px;
+    line-height:1.35;
+  }
+
+  /* Personal relevance explanation */
+  .relation-note{
+    margin:8px 0 !important;
+    padding:8px 9px !important;
+    border-radius:9px !important;
+    font-size:12px !important;
+    line-height:1.55 !important;
+  }
+
+  /* Official update history */
+  .official-updates,
+  .public-official-updates{
+    margin:9px 0 !important;
+    padding:8px 9px !important;
+    border-radius:9px !important;
+  }
+  .official-updates summary,
+  .public-official-updates summary{
+    font-size:12px !important;
+    line-height:1.4 !important;
+  }
+  .official-updates ul,
+  .public-official-updates ul{
+    margin-top:7px !important;
+    padding-left:17px !important;
+  }
+  .official-updates li,
+  .public-official-updates li{
+    margin:5px 0 !important;
+    font-size:12px !important;
+    line-height:1.45 !important;
+  }
+  .official-update-date{
+    min-width:0 !important;
+    display:block !important;
+    margin-bottom:2px;
+    font-size:10px !important;
+  }
+
+  /* Source area */
+  .source-details{
+    margin-top:9px;
+    padding-top:8px;
+  }
+  .source-details summary{
+    font-size:12px;
+    line-height:1.4;
+  }
+  .source-details summary span{
+    margin-left:4px;
+    font-size:11px;
+  }
+  .source-details ul{
+    margin-top:7px;
+  }
+  .source-details li{
+    margin:4px 0;
+  }
+  .source-details a{
+    font-size:12px;
+  }
+
+  /* Pagination */
+  .incident-pager{
+    margin:14px 0 22px;
+    padding:10px;
+    gap:10px;
+  }
+  .incident-pager-info{
+    font-size:11px;
+  }
+  .incident-pager-actions{
+    width:100%;
+    justify-content:space-between;
+    gap:6px;
+  }
+  .pager-btn{
+    padding:7px 9px;
+    font-size:11px;
+  }
+  .pager-page{
+    min-width:auto;
+    font-size:10px;
+  }
+}
+
+/* Slightly larger phones */
+@media (min-width:561px) and (max-width:700px){
+  .public-cards .card h3{
+    font-size:18px;
+  }
+  .public-cards .card p{
+    font-size:13.5px;
+  }
+  .public-stats strong{
+    font-size:23px;
+  }
+}
