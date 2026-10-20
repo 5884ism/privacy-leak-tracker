@@ -1,331 +1,179 @@
 {
   "version": "1.1",
-  "generated_at": "2026-10-20T04:21:47+00:00",
-  "before_count": 182,
-  "after_count": 215,
-  "net_change": 33,
-  "new_count": 24,
+  "generated_at": "2026-10-20T06:25:02+00:00",
+  "before_count": 215,
+  "after_count": 223,
+  "net_change": 8,
+  "new_count": 8,
   "removed_count": 0,
-  "visible_before_count": 182,
-  "visible_after_count": 215,
-  "visible_net_change": 33,
-  "raw_before_count": 281,
-  "raw_after_count": 312,
-  "raw_net_change": 31,
+  "visible_before_count": 215,
+  "visible_after_count": 223,
+  "visible_net_change": 8,
+  "raw_before_count": 312,
+  "raw_after_count": 325,
+  "raw_net_change": 13,
   "new_candidate_ids": [
-    "2026-10-20-auto-58d3fd9045",
-    "2026-10-20-auto-e6fc3e992c",
-    "2026-10-20-auto-abbfc41a13",
-    "2026-10-20-auto-b7cf8dacc6",
-    "2026-10-20-auto-0aac2a647b",
-    "2026-10-20-auto-05e498f368",
-    "2026-10-20-auto-de84327120",
-    "2026-10-20-auto-e5632901cd",
-    "2026-10-20-auto-bb946ea034",
-    "2026-10-20-auto-ce776409d7",
-    "2026-10-20-auto-04f2647e7a",
-    "2026-10-20-auto-5042f2686c",
-    "2026-10-20-auto-109bc4bf35",
-    "2026-10-20-auto-fbf4cd3ba5",
-    "2026-10-20-auto-9ad459b1c8",
-    "2026-10-20-auto-45e0dac9a7",
-    "2026-10-20-auto-dacdd97f23",
-    "2026-10-20-auto-c2e63c2fc3",
-    "2026-10-20-auto-ed5ade6cc0",
-    "2026-10-20-auto-8cb0460e87",
-    "2026-10-20-auto-cf2aea7c3f",
-    "2026-10-20-auto-0e1b3d5b25",
-    "2026-10-20-auto-97dad1d0f6",
-    "2026-10-20-auto-6d53ff3e1a"
+    "2026-10-20-auto-af417f6014",
+    "2026-10-20-auto-85da6c570f",
+    "2026-10-20-auto-5c28e9ba84",
+    "2026-10-20-auto-528a753240",
+    "2026-10-20-auto-a6efcb49bb",
+    "2026-10-20-auto-08452cf614",
+    "2026-10-20-auto-b668f7edc6",
+    "2026-10-20-auto-6f57370e66"
   ],
   "new_candidates": [
     {
-      "id": "2026-10-20-auto-58d3fd9045",
+      "id": "2026-10-20-auto-af417f6014",
       "member_ids": [
-        "2026-10-20-auto-58d3fd9045"
-      ],
-      "priority": "C",
-      "published": "2026-10-20",
-      "company": "爬虫類ショップ「ワイルドモンスター",
-      "service": "",
-      "affected_count": 0,
-      "summary": "爬虫類ショップ「ワイルドモンスター」に不正アクセス、カード情報を含む個人情報漏えいの可能性"
-    },
-    {
-      "id": "2026-10-20-auto-e6fc3e992c",
-      "member_ids": [
-        "2026-10-20-auto-e6fc3e992c"
+        "2026-10-20-auto-af417f6014"
       ],
       "priority": "B",
       "published": "2026-10-20",
-      "company": "山形県警の情報配信サービス停止",
+      "company": "神奈川県警、職員1.6万人分",
       "service": "",
-      "affected_count": 0,
-      "summary": "山形県警の情報配信サービス停止 不正アクセスの影響 メルアドなど個人情報流出については調査中(テレビユー山形)"
+      "affected_count": 16000,
+      "summary": "神奈川県警、職員1.6万人分の個人情報が流出か 不正アクセス受け(朝日新聞)",
+      "sources": [
+        {
+          "name": "朝日新聞",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBNS2loSUtHQnY5QzVXMlg5QU1naTJPRTdTY3FLUHhhVnJaWjhwZFVLU1dmcGNYbTFrbk1LV3ZfSE5NYkJXb0RvX1p4cXJVUm5WcTh2Y0xzaWFGXzEzYmxQWUY4d2pBUUNLb0ZhYVg4enFsUDhoT0ZhVVQ3Vm9XbmM?oc=5",
+          "official": false
+        }
+      ]
     },
     {
-      "id": "2026-10-20-auto-abbfc41a13",
+      "id": "2026-10-20-auto-85da6c570f",
       "member_ids": [
-        "2026-10-20-auto-abbfc41a13"
+        "2026-10-20-auto-85da6c570f"
       ],
       "priority": "C",
       "published": "2026-10-20",
-      "company": "新潟市の2事業で問い合わせた個人や法人の名前など67件",
+      "company": "LIXILのリフォーム事業者向けアプリ「L-ポケット",
       "service": "",
-      "affected_count": 0,
-      "summary": "新潟市の2事業で問い合わせた個人や法人の名前など67件が流出か [新潟県] [不正アクセス][個人情報流出]"
+      "affected_count": 3379,
+      "summary": "LIXILのリフォーム事業者向けアプリ「L-ポケット」に不正アクセス、登録会員ら3,379名の個人情報が漏えい",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE50YXoxc1VlN21rNmt3a1N1OFRNTFhMMkt3dlphZVA4OTR4MGtTbENyeXo4UmNibXVtQ1VEWGJSYlZ3dlRoTGRBZw?oc=5",
+          "official": false
+        }
+      ]
     },
     {
-      "id": "2026-10-20-auto-b7cf8dacc6",
+      "id": "2026-10-20-auto-5c28e9ba84",
       "member_ids": [
-        "2026-10-20-auto-b7cf8dacc6"
-      ],
-      "priority": "C",
-      "published": "2026-10-20",
-      "company": "マンション管理センターの事前確認講習システム",
-      "service": "",
-      "affected_count": 3597,
-      "summary": "マンション管理センターの事前確認講習システムに不正アクセス、受講者3,597人の個人情報漏えいの可能性―運営は日建学院"
-    },
-    {
-      "id": "2026-10-20-auto-0aac2a647b",
-      "member_ids": [
-        "2026-10-20-auto-0aac2a647b"
+        "2026-10-20-auto-5c28e9ba84"
       ],
       "priority": "B",
       "published": "2026-10-20",
-      "company": "福岡県警の警察官と職員1万1000人",
+      "company": "福岡県警職員",
       "service": "",
-      "affected_count": 11000,
-      "summary": "福岡県警の警察官と職員1万1000人の個人情報流出か【アルカディア不正アクセス問題】"
+      "affected_count": 10000,
+      "summary": "福岡県警職員の情報流出か 1万人超、不正アクセス(共同通信)",
+      "sources": [
+        {
+          "name": "共同通信",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1mMGplMGtfVnVicUR4bjRTWHNmWGZpUHJCMlhQYXN1WFlKclhrbmNwWnVPOXF5VEJld3RTeGJYM2lYX2ZIbU54d2lHOURZX2NPTXQyU3dPUGgtZnVmNEFleFFiWl8zNElqaWJuNFV1N0t4QUJGX2NWczRWQzVIcmM?oc=5",
+          "official": false
+        }
+      ]
     },
     {
-      "id": "2026-10-20-auto-05e498f368",
+      "id": "2026-10-20-auto-528a753240",
       "member_ids": [
-        "2026-10-20-auto-05e498f368"
+        "2026-10-20-auto-528a753240"
       ],
       "priority": "C",
       "published": "2026-10-20",
-      "company": "県立7校で138人分",
-      "service": "",
-      "affected_count": 138,
-      "summary": "県立7校で138人分の個人情報漏洩 児童生徒の成績など閲覧可に [石川県] [不正アクセス][個人情報流出]"
-    },
-    {
-      "id": "2026-10-20-auto-de84327120",
-      "member_ids": [
-        "2026-10-20-auto-de84327120"
-      ],
-      "priority": "C",
-      "published": "2026-10-20",
-      "company": "福岡コンベンションセンターのサイト",
-      "service": "",
-      "affected_count": 2239,
-      "summary": "福岡コンベンションセンターのサイトに不正アクセス、電話番号など2239件分が外部に流出か(読売新聞オンライン)"
-    },
-    {
-      "id": "2026-10-20-auto-e5632901cd",
-      "member_ids": [
-        "2026-10-20-auto-e5632901cd"
-      ],
-      "priority": "C",
-      "published": "2026-10-20",
-      "company": "中国系AIでサイバー攻撃か",
+      "company": "ふるさと納税ポータルサイト「ふるさとチョイス",
       "service": "",
       "affected_count": 0,
-      "summary": "中国系AIでサイバー攻撃か 個人情報漏えい問題(共同通信)"
+      "summary": "ふるさと納税ポータルサイト「ふるさとチョイス」で不正アクセスの疑い 岡山・津山市でサービスの停止と注意喚起 岡山",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9jWFE1QmI5Qm56M3c5eDlhRE1CVGFIZTJYUklKVXJiZTNzeE9BUHNDcWpTODBxSmhRaF9yM3FmeXFzYTFQMjItQjB4WHlPeUhU?oc=5",
+          "official": false
+        }
+      ]
     },
     {
-      "id": "2026-10-20-auto-bb946ea034",
+      "id": "2026-10-20-auto-a6efcb49bb",
       "member_ids": [
-        "2026-10-20-auto-bb946ea034"
+        "2026-10-20-auto-a6efcb49bb"
       ],
       "priority": "C",
       "published": "2026-10-20",
-      "company": "ニッスイ子会社",
+      "company": "福岡・古賀市の職員採用試験応募者個人データ",
       "service": "",
       "affected_count": 0,
-      "summary": "ニッスイ子会社、2週間ぶりに通常稼働 一時は約1200社が影響 [不正アクセス][個人情報流出]"
+      "summary": "福岡・古賀市の職員採用試験応募者個人データが漏えい 業者からの被害報告メール気付かず",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBHRV9yNjhRU2xibE9La1YwNXV5VE5EeHJxeXpSODlXYlExWjA4THBEcUo2ZEVaN04zZkNVQnUxRWxxb1Z2b2FpNWxCMDhiWmxlalN2MV9B?oc=5",
+          "official": false
+        }
+      ]
     },
     {
-      "id": "2026-10-20-auto-ce776409d7",
+      "id": "2026-10-20-auto-08452cf614",
       "member_ids": [
-        "2026-10-20-auto-ce776409d7"
+        "2026-10-20-auto-08452cf614"
       ],
       "priority": "C",
       "published": "2026-10-20",
-      "company": "中小企業向け不正アクセス・情報漏えいに関する相談窓口について",
+      "company": "越境ECのジグザグ",
+      "service": "",
+      "affected_count": 301,
+      "summary": "越境ECのジグザグに不正アクセス 海外顧客301人の個人情報流出",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5CM0Q0S0ZNLWpXR0hUa1hrTnlVTGJOc0JsVm1qTkptVXcxejc1b21WcHh5aFdoaS1pUWJ6M3NDZS0zN1JLanFnczFhd1M1cjc5cXBwaFA3VWhmSk4yWnRtS1poM1I2VTE1d0RONA?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-20-auto-b668f7edc6",
+      "member_ids": [
+        "2026-10-20-auto-b668f7edc6"
+      ],
+      "priority": "C",
+      "published": "2026-10-20",
+      "company": "個人情報漏えいは「権利侵害」──続発する被害で問われる経営責任と法規制の行く末",
       "service": "",
       "affected_count": 0,
-      "summary": "中小企業向け不正アクセス・情報漏えいに関する相談窓口について"
+      "summary": "個人情報漏えいは「権利侵害」──続発する被害で問われる経営責任と法規制の行く末",
+      "sources": [
+        {
+          "name": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9abGtkYXEzQWdYVy02NnlTTDdVSGUxckFvYWxDdjRxSXRXMVRxLWNZNnVfSkYxbXd0TmNwVjdGTW8yZHNOS2lPV0IwX0h1RUpTVmxjM0RYdVp2SU5fY1htUmdWRVpUeUhmVmpmYXI2ZW1QUGJBem05SmtXci1sREE?oc=5",
+          "official": false
+        }
+      ]
     },
     {
-      "id": "2026-10-20-auto-04f2647e7a",
+      "id": "2026-10-20-auto-6f57370e66",
       "member_ids": [
-        "2026-10-20-auto-04f2647e7a"
+        "2026-10-20-auto-6f57370e66"
       ],
       "priority": "C",
       "published": "2026-10-20",
-      "company": "個人情報漏えいの可能性「長崎市のスポーツ観戦延泊事業サイト」19人分22件が対象",
+      "company": "情報漏えい「相次ぐ」は急増なのか?偶然でも出来事は固まって起きる【2026年10",
       "service": "",
       "affected_count": 0,
-      "summary": "個人情報漏えいの可能性「長崎市のスポーツ観戦延泊事業サイト」19人分22件が対象《長崎》"
-    },
-    {
-      "id": "2026-10-20-auto-5042f2686c",
-      "member_ids": [
-        "2026-10-20-auto-5042f2686c"
-      ],
-      "priority": "C",
-      "published": "2026-10-20",
-      "company": "リンクステーションのチケット販売サービス",
-      "service": "",
-      "affected_count": 0,
-      "summary": "リンクステーションのチケット販売サービスに不正アクセス 会員情報が流出か(青森放送)"
-    },
-    {
-      "id": "2026-10-20-auto-109bc4bf35",
-      "member_ids": [
-        "2026-10-20-auto-109bc4bf35"
-      ],
-      "priority": "C",
-      "published": "2026-10-20",
-      "company": "古賀市の採用試験応募者延べ567人分情報漏えい...応募者から問い合わせあるまで",
-      "service": "",
-      "affected_count": 567,
-      "summary": "古賀市の採用試験応募者延べ567人分情報漏えい...応募者から問い合わせあるまで市役所内で共有されず"
-    },
-    {
-      "id": "2026-10-20-auto-fbf4cd3ba5",
-      "member_ids": [
-        "2026-10-20-auto-fbf4cd3ba5"
-      ],
-      "priority": "C",
-      "published": "2026-10-20",
-      "company": "栃木県警の警察官・職員約3,900人分",
-      "service": "",
-      "affected_count": 3900,
-      "summary": "栃木県警の警察官・職員約3,900人分の個人情報に漏えいの可能性-アルカディアへの不正アクセスによるサイバー攻撃で"
-    },
-    {
-      "id": "2026-10-20-auto-9ad459b1c8",
-      "member_ids": [
-        "2026-10-20-auto-9ad459b1c8"
-      ],
-      "priority": "C",
-      "published": "2026-10-20",
-      "company": "幼児活動研究会",
-      "service": "",
-      "affected_count": 0,
-      "summary": "幼児活動研究会に不正アクセス、10月14日に不審な痕跡を確認 個人情報・取引先情報への影響を調査"
-    },
-    {
-      "id": "2026-10-20-auto-45e0dac9a7",
-      "member_ids": [
-        "2026-10-20-auto-45e0dac9a7"
-      ],
-      "priority": "C",
-      "published": "2026-10-20",
-      "company": "約3割の大企業が「情報漏えい」経験 中小企業は費用や人材の制約が課題",
-      "service": "",
-      "affected_count": 0,
-      "summary": "約3割の大企業が「情報漏えい」経験 中小企業は費用や人材の制約が課題 – Quebee キュエビー"
-    },
-    {
-      "id": "2026-10-20-auto-dacdd97f23",
-      "member_ids": [
-        "2026-10-20-auto-dacdd97f23"
-      ],
-      "priority": "C",
-      "published": "2026-10-20",
-      "company": "相次ぐ個人情報漏えいの一因「A2B攻撃」 正体は20年前から言われ続けた“あの教",
-      "service": "",
-      "affected_count": 0,
-      "summary": "相次ぐ個人情報漏えいの一因「A2B攻撃」 正体は20年前から言われ続けた“あの教訓”だった(ITmedia エンタープライズ)"
-    },
-    {
-      "id": "2026-10-20-auto-c2e63c2fc3",
-      "member_ids": [
-        "2026-10-20-auto-c2e63c2fc3"
-      ],
-      "priority": "C",
-      "published": "2026-10-20",
-      "company": "神奈川県の委託事業",
-      "service": "",
-      "affected_count": 0,
-      "summary": "神奈川県の委託事業で個人情報漏えいの可能性 外部から不正アクセス"
-    },
-    {
-      "id": "2026-10-20-auto-ed5ade6cc0",
-      "member_ids": [
-        "2026-10-20-auto-ed5ade6cc0"
-      ],
-      "priority": "C",
-      "published": "2026-10-20",
-      "company": "グリーンエナは大幅安、利用する外部サービスへ",
-      "service": "",
-      "affected_count": 0,
-      "summary": "グリーンエナは大幅安、利用する外部サービスへの不正アクセスで個人情報漏えいの恐れ"
-    },
-    {
-      "id": "2026-10-20-auto-8cb0460e87",
-      "member_ids": [
-        "2026-10-20-auto-8cb0460e87"
-      ],
-      "priority": "C",
-      "published": "2026-10-20",
-      "company": "芦屋学園の学内システム",
-      "service": "",
-      "affected_count": 0,
-      "summary": "芦屋学園の学内システムに不正アクセスの形跡、データベースサーバー停止で一部システム利用不可"
-    },
-    {
-      "id": "2026-10-20-auto-cf2aea7c3f",
-      "member_ids": [
-        "2026-10-20-auto-cf2aea7c3f"
-      ],
-      "priority": "C",
-      "published": "2026-10-20",
-      "company": "【緊急特集】サイバー攻撃で「日本が止まる日」――不正アクセス連鎖",
-      "service": "",
-      "affected_count": 0,
-      "summary": "【緊急特集】サイバー攻撃で「日本が止まる日」――不正アクセス連鎖、通販・チケット・社会インフラに迫る危機 - https://kabu-ir.com/"
-    },
-    {
-      "id": "2026-10-20-auto-0e1b3d5b25",
-      "member_ids": [
-        "2026-10-20-auto-0e1b3d5b25"
-      ],
-      "priority": "C",
-      "published": "2026-10-20",
-      "company": "しょっちゅう、あなたの情報",
-      "service": "",
-      "affected_count": 0,
-      "summary": "「しょっちゅう、あなたの情報が漏えいしましたって来る」アンミカ、相次ぐ個人情報漏洩を懸念「マヒしてしまう自分も怖い」...「DayDay.」"
-    },
-    {
-      "id": "2026-10-20-auto-97dad1d0f6",
-      "member_ids": [
-        "2026-10-20-auto-97dad1d0f6"
-      ],
-      "priority": "B",
-      "published": "2026-10-20",
-      "company": "情報漏えい続きの日本へ。デンマーク880万人分",
-      "service": "",
-      "affected_count": 8800000,
-      "summary": "情報漏えい続きの日本へ。デンマーク880万人分の流出が教えてくれた“基本のキ”"
-    },
-    {
-      "id": "2026-10-20-auto-6d53ff3e1a",
-      "member_ids": [
-        "2026-10-20-auto-6d53ff3e1a"
-      ],
-      "priority": "C",
-      "published": "2026-10-20",
-      "company": "東邦ホールディングス子会社",
-      "service": "",
-      "affected_count": 0,
-      "summary": "東邦ホールディングス子会社がランサムウェア攻撃で情報漏洩、医療従事者情報など流出 | マーケット速報 | 企業情報FISCO"
+      "summary": "情報漏えい「相次ぐ」は急増なのか?偶然でも出来事は固まって起きる【2026年10月】 Cason Wallace (WfVzEg3w9f)",
+      "sources": [
+        {
+          "name": "WfVzEg3w9f",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQVDY2ZTg2WWNMRVhSeXBZOFJjT2FpNm1zN01wcDRQa2FodG5rQm1QTjVQNmdPTHFIUEZGWnIxN3loVHJ5QUJiQWVSbmpfd3E2SEdYdVM4c3F6R1JKSjhmSFhuUEI1YVBtMWRLaDlDVTR4ZTIwZEdRemlRb0JSMVJhc0hn?oc=5",
+          "official": false
+        }
+      ]
     }
   ],
   "removed_candidates": []
