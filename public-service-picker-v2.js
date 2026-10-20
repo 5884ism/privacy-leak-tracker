@@ -100,6 +100,22 @@
     `;
   }
 
+  function allChoiceButton(x){
+    const selected = draft.has(x.key);
+    return `
+      <button
+        type="button"
+        class="service-v2-all-choice ${selected ? 'is-selected' : ''}"
+        data-toggle-key="${escapeHtml(x.key)}"
+        aria-pressed="${selected ? 'true' : 'false'}"
+        title="${escapeHtml(x.label)}"
+      >
+        <span class="service-v2-all-check" aria-hidden="true">${selected ? '✓' : ''}</span>
+        <span>${escapeHtml(x.label)}</span>
+      </button>
+    `;
+  }
+
   function currentQuery(){
     return norm(els?.myServiceSearch?.value || '');
   }
@@ -155,8 +171,16 @@
     const box = document.getElementById('serviceV2AllList');
     if(!box) return;
 
-    box.innerHTML = serviceMaster.map(addButton).join('');
+    box.innerHTML = serviceMaster.map(allChoiceButton).join('');
     bindButtons(box);
+  }
+
+  function refreshAfterSelectionChange(){
+    renderSelected();
+    renderSuggestions();
+
+    const details = document.getElementById('serviceV2All');
+    if(details?.open) renderAll();
   }
 
   function bindButtons(scope){
@@ -165,22 +189,30 @@
         const item = serviceMaster.find(x=>x.key===btn.dataset.addKey);
         if(!item) return;
         draft.set(item.key, item);
-        renderSelected();
-        renderSuggestions();
-
-        const details = document.getElementById('serviceV2All');
-        if(details?.open) renderAll();
+        refreshAfterSelectionChange();
       });
     });
 
     scope.querySelectorAll('[data-remove-key]').forEach(btn=>{
       btn.addEventListener('click',()=>{
         draft.delete(btn.dataset.removeKey);
-        renderSelected();
-        renderSuggestions();
+        refreshAfterSelectionChange();
+      });
+    });
 
-        const details = document.getElementById('serviceV2All');
-        if(details?.open) renderAll();
+    scope.querySelectorAll('[data-toggle-key]').forEach(btn=>{
+      btn.addEventListener('click',()=>{
+        const key = btn.dataset.toggleKey;
+        const item = serviceMaster.find(x=>x.key===key);
+        if(!item) return;
+
+        if(draft.has(key)){
+          draft.delete(key);
+        }else{
+          draft.set(key, item);
+        }
+
+        refreshAfterSelectionChange();
       });
     });
   }
@@ -229,12 +261,7 @@
       );
     }
 
-    renderSelected();
-    renderSuggestions();
-
-    const details = document.getElementById('serviceV2All');
-    if(details?.open) renderAll();
-
+    refreshAfterSelectionChange();
     render();
   }
 
@@ -244,7 +271,6 @@
     );
     if(!oldGroups) return false;
 
-    // 既存の全件チェックボックスは非表示。既存ロジック用DOMは残す。
     oldGroups.hidden = true;
 
     if(document.getElementById('serviceV2')) return true;
@@ -266,7 +292,10 @@
       </section>
 
       <details id="serviceV2All" class="service-v2-all">
-        <summary>すべての企業・サービスを見る</summary>
+        <summary>確認済み・可能性ありの一覧から選択</summary>
+        <div class="service-v2-all-note">
+          企業・サービス名をクリックすると選択／解除できます。
+        </div>
         <div id="serviceV2AllList" class="service-v2-all-list"></div>
       </details>
 
@@ -308,7 +337,6 @@
     serviceMaster = makeMaster();
     syncDraftFromSaved();
 
-    // 文言を検索型UI向けに変更
     const intro = document.querySelector('#myServicesPanel .service-intro');
     if(intro){
       intro.textContent =
