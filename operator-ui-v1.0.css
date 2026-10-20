@@ -1,0 +1,397 @@
+/* Operator UI v1.0
+   Desktop-focused visual alignment with the public site.
+   Operator-only workflows and candidate controls are preserved. */
+
+:root{
+  --op-blue:#2447d8;
+  --op-bg:#f4f7fb;
+  --op-muted:#667085;
+  --op-line:#dbe2ec;
+}
+
+body{
+  background:
+    radial-gradient(circle at 15% 0%,rgba(36,71,216,.055),transparent 28rem),
+    var(--op-bg);
+}
+
+/* Header */
+.site-header{
+  position:relative;
+  overflow:hidden;
+  padding:42px 0 34px;
+  background:
+    radial-gradient(circle at 82% 15%,rgba(87,121,255,.34),transparent 23rem),
+    linear-gradient(135deg,#0b1740 0%,#162b6d 58%,#223f92 100%);
+}
+.site-header .wrap{
+  align-items:flex-end;
+  gap:42px;
+}
+.site-header h1{
+  margin:10px 0 9px;
+  font-size:46px;
+  line-height:1.12;
+  letter-spacing:-.035em;
+}
+.site-header .lead{
+  max-width:760px;
+  font-size:15px;
+  line-height:1.85;
+}
+.eyebrow{
+  margin:0;
+  font-weight:800;
+  letter-spacing:.19em;
+}
+.updated-card{
+  min-width:196px;
+  border-radius:18px;
+  background:rgba(255,255,255,.10);
+  border:1px solid rgba(255,255,255,.20);
+  box-shadow:0 14px 40px rgba(0,0,0,.14);
+}
+.operator-mode-badge{
+  display:inline-flex;
+  margin-left:9px;
+  padding:4px 8px;
+  border-radius:999px;
+  border:1px solid rgba(255,255,255,.24);
+  background:rgba(255,255,255,.10);
+  color:rgba(255,255,255,.9);
+  font-size:10px;
+  font-weight:800;
+  letter-spacing:.04em;
+  vertical-align:middle;
+}
+
+/* Main / controls */
+.main-grid{padding-top:30px}
+.controls{
+  grid-template-columns:minmax(0,2fr) repeat(3,minmax(145px,.75fr));
+  gap:14px;
+  padding:16px;
+  border-radius:18px;
+  box-shadow:0 8px 30px rgba(30,52,110,.045);
+}
+.control input:focus,
+.control select:focus,
+#myServicesPanel input:focus{
+  outline:none;
+  border-color:#8aa3ff;
+  box-shadow:0 0 0 4px rgba(36,71,216,.09);
+}
+
+/* Featured personal checker */
+#myServicesPanel{
+  margin-top:14px;
+  position:relative;
+  border:1px solid #b9c8ff;
+  border-left:4px solid var(--op-blue);
+  border-radius:18px;
+  background:
+    linear-gradient(90deg,rgba(36,71,216,.055),rgba(36,71,216,.012) 42%,#fff 72%);
+  box-shadow:0 8px 30px rgba(30,52,110,.045);
+}
+#myServicesPanel[open]{background:#fff}
+#myServicesPanel > summary{
+  display:grid;
+  grid-template-columns:auto 1fr auto;
+  align-items:center;
+  gap:11px;
+  list-style:none;
+  cursor:pointer;
+  color:#172033;
+}
+#myServicesPanel > summary::-webkit-details-marker{display:none}
+.operator-feature-icon{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:30px;
+  height:30px;
+  border-radius:50%;
+  background:var(--op-blue);
+  color:#fff;
+  font-size:16px;
+  font-weight:900;
+  box-shadow:0 4px 10px rgba(36,71,216,.22);
+}
+.operator-feature-copy{
+  display:grid;
+  gap:3px;
+}
+.operator-feature-title-row{
+  display:flex;
+  align-items:center;
+  gap:9px;
+  flex-wrap:wrap;
+}
+.operator-feature-title-row strong{
+  color:#183cab;
+  font-size:16px;
+}
+.operator-feature-badge{
+  display:inline-flex;
+  padding:3px 8px;
+  border-radius:999px;
+  background:#eef4ff;
+  border:1px solid #c7d7fe;
+  color:#2447d8;
+  font-size:10px;
+  font-weight:800;
+}
+.operator-feature-subtitle{
+  color:#657087;
+  font-size:12px;
+  font-weight:500;
+}
+.operator-feature-chevron{
+  width:9px;
+  height:9px;
+  border-right:2px solid #6b7dbf;
+  border-bottom:2px solid #6b7dbf;
+  transform:rotate(45deg);
+  margin:0 5px 5px 8px;
+  transition:.18s ease;
+}
+#myServicesPanel[open] .operator-feature-chevron{
+  transform:rotate(225deg);
+  margin-top:6px;
+  margin-bottom:0;
+}
+
+/* Service picker v1.0 */
+.operator-service-v2{
+  display:grid;
+  gap:14px;
+  margin-top:14px;
+}
+.operator-service-selected,
+.operator-service-search,
+.operator-service-all{
+  border:1px solid #e4e7ec;
+  border-radius:12px;
+  background:#fff;
+}
+.operator-service-selected{padding:12px}
+.operator-service-title{
+  display:flex;
+  align-items:baseline;
+  justify-content:space-between;
+  gap:10px;
+  margin-bottom:8px;
+}
+.operator-service-title h3{margin:0;font-size:13px}
+.operator-service-title span,
+.operator-service-subhead,
+.operator-service-all-note{
+  color:#667085;
+  font-size:11px;
+}
+.operator-service-chips{
+  display:flex;
+  flex-wrap:wrap;
+  gap:7px;
+}
+.operator-service-chip{
+  display:inline-flex;
+  align-items:center;
+  gap:7px;
+  border:1px solid #c7d7fe;
+  border-radius:999px;
+  background:#f5f8ff;
+  color:#2447d8;
+  padding:6px 9px 6px 11px;
+  font-size:12px;
+  font-weight:800;
+  cursor:pointer;
+}
+.operator-service-search{padding:10px 12px 12px}
+.operator-service-subhead{margin-bottom:7px;font-weight:800}
+.operator-service-results,
+.operator-service-all-list{
+  display:flex;
+  flex-wrap:wrap;
+  gap:7px;
+}
+.operator-service-choice{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  width:auto;
+  max-width:100%;
+  border:1px solid #cfd8f6;
+  border-radius:999px;
+  background:#fff;
+  color:#2447d8;
+  padding:7px 10px 7px 8px;
+  font:inherit;
+  font-size:11px;
+  font-weight:700;
+  line-height:1.25;
+  cursor:pointer;
+}
+.operator-service-choice:hover{
+  border-color:#9fb2ff;
+  background:#f7f9ff;
+}
+.operator-service-choice.is-selected{
+  border-color:#5b7cfa;
+  background:#3157e0;
+  color:#fff;
+}
+.operator-service-check{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  flex:0 0 15px;
+  width:15px;
+  height:15px;
+  border:1px solid #cfd4dc;
+  border-radius:50%;
+  background:#fff;
+  color:#2447d8;
+  font-size:10px;
+}
+.operator-service-all{overflow:hidden}
+.operator-service-all > summary{
+  display:flex;
+  justify-content:space-between;
+  gap:10px;
+  padding:11px 13px;
+  cursor:pointer;
+  color:#2447d8;
+  font-size:12px;
+  font-weight:800;
+}
+.operator-service-all-note{padding:0 12px 8px}
+.operator-service-all-list{
+  max-height:340px;
+  overflow:auto;
+  padding:0 10px 12px;
+}
+.operator-service-empty{
+  margin:0;
+  color:#667085;
+  font-size:12px;
+}
+.operator-service-saved{
+  margin:0;
+  padding:9px 11px;
+  border-radius:8px;
+  background:#ecfdf3;
+  color:#027a48;
+  font-size:12px;
+  font-weight:700;
+}
+
+/* Tabs */
+.view-tabs{
+  gap:8px;
+  margin-top:18px;
+}
+.view-tab{
+  padding:10px 15px;
+  border-radius:999px;
+  transition:.12s ease;
+}
+.view-tab:hover{
+  transform:translateY(-1px);
+  box-shadow:0 5px 16px rgba(36,71,216,.08);
+}
+.view-tab.active{
+  box-shadow:0 6px 18px rgba(36,71,216,.20);
+}
+.view-notice{
+  margin-bottom:16px;
+  font-size:13px;
+}
+
+/* Stats */
+.stats{
+  gap:12px;
+  margin-top:16px;
+}
+.stats article{
+  position:relative;
+  overflow:hidden;
+  min-height:96px;
+  border-radius:16px;
+  border-color:#dbe2ec;
+  box-shadow:0 7px 22px rgba(27,45,93,.035);
+}
+.stats article::before{
+  content:"";
+  position:absolute;
+  inset:0 auto 0 0;
+  width:3px;
+  background:linear-gradient(180deg,#4166ec,#9bb0ff);
+}
+.stats span{font-weight:700}
+.stats strong{
+  margin-top:9px;
+  letter-spacing:-.025em;
+}
+
+/* Incident area */
+.section-head{margin-bottom:12px}
+.section-head h2{
+  font-size:27px;
+  letter-spacing:-.02em;
+}
+.section-head p{
+  font-size:13px;
+  line-height:1.65;
+}
+.cards{gap:14px}
+.card{
+  position:relative;
+  border-radius:18px;
+  border-color:#dbe2ec;
+  box-shadow:0 8px 24px rgba(26,43,88,.04);
+  transition:.13s ease;
+}
+.card:hover{
+  transform:translateY(-1px);
+  border-color:#c9d5ed;
+  box-shadow:0 12px 30px rgba(26,43,88,.065);
+}
+.card h3{
+  font-size:19px;
+  line-height:1.45;
+  letter-spacing:-.012em;
+}
+.date{
+  font-size:13px;
+  color:#344054;
+}
+.card-related{
+  box-shadow:inset 4px 0 0 #2447d8,0 8px 24px rgba(26,43,88,.04)!important;
+}
+.relation-note{
+  background:#f7f9ff;
+  border:1px solid #dbe3ff;
+  border-radius:10px;
+}
+.incident-tools{
+  gap:8px;
+}
+.incident-tools button,
+.review-search-btn,
+.review-help summary{
+  border-radius:8px;
+}
+
+/* Methodology / footer */
+.methodology{
+  border-radius:18px;
+  box-shadow:0 8px 26px rgba(27,45,93,.035);
+}
+.footer{padding-top:8px}
+
+/* Keep operator workspace wide and desktop-first */
+@media(max-width:1000px){
+  .controls{grid-template-columns:1fr 1fr}
+  .controls .wide{grid-column:1/-1}
+}
