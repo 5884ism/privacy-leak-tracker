@@ -138,3 +138,19 @@
     gap:5px;
   }
 }
+/* Public source media-name display v1.4 */
+.public-update-more-sources{
+  display:inline-block;
+}
+.public-update-more-sources summary{
+  cursor:pointer;
+  color:#2447d8;
+  font-weight:700;
+  font-size:11px;
+}
+.public-update-more-sources > div{
+  display:flex;
+  flex-wrap:wrap;
+  gap:6px 10px;
+  margin-top:6px;
+}
