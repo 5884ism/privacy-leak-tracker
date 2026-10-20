@@ -96,6 +96,12 @@
     tabs.parentNode.insertBefore(panel,tabs);
   }
 
+  function jumpToIncidentList(){
+    const target=document.querySelector('.incident-section');
+    if(!target) return;
+    target.scrollIntoView({behavior:'smooth', block:'start'});
+  }
+
   function renderPanel(){
     ensurePanel();
     const panel=document.getElementById('publicUpdatePanel');
@@ -108,6 +114,11 @@
     const hasUpdate=added>0||changed>0;
     const addedRows=updateInfo.added||[];
     const changedRows=updateInfo.changed||[];
+
+    // 今日の更新は速報サマリーに徹し、新規公開の詳細は最大3件だけ表示。
+    // 全件は下の案件一覧（NEW優先）で確認する。
+    const addedPreview=addedRows.slice(0,3);
+    const hiddenAddedCount=Math.max(0, addedRows.length-addedPreview.length);
 
     panel.innerHTML=`
       <div class="public-update-head ${hasUpdate?'has-update':'no-update'}">
@@ -128,8 +139,9 @@
       ${hasUpdate?`
         <details class="public-update-details" open>
           <summary>今日の更新内容を見る</summary>
+
           <div class="public-update-list">
-            ${addedRows.map(x=>`
+            ${addedPreview.map(x=>`
               <article class="public-update-item">
                 <div class="public-update-meta">
                   <span class="badge public-new">NEW</span>
@@ -140,6 +152,17 @@
                 ${sourceLinks(x)}
               </article>
             `).join('')}
+
+            ${hiddenAddedCount ? `
+              <div class="public-update-more-cases">
+                <strong>ほか${hiddenAddedCount}件</strong>
+                <span>今日の新規公開案件は、下の案件一覧にNEW順で表示しています。</span>
+                <button type="button" class="public-update-jump-btn">
+                  案件一覧で確認
+                </button>
+              </div>
+            ` : ''}
+
             ${changedRows.map(x=>`
               <article class="public-update-item">
                 <div class="public-update-meta">
@@ -159,6 +182,9 @@
         </details>
       `:`<p class="public-update-empty">本日はまだ新たな公開案件・ステータス更新はありません。</p>`}
     `;
+
+    panel.querySelector('.public-update-jump-btn')
+      ?.addEventListener('click', jumpToIncidentList);
   }
 
   function improveMainSourceDisplays(){
