@@ -1,6 +1,8 @@
 (() => {
   const MAX_RESULTS = 8;
-  const RECENT_RESULTS = 6;
+  const RECENT_RESULTS_DESKTOP = 6;
+  const RECENT_RESULTS_MOBILE = 3;
+  let recentExpanded = false;
   let serviceMaster = [];
   let draft = new Map();
   let ready = false;
@@ -109,9 +111,38 @@
         margin:0;padding:9px 11px;border-radius:8px;background:#ecfdf3;
         color:#027a48;font-size:12px;font-weight:700
       }
+      #serviceV2 .service-v2-more-wrap{
+        margin-top:8px;
+        display:flex;
+        justify-content:center;
+      }
+      #serviceV2 .service-v2-more-btn{
+        border:0;
+        background:transparent;
+        color:#2447d8;
+        font:inherit;
+        font-size:11px;
+        font-weight:800;
+        padding:6px 10px;
+        cursor:pointer;
+      }
+
       @media(max-width:700px){
         #serviceV2 .service-v2-title-row{
           align-items:flex-start;flex-direction:column;gap:3px
+        }
+
+        #myServicesPanel .my-services-actions{
+          display:grid !important;
+          grid-template-columns:1fr !important;
+          gap:8px !important;
+        }
+        #myServicesPanel .my-services-actions button{
+          width:100% !important;
+          min-height:44px;
+        }
+        #myServicesPanel .my-services-actions button.secondary{
+          order:2;
         }
       }
     `;
@@ -215,6 +246,15 @@
     return norm(els?.myServiceSearch?.value||'');
   }
 
+  function isMobile(){
+    return window.matchMedia('(max-width:700px)').matches;
+  }
+
+  function recentLimit(){
+    if(!isMobile()) return RECENT_RESULTS_DESKTOP;
+    return recentExpanded ? RECENT_RESULTS_DESKTOP : RECENT_RESULTS_MOBILE;
+  }
+
   function searchItems(){
     const q=currentQuery();
 
@@ -222,7 +262,7 @@
       return serviceMaster
         .slice()
         .sort((a,b)=>b.latest.localeCompare(a.latest))
-        .slice(0,RECENT_RESULTS);
+        .slice(0,recentLimit());
     }
 
     return serviceMaster
@@ -237,6 +277,8 @@
     const q=currentQuery();
     const items=searchItems();
 
+    const showRecentMore = !q && isMobile() && serviceMaster.length > RECENT_RESULTS_MOBILE;
+
     box.innerHTML=`
       <div class="service-v2-subhead">
         ${q?`検索結果 ${items.length}件${items.length===MAX_RESULTS?'（上位表示）':''}`:'最近の案件から'}
@@ -245,9 +287,21 @@
         ${items.length?items.map(addButton).join(''):
           `<p class="service-v2-none">該当する企業・サービスはありません。</p>`}
       </div>
+      ${showRecentMore ? `
+        <div class="service-v2-more-wrap">
+          <button type="button" class="service-v2-more-btn" id="serviceV2RecentMore">
+            ${recentExpanded ? '表示を減らす' : 'もっと見る'}
+          </button>
+        </div>
+      ` : ''}
     `;
 
     bindButtons(box);
+
+    document.getElementById('serviceV2RecentMore')?.addEventListener('click',()=>{
+      recentExpanded = !recentExpanded;
+      renderSuggestions();
+    });
   }
 
   function renderSelected(){
@@ -440,12 +494,26 @@
 
     if(els?.myServiceSearch){
       els.myServiceSearch.placeholder='例：Amazon、ニフティ、コミックシーモア';
-      els.myServiceSearch.addEventListener('input',renderSuggestions);
+      els.myServiceSearch.addEventListener('input',()=>{
+        if(currentQuery()) recentExpanded=false;
+        renderSuggestions();
+      });
     }
 
     interceptLegacyButtons();
     renderSelected();
     renderSuggestions();
+
+    const media=window.matchMedia('(max-width:700px)');
+    const onViewportChange=()=>{
+      if(!media.matches) recentExpanded=false;
+      renderSuggestions();
+    };
+    if(media.addEventListener){
+      media.addEventListener('change',onViewportChange);
+    }else if(media.addListener){
+      media.addListener(onViewportChange);
+    }
   }
 
   if(document.readyState==='loading'){
