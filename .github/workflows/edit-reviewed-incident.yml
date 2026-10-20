@@ -1,0 +1,135 @@
+name: Edit reviewed incident
+
+on:
+  workflow_dispatch:
+    inputs:
+      incident_id:
+        description: "修正対象の案件ID（このIDだけは検索キーなので変更しません）"
+        required: true
+        type: string
+      published:
+        description: "公表日 (YYYY-MM-DD)"
+        required: true
+        type: string
+      company:
+        description: "企業・団体名"
+        required: true
+        type: string
+      service:
+        description: "サービス名（ない場合は空欄）"
+        required: false
+        default: ""
+        type: string
+      affected_count:
+        description: "対象規模（不明・非公表は 0）"
+        required: true
+        type: string
+      status:
+        description: "確認状況"
+        required: true
+        default: "confirmed"
+        type: choice
+        options: [confirmed, possible]
+      cause:
+        description: "原因・分類"
+        required: true
+        type: string
+      summary:
+        description: "案件概要"
+        required: true
+        type: string
+      exposed_data:
+        description: "漏えい・対象情報"
+        required: true
+        type: string
+      official_url:
+        description: "正しい公式発表URL"
+        required: true
+        type: string
+      source_name:
+        description: "公式情報源の表示名"
+        required: true
+        default: "公式発表"
+        type: string
+      note:
+        description: "確認・修正メモ"
+        required: true
+        default: "案件情報を再確認し全項目を上書き"
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: privacy-leak-data-write
+  cancel-in-progress: false
+
+jobs:
+  edit-reviewed-incident:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Snapshot public incidents before edit
+        run: python scripts/report_public_changes.py snapshot /tmp/public-before.json
+
+      - name: Overwrite reviewed incident
+        env:
+          INCIDENT_ID: ${{ inputs.incident_id }}
+          PUBLISHED: ${{ inputs.published }}
+          COMPANY: ${{ inputs.company }}
+          SERVICE: ${{ inputs.service }}
+          AFFECTED_COUNT: ${{ inputs.affected_count }}
+          STATUS: ${{ inputs.status }}
+          CAUSE: ${{ inputs.cause }}
+          SUMMARY: ${{ inputs.summary }}
+          EXPOSED_DATA: ${{ inputs.exposed_data }}
+          OFFICIAL_URL: ${{ inputs.official_url }}
+          SOURCE_NAME: ${{ inputs.source_name }}
+          NOTE: ${{ inputs.note }}
+        run: |
+          python scripts/edit_reviewed_incident.py \
+            --id "$INCIDENT_ID" \
+            --published "$PUBLISHED" \
+            --company "$COMPANY" \
+            --service "$SERVICE" \
+            --affected-count "$AFFECTED_COUNT" \
+            --status "$STATUS" \
+            --cause "$CAUSE" \
+            --summary "$SUMMARY" \
+            --exposed-data "$EXPOSED_DATA" \
+            --official-url "$OFFICIAL_URL" \
+            --source-name "$SOURCE_NAME" \
+            --note "$NOTE"
+
+      - name: Check official follow-up announcements
+        run: python scripts/check_official_updates.py
+
+      - name: Normalize source media names
+        run: python scripts/normalize_source_names.py
+
+      - name: Generate public feed
+        run: python scripts/export_public.py
+
+      - name: Report public changes
+        run: python scripts/report_public_changes.py report /tmp/public-before.json
+
+      - name: Commit changes
+        run: |
+          git config user.name "privacy-leak-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/incidents.json data/public-incidents.json data/public-update.json
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+          git commit -m "review: edit reviewed incident ${{ inputs.incident_id }}"
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
