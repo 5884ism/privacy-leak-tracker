@@ -154,3 +154,38 @@
   gap:6px 10px;
   margin-top:6px;
 }
+
+/* Public TODAY'S UPDATE summary v1.0 */
+.public-update-more-cases{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  flex-wrap:wrap;
+  padding:12px 14px;
+  border:1px dashed #d0d5dd;
+  border-radius:10px;
+  background:#f8fafc;
+  color:#475467;
+  font-size:12px;
+}
+.public-update-more-cases strong{
+  color:#1d2939;
+  font-size:13px;
+}
+.public-update-more-cases span{
+  flex:1 1 280px;
+}
+.public-update-jump-btn{
+  appearance:none;
+  border:1px solid #c7d2fe;
+  border-radius:8px;
+  background:#fff;
+  color:#2447d8;
+  padding:7px 10px;
+  font:inherit;
+  font-weight:800;
+  cursor:pointer;
+}
+.public-update-jump-btn:hover{
+  background:#f5f7ff;
+}
