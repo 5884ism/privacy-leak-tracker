@@ -1,0 +1,26 @@
+/* Copy incident ID button inside "今回追加された表示候補を見る" */
+.candidate-update-copy-id{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-height:28px;
+  padding:5px 9px;
+  border:1px solid #cfd8f6;
+  border-radius:7px;
+  background:#fff;
+  color:#2447d8;
+  font:inherit;
+  font-size:10px;
+  font-weight:800;
+  cursor:pointer;
+  transition:.12s ease;
+}
+.candidate-update-copy-id:hover{
+  border-color:#9fb2ff;
+  background:#f7f9ff;
+}
+.candidate-update-copy-id.is-copied{
+  border-color:#a6e3c5;
+  background:#ecfdf3;
+  color:#027a48;
+}
