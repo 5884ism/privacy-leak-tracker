@@ -36,18 +36,59 @@
       #serviceV2 .service-v2-chip b{font-size:15px;line-height:1}
       #serviceV2 .service-v2-search-wrap{padding:10px 12px 12px}
       #serviceV2 .service-v2-subhead{margin-bottom:7px;font-weight:800}
-      #serviceV2 .service-v2-results{display:grid;gap:6px}
-      #serviceV2 .service-v2-result{
-        width:100%;display:flex;align-items:center;justify-content:space-between;
-        gap:14px;border:1px solid #e4e7ec;border-radius:9px;background:#fff;
-        padding:9px 10px;text-align:left;color:#344054;cursor:pointer
+      #serviceV2 .service-v2-results{
+        display:flex !important;
+        flex-wrap:wrap !important;
+        gap:7px !important
       }
-      #serviceV2 .service-v2-result:hover{border-color:#a4bcfd;background:#f8faff}
-      #serviceV2 .service-v2-result b{flex:0 0 auto;color:#2447d8;font-size:11px}
-      #serviceV2 .service-v2-result.is-selected{
-        background:#f2f4f7;color:#667085;cursor:default
+      #serviceV2 .service-v2-recent-chip{
+        display:inline-flex !important;
+        align-items:center !important;
+        gap:6px !important;
+        width:auto !important;
+        max-width:100% !important;
+        flex:0 1 auto !important;
+        border:1px solid #cfd8f6 !important;
+        border-radius:999px !important;
+        background:#fff !important;
+        color:#2447d8 !important;
+        padding:7px 10px 7px 8px !important;
+        font:inherit !important;
+        font-size:11px !important;
+        font-weight:700 !important;
+        line-height:1.25 !important;
+        cursor:pointer !important;
+        white-space:normal !important;
+        text-align:left !important
       }
-      #serviceV2 .service-v2-result.is-selected b{color:#667085}
+      #serviceV2 .service-v2-recent-chip:hover{
+        border-color:#9fb2ff !important;
+        background:#f7f9ff !important
+      }
+      #serviceV2 .service-v2-recent-chip.is-selected{
+        border-color:#5b7cfa !important;
+        background:#3157e0 !important;
+        color:#fff !important
+      }
+      #serviceV2 .service-v2-recent-check{
+        display:inline-flex;
+        align-items:center;
+        justify-content:center;
+        flex:0 0 15px;
+        width:15px;
+        height:15px;
+        border:1px solid #cfd4dc;
+        border-radius:50%;
+        background:#fff;
+        color:#2447d8;
+        font-size:10px;
+        line-height:1
+      }
+      #serviceV2 .service-v2-recent-chip.is-selected .service-v2-recent-check{
+        border-color:#fff;
+        background:#fff;
+        color:#3157e0
+      }
 
       #serviceV2 .service-v2-all{overflow:hidden}
       #serviceV2 .service-v2-all>summary{
@@ -144,6 +185,15 @@
         #myServicesPanel .my-services-actions button.secondary{
           order:2;
         }
+
+        #serviceV2 .service-v2-results{
+          gap:6px !important;
+        }
+        #serviceV2 .service-v2-recent-chip{
+          font-size:10.5px !important;
+          padding:7px 9px 7px 8px !important;
+          min-height:34px;
+        }
       }
     `;
     document.head.appendChild(style);
@@ -220,11 +270,12 @@
     const selected=draft.has(x.key);
     return `
       <button type="button"
-        class="service-v2-result ${selected?'is-selected':''}"
-        data-add-key="${escapeHtml(x.key)}"
-        ${selected?'disabled':''}>
+        class="service-v2-recent-chip ${selected?'is-selected':''}"
+        data-toggle-recent-key="${escapeHtml(x.key)}"
+        aria-pressed="${selected?'true':'false'}"
+        title="${escapeHtml(x.label)}">
+        <span class="service-v2-recent-check" aria-hidden="true">${selected?'✓':''}</span>
         <span>${escapeHtml(x.label)}</span>
-        <b>${selected?'選択済み':'追加'}</b>
       </button>
     `;
   }
@@ -327,11 +378,12 @@
   }
 
   function bindButtons(scope){
-    scope.querySelectorAll('[data-add-key]').forEach(btn=>{
+    scope.querySelectorAll('[data-toggle-recent-key]').forEach(btn=>{
       btn.addEventListener('click',()=>{
-        const item=serviceMaster.find(x=>x.key===btn.dataset.addKey);
+        const key=btn.dataset.toggleRecentKey;
+        const item=serviceMaster.find(x=>x.key===key);
         if(!item) return;
-        draft.set(item.key,item);
+        draft.has(key)?draft.delete(key):draft.set(key,item);
         refresh();
       });
     });
