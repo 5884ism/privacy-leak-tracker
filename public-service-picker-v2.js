@@ -50,7 +50,11 @@
       #serviceV2 .service-v2-all{overflow:hidden}
       #serviceV2 .service-v2-all>summary{
         padding:11px 13px;cursor:pointer;color:#2447d8;
-        font-size:12px;font-weight:800
+        font-size:12px;font-weight:800;
+        display:flex;align-items:center;justify-content:space-between;gap:10px
+      }
+      #serviceV2 .service-v2-all-count{
+        color:#667085;font-size:11px;font-weight:700
       }
       #serviceV2 .service-v2-all-note{
         padding:0 12px 8px;color:#667085;font-size:11px
@@ -357,17 +361,20 @@
         <div id="serviceV2Selected" class="service-v2-selected"></div>
       </section>
 
-      <section class="service-v2-search-wrap">
-        <div id="serviceV2Suggestions"></div>
-      </section>
-
       <details id="serviceV2All" class="service-v2-all">
-        <summary>一覧から選択</summary>
+        <summary>
+          一覧から選択
+          <span id="serviceV2AllCount" class="service-v2-all-count"></span>
+        </summary>
         <div class="service-v2-all-note">
           確認済み・可能性ありの企業・サービスです。クリックで選択／解除できます。
         </div>
         <div id="serviceV2AllList" class="service-v2-all-list"></div>
       </details>
+
+      <section class="service-v2-search-wrap">
+        <div id="serviceV2Suggestions"></div>
+      </section>
 
       <p id="serviceV2Saved" class="service-v2-saved" hidden></p>
     `;
@@ -412,6 +419,11 @@
     ready=true;
     serviceMaster=makeMaster();
     syncDraftFromSaved();
+
+    const allCount=document.getElementById('serviceV2AllCount');
+    if(allCount){
+      allCount.textContent=`${serviceMaster.length}件`;
+    }
 
     const intro=document.querySelector('#myServicesPanel .service-intro');
     if(intro){
