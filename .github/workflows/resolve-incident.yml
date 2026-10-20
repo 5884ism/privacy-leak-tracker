@@ -7,22 +7,18 @@ on:
         description: "confirmed / possible 案件の案件ID"
         required: true
         type: string
-
       resolution_date:
         description: "漏えいなし確認日 (YYYY-MM-DD)"
         required: true
         type: string
-
       resolution_url:
         description: "漏えいなしと確認できる公式発表URL"
         required: true
         type: string
-
       resolution_note:
         description: "確定理由（例: 公式発表により個人情報の漏えいはなかったと判断）"
         required: true
         type: string
-
       source_name:
         description: "公式情報源の表示名"
         required: false
@@ -62,6 +58,9 @@ jobs:
             --resolution-url "$RESOLUTION_URL" \
             --resolution-note "$RESOLUTION_NOTE" \
             --source-name "$SOURCE_NAME"
+
+      - name: Normalize source media names
+        run: python scripts/normalize_source_names.py
 
       - name: Generate public feed
         run: python scripts/export_public.py

@@ -1,0 +1,47 @@
+name: Normalize source media names
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  normalize:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Snapshot public incidents
+        run: python scripts/report_public_changes.py snapshot /tmp/public-before.json
+
+      - name: Normalize all existing source names
+        run: python scripts/normalize_source_names.py --full
+
+      - name: Generate public feed
+        run: python scripts/export_public.py
+
+      - name: Refresh today's public update
+        run: python scripts/report_public_changes.py report /tmp/public-before.json
+
+      - name: Commit changes
+        run: |
+          git config user.name "privacy-leak-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add data/incidents.json data/public-incidents.json data/public-update.json
+
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+
+          git commit -m "chore: normalize source media names"
+          git push

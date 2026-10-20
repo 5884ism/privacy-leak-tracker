@@ -32,6 +32,9 @@ jobs:
       - name: Update incidents
         run: python scripts/update.py
 
+      - name: Normalize source media names
+        run: python scripts/normalize_source_names.py
+
       - name: Report candidate changes
         if: always()
         run: python scripts/report_candidate_changes.py report /tmp/candidates-before.json
@@ -58,5 +61,5 @@ jobs:
             exit 0
           fi
 
-          git commit -m "chore: daily incident update and public update summary"
+          git commit -m "chore: daily incident update and source names"
           git push
