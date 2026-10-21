@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-22 07:15 JST",
+  "last_updated": "2026-10-22 07:26 JST",
   "incidents": [
     {
       "id": "2026-10-22-auto-e5b5da6021",
@@ -496,28 +496,6 @@
       "article_count": 1,
       "priority": "B",
       "priority_score": 4
-    },
-    {
-      "id": "2026-10-22-auto-47a9ac28b9",
-      "published": "2026-10-22",
-      "company": "DNPの電子書籍サイト「honto」、情報漏洩か 委託先",
-      "service": "",
-      "affected_count": 0,
-      "status": "candidate",
-      "cause": "報道自動検知",
-      "summary": "DNPの電子書籍サイト「honto」、情報漏洩か 委託先に不正アクセス",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB4MEtXb1UzSmlLZnpPMWZ6b3RodkZfODFWOG8xZC12b2dURktQYkNLdUNlcjVUcHl0N3VCa3JQSzBWbDAxQnhKYUlYc3V1WXFlUXpxaGNldnVKZm1wRG01SDQ3eC1iRHFQbktCSQ?oc=5"
-        }
-      ],
-      "auto_detected": true,
-      "rss_pub_date": "Wed, 21 Oct 2026 12:01:28 GMT",
-      "article_count": 1,
-      "priority": "C",
-      "priority_score": 1
     },
     {
       "id": "2026-10-22-auto-9c6c3986c7",
@@ -1357,7 +1335,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "BigGo ファイナンス",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE03WDFWSm5vdF9TeGdQRmljckZKTkJGbkNESXJQM2ZoSS0wenFleTdfcndka0tsWFpSUDAyVXhJTnk3NTJlMjgtcWhqLThiRzhXMGJ3R3pqOFJYb0hqTkc3bHBUaFpJQmVXclhiSVc0cENFOVo4?oc=5"
         }
       ],
@@ -3438,7 +3416,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "FBS福岡放送",
+          "name": "Yahoo!ニュース",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBvd0NuS2tfSEJaWUJFeE9YZE5YWVZEVGNSbjZvcTVfWDNjejJIOU5WTEN3NWJYdWVxcFZycW5VY1VtRXZSaUNDb1pxZVFIbDVzdWhhajdlTy1vcFdPM0xqemxpN0xVUnViaDd3NVlHa08wSnFNNUhUUWxBSVVlUWs?oc=5"
         }
       ],
@@ -5421,11 +5399,13 @@
         },
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQ3AzLUZjV3V5ODhtTGxKdC03X2d2aWZCanl1VlVJTE9aSmdyNlByYmVZMXlnMlA2Ql9vSW9WZ2dJYktqMU5vUHhxdzJpVlA4akh3d1VISGQ4X1NDZkQ4VmZsVEIzSXE0SmZVbGhSNEE0RDNIZUtzWXZkaVlfYk1hQmxOTHBZTTJEcVE1TjlNbVZpSkhQYVpxUURn?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQ3AzLUZjV3V5ODhtTGxKdC03X2d2aWZCanl1VlVJTE9aSmdyNlByYmVZMXlnMlA2Ql9vSW9WZ2dJYktqMU5vUHhxdzJpVlA4akh3d1VISGQ4X1NDZkQ4VmZsVEIzSXE0SmZVbGhSNEE0RDNIZUtzWXZkaVlfYk1hQmxOTHBZTTJEcVE1TjlNbVZpSkhQYVpxUURn?oc=5",
+          "official": false
         },
         {
           "name": "日本経済新聞",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9EenE1dVRhZGV5WkNWMVIwazIxTEdfU2pVX1F3ZFE0djczaHFJVC1DdXdCdVV4cG0tcU11YnVSM3dzMnpUTGFqM19CUWl6Q1lIb2JYYWYxUWFfME15NVQtamgwNlZ2TmJoU1Bqbg?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9EenE1dVRhZGV5WkNWMVIwazIxTEdfU2pVX1F3ZFE0djczaHFJVC1DdXdCdVV4cG0tcU11YnVSM3dzMnpUTGFqM19CUWl6Q1lIb2JYYWYxUWFfME15NVQtamgwNlZ2TmJoU1Bqbg?oc=5",
+          "official": false
         }
       ],
       "auto_detected": true,
@@ -5439,7 +5419,41 @@
         "page_hashes": {},
         "last_checked": "2026-10-22 06:52 JST",
         "status": "no_verified_official_source"
-      }
+      },
+      "merged_candidates": [
+        {
+          "id": "2026-10-22-auto-47a9ac28b9",
+          "status": "candidate",
+          "published": "2026-10-22",
+          "company": "DNPの電子書籍サイト「honto」、情報漏洩か 委託先",
+          "service": "",
+          "affected_count": 0,
+          "cause": "報道自動検知",
+          "summary": "DNPの電子書籍サイト「honto」、情報漏洩か 委託先に不正アクセス",
+          "exposed_data": "要確認",
+          "sources": [
+            {
+              "name": "Googleニュース",
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB4MEtXb1UzSmlLZnpPMWZ6b3RodkZfODFWOG8xZC12b2dURktQYkNLdUNlcjVUcHl0N3VCa3JQSzBWbDAxQnhKYUlYc3V1WXFlUXpxaGNldnVKZm1wRG01SDQ3eC1iRHFQbktCSQ?oc=5"
+            }
+          ],
+          "auto_detected": true,
+          "rss_pub_date": "Wed, 21 Oct 2026 12:01:28 GMT",
+          "article_count": 1
+        }
+      ],
+      "merged_from_ids": [
+        "2026-10-22-auto-47a9ac28b9"
+      ],
+      "incident_structure": "shared_vendor",
+      "affected_organizations": [
+        {
+          "name": "DNPの電子書籍サイト「honto」、情報漏洩か 委託先"
+        }
+      ],
+      "affected_organization_count": 1,
+      "merge_note": "",
+      "merged_at": "2026-10-22 07:26 JST"
     },
     {
       "id": "2026-10-19-auto-159f8c0dbd",
@@ -8309,7 +8323,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "時事通信",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUENmLUJkSmI1enk0VW5LenRMNnVzbl9IcTVLR3FXMmVHSjI3TWQxVXBHUXpUUlBmN2lJVlFCYk40eE9IRzRBQmtNV25iRHRpM3J4WVlNa21UMEZ4Y2FoZDJLZ1IxSDRfTGlXelBHTWlWRzIwZDdCd1NYU0tOWFI1Yy1sZmtXcEk?oc=5"
         }
       ],
