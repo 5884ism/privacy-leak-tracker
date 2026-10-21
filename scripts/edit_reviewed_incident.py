@@ -1,13 +1,11 @@
 #!/usr/bin/env python3
-"""Partially overwrite operator-managed fields on a reviewed incident.
+"""Edit an already reviewed incident.
 
-Only incident ID is required.
-Blank optional inputs preserve the current value.
+Only incident ID is required. Blank optional inputs preserve existing values.
 
-affected_count accepts:
-  4454097
-  4,454,097
-  4,454,097件
+New in v1.2:
+- --sources-json can replace the complete sources list.
+- This allows deleting/replacing incorrect auto-detected media links.
 """
 
 import argparse
@@ -26,7 +24,6 @@ def parse_affected_count(raw: str):
     if not raw:
         return None
 
-    # Accept Japanese/full-width digits, commas, spaces and "件".
     trans = str.maketrans("０１２３４５６７８９，", "0123456789,")
     s = raw.translate(trans)
     s = s.replace(",", "").replace("件", "").replace(" ", "").replace("　", "")
@@ -36,8 +33,47 @@ def parse_affected_count(raw: str):
             f"対象規模は数字で入力してください: {raw!r} "
             "(例: 4454097 / 4,454,097 / 4,454,097件)"
         )
-
     return int(s)
+
+
+def parse_sources_json(raw: str):
+    raw = (raw or "").strip()
+    if not raw:
+        return None
+
+    try:
+        items = json.loads(raw)
+    except json.JSONDecodeError as e:
+        raise SystemExit(f"sources-json is not valid JSON: {e}")
+
+    if not isinstance(items, list):
+        raise SystemExit("sources-json must be a JSON array")
+
+    out = []
+    seen = set()
+
+    for i, item in enumerate(items, start=1):
+        if not isinstance(item, dict):
+            raise SystemExit(f"sources-json item {i} must be an object")
+
+        url = str(item.get("url") or "").strip()
+        if not url:
+            raise SystemExit(f"sources-json item {i} has no url")
+
+        if url in seen:
+            continue
+        seen.add(url)
+
+        name = str(item.get("name") or "情報源").strip() or "情報源"
+        official = bool(item.get("official"))
+
+        out.append({
+            "name": name,
+            "url": url,
+            "official": official,
+        })
+
+    return out
 
 
 def main():
@@ -51,8 +87,9 @@ def main():
     p.add_argument("--cause", default="")
     p.add_argument("--summary", default="")
     p.add_argument("--exposed-data", default="")
-    p.add_argument("--official-url", default="")
-    p.add_argument("--source-name", default="")
+    p.add_argument("--official-url", default="")   # legacy compatibility
+    p.add_argument("--source-name", default="")   # legacy compatibility
+    p.add_argument("--sources-json", default="")
     p.add_argument("--note", default="")
     args = p.parse_args()
 
@@ -68,14 +105,10 @@ def main():
             f"current status={found.get('status')}"
         )
 
-    # Blank inputs preserve the current value.
     if args.published.strip():
         found["published"] = args.published.strip()
-
     if args.company.strip():
         found["company"] = args.company.strip()
-
-    # For service, blank preserves existing value.
     if args.service.strip():
         found["service"] = args.service.strip()
 
@@ -85,24 +118,31 @@ def main():
 
     if args.status:
         found["status"] = args.status
-
     if args.cause.strip():
         found["cause"] = args.cause.strip()
-
     if args.summary.strip():
         found["summary"] = args.summary.strip()
-
     if args.exposed_data.strip():
         found["exposed_data"] = args.exposed_data.strip()
 
-    # Official source replacement is only performed when a new URL is supplied.
-    if args.official_url.strip():
+    new_sources = parse_sources_json(args.sources_json)
+
+    if new_sources is not None:
+        # Complete replacement of the sources list, including deletion of
+        # incorrect auto-detected links.
+        found["sources"] = new_sources
+        found["official_urls"] = [
+            s["url"] for s in new_sources if s.get("official")
+        ]
+        found.pop("official_watch", None)
+
+    elif args.official_url.strip():
+        # Legacy behavior: replace official source, preserve media sources.
         new_url = args.official_url.strip()
         new_name = args.source_name.strip() or "公式発表"
 
-        old_sources = found.get("sources", [])
         media_sources = [
-            s for s in old_sources
+            s for s in found.get("sources", [])
             if not s.get("official") and s.get("url") != new_url
         ]
 
@@ -112,11 +152,9 @@ def main():
             "official": True,
         }] + media_sources
         found["official_urls"] = [new_url]
-
-        # URL changed: reset watcher state so monitoring starts cleanly.
         found.pop("official_watch", None)
+
     elif args.source_name.strip():
-        # If only source_name is supplied, rename existing official sources.
         name = args.source_name.strip()
         for s in found.get("sources", []):
             if s.get("official"):
@@ -138,6 +176,8 @@ def main():
     )
 
     print(f"updated reviewed incident: {args.id}")
+    if new_sources is not None:
+        print(f"sources replaced: {len(new_sources)}")
 
 
 if __name__ == "__main__":
