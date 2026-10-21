@@ -1,13 +1,9 @@
 #!/usr/bin/env python3
-"""Promote one candidate incident to confirmed/possible.
-
-Usage:
-  python scripts/promote.py --id INCIDENT_ID --status confirmed
-  python scripts/promote.py --id INCIDENT_ID --status possible --official-url URL --source-name 公式発表 --note "確認済み"
-"""
+"""Promote a candidate while fully overwriting operator-managed fields."""
 
 import argparse
 import json
+import re
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -15,61 +11,93 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data" / "incidents.json"
 JST = timezone(timedelta(hours=9))
 
-def main():
-    p=argparse.ArgumentParser()
-    p.add_argument("--id",required=True)
-    p.add_argument("--status",required=True,choices=["confirmed","possible"])
-    p.add_argument("--official-url",default="")
-    p.add_argument("--source-name",default="公式発表")
-    p.add_argument("--note",default="")
-    args=p.parse_args()
 
-    db=json.loads(DATA.read_text(encoding="utf-8"))
-    found=None
-    for x in db.get("incidents",[]):
-        if x.get("id")==args.id:
-            found=x
-            break
+def parse_count(raw):
+    raw = (raw or "").strip()
+    if not raw:
+        return 0
+    trans = str.maketrans("０１２３４５６７８９，", "0123456789,")
+    s = raw.translate(trans).replace(",", "").replace("件", "").replace(" ", "").replace("　", "")
+    if not re.fullmatch(r"\d+", s):
+        raise SystemExit(f"対象規模の形式が不正です: {raw}")
+    return int(s)
+
+
+def parse_sources(raw):
+    try:
+        items = json.loads(raw or "[]")
+    except json.JSONDecodeError as e:
+        raise SystemExit(f"sources-json is invalid: {e}")
+    if not isinstance(items, list):
+        raise SystemExit("sources-json must be an array")
+
+    out, seen = [], set()
+    for i, item in enumerate(items, 1):
+        if not isinstance(item, dict):
+            raise SystemExit(f"source {i} is invalid")
+        url = str(item.get("url") or "").strip()
+        if not url:
+            continue
+        if url in seen:
+            continue
+        seen.add(url)
+        out.append({
+            "name": str(item.get("name") or "情報源").strip() or "情報源",
+            "url": url,
+            "official": bool(item.get("official")),
+        })
+    return out
+
+
+def main():
+    p = argparse.ArgumentParser()
+    p.add_argument("--id", required=True)
+    p.add_argument("--status", required=True, choices=["confirmed", "possible"])
+    p.add_argument("--published", default="")
+    p.add_argument("--company", default="")
+    p.add_argument("--service", default="")
+    p.add_argument("--affected-count", default="")
+    p.add_argument("--cause", default="")
+    p.add_argument("--summary", default="")
+    p.add_argument("--exposed-data", default="")
+    p.add_argument("--sources-json", default="[]")
+    p.add_argument("--note", default="")
+    args = p.parse_args()
+
+    db = json.loads(DATA.read_text(encoding="utf-8"))
+    found = next((x for x in db.get("incidents", []) if x.get("id") == args.id), None)
 
     if not found:
         raise SystemExit(f"incident not found: {args.id}")
+    if found.get("status") != "candidate":
+        raise SystemExit(f"incident is not candidate: current status={found.get('status')}")
 
-    found["status"]=args.status
-    found.pop("priority",None)
-    found.pop("priority_score",None)
-    found["reviewed_at"]=datetime.now(JST).strftime("%Y-%m-%d %H:%M JST")
+    # Full overwrite of operator-managed fields.
+    found["published"] = args.published.strip()
+    found["company"] = args.company.strip()
+    found["service"] = args.service.strip()
+    found["affected_count"] = parse_count(args.affected_count)
+    found["status"] = args.status
+    found["cause"] = args.cause.strip()
+    found["summary"] = args.summary.strip()
+    found["exposed_data"] = args.exposed_data.strip()
 
-    if args.note:
-        found["review_note"]=args.note
+    sources = parse_sources(args.sources_json)
+    found["sources"] = sources
+    found["official_urls"] = [s["url"] for s in sources if s.get("official")]
+    found.pop("official_watch", None)
 
-    if args.official_url:
-        sources=found.setdefault("sources",[])
-        existing=None
-        for s in sources:
-            if s.get("url")==args.official_url:
-                existing=s
-                break
+    found.pop("priority", None)
+    found.pop("priority_score", None)
 
-        if existing:
-            # 既存情報源が同じURLなら、公式情報源として明示的に昇格
-            existing["official"]=True
-            if args.source_name:
-                existing["name"]=args.source_name
-        else:
-            sources.insert(0,{
-                "name":args.source_name or "公式発表",
-                "url":args.official_url,
-                "official":True,
-            })
+    now = datetime.now(JST).strftime("%Y-%m-%d %H:%M JST")
+    found["reviewed_at"] = now
+    found["review_note"] = args.note.strip()
 
-        # 監視対象の公式URLも別フィールドに保持
-        official_urls=found.setdefault("official_urls",[])
-        if args.official_url not in official_urls:
-            official_urls.append(args.official_url)
+    db["last_updated"] = now
+    DATA.write_text(json.dumps(db, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"promoted {args.id} -> {args.status} with full overwrite")
 
-    db["last_updated"]=datetime.now(JST).strftime("%Y-%m-%d %H:%M JST")
-    DATA.write_text(json.dumps(db,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
-    print(f"promoted {args.id} -> {args.status}")
 
-if __name__=="__main__":
+if __name__ == "__main__":
     main()
