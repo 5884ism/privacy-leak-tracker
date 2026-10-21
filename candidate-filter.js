@@ -40,41 +40,31 @@
 
   function candidateDuplicatesVerified(c,v){
     if(!leakContext(c))return false;
-
     const cr=countRatio(c.affected_count,v.affected_count);
     const days=daysApart(c.published,v.published);
     const ca=Number(c.affected_count||0), va=Number(v.affected_count||0);
-
     if(ca>=100000 && va>=100000 && cr>=0.98 && days<=14)return true;
-
     const ct=primaryText(c);
     const tokenHit=verifiedTokens(v).some(t=>t&&ct.includes(t));
     if(!tokenHit)return false;
-
     if(cr>=0.75 && days<=120)return true;
-
     if(ca===0 && days<=60 &&
        /(続報|第\d+報|最終報|調査結果|再開|変更|会員|利用者|怒り|免許証|被害|流出|漏えい|漏洩|不正アクセス)/i
        .test(`${c.company||''} ${c.summary||''}`)) return true;
-
     return false;
   }
 
   function candidateDuplicatesCandidate(a,b){
     if(!leakContext(a)||!leakContext(b))return false;
-
     const ac=Number(a.affected_count||0), bc=Number(b.affected_count||0);
     const days=daysApart(a.published,b.published);
     const ratio=countRatio(ac,bc);
-
     if(ac>=100000 && bc>=100000 && days<=7 && ratio>=0.995)return true;
     if(ac>=1000000 && bc>=1000000 && days<=3 && ratio>=0.98)return true;
-
     const aa=norm(a.company||''), bb=norm(b.company||'');
     if(aa && bb && (aa.includes(bb)||bb.includes(aa)) && days<=30){
       if(ratio>=0.8 || ac===0 || bc===0)return true;
     }
-
     return false;
   }
 
@@ -94,11 +84,9 @@
     x.affected_count=Math.max(Number(a.affected_count||0),Number(b.affected_count||0));
     x.sources=uniqSources([...(a.sources||[]),...(b.sources||[])]);
     x.article_count=Number(a.article_count||1)+Number(b.article_count||1);
-
     const ranks={A:3,B:2,C:1};
     x.priority=(ranks[a.priority]||0)>=(ranks[b.priority]||0)?a.priority:b.priority;
     x.priority_score=Math.max(Number(a.priority_score||0),Number(b.priority_score||0));
-
     x._candidateMergedIds=[
       ...(a._candidateMergedIds||[a.id]).filter(Boolean),
       ...(b._candidateMergedIds||[b.id]).filter(Boolean)
@@ -108,12 +96,27 @@
     return x;
   }
 
+  function linkedCandidateIds(){
+    const ids=new Set();
+    for(const parent of data){
+      if(!['confirmed','possible','cleared'].includes(parent.status)) continue;
+      for(const id of (parent.merged_from_ids||[])){
+        if(id) ids.add(String(id));
+      }
+      for(const child of (parent.merged_candidates||[])){
+        const id=typeof child==='string' ? child : child?.id;
+        if(id) ids.add(String(id));
+      }
+    }
+    return ids;
+  }
+
   function visibleCandidates(){
-    // cleared も「既に結論が出ている案件」として扱い、
-    // 同一事故を要確認候補に再表示しない。
     const verified=data.filter(x=>['confirmed','possible','cleared'].includes(x.status));
+    const linked=linkedCandidateIds();
 
     const raw=data.filter(x=>x.status==='candidate')
+      .filter(x=>!x.id || !linked.has(String(x.id)))
       .filter(x=>!verified.some(v=>candidateDuplicatesVerified(x,v)));
 
     const merged=[];
@@ -130,13 +133,12 @@
 
   function patch(){
     if(typeof rowsForView!=='function'||typeof render!=='function')return false;
-    if(window.__candidateFilterClearedV1Patched)return true;
-    window.__candidateFilterClearedV1Patched=true;
+    if(window.__candidateFilterLinkedV11Patched)return true;
+    window.__candidateFilterLinkedV11Patched=true;
 
     const originalRowsForView=rowsForView;
     rowsForView=function(){
       if(currentView==='candidate')return visibleCandidates();
-
       if(currentView==='all'){
         const base=originalRowsForView().filter(x=>x.status!=='candidate');
         return base.concat(visibleCandidates());
@@ -170,7 +172,6 @@
         document.querySelectorAll('#cards .card').forEach((card,i)=>{
           const x=rows[i];
           if(!x||x._candidateMergedCount<=1)return;
-
           const meta=card.querySelector('.meta');
           if(meta&&!meta.querySelector('.candidate-merged')){
             const b=document.createElement('span');
