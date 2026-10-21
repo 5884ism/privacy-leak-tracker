@@ -16,11 +16,44 @@ STATUS_LABEL = {
     "cleared": "漏えいなし確認",
 }
 
+TRACKED_FIELDS = (
+    "status",
+    "published",
+    "company",
+    "service",
+    "affected_count",
+    "cause",
+    "summary",
+    "exposed_data",
+    "resolution_date",
+    "resolution_note",
+    "resolution_url",
+    "sources",
+)
+
+FIELD_LABELS = {
+    "status": "確認状況",
+    "published": "公表日",
+    "company": "企業・団体名",
+    "service": "サービス名",
+    "affected_count": "対象規模",
+    "cause": "原因・分類",
+    "summary": "案件概要",
+    "exposed_data": "漏えい・対象情報",
+    "resolution_date": "解決確認日",
+    "resolution_note": "解決情報",
+    "resolution_url": "解決情報URL",
+    "sources": "情報源",
+}
+
+
 def now_utc():
     return datetime.now(timezone.utc)
 
+
 def today_jst():
     return now_utc().astimezone(JST).strftime("%Y-%m-%d")
+
 
 def jst_date_from_iso(value):
     if not value:
@@ -29,6 +62,7 @@ def jst_date_from_iso(value):
         return datetime.fromisoformat(value.replace("Z", "+00:00")).astimezone(JST).strftime("%Y-%m-%d")
     except Exception:
         return ""
+
 
 def clean_sources(items):
     out = []
@@ -47,9 +81,11 @@ def clean_sources(items):
         })
     return out
 
+
 def load_incidents():
     data = json.loads(DATA_PATH.read_text(encoding="utf-8"))
     return data.get("incidents", []) if isinstance(data, dict) else data
+
 
 def public_rows():
     rows = []
@@ -63,7 +99,9 @@ def public_rows():
             "company": x.get("company", ""),
             "service": x.get("service", ""),
             "affected_count": x.get("affected_count", 0),
+            "cause": x.get("cause", ""),
             "summary": x.get("summary", ""),
+            "exposed_data": x.get("exposed_data", ""),
             "resolution_date": x.get("resolution_date", ""),
             "resolution_note": x.get("resolution_note", ""),
             "resolution_url": x.get("resolution_url", ""),
@@ -72,13 +110,16 @@ def public_rows():
         })
     return rows
 
+
 def key(x):
     return str(x.get("id") or "").strip()
+
 
 def label(x):
     c = x.get("company", "") or ""
     s = x.get("service", "") or ""
     return f"{c} / {s}" if s else c or "(企業名なし)"
+
 
 def fmt_count(v):
     try:
@@ -87,11 +128,10 @@ def fmt_count(v):
         n = 0
     return f"{n:,}件" if n > 0 else "非公表/調査中"
 
+
 def esc(v):
     return str(v or "").replace("|", "\\|").replace("\n", " ")
 
-def reviewed_today(x, day):
-    return str(x.get("reviewed_at") or "").startswith(day)
 
 def snapshot(path):
     rows = public_rows()
@@ -101,14 +141,16 @@ def snapshot(path):
     )
     print(f"Public snapshot saved: {len(rows)} items")
 
+
 def fresh_state(day, before_count):
     return {
-        "version": "1.3",
+        "version": "1.4",
         "date": day,
         "day_start_count": before_count,
         "added": [],
         "changed": [],
     }
+
 
 def load_daily_state(day, before_count):
     if not OUT_PATH.exists():
@@ -125,12 +167,13 @@ def load_daily_state(day, before_count):
     if state_day != day:
         return fresh_state(day, before_count)
 
-    state["version"] = "1.3"
+    state["version"] = "1.4"
     state["date"] = day
     state.setdefault("day_start_count", state.get("before_count", before_count))
     state.setdefault("added", [])
     state.setdefault("changed", [])
     return state
+
 
 def merge_added(existing, incoming):
     by_id = {key(x): dict(x) for x in existing if key(x)}
@@ -144,41 +187,29 @@ def merge_added(existing, incoming):
         by_id[k] = dict(x)
     return [by_id[k] for k in order if k in by_id]
 
-def merge_changed(existing, incoming, added_ids):
+
+def merge_changed(existing, incoming):
     by_id = {key(x): dict(x) for x in existing if key(x)}
     order = [key(x) for x in existing if key(x)]
 
     for x in incoming:
         k = key(x)
-        if not k or k in added_ids:
+        if not k:
             continue
 
         if k in by_id:
             old = by_id[k]
-            old.update({
-                "to_status": x.get("to_status", old.get("to_status", "")),
-                "to_label": x.get("to_label", old.get("to_label", "")),
-                "company": x.get("company", old.get("company", "")),
-                "service": x.get("service", old.get("service", "")),
-                "published": x.get("published", old.get("published", "")),
-                "affected_count": x.get("affected_count", old.get("affected_count", 0)),
-                "summary": x.get("summary", old.get("summary", "")),
-                "resolution_date": x.get("resolution_date", old.get("resolution_date", "")),
-                "resolution_note": x.get("resolution_note", old.get("resolution_note", "")),
-                "resolution_url": x.get("resolution_url", old.get("resolution_url", "")),
-                "sources": x.get("sources", old.get("sources", [])),
-            })
+            old.update(dict(x))
         else:
             by_id[k] = dict(x)
             order.append(k)
 
     return [by_id[k] for k in order if k in by_id]
 
-def recover_today_promotions(state, after, day):
-    recovered = [x for x in after if reviewed_today(x, day)]
-    if recovered:
-        state["added"] = merge_added(state.get("added", []), recovered)
-    return len(recovered)
+
+def changed_fields(old, new):
+    return [f for f in TRACKED_FIELDS if old.get(f) != new.get(f)]
+
 
 def report(path):
     before_path = Path(path)
@@ -193,32 +224,51 @@ def report(path):
     run_changed = []
     for k in am.keys() & bm.keys():
         old, new = bm[k], am[k]
-        if old.get("status") != new.get("status"):
-            run_changed.append({
-                "id": k,
-                "company": new.get("company", ""),
-                "service": new.get("service", ""),
-                "published": new.get("published", ""),
-                "affected_count": new.get("affected_count", 0),
-                "summary": new.get("summary", ""),
-                "from_status": old.get("status", ""),
-                "to_status": new.get("status", ""),
-                "from_label": STATUS_LABEL.get(old.get("status"), old.get("status", "")),
-                "to_label": STATUS_LABEL.get(new.get("status"), new.get("status", "")),
-                "resolution_date": new.get("resolution_date", ""),
-                "resolution_note": new.get("resolution_note", ""),
-                "resolution_url": new.get("resolution_url", ""),
-                "sources": new.get("sources", []),
-            })
+        fields = changed_fields(old, new)
+        if not fields:
+            continue
+
+        status_changed = old.get("status") != new.get("status")
+        run_changed.append({
+            "id": k,
+            "company": new.get("company", ""),
+            "service": new.get("service", ""),
+            "published": new.get("published", ""),
+            "affected_count": new.get("affected_count", 0),
+            "cause": new.get("cause", ""),
+            "summary": new.get("summary", ""),
+            "exposed_data": new.get("exposed_data", ""),
+            "reviewed_at": new.get("reviewed_at", ""),
+            "from_status": old.get("status", ""),
+            "to_status": new.get("status", ""),
+            "from_label": STATUS_LABEL.get(old.get("status"), old.get("status", "")),
+            "to_label": STATUS_LABEL.get(new.get("status"), new.get("status", "")),
+            "change_type": "status" if status_changed else "content",
+            "changed_fields": fields,
+            "changed_labels": [FIELD_LABELS.get(f, f) for f in fields],
+            "resolution_date": new.get("resolution_date", ""),
+            "resolution_note": new.get("resolution_note", ""),
+            "resolution_url": new.get("resolution_url", ""),
+            "sources": new.get("sources", []),
+        })
 
     day = today_jst()
     state = load_daily_state(day, len(before))
 
+    # Only a true "not in before -> in after" transition is NEW.
+    # reviewed_at alone must never create a NEW item.
     state["added"] = merge_added(state.get("added", []), run_added)
-    recover_today_promotions(state, after, day)
 
-    added_ids = {key(x) for x in state["added"] if key(x)}
+    # If a previously listed NEW item is subsequently edited, classify the
+    # current event as UPDATED instead of continuing to show it as NEW.
+    changed_ids = {key(x) for x in run_changed if key(x)}
+    if changed_ids:
+        state["added"] = [
+            x for x in state.get("added", [])
+            if key(x) not in changed_ids
+        ]
 
+    # Refresh surviving NEW rows from current data.
     for i, x in enumerate(state["added"]):
         k = key(x)
         if k in am:
@@ -227,14 +277,21 @@ def report(path):
     state["changed"] = merge_changed(
         state.get("changed", []),
         run_changed,
-        added_ids,
     )
+
+    # A genuinely new item in this run should remain NEW, not UPDATED.
+    run_added_ids = {key(x) for x in run_added if key(x)}
+    if run_added_ids:
+        state["changed"] = [
+            x for x in state.get("changed", [])
+            if key(x) not in run_added_ids
+        ]
 
     generated = now_utc().isoformat(timespec="seconds")
     day_start_count = int(state.get("day_start_count", len(before)))
 
     state.update({
-        "version": "1.3",
+        "version": "1.4",
         "date": day,
         "generated_at": generated,
         "last_checked_at": generated,
@@ -256,7 +313,7 @@ def report(path):
     sign = "+" if state["net_change"] > 0 else ""
     headline = (
         f"{day} 今日の更新: 新規公開 {state['added_count']}件 / "
-        f"ステータス更新 {state['changed_count']}件 / "
+        f"案件更新 {state['changed_count']}件 / "
         f"公開対象総数 {day_start_count} → {state['after_count']}件 "
         f"(差分 {sign}{state['net_change']})"
     )
@@ -272,6 +329,7 @@ def report(path):
             f"**{headline}**",
             "",
         ]
+
         if state["added"]:
             lines += [
                 "### 本日の新規公開",
@@ -287,28 +345,39 @@ def report(path):
                     f"`{esc(x.get('id') or '-')}` |"
                 )
             lines.append("")
+
         if state["changed"]:
             lines += [
-                "### 本日のステータス更新",
+                "### 本日の案件更新",
                 "",
-                "| 企業・サービス | 変更前 | 現在 | Incident ID |",
+                "| 種別 | 企業・サービス | 更新内容 | Incident ID |",
                 "|---|---|---|---|",
             ]
             for x in state["changed"]:
+                if x.get("change_type") == "status":
+                    detail = f"{x.get('from_label')} → {x.get('to_label')}"
+                    kind = "ステータス更新"
+                else:
+                    detail = " / ".join(x.get("changed_labels", [])) or "案件情報更新"
+                    kind = "案件情報更新"
                 lines.append(
-                    f"| {esc(label(x))} | {esc(x.get('from_label'))} | "
-                    f"{esc(x.get('to_label'))} | `{esc(x.get('id') or '-')}` |"
+                    f"| {esc(kind)} | {esc(label(x))} | {esc(detail)} | "
+                    f"`{esc(x.get('id') or '-')}` |"
                 )
             lines.append("")
+
         if not state["added"] and not state["changed"]:
             lines += ["✅ 本日はまだ公開案件の更新がありません。", ""]
+
         with open(summary, "a", encoding="utf-8") as f:
             f.write("\n".join(lines) + "\n")
+
 
 if __name__ == "__main__":
     if len(sys.argv) != 3 or sys.argv[1] not in {"snapshot", "report"}:
         print("Usage: report_public_changes.py {snapshot|report} <snapshot-file>")
         raise SystemExit(2)
+
     if sys.argv[1] == "snapshot":
         snapshot(sys.argv[2])
     else:
