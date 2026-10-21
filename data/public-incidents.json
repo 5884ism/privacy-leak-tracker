@@ -1,6 +1,6 @@
 {
   "version": "1.1",
-  "last_updated": "2026-10-21 08:51 JST",
+  "last_updated": "2026-10-21 11:51 JST",
   "incidents": [
     {
       "published": "2026-10-20",
@@ -172,21 +172,17 @@
     },
     {
       "published": "2026-10-19",
-      "company": "【大和証券】委託先のサーバー",
+      "company": "大和証券",
       "service": "",
       "affected_count": 110000,
       "status": "confirmed",
       "cause": "報道自動検知",
-      "summary": "【大和証券】委託先のサーバーに不正アクセス 約11万人の個人情報流出のおそれ Tyler Stephenson (G2fqDpfKQq)",
+      "summary": "委託先のサーバーに不正アクセス 約11万人の個人情報流出のおそれ",
       "exposed_data": "要確認",
       "sources": [
         {
           "name": "公式発表",
           "url": "https://www.nikkei.com/nkd/disclosure/tdnr/20261005545891/"
-        },
-        {
-          "name": "G2fqDpfKQq",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9EQ0VfaTlhemtwM1lYN0UwUU4xVHVubjRSUkFScUNKV3ZLQ3llbVZvX3g5TUdCWWg0WVNycG82VUkwcEk1eDJ0a1k2SDV6Skl6eTBTc1RRSHR4aWlfVGZzY0ozWV94Tnd2LWdmbA?oc=5"
         }
       ]
     },
@@ -463,6 +459,12 @@
           "title": "警察官・職員2000人の個人情報 公式ページ内容更新を検知",
           "url": "https://raiden.site.ktaiwork.jp/archives/4597",
           "kind": "page_changed"
+        },
+        {
+          "detected_at": "2026-10-21 11:50 JST",
+          "title": "警察官・職員2000人の個人情報 公式ページ内容更新を検知",
+          "url": "https://raiden.site.ktaiwork.jp/archives/4597",
+          "kind": "page_changed"
         }
       ]
     },
@@ -576,6 +578,20 @@
         {
           "name": "INTERNET Watch",
           "url": "https://internet.watch.impress.co.jp/"
+        }
+      ],
+      "official_updates": [
+        {
+          "detected_at": "2026-10-21 11:50 JST",
+          "title": "Helpfeel 公式ページ内容更新を検知",
+          "url": "https://corp.helpfeel.com/news/news-20260916-1",
+          "kind": "page_changed"
+        },
+        {
+          "detected_at": "2026-10-21 11:50 JST",
+          "title": "「Gyazo」への不正アクセスによる情報漏えいに関する調査結果のご報告とお詫び（第三報）",
+          "url": "https://corp.helpfeel.com/news/news-20261021",
+          "kind": "new_official_page"
         }
       ]
     },
