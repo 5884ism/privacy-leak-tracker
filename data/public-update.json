@@ -2,7 +2,30 @@
   "version": "1.4",
   "date": "2026-10-22",
   "day_start_count": 31,
-  "added": [],
+  "added": [
+    {
+      "id": "2026-10-22-auto-217fc06efd",
+      "status": "confirmed",
+      "published": "2026-10-22",
+      "company": "大阪大学",
+      "service": "全学教育用電子計算機システ",
+      "affected_count": 77851,
+      "cause": "報道自動検知",
+      "summary": "委託事業者における個人情報漏えいについて",
+      "exposed_data": "■漏えいした個人情報\n現時点で確認されている漏えい対象者数は77,851人（重複を除く。）です。対象者の内訳は次のとおりです。\n　卒業生59,014名、在学生15,035名、教職員 3,802名\n\n漏えい対象者によって漏えいした情報項目は異なりますが、主な情報は次のとおりです。\nなお、個別の対象情報については、今後、通知いたします。\n　氏名、大阪大学個人ID、本学が付与するメールアドレス（OUMailアカウント等）\n　学籍番号又は職員番号、所属情報",
+      "resolution_date": "",
+      "resolution_note": "",
+      "resolution_url": "",
+      "reviewed_at": "2026-10-22 07:15 JST",
+      "sources": [
+        {
+          "name": "大阪大学",
+          "url": "https://www.osaka-u.ac.jp/ja/news/topics/2026/10/21004",
+          "official": true
+        }
+      ]
+    }
+  ],
   "changed": [
     {
       "id": "2026-10-19-auto-159f8c0dbd",
@@ -92,17 +115,57 @@
           "official": false
         }
       ]
+    },
+    {
+      "id": "2026-10-19-auto-86c1b21212",
+      "company": "ニフティ、回線申込管理システム",
+      "service": "",
+      "published": "2026-10-19",
+      "affected_count": 542513,
+      "cause": "報道自動検知",
+      "summary": "ニフティの回線申込・受付管理システムへ不正アクセスによるサイバー攻撃、最大54万2,513件の個人情報漏えいの可能性",
+      "exposed_data": "要確認",
+      "reviewed_at": "2026-10-20 00:40 JST",
+      "from_status": "possible",
+      "to_status": "possible",
+      "from_label": "漏えいの可能性",
+      "to_label": "漏えいの可能性",
+      "change_type": "content",
+      "changed_fields": [
+        "sources"
+      ],
+      "changed_labels": [
+        "情報源"
+      ],
+      "resolution_date": "",
+      "resolution_note": "",
+      "resolution_url": "",
+      "sources": [
+        {
+          "name": "公式発表",
+          "url": "https://www.nifty.co.jp/newsrelease/nifty202610195434.htm",
+          "official": true
+        },
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBPV1lTUDZES3ZVbDlwc21jWTVJSjJQZ1pPa2Z1c2dGOW1LRnh5YmJVSWtGdWsyRmwxV0xsYktRdGoxVDJMRGpZanhjZTdXbHNQVDVKTkYtaWMwdUloYkRERThNbzlvV2lheVBz?oc=5",
+          "official": false
+        }
+      ]
     }
   ],
-  "generated_at": "2026-10-21T21:52:54+00:00",
-  "last_checked_at": "2026-10-21T21:52:54+00:00",
-  "after_count": 31,
-  "net_change": 0,
-  "added_count": 0,
-  "changed_count": 2,
-  "added_ids": [],
+  "generated_at": "2026-10-21T22:16:00+00:00",
+  "last_checked_at": "2026-10-21T22:16:00+00:00",
+  "after_count": 32,
+  "net_change": 1,
+  "added_count": 1,
+  "changed_count": 3,
+  "added_ids": [
+    "2026-10-22-auto-217fc06efd"
+  ],
   "changed_ids": [
     "2026-10-19-auto-159f8c0dbd",
-    "2026-10-19-auto-7498ce5ae0"
+    "2026-10-19-auto-7498ce5ae0",
+    "2026-10-19-auto-86c1b21212"
   ]
 }

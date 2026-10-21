@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-22 06:52 JST",
+  "last_updated": "2026-10-22 07:15 JST",
   "incidents": [
     {
       "id": "2026-10-22-auto-e5b5da6021",
@@ -26,24 +26,28 @@
     {
       "id": "2026-10-22-auto-217fc06efd",
       "published": "2026-10-22",
-      "company": "委託事業者における個人情報漏えいについて",
-      "service": "",
-      "affected_count": 0,
-      "status": "candidate",
+      "company": "大阪大学",
+      "service": "全学教育用電子計算機システ",
+      "affected_count": 77851,
+      "status": "confirmed",
       "cause": "報道自動検知",
       "summary": "委託事業者における個人情報漏えいについて",
-      "exposed_data": "要確認",
+      "exposed_data": "■漏えいした個人情報\n現時点で確認されている漏えい対象者数は77,851人（重複を除く。）です。対象者の内訳は次のとおりです。\n　卒業生59,014名、在学生15,035名、教職員 3,802名\n\n漏えい対象者によって漏えいした情報項目は異なりますが、主な情報は次のとおりです。\nなお、個別の対象情報については、今後、通知いたします。\n　氏名、大阪大学個人ID、本学が付与するメールアドレス（OUMailアカウント等）\n　学籍番号又は職員番号、所属情報",
       "sources": [
         {
           "name": "大阪大学",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9yX29uY2R4V2FsaXJqM2VBdGlVSlFDMFNLQVoyb2g0MmRQYkZfZ2EwTG1hMDA1RENHTmUzbkF1WTFiRnAxdjRwd2otLTlVMVVvMlBsM3dkWUMwOVZGbHI1M2ZCdkk?oc=5"
+          "url": "https://www.osaka-u.ac.jp/ja/news/topics/2026/10/21004",
+          "official": true
         }
       ],
       "auto_detected": true,
       "rss_pub_date": "Wed, 21 Oct 2026 08:37:17 GMT",
       "article_count": 1,
-      "priority": "C",
-      "priority_score": 1
+      "official_urls": [
+        "https://www.osaka-u.ac.jp/ja/news/topics/2026/10/21004"
+      ],
+      "reviewed_at": "2026-10-22 07:15 JST",
+      "review_note": ""
     },
     {
       "id": "2026-10-22-auto-ce9fb5f809",
@@ -351,7 +355,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "時事通信",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQ2lRT1o0ckk3bFZ2cjhnRTdiOEppakhKTTlBa1hxdEhuTk9Pd1hLa1VDWVBpVXUzVDhLUVVoUGxiZ0tvT0dabHlxdFIyOFJwZy1ub0tBYUNWQXNXcHVZRHhvRmM5azh1My1qRzRjby1GU203MDJGOTZXQS1Yc044V0lSZko5Vk0?oc=5"
         }
       ],
@@ -597,7 +601,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "TBS NEWS DIG",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCMFZUeU1pUjBRSUk2RlJJR1pWdldIX2NxN01EMzhQb2x1MndKZkhDQXpuOV9ZNk9ld0VpS2lScnpXSGxLVFRXbWJQS1pqelI0ZGtZTnpwSkhCNEJMd25KbDFGZTdwWlV6VGcyOEVyZ3RiMlZKdEJIQ2NUYlNyNjQ?oc=5"
         }
       ],
@@ -707,7 +711,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "FNNプライムオンライン",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8wVmFVLU5qSmZfUkx0elRsR0pHYmpEamQ2ZTVZLUY5ak9tbXgzYmM0NEtrSUZxdmxPQ0p4M25KMThKR1V4SFFJNzdqWDFPRzc3N1BHQTFBU2o4bGw3cmRMelZJbXlXQ1NNNm1Tc0dqR2pNYWpGd01zVnhMZy1xUXc?oc=5"
         }
       ],
@@ -729,7 +733,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "読売新聞",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9CRzJNZEhlQUpsQmdYcWhSVjFacHFhMUtINDF1NEhPMXdGdlhkWHZtamFRd2x3ZG9uS3JIS3JwSTdfd2I3bjJueng0Y1IyWXZFWnhRVnhiT0o4Y0NMeHJJQnFrZ2NBaU1Gc3BUQg?oc=5"
         }
       ],
@@ -935,7 +939,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "スポーツ報知",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaWpLZTZ2X3JIWlFSYVowRHZ1ay1VN1VtU0Qta2licnlvNlhnMkZNRVhuWk1HYldXVWhuMDNNLTNxTk9NUGFydThLTmhxWGp6UjRsRkFsQzlzMWVtdzVmWlN6Wm9JWUFpMl84ZW9KaDZTY003TXc4NENhYllGSjEzODFIYlI2elRSZy1TR3Z3?oc=5"
         }
       ],
@@ -1331,7 +1335,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "読売テレビ",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9PN2p0V1B0eTFCWHNrck5mODJraFh0T3NNaEs1QmR0SHNpVGRDc243TFg4ZUdIQ1o4SXdWRzlSeExDWFdNTHk0bGcyUC03TDMyYXVWSFVLcWs1WFVYVkRRdlhXTWo0ekxFUXB0M3N4Q19EUWFEZzlETzZBZmFIcDA?oc=5"
         }
       ],
@@ -1353,7 +1357,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "BigGo ファイナンス",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE03WDFWSm5vdF9TeGdQRmljckZKTkJGbkNESXJQM2ZoSS0wenFleTdfcndka0tsWFpSUDAyVXhJTnk3NTJlMjgtcWhqLThiRzhXMGJ3R3pqOFJYb0hqTkc3bHBUaFpJQmVXclhiSVc0cENFOVo4?oc=5"
         }
       ],
@@ -1813,7 +1817,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "ScanNetSecurity",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1uNzgyakRFaDE3aWV1Skdtb2xjUF82cERoODlXUllRU0cwQkZMNEdPVERra0RTcDBSd2p6SDFKbjhFV2dDSUkwaVlwZjJxRWItZjd0a21EYmJjWGZ2d0RYMTBfQV9Id1J3RzVuSg?oc=5"
         }
       ],
@@ -1945,7 +1949,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Yahoo!ニュース",
+          "name": "日刊スポーツ",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE05Ykkxd0d3Wk9nd0xYcHlBMExLdmpPWGlUTnZjaWdCbjRGQmhPaHlCX2w5SkpoSlVZSFBwVXhhZjVNekZTT0pIUEtncEhvRjRrcl9DVE1Dc1NoZ2kzN05pZEwwZ3A2aWJqR1gyQnZuNW9LMUREb0IzR1VTV21kUVk?oc=5"
         }
       ],
@@ -3434,7 +3438,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Yahoo!ニュース",
+          "name": "FBS福岡放送",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBvd0NuS2tfSEJaWUJFeE9YZE5YWVZEVGNSbjZvcTVfWDNjejJIOU5WTEN3NWJYdWVxcFZycW5VY1VtRXZSaUNDb1pxZVFIbDVzdWhhajdlTy1vcFdPM0xqemxpN0xVUnViaDd3NVlHa08wSnFNNUhUUWxBSVVlUWs?oc=5"
         }
       ],
@@ -5343,7 +5347,7 @@
           "official": true
         },
         {
-          "name": "INTERNET Watch",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBPV1lTUDZES3ZVbDlwc21jWTVJSjJQZ1pPa2Z1c2dGOW1LRnh5YmJVSWtGdWsyRmwxV0xsYktRdGoxVDJMRGpZanhjZTdXbHNQVDVKTkYtaWMwdUloYkRERThNbzlvV2lheVBz?oc=5"
         }
       ],
@@ -8307,10 +8311,6 @@
         {
           "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUENmLUJkSmI1enk0VW5LenRMNnVzbl9IcTVLR3FXMmVHSjI3TWQxVXBHUXpUUlBmN2lJVlFCYk40eE9IRzRBQmtNV25iRHRpM3J4WVlNa21UMEZ4Y2FoZDJLZ1IxSDRfTGlXelBHTWlWRzIwZDdCd1NYU0tOWFI1Yy1sZmtXcEk?oc=5"
-        },
-        {
-          "name": "Yahoo!ファイナンス",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMzI5dVJPMVhWSGNyRGJZeTZTbVh4T0REWVp6WUpQWlo1di04M0N2M2xBYmNlNkFnMkh4NlVfalRvc2pyM2loM3d1TTN1YWdHUHVRbzFJOWFySW9CSzZVdXFZM3RHeGRVV2g5bmstSjJSMjVZMVlaNFFMOWk2cGtIZHMzMVRIRTg?oc=5"
         }
       ],
       "auto_detected": true,
@@ -9312,10 +9312,6 @@
         {
           "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBkOTY4YjN2RWNHRE1xSnhBZWxYNXJ3cTRZNlBnOE5pcnM4cHdycVlrd2k1WEpMcXlvVlViZlE0R3NJTEZkQm5iSFV0bjF6MXN2aEY4T1ZZOEVPNVlocFI3YnluWjNVdVU?oc=5"
-        },
-        {
-          "name": "朝日新聞",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9zalR0Mi1OVFF2NlpkSnhFZGE1MDZHWjllQm54bk1OOVZHYXZkYS1WSkl5bmRXN2hNVXlDa01DZnQ4cm0xUEFOZXlSblFCQ0xLUFpqa2s1ckxNQXFNU3VlTFI5QWRkRjQ?oc=5"
         }
       ],
       "auto_detected": true,
@@ -10508,10 +10504,6 @@
         {
           "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE01OHE0ZjF0OVFjNnlBQlF6bUgtb0RBb0tRS0FfeHVrN25oZXJ6bjI2VjFMT2FsMEJ5YU1SVlZYRXh6ekJhbEE5TXdtb0FMNmRrS0dxZThKbXY4T1A1OV9manlHWjNKcVlZVzlNcHVGYV9ZMFhNQkw4QUtXYw?oc=5"
-        },
-        {
-          "name": "Dellows News",
-          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBwYUZYcVVSOHZLbjc1VHF5Z1FkXzZQOG1qVmhxbmxJOG5ZR1VydTZMcDJReXpIYmU3OUV1clRJbE1PTG9CekE?oc=5"
         }
       ],
       "auto_detected": true,

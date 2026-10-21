@@ -1,7 +1,23 @@
 {
   "version": "1.2",
-  "last_updated": "2026-10-22 06:52 JST",
+  "last_updated": "2026-10-22 07:15 JST",
   "incidents": [
+    {
+      "published": "2026-10-22",
+      "company": "大阪大学",
+      "service": "全学教育用電子計算機システ",
+      "affected_count": 77851,
+      "status": "confirmed",
+      "cause": "報道自動検知",
+      "summary": "委託事業者における個人情報漏えいについて",
+      "exposed_data": "■漏えいした個人情報\n現時点で確認されている漏えい対象者数は77,851人（重複を除く。）です。対象者の内訳は次のとおりです。\n　卒業生59,014名、在学生15,035名、教職員 3,802名\n\n漏えい対象者によって漏えいした情報項目は異なりますが、主な情報は次のとおりです。\nなお、個別の対象情報については、今後、通知いたします。\n　氏名、大阪大学個人ID、本学が付与するメールアドレス（OUMailアカウント等）\n　学籍番号又は職員番号、所属情報",
+      "sources": [
+        {
+          "name": "大阪大学",
+          "url": "https://www.osaka-u.ac.jp/ja/news/topics/2026/10/21004"
+        }
+      ]
+    },
     {
       "published": "2026-10-21",
       "company": "株式会社リンクステーション",
@@ -205,7 +221,7 @@
           "url": "https://www.nifty.co.jp/newsrelease/nifty202610195434.htm"
         },
         {
-          "name": "INTERNET Watch",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBPV1lTUDZES3ZVbDlwc21jWTVJSjJQZ1pPa2Z1c2dGOW1LRnh5YmJVSWtGdWsyRmwxV0xsYktRdGoxVDJMRGpZanhjZTdXbHNQVDVKTkYtaWMwdUloYkRERThNbzlvV2lheVBz?oc=5"
         }
       ]
