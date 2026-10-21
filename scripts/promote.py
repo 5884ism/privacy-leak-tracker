@@ -16,10 +16,37 @@ def parse_count(raw):
     raw = (raw or "").strip()
     if not raw:
         return 0
+
     trans = str.maketrans("０１２３４５６７８９，", "0123456789,")
-    s = raw.translate(trans).replace(",", "").replace("件", "").replace(" ", "").replace("　", "")
+    s = raw.translate(trans).strip()
+
+    # Accept common human-readable units used in incident announcements/UI.
+    # Examples:
+    #   77,851人
+    #   13,000件
+    #   5万人
+    #   12,300アカウント
+    #   3,802名
+    #
+    # Note: values such as "5万人" are intentionally NOT expanded here because
+    # the UI currently passes exact integer values. We only strip a trailing
+    # unit when the numeric portion itself is an integer representation.
+    s = s.replace(",", "").replace(" ", "").replace("　", "")
+
+    units = (
+        "アカウント", "レコード", "ユーザー", "ユーザ",
+        "メールアドレス", "名", "人", "件", "社", "団体"
+    )
+    for unit in units:
+        if s.endswith(unit):
+            s = s[:-len(unit)]
+            break
+
     if not re.fullmatch(r"\d+", s):
-        raise SystemExit(f"対象規模の形式が不正です: {raw}")
+        raise SystemExit(
+            f"対象規模の形式が不正です: {raw} "
+            "（例: 77851 / 77,851人 / 13,000件）"
+        )
     return int(s)
 
 
@@ -72,7 +99,6 @@ def main():
     if found.get("status") != "candidate":
         raise SystemExit(f"incident is not candidate: current status={found.get('status')}")
 
-    # Full overwrite of operator-managed fields.
     found["published"] = args.published.strip()
     found["company"] = args.company.strip()
     found["service"] = args.service.strip()
