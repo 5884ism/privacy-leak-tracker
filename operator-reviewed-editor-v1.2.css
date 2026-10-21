@@ -1,0 +1,40 @@
+/* Reviewed incident editor v1.2 */
+body.reviewed-editor-open{overflow:hidden}
+.reviewed-editor-modal[hidden]{display:none!important}
+.reviewed-editor-modal{position:fixed;inset:0;z-index:9999}
+.reviewed-editor-backdrop{position:absolute;inset:0;background:rgba(15,23,42,.55);backdrop-filter:blur(2px)}
+.reviewed-editor-dialog{position:relative;width:min(920px,calc(100vw - 48px));max-height:calc(100vh - 48px);margin:24px auto;overflow:auto;border:1px solid #dbe2ec;border-radius:18px;background:#fff;box-shadow:0 24px 80px rgba(15,23,42,.28)}
+.reviewed-editor-head{position:sticky;top:0;z-index:2;display:flex;align-items:flex-start;justify-content:space-between;gap:20px;padding:18px 20px 15px;border-bottom:1px solid #e4e7ec;background:rgba(255,255,255,.97);backdrop-filter:blur(10px)}
+.reviewed-editor-kicker{color:#2447d8;font-size:10px;font-weight:900;letter-spacing:.15em}
+.reviewed-editor-head h2{margin:3px 0 4px;font-size:22px}
+.reviewed-editor-head p{margin:0;color:#667085;font-size:12px}
+.reviewed-editor-close{border:0;background:#f2f4f7;width:32px;height:32px;border-radius:50%;font-size:20px;line-height:1;cursor:pointer}
+.reviewed-editor-form{display:grid;grid-template-columns:1fr 1fr;gap:13px 15px;padding:18px 20px 22px}
+.reviewed-editor-field{display:grid;gap:5px}
+.reviewed-editor-field.wide,.reviewed-editor-preview.wide,.reviewed-editor-actions.wide,.reviewed-editor-note.wide,.reviewed-editor-sources.wide{grid-column:1/-1}
+.reviewed-editor-field label{color:#344054;font-size:11px;font-weight:800}
+.reviewed-editor-field input,.reviewed-editor-field select,.reviewed-editor-field textarea{width:100%;box-sizing:border-box;border:1px solid #d0d5dd;border-radius:9px;background:#fff;color:#172033;padding:9px 10px;font:inherit;font-size:12px}
+.reviewed-editor-field textarea{resize:vertical;line-height:1.55}
+.reviewed-editor-field input:focus,.reviewed-editor-field select:focus,.reviewed-editor-field textarea:focus{outline:none;border-color:#8aa3ff;box-shadow:0 0 0 4px rgba(36,71,216,.09)}
+.reviewed-editor-field input[readonly]{background:#f8fafc;color:#667085}
+.reviewed-editor-field small{color:#98a2b3;font-size:10px}
+.reviewed-editor-sources{border:1px solid #dbe2ec;border-radius:12px;background:#fbfcfe;padding:12px}
+.reviewed-editor-sources-head{display:flex;justify-content:space-between;align-items:flex-start;gap:15px;margin-bottom:10px}
+.reviewed-editor-sources-head strong{display:block;font-size:12px;color:#344054}
+.reviewed-editor-sources-head span{display:block;margin-top:3px;color:#667085;font-size:10px}
+#reviewedEditorAddSource{border:1px solid #cfd8f6;border-radius:8px;background:#fff;color:#2447d8;padding:7px 10px;font-size:10px;font-weight:800;cursor:pointer}
+#reviewedEditorSources{display:grid;gap:7px}
+.reviewed-editor-source-row{display:grid;grid-template-columns:minmax(120px,.8fr) minmax(320px,2fr) auto auto;gap:7px;align-items:center;padding:8px;border:1px solid #e4e7ec;border-radius:9px;background:#fff}
+.reviewed-editor-source-row .source-name,.reviewed-editor-source-row .source-url{width:100%;box-sizing:border-box;border:1px solid #d0d5dd;border-radius:7px;padding:7px 8px;font:inherit;font-size:11px}
+.source-check,.source-delete{display:inline-flex;align-items:center;gap:5px;white-space:nowrap;font-size:10px;font-weight:800;color:#475467}
+.source-delete{color:#b42318}
+.source-remove:checked ~ span{text-decoration:line-through}
+.reviewed-editor-source-row:has(.source-remove:checked){opacity:.5;background:#fff5f5}
+.reviewed-editor-preview{margin-top:3px;padding:11px 12px;border:1px solid #e4e7ec;border-radius:10px;background:#f8fafc}
+.reviewed-editor-preview strong{display:block;margin-bottom:7px;color:#344054;font-size:11px}
+.reviewed-editor-preview pre{margin:0;max-height:180px;overflow:auto;white-space:pre-wrap;word-break:break-word;color:#475467;font-size:10px;line-height:1.55}
+.reviewed-editor-actions{display:flex;gap:9px;justify-content:flex-end}
+.reviewed-editor-actions button,.reviewed-editor-actions a{display:inline-flex;align-items:center;justify-content:center;min-height:36px;padding:8px 12px;border-radius:8px;font-size:11px;font-weight:800;text-decoration:none;cursor:pointer}
+.reviewed-editor-actions .secondary{border:1px solid #d0d5dd;background:#fff;color:#344054}
+.reviewed-editor-actions a{border:1px solid #2447d8;background:#2447d8;color:#fff}
+.reviewed-editor-note{margin:0;color:#667085;font-size:10px;line-height:1.6}
