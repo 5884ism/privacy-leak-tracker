@@ -51,13 +51,18 @@ on:
         required: false
         default: ""
         type: string
+      sources_json:
+        description: "情報源JSON ※空欄なら変更なし。編集フォームからコピー"
+        required: false
+        default: ""
+        type: string
       official_url:
-        description: "公式発表URL ※空欄なら変更なし"
+        description: "旧方式: 公式発表URL ※通常は空欄"
         required: false
         default: ""
         type: string
       source_name:
-        description: "公式情報源の表示名 ※空欄なら変更なし"
+        description: "旧方式: 公式情報源名 ※通常は空欄"
         required: false
         default: ""
         type: string
@@ -100,6 +105,7 @@ jobs:
           CAUSE: ${{ inputs.cause }}
           SUMMARY: ${{ inputs.summary }}
           EXPOSED_DATA: ${{ inputs.exposed_data }}
+          SOURCES_JSON: ${{ inputs.sources_json }}
           OFFICIAL_URL: ${{ inputs.official_url }}
           SOURCE_NAME: ${{ inputs.source_name }}
           NOTE: ${{ inputs.note }}
@@ -114,6 +120,7 @@ jobs:
             --cause "$CAUSE" \
             --summary "$SUMMARY" \
             --exposed-data "$EXPOSED_DATA" \
+            --sources-json "$SOURCES_JSON" \
             --official-url "$OFFICIAL_URL" \
             --source-name "$SOURCE_NAME" \
             --note "$NOTE"
