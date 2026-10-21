@@ -16,10 +16,12 @@ export async function onRequestPost({request,env}){
   if(!env.GITHUB_TOKEN||!env.OPERATOR_HOST||!env.OPERATOR_EMAIL){
     return json({ok:false,error:'Cloudflare環境変数が不足しています。'},503);
   }
+
   const host=new URL(request.url).hostname.toLowerCase();
   if(host!==String(env.OPERATOR_HOST).trim().toLowerCase()){
     return json({ok:false,error:'このホストからの実行は許可されていません。'},403);
   }
+
   const email=String(request.headers.get('CF-Access-Authenticated-User-Email')||'').trim().toLowerCase();
   if(!email||!emails(env.OPERATOR_EMAIL).includes(email)){
     return json({ok:false,error:'Cloudflare Accessで認証された運営者のみ実行できます。'},403);
@@ -29,13 +31,19 @@ export async function onRequestPost({request,env}){
   try{body=await request.json();}catch{return json({ok:false,error:'JSONが不正です。'},400);}
 
   try{
+    const mode=String(body.mode||'');
+    if(!['existing','new'].includes(mode)) throw new Error('親案件モードが不正です');
+
     const ids=Array.isArray(body.merge_ids)?body.merge_ids.map(String).filter(Boolean):[];
-    if(ids.length<2) throw new Error('統合する候補を2件以上選択してください。');
-    if(!body.primary_id||!ids.includes(body.primary_id)) throw new Error('親案件の指定が不正です。');
-    if(!String(body.company||'').trim()) throw new Error('統合後の企業・委託先名は必須です。');
+    if(ids.length<1) throw new Error('紐づける候補を1件以上選択してください。');
+
+    const parentId=String(body.parent_id||'').trim();
+    if(mode==='existing'&&!parentId) throw new Error('既存の親案件を選択してください。');
+    if(mode==='new'&&!String(body.company||'').trim()) throw new Error('新規親案件の企業・委託先名は必須です。');
 
     const inputs={
-      primary_id:clean(body.primary_id,200),
+      mode,
+      parent_id:clean(parentId,200),
       merge_ids_json:JSON.stringify(ids),
       company:clean(body.company,500),
       service:clean(body.service,500),
@@ -59,13 +67,21 @@ export async function onRequestPost({request,env}){
       },
       body:JSON.stringify({ref:REF,inputs})
     });
+
     if(!gh.ok){
       console.error('merge dispatch failed',gh.status,await gh.text());
       return json({ok:false,error:`GitHub Actionsの起動に失敗しました（HTTP ${gh.status}）。`},502);
     }
-    return json({ok:true,message:'候補統合処理を開始しました。'});
+
+    return json({
+      ok:true,
+      message:mode==='existing'
+        ? '既存案件への紐づけ処理を開始しました。'
+        : '新しい親候補の作成・統合処理を開始しました。'
+    });
   }catch(e){
     return json({ok:false,error:e?.message||'入力内容が不正です。'},400);
   }
 }
+
 export function onRequestGet(){return json({ok:false,error:'POST only'},405);}
