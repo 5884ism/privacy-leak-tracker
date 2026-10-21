@@ -66,6 +66,21 @@
     `;
   }
 
+  function currentIncident(id){
+    if(!id || typeof data==='undefined' || !Array.isArray(data)) return null;
+    return data.find(x=>String(x.id||'')===String(id)) || null;
+  }
+
+  function isStillCandidate(id){
+    const x=currentIncident(id);
+    return Boolean(x && x.status==='candidate');
+  }
+
+  function currentRows(){
+    const rows=Array.isArray(updateInfo?.new_candidates) ? updateInfo.new_candidates : [];
+    return rows.filter(x=>x?.id && isStillCandidate(x.id));
+  }
+
   function promoteButton(x){
     if(!x.id) return '';
     return `
@@ -75,7 +90,7 @@
         target="_blank"
         rel="noopener"
         data-incident-id="${esc(x.id)}"
-        title="案件ID ${esc(x.id)} をコピーして Promote incident を開きます"
+        title="案件ID ${esc(x.id)} を昇格フォームで確認します"
       >昇格させる</a>
     `;
   }
@@ -99,13 +114,23 @@
     const panel = document.getElementById('candidateUpdatePanel');
     if(!panel || !updateInfo) return;
 
-    const net = Number(updateInfo.visible_net_change ?? updateInfo.net_change ?? 0);
-    const netText = `${net > 0 ? '+' : ''}${net}`;
-    const newCount = Number(updateInfo.new_count || 0);
-    const rows = updateInfo.new_candidates || [];
+    const rows = currentRows();
+
+    // IMPORTANT:
+    // candidate-update.json is a daily/update snapshot. Its original new_count can
+    // include incidents already promoted after the snapshot was created.
+    // The panel must reflect the CURRENT candidate state instead.
+    const newCount = rows.length;
 
     const before = Number(updateInfo.visible_before_count ?? updateInfo.before_count ?? 0);
-    const after = Number(updateInfo.visible_after_count ?? updateInfo.after_count ?? 0);
+    const snapshotAfter = Number(updateInfo.visible_after_count ?? updateInfo.after_count ?? 0);
+    const promotedSinceSnapshot = Math.max(
+      0,
+      Number(updateInfo.new_count || 0) - newCount
+    );
+    const after = Math.max(0, snapshotAfter - promotedSinceSnapshot);
+    const net = after - before;
+    const netText = `${net > 0 ? '+' : ''}${net}`;
 
     const rawBefore = Number(updateInfo.raw_before_count ?? 0);
     const rawAfter = Number(updateInfo.raw_after_count ?? 0);
@@ -158,7 +183,7 @@
             `).join('')}
           </div>
         </details>
-      ` : `<p class="candidate-update-empty">今回、新たな表示候補はありません。</p>`}
+      ` : `<p class="candidate-update-empty">今回追加された候補は、すべて確認済みです。</p>`}
     `;
 
     panel.querySelectorAll('.candidate-update-promote-link').forEach(link=>{
@@ -200,7 +225,10 @@
   function decorateCards(){
     addPromoteActions();
 
-    if(!updateInfo || !newIds.size) return;
+    const currentIds=new Set(currentRows().map(x=>String(x.id)));
+    newIds=currentIds;
+
+    if(!newIds.size) return;
 
     document.querySelectorAll('#cards .card').forEach(card => {
       const code = card.querySelector('.incident-tools code');
@@ -224,7 +252,6 @@
       const res = await fetch('data/candidate-update.json', {cache:'no-store'});
       if(!res.ok) return;
       updateInfo = await res.json();
-      newIds = new Set(updateInfo.new_candidate_ids || []);
       renderPanel();
       decorateCards();
     }catch(e){
