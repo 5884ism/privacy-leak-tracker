@@ -1,0 +1,64 @@
+name: Reclassify public update
+
+on:
+  workflow_dispatch:
+    inputs:
+      incident_id:
+        description: "NEWからUPDATEDへ移す案件ID"
+        required: true
+        type: string
+      changed_label:
+        description: "更新内容の表示名"
+        required: false
+        default: "案件情報"
+        type: string
+      note:
+        description: "更新メモ"
+        required: false
+        default: "既存案件の修正をUPDATEDへ再分類"
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: privacy-leak-data-write
+  cancel-in-progress: false
+
+jobs:
+  reclassify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Reclassify NEW to UPDATED
+        env:
+          INCIDENT_ID: ${{ inputs.incident_id }}
+          CHANGED_LABEL: ${{ inputs.changed_label }}
+          NOTE: ${{ inputs.note }}
+        run: |
+          python scripts/reclassify_public_update.py \
+            --id "$INCIDENT_ID" \
+            --changed-label "$CHANGED_LABEL" \
+            --note "$NOTE"
+
+      - name: Commit change
+        run: |
+          git config user.name "privacy-leak-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/public-update.json
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+          git commit -m "fix: reclassify public update ${{ inputs.incident_id }}"
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
