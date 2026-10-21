@@ -3,17 +3,25 @@ name: Merge candidate incidents
 on:
   workflow_dispatch:
     inputs:
-      primary_id:
-        description: "統合後に残す親案件ID"
+      mode:
+        description: "existing=既存確定案件へ紐づけ / new=新しい親候補を作成"
         required: true
+        default: "existing"
+        type: choice
+        options: [existing, new]
+      parent_id:
+        description: "既存親案件ID（mode=existing時）"
+        required: false
+        default: ""
         type: string
       merge_ids_json:
-        description: "統合する案件IDのJSON配列"
+        description: "紐づける候補案件IDのJSON配列"
         required: true
         type: string
       company:
-        description: "統合後の企業・委託先名"
-        required: true
+        description: "親案件の企業・委託先名"
+        required: false
+        default: ""
         type: string
       service:
         description: "サービス/システム名"
@@ -26,7 +34,7 @@ on:
         default: ""
         type: string
       affected_count:
-        description: "統合後の対象規模"
+        description: "対象規模"
         required: false
         default: ""
         type: string
@@ -36,7 +44,7 @@ on:
         default: ""
         type: string
       summary:
-        description: "統合後の案件概要"
+        description: "案件概要"
         required: false
         default: ""
         type: string
@@ -51,7 +59,7 @@ on:
         default: "[]"
         type: string
       note:
-        description: "統合理由・メモ"
+        description: "統合/紐づけ理由"
         required: false
         default: ""
         type: string
@@ -72,9 +80,13 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Merge candidates
+      - name: Snapshot public incidents before linking
+        run: python scripts/report_public_changes.py snapshot /tmp/public-before.json
+
+      - name: Link or merge candidate incidents
         env:
-          PRIMARY_ID: ${{ inputs.primary_id }}
+          MODE: ${{ inputs.mode }}
+          PARENT_ID: ${{ inputs.parent_id }}
           MERGE_IDS_JSON: ${{ inputs.merge_ids_json }}
           COMPANY: ${{ inputs.company }}
           SERVICE: ${{ inputs.service }}
@@ -87,7 +99,8 @@ jobs:
           NOTE: ${{ inputs.note }}
         run: |
           python scripts/merge_candidates.py \
-            --primary-id "$PRIMARY_ID" \
+            --mode "$MODE" \
+            --parent-id "$PARENT_ID" \
             --merge-ids-json "$MERGE_IDS_JSON" \
             --company "$COMPANY" \
             --service "$SERVICE" \
@@ -99,12 +112,25 @@ jobs:
             --affected-organizations-json "$AFFECTED_ORGS" \
             --note "$NOTE"
 
-      - name: Commit change
+      - name: Normalize source media names
+        run: python scripts/normalize_source_names.py
+
+      - name: Generate public feed
+        run: python scripts/export_public.py
+
+      - name: Report public changes
+        run: python scripts/report_public_changes.py report /tmp/public-before.json
+
+      - name: Commit changes
         run: |
           git config user.name "privacy-leak-bot"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/incidents.json
-          git commit -m "review: merge candidate incidents ${{ inputs.primary_id }}"
+          git add data/incidents.json data/public-incidents.json data/public-update.json
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+          git commit -m "review: link candidate incidents"
           git fetch origin main
           git rebase origin/main
           git push origin HEAD:main
