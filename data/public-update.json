@@ -71,28 +71,16 @@
       "cause": "報道自動検知",
       "summary": "全国警察官・職員の個人情報が流出",
       "exposed_data": "対象サービス\t\nraiden.ktaiwork.jp\nraiden2.ktaiwork.jp\nraiden3.ktaiwork.jp\nraiden2.speecan.jp\ns.ktaiwork.jp\ns2.ktaiwork.jp\n\n対象項目\t\n連絡先の名前、メールアドレス、電話・FAX番号\n担当者、契約情報\n履歴として保存されている本文に記載されている内容\n\n対象サービス\tNET119　（映像通報は現時点で漏洩の可能性はございません）\t119RAIDEN\n対象URL\tnet119.speecan.jp　net119fd.speecan.jp\tfs119.ktaiwork.jp\n漏洩の可能性がある個人情報の項目\t\n利用者の名前、生年月日、性別、住所、電話番号、メールアドレス、FAX番号、他サービス登録時に入力した情報\t連絡先の名前、メールアドレス、電話・FAX番号\n担当者、契約情報\n履歴として保存されている本文に記載されている内容\n\n漏洩の可能性がある個人情報の最大件数\t約13000件\t\nメールアドレス：約97000件\n電話番号：約17000件\nFAX 番号：約400件",
-      "reviewed_at": "2026-10-21 14:51 JST",
+      "reviewed_at": "2026-10-21 15:05 JST",
       "from_status": "confirmed",
       "to_status": "confirmed",
       "from_label": "漏えい確認",
       "to_label": "漏えい確認",
       "change_type": "content",
       "changed_fields": [
-        "published",
-        "company",
-        "service",
-        "affected_count",
-        "summary",
-        "exposed_data",
         "sources"
       ],
       "changed_labels": [
-        "公表日",
-        "企業・団体名",
-        "サービス名",
-        "対象規模",
-        "案件概要",
-        "漏えい・対象情報",
         "情報源"
       ],
       "resolution_date": "",
@@ -133,12 +121,17 @@
           "name": "日テレNEWS NNN",
           "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9fdmJoNEtYTV9fdEdaSXdIQUFVckl1dGxpQWNXRk5OS2dnVG9ZUzhxbEk2b0lJa1NNT1lObnprZy00M0Q5YXFTc2VnWUdINjhZNUdORU9kSmVRS0hwODAtV3hTd0ktLVZmWTNzVXFaNVFyYkE3d1NKZmVmcFA?oc=5",
           "official": false
+        },
+        {
+          "name": "朝日新聞",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1GcW1nckdnWXBXanZCUlowbFU4Mm1XWXRIc2JlcW5pVkxNUjhfdDdWbnQ5ZFJ2WjNwX3Y0SGtBLU9LX1R1NWNhWmNReEhQa19xc0tIX0dHa2F6M0JibF9QWDBENW5YX0U?oc=5",
+          "official": false
         }
       ]
     }
   ],
-  "generated_at": "2026-10-21T05:52:17+00:00",
-  "last_checked_at": "2026-10-21T05:52:17+00:00",
+  "generated_at": "2026-10-21T06:05:49+00:00",
+  "last_checked_at": "2026-10-21T06:05:49+00:00",
   "after_count": 31,
   "net_change": 1,
   "added_count": 1,
