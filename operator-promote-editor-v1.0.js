@@ -11,6 +11,11 @@
     return data.find(x=>x.id===id)||null;
   }
 
+  function incidentFromId(id){
+    if(!id||typeof data==='undefined'||!Array.isArray(data)) return null;
+    return data.find(x=>x.id===id)||null;
+  }
+
   function count(v){
     const n=Number(v);
     return Number.isFinite(n)&&n>0?new Intl.NumberFormat('ja-JP').format(n)+'件':'0';
@@ -18,7 +23,6 @@
 
   function ensureModal(){
     if(document.getElementById('promoteEditorModal')) return;
-
     const m=document.createElement('div');
     m.id='promoteEditorModal';
     m.className='promote-editor-modal';
@@ -34,10 +38,8 @@
           </div>
           <button type="button" class="promote-editor-close" data-promote-close>×</button>
         </header>
-
         <form id="promoteEditorForm" class="promote-editor-form">
           <div class="promote-field wide"><label>案件ID</label><input name="incident_id" readonly /></div>
-
           <div class="promote-field"><label>公表日</label><input name="published" type="date" /></div>
           <div class="promote-field"><label>公開ステータス</label>
             <select name="status">
@@ -45,16 +47,12 @@
               <option value="possible">possible（漏えいの可能性）</option>
             </select>
           </div>
-
           <div class="promote-field wide"><label>企業・団体名</label><input name="company" /></div>
           <div class="promote-field wide"><label>サービス名</label><input name="service" /></div>
-
           <div class="promote-field"><label>対象規模</label><input name="affected_count" /></div>
           <div class="promote-field"><label>原因・分類</label><input name="cause" /></div>
-
           <div class="promote-field wide"><label>案件概要</label><textarea name="summary" rows="3"></textarea></div>
           <div class="promote-field wide"><label>漏えい・対象情報</label><textarea name="exposed_data" rows="3"></textarea></div>
-
           <section class="promote-sources wide">
             <div class="promote-sources-head">
               <div><strong>情報源管理</strong><span>自動取得リンクも修正・削除できます。公式発表には「公式」をチェックします。</span></div>
@@ -62,19 +60,14 @@
             </div>
             <div id="promoteSources"></div>
           </section>
-
           <div class="promote-field wide"><label>確認・昇格メモ</label><textarea name="note" rows="2"></textarea></div>
-
           <div id="promoteStatus" class="promote-status wide" hidden></div>
-
           <div class="promote-actions wide">
             <button type="button" class="primary" id="promoteExecute">この内容で昇格</button>
           </div>
         </form>
-      </section>
-    `;
+      </section>`;
     document.body.appendChild(m);
-
     m.querySelectorAll('[data-promote-close]').forEach(b=>b.addEventListener('click',closeModal));
     m.querySelector('#promoteAddSource').addEventListener('click',()=>addSource({name:'',url:'',official:false}));
     m.querySelector('#promoteExecute').addEventListener('click',execute);
@@ -88,8 +81,7 @@
       <input class="source-name" value="${esc(s.name||'')}" placeholder="表示名" />
       <input class="source-url" value="${esc(s.url||'')}" placeholder="https://..." />
       <label><input type="checkbox" class="source-official" ${s.official?'checked':''}/> 公式</label>
-      <label class="delete"><input type="checkbox" class="source-remove"/> 削除</label>
-    `;
+      <label class="delete"><input type="checkbox" class="source-remove"/> 削除</label>`;
     box.appendChild(row);
   }
 
@@ -100,8 +92,7 @@
         name:r.querySelector('.source-name').value.trim()||'情報源',
         url:r.querySelector('.source-url').value.trim(),
         official:r.querySelector('.source-official').checked
-      }))
-      .filter(x=>x.url);
+      })).filter(x=>x.url);
   }
 
   function payload(){
@@ -136,7 +127,6 @@
       });
       const result=await res.json().catch(()=>({}));
       if(!res.ok||!result.ok) throw new Error(result.error||`昇格開始に失敗しました（HTTP ${res.status}）`);
-
       status(result.message||'昇格処理を開始しました。','success');
       btn.textContent='開始しました';
       setTimeout(()=>{btn.disabled=false;btn.textContent=old},2500);
@@ -151,7 +141,6 @@
     ensureModal();
     const m=document.getElementById('promoteEditorModal');
     const f=document.getElementById('promoteEditorForm');
-
     f.elements.incident_id.value=x.id||'';
     f.elements.published.value=x.published||'';
     f.elements.status.value='confirmed';
@@ -169,7 +158,6 @@
 
     const s=document.getElementById('promoteStatus');
     s.hidden=true;s.textContent='';
-
     m.hidden=false;
     document.body.classList.add('promote-editor-open');
   }
@@ -185,7 +173,6 @@
       const candidate=card.querySelector('.badge.candidate') ||
         [...card.querySelectorAll('.badge')].find(x=>(x.textContent||'').includes('要確認'));
       if(!candidate) return;
-
       const btn=[...card.querySelectorAll('a,button')].find(x=>{
         const t=(x.textContent||'').trim();
         const href=x.getAttribute?.('href')||'';
@@ -205,8 +192,24 @@
     });
   }
 
+  function wireLatestUpdatePanel(){
+    if(window.__promoteLatestUpdatePanelReady) return;
+    window.__promoteLatestUpdatePanelReady=true;
+    document.addEventListener('click',e=>{
+      const link=e.target.closest?.('.candidate-update-promote-link');
+      if(!link) return;
+      const id=link.dataset.incidentId?.trim();
+      const x=incidentFromId(id);
+      if(!x) return;
+      e.preventDefault();
+      e.stopImmediatePropagation();
+      openModal(x);
+    },true);
+  }
+
   function start(){
     ensureModal();
+    wireLatestUpdatePanel();
     wire();
     const cards=document.getElementById('cards');
     if(cards) new MutationObserver(wire).observe(cards,{childList:true,subtree:true});
