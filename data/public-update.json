@@ -1,77 +1,19 @@
 {
   "version": "1.4",
-  "date": "2026-10-21",
-  "day_start_count": 30,
-  "added": [
-    {
-      "id": "2026-10-21-auto-96fb3d4bae",
-      "status": "confirmed",
-      "published": "2026-10-21",
-      "company": "株式会社リンクステーション",
-      "service": "GETTIIS",
-      "affected_count": 317971,
-      "cause": "報道自動検知",
-      "summary": "GETTIISの会員ID31万7,971件が漏洩、パスワードハッシュ31万1,451件も対象 リンクステーションが第2報",
-      "exposed_data": "会員ID： 317,971件\nハッシュ化されたパスワード： 311,451件\nクレジットカード関連情報： 29,515件\n氏名： 309,759件\n性別： 5,900件\n生年月日： 5,192件\n郵便番号： 489件\n電話番号： 309,668件\nメールアドレス： 311,426件",
-      "resolution_date": "",
-      "resolution_note": "",
-      "resolution_url": "",
-      "reviewed_at": "2026-10-21 12:26 JST",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNDNDX1E2WEludWpnNEFUMm5MazBPTXZVYXNyWXRiZVcxQkFwdWhmWmdKSjFWbk1WVm5nWlFYNEhXeXJaYVltd2sxdWdCejV1THdJckZ2eDRCcHNJeXk4Wm56WEFMcU85NXBMbndWb1RDcVFhejYzendWOWtSMUtNd1JDcmtYNm5PZzJCdmJnejJRN0xMVHRaR3NzdC1GWjU1b0lvd1J2enFyM2c?oc=5",
-          "official": false
-        },
-        {
-          "name": "公式",
-          "url": "https://www.gettiis.jp/notice/detail/42",
-          "official": true
-        }
-      ]
-    }
-  ],
+  "date": "2026-10-22",
+  "day_start_count": 31,
+  "added": [],
   "changed": [
     {
-      "id": "2026-10-19-auto-6072632f96",
-      "company": "大和証券",
+      "id": "2026-10-19-auto-159f8c0dbd",
+      "company": "岩井コスモ証券、4611人",
       "service": "",
       "published": "2026-10-19",
-      "affected_count": 110000,
-      "cause": "",
-      "summary": "委託先のサーバーに不正アクセス 約11万人の個人情報流出のおそれ",
-      "exposed_data": "",
-      "reviewed_at": "2026-10-21 11:50 JST",
-      "from_status": "confirmed",
-      "to_status": "confirmed",
-      "from_label": "",
-      "to_label": "",
-      "change_type": "content",
-      "changed_fields": [],
-      "changed_labels": [
-        "案件情報"
-      ],
-      "resolution_date": "",
-      "resolution_note": "既存案件の修正をUPDATEDへ再分類",
-      "resolution_url": "",
-      "sources": [
-        {
-          "name": "公式発表",
-          "url": "https://www.nikkei.com/nkd/disclosure/tdnr/20261005545891/",
-          "official": true
-        }
-      ]
-    },
-    {
-      "id": "2026-10-17-auto-b8a44fe43d",
-      "company": "株式会社アルカディア",
-      "service": "SpeeCAN RAIDEN（raiden3.ktaiwork.jpのお客様が対象）ライデン・スクール（s2.ktaiwork.jpのお客様が対象）",
-      "published": "2026-10-13",
-      "affected_count": 13000,
+      "affected_count": 4611,
       "cause": "報道自動検知",
-      "summary": "全国警察官・職員の個人情報が流出",
-      "exposed_data": "対象サービス\t\nraiden.ktaiwork.jp\nraiden2.ktaiwork.jp\nraiden3.ktaiwork.jp\nraiden2.speecan.jp\ns.ktaiwork.jp\ns2.ktaiwork.jp\n\n対象項目\t\n連絡先の名前、メールアドレス、電話・FAX番号\n担当者、契約情報\n履歴として保存されている本文に記載されている内容\n\n対象サービス\tNET119　（映像通報は現時点で漏洩の可能性はございません）\t119RAIDEN\n対象URL\tnet119.speecan.jp　net119fd.speecan.jp\tfs119.ktaiwork.jp\n漏洩の可能性がある個人情報の項目\t\n利用者の名前、生年月日、性別、住所、電話番号、メールアドレス、FAX番号、他サービス登録時に入力した情報\t連絡先の名前、メールアドレス、電話・FAX番号\n担当者、契約情報\n履歴として保存されている本文に記載されている内容\n\n漏洩の可能性がある個人情報の最大件数\t約13000件\t\nメールアドレス：約97000件\n電話番号：約17000件\nFAX 番号：約400件",
-      "reviewed_at": "2026-10-21 15:05 JST",
+      "summary": "岩井コスモ証券、4611人の顧客情報漏えい 委託先に不正アクセス (アスキー)",
+      "exposed_data": "要確認",
+      "reviewed_at": "2026-10-20 08:13 JST",
       "from_status": "confirmed",
       "to_status": "confirmed",
       "from_label": "漏えい確認",
@@ -89,58 +31,78 @@
       "sources": [
         {
           "name": "公式発表",
-          "url": "https://raiden.site.ktaiwork.jp/archives/4597",
+          "url": "https://www.iwaicosmo.co.jp/news/2026/10161410.html",
           "official": true
         },
         {
-          "name": "読売新聞",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5CRlRrUkQyNjZJSmhtdWs2RmtoQnlnVF9ERmdxc0JPVTJHR1FhbXZBTjlDVFFfZkJYdFZVdEQ2NmhfaTZFcGdEalBLeFdlTWtjSDVId3RjNFcxY3ZHeHBwUkM4VGZYQQ?oc=5",
-          "official": false
-        },
-        {
-          "name": "Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1jeXZXVTlMYmhnem9PTXl3SlJZRzByVzFDcFBQZ05STTdqUkd6bGVqU28yc05XanQ4U0xlNDR3alZTakFRalh2YXo0MTM0eDRB?oc=5",
-          "official": false
-        },
-        {
-          "name": "合同会社ロケットボーイズ",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbk43VUlLeGpaak5OODZ2T3dRT2txdWM5dURXQndrbnZhS1JYMlhEeXk1ME1BT0ZuZWZoWEJ3T3RiVHQwOXBiXzI3TlFfYzhodklXWWNYZFBLaXE4eFlfRUo1ak5zaWpEWUN4SjB4TndkMWo1dHF3ek81S1dYN0RTTHdvY05wNkRfQ280eExPaEwxSzk2cWJ3cFJ3TU1mRjYza3hFMjg2QjBRaGZMQ3MtOXJuTGtCQQ?oc=5",
-          "official": false
-        },
-        {
-          "name": "ITmedia",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1IQ19rc2xzQmpxakRrQ2JnVUFLa2ZDQ2NvSUhPWWNmYUNDb2tScHFOVXJVRlUwOHdOcXV4ZmdpdEE0THFMMDBkUnkxeXVfaXNjejVESHAwaGFuMk5nNnQ3ck8xZnd3OENHVkE?oc=5",
-          "official": false
+          "name": "公式発表",
+          "url": "https://www.busitec.co.jp/news/info",
+          "official": true
         },
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMEJjaGlwWkRVdlRtZXdUTkdoX19zUElLZHcyQUphY3cwb2wwaGx3U0U4WWcwNVBkTkRuTEtZc0RYUGFJVmdvOUJ5aGpybWdJcVd2ZFZHRWtTQ0QyQmdrMGg5Wkc2cmE1RlNaLWw1aUJBcjRrQXpvMlU1ZGxQbnpSLVhoZnk5VjQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5uR2VlTURhMFNlMm5qc3pGeXg3U3Q5YmU1T1pJZTdvY1dYcmlNNHpRLWNpal94ckxzZTByOFN5SlRLOHJGWVJ1LVF2cjQ4TWhsdEFTbDBWNjVhdnc2UHgzWVBnemV4bmZsTWljeGxkZ2tuZmpNQzVIbnduREhOdEk?oc=5",
           "official": false
         },
         {
-          "name": "日テレNEWS NNN",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9fdmJoNEtYTV9fdEdaSXdIQUFVckl1dGxpQWNXRk5OS2dnVG9ZUzhxbEk2b0lJa1NNT1lObnprZy00M0Q5YXFTc2VnWUdINjhZNUdORU9kSmVRS0hwODAtV3hTd0ktLVZmWTNzVXFaNVFyYkE3d1NKZmVmcFA?oc=5",
+          "name": "ASCII.jp",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4ybS0tbnlpaFBiT2o5V1pYSEtsMzBGZkE1OElkX082LUROeS1CcWVnQWRvczh0NVlscTdDUGxwWFJzclFOakN3WGVhOFN3OVlBMHFPdQ?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-19-auto-7498ce5ae0",
+      "company": "H2O",
+      "service": "",
+      "published": "2026-10-19",
+      "affected_count": 1260000,
+      "cause": "報道自動検知",
+      "summary": "「阪急阪神百貨店」公式通販などに不正アクセス 約126万件の個人情報が漏えい 名前や住所など「多大なるご心配とご迷惑 深くおわび」 | MBSニュース | 関西の最新ニュースを分かりやすく。 (1ページ)",
+      "exposed_data": "要確認",
+      "reviewed_at": "2026-10-19 18:51 JST",
+      "from_status": "confirmed",
+      "to_status": "confirmed",
+      "from_label": "漏えい確認",
+      "to_label": "漏えい確認",
+      "change_type": "content",
+      "changed_fields": [
+        "sources"
+      ],
+      "changed_labels": [
+        "情報源"
+      ],
+      "resolution_date": "",
+      "resolution_note": "",
+      "resolution_url": "",
+      "sources": [
+        {
+          "name": "公式発表",
+          "url": "https://data.swcms.net/file/h2o-retailing/ja/news/auto_20261019552921/pdfFile.pdf",
+          "official": true
+        },
+        {
+          "name": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBNSjhwWGh0ZTVvdWc5Z0RuMGdiVTZzY2plRlRRVjRyYjFUWUhfZFpJU0ZVTUc1UTVyeTR6UUo1RFVpNENtd3lqamVqNjI5aGs0RXJYZnNOT2dIVE5BMXhUUHFPbzRjX1NkUEdWdER3ZGpYLTBKOUFiWXJxci1qV2c?oc=5",
           "official": false
         },
         {
-          "name": "朝日新聞",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1GcW1nckdnWXBXanZCUlowbFU4Mm1XWXRIc2JlcW5pVkxNUjhfdDdWbnQ5ZFJ2WjNwX3Y0SGtBLU9LX1R1NWNhWmNReEhQa19xc0tIX0dHa2F6M0JibF9QWDBENW5YX0U?oc=5",
+          "name": "日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5CQkgxWTdmeUIwTkJkM05KdVY1V1lLVFVtcmNuaVk3YmFYVVhYdUxtRmVBNU0tX2dRYWFuUGdfVDMwUTdjMmlDbXRWY3RyUUtTV0l3b05nVnB0Vmh5NjcwYnptWDN6akJOYzJXcg?oc=5",
           "official": false
         }
       ]
     }
   ],
-  "generated_at": "2026-10-21T06:05:49+00:00",
-  "last_checked_at": "2026-10-21T06:05:49+00:00",
+  "generated_at": "2026-10-21T21:52:54+00:00",
+  "last_checked_at": "2026-10-21T21:52:54+00:00",
   "after_count": 31,
-  "net_change": 1,
-  "added_count": 1,
+  "net_change": 0,
+  "added_count": 0,
   "changed_count": 2,
-  "added_ids": [
-    "2026-10-21-auto-96fb3d4bae"
-  ],
+  "added_ids": [],
   "changed_ids": [
-    "2026-10-19-auto-6072632f96",
-    "2026-10-17-auto-b8a44fe43d"
+    "2026-10-19-auto-159f8c0dbd",
+    "2026-10-19-auto-7498ce5ae0"
   ]
 }
