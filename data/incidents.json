@@ -1,28 +1,6 @@
 {
-  "last_updated": "2026-10-21 12:26 JST",
+  "last_updated": "2026-10-21 14:52 JST",
   "incidents": [
-    {
-      "id": "2026-10-21-auto-43fe4ce1ad",
-      "published": "2026-10-21",
-      "company": "22府県の警察",
-      "service": "",
-      "affected_count": 0,
-      "status": "candidate",
-      "cause": "報道自動検知",
-      "summary": "22府県の警察 個人情報流出の恐れ",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1jeXZXVTlMYmhnem9PTXl3SlJZRzByVzFDcFBQZ05STTdqUkd6bGVqU28yc05XanQ4U0xlNDR3alZTakFRalh2YXo0MTM0eDRB?oc=5"
-        }
-      ],
-      "auto_detected": true,
-      "rss_pub_date": "Tue, 20 Oct 2026 21:54:50 GMT",
-      "article_count": 1,
-      "priority": "C",
-      "priority_score": 1
-    },
     {
       "id": "2026-10-21-auto-d7ba7e5475",
       "published": "2026-10-21",
@@ -35,7 +13,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "ScanNetSecurity",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1uNzgyakRFaDE3aWV1Skdtb2xjUF82cERoODlXUllRU0cwQkZMNEdPVERra0RTcDBSd2p6SDFKbjhFV2dDSUkwaVlwZjJxRWItZjd0a21EYmJjWGZ2d0RYMTBfQV9Id1J3RzVuSg?oc=5"
         }
       ],
@@ -266,28 +244,6 @@
       "priority_score": 1
     },
     {
-      "id": "2026-10-21-auto-03f6a8e8aa",
-      "published": "2026-10-21",
-      "company": "アルカディア 防災情報配信サービスへ",
-      "service": "",
-      "affected_count": 125000,
-      "status": "candidate",
-      "cause": "報道自動検知",
-      "summary": "アルカディア 防災情報配信サービスへの不正アクセス、1アルカディア不正アクセス、20府県警の警察職員約12万5,000件に情報漏えいのおそれ 兵庫・岡山・福井など13県警の内訳を確認|セキュリティニュースのセキュリティ対策Lab",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "合同会社ロケットボーイズ",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbk43VUlLeGpaak5OODZ2T3dRT2txdWM5dURXQndrbnZhS1JYMlhEeXk1ME1BT0ZuZWZoWEJ3T3RiVHQwOXBiXzI3TlFfYzhodklXWWNYZFBLaXE4eFlfRUo1ak5zaWpEWUN4SjB4TndkMWo1dHF3ek81S1dYN0RTTHdvY05wNkRfQ280eExPaEwxSzk2cWJ3cFJ3TU1mRjYza3hFMjg2QjBRaGZMQ3MtOXJuTGtCQQ?oc=5"
-        }
-      ],
-      "auto_detected": true,
-      "rss_pub_date": "Tue, 20 Oct 2026 22:20:47 GMT",
-      "article_count": 1,
-      "priority": "B",
-      "priority_score": 5
-    },
-    {
       "id": "2026-10-21-auto-617c4c2415",
       "published": "2026-10-21",
       "company": "岩井コスモ証券",
@@ -396,50 +352,6 @@
       "article_count": 1,
       "priority": "C",
       "priority_score": 1
-    },
-    {
-      "id": "2026-10-21-auto-a83c713a2b",
-      "published": "2026-10-21",
-      "company": "栃木県警、全職員",
-      "service": "",
-      "affected_count": 0,
-      "status": "candidate",
-      "cause": "報道自動検知",
-      "summary": "栃木県警、全職員の情報流出か アルカディア不正アクセス、他県警でも被害判明相次ぐ 報道",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1IQ19rc2xzQmpxakRrQ2JnVUFLa2ZDQ2NvSUhPWWNmYUNDb2tScHFOVXJVRlUwOHdOcXV4ZmdpdEE0THFMMDBkUnkxeXVfaXNjejVESHAwaGFuMk5nNnQ3ck8xZnd3OENHVkE?oc=5"
-        }
-      ],
-      "auto_detected": true,
-      "rss_pub_date": "Tue, 20 Oct 2026 10:50:15 GMT",
-      "article_count": 1,
-      "priority": "C",
-      "priority_score": 1
-    },
-    {
-      "id": "2026-10-21-auto-af82788137",
-      "published": "2026-10-21",
-      "company": "県警の警察官・職員約2200人分",
-      "service": "",
-      "affected_count": 2200,
-      "status": "candidate",
-      "cause": "報道自動検知",
-      "summary": "県警の警察官・職員約2200人分の個人情報漏えいの恐れ 大阪のIT関連会社が不正アクセスを受けた影響",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMEJjaGlwWkRVdlRtZXdUTkdoX19zUElLZHcyQUphY3cwb2wwaGx3U0U4WWcwNVBkTkRuTEtZc0RYUGFJVmdvOUJ5aGpybWdJcVd2ZFZHRWtTQ0QyQmdrMGg5Wkc2cmE1RlNaLWw1aUJBcjRrQXpvMlU1ZGxQbnpSLVhoZnk5VjQ?oc=5"
-        }
-      ],
-      "auto_detected": true,
-      "rss_pub_date": "Tue, 20 Oct 2026 10:42:00 GMT",
-      "article_count": 1,
-      "priority": "C",
-      "priority_score": 3
     },
     {
       "id": "2026-10-21-auto-71ad27ed00",
@@ -668,7 +580,14 @@
         "https://www.gettiis.jp/notice/detail/42"
       ],
       "reviewed_at": "2026-10-21 12:26 JST",
-      "review_note": ""
+      "review_note": "",
+      "official_watch": {
+        "page_hashes": {
+          "https://www.gettiis.jp/notice/detail/42": "6c492f9db52fd496813796aa9569299653decdc4153cfc6d85c054778160ffa8"
+        },
+        "last_checked": "2026-10-21 14:51 JST",
+        "status": "ok"
+      }
     },
     {
       "id": "2026-10-21-auto-114d53f508",
@@ -682,7 +601,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "日本経済新聞",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9XQmo3MmpBRGtBMl84MWI3SEpfSFkwaVJEVnRLaVowbV9tYWhFWl83UXFwRjZZOUNrVVQ0YnpaUXZob1hDbTg3N2pjQ0FjM0s4U0V1V0xhVWkwRG1lRkZPZ1RNZnNUWHBmMnp2NQ?oc=5"
         }
       ],
@@ -867,50 +786,6 @@
       "article_count": 1,
       "priority": "C",
       "priority_score": 1
-    },
-    {
-      "id": "2026-10-21-auto-47d666dd15",
-      "published": "2026-10-21",
-      "company": "全国の警察官らの情報 大量流出か",
-      "service": "",
-      "affected_count": 0,
-      "status": "candidate",
-      "cause": "報道自動検知",
-      "summary": "全国の警察官らの情報 大量流出か 不正アクセスで22府県警に影響",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9lcU1UZmViSDNCTmZmRldwRG1kUzREXzB6NUktQk11UjhsUDc4WF9xcTMzZ2k2MjJDQ2xZOUpFeXZ1eVBFSFVfMVJCMHAxZw?oc=5"
-        }
-      ],
-      "auto_detected": true,
-      "rss_pub_date": "Tue, 20 Oct 2026 14:57:00 GMT",
-      "article_count": 1,
-      "priority": "C",
-      "priority_score": 1
-    },
-    {
-      "id": "2026-10-21-auto-1093a9b2c4",
-      "published": "2026-10-21",
-      "company": "県警",
-      "service": "",
-      "affected_count": 2200,
-      "status": "candidate",
-      "cause": "報道自動検知",
-      "summary": "県警 約2200人分の個人情報流出の可能性 相次ぐ不正アクセス被害 鹿児島(KKB鹿児島放送)",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "KKB鹿児島放送",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBxMmlZbTFYOHdSVGpNNTgtWmNBSWhvbE1pdEJfbmNuZzZvb21FcnRod0lwLWtWS3BnOWdKaFB0STNBRlI0QW03YjdwRU1xUURkeEpHQW40QnNKSGR6eWFLeVpuYzRqY1dlVzk1TElUV2VZT0Z6dmxjbUtiWjlGTGs?oc=5"
-        }
-      ],
-      "auto_detected": true,
-      "rss_pub_date": "Tue, 20 Oct 2026 09:26:24 GMT",
-      "article_count": 1,
-      "priority": "C",
-      "priority_score": 3
     },
     {
       "id": "2026-10-21-auto-8c216b5ffd",
@@ -1155,28 +1030,6 @@
       "priority_score": 3
     },
     {
-      "id": "2026-10-21-auto-6550770e81",
-      "published": "2026-10-21",
-      "company": "栃木県警職員",
-      "service": "",
-      "affected_count": 0,
-      "status": "candidate",
-      "cause": "報道自動検知",
-      "summary": "栃木県警職員の情報流出か 約4千人、不正アクセスで",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9zTHgzcEN3Y3lYWmtoUXNKRVJvSmNUUmFzbjF2YXdrZXJTR2VwY1ZScXdDOUJ3RnNubDV6OGdsZzdmeXRBbTJKbHlYSXludw?oc=5"
-        }
-      ],
-      "auto_detected": true,
-      "rss_pub_date": "Tue, 20 Oct 2026 07:24:00 GMT",
-      "article_count": 1,
-      "priority": "C",
-      "priority_score": 1
-    },
-    {
       "id": "2026-10-21-auto-4fbde27590",
       "published": "2026-10-21",
       "company": "サイバー攻撃で売買注文=委託先",
@@ -1296,7 +1149,7 @@
         "page_hashes": {
           "https://www.crypton.co.jp/cfm/news/2026/10/20info": "7f150426f401e54934aa7ba5c3577b40cca8cd7f59dfa920f803e4dbdf17afda"
         },
-        "last_checked": "2026-10-21 11:50 JST",
+        "last_checked": "2026-10-21 14:51 JST",
         "status": "ok"
       }
     },
@@ -1332,7 +1185,7 @@
         "page_hashes": {
           "https://www.trustbank.co.jp/newsroom/newsrelease/news261020": "351a7e7196e26128130e5a37ac94edd1b62032d93e8505c0fb1a9481daca7840"
         },
-        "last_checked": "2026-10-21 11:50 JST",
+        "last_checked": "2026-10-21 14:51 JST",
         "status": "ok"
       }
     },
@@ -1392,7 +1245,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "合同会社ロケットボーイズ",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPODYwVGJSTG81TFk2aXluTEdBaFdxelM4VEVNUFB1Mm5aU0h6dzhzNzY0UENaclV1Z0NfYnd0ZWtCYkFXc081NW9xYU1yb01pMzB6Z1lieWVqbzktSERaRXVWYzhLZ1BHcUVLRlpobnc2N0podEI4aEtpV3Zmamo5T0R2SldHQkE?oc=5"
         }
       ],
@@ -1423,28 +1276,6 @@
       "article_count": 2,
       "priority": "C",
       "priority_score": 3
-    },
-    {
-      "id": "2026-10-20-auto-829c7ad6e0",
-      "published": "2026-10-20",
-      "company": "栃木県警全職員",
-      "service": "",
-      "affected_count": 0,
-      "status": "candidate",
-      "cause": "報道自動検知",
-      "summary": "栃木県警全職員の個人情報流出か アルカディア不正アクセスで (毎日新聞)",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "毎日新聞",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE00czNXUmNRUWZWaHB5dXZRUHdxV2hIdGIwTlpiLXpvaUdyTzh6UUFHWlFncmZ3QXFQVjRYQzllT0R0bUxrVDkxMXJZeThLQzZ5MVFqU3ljc3BSeFE?oc=5"
-        }
-      ],
-      "auto_detected": true,
-      "rss_pub_date": "Mon, 19 Oct 2026 20:03:33 GMT",
-      "article_count": 13,
-      "priority": "B",
-      "priority_score": 5
     },
     {
       "id": "2026-10-20-auto-4e88b9c124",
@@ -1649,28 +1480,6 @@
       "priority_score": 1
     },
     {
-      "id": "2026-10-20-auto-b082a736db",
-      "published": "2026-10-20",
-      "company": "アルカディア不正アクセス 県警で職員情報流出か/埼玉県(テレ玉)",
-      "service": "",
-      "affected_count": 0,
-      "status": "candidate",
-      "cause": "報道自動検知",
-      "summary": "アルカディア不正アクセス 県警で職員情報流出か/埼玉県(テレ玉)",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "テレ玉",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Dd3k1a3cxd2Z1UkRVZU1kUHNTbjhkMC1falFsNG1WRWRDWVhlQjQydnJybi1uNUx4aGNEZlAwOFJVYzNBc3hZdExKMFU3eVNOWjhhWlQzZnQ5aE5JUGozMm5kYTU5SXdJWl81VzR3cW5ybVlvQnN5Q3Nud0dxSFk?oc=5"
-        }
-      ],
-      "auto_detected": true,
-      "rss_pub_date": "Mon, 19 Oct 2026 09:41:14 GMT",
-      "article_count": 1,
-      "priority": "C",
-      "priority_score": 0
-    },
-    {
       "id": "2026-10-20-auto-873c6b1d53",
       "published": "2026-10-20",
       "company": "不正アクセスに伴う情報漏えいの可能性について/志摩市ホームページ",
@@ -1842,28 +1651,6 @@
       ],
       "auto_detected": true,
       "rss_pub_date": "Mon, 19 Oct 2026 21:00:03 GMT",
-      "article_count": 1,
-      "priority": "C",
-      "priority_score": 1
-    },
-    {
-      "id": "2026-10-20-auto-c371b4ac7e",
-      "published": "2026-10-20",
-      "company": "7消防本部管内でも情報漏えいか アルカディア不正アクセス",
-      "service": "",
-      "affected_count": 0,
-      "status": "candidate",
-      "cause": "報道自動検知",
-      "summary": "7消防本部管内でも情報漏えいか アルカディア不正アクセス",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9uTmRrWGRWYjJ5Y19qeDF1WDhWN25qejY3d3BtWEl5ajVZZkdRNnpPYmxJYURnVXJNM2VhQ3FaZTI1Y1h4UFd5bUUwS1gxQzlYNE9SQzZxRERjYXh2TERENmVlS3Y?oc=5"
-        }
-      ],
-      "auto_detected": true,
-      "rss_pub_date": "Mon, 19 Oct 2026 12:03:41 GMT",
       "article_count": 1,
       "priority": "C",
       "priority_score": 1
@@ -2387,28 +2174,6 @@
       "priority_score": 3
     },
     {
-      "id": "2026-10-20-auto-0aac2a647b",
-      "published": "2026-10-20",
-      "company": "福岡県警の警察官と職員1万1000人",
-      "service": "",
-      "affected_count": 11000,
-      "status": "candidate",
-      "cause": "報道自動検知",
-      "summary": "福岡県警の警察官と職員1万1000人の個人情報流出か【アルカディア不正アクセス問題】(RKB毎日放送)",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "RKB毎日放送",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE81dGpSbHJJeTBsejRfQ1F0b2tBTEJSVXRWRWZrUFlmSVBjTDhzT1hOSG42NjYyRkVUYUoxcTNpQ0VwWXhMQ2MxcHc4Z2lrMDRSNEZoQU00RmJyQQ?oc=5"
-        }
-      ],
-      "auto_detected": true,
-      "rss_pub_date": "Tue, 20 Oct 2026 03:06:00 GMT",
-      "article_count": 3,
-      "priority": "A",
-      "priority_score": 8
-    },
-    {
       "id": "2026-10-20-auto-05e498f368",
       "published": "2026-10-20",
       "company": "県立7校で138人分",
@@ -2627,28 +2392,6 @@
       "article_count": 1,
       "priority": "C",
       "priority_score": 1
-    },
-    {
-      "id": "2026-10-20-auto-fbf4cd3ba5",
-      "published": "2026-10-20",
-      "company": "栃木県警の警察官・職員約3,900人分",
-      "service": "",
-      "affected_count": 3900,
-      "status": "candidate",
-      "cause": "報道自動検知",
-      "summary": "栃木県警の警察官・職員約3,900人分の個人情報に漏えいの可能性-アルカディアへの不正アクセスによるサイバー攻撃で",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMHN6Z1dFdlNBdnJIcUg0YXE2WGxFVnlkWHBXS1Z2WGprRWh0MklRd291S0VCeXFyeHhJQ0F4OEhkcTRiWXJ5bXVqNWxvYkVmRmlSQ3o1MkctWEk2cENsR1RlQ3lTNzFTdkpQUjJWcmNwcHg5SnQxWEhNaFRFQl9lOVV5MHZRNEVuMTJURDM2MlhmbDY1ZlFRWVc1eGxHOWlXU1pYY0JrODN1dw?oc=5"
-        }
-      ],
-      "auto_detected": true,
-      "rss_pub_date": "Tue, 20 Oct 2026 01:56:16 GMT",
-      "article_count": 1,
-      "priority": "C",
-      "priority_score": 3
     },
     {
       "id": "2026-10-20-auto-9ad459b1c8",
@@ -3011,28 +2754,6 @@
       "priority_score": 5
     },
     {
-      "id": "2026-10-20-auto-0cb060d26d",
-      "published": "2026-10-20",
-      "company": "神奈川、埼玉、群馬の各県警で警察官など",
-      "service": "",
-      "affected_count": 0,
-      "status": "candidate",
-      "cause": "報道自動検知",
-      "summary": "神奈川、埼玉、群馬の各県警で警察官などの個人情報流出か 不正アクセス受けた「アルカディア」のシステム利用",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1KcGdZN3ZsVDJ6N3lKa2NyaW1tNU1TalU4Um1OZkNiYy10RHlFQkNWNWhRRDluTUQ1d1VyRnBDWXRrbGRBNFUxenk3TURFZjY3LUFMbEpXSy1xYVJXWTVseGEzWVVGTUZqSGdmdXk3eXEwTy05dERXdHkyMlZkWWM?oc=5"
-        }
-      ],
-      "auto_detected": true,
-      "rss_pub_date": "Tue, 20 Oct 2026 06:07:20 GMT",
-      "article_count": 2,
-      "priority": "C",
-      "priority_score": 3
-    },
-    {
       "id": "2026-10-20-auto-85da6c570f",
       "published": "2026-10-20",
       "company": "LIXILのリフォーム事業者向けアプリ「L-ポケット",
@@ -3094,28 +2815,6 @@
       ],
       "auto_detected": true,
       "rss_pub_date": "Tue, 20 Oct 2026 05:39:00 GMT",
-      "article_count": 1,
-      "priority": "C",
-      "priority_score": 1
-    },
-    {
-      "id": "2026-10-20-auto-bbd73085b0",
-      "published": "2026-10-20",
-      "company": "侵入経路塞いだが",
-      "service": "",
-      "affected_count": 0,
-      "status": "candidate",
-      "cause": "報道自動検知",
-      "summary": "「侵入経路塞いだが、バックドアから......」不正アクセス105時間の攻防、分単位で報告 防災メールのアルカディア",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9PNzdqeHhmZ3hSMmo2djNla1pNbDFkNFlfX2ZLbjlEUmNzNmlITmpuVWJPX215S19UTFd6bklUR0h0RERpQVJNdDJaUnhreFlWOFRwb05GaFBoX1lGTEg4R0k4MTZuNkdEQzJPM1hWVTlRb3NueXN2UV9CUUJSdFE?oc=5"
-        }
-      ],
-      "auto_detected": true,
-      "rss_pub_date": "Tue, 20 Oct 2026 06:14:38 GMT",
       "article_count": 1,
       "priority": "C",
       "priority_score": 1
@@ -3275,50 +2974,6 @@
       "priority_score": 1
     },
     {
-      "id": "2026-10-20-auto-02be3faa42",
-      "published": "2026-10-20",
-      "company": "神奈川・埼玉・栃木・群馬の各県警で警察官など",
-      "service": "",
-      "affected_count": 0,
-      "status": "candidate",
-      "cause": "報道自動検知",
-      "summary": "神奈川・埼玉・栃木・群馬の各県警で警察官などの個人情報大量に漏えいか 不正アクセスされた「アルカディア」の安否確認メール使用で 全職員分の情報流出の県警も",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "日テレNEWS NNN",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9fdmJoNEtYTV9fdEdaSXdIQUFVckl1dGxpQWNXRk5OS2dnVG9ZUzhxbEk2b0lJa1NNT1lObnprZy00M0Q5YXFTc2VnWUdINjhZNUdORU9kSmVRS0hwODAtV3hTd0ktLVZmWTNzVXFaNVFyYkE3d1NKZmVmcFA?oc=5"
-        }
-      ],
-      "auto_detected": true,
-      "rss_pub_date": "Tue, 20 Oct 2026 08:22:00 GMT",
-      "article_count": 1,
-      "priority": "C",
-      "priority_score": 1
-    },
-    {
-      "id": "2026-10-20-auto-2a9e46caed",
-      "published": "2026-10-20",
-      "company": "福岡県警1.1万人",
-      "service": "",
-      "affected_count": 11000,
-      "status": "candidate",
-      "cause": "報道自動検知",
-      "summary": "福岡県警1.1万人の情報流出か アルカディア不正アクセスで",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0tZ1NQT1JPQWNEN1lndlJEUDRoaGFPY3FhX19pclZ0QUVyODNpM1JDOW5nODJ4UkI3MmJQY2MyaTBsVl84VFpXOEpRakxKNHQ5ZjM5bjFtM3AyT3gtNXJTSEp0M2gzR1Z4?oc=5"
-        }
-      ],
-      "auto_detected": true,
-      "rss_pub_date": "Tue, 20 Oct 2026 07:44:15 GMT",
-      "article_count": 1,
-      "priority": "B",
-      "priority_score": 4
-    },
-    {
       "id": "2026-10-20-auto-3273918644",
       "published": "2026-10-20",
       "company": "IPA",
@@ -3441,50 +3096,6 @@
       "priority_score": 4
     },
     {
-      "id": "2026-10-20-auto-8279677ecc",
-      "published": "2026-10-20",
-      "company": "警察官や職員約1万1000人",
-      "service": "",
-      "affected_count": 11000,
-      "status": "candidate",
-      "cause": "報道自動検知",
-      "summary": "警察官や職員約1万1000人の個人情報流出のおそれ 災害時の非常招集などのシステム アルカディアへの不正アクセスで 福岡県警(TNCテレビ西日本)",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "TNCテレビ西日本",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9URkJLekZVVHFXbFJmU21TYVQtMVBEV1h4V0dCY09RQ2twVEZvQ0FWQl9IYjlQeHRGNjh0NFpxWUdtVjZUZ2lueWs0bW1zcFQ0a3ZKZ2lsNEZmUTlMSjVKWjZ6TXl0YThubFlhT3hYeVJwcVFmcEhuMVpXUjhJQWM?oc=5"
-        }
-      ],
-      "auto_detected": true,
-      "rss_pub_date": "Tue, 20 Oct 2026 07:43:02 GMT",
-      "article_count": 2,
-      "priority": "A",
-      "priority_score": 7
-    },
-    {
-      "id": "2026-10-20-auto-0b41a87e3c",
-      "published": "2026-10-20",
-      "company": "神奈川県警でも1.6万人",
-      "service": "",
-      "affected_count": 16000,
-      "status": "candidate",
-      "cause": "報道自動検知",
-      "summary": "神奈川県警でも1.6万人の情報流出か アルカディア不正アクセス(毎日新聞)",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "毎日新聞",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9DbWhNbHF4TVNQSEppVy1yNnp1NWxFMVRZOEE1aFFXMFJuYnBmbllxVW9jc090QjhPUFJmZFc2ckV4R25iODdPd1N1OXV0UFBpdndLdVdGMm1nOEwtc3gyYmFrRUhwNGNmSVdJdmJ1UjhKZDdEd0t6Rm4ycEtadlE?oc=5"
-        }
-      ],
-      "auto_detected": true,
-      "rss_pub_date": "Tue, 20 Oct 2026 08:31:24 GMT",
-      "article_count": 2,
-      "priority": "A",
-      "priority_score": 7
-    },
-    {
       "id": "2026-10-20-auto-4862a0ef1c",
       "published": "2026-10-20",
       "company": "ネオキャリア、転職サービス「X-Tech Agent」と求人データベース「Bee",
@@ -3527,32 +3138,6 @@
       "article_count": 1,
       "priority": "C",
       "priority_score": 1
-    },
-    {
-      "id": "2026-10-20-auto-4c44ec3b06",
-      "published": "2026-10-20",
-      "company": "関東4県の警察職員3万6600人分",
-      "service": "",
-      "affected_count": 36600,
-      "status": "candidate",
-      "cause": "報道自動検知",
-      "summary": "関東4県の警察職員3万6600人分の個人情報流出か アルカディア社に不正アクセスで(テレビ朝日系(ANN))",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE10WW5mQ3lOZW5icWsxbFBSMmNWN09qVE9lMjhJYU9Xa0NDaDJOSmVlRzc3ZXQ4RDZLWWZsX19xMkpOYmxmYzVzcm9iZmFpejZORERIVlRkWU03dUlYMks4eUZvYnBqT1c5Q1Jpb2xLdnlhMEZ6N0g4SlpSaUxPakk?oc=5"
-        },
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5VNUhWa0lHV3hFczVxVHJEQTR1OEMwNDE1azd1SHRyeFlWQlREU0lEeFhKVGNKNkN0Y3J3NmxzT3JWZjlHZjY2aDZWeGE3OTA4MUVvczV2Sm9wXzIzc3Zka0NLVVN5eklrR3NLOFRpWEZ2QQ?oc=5"
-        }
-      ],
-      "auto_detected": true,
-      "rss_pub_date": "Tue, 20 Oct 2026 07:51:55 GMT",
-      "article_count": 4,
-      "priority": "A",
-      "priority_score": 8
     },
     {
       "id": "2026-10-20-auto-3bef71d7b6",
@@ -3685,28 +3270,6 @@
       "article_count": 1,
       "priority": "C",
       "priority_score": 0
-    },
-    {
-      "id": "2026-10-20-auto-8c9c7cd579",
-      "published": "2026-10-20",
-      "company": "警察官と職員の1万人超",
-      "service": "",
-      "affected_count": 10000,
-      "status": "candidate",
-      "cause": "報道自動検知",
-      "summary": "警察官と職員の1万人超の個人情報流出か...アルカディア不正アクセス問題で 福岡県警(KBC九州朝日放送)",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "KBC九州朝日放送",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GcU9wVk9tMTRpZlVtWDJYelhQWGx0S3VIbjJvTXo0dTFvV0VNT1VxMHdjbTVNSHhfWE9FSkhMNXRNVHViVXJHY2c3aFhGa0VPTEFVWWQ2SnZlZXk5ek5BUWU1MlZOS0tFZkpsRVh1dEV2RnFCbVR4cENORS1la0E?oc=5"
-        }
-      ],
-      "auto_detected": true,
-      "rss_pub_date": "Tue, 20 Oct 2026 07:15:03 GMT",
-      "article_count": 1,
-      "priority": "B",
-      "priority_score": 4
     },
     {
       "id": "2026-10-20-auto-a73954cd09",
@@ -3872,7 +3435,7 @@
         "page_hashes": {
           "https://studio.design/ja/whats-new/unauthorized-access-2026-10": "aa1e990bcce58265a1a5fa4ca72b134358dbd120db81f87e534d5dd700425b3e"
         },
-        "last_checked": "2026-10-21 11:50 JST",
+        "last_checked": "2026-10-21 14:51 JST",
         "status": "ok"
       },
       "official_updates": [
@@ -3925,11 +3488,22 @@
       ],
       "official_watch": {
         "page_hashes": {
-          "https://www.jfa.jp/news/00036934": "aa957a26cae4b62b332190b78727766537377c74261d5c3a49fecd615914137b"
+          "https://www.jfa.jp/news/00036934": "55e61fd6aeb7f3ae766d69b6165732f9c7a3cdcd16d5f1a65380a54484440733"
         },
-        "last_checked": "2026-10-21 11:50 JST",
+        "last_checked": "2026-10-21 14:51 JST",
         "status": "ok"
-      }
+      },
+      "official_updates": [
+        {
+          "detected_at": "2026-10-21 14:51 JST",
+          "title": "70万人登録の日本サッカー協会公式アプリ 公式ページ内容更新を検知",
+          "url": "https://www.jfa.jp/news/00036934",
+          "kind": "page_changed",
+          "reviewed": false,
+          "official": true
+        }
+      ],
+      "official_update_pending": true
     },
     {
       "id": "2026-10-19-auto-11a50e8138",
@@ -3963,7 +3537,7 @@
         "page_hashes": {
           "https://gmo-research.ai/pressroom/notice/notice-20261005": "d745594192321178f33b231a4ed60f8f3d9024fae67902a171d12c56e8d5e5ad"
         },
-        "last_checked": "2026-10-21 11:50 JST",
+        "last_checked": "2026-10-21 14:51 JST",
         "status": "ok"
       }
     },
@@ -4001,7 +3575,7 @@
       ],
       "official_watch": {
         "page_hashes": {},
-        "last_checked": "2026-10-21 11:50 JST",
+        "last_checked": "2026-10-21 14:51 JST",
         "status": "ok"
       }
     },
@@ -4035,7 +3609,7 @@
       ],
       "official_watch": {
         "page_hashes": {},
-        "last_checked": "2026-10-21 11:50 JST",
+        "last_checked": "2026-10-21 14:51 JST",
         "status": "ok"
       }
     },
@@ -4071,8 +3645,9 @@
         "page_hashes": {
           "https://www.nifty.co.jp/newsrelease/nifty202610195434.htm": "abc779205a823250475713e543bc4fb1bbd2eda142f7547a9b63635620cfac96"
         },
-        "last_checked": "2026-10-21 11:50 JST",
-        "status": "ok"
+        "last_checked": "2026-10-21 14:51 JST",
+        "status": "ok",
+        "last_error": "HTTPError: https://www.nifty.co.jp/newsrelease/nifty202610195434.htm"
       }
     },
     {
@@ -4107,7 +3682,7 @@
         "page_hashes": {
           "https://www.nttsolmare.com/press/2026/1016-1.html": "01cbfece6f2b630c496c8b6dc3fd95f4e0df3fd79984d4ff94918fe58da66c6f"
         },
-        "last_checked": "2026-10-21 11:50 JST",
+        "last_checked": "2026-10-21 14:51 JST",
         "status": "ok"
       }
     },
@@ -4145,7 +3720,7 @@
       ],
       "official_watch": {
         "page_hashes": {},
-        "last_checked": "2026-10-21 11:50 JST",
+        "last_checked": "2026-10-21 14:51 JST",
         "status": "no_verified_official_source"
       }
     },
@@ -4196,7 +3771,7 @@
           "https://www.busitec.co.jp/news/info": "a6d4eecfe53d3a4f69308c0c2ce53bec337a33bb6a843217f5305bcc6b66f01e",
           "https://www.iwaicosmo.co.jp/news/2026/10161410.html": "68ed9895e1cd360f343c406da4412916047e86105d5fae0d7b1a55759d3ae4f5"
         },
-        "last_checked": "2026-10-21 11:50 JST",
+        "last_checked": "2026-10-21 14:51 JST",
         "status": "ok"
       }
     },
@@ -4226,7 +3801,7 @@
       ],
       "official_watch": {
         "page_hashes": {},
-        "last_checked": "2026-10-21 11:50 JST",
+        "last_checked": "2026-10-21 14:51 JST",
         "status": "no_verified_official_source"
       }
     },
@@ -4277,28 +3852,6 @@
       "article_count": 1,
       "priority": "C",
       "priority_score": 1
-    },
-    {
-      "id": "2026-10-19-auto-6723aac647",
-      "published": "2026-10-19",
-      "company": "静岡市、アルカディアへ",
-      "service": "",
-      "affected_count": 43030,
-      "status": "candidate",
-      "cause": "報道自動検知",
-      "summary": "静岡市、アルカディアへの不正アクセスによるサイバー攻撃で4万3,030人分の個人情報漏洩",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOY0xHWlVoS2JHZnpISC1IXzV1QUcydnJjakFvWU94RU1mRGJYal9xc2xHUFZUNHRvdXhtWTc0aTVRckI1TjlKMXRlckcwSG02RmhhTnVKTWdvNGJ5dWRhZXdHaElpd2hrTG41QXE1TEJ0dlUwRlYtaldYVnBTUG15R1F4YmFvcTl0T3g1VnZyUWJlckRPRUlHZ3BiRW51T3RFNU43UWc3SEtDNVc2dVRr?oc=5"
-        }
-      ],
-      "auto_detected": true,
-      "rss_pub_date": "Sun, 18 Oct 2026 21:35:17 GMT",
-      "article_count": 1,
-      "priority": "B",
-      "priority_score": 4
     },
     {
       "id": "2026-10-19-auto-510eb1804a",
@@ -4409,32 +3962,6 @@
       "article_count": 1,
       "priority": "C",
       "priority_score": 2
-    },
-    {
-      "id": "2026-10-19-auto-5ba570328b",
-      "published": "2026-10-19",
-      "company": "埼玉県警も情報漏えいの可能性...警察官ら職員1万3千人",
-      "service": "",
-      "affected_count": 10003,
-      "status": "candidate",
-      "cause": "報道自動検知",
-      "summary": "埼玉県警も情報漏えいの可能性...警察官ら職員1万3千人の個人情報 不正アクセスを受けた「アルカディア」から連絡 警察職員以外の情報は登録されておらず (埼玉新聞)",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5fbmw4ZTdYdFpsOWpxS0EtZ0ZGRExVZzQxb1Q1VVR6Vmh0am9mNzhHdFpHMHl5SVFFSUpoZXRmNzBHZHZncHRJd3dxWE5qajVVbGROUkpGOTNiRktDZ1JPM1JNVTN1bGlXX1FaT0tnVnlwdmxOLVBnc1dDdTdrV00?oc=5"
-        },
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNV2tVX2poSEg5MmRBZFFlMHBzT2hJcy13b1JvUGdSNE02Y2hDNkZweHdsQkhsWHJHWm1SYUwtQW5rSGRIaVpWeldqOFBabDBjVzMwZV9iWnZVV3NQVzluSzNmckU4NHlmdF9oNlVDNktyTEpyOXlZR2xrMGR4ZG5IVG9VVTV2WXdiNk80N2Rn?oc=5"
-        }
-      ],
-      "auto_detected": true,
-      "rss_pub_date": "Sun, 18 Oct 2026 02:19:54 GMT",
-      "article_count": 3,
-      "priority": "A",
-      "priority_score": 8
     },
     {
       "id": "2026-10-19-auto-928a934381",
@@ -4765,28 +4292,6 @@
       "article_count": 2,
       "priority": "B",
       "priority_score": 4
-    },
-    {
-      "id": "2026-10-19-auto-cfdcdb1710",
-      "published": "2026-10-19",
-      "company": "徳島県警、警察官・職員約1,900人",
-      "service": "",
-      "affected_count": 1900,
-      "status": "candidate",
-      "cause": "報道自動検知",
-      "summary": "徳島県警、警察官・職員約1,900人の情報漏えいのおそれ―アルカディアへの不正アクセス、なりすまし・標的型攻撃に警戒",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZXRweGhkdGQ3aU9qQTRBYmJodTFXVHU0UWhzb1pIOWNBVXFoYXFlYzF1UnQzZnZZRjR0U3FOZkFyYnYtaHVnZFlKaWc3bXBnMWNIWTRoZGthQ242VklvUDVsTGhiR3V5X1B6Um9PUFlkczNIUVkxZElSLUFCUUMxYUNUZFl1cTBwbWRDQnJwMWlmYjd2cHlOZTJaZk5uVk0?oc=5"
-        }
-      ],
-      "auto_detected": true,
-      "rss_pub_date": "Sun, 18 Oct 2026 02:00:51 GMT",
-      "article_count": 1,
-      "priority": "C",
-      "priority_score": 3
     },
     {
       "id": "2026-10-19-auto-e9cffdcdc9",
@@ -5205,28 +4710,6 @@
       "article_count": 2,
       "priority": "C",
       "priority_score": 3
-    },
-    {
-      "id": "2026-10-19-auto-7ae28261e3",
-      "published": "2026-10-19",
-      "company": "唐津市情報メール配信サービスを業務委託しているアルカディア",
-      "service": "",
-      "affected_count": 0,
-      "status": "candidate",
-      "cause": "報道自動検知",
-      "summary": "唐津市情報メール配信サービスを業務委託しているアルカディアに不正アクセス",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8tT1ZIWWZYRzFTZ3FZNTlnUDBzVXJKNENxdkZMa0NtWDJWdzA3Wk5qdnFLWUxSX3VNa04yX083STFPMVRkaXdTY1pqdkY4M2lGZ3RWbXlsbE5jcU9nQVhCaTVNZVoxdHV5WllYZA?oc=5"
-        }
-      ],
-      "auto_detected": true,
-      "rss_pub_date": "Sun, 18 Oct 2026 23:05:05 GMT",
-      "article_count": 1,
-      "priority": "C",
-      "priority_score": 1
     },
     {
       "id": "2026-10-19-auto-1bc982e5ac",
@@ -5945,28 +5428,6 @@
       "priority_score": 2
     },
     {
-      "id": "2026-10-19-auto-ceec2607ee",
-      "published": "2026-10-19",
-      "company": "埼玉県警、職員約1万3千人",
-      "service": "",
-      "affected_count": 10003,
-      "status": "candidate",
-      "cause": "報道自動検知",
-      "summary": "埼玉県警、職員約1万3千人の情報漏えいか 安否確認システムのアルカディアが不正アクセス",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB5Yno4YlBab09rRHptUVdxdU5ieWRXeUNiSUl1UUtNQWx3WEFDeXNvVklHdW1VT3lTUGc0ZUUxQ0FPaG1PLThTU0JpdzYwdkg4eHBYaF8wdmVidW1xRDdlZUpGQQ?oc=5"
-        }
-      ],
-      "auto_detected": true,
-      "rss_pub_date": "Mon, 19 Oct 2026 02:26:04 GMT",
-      "article_count": 1,
-      "priority": "B",
-      "priority_score": 4
-    },
-    {
       "id": "2026-10-19-auto-899bfa0790",
       "published": "2026-10-19",
       "company": "パピレス",
@@ -6169,28 +5630,6 @@
       "priority_score": 7
     },
     {
-      "id": "2026-10-19-auto-0f33095782",
-      "published": "2026-10-19",
-      "company": "アルカディアのSpeeCAN RAIDEN へ",
-      "service": "",
-      "affected_count": 1423428,
-      "status": "candidate",
-      "cause": "報道自動検知",
-      "summary": "アルカディアのSpeeCAN RAIDEN への不正アクセスによるサイバー攻撃、不正メール 142万3,428件を送信",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQlhWWHlxUVBQQm1rRnFmLTh3MzU0TTNacEF5WFFkRlJBMHd0QWRkQ0d4VkdaalRwZnVEc1UwUXJXVEFoNGdHSU5SbmpDMlBDam1EUHNYWWI4bEY0SVg1ejdEaGN5cXVZMlVYV0ZzWmpKTmJYZm9PSGRpci14a0FSYnFJTVhJdEd0MXZDZmw4U1ZnVXdxVjFDVQ?oc=5"
-        }
-      ],
-      "auto_detected": true,
-      "rss_pub_date": "Mon, 19 Oct 2026 04:14:58 GMT",
-      "article_count": 1,
-      "priority": "B",
-      "priority_score": 6
-    },
-    {
       "id": "2026-10-19-auto-5ff271fb6e",
       "published": "2026-10-19",
       "company": "ConnectWiseへ",
@@ -6299,28 +5738,6 @@
       "article_count": 1,
       "priority": "C",
       "priority_score": 0
-    },
-    {
-      "id": "2026-10-19-auto-9290fbd82e",
-      "published": "2026-10-19",
-      "company": "埼玉県警で職員情報流出か アルカディア不正アクセス",
-      "service": "",
-      "affected_count": 0,
-      "status": "candidate",
-      "cause": "報道自動検知",
-      "summary": "埼玉県警で職員情報流出か アルカディア不正アクセス",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMk53NTk5Vnh2aHkzMWhQVkVHck5Wd053bzlCbWVMbEZodENkZzJGeG01ZWZQQms5MDk4N2NQb1ZnaE1PU2pWQ01RV1JJb18wVklvVmpVS3hfMVQ5SmZ5TmRvTzg0WW1qdXFxakExYlpyY3VJbHhmX3dXUjQyZ0NzeW1CQkRlSkkxb0I00gGQAUFVX3lxTE90SnRwX1dQSzZSUTc2elRFVTNRcGZlcm53eWNhR0R2OUFIc2lZcjBxTXZhcW9DSW5JaEl5NVV4YkdwMHJNUEVVekJTd2haN29EeDNQTnJfdWlsR0xZYXQ3LWhPcFhXcEIyZzhOaVlCanZEQi1tSnhwTWRobnBHenpYcHRWRHV6UmJyUUU4X0xWTg?oc=5"
-        }
-      ],
-      "auto_detected": true,
-      "rss_pub_date": "Mon, 19 Oct 2026 04:31:00 GMT",
-      "article_count": 1,
-      "priority": "C",
-      "priority_score": 1
     },
     {
       "id": "2026-10-19-auto-3e3bff19e9",
@@ -6494,28 +5911,6 @@
       ],
       "auto_detected": true,
       "rss_pub_date": "Mon, 19 Oct 2026 06:30:00 GMT",
-      "article_count": 1,
-      "priority": "C",
-      "priority_score": 1
-    },
-    {
-      "id": "2026-10-19-auto-9970016dd1",
-      "published": "2026-10-19",
-      "company": "アルカディア",
-      "service": "",
-      "affected_count": 0,
-      "status": "candidate",
-      "cause": "報道自動検知",
-      "summary": "アルカディア、不正アクセス受け対策強化 2段階認証や自動監視導入",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5wSjVsVXNvWXhYTXpYUEJvODY0U2owZllDZnB2TXN5T1FfUks2RU9RQ2F5UGZRUlVzYnhoNHpqSFc0VWt3VFZ5SlNDZkFPVWcwVjZ2eS1wTkppNmRVcm5IUlYxR2tKNEZDUERHcg?oc=5"
-        }
-      ],
-      "auto_detected": true,
-      "rss_pub_date": "Mon, 19 Oct 2026 06:36:04 GMT",
       "article_count": 1,
       "priority": "C",
       "priority_score": 1
@@ -6789,28 +6184,6 @@
       "priority_score": 0
     },
     {
-      "id": "2026-10-19-auto-77310d2abe",
-      "published": "2026-10-19",
-      "company": "埼玉県警で職員情報流出か アルカディア不正アクセス(共同通信)",
-      "service": "",
-      "affected_count": 0,
-      "status": "candidate",
-      "cause": "報道自動検知",
-      "summary": "埼玉県警で職員情報流出か アルカディア不正アクセス(共同通信)",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "共同通信",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1zZjdrQjF2NHp4R2p5aXVwaWxWYmJ6TG1Vck9iSjBsZk40Mk14MWY4UUlVQ0lHVXlFLW9zRG1sMXpxTHFVaFp5VTZ0eGd1OGxzU2U2dTUtc3NoSndQZXlSb0xnUEdwMVNRbk45VjhMc2pKNHpoM2p6WG1OdlV4Q0U?oc=5"
-        }
-      ],
-      "auto_detected": true,
-      "rss_pub_date": "Mon, 19 Oct 2026 04:31:04 GMT",
-      "article_count": 1,
-      "priority": "C",
-      "priority_score": 0
-    },
-    {
       "id": "2026-10-19-auto-220a86aa57",
       "published": "2026-10-19",
       "company": "眼科医療機器メーカー・ニデック",
@@ -7004,28 +6377,6 @@
       ],
       "auto_detected": true,
       "rss_pub_date": "Mon, 19 Oct 2026 08:13:00 GMT",
-      "article_count": 1,
-      "priority": "C",
-      "priority_score": 0
-    },
-    {
-      "id": "2026-10-19-auto-3dc753145f",
-      "published": "2026-10-19",
-      "company": "宮城・登米市でも個人情報漏えい 緊急通報システムに登録の市民15人分",
-      "service": "",
-      "affected_count": 0,
-      "status": "candidate",
-      "cause": "報道自動検知",
-      "summary": "宮城・登米市でも個人情報漏えい 緊急通報システムに登録の市民15人分 アルカディア不正アクセス問題",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBhVy1mSXJrVTB6Y2stRFJzVThkNFh4NWNWSTNNelU3TzM5dE84b3lxVXJVZzh0MDRvblhVZjZJWGlkQ2oxVU5SVDBoMHl2aDFFYW5ha1ZSZXlNUWc?oc=5"
-        }
-      ],
-      "auto_detected": true,
-      "rss_pub_date": "Mon, 19 Oct 2026 07:20:00 GMT",
       "article_count": 1,
       "priority": "C",
       "priority_score": 0
@@ -7275,28 +6626,6 @@
       "article_count": 1,
       "priority": "C",
       "priority_score": 1
-    },
-    {
-      "id": "2026-10-19-auto-01912adeea",
-      "published": "2026-10-19",
-      "company": "埼玉県警、警察官・職員約1万3,000人",
-      "service": "",
-      "affected_count": 13000,
-      "status": "candidate",
-      "cause": "報道自動検知",
-      "summary": "埼玉県警、警察官・職員約1万3,000人の個人情報漏えいの可能性―委託先アルカディアへのサイバー攻撃で",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "合同会社ロケットボーイズ",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUFZlOXRGcjg5empSOW1mcGIwb2dmOGpWRVVhVnQ0MEJpTnNkRFJJMy1hZXo3SE1SOHAwQUVuQTI5NnNvNzdaZjJ6WnE2Uk1oNWhHTlQ2T29OOS00UmZpNzJGYVNvd0sydzZ6XzU2ZXhURTNWYUxlWHpUc3poNlpuS2lCbTFCSV8wSUN2eUtkcGh1QWVhcEZzTG5IaGtvZw?oc=5"
-        }
-      ],
-      "auto_detected": true,
-      "rss_pub_date": "Mon, 19 Oct 2026 09:14:50 GMT",
-      "article_count": 1,
-      "priority": "B",
-      "priority_score": 4
     },
     {
       "id": "2026-10-19-auto-164e53530f",
@@ -7915,28 +7244,6 @@
       "priority_score": 4
     },
     {
-      "id": "2026-10-18-auto-20ae810e34",
-      "published": "2026-10-18",
-      "company": "福島・北塩原3校も情報漏えいか アルカディア不正アクセス(福島民友新聞)",
-      "service": "",
-      "affected_count": 0,
-      "status": "candidate",
-      "cause": "報道自動検知",
-      "summary": "福島・北塩原3校も情報漏えいか アルカディア不正アクセス(福島民友新聞)",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "福島民友新聞",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1LRGFsT3RkWUZQU01rb3R0RjNyN2Q1RVNCZDVwbmlOT0o2QkpwX290UEJFc1VyQ1FQUEVwdVlaX2ZxbG42TUNfLVh0WHU0RDJlUEtCLVJDdk40a19MRkN4R3JMLVJueEpvYlhUeWdoX3k0TnZzM0xOZ3J4UXRodWc?oc=5"
-        }
-      ],
-      "auto_detected": true,
-      "rss_pub_date": "Fri, 16 Oct 2026 23:56:07 GMT",
-      "article_count": 1,
-      "priority": "C",
-      "priority_score": 0
-    },
-    {
       "id": "2026-10-18-auto-3dc53894e8",
       "published": "2026-10-18",
       "company": "相次ぐ不正アクセスによる個人情報",
@@ -8009,7 +7316,7 @@
         "page_hashes": {
           "https://estore.jp/press/20261016": "be4c429dfc263b93e45f8b2193434fb563436c5533772a39363f4ed1efe3918b"
         },
-        "last_checked": "2026-10-21 11:50 JST",
+        "last_checked": "2026-10-21 14:52 JST",
         "status": "ok"
       },
       "official_urls": [
@@ -8050,7 +7357,7 @@
         "page_hashes": {
           "https://www.yamato-hd.co.jp/important/info_260929_1.html": "86f2493737c8c5fdabb53d80356b8c11e15ea7b697846ba21b13bccc86923b81"
         },
-        "last_checked": "2026-10-21 11:50 JST",
+        "last_checked": "2026-10-21 14:52 JST",
         "status": "ok"
       },
       "official_updates": [
@@ -8102,7 +7409,7 @@
         "page_hashes": {
           "https://www.nikkei.co.jp/nikkeiinfo/news/information/1561.html": "b61366ca8e2564a22cc26f2d660aa9e560bd3c9cf9322c4066b2c9ada1f5dad4"
         },
-        "last_checked": "2026-10-21 11:50 JST",
+        "last_checked": "2026-10-21 14:52 JST",
         "status": "ok"
       }
     },
@@ -8136,7 +7443,7 @@
       "reviewed_at": "2026-10-19 15:01 JST",
       "official_watch": {
         "page_hashes": {},
-        "last_checked": "2026-10-21 11:50 JST",
+        "last_checked": "2026-10-21 14:52 JST",
         "status": "ok"
       }
     },
@@ -8166,7 +7473,7 @@
       "reviewed_at": "2026-10-19 15:03 JST",
       "official_watch": {
         "page_hashes": {},
-        "last_checked": "2026-10-21 11:50 JST",
+        "last_checked": "2026-10-21 14:52 JST",
         "status": "ok"
       }
     },
@@ -8198,7 +7505,7 @@
         "page_hashes": {
           "https://skyticket.jp/news/maintenance/67603": "60f1c93eb8c544b271fb90da041c58cce408b214a9d89d043d3307e951bca587"
         },
-        "last_checked": "2026-10-21 11:50 JST",
+        "last_checked": "2026-10-21 14:52 JST",
         "status": "ok"
       }
     },
@@ -8229,20 +7536,20 @@
       "official_watch": {
         "page_hashes": {},
         "last_error": "HTTPError: https://www.burgerking.co.jp/images/notice/2026/10/15/d4d114ca-ebd7-4f3d-94ef-c4ea7a84a139.pdf",
-        "last_checked": "2026-10-21 11:50 JST",
+        "last_checked": "2026-10-21 14:52 JST",
         "status": "ok"
       }
     },
     {
       "id": "2026-10-17-auto-b8a44fe43d",
-      "published": "2026-10-17",
-      "company": "警察官・職員2000人の個人情報",
-      "service": "",
-      "affected_count": 2000,
+      "published": "2026-10-13",
+      "company": "株式会社アルカディア",
+      "service": "SpeeCAN RAIDEN（raiden3.ktaiwork.jpのお客様が対象）ライデン・スクール（s2.ktaiwork.jpのお客様が対象）",
+      "affected_count": 13000,
       "status": "confirmed",
       "cause": "報道自動検知",
-      "summary": "【画像】警察官・職員2000人の個人情報が流出した可能性...「アルカディア」不正アクセス、現時点で業務への影響なし",
-      "exposed_data": "要確認",
+      "summary": "全国警察官・職員の個人情報が流出",
+      "exposed_data": "対象サービス\t\nraiden.ktaiwork.jp\nraiden2.ktaiwork.jp\nraiden3.ktaiwork.jp\nraiden2.speecan.jp\ns.ktaiwork.jp\ns2.ktaiwork.jp\n\n対象項目\t\n連絡先の名前、メールアドレス、電話・FAX番号\n担当者、契約情報\n履歴として保存されている本文に記載されている内容\n\n対象サービス\tNET119　（映像通報は現時点で漏洩の可能性はございません）\t119RAIDEN\n対象URL\tnet119.speecan.jp　net119fd.speecan.jp\tfs119.ktaiwork.jp\n漏洩の可能性がある個人情報の項目\t\n利用者の名前、生年月日、性別、住所、電話番号、メールアドレス、FAX番号、他サービス登録時に入力した情報\t連絡先の名前、メールアドレス、電話・FAX番号\n担当者、契約情報\n履歴として保存されている本文に記載されている内容\n\n漏洩の可能性がある個人情報の最大件数\t約13000件\t\nメールアドレス：約97000件\n電話番号：約17000件\nFAX 番号：約400件",
       "sources": [
         {
           "name": "公式発表",
@@ -8251,23 +7558,42 @@
         },
         {
           "name": "読売新聞",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5CRlRrUkQyNjZJSmhtdWs2RmtoQnlnVF9ERmdxc0JPVTJHR1FhbXZBTjlDVFFfZkJYdFZVdEQ2NmhfaTZFcGdEalBLeFdlTWtjSDVId3RjNFcxY3ZHeHBwUkM4VGZYQQ?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5CRlRrUkQyNjZJSmhtdWs2RmtoQnlnVF9ERmdxc0JPVTJHR1FhbXZBTjlDVFFfZkJYdFZVdEQ2NmhfaTZFcGdEalBLeFdlTWtjSDVId3RjNFcxY3ZHeHBwUkM4VGZYQQ?oc=5",
+          "official": false
+        },
+        {
+          "name": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1jeXZXVTlMYmhnem9PTXl3SlJZRzByVzFDcFBQZ05STTdqUkd6bGVqU28yc05XanQ4U0xlNDR3alZTakFRalh2YXo0MTM0eDRB?oc=5",
+          "official": false
+        },
+        {
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbk43VUlLeGpaak5OODZ2T3dRT2txdWM5dURXQndrbnZhS1JYMlhEeXk1ME1BT0ZuZWZoWEJ3T3RiVHQwOXBiXzI3TlFfYzhodklXWWNYZFBLaXE4eFlfRUo1ak5zaWpEWUN4SjB4TndkMWo1dHF3ek81S1dYN0RTTHdvY05wNkRfQ280eExPaEwxSzk2cWJ3cFJ3TU1mRjYza3hFMjg2QjBRaGZMQ3MtOXJuTGtCQQ?oc=5",
+          "official": false
+        },
+        {
+          "name": "ITmedia",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1IQ19rc2xzQmpxakRrQ2JnVUFLa2ZDQ2NvSUhPWWNmYUNDb2tScHFOVXJVRlUwOHdOcXV4ZmdpdEE0THFMMDBkUnkxeXVfaXNjejVESHAwaGFuMk5nNnQ3ck8xZnd3OENHVkE?oc=5",
+          "official": false
+        },
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMEJjaGlwWkRVdlRtZXdUTkdoX19zUElLZHcyQUphY3cwb2wwaGx3U0U4WWcwNVBkTkRuTEtZc0RYUGFJVmdvOUJ5aGpybWdJcVd2ZFZHRWtTQ0QyQmdrMGg5Wkc2cmE1RlNaLWw1aUJBcjRrQXpvMlU1ZGxQbnpSLVhoZnk5VjQ?oc=5",
+          "official": false
+        },
+        {
+          "name": "日テレNEWS NNN",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9fdmJoNEtYTV9fdEdaSXdIQUFVckl1dGxpQWNXRk5OS2dnVG9ZUzhxbEk2b0lJa1NNT1lObnprZy00M0Q5YXFTc2VnWUdINjhZNUdORU9kSmVRS0hwODAtV3hTd0ktLVZmWTNzVXFaNVFyYkE3d1NKZmVmcFA?oc=5",
+          "official": false
         }
       ],
       "auto_detected": true,
       "rss_pub_date": "Sat, 17 Oct 2026 00:51:00 GMT",
       "article_count": 5,
-      "reviewed_at": "2026-10-20 00:48 JST",
+      "reviewed_at": "2026-10-21 14:51 JST",
       "official_urls": [
         "https://raiden.site.ktaiwork.jp/archives/4597"
       ],
-      "official_watch": {
-        "page_hashes": {
-          "https://raiden.site.ktaiwork.jp/archives/4597": "54aaccb5a53552a7078835b8978c7b6c5055486fd5e5241176ff6c82e21cfbde"
-        },
-        "last_checked": "2026-10-21 11:50 JST",
-        "status": "ok"
-      },
       "official_updates": [
         {
           "detected_at": "2026-10-20 15:25 JST",
@@ -8286,7 +7612,944 @@
           "official": true
         }
       ],
-      "official_update_pending": true
+      "official_update_pending": true,
+      "merged_candidates": [
+        {
+          "id": "2026-10-21-auto-43fe4ce1ad",
+          "status": "candidate",
+          "published": "2026-10-21",
+          "company": "22府県の警察",
+          "service": "",
+          "affected_count": 0,
+          "cause": "報道自動検知",
+          "summary": "22府県の警察 個人情報流出の恐れ",
+          "exposed_data": "要確認",
+          "sources": [
+            {
+              "name": "Yahoo!ニュース",
+              "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1jeXZXVTlMYmhnem9PTXl3SlJZRzByVzFDcFBQZ05STTdqUkd6bGVqU28yc05XanQ4U0xlNDR3alZTakFRalh2YXo0MTM0eDRB?oc=5"
+            }
+          ],
+          "auto_detected": true,
+          "rss_pub_date": "Tue, 20 Oct 2026 21:54:50 GMT",
+          "article_count": 1
+        },
+        {
+          "id": "2026-10-21-auto-03f6a8e8aa",
+          "status": "candidate",
+          "published": "2026-10-21",
+          "company": "アルカディア 防災情報配信サービスへ",
+          "service": "",
+          "affected_count": 125000,
+          "cause": "報道自動検知",
+          "summary": "アルカディア 防災情報配信サービスへの不正アクセス、1アルカディア不正アクセス、20府県警の警察職員約12万5,000件に情報漏えいのおそれ 兵庫・岡山・福井など13県警の内訳を確認|セキュリティニュースのセキュリティ対策Lab",
+          "exposed_data": "要確認",
+          "sources": [
+            {
+              "name": "合同会社ロケットボーイズ",
+              "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbk43VUlLeGpaak5OODZ2T3dRT2txdWM5dURXQndrbnZhS1JYMlhEeXk1ME1BT0ZuZWZoWEJ3T3RiVHQwOXBiXzI3TlFfYzhodklXWWNYZFBLaXE4eFlfRUo1ak5zaWpEWUN4SjB4TndkMWo1dHF3ek81S1dYN0RTTHdvY05wNkRfQ280eExPaEwxSzk2cWJ3cFJ3TU1mRjYza3hFMjg2QjBRaGZMQ3MtOXJuTGtCQQ?oc=5"
+            }
+          ],
+          "auto_detected": true,
+          "rss_pub_date": "Tue, 20 Oct 2026 22:20:47 GMT",
+          "article_count": 1
+        },
+        {
+          "id": "2026-10-21-auto-a83c713a2b",
+          "status": "candidate",
+          "published": "2026-10-21",
+          "company": "栃木県警、全職員",
+          "service": "",
+          "affected_count": 0,
+          "cause": "報道自動検知",
+          "summary": "栃木県警、全職員の情報流出か アルカディア不正アクセス、他県警でも被害判明相次ぐ 報道",
+          "exposed_data": "要確認",
+          "sources": [
+            {
+              "name": "Googleニュース",
+              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1IQ19rc2xzQmpxakRrQ2JnVUFLa2ZDQ2NvSUhPWWNmYUNDb2tScHFOVXJVRlUwOHdOcXV4ZmdpdEE0THFMMDBkUnkxeXVfaXNjejVESHAwaGFuMk5nNnQ3ck8xZnd3OENHVkE?oc=5"
+            }
+          ],
+          "auto_detected": true,
+          "rss_pub_date": "Tue, 20 Oct 2026 10:50:15 GMT",
+          "article_count": 1
+        },
+        {
+          "id": "2026-10-21-auto-af82788137",
+          "status": "candidate",
+          "published": "2026-10-21",
+          "company": "県警の警察官・職員約2200人分",
+          "service": "",
+          "affected_count": 2200,
+          "cause": "報道自動検知",
+          "summary": "県警の警察官・職員約2200人分の個人情報漏えいの恐れ 大阪のIT関連会社が不正アクセスを受けた影響",
+          "exposed_data": "要確認",
+          "sources": [
+            {
+              "name": "Googleニュース",
+              "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMEJjaGlwWkRVdlRtZXdUTkdoX19zUElLZHcyQUphY3cwb2wwaGx3U0U4WWcwNVBkTkRuTEtZc0RYUGFJVmdvOUJ5aGpybWdJcVd2ZFZHRWtTQ0QyQmdrMGg5Wkc2cmE1RlNaLWw1aUJBcjRrQXpvMlU1ZGxQbnpSLVhoZnk5VjQ?oc=5"
+            }
+          ],
+          "auto_detected": true,
+          "rss_pub_date": "Tue, 20 Oct 2026 10:42:00 GMT",
+          "article_count": 1
+        },
+        {
+          "id": "2026-10-21-auto-47d666dd15",
+          "status": "candidate",
+          "published": "2026-10-21",
+          "company": "全国の警察官らの情報 大量流出か",
+          "service": "",
+          "affected_count": 0,
+          "cause": "報道自動検知",
+          "summary": "全国の警察官らの情報 大量流出か 不正アクセスで22府県警に影響",
+          "exposed_data": "要確認",
+          "sources": [
+            {
+              "name": "Googleニュース",
+              "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9lcU1UZmViSDNCTmZmRldwRG1kUzREXzB6NUktQk11UjhsUDc4WF9xcTMzZ2k2MjJDQ2xZOUpFeXZ1eVBFSFVfMVJCMHAxZw?oc=5"
+            }
+          ],
+          "auto_detected": true,
+          "rss_pub_date": "Tue, 20 Oct 2026 14:57:00 GMT",
+          "article_count": 1
+        },
+        {
+          "id": "2026-10-21-auto-1093a9b2c4",
+          "status": "candidate",
+          "published": "2026-10-21",
+          "company": "県警",
+          "service": "",
+          "affected_count": 2200,
+          "cause": "報道自動検知",
+          "summary": "県警 約2200人分の個人情報流出の可能性 相次ぐ不正アクセス被害 鹿児島(KKB鹿児島放送)",
+          "exposed_data": "要確認",
+          "sources": [
+            {
+              "name": "KKB鹿児島放送",
+              "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBxMmlZbTFYOHdSVGpNNTgtWmNBSWhvbE1pdEJfbmNuZzZvb21FcnRod0lwLWtWS3BnOWdKaFB0STNBRlI0QW03YjdwRU1xUURkeEpHQW40QnNKSGR6eWFLeVpuYzRqY1dlVzk1TElUV2VZT0Z6dmxjbUtiWjlGTGs?oc=5"
+            }
+          ],
+          "auto_detected": true,
+          "rss_pub_date": "Tue, 20 Oct 2026 09:26:24 GMT",
+          "article_count": 1
+        },
+        {
+          "id": "2026-10-21-auto-6550770e81",
+          "status": "candidate",
+          "published": "2026-10-21",
+          "company": "栃木県警職員",
+          "service": "",
+          "affected_count": 0,
+          "cause": "報道自動検知",
+          "summary": "栃木県警職員の情報流出か 約4千人、不正アクセスで",
+          "exposed_data": "要確認",
+          "sources": [
+            {
+              "name": "Googleニュース",
+              "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9zTHgzcEN3Y3lYWmtoUXNKRVJvSmNUUmFzbjF2YXdrZXJTR2VwY1ZScXdDOUJ3RnNubDV6OGdsZzdmeXRBbTJKbHlYSXludw?oc=5"
+            }
+          ],
+          "auto_detected": true,
+          "rss_pub_date": "Tue, 20 Oct 2026 07:24:00 GMT",
+          "article_count": 1
+        },
+        {
+          "id": "2026-10-20-auto-829c7ad6e0",
+          "status": "candidate",
+          "published": "2026-10-20",
+          "company": "栃木県警全職員",
+          "service": "",
+          "affected_count": 0,
+          "cause": "報道自動検知",
+          "summary": "栃木県警全職員の個人情報流出か アルカディア不正アクセスで (毎日新聞)",
+          "exposed_data": "要確認",
+          "sources": [
+            {
+              "name": "毎日新聞",
+              "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE00czNXUmNRUWZWaHB5dXZRUHdxV2hIdGIwTlpiLXpvaUdyTzh6UUFHWlFncmZ3QXFQVjRYQzllT0R0bUxrVDkxMXJZeThLQzZ5MVFqU3ljc3BSeFE?oc=5"
+            }
+          ],
+          "auto_detected": true,
+          "rss_pub_date": "Mon, 19 Oct 2026 20:03:33 GMT",
+          "article_count": 13
+        },
+        {
+          "id": "2026-10-20-auto-c371b4ac7e",
+          "status": "candidate",
+          "published": "2026-10-20",
+          "company": "7消防本部管内でも情報漏えいか アルカディア不正アクセス",
+          "service": "",
+          "affected_count": 0,
+          "cause": "報道自動検知",
+          "summary": "7消防本部管内でも情報漏えいか アルカディア不正アクセス",
+          "exposed_data": "要確認",
+          "sources": [
+            {
+              "name": "Googleニュース",
+              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9uTmRrWGRWYjJ5Y19qeDF1WDhWN25qejY3d3BtWEl5ajVZZkdRNnpPYmxJYURnVXJNM2VhQ3FaZTI1Y1h4UFd5bUUwS1gxQzlYNE9SQzZxRERjYXh2TERENmVlS3Y?oc=5"
+            }
+          ],
+          "auto_detected": true,
+          "rss_pub_date": "Mon, 19 Oct 2026 12:03:41 GMT",
+          "article_count": 1
+        },
+        {
+          "id": "2026-10-20-auto-b082a736db",
+          "status": "candidate",
+          "published": "2026-10-20",
+          "company": "アルカディア不正アクセス 県警で職員情報流出か/埼玉県(テレ玉)",
+          "service": "",
+          "affected_count": 0,
+          "cause": "報道自動検知",
+          "summary": "アルカディア不正アクセス 県警で職員情報流出か/埼玉県(テレ玉)",
+          "exposed_data": "要確認",
+          "sources": [
+            {
+              "name": "テレ玉",
+              "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Dd3k1a3cxd2Z1UkRVZU1kUHNTbjhkMC1falFsNG1WRWRDWVhlQjQydnJybi1uNUx4aGNEZlAwOFJVYzNBc3hZdExKMFU3eVNOWjhhWlQzZnQ5aE5JUGozMm5kYTU5SXdJWl81VzR3cW5ybVlvQnN5Q3Nud0dxSFk?oc=5"
+            }
+          ],
+          "auto_detected": true,
+          "rss_pub_date": "Mon, 19 Oct 2026 09:41:14 GMT",
+          "article_count": 1
+        },
+        {
+          "id": "2026-10-20-auto-0aac2a647b",
+          "status": "candidate",
+          "published": "2026-10-20",
+          "company": "福岡県警の警察官と職員1万1000人",
+          "service": "",
+          "affected_count": 11000,
+          "cause": "報道自動検知",
+          "summary": "福岡県警の警察官と職員1万1000人の個人情報流出か【アルカディア不正アクセス問題】(RKB毎日放送)",
+          "exposed_data": "要確認",
+          "sources": [
+            {
+              "name": "RKB毎日放送",
+              "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE81dGpSbHJJeTBsejRfQ1F0b2tBTEJSVXRWRWZrUFlmSVBjTDhzT1hOSG42NjYyRkVUYUoxcTNpQ0VwWXhMQ2MxcHc4Z2lrMDRSNEZoQU00RmJyQQ?oc=5"
+            }
+          ],
+          "auto_detected": true,
+          "rss_pub_date": "Tue, 20 Oct 2026 03:06:00 GMT",
+          "article_count": 3
+        },
+        {
+          "id": "2026-10-20-auto-fbf4cd3ba5",
+          "status": "candidate",
+          "published": "2026-10-20",
+          "company": "栃木県警の警察官・職員約3,900人分",
+          "service": "",
+          "affected_count": 3900,
+          "cause": "報道自動検知",
+          "summary": "栃木県警の警察官・職員約3,900人分の個人情報に漏えいの可能性-アルカディアへの不正アクセスによるサイバー攻撃で",
+          "exposed_data": "要確認",
+          "sources": [
+            {
+              "name": "Googleニュース",
+              "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMHN6Z1dFdlNBdnJIcUg0YXE2WGxFVnlkWHBXS1Z2WGprRWh0MklRd291S0VCeXFyeHhJQ0F4OEhkcTRiWXJ5bXVqNWxvYkVmRmlSQ3o1MkctWEk2cENsR1RlQ3lTNzFTdkpQUjJWcmNwcHg5SnQxWEhNaFRFQl9lOVV5MHZRNEVuMTJURDM2MlhmbDY1ZlFRWVc1eGxHOWlXU1pYY0JrODN1dw?oc=5"
+            }
+          ],
+          "auto_detected": true,
+          "rss_pub_date": "Tue, 20 Oct 2026 01:56:16 GMT",
+          "article_count": 1
+        },
+        {
+          "id": "2026-10-20-auto-0cb060d26d",
+          "status": "candidate",
+          "published": "2026-10-20",
+          "company": "神奈川、埼玉、群馬の各県警で警察官など",
+          "service": "",
+          "affected_count": 0,
+          "cause": "報道自動検知",
+          "summary": "神奈川、埼玉、群馬の各県警で警察官などの個人情報流出か 不正アクセス受けた「アルカディア」のシステム利用",
+          "exposed_data": "要確認",
+          "sources": [
+            {
+              "name": "Googleニュース",
+              "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1KcGdZN3ZsVDJ6N3lKa2NyaW1tNU1TalU4Um1OZkNiYy10RHlFQkNWNWhRRDluTUQ1d1VyRnBDWXRrbGRBNFUxenk3TURFZjY3LUFMbEpXSy1xYVJXWTVseGEzWVVGTUZqSGdmdXk3eXEwTy05dERXdHkyMlZkWWM?oc=5"
+            }
+          ],
+          "auto_detected": true,
+          "rss_pub_date": "Tue, 20 Oct 2026 06:07:20 GMT",
+          "article_count": 2
+        },
+        {
+          "id": "2026-10-20-auto-bbd73085b0",
+          "status": "candidate",
+          "published": "2026-10-20",
+          "company": "侵入経路塞いだが",
+          "service": "",
+          "affected_count": 0,
+          "cause": "報道自動検知",
+          "summary": "「侵入経路塞いだが、バックドアから......」不正アクセス105時間の攻防、分単位で報告 防災メールのアルカディア",
+          "exposed_data": "要確認",
+          "sources": [
+            {
+              "name": "Googleニュース",
+              "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9PNzdqeHhmZ3hSMmo2djNla1pNbDFkNFlfX2ZLbjlEUmNzNmlITmpuVWJPX215S19UTFd6bklUR0h0RERpQVJNdDJaUnhreFlWOFRwb05GaFBoX1lGTEg4R0k4MTZuNkdEQzJPM1hWVTlRb3NueXN2UV9CUUJSdFE?oc=5"
+            }
+          ],
+          "auto_detected": true,
+          "rss_pub_date": "Tue, 20 Oct 2026 06:14:38 GMT",
+          "article_count": 1
+        },
+        {
+          "id": "2026-10-20-auto-02be3faa42",
+          "status": "candidate",
+          "published": "2026-10-20",
+          "company": "神奈川・埼玉・栃木・群馬の各県警で警察官など",
+          "service": "",
+          "affected_count": 0,
+          "cause": "報道自動検知",
+          "summary": "神奈川・埼玉・栃木・群馬の各県警で警察官などの個人情報大量に漏えいか 不正アクセスされた「アルカディア」の安否確認メール使用で 全職員分の情報流出の県警も",
+          "exposed_data": "要確認",
+          "sources": [
+            {
+              "name": "日テレNEWS NNN",
+              "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9fdmJoNEtYTV9fdEdaSXdIQUFVckl1dGxpQWNXRk5OS2dnVG9ZUzhxbEk2b0lJa1NNT1lObnprZy00M0Q5YXFTc2VnWUdINjhZNUdORU9kSmVRS0hwODAtV3hTd0ktLVZmWTNzVXFaNVFyYkE3d1NKZmVmcFA?oc=5"
+            }
+          ],
+          "auto_detected": true,
+          "rss_pub_date": "Tue, 20 Oct 2026 08:22:00 GMT",
+          "article_count": 1
+        },
+        {
+          "id": "2026-10-20-auto-2a9e46caed",
+          "status": "candidate",
+          "published": "2026-10-20",
+          "company": "福岡県警1.1万人",
+          "service": "",
+          "affected_count": 11000,
+          "cause": "報道自動検知",
+          "summary": "福岡県警1.1万人の情報流出か アルカディア不正アクセスで",
+          "exposed_data": "要確認",
+          "sources": [
+            {
+              "name": "Googleニュース",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0tZ1NQT1JPQWNEN1lndlJEUDRoaGFPY3FhX19pclZ0QUVyODNpM1JDOW5nODJ4UkI3MmJQY2MyaTBsVl84VFpXOEpRakxKNHQ5ZjM5bjFtM3AyT3gtNXJTSEp0M2gzR1Z4?oc=5"
+            }
+          ],
+          "auto_detected": true,
+          "rss_pub_date": "Tue, 20 Oct 2026 07:44:15 GMT",
+          "article_count": 1
+        },
+        {
+          "id": "2026-10-20-auto-8279677ecc",
+          "status": "candidate",
+          "published": "2026-10-20",
+          "company": "警察官や職員約1万1000人",
+          "service": "",
+          "affected_count": 11000,
+          "cause": "報道自動検知",
+          "summary": "警察官や職員約1万1000人の個人情報流出のおそれ 災害時の非常招集などのシステム アルカディアへの不正アクセスで 福岡県警(TNCテレビ西日本)",
+          "exposed_data": "要確認",
+          "sources": [
+            {
+              "name": "TNCテレビ西日本",
+              "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9URkJLekZVVHFXbFJmU21TYVQtMVBEV1h4V0dCY09RQ2twVEZvQ0FWQl9IYjlQeHRGNjh0NFpxWUdtVjZUZ2lueWs0bW1zcFQ0a3ZKZ2lsNEZmUTlMSjVKWjZ6TXl0YThubFlhT3hYeVJwcVFmcEhuMVpXUjhJQWM?oc=5"
+            }
+          ],
+          "auto_detected": true,
+          "rss_pub_date": "Tue, 20 Oct 2026 07:43:02 GMT",
+          "article_count": 2
+        },
+        {
+          "id": "2026-10-20-auto-0b41a87e3c",
+          "status": "candidate",
+          "published": "2026-10-20",
+          "company": "神奈川県警でも1.6万人",
+          "service": "",
+          "affected_count": 16000,
+          "cause": "報道自動検知",
+          "summary": "神奈川県警でも1.6万人の情報流出か アルカディア不正アクセス(毎日新聞)",
+          "exposed_data": "要確認",
+          "sources": [
+            {
+              "name": "毎日新聞",
+              "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9DbWhNbHF4TVNQSEppVy1yNnp1NWxFMVRZOEE1aFFXMFJuYnBmbllxVW9jc090QjhPUFJmZFc2ckV4R25iODdPd1N1OXV0UFBpdndLdVdGMm1nOEwtc3gyYmFrRUhwNGNmSVdJdmJ1UjhKZDdEd0t6Rm4ycEtadlE?oc=5"
+            }
+          ],
+          "auto_detected": true,
+          "rss_pub_date": "Tue, 20 Oct 2026 08:31:24 GMT",
+          "article_count": 2
+        },
+        {
+          "id": "2026-10-20-auto-4c44ec3b06",
+          "status": "candidate",
+          "published": "2026-10-20",
+          "company": "関東4県の警察職員3万6600人分",
+          "service": "",
+          "affected_count": 36600,
+          "cause": "報道自動検知",
+          "summary": "関東4県の警察職員3万6600人分の個人情報流出か アルカディア社に不正アクセスで(テレビ朝日系(ANN))",
+          "exposed_data": "要確認",
+          "sources": [
+            {
+              "name": "Yahoo!ニュース",
+              "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE10WW5mQ3lOZW5icWsxbFBSMmNWN09qVE9lMjhJYU9Xa0NDaDJOSmVlRzc3ZXQ4RDZLWWZsX19xMkpOYmxmYzVzcm9iZmFpejZORERIVlRkWU03dUlYMks4eUZvYnBqT1c5Q1Jpb2xLdnlhMEZ6N0g4SlpSaUxPakk?oc=5"
+            },
+            {
+              "name": "Googleニュース",
+              "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5VNUhWa0lHV3hFczVxVHJEQTR1OEMwNDE1azd1SHRyeFlWQlREU0lEeFhKVGNKNkN0Y3J3NmxzT3JWZjlHZjY2aDZWeGE3OTA4MUVvczV2Sm9wXzIzc3Zka0NLVVN5eklrR3NLOFRpWEZ2QQ?oc=5"
+            }
+          ],
+          "auto_detected": true,
+          "rss_pub_date": "Tue, 20 Oct 2026 07:51:55 GMT",
+          "article_count": 4
+        },
+        {
+          "id": "2026-10-20-auto-8c9c7cd579",
+          "status": "candidate",
+          "published": "2026-10-20",
+          "company": "警察官と職員の1万人超",
+          "service": "",
+          "affected_count": 10000,
+          "cause": "報道自動検知",
+          "summary": "警察官と職員の1万人超の個人情報流出か...アルカディア不正アクセス問題で 福岡県警(KBC九州朝日放送)",
+          "exposed_data": "要確認",
+          "sources": [
+            {
+              "name": "KBC九州朝日放送",
+              "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GcU9wVk9tMTRpZlVtWDJYelhQWGx0S3VIbjJvTXo0dTFvV0VNT1VxMHdjbTVNSHhfWE9FSkhMNXRNVHViVXJHY2c3aFhGa0VPTEFVWWQ2SnZlZXk5ek5BUWU1MlZOS0tFZkpsRVh1dEV2RnFCbVR4cENORS1la0E?oc=5"
+            }
+          ],
+          "auto_detected": true,
+          "rss_pub_date": "Tue, 20 Oct 2026 07:15:03 GMT",
+          "article_count": 1
+        },
+        {
+          "id": "2026-10-19-auto-6723aac647",
+          "status": "candidate",
+          "published": "2026-10-19",
+          "company": "静岡市、アルカディアへ",
+          "service": "",
+          "affected_count": 43030,
+          "cause": "報道自動検知",
+          "summary": "静岡市、アルカディアへの不正アクセスによるサイバー攻撃で4万3,030人分の個人情報漏洩",
+          "exposed_data": "要確認",
+          "sources": [
+            {
+              "name": "Googleニュース",
+              "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOY0xHWlVoS2JHZnpISC1IXzV1QUcydnJjakFvWU94RU1mRGJYal9xc2xHUFZUNHRvdXhtWTc0aTVRckI1TjlKMXRlckcwSG02RmhhTnVKTWdvNGJ5dWRhZXdHaElpd2hrTG41QXE1TEJ0dlUwRlYtaldYVnBTUG15R1F4YmFvcTl0T3g1VnZyUWJlckRPRUlHZ3BiRW51T3RFNU43UWc3SEtDNVc2dVRr?oc=5"
+            }
+          ],
+          "auto_detected": true,
+          "rss_pub_date": "Sun, 18 Oct 2026 21:35:17 GMT",
+          "article_count": 1
+        },
+        {
+          "id": "2026-10-19-auto-5ba570328b",
+          "status": "candidate",
+          "published": "2026-10-19",
+          "company": "埼玉県警も情報漏えいの可能性...警察官ら職員1万3千人",
+          "service": "",
+          "affected_count": 10003,
+          "cause": "報道自動検知",
+          "summary": "埼玉県警も情報漏えいの可能性...警察官ら職員1万3千人の個人情報 不正アクセスを受けた「アルカディア」から連絡 警察職員以外の情報は登録されておらず (埼玉新聞)",
+          "exposed_data": "要確認",
+          "sources": [
+            {
+              "name": "Yahoo!ニュース",
+              "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5fbmw4ZTdYdFpsOWpxS0EtZ0ZGRExVZzQxb1Q1VVR6Vmh0am9mNzhHdFpHMHl5SVFFSUpoZXRmNzBHZHZncHRJd3dxWE5qajVVbGROUkpGOTNiRktDZ1JPM1JNVTN1bGlXX1FaT0tnVnlwdmxOLVBnc1dDdTdrV00?oc=5"
+            },
+            {
+              "name": "Googleニュース",
+              "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNV2tVX2poSEg5MmRBZFFlMHBzT2hJcy13b1JvUGdSNE02Y2hDNkZweHdsQkhsWHJHWm1SYUwtQW5rSGRIaVpWeldqOFBabDBjVzMwZV9iWnZVV3NQVzluSzNmckU4NHlmdF9oNlVDNktyTEpyOXlZR2xrMGR4ZG5IVG9VVTV2WXdiNk80N2Rn?oc=5"
+            }
+          ],
+          "auto_detected": true,
+          "rss_pub_date": "Sun, 18 Oct 2026 02:19:54 GMT",
+          "article_count": 3
+        },
+        {
+          "id": "2026-10-19-auto-cfdcdb1710",
+          "status": "candidate",
+          "published": "2026-10-19",
+          "company": "徳島県警、警察官・職員約1,900人",
+          "service": "",
+          "affected_count": 1900,
+          "cause": "報道自動検知",
+          "summary": "徳島県警、警察官・職員約1,900人の情報漏えいのおそれ―アルカディアへの不正アクセス、なりすまし・標的型攻撃に警戒",
+          "exposed_data": "要確認",
+          "sources": [
+            {
+              "name": "Googleニュース",
+              "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZXRweGhkdGQ3aU9qQTRBYmJodTFXVHU0UWhzb1pIOWNBVXFoYXFlYzF1UnQzZnZZRjR0U3FOZkFyYnYtaHVnZFlKaWc3bXBnMWNIWTRoZGthQ242VklvUDVsTGhiR3V5X1B6Um9PUFlkczNIUVkxZElSLUFCUUMxYUNUZFl1cTBwbWRDQnJwMWlmYjd2cHlOZTJaZk5uVk0?oc=5"
+            }
+          ],
+          "auto_detected": true,
+          "rss_pub_date": "Sun, 18 Oct 2026 02:00:51 GMT",
+          "article_count": 1
+        },
+        {
+          "id": "2026-10-19-auto-7ae28261e3",
+          "status": "candidate",
+          "published": "2026-10-19",
+          "company": "唐津市情報メール配信サービスを業務委託しているアルカディア",
+          "service": "",
+          "affected_count": 0,
+          "cause": "報道自動検知",
+          "summary": "唐津市情報メール配信サービスを業務委託しているアルカディアに不正アクセス",
+          "exposed_data": "要確認",
+          "sources": [
+            {
+              "name": "Googleニュース",
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8tT1ZIWWZYRzFTZ3FZNTlnUDBzVXJKNENxdkZMa0NtWDJWdzA3Wk5qdnFLWUxSX3VNa04yX083STFPMVRkaXdTY1pqdkY4M2lGZ3RWbXlsbE5jcU9nQVhCaTVNZVoxdHV5WllYZA?oc=5"
+            }
+          ],
+          "auto_detected": true,
+          "rss_pub_date": "Sun, 18 Oct 2026 23:05:05 GMT",
+          "article_count": 1
+        },
+        {
+          "id": "2026-10-19-auto-ceec2607ee",
+          "status": "candidate",
+          "published": "2026-10-19",
+          "company": "埼玉県警、職員約1万3千人",
+          "service": "",
+          "affected_count": 10003,
+          "cause": "報道自動検知",
+          "summary": "埼玉県警、職員約1万3千人の情報漏えいか 安否確認システムのアルカディアが不正アクセス",
+          "exposed_data": "要確認",
+          "sources": [
+            {
+              "name": "Googleニュース",
+              "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB5Yno4YlBab09rRHptUVdxdU5ieWRXeUNiSUl1UUtNQWx3WEFDeXNvVklHdW1VT3lTUGc0ZUUxQ0FPaG1PLThTU0JpdzYwdkg4eHBYaF8wdmVidW1xRDdlZUpGQQ?oc=5"
+            }
+          ],
+          "auto_detected": true,
+          "rss_pub_date": "Mon, 19 Oct 2026 02:26:04 GMT",
+          "article_count": 1
+        },
+        {
+          "id": "2026-10-19-auto-0f33095782",
+          "status": "candidate",
+          "published": "2026-10-19",
+          "company": "アルカディアのSpeeCAN RAIDEN へ",
+          "service": "",
+          "affected_count": 1423428,
+          "cause": "報道自動検知",
+          "summary": "アルカディアのSpeeCAN RAIDEN への不正アクセスによるサイバー攻撃、不正メール 142万3,428件を送信",
+          "exposed_data": "要確認",
+          "sources": [
+            {
+              "name": "Googleニュース",
+              "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQlhWWHlxUVBQQm1rRnFmLTh3MzU0TTNacEF5WFFkRlJBMHd0QWRkQ0d4VkdaalRwZnVEc1UwUXJXVEFoNGdHSU5SbmpDMlBDam1EUHNYWWI4bEY0SVg1ejdEaGN5cXVZMlVYV0ZzWmpKTmJYZm9PSGRpci14a0FSYnFJTVhJdEd0MXZDZmw4U1ZnVXdxVjFDVQ?oc=5"
+            }
+          ],
+          "auto_detected": true,
+          "rss_pub_date": "Mon, 19 Oct 2026 04:14:58 GMT",
+          "article_count": 1
+        },
+        {
+          "id": "2026-10-19-auto-9290fbd82e",
+          "status": "candidate",
+          "published": "2026-10-19",
+          "company": "埼玉県警で職員情報流出か アルカディア不正アクセス",
+          "service": "",
+          "affected_count": 0,
+          "cause": "報道自動検知",
+          "summary": "埼玉県警で職員情報流出か アルカディア不正アクセス",
+          "exposed_data": "要確認",
+          "sources": [
+            {
+              "name": "Googleニュース",
+              "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMk53NTk5Vnh2aHkzMWhQVkVHck5Wd053bzlCbWVMbEZodENkZzJGeG01ZWZQQms5MDk4N2NQb1ZnaE1PU2pWQ01RV1JJb18wVklvVmpVS3hfMVQ5SmZ5TmRvTzg0WW1qdXFxakExYlpyY3VJbHhmX3dXUjQyZ0NzeW1CQkRlSkkxb0I00gGQAUFVX3lxTE90SnRwX1dQSzZSUTc2elRFVTNRcGZlcm53eWNhR0R2OUFIc2lZcjBxTXZhcW9DSW5JaEl5NVV4YkdwMHJNUEVVekJTd2haN29EeDNQTnJfdWlsR0xZYXQ3LWhPcFhXcEIyZzhOaVlCanZEQi1tSnhwTWRobnBHenpYcHRWRHV6UmJyUUU4X0xWTg?oc=5"
+            }
+          ],
+          "auto_detected": true,
+          "rss_pub_date": "Mon, 19 Oct 2026 04:31:00 GMT",
+          "article_count": 1
+        },
+        {
+          "id": "2026-10-19-auto-9970016dd1",
+          "status": "candidate",
+          "published": "2026-10-19",
+          "company": "アルカディア",
+          "service": "",
+          "affected_count": 0,
+          "cause": "報道自動検知",
+          "summary": "アルカディア、不正アクセス受け対策強化 2段階認証や自動監視導入",
+          "exposed_data": "要確認",
+          "sources": [
+            {
+              "name": "Googleニュース",
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5wSjVsVXNvWXhYTXpYUEJvODY0U2owZllDZnB2TXN5T1FfUks2RU9RQ2F5UGZRUlVzYnhoNHpqSFc0VWt3VFZ5SlNDZkFPVWcwVjZ2eS1wTkppNmRVcm5IUlYxR2tKNEZDUERHcg?oc=5"
+            }
+          ],
+          "auto_detected": true,
+          "rss_pub_date": "Mon, 19 Oct 2026 06:36:04 GMT",
+          "article_count": 1
+        },
+        {
+          "id": "2026-10-19-auto-77310d2abe",
+          "status": "candidate",
+          "published": "2026-10-19",
+          "company": "埼玉県警で職員情報流出か アルカディア不正アクセス(共同通信)",
+          "service": "",
+          "affected_count": 0,
+          "cause": "報道自動検知",
+          "summary": "埼玉県警で職員情報流出か アルカディア不正アクセス(共同通信)",
+          "exposed_data": "要確認",
+          "sources": [
+            {
+              "name": "共同通信",
+              "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1zZjdrQjF2NHp4R2p5aXVwaWxWYmJ6TG1Vck9iSjBsZk40Mk14MWY4UUlVQ0lHVXlFLW9zRG1sMXpxTHFVaFp5VTZ0eGd1OGxzU2U2dTUtc3NoSndQZXlSb0xnUEdwMVNRbk45VjhMc2pKNHpoM2p6WG1OdlV4Q0U?oc=5"
+            }
+          ],
+          "auto_detected": true,
+          "rss_pub_date": "Mon, 19 Oct 2026 04:31:04 GMT",
+          "article_count": 1
+        },
+        {
+          "id": "2026-10-19-auto-3dc753145f",
+          "status": "candidate",
+          "published": "2026-10-19",
+          "company": "宮城・登米市でも個人情報漏えい 緊急通報システムに登録の市民15人分",
+          "service": "",
+          "affected_count": 0,
+          "cause": "報道自動検知",
+          "summary": "宮城・登米市でも個人情報漏えい 緊急通報システムに登録の市民15人分 アルカディア不正アクセス問題",
+          "exposed_data": "要確認",
+          "sources": [
+            {
+              "name": "Googleニュース",
+              "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBhVy1mSXJrVTB6Y2stRFJzVThkNFh4NWNWSTNNelU3TzM5dE84b3lxVXJVZzh0MDRvblhVZjZJWGlkQ2oxVU5SVDBoMHl2aDFFYW5ha1ZSZXlNUWc?oc=5"
+            }
+          ],
+          "auto_detected": true,
+          "rss_pub_date": "Mon, 19 Oct 2026 07:20:00 GMT",
+          "article_count": 1
+        },
+        {
+          "id": "2026-10-19-auto-01912adeea",
+          "status": "candidate",
+          "published": "2026-10-19",
+          "company": "埼玉県警、警察官・職員約1万3,000人",
+          "service": "",
+          "affected_count": 13000,
+          "cause": "報道自動検知",
+          "summary": "埼玉県警、警察官・職員約1万3,000人の個人情報漏えいの可能性―委託先アルカディアへのサイバー攻撃で",
+          "exposed_data": "要確認",
+          "sources": [
+            {
+              "name": "合同会社ロケットボーイズ",
+              "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUFZlOXRGcjg5empSOW1mcGIwb2dmOGpWRVVhVnQ0MEJpTnNkRFJJMy1hZXo3SE1SOHAwQUVuQTI5NnNvNzdaZjJ6WnE2Uk1oNWhHTlQ2T29OOS00UmZpNzJGYVNvd0sydzZ6XzU2ZXhURTNWYUxlWHpUc3poNlpuS2lCbTFCSV8wSUN2eUtkcGh1QWVhcEZzTG5IaGtvZw?oc=5"
+            }
+          ],
+          "auto_detected": true,
+          "rss_pub_date": "Mon, 19 Oct 2026 09:14:50 GMT",
+          "article_count": 1
+        },
+        {
+          "id": "2026-10-18-auto-20ae810e34",
+          "status": "candidate",
+          "published": "2026-10-18",
+          "company": "福島・北塩原3校も情報漏えいか アルカディア不正アクセス(福島民友新聞)",
+          "service": "",
+          "affected_count": 0,
+          "cause": "報道自動検知",
+          "summary": "福島・北塩原3校も情報漏えいか アルカディア不正アクセス(福島民友新聞)",
+          "exposed_data": "要確認",
+          "sources": [
+            {
+              "name": "福島民友新聞",
+              "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1LRGFsT3RkWUZQU01rb3R0RjNyN2Q1RVNCZDVwbmlOT0o2QkpwX290UEJFc1VyQ1FQUEVwdVlaX2ZxbG42TUNfLVh0WHU0RDJlUEtCLVJDdk40a19MRkN4R3JMLVJueEpvYlhUeWdoX3k0TnZzM0xOZ3J4UXRodWc?oc=5"
+            }
+          ],
+          "auto_detected": true,
+          "rss_pub_date": "Fri, 16 Oct 2026 23:56:07 GMT",
+          "article_count": 1
+        },
+        {
+          "id": "2026-10-17-auto-6b5582eb2e",
+          "status": "candidate",
+          "published": "2026-10-17",
+          "company": "岡山県警職員4千人分",
+          "service": "",
+          "affected_count": 0,
+          "cause": "報道自動検知",
+          "summary": "岡山県警職員4千人分の情報流出か アルカディア不正アクセス問題",
+          "exposed_data": "要確認",
+          "sources": [
+            {
+              "name": "Googleニュース",
+              "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9TZmxGYWt3WjJpeWtoWS1MbzlCTVN3TTZ1bkMtSE10Q2FWd1prYW1oQjJpU28xRHRHaUxTVG9zdTBRaFlyR2lRZEwyZlFLaG9VMHc?oc=5"
+            }
+          ],
+          "auto_detected": true,
+          "rss_pub_date": "Sat, 17 Oct 2026 06:27:21 GMT",
+          "article_count": 1
+        },
+        {
+          "id": "2026-10-17-auto-19faaa57dc",
+          "status": "candidate",
+          "published": "2026-10-17",
+          "company": "北塩原3校も情報漏えいか アルカディア不正アクセス",
+          "service": "",
+          "affected_count": 0,
+          "cause": "報道自動検知",
+          "summary": "北塩原3校も情報漏えいか アルカディア不正アクセス:福島ニュース",
+          "exposed_data": "要確認",
+          "sources": [
+            {
+              "name": "Googleニュース",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5lV3dpVkt4NEZZX0R3SHVVNWxSb2lXMW8yYk9KZ214N250N2hhc0ZMU2Rfb3g5MWZ0U0FGOFVkQTJfaHRJTXJRRVNRLWFHbG1WQ1NSTzU5NTR4VE4yYV9RXzlaSkRxc0s5?oc=5"
+            }
+          ],
+          "auto_detected": true,
+          "rss_pub_date": "Fri, 16 Oct 2026 23:20:00 GMT",
+          "article_count": 2
+        },
+        {
+          "id": "2026-10-17-auto-fd3833718b",
+          "status": "candidate",
+          "published": "2026-10-17",
+          "company": "福岡県と福岡市",
+          "service": "",
+          "affected_count": 0,
+          "cause": "報道自動検知",
+          "summary": "福岡県と福岡市でも個人情報流出か 「アルカディア」防災情報システムの登録分",
+          "exposed_data": "要確認",
+          "sources": [
+            {
+              "name": "Googleニュース",
+              "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0xWDN3djFJbk5HelhJcndzbkc2NjVOZUhnbnVkWV9KVy1waV84eVgwcTJhellYc0JHQkYxSldlbTVmM1V3elYyMnBhbFVuLTJBOVBhT1ZB?oc=5"
+            }
+          ],
+          "auto_detected": true,
+          "rss_pub_date": "Fri, 16 Oct 2026 21:00:00 GMT",
+          "article_count": 1
+        },
+        {
+          "id": "2026-10-17-auto-84d999c891",
+          "status": "candidate",
+          "published": "2026-10-17",
+          "company": "小松島消防本部",
+          "service": "",
+          "affected_count": 0,
+          "cause": "報道自動検知",
+          "summary": "小松島消防本部で43人分の個人情報が漏えいした可能性 アルカディアの不正アクセス被害が影響",
+          "exposed_data": "要確認",
+          "sources": [
+            {
+              "name": "Googleニュース",
+              "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA3Q1JpOGtHOFNrX2d6dzlLZ0dFYS0zdHlXaGlTQkdPTjZmdFVHRkQ1OEJ6UElNTWVSSUc1WmptNXNlakVJd3Q1c0MwdzNjTVRsdTZyOF9B?oc=5"
+            }
+          ],
+          "auto_detected": true,
+          "rss_pub_date": "Fri, 16 Oct 2026 20:00:00 GMT",
+          "article_count": 1
+        },
+        {
+          "id": "2026-10-17-auto-f0ca13d2f8",
+          "status": "candidate",
+          "published": "2026-10-17",
+          "company": "駿東伊豆消防本部",
+          "service": "",
+          "affected_count": 102,
+          "cause": "報道自動検知",
+          "summary": "駿東伊豆消防本部でも委託先の「アルカディア」で不正アクセス確認 119番通報するサービスで102人の個人情報漏えいの可能性=静岡(静岡放送(SBS))",
+          "exposed_data": "要確認",
+          "sources": [
+            {
+              "name": "Googleニュース",
+              "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAyLXpQcHFyLVJNOEtfcjdKNExQWkR1Z2FyS25VNmtlOWptSEdoVXZITzJvWkJ0NWQtVWRXNXZkLTdGYlEwbWNfZm9WNHpIV3hXTkF3WEhQWXpKYW96R0pzOVZtZjVwZWJWbjJFeC1Lby1sR3p0eDVISFJoLWZmUk0?oc=5"
+            }
+          ],
+          "auto_detected": true,
+          "rss_pub_date": "Fri, 16 Oct 2026 11:58:13 GMT",
+          "article_count": 1
+        },
+        {
+          "id": "2026-10-17-auto-138573b648",
+          "status": "candidate",
+          "published": "2026-10-17",
+          "company": "アルカディアへの不正アクセス影響拡大 五所川原市やつ",
+          "service": "",
+          "affected_count": 0,
+          "cause": "報道自動検知",
+          "summary": "アルカディアへの不正アクセス影響拡大 五所川原市やつがる市で消防関係者の情報など漏えいの可能性(青森放送)",
+          "exposed_data": "要確認",
+          "sources": [
+            {
+              "name": "青森放送",
+              "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBqbVlQOVdqZkpYNE41UmtUazdZbzZaU3VVN3MyYzRESUoyWWxCT1E5SEZ0VEJBdk52eXlrQjczalU3Q2dZd1lXX0tXN2toT1FKMWc4YjFTZGdFUWp3WF9SaGFjN1Mta1NmWGw3RjVyT3JDU0w3dFc5U1JZSjQwQjg?oc=5"
+            }
+          ],
+          "auto_detected": true,
+          "rss_pub_date": "Fri, 16 Oct 2026 12:45:59 GMT",
+          "article_count": 1
+        }
+      ],
+      "merged_from_ids": [
+        "2026-10-21-auto-43fe4ce1ad",
+        "2026-10-21-auto-03f6a8e8aa",
+        "2026-10-21-auto-a83c713a2b",
+        "2026-10-21-auto-af82788137",
+        "2026-10-21-auto-47d666dd15",
+        "2026-10-21-auto-1093a9b2c4",
+        "2026-10-21-auto-6550770e81",
+        "2026-10-20-auto-829c7ad6e0",
+        "2026-10-20-auto-c371b4ac7e",
+        "2026-10-20-auto-b082a736db",
+        "2026-10-20-auto-0aac2a647b",
+        "2026-10-20-auto-fbf4cd3ba5",
+        "2026-10-20-auto-0cb060d26d",
+        "2026-10-20-auto-bbd73085b0",
+        "2026-10-20-auto-02be3faa42",
+        "2026-10-20-auto-2a9e46caed",
+        "2026-10-20-auto-8279677ecc",
+        "2026-10-20-auto-0b41a87e3c",
+        "2026-10-20-auto-4c44ec3b06",
+        "2026-10-20-auto-8c9c7cd579",
+        "2026-10-19-auto-6723aac647",
+        "2026-10-19-auto-5ba570328b",
+        "2026-10-19-auto-cfdcdb1710",
+        "2026-10-19-auto-7ae28261e3",
+        "2026-10-19-auto-ceec2607ee",
+        "2026-10-19-auto-0f33095782",
+        "2026-10-19-auto-9290fbd82e",
+        "2026-10-19-auto-9970016dd1",
+        "2026-10-19-auto-77310d2abe",
+        "2026-10-19-auto-3dc753145f",
+        "2026-10-19-auto-01912adeea",
+        "2026-10-18-auto-20ae810e34",
+        "2026-10-17-auto-6b5582eb2e",
+        "2026-10-17-auto-19faaa57dc",
+        "2026-10-17-auto-fd3833718b",
+        "2026-10-17-auto-84d999c891",
+        "2026-10-17-auto-f0ca13d2f8",
+        "2026-10-17-auto-138573b648"
+      ],
+      "incident_structure": "shared_vendor",
+      "affected_organizations": [
+        {
+          "name": "22府県の警察"
+        },
+        {
+          "name": "アルカディア 防災情報配信サービスへ"
+        },
+        {
+          "name": "栃木県警、全職員"
+        },
+        {
+          "name": "県警の警察官・職員約2200人分"
+        },
+        {
+          "name": "全国の警察官らの情報 大量流出か"
+        },
+        {
+          "name": "県警"
+        },
+        {
+          "name": "栃木県警職員"
+        },
+        {
+          "name": "栃木県警全職員"
+        },
+        {
+          "name": "7消防本部管内でも情報漏えいか アルカディア不正アクセス"
+        },
+        {
+          "name": "アルカディア不正アクセス 県警で職員情報流出か/埼玉県(テレ玉)"
+        },
+        {
+          "name": "福岡県警の警察官と職員1万1000人"
+        },
+        {
+          "name": "栃木県警の警察官・職員約3,900人分"
+        },
+        {
+          "name": "神奈川、埼玉、群馬の各県警で警察官など"
+        },
+        {
+          "name": "侵入経路塞いだが"
+        },
+        {
+          "name": "神奈川・埼玉・栃木・群馬の各県警で警察官など"
+        },
+        {
+          "name": "福岡県警1.1万人"
+        },
+        {
+          "name": "警察官や職員約1万1000人"
+        },
+        {
+          "name": "神奈川県警でも1.6万人"
+        },
+        {
+          "name": "関東4県の警察職員3万6600人分"
+        },
+        {
+          "name": "警察官と職員の1万人超"
+        },
+        {
+          "name": "静岡市、アルカディアへ"
+        },
+        {
+          "name": "埼玉県警も情報漏えいの可能性...警察官ら職員1万3千人"
+        },
+        {
+          "name": "徳島県警、警察官・職員約1,900人"
+        },
+        {
+          "name": "唐津市情報メール配信サービスを業務委託しているアルカディア"
+        },
+        {
+          "name": "埼玉県警、職員約1万3千人"
+        },
+        {
+          "name": "アルカディアのSpeeCAN RAIDEN へ"
+        },
+        {
+          "name": "埼玉県警で職員情報流出か アルカディア不正アクセス"
+        },
+        {
+          "name": "アルカディア"
+        },
+        {
+          "name": "埼玉県警で職員情報流出か アルカディア不正アクセス(共同通信)"
+        },
+        {
+          "name": "宮城・登米市でも個人情報漏えい 緊急通報システムに登録の市民15人分"
+        },
+        {
+          "name": "埼玉県警、警察官・職員約1万3,000人"
+        },
+        {
+          "name": "福島・北塩原3校も情報漏えいか アルカディア不正アクセス(福島民友新聞)"
+        },
+        {
+          "name": "岡山県警職員4千人分"
+        },
+        {
+          "name": "北塩原3校も情報漏えいか アルカディア不正アクセス"
+        },
+        {
+          "name": "福岡県と福岡市"
+        },
+        {
+          "name": "小松島消防本部"
+        },
+        {
+          "name": "駿東伊豆消防本部"
+        },
+        {
+          "name": "アルカディアへの不正アクセス影響拡大 五所川原市やつ"
+        }
+      ],
+      "affected_organization_count": 38,
+      "merge_note": "",
+      "merged_at": "2026-10-21 14:51 JST",
+      "official_watch": {
+        "page_hashes": {
+          "https://raiden.site.ktaiwork.jp/archives/4597": "54aaccb5a53552a7078835b8978c7b6c5055486fd5e5241176ff6c82e21cfbde"
+        },
+        "last_checked": "2026-10-21 14:52 JST",
+        "status": "ok"
+      }
     },
     {
       "id": "2026-10-17-auto-0cb8b660db",
@@ -8419,50 +8682,6 @@
       "article_count": 4,
       "priority": "B",
       "priority_score": 4
-    },
-    {
-      "id": "2026-10-17-auto-6b5582eb2e",
-      "published": "2026-10-17",
-      "company": "岡山県警職員4千人分",
-      "service": "",
-      "affected_count": 0,
-      "status": "candidate",
-      "cause": "報道自動検知",
-      "summary": "岡山県警職員4千人分の情報流出か アルカディア不正アクセス問題",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9TZmxGYWt3WjJpeWtoWS1MbzlCTVN3TTZ1bkMtSE10Q2FWd1prYW1oQjJpU28xRHRHaUxTVG9zdTBRaFlyR2lRZEwyZlFLaG9VMHc?oc=5"
-        }
-      ],
-      "auto_detected": true,
-      "rss_pub_date": "Sat, 17 Oct 2026 06:27:21 GMT",
-      "article_count": 1,
-      "priority": "C",
-      "priority_score": 1
-    },
-    {
-      "id": "2026-10-17-auto-19faaa57dc",
-      "published": "2026-10-17",
-      "company": "北塩原3校も情報漏えいか アルカディア不正アクセス",
-      "service": "",
-      "affected_count": 0,
-      "status": "candidate",
-      "cause": "報道自動検知",
-      "summary": "北塩原3校も情報漏えいか アルカディア不正アクセス:福島ニュース",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5lV3dpVkt4NEZZX0R3SHVVNWxSb2lXMW8yYk9KZ214N250N2hhc0ZMU2Rfb3g5MWZ0U0FGOFVkQTJfaHRJTXJRRVNRLWFHbG1WQ1NSTzU5NTR4VE4yYV9RXzlaSkRxc0s5?oc=5"
-        }
-      ],
-      "auto_detected": true,
-      "rss_pub_date": "Fri, 16 Oct 2026 23:20:00 GMT",
-      "article_count": 2,
-      "priority": "C",
-      "priority_score": 3
     },
     {
       "id": "2026-10-17-auto-183e7c3614",
@@ -8883,28 +9102,6 @@
       "priority_score": 3
     },
     {
-      "id": "2026-10-17-auto-fd3833718b",
-      "published": "2026-10-17",
-      "company": "福岡県と福岡市",
-      "service": "",
-      "affected_count": 0,
-      "status": "candidate",
-      "cause": "報道自動検知",
-      "summary": "福岡県と福岡市でも個人情報流出か 「アルカディア」防災情報システムの登録分",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0xWDN3djFJbk5HelhJcndzbkc2NjVOZUhnbnVkWV9KVy1waV84eVgwcTJhellYc0JHQkYxSldlbTVmM1V3elYyMnBhbFVuLTJBOVBhT1ZB?oc=5"
-        }
-      ],
-      "auto_detected": true,
-      "rss_pub_date": "Fri, 16 Oct 2026 21:00:00 GMT",
-      "article_count": 1,
-      "priority": "C",
-      "priority_score": 1
-    },
-    {
       "id": "2026-10-17-auto-09a2ce2d1a",
       "published": "2026-10-17",
       "company": "Studio",
@@ -8925,28 +9122,6 @@
       "article_count": 1,
       "priority": "B",
       "priority_score": 4
-    },
-    {
-      "id": "2026-10-17-auto-84d999c891",
-      "published": "2026-10-17",
-      "company": "小松島消防本部",
-      "service": "",
-      "affected_count": 0,
-      "status": "candidate",
-      "cause": "報道自動検知",
-      "summary": "小松島消防本部で43人分の個人情報が漏えいした可能性 アルカディアの不正アクセス被害が影響",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA3Q1JpOGtHOFNrX2d6dzlLZ0dFYS0zdHlXaGlTQkdPTjZmdFVHRkQ1OEJ6UElNTWVSSUc1WmptNXNlakVJd3Q1c0MwdzNjTVRsdTZyOF9B?oc=5"
-        }
-      ],
-      "auto_detected": true,
-      "rss_pub_date": "Fri, 16 Oct 2026 20:00:00 GMT",
-      "article_count": 1,
-      "priority": "C",
-      "priority_score": 1
     },
     {
       "id": "2026-10-17-auto-a84441f63c",
@@ -9079,28 +9254,6 @@
       "article_count": 3,
       "priority": "B",
       "priority_score": 6
-    },
-    {
-      "id": "2026-10-17-auto-f0ca13d2f8",
-      "published": "2026-10-17",
-      "company": "駿東伊豆消防本部",
-      "service": "",
-      "affected_count": 102,
-      "status": "candidate",
-      "cause": "報道自動検知",
-      "summary": "駿東伊豆消防本部でも委託先の「アルカディア」で不正アクセス確認 119番通報するサービスで102人の個人情報漏えいの可能性=静岡(静岡放送(SBS))",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAyLXpQcHFyLVJNOEtfcjdKNExQWkR1Z2FyS25VNmtlOWptSEdoVXZITzJvWkJ0NWQtVWRXNXZkLTdGYlEwbWNfZm9WNHpIV3hXTkF3WEhQWXpKYW96R0pzOVZtZjVwZWJWbjJFeC1Lby1sR3p0eDVISFJoLWZmUk0?oc=5"
-        }
-      ],
-      "auto_detected": true,
-      "rss_pub_date": "Fri, 16 Oct 2026 11:58:13 GMT",
-      "article_count": 1,
-      "priority": "C",
-      "priority_score": 2
     },
     {
       "id": "2026-10-17-auto-bf3bd4208b",
@@ -9428,28 +9581,6 @@
       ],
       "auto_detected": true,
       "rss_pub_date": "Fri, 16 Oct 2026 22:45:00 GMT",
-      "article_count": 1,
-      "priority": "C",
-      "priority_score": 1
-    },
-    {
-      "id": "2026-10-17-auto-138573b648",
-      "published": "2026-10-17",
-      "company": "アルカディアへの不正アクセス影響拡大 五所川原市やつ",
-      "service": "",
-      "affected_count": 0,
-      "status": "candidate",
-      "cause": "報道自動検知",
-      "summary": "アルカディアへの不正アクセス影響拡大 五所川原市やつがる市で消防関係者の情報など漏えいの可能性(青森放送)",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "青森放送",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBqbVlQOVdqZkpYNE41UmtUazdZbzZaU3VVN3MyYzRESUoyWWxCT1E5SEZ0VEJBdk52eXlrQjczalU3Q2dZd1lXX0tXN2toT1FKMWc4YjFTZGdFUWp3WF9SaGFjN1Mta1NmWGw3RjVyT3JDU0w3dFc5U1JZSjQwQjg?oc=5"
-        }
-      ],
-      "auto_detected": true,
-      "rss_pub_date": "Fri, 16 Oct 2026 12:45:59 GMT",
       "article_count": 1,
       "priority": "C",
       "priority_score": 1
@@ -9796,7 +9927,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "日本経済新聞",
+          "name": "Yahoo!ニュース",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9XQ2EzdFJ2Z09vUTRldWtrdTZxWmFiTTdSZXF4aFRnMFhOc1k3S2VuMW4xcU1HaXh2a2w3T3RjdUdGVHVqV2lvMnRDaEd3dnQ5WmN3SzdNS3VmQ2c0UUtNVl9MVktCeXA3NWs2VHN2OXVMUnpuSTU4a1locWItbEk?oc=5"
         }
       ],
@@ -9848,7 +9979,7 @@
         "page_hashes": {
           "https://www.sourcenext.com/support/i/2026/1015_info": "bd3a867fa25adca2140519f72cff539d9765a8029484b7b9ac21219265c68541"
         },
-        "last_checked": "2026-10-21 11:50 JST",
+        "last_checked": "2026-10-21 14:52 JST",
         "status": "ok"
       }
     },
@@ -9878,7 +10009,7 @@
           "https://www.itmedia.co.jp/news": "c6c690ff8e2b32bf1c83de5d9d58ae2d5bf199e58a8ce3a29036ff097bee6b0b",
           "https://www.lawson.co.jp/contents/cont07/1533174_3310.html": "b82104efb335bf62f3e1880e0e697b177806694f62895ba4067cc61f6b2d21af"
         },
-        "last_checked": "2026-10-21 11:50 JST",
+        "last_checked": "2026-10-21 14:52 JST",
         "status": "ok"
       },
       "official_updates": [],
@@ -9952,7 +10083,7 @@
           "https://news.mynavi.jp/techplus": "7ff358f33687d971405287ecb91be7c8ba8bc7c8c3ef45bd9bb3f3e0bfa55251",
           "https://www.park24.co.jp/news/2026/10/20261016-1.html": "769f2045d07a9a55faf09903d00e6bca73f3ae8a1117bb37455bfa76ea8b23e1"
         },
-        "last_checked": "2026-10-21 11:50 JST",
+        "last_checked": "2026-10-21 14:52 JST",
         "status": "ok"
       },
       "official_updates": [
@@ -10005,7 +10136,7 @@
           "https://internet.watch.impress.co.jp/": "670acfefd250d7da4fb8f5992dadb6118ac7cd8ab472a51cb44d4a162df83b85",
           "https://corp.helpfeel.com/news/news-20260916-1": "a745812c67495fd72ee804e0c33ab9a239935db96c3b415d8dab86558c0bdcc6"
         },
-        "last_checked": "2026-10-21 11:50 JST",
+        "last_checked": "2026-10-21 14:52 JST",
         "status": "ok"
       },
       "official_updates": [
@@ -10056,7 +10187,7 @@
       "official_watch": {
         "page_hashes": {},
         "last_error": "HTTPError: https://www.yellowhat.jp/",
-        "last_checked": "2026-10-21 11:50 JST",
+        "last_checked": "2026-10-21 14:52 JST",
         "status": "ok"
       },
       "reviewed_at": "2026-10-19 19:10 JST",
@@ -10084,7 +10215,7 @@
         "page_hashes": {
           "https://internet.watch.impress.co.jp/": "670acfefd250d7da4fb8f5992dadb6118ac7cd8ab472a51cb44d4a162df83b85"
         },
-        "last_checked": "2026-10-21 11:50 JST",
+        "last_checked": "2026-10-21 14:52 JST",
         "status": "no_verified_official_source"
       },
       "official_updates": [],
@@ -10110,7 +10241,7 @@
         "page_hashes": {
           "https://internet.watch.impress.co.jp/": "670acfefd250d7da4fb8f5992dadb6118ac7cd8ab472a51cb44d4a162df83b85"
         },
-        "last_checked": "2026-10-21 11:50 JST",
+        "last_checked": "2026-10-21 14:52 JST",
         "status": "no_verified_official_source"
       },
       "official_updates": [],
@@ -10134,7 +10265,7 @@
       ],
       "official_watch": {
         "page_hashes": {},
-        "last_checked": "2026-10-21 11:51 JST",
+        "last_checked": "2026-10-21 14:52 JST",
         "status": "ok"
       }
     },
@@ -10158,7 +10289,7 @@
         "page_hashes": {
           "https://internet.watch.impress.co.jp/": "670acfefd250d7da4fb8f5992dadb6118ac7cd8ab472a51cb44d4a162df83b85"
         },
-        "last_checked": "2026-10-21 11:51 JST",
+        "last_checked": "2026-10-21 14:52 JST",
         "status": "no_verified_official_source"
       },
       "official_updates": [],
@@ -10177,9 +10308,9 @@
     "cleanup_version": "1.8"
   },
   "official_monitor": {
-    "last_checked": "2026-10-21 11:51 JST",
-    "monitored_incidents": 29,
-    "updates_or_cleanup_changes": 3,
+    "last_checked": "2026-10-21 14:52 JST",
+    "monitored_incidents": 30,
+    "updates_or_cleanup_changes": 1,
     "version": "2.4"
   }
 }

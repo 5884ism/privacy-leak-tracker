@@ -1,6 +1,6 @@
 {
-  "version": "1.1",
-  "last_updated": "2026-10-21 12:26 JST",
+  "version": "1.2",
+  "last_updated": "2026-10-21 14:52 JST",
   "incidents": [
     {
       "published": "2026-10-21",
@@ -167,6 +167,14 @@
         {
           "name": "読売新聞",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9Hc3R4Rzg3Z0FHa0tRNmJnamMyQ1R6dzhPZzNwRFUyeVl1QzNlNnBIZVhSWU1KZ29xQ0NZMzhjNURoaVV4X0w5Y3NqTlRLX2ZPSDRONExWWUFkX08tVFlTeThHNUd2Uk1WN3hGdmhPT2NPWXdKeXdUVFp3OVk2VjQ?oc=5"
+        }
+      ],
+      "official_updates": [
+        {
+          "detected_at": "2026-10-21 14:51 JST",
+          "title": "70万人登録の日本サッカー協会公式アプリ 公式ページ内容更新を検知",
+          "url": "https://www.jfa.jp/news/00036934",
+          "kind": "page_changed"
         }
       ]
     },
@@ -455,40 +463,6 @@
       ]
     },
     {
-      "published": "2026-10-17",
-      "company": "警察官・職員2000人の個人情報",
-      "service": "",
-      "affected_count": 2000,
-      "status": "confirmed",
-      "cause": "報道自動検知",
-      "summary": "【画像】警察官・職員2000人の個人情報が流出した可能性...「アルカディア」不正アクセス、現時点で業務への影響なし",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "公式発表",
-          "url": "https://raiden.site.ktaiwork.jp/archives/4597"
-        },
-        {
-          "name": "読売新聞",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5CRlRrUkQyNjZJSmhtdWs2RmtoQnlnVF9ERmdxc0JPVTJHR1FhbXZBTjlDVFFfZkJYdFZVdEQ2NmhfaTZFcGdEalBLeFdlTWtjSDVId3RjNFcxY3ZHeHBwUkM4VGZYQQ?oc=5"
-        }
-      ],
-      "official_updates": [
-        {
-          "detected_at": "2026-10-20 15:25 JST",
-          "title": "警察官・職員2000人の個人情報 公式ページ内容更新を検知",
-          "url": "https://raiden.site.ktaiwork.jp/archives/4597",
-          "kind": "page_changed"
-        },
-        {
-          "detected_at": "2026-10-21 11:50 JST",
-          "title": "警察官・職員2000人の個人情報 公式ページ内容更新を検知",
-          "url": "https://raiden.site.ktaiwork.jp/archives/4597",
-          "kind": "page_changed"
-        }
-      ]
-    },
-    {
       "published": "2026-10-15",
       "company": "ソースネクスト",
       "service": "会員情報取得API",
@@ -501,6 +475,177 @@
         {
           "name": "ソースネクスト公式",
           "url": "https://www.sourcenext.com/support/i/2026/1015_info/"
+        }
+      ]
+    },
+    {
+      "published": "2026-10-13",
+      "company": "株式会社アルカディア",
+      "service": "SpeeCAN RAIDEN（raiden3.ktaiwork.jpのお客様が対象）ライデン・スクール（s2.ktaiwork.jpのお客様が対象）",
+      "affected_count": 13000,
+      "status": "confirmed",
+      "cause": "報道自動検知",
+      "summary": "全国警察官・職員の個人情報が流出",
+      "exposed_data": "対象サービス\t\nraiden.ktaiwork.jp\nraiden2.ktaiwork.jp\nraiden3.ktaiwork.jp\nraiden2.speecan.jp\ns.ktaiwork.jp\ns2.ktaiwork.jp\n\n対象項目\t\n連絡先の名前、メールアドレス、電話・FAX番号\n担当者、契約情報\n履歴として保存されている本文に記載されている内容\n\n対象サービス\tNET119　（映像通報は現時点で漏洩の可能性はございません）\t119RAIDEN\n対象URL\tnet119.speecan.jp　net119fd.speecan.jp\tfs119.ktaiwork.jp\n漏洩の可能性がある個人情報の項目\t\n利用者の名前、生年月日、性別、住所、電話番号、メールアドレス、FAX番号、他サービス登録時に入力した情報\t連絡先の名前、メールアドレス、電話・FAX番号\n担当者、契約情報\n履歴として保存されている本文に記載されている内容\n\n漏洩の可能性がある個人情報の最大件数\t約13000件\t\nメールアドレス：約97000件\n電話番号：約17000件\nFAX 番号：約400件",
+      "sources": [
+        {
+          "name": "公式発表",
+          "url": "https://raiden.site.ktaiwork.jp/archives/4597"
+        },
+        {
+          "name": "読売新聞",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5CRlRrUkQyNjZJSmhtdWs2RmtoQnlnVF9ERmdxc0JPVTJHR1FhbXZBTjlDVFFfZkJYdFZVdEQ2NmhfaTZFcGdEalBLeFdlTWtjSDVId3RjNFcxY3ZHeHBwUkM4VGZYQQ?oc=5"
+        },
+        {
+          "name": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1jeXZXVTlMYmhnem9PTXl3SlJZRzByVzFDcFBQZ05STTdqUkd6bGVqU28yc05XanQ4U0xlNDR3alZTakFRalh2YXo0MTM0eDRB?oc=5"
+        },
+        {
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbk43VUlLeGpaak5OODZ2T3dRT2txdWM5dURXQndrbnZhS1JYMlhEeXk1ME1BT0ZuZWZoWEJ3T3RiVHQwOXBiXzI3TlFfYzhodklXWWNYZFBLaXE4eFlfRUo1ak5zaWpEWUN4SjB4TndkMWo1dHF3ek81S1dYN0RTTHdvY05wNkRfQ280eExPaEwxSzk2cWJ3cFJ3TU1mRjYza3hFMjg2QjBRaGZMQ3MtOXJuTGtCQQ?oc=5"
+        },
+        {
+          "name": "ITmedia",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1IQ19rc2xzQmpxakRrQ2JnVUFLa2ZDQ2NvSUhPWWNmYUNDb2tScHFOVXJVRlUwOHdOcXV4ZmdpdEE0THFMMDBkUnkxeXVfaXNjejVESHAwaGFuMk5nNnQ3ck8xZnd3OENHVkE?oc=5"
+        },
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMEJjaGlwWkRVdlRtZXdUTkdoX19zUElLZHcyQUphY3cwb2wwaGx3U0U4WWcwNVBkTkRuTEtZc0RYUGFJVmdvOUJ5aGpybWdJcVd2ZFZHRWtTQ0QyQmdrMGg5Wkc2cmE1RlNaLWw1aUJBcjRrQXpvMlU1ZGxQbnpSLVhoZnk5VjQ?oc=5"
+        },
+        {
+          "name": "日テレNEWS NNN",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9fdmJoNEtYTV9fdEdaSXdIQUFVckl1dGxpQWNXRk5OS2dnVG9ZUzhxbEk2b0lJa1NNT1lObnprZy00M0Q5YXFTc2VnWUdINjhZNUdORU9kSmVRS0hwODAtV3hTd0ktLVZmWTNzVXFaNVFyYkE3d1NKZmVmcFA?oc=5"
+        }
+      ],
+      "affected_organizations": [
+        {
+          "name": "22府県の警察"
+        },
+        {
+          "name": "アルカディア 防災情報配信サービスへ"
+        },
+        {
+          "name": "栃木県警、全職員"
+        },
+        {
+          "name": "県警の警察官・職員約2200人分"
+        },
+        {
+          "name": "全国の警察官らの情報 大量流出か"
+        },
+        {
+          "name": "県警"
+        },
+        {
+          "name": "栃木県警職員"
+        },
+        {
+          "name": "栃木県警全職員"
+        },
+        {
+          "name": "7消防本部管内でも情報漏えいか アルカディア不正アクセス"
+        },
+        {
+          "name": "アルカディア不正アクセス 県警で職員情報流出か/埼玉県(テレ玉)"
+        },
+        {
+          "name": "福岡県警の警察官と職員1万1000人"
+        },
+        {
+          "name": "栃木県警の警察官・職員約3,900人分"
+        },
+        {
+          "name": "神奈川、埼玉、群馬の各県警で警察官など"
+        },
+        {
+          "name": "侵入経路塞いだが"
+        },
+        {
+          "name": "神奈川・埼玉・栃木・群馬の各県警で警察官など"
+        },
+        {
+          "name": "福岡県警1.1万人"
+        },
+        {
+          "name": "警察官や職員約1万1000人"
+        },
+        {
+          "name": "神奈川県警でも1.6万人"
+        },
+        {
+          "name": "関東4県の警察職員3万6600人分"
+        },
+        {
+          "name": "警察官と職員の1万人超"
+        },
+        {
+          "name": "静岡市、アルカディアへ"
+        },
+        {
+          "name": "埼玉県警も情報漏えいの可能性...警察官ら職員1万3千人"
+        },
+        {
+          "name": "徳島県警、警察官・職員約1,900人"
+        },
+        {
+          "name": "唐津市情報メール配信サービスを業務委託しているアルカディア"
+        },
+        {
+          "name": "埼玉県警、職員約1万3千人"
+        },
+        {
+          "name": "アルカディアのSpeeCAN RAIDEN へ"
+        },
+        {
+          "name": "埼玉県警で職員情報流出か アルカディア不正アクセス"
+        },
+        {
+          "name": "アルカディア"
+        },
+        {
+          "name": "埼玉県警で職員情報流出か アルカディア不正アクセス(共同通信)"
+        },
+        {
+          "name": "宮城・登米市でも個人情報漏えい 緊急通報システムに登録の市民15人分"
+        },
+        {
+          "name": "埼玉県警、警察官・職員約1万3,000人"
+        },
+        {
+          "name": "福島・北塩原3校も情報漏えいか アルカディア不正アクセス(福島民友新聞)"
+        },
+        {
+          "name": "岡山県警職員4千人分"
+        },
+        {
+          "name": "北塩原3校も情報漏えいか アルカディア不正アクセス"
+        },
+        {
+          "name": "福岡県と福岡市"
+        },
+        {
+          "name": "小松島消防本部"
+        },
+        {
+          "name": "駿東伊豆消防本部"
+        },
+        {
+          "name": "アルカディアへの不正アクセス影響拡大 五所川原市やつ"
+        }
+      ],
+      "affected_organization_count": 38,
+      "official_updates": [
+        {
+          "detected_at": "2026-10-20 15:25 JST",
+          "title": "警察官・職員2000人の個人情報 公式ページ内容更新を検知",
+          "url": "https://raiden.site.ktaiwork.jp/archives/4597",
+          "kind": "page_changed"
+        },
+        {
+          "detected_at": "2026-10-21 11:50 JST",
+          "title": "警察官・職員2000人の個人情報 公式ページ内容更新を検知",
+          "url": "https://raiden.site.ktaiwork.jp/archives/4597",
+          "kind": "page_changed"
         }
       ]
     },
