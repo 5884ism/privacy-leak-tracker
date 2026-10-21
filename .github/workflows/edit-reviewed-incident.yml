@@ -8,27 +8,27 @@ on:
         required: true
         type: string
       published:
-        description: "公表日 (YYYY-MM-DD) ※空欄なら変更なし"
+        description: "公表日"
         required: false
         default: ""
         type: string
       company:
-        description: "企業・団体名 ※空欄なら変更なし"
+        description: "企業・団体名"
         required: false
         default: ""
         type: string
       service:
-        description: "サービス名 ※空欄なら変更なし"
+        description: "サービス名"
         required: false
         default: ""
         type: string
       affected_count:
-        description: "対象規模 ※空欄なら変更なし（4,454,097件 でも可）"
+        description: "対象規模"
         required: false
         default: ""
         type: string
       status:
-        description: "確認状況 ※未選択なら変更なし"
+        description: "確認状況"
         required: false
         default: ""
         type: choice
@@ -37,39 +37,39 @@ on:
           - confirmed
           - possible
       cause:
-        description: "原因・分類 ※空欄なら変更なし"
+        description: "原因・分類"
         required: false
         default: ""
         type: string
       summary:
-        description: "案件概要 ※空欄なら変更なし"
+        description: "案件概要"
         required: false
         default: ""
         type: string
       exposed_data:
-        description: "漏えい・対象情報 ※空欄なら変更なし"
+        description: "漏えい・対象情報"
         required: false
         default: ""
         type: string
       sources_json:
-        description: "情報源JSON ※空欄なら変更なし。編集フォームからコピー"
-        required: false
-        default: ""
-        type: string
-      official_url:
-        description: "旧方式: 公式発表URL ※通常は空欄"
-        required: false
-        default: ""
-        type: string
-      source_name:
-        description: "旧方式: 公式情報源名 ※通常は空欄"
+        description: "情報源JSON"
         required: false
         default: ""
         type: string
       note:
-        description: "確認・修正メモ ※空欄なら変更なし"
+        description: "確認・修正メモ"
         required: false
         default: ""
+        type: string
+      merge_ids_json:
+        description: "親案件へ追加で紐づける候補ID JSON"
+        required: false
+        default: "[]"
+        type: string
+      affected_organizations_json:
+        description: "影響組織JSON"
+        required: false
+        default: "[]"
         type: string
 
 permissions:
@@ -106,8 +106,6 @@ jobs:
           SUMMARY: ${{ inputs.summary }}
           EXPOSED_DATA: ${{ inputs.exposed_data }}
           SOURCES_JSON: ${{ inputs.sources_json }}
-          OFFICIAL_URL: ${{ inputs.official_url }}
-          SOURCE_NAME: ${{ inputs.source_name }}
           NOTE: ${{ inputs.note }}
         run: |
           python scripts/edit_reviewed_incident.py \
@@ -121,8 +119,21 @@ jobs:
             --summary "$SUMMARY" \
             --exposed-data "$EXPOSED_DATA" \
             --sources-json "$SOURCES_JSON" \
-            --official-url "$OFFICIAL_URL" \
-            --source-name "$SOURCE_NAME" \
+            --note "$NOTE"
+
+      - name: Attach candidate incidents to reviewed parent
+        if: ${{ inputs.merge_ids_json != '[]' && inputs.merge_ids_json != '' }}
+        env:
+          INCIDENT_ID: ${{ inputs.incident_id }}
+          MERGE_IDS_JSON: ${{ inputs.merge_ids_json }}
+          AFFECTED_ORGS: ${{ inputs.affected_organizations_json }}
+          NOTE: ${{ inputs.note }}
+        run: |
+          python scripts/merge_candidates.py \
+            --mode existing \
+            --parent-id "$INCIDENT_ID" \
+            --merge-ids-json "$MERGE_IDS_JSON" \
+            --affected-organizations-json "$AFFECTED_ORGS" \
             --note "$NOTE"
 
       - name: Check official follow-up announcements
