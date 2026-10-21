@@ -1,0 +1,36 @@
+
+.reviewed-editor-actions .secondary-link{
+  border:1px solid #d0d5dd!important;
+  background:#fff!important;
+  color:#344054!important;
+}
+.reviewed-editor-actions .primary-action{
+  border:1px solid #2447d8;
+  background:#2447d8;
+  color:#fff;
+}
+.reviewed-editor-actions button:disabled{
+  opacity:.6;
+  cursor:wait;
+}
+.reviewed-editor-status{
+  padding:10px 12px;
+  border-radius:9px;
+  font-size:11px;
+  font-weight:700;
+}
+.reviewed-editor-status.is-info{
+  border:1px solid #bfdbfe;
+  background:#eff6ff;
+  color:#1d4ed8;
+}
+.reviewed-editor-status.is-success{
+  border:1px solid #a7f3d0;
+  background:#ecfdf5;
+  color:#047857;
+}
+.reviewed-editor-status.is-error{
+  border:1px solid #fecaca;
+  background:#fef2f2;
+  color:#b91c1c;
+}
