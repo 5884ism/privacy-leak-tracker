@@ -1,7 +1,27 @@
 {
   "version": "1.1",
-  "last_updated": "2026-10-21 11:51 JST",
+  "last_updated": "2026-10-21 12:26 JST",
   "incidents": [
+    {
+      "published": "2026-10-21",
+      "company": "株式会社リンクステーション",
+      "service": "GETTIIS",
+      "affected_count": 317971,
+      "status": "confirmed",
+      "cause": "報道自動検知",
+      "summary": "GETTIISの会員ID31万7,971件が漏洩、パスワードハッシュ31万1,451件も対象 リンクステーションが第2報",
+      "exposed_data": "会員ID： 317,971件\nハッシュ化されたパスワード： 311,451件\nクレジットカード関連情報： 29,515件\n氏名： 309,759件\n性別： 5,900件\n生年月日： 5,192件\n郵便番号： 489件\n電話番号： 309,668件\nメールアドレス： 311,426件",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNDNDX1E2WEludWpnNEFUMm5MazBPTXZVYXNyWXRiZVcxQkFwdWhmWmdKSjFWbk1WVm5nWlFYNEhXeXJaYVltd2sxdWdCejV1THdJckZ2eDRCcHNJeXk4Wm56WEFMcU85NXBMbndWb1RDcVFhejYzendWOWtSMUtNd1JDcmtYNm5PZzJCdmJnejJRN0xMVHRaR3NzdC1GWjU1b0lvd1J2enFyM2c?oc=5"
+        },
+        {
+          "name": "公式",
+          "url": "https://www.gettiis.jp/notice/detail/42"
+        }
+      ]
+    },
     {
       "published": "2026-10-20",
       "company": "株式会社トラストバンク",

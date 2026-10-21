@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-21 11:51 JST",
+  "last_updated": "2026-10-21 12:26 JST",
   "incidents": [
     {
       "id": "2026-10-21-auto-43fe4ce1ad",
@@ -35,7 +35,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "ScanNetSecurity",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1uNzgyakRFaDE3aWV1Skdtb2xjUF82cERoODlXUllRU0cwQkZMNEdPVERra0RTcDBSd2p6SDFKbjhFV2dDSUkwaVlwZjJxRWItZjd0a21EYmJjWGZ2d0RYMTBfQV9Id1J3RzVuSg?oc=5"
         }
       ],
@@ -642,24 +642,33 @@
     {
       "id": "2026-10-21-auto-96fb3d4bae",
       "published": "2026-10-21",
-      "company": "GETTIISの会員ID31万7,971件",
-      "service": "",
+      "company": "株式会社リンクステーション",
+      "service": "GETTIIS",
       "affected_count": 317971,
-      "status": "candidate",
+      "status": "confirmed",
       "cause": "報道自動検知",
       "summary": "GETTIISの会員ID31万7,971件が漏洩、パスワードハッシュ31万1,451件も対象 リンクステーションが第2報",
-      "exposed_data": "要確認",
+      "exposed_data": "会員ID： 317,971件\nハッシュ化されたパスワード： 311,451件\nクレジットカード関連情報： 29,515件\n氏名： 309,759件\n性別： 5,900件\n生年月日： 5,192件\n郵便番号： 489件\n電話番号： 309,668件\nメールアドレス： 311,426件",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNDNDX1E2WEludWpnNEFUMm5MazBPTXZVYXNyWXRiZVcxQkFwdWhmWmdKSjFWbk1WVm5nWlFYNEhXeXJaYVltd2sxdWdCejV1THdJckZ2eDRCcHNJeXk4Wm56WEFMcU85NXBMbndWb1RDcVFhejYzendWOWtSMUtNd1JDcmtYNm5PZzJCdmJnejJRN0xMVHRaR3NzdC1GWjU1b0lvd1J2enFyM2c?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNDNDX1E2WEludWpnNEFUMm5MazBPTXZVYXNyWXRiZVcxQkFwdWhmWmdKSjFWbk1WVm5nWlFYNEhXeXJaYVltd2sxdWdCejV1THdJckZ2eDRCcHNJeXk4Wm56WEFMcU85NXBMbndWb1RDcVFhejYzendWOWtSMUtNd1JDcmtYNm5PZzJCdmJnejJRN0xMVHRaR3NzdC1GWjU1b0lvd1J2enFyM2c?oc=5",
+          "official": false
+        },
+        {
+          "name": "公式",
+          "url": "https://www.gettiis.jp/notice/detail/42",
+          "official": true
         }
       ],
       "auto_detected": true,
       "rss_pub_date": "Tue, 20 Oct 2026 22:15:45 GMT",
       "article_count": 1,
-      "priority": "A",
-      "priority_score": 7
+      "official_urls": [
+        "https://www.gettiis.jp/notice/detail/42"
+      ],
+      "reviewed_at": "2026-10-21 12:26 JST",
+      "review_note": ""
     },
     {
       "id": "2026-10-21-auto-114d53f508",
@@ -673,7 +682,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "日本経済新聞",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9XQmo3MmpBRGtBMl84MWI3SEpfSFkwaVJEVnRLaVowbV9tYWhFWl83UXFwRjZZOUNrVVQ0YnpaUXZob1hDbTg3N2pjQ0FjM0s4U0V1V0xhVWkwRG1lRkZPZ1RNZnNUWHBmMnp2NQ?oc=5"
         }
       ],
@@ -1427,7 +1436,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "毎日新聞",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE00czNXUmNRUWZWaHB5dXZRUHdxV2hIdGIwTlpiLXpvaUdyTzh6UUFHWlFncmZ3QXFQVjRYQzllT0R0bUxrVDkxMXJZeThLQzZ5MVFqU3ljc3BSeFE?oc=5"
         }
       ],
@@ -3013,7 +3022,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Yahoo!ニュース",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1KcGdZN3ZsVDJ6N3lKa2NyaW1tNU1TalU4Um1OZkNiYy10RHlFQkNWNWhRRDluTUQ1d1VyRnBDWXRrbGRBNFUxenk3TURFZjY3LUFMbEpXSy1xYVJXWTVseGEzWVVGTUZqSGdmdXk3eXEwTy05dERXdHkyMlZkWWM?oc=5"
         }
       ],
