@@ -1,0 +1,49 @@
+name: Edit candidate news
+on:
+  workflow_dispatch:
+    inputs:
+      incident_id: {description: "候補案件ID", required: true, type: string}
+      published: {description: "公表日", required: false, default: "", type: string}
+      company: {description: "企業・団体名", required: false, default: "", type: string}
+      service: {description: "サービス名", required: false, default: "", type: string}
+      affected_count: {description: "対象規模", required: false, default: "", type: string}
+      cause: {description: "原因・分類", required: false, default: "", type: string}
+      summary: {description: "ニュース概要", required: false, default: "", type: string}
+      exposed_data: {description: "対象情報", required: false, default: "", type: string}
+      sources_json: {description: "情報源JSON", required: false, default: "[]", type: string}
+      note: {description: "更新内容", required: false, default: "", type: string}
+permissions: {contents: write}
+concurrency: {group: privacy-leak-data-write, cancel-in-progress: false}
+jobs:
+  edit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with: {python-version: "3.12"}
+      - name: Edit candidate news
+        env:
+          INCIDENT_ID: ${{ inputs.incident_id }}
+          PUBLISHED: ${{ inputs.published }}
+          COMPANY: ${{ inputs.company }}
+          SERVICE: ${{ inputs.service }}
+          AFFECTED_COUNT: ${{ inputs.affected_count }}
+          CAUSE: ${{ inputs.cause }}
+          SUMMARY: ${{ inputs.summary }}
+          EXPOSED_DATA: ${{ inputs.exposed_data }}
+          SOURCES_JSON: ${{ inputs.sources_json }}
+          NOTE: ${{ inputs.note }}
+        run: python scripts/edit_candidate_news.py --id "$INCIDENT_ID" --published "$PUBLISHED" --company "$COMPANY" --service "$SERVICE" --affected-count "$AFFECTED_COUNT" --cause "$CAUSE" --summary "$SUMMARY" --exposed-data "$EXPOSED_DATA" --sources-json "$SOURCES_JSON" --note "$NOTE"
+      - name: Normalize source names
+        run: python scripts/normalize_source_names.py
+      - name: Generate public news
+        run: python scripts/export_public_news.py
+      - name: Commit changes
+        run: |
+          git config user.name "privacy-leak-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/incidents.json data/public-news.json
+          git commit -m "news: edit candidate ${{ inputs.incident_id }}"
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
