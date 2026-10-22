@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-22 19:34 JST",
+  "last_updated": "2026-10-22 19:39 JST",
   "incidents": [
     {
       "id": "2026-10-22-auto-217fc06efd",
@@ -366,7 +366,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "時事通信",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQ2lRT1o0ckk3bFZ2cjhnRTdiOEppakhKTTlBa1hxdEhuTk9Pd1hLa1VDWVBpVXUzVDhLUVVoUGxiZ0tvT0dabHlxdFIyOFJwZy1ub0tBYUNWQXNXcHVZRHhvRmM5azh1My1qRzRjby1GU203MDJGOTZXQS1Yc044V0lSZko5Vk0?oc=5"
         }
       ],
@@ -590,7 +590,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "TBS NEWS DIG",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCMFZUeU1pUjBRSUk2RlJJR1pWdldIX2NxN01EMzhQb2x1MndKZkhDQXpuOV9ZNk9ld0VpS2lScnpXSGxLVFRXbWJQS1pqelI0ZGtZTnpwSkhCNEJMd25KbDFGZTdwWlV6VGcyOEVyZ3RiMlZKdEJIQ2NUYlNyNjQ?oc=5"
         }
       ],
@@ -700,7 +700,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "FNNプライムオンライン",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8wVmFVLU5qSmZfUkx0elRsR0pHYmpEamQ2ZTVZLUY5ak9tbXgzYmM0NEtrSUZxdmxPQ0p4M25KMThKR1V4SFFJNzdqWDFPRzc3N1BHQTFBU2o4bGw3cmRMelZJbXlXQ1NNNm1Tc0dqR2pNYWpGd01zVnhMZy1xUXc?oc=5"
         }
       ],
@@ -2174,39 +2174,50 @@
       "id": "2026-10-22-auto-dac2389002",
       "published": "2026-10-22",
       "company": "カプコン",
-      "service": "",
+      "service": "CAPCOM ID",
       "affected_count": 11774247,
-      "status": "candidate",
+      "status": "confirmed",
       "cause": "報道自動検知",
-      "summary": "カプコン、1177万件の情報漏えいを発表 全世界のメールアドレスなど 謝罪「『CAPCOM ID』を使用したサービスは引き続きご利用いただけます」(オリコン)",
+      "summary": "不正アクセスの概要（10月22日時点）\n\n(1) メールアドレス、システム固有の識別情報（※2）の漏えい\n対象件数：11,774,247件（全世界合計）\n※2 アカウント作成日時、最終ログイン日時、ログイン回数、最終ログイン時のクライアントIP\n\n(2) 生年月日、性別、国・地域、ニックネームの漏えい\n対象件数：(1)のうち43件\n\n(3)「CAPCOM ID」のログインパスワードの不正な変更\n対象件数：(1)のうち196件\nお客様ご自身で設定されたパスワードの漏えいは確認されておりません。一方、196件のアカウントにおいて、パスワードが不正に変更されていたことを確認しました。当該アカウントは既にパスワードをリセットしており、不正アクセスによる影響範囲については引き続き調査を進めております。\n\n対象となるお客様には順次個別にご連絡いたします。なお、クレジットカード情報は漏えい対象には含まれておりません。",
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1NS2F6Zmp6WmlCOUhiMUtkZkFfZUppaG5ycmJXZXBjbGNYRGpJQWYzWDRDanFkZGluMHlESjV1cTNiQ3NFNktjSDJ3dWpleEhHWjh1V3NVMG5iQ0ZGZGstT2dPSG5OU2xUUGJjMQ?oc=5"
+          "name": "公式",
+          "url": "https://www.capcom.co.jp/ir/news/html/261022.html",
+          "official": false
         },
         {
           "name": "合同会社ロケットボーイズ",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUFRiOTROZElLZnhSMm9nb3haaFhycERIclJPRjhkNXczdTBScHZkZ01rYlZYWk43ZFlPSVAzYktkMnZGVkFnakNicEtrYU5qUE95ZDFfWHktNzJiUTRJUVhwdlFwa3E5RGFzT1dFanpLdjJlNmRTdS16ekJJalZ1dFJXVFJ0a1d1N0hjcWFWSkxLYTVTaS1JWmF2cENTVEg2djR1YmtDTjg?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUFRiOTROZElLZnhSMm9nb3haaFhycERIclJPRjhkNXczdTBScHZkZ01rYlZYWk43ZFlPSVAzYktkMnZGVkFnakNicEtrYU5qUE95ZDFfWHktNzJiUTRJUVhwdlFwa3E5RGFzT1dFanpLdjJlNmRTdS16ekJJalZ1dFJXVFJ0a1d1N0hjcWFWSkxLYTVTaS1JWmF2cENTVEg2djR1YmtDTjg?oc=5",
+          "official": false
         },
         {
           "name": "ASCII.jp",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAzbnlVT0VSU0gxV2ZXTURUVnFUUVlpRTdsdHdLbGVTYlZfUUxMNFdxYzBRblN0Nl91NWJLb3RNT2JGMzk3OFNsak91UUt2Q2VWLUVNZQ?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAzbnlVT0VSU0gxV2ZXTURUVnFUUVlpRTdsdHdLbGVTYlZfUUxMNFdxYzBRblN0Nl91NWJLb3RNT2JGMzk3OFNsak91UUt2Q2VWLUVNZQ?oc=5",
+          "official": false
         },
         {
           "name": "Game*Spark",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5pYUVZbzNpS1pvc2w3eEF3SjVKY0Y1QUlsTWotam1uX3dxSTVMSkZVeTgyMmxQRTRJeXM1a29taDdaUmxPcThTeVZqd3A5aWp1UVpCMkRIdW4yZDJVNks2eEtjQVRZZw?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5pYUVZbzNpS1pvc2w3eEF3SjVKY0Y1QUlsTWotam1uX3dxSTVMSkZVeTgyMmxQRTRJeXM1a29taDdaUmxPcThTeVZqd3A5aWp1UVpCMkRIdW4yZDJVNks2eEtjQVRZZw?oc=5",
+          "official": false
         },
         {
           "name": "Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBtRlZXMV9DVnZPN05Hd3ktWVdsMm1adm11UTJOdWJ4REN6cUh3ZV9nYmRrYWFyNG9iZGNxNWhOcVBWend6WDE0Z2psUm1GUGVESzlSX0lyMmYxT0tTWGFhNTYwMFZMSzFoMVhWZUZ4RDVrU0M2eVVQMGNxMDE5Wk0?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBtRlZXMV9DVnZPN05Hd3ktWVdsMm1adm11UTJOdWJ4REN6cUh3ZV9nYmRrYWFyNG9iZGNxNWhOcVBWend6WDE0Z2psUm1GUGVESzlSX0lyMmYxT0tTWGFhNTYwMFZMSzFoMVhWZUZ4RDVrU0M2eVVQMGNxMDE5Wk0?oc=5",
+          "official": false
+        },
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1NS2F6Zmp6WmlCOUhiMUtkZkFfZUppaG5ycmJXZXBjbGNYRGpJQWYzWDRDanFkZGluMHlESjV1cTNiQ3NFNktjSDJ3dWpleEhHWjh1V3NVMG5iQ0ZGZGstT2dPSG5OU2xUUGJjMQ?oc=5",
+          "official": false
         }
       ],
       "auto_detected": true,
       "rss_pub_date": "Thu, 22 Oct 2026 09:01:09 GMT",
       "article_count": 17,
-      "priority": "A",
-      "priority_score": 10
+      "official_urls": [],
+      "reviewed_at": "2026-10-22 19:39 JST",
+      "review_note": ""
     },
     {
       "id": "2026-10-22-auto-790d1bbd91",
@@ -2308,7 +2319,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "スポニチアネックス",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1BZWs4M05uRDEyaHBEdERUQnJkYzgxZmxiNDVwT1NGcmtlbGE5d01vTTNmVFRRaC1tVmliTGFaN2NnclJ4X2NvV1pNMlllVVpxd0RfbGR4OHByS1JHRzRWYzJWLVJRTGEyMFdONnREVmYtUWpDeHFYR1Y0a0Z2TUk?oc=5"
         }
       ],
@@ -2330,7 +2341,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "TeNYテレビ新潟",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE40NWtXU0ppVGl5a01mRzFRYUt6M0drMDBYSzRkaldyUkkwMVRFOV9PR2ptamlsRVIyZVl2RjJXcTdyNEdfSUNJU0dZVFh5TGRsS2pJTkx3N2lFV0JHNmhMRU5TdnNCZ184UUtkZG4yMVVENEFjWEs4Mm5Td0c5MkE?oc=5"
         }
       ],
@@ -2418,7 +2429,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "時事通信",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMXk1Zmc4MGhRMFdKMEZxZVptRlQzUVVnaGV4ZUR2OU5iY1h4S2NYSXNqZXR3NHFEZk1rRDNzcm8zbVh5SHBmRDBGU29jUjVyNS1acEo0cTByLWxRenhlNGpGN0VxQzBYanVCOHZmRzV1TUkxdV9SX01keGFUZ0NFdFNFZ2Y5aGc?oc=5"
         }
       ],
@@ -2792,7 +2803,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "OBS大分放送",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBXOFNMYTBwU2NwdFRqRGY3VFhZcld4T1EyeGNXLVVzTi1HOHBsM0QyNlo2bml4SGpRVFp3Q2hOUjh2M3U4czhWbGxaSDJsdzhPbER3bkh0cTREWHZ0blhfU1pMcU5qUnBxNzZLZTNNMGhhNWhleXRDZVdiU0N6SjQ?oc=5"
         }
       ],
@@ -2968,7 +2979,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "共同通信",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1OYzNPVXBqcE1Wb3FocUxUQ2VhTnc3TXNBaUJnbjlPMzl1UVNiS2FYUm85WER5c2l0R1VBRzA0QVlyREVxOGRxZVFXZjBBbDJ6a1R5TmhKaUZIV2pEUTM3ejQwcVNtRUlhWG1WNVRZdHE5NW93TTZzTE0yNlhDcDQ?oc=5"
         }
       ],
@@ -10845,7 +10856,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "rccWNUzUY6",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPWWtGdG80aW56YkFsckVMRlRtcXNJdkM3RW8tb01tbnFOdEw3clUzTUs5WGtRSHFIR0diT0VmeHNZOTk3eGw0MG1qV0xsSUNqc2d1QzFrNkF3Y2xCSGNwRUJnNmIxM3JpMlp3aGZwYWU1T1QySmZWbnc5UHZOdG9VdXMxUzlsZ1U?oc=5"
         }
       ],
@@ -11714,7 +11725,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "合同会社ロケットボーイズ",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdm9hUXduakVfbHdLY0diQTFOU1NpcEM5VnZNa1VCajBLTWhyczF1ZHlZT1ZJUGhTRDZmTWJYOU84YURBRU0xOE8tQkhDN0J6aTdmVF9WV29vNUxJQUJhZW15bU43TXJFWnJQTndDQjYyX1p1MVoyS0hVM2MzOFo2dTUzaGJncm9DZ1ZNSzhjeW85bl9aYnZlbnJjemUyV0ZSSk5lX1hvY29xelpmcVRCZnJOYw?oc=5"
         }
       ],

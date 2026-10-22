@@ -1,7 +1,43 @@
 {
   "version": "1.2",
-  "last_updated": "2026-10-22 19:34 JST",
+  "last_updated": "2026-10-22 19:39 JST",
   "incidents": [
+    {
+      "published": "2026-10-22",
+      "company": "カプコン",
+      "service": "CAPCOM ID",
+      "affected_count": 11774247,
+      "status": "confirmed",
+      "cause": "報道自動検知",
+      "summary": "不正アクセスの概要（10月22日時点）\n\n(1) メールアドレス、システム固有の識別情報（※2）の漏えい\n対象件数：11,774,247件（全世界合計）\n※2 アカウント作成日時、最終ログイン日時、ログイン回数、最終ログイン時のクライアントIP\n\n(2) 生年月日、性別、国・地域、ニックネームの漏えい\n対象件数：(1)のうち43件\n\n(3)「CAPCOM ID」のログインパスワードの不正な変更\n対象件数：(1)のうち196件\nお客様ご自身で設定されたパスワードの漏えいは確認されておりません。一方、196件のアカウントにおいて、パスワードが不正に変更されていたことを確認しました。当該アカウントは既にパスワードをリセットしており、不正アクセスによる影響範囲については引き続き調査を進めております。\n\n対象となるお客様には順次個別にご連絡いたします。なお、クレジットカード情報は漏えい対象には含まれておりません。",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "公式",
+          "url": "https://www.capcom.co.jp/ir/news/html/261022.html"
+        },
+        {
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUFRiOTROZElLZnhSMm9nb3haaFhycERIclJPRjhkNXczdTBScHZkZ01rYlZYWk43ZFlPSVAzYktkMnZGVkFnakNicEtrYU5qUE95ZDFfWHktNzJiUTRJUVhwdlFwa3E5RGFzT1dFanpLdjJlNmRTdS16ekJJalZ1dFJXVFJ0a1d1N0hjcWFWSkxLYTVTaS1JWmF2cENTVEg2djR1YmtDTjg?oc=5"
+        },
+        {
+          "name": "ASCII.jp",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAzbnlVT0VSU0gxV2ZXTURUVnFUUVlpRTdsdHdLbGVTYlZfUUxMNFdxYzBRblN0Nl91NWJLb3RNT2JGMzk3OFNsak91UUt2Q2VWLUVNZQ?oc=5"
+        },
+        {
+          "name": "Game*Spark",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5pYUVZbzNpS1pvc2w3eEF3SjVKY0Y1QUlsTWotam1uX3dxSTVMSkZVeTgyMmxQRTRJeXM1a29taDdaUmxPcThTeVZqd3A5aWp1UVpCMkRIdW4yZDJVNks2eEtjQVRZZw?oc=5"
+        },
+        {
+          "name": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBtRlZXMV9DVnZPN05Hd3ktWVdsMm1adm11UTJOdWJ4REN6cUh3ZV9nYmRrYWFyNG9iZGNxNWhOcVBWend6WDE0Z2psUm1GUGVESzlSX0lyMmYxT0tTWGFhNTYwMFZMSzFoMVhWZUZ4RDVrU0M2eVVQMGNxMDE5Wk0?oc=5"
+        },
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1NS2F6Zmp6WmlCOUhiMUtkZkFfZUppaG5ycmJXZXBjbGNYRGpJQWYzWDRDanFkZGluMHlESjV1cTNiQ3NFNktjSDJ3dWpleEhHWjh1V3NVMG5iQ0ZGZGstT2dPSG5OU2xUUGJjMQ?oc=5"
+        }
+      ]
+    },
     {
       "published": "2026-10-22",
       "company": "大阪大学",
