@@ -1,96 +1,76 @@
 {
   "version": "1.1",
-  "generated_at": "2026-10-22T11:26:13+00:00",
-  "before_count": 344,
-  "after_count": 349,
-  "net_change": 5,
-  "new_count": 4,
+  "generated_at": "2026-10-22T11:41:58+00:00",
+  "before_count": 349,
+  "after_count": 352,
+  "net_change": 3,
+  "new_count": 3,
   "removed_count": 0,
-  "visible_before_count": 344,
-  "visible_after_count": 349,
-  "visible_net_change": 5,
-  "raw_before_count": 524,
-  "raw_after_count": 533,
-  "raw_net_change": 9,
+  "visible_before_count": 349,
+  "visible_after_count": 352,
+  "visible_net_change": 3,
+  "raw_before_count": 533,
+  "raw_after_count": 536,
+  "raw_net_change": 3,
   "new_candidate_ids": [
-    "2026-10-22-auto-5f4a248d25",
-    "2026-10-22-auto-9eab9a6818",
-    "2026-10-22-auto-8d5e6339bd",
-    "2026-10-22-auto-fc518af5a9"
+    "2026-10-22-auto-2588704bcd",
+    "2026-10-22-auto-30e39b5258",
+    "2026-10-22-auto-685ea8ac97"
   ],
   "new_candidates": [
     {
-      "id": "2026-10-22-auto-5f4a248d25",
+      "id": "2026-10-22-auto-2588704bcd",
       "member_ids": [
-        "2026-10-22-auto-5f4a248d25"
-      ],
-      "priority": "B",
-      "published": "2026-10-22",
-      "company": "新潟日報メール会員25万人",
-      "service": "",
-      "affected_count": 250000,
-      "summary": "新潟日報メール会員25万人の情報漏洩 システム会社に不正アクセス",
-      "sources": [
-        {
-          "name": "朝日新聞",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54OWgzc3FRZ2w3OXk2WTFFLTNKSVd4QlR0ZXVCSjlPUDVkS0NvY3dsVjJGRWViN0h6aXpvUkdicFdmdENpcXhsRUl6Q1d2ZXQwdF93RVFsTmRTY0hiblFPS1A2LUJ3NmM?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-22-auto-9eab9a6818",
-      "member_ids": [
-        "2026-10-22-auto-9eab9a6818"
+        "2026-10-22-auto-2588704bcd"
       ],
       "priority": "C",
       "published": "2026-10-22",
-      "company": "メルマガ「焼津おとな倶楽部」919人分",
-      "service": "",
-      "affected_count": 919,
-      "summary": "メルマガ「焼津おとな倶楽部」919人分の個人情報流出のおそれ 配信に利用の「ブラストメール」不正アクセス受ける=静岡・焼津市(静岡放送(SBS))",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1JaGpieFBOWlItM3ZISUtmRC1pa0wyb3JoaE8wUWZBNTVra0p5UE56dTB1RW1rRFNTaldyUGUyVU1LZEdoR3J0SHlNdzNXdVB6S1ZvT09Ec3pTdTF2dFZnNUdCNWVZZDZCRk9waVZUNDFiSHluV0lZQkEzVS1JVlk?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-22-auto-8d5e6339bd",
-      "member_ids": [
-        "2026-10-22-auto-8d5e6339bd"
-      ],
-      "priority": "B",
-      "published": "2026-10-22",
-      "company": "JR四国、個人情報約3万件漏洩か 外部システム",
-      "service": "",
-      "affected_count": 30000,
-      "summary": "JR四国、個人情報約3万件漏洩か 外部システムに不正アクセス",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBuR3lNM1JOTDRWa0pKMzhVcVdPMGFWMkpacGhFUWVLcFVCT0NMcW9DVENqcGt3TkZjS1hpNEdoRzZJS3B2M3RQbTJFR0lXRkpQODNyNW5VcjRGQ3psU3ZaOFhCQVZLdnl3MU9iZA?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-22-auto-fc518af5a9",
-      "member_ids": [
-        "2026-10-22-auto-fc518af5a9"
-      ],
-      "priority": "C",
-      "published": "2026-10-22",
-      "company": "運転免許証でのオンライン本人確認",
+      "company": "広島県のスポーツイベント",
       "service": "",
       "affected_count": 0,
-      "summary": "運転免許証でのオンライン本人確認、大手金融機関が前倒しで廃止...情報漏えい相次ぎマイナカードに切り替え急ぐ",
+      "summary": "広島県のスポーツイベントで個人情報流出か 業者HPに不正アクセスで2人分",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1iSTE1dDJCSFhpQkJPWUNBUFFodVBnUUhQc2U4WTJvMHlCdEVJZ0NIek9JMlZ0S2lJYVY3VmlfTldDNVhqbktDbTFkM1lsaHpSM0dwM3pTSVAtaXQ4Z1MwNkNScUFCVDZvN2pnRnJmNkNsRUdJSC15VTRkZXQ5clk?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE83dTRia2dGOFpOb2N5VHU2aWRDaGxsLVg4ZG1XX0RiamQya0o0dGZmSUtIdmQzZDFrMlhDWm83cFJWbFF2VzhpWTFCUQ?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-22-auto-30e39b5258",
+      "member_ids": [
+        "2026-10-22-auto-30e39b5258"
+      ],
+      "priority": "C",
+      "published": "2026-10-22",
+      "company": "OTV開発1300件あまり",
+      "service": "",
+      "affected_count": 1300,
+      "summary": "OTV開発1300件あまりの個人情報流出のおそれ(沖縄テレビOTV)",
+      "sources": [
+        {
+          "name": "沖縄テレビOTV",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1qV2JLam9xOGFFWFpWVFlwN0ZndW1TbXQzXzFwaHVLZDVkMTI2MzNJcjJ4dUxBQ1UtcjNrR1FIRk1iejU3UnJEQ3pucVBNZHVfRzZfdjI2QlYzVW5vVEhHc2xMNXRlS1dlSUhRcXI3am1Ja2VQTmdKdUE5SjRxNFk?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-22-auto-685ea8ac97",
+      "member_ids": [
+        "2026-10-22-auto-685ea8ac97"
+      ],
+      "priority": "C",
+      "published": "2026-10-22",
+      "company": "長野県3事業と「県民会議",
+      "service": "",
+      "affected_count": 0,
+      "summary": "長野県3事業と「県民会議」で個人情報漏えいの恐れ",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA1UGltMmVzQjdxaGVReG4welp0QzFTUk96TTZWZHl2M3IxYWZycjhibkhOUnJKQ1IteDhhRkhTdFR1Yi1lckRzZlphc2lTUlVjNWNBTXFxUnF1MlA0Y2FrTkxUSHVUenhPVkFsNjYzQVk?oc=5",
           "official": false
         }
       ]
