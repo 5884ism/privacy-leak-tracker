@@ -1,241 +1,61 @@
 {
   "version": "1.1",
-  "generated_at": "2026-10-23T08:26+09:00",
+  "generated_at": "2026-10-23T08:59+09:00",
   "update_interval_minutes": 60,
-  "news_count": 571,
+  "news_count": 576,
   "latest_detected_ids": [
-    "2026-10-23-auto-1fd97f9e3f",
-    "2026-10-23-auto-ef11537550",
-    "2026-10-23-auto-bdcb9ad679",
-    "2026-10-23-auto-873d56d365",
-    "2026-10-23-auto-8a7b97b5d4",
-    "2026-10-23-auto-56fe9b4a84",
-    "2026-10-23-auto-c68947c7e3",
-    "2026-10-23-auto-5404fc285f",
-    "2026-10-23-auto-384f05b017",
-    "2026-10-23-auto-3e2b67b797",
-    "2026-10-23-auto-3dec3f933f",
-    "2026-10-23-auto-df87ffc584",
-    "2026-10-23-auto-b1455ea6a6"
+    "2026-10-23-auto-cf8637c866",
+    "2026-10-23-auto-376a1e3ddd",
+    "2026-10-23-auto-e11c872dcf"
   ],
   "news": [
     {
-      "id": "2026-10-23-auto-1fd97f9e3f",
+      "id": "2026-10-23-auto-cf8637c866",
       "published": "2026-10-23",
-      "company": "セキュリティー対策",
+      "company": "県の移住メルマガ",
       "service": "",
       "affected_count": 0,
       "cause": "報道自動検知",
-      "summary": "セキュリティー対策、どこまでやれば? 危機感強まるもコストに苦慮 [東京都] [情報漏洩・個人情報流出の最新ニュース]",
+      "summary": "県の移住メルマガ、個人情報漏えいか 不正アクセス",
       "exposed_data": "要確認",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oczh1V3hfd1loQlA0VW5ORlRZUWc3dWJ3aVVfUFpob3pVMGE0ZHB5NWM2U1lvZG5TWXBhYjVBRGZBSnNJZFFKTUxKbVNyOEV5cndNMm9sRV9BVEljcnM5ekJ0X2x1aVU?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9aTjVvX2w4TmVXZ3VFeFRZV1NjMHZDb3Vva0kwcjBHOERyaVhiWnhkb1U5Q19SVUM5c3MzeDlPay1rT1FkQXFFU1A3eWVBeWk4UjdTa1Iya29LaTl5WDY0cHhxMA?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-10-23-auto-ef11537550",
+      "id": "2026-10-23-auto-376a1e3ddd",
       "published": "2026-10-23",
-      "company": "KOMOJU",
-      "service": "",
-      "affected_count": 4100,
-      "cause": "報道自動検知",
-      "summary": "KOMOJUに不正アクセス、約4,100件の個人データ漏えいを確認 加盟店のAPI認証情報も流出、Shopify決済に一時障害",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOY01TNnB2TFdfZ3NxOUJOOEFMMGl3ZGRlU3p1REF1YU5iY1ctWTJtNW1LcGFyVThZVWhZQXZtMG5va1BOby1WWjhFTkF6Zkg4dW56TkFXZkFPWDdZMmhsOU1UQjkzNEtkQ1ExVW85SlhBZnNNLWV5cVo4TGx4VjR1elRrZmFNdm1DejN6dDV2RmVNeEFjdzVQMGhZUnRlOGRVdmY2enRYOW12X2VGUWFFc0lUSQ?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-23-auto-bdcb9ad679",
-      "published": "2026-10-23",
-      "company": "北九州市運営のサイトから不正アクセス",
+      "company": "システムファイブ、EC連携システム",
       "service": "",
       "affected_count": 0,
       "cause": "報道自動検知",
-      "summary": "[福岡県]北九州市運営のサイトから不正アクセスで個人情報漏えいの可能性",
+      "summary": "システムファイブ、EC連携システムに不正アクセス 顧客情報流出の恐れでオンラインショップを一時停止",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTkZyelVldzBueTcxQTl6LVplZ0gwNlZqdDRHZTNLV1RSMWRrdTdqZGpmdmN0VlEwcV82alJzTmhCaTNKckMzNGUycDAwRENzdEVyYzdTRzhlMThmTk9WLXcxVmMtaGlOZ3E1NWpFOGYwSjRnQ3Z1dFFmX19zdnk2N0VtQ0RIT19taWhjckNZcHpfT2tDcTVTT0xvTU01eUgzSlE?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-auto-e11c872dcf",
+      "published": "2026-10-23",
+      "company": "デジタル庁、問い合わせフォーム入力情報1万件超",
+      "service": "",
+      "affected_count": 10000,
+      "cause": "報道自動検知",
+      "summary": "デジタル庁、問い合わせフォーム入力情報1万件超が漏洩か",
       "exposed_data": "要確認",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1GbFRwUTM1RzJRY3pmYkNYcjFGaXh2MFF4aG9ueTVXVzBDUldWa0I0LXYwTzdUcDV0NzUwblJpZXJVODR6MXBGY25SbVIxdVY3Z2poZlVR?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-23-auto-873d56d365",
-      "published": "2026-10-23",
-      "company": "SmartHRグループ5社、2,012人",
-      "service": "",
-      "affected_count": 2012,
-      "cause": "報道自動検知",
-      "summary": "SmartHRグループ5社、2,012人の個人情報が流出した可能性 「Studio」への不正アクセスで問い合わせフォームが対象に",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMTloY21CUUkwNzdRVG9RTXFNekRpWkVEOEtXOTMzMTVoSFBlQVV3LXhRcldZN3Frb1BvbVZJSjQydkJuaHZiZTNCc1V2VEhPZnNJNW9QRUpLUXc5SnJGbGJLcGZnSjFxVlFlNmJVdnotd3dFcHRKbFlhRjRhRjRpM0wyQzJrNHl3OWRtalB1d2xrOVM0TG1EdWJ6V2NWbTJqU1E?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-23-auto-8a7b97b5d4",
-      "published": "2026-10-23",
-      "company": "ファインズ 予約システムへ",
-      "service": "",
-      "affected_count": 1536322,
-      "cause": "報道自動検知",
-      "summary": "ファインズ 予約システムへの不正アクセス まとめ-153万6,322件の個人情報漏洩 四谷メディカルキューブなど4事業者が影響を公表|セキュリティニュースのセキュリティ対策Lab",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSHJSZWV2TE1sNFV2TG94bXdYLWNzdkY2VGpyUmFkanBiNUlTLVcxMDdWbTdlQUtJZTI3a2pMemVtY2pDYllCMWtUWHgyNF81blBhVHYyRG95cFpYd2xoQXYxdjVlelU4V1N1b1IzS00wbkpnU3NtZy1lNHNBdVg3Ni1rdEtvWjUxRnB5cEFmSXU1dU82dFQ5LUZTck9SdWE0cTJTNTFxV3hXRWxpTGZhTlhB?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-23-auto-56fe9b4a84",
-      "published": "2026-10-23",
-      "company": "全国約650自治体に情報共有サービス",
-      "service": "",
-      "affected_count": 0,
-      "cause": "報道自動検知",
-      "summary": "全国約650自治体に情報共有サービス、名古屋市のIT企業にサイバー攻撃 個人情報流出の可能性あり",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1qZHdPWURBN3VFVzVzNHNFS0lmRUNJSzVRTkhUU1NtV0ZDSzRBclkyTDNVQW5aZTNfU3d3YmVKcXR5S2p5bm1ZT1k2SDk3ZmJFWVZsbw?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-23-auto-c68947c7e3",
-      "published": "2026-10-23",
-      "company": "セーファーインターネット協会が利用する「さくらのレンタルサーバ",
-      "service": "",
-      "affected_count": 0,
-      "cause": "報道自動検知",
-      "summary": "セーファーインターネット協会が利用する「さくらのレンタルサーバ」に不正アクセス",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9sMG1vNEhGenB5ZGZRWGl3V0FHNExjSWR1WS1aRVdjMV9DOWgxX2g3U1BkTmtXYnNpQlgyQXdtbzA0amVpZDNaOEYzQUh6bFktTFIwUk9iMUVORDNlMUxLNjBqUHlxdUJfQnFMSA?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-23-auto-5404fc285f",
-      "published": "2026-10-23",
-      "company": "講談社BECK 従業員のメールアカウント",
-      "service": "",
-      "affected_count": 0,
-      "cause": "報道自動検知",
-      "summary": "講談社BECK 従業員のメールアカウントに不正アクセス、50件の不審なメールを送信",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBFQkZzcTA3TVE1V2RISDkwZnhmeTh6Mm9tU2pzSGpDcUlGRWN3b3RlTVJXQmdnZjVhWUtZMVpPYmdoLXhVV1dnWFlqT3UxV05HTjVTaV9RMTRJUDduZ1lneHRScWZjcVlkWlRHaA?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-23-auto-384f05b017",
-      "published": "2026-10-23",
-      "company": "ムーンスターのサーバ",
-      "service": "",
-      "affected_count": 0,
-      "cause": "報道自動検知",
-      "summary": "ムーンスターのサーバに不正アクセス、オンラインストアを利用した顧客情報が漏えいした可能性",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "ScanNetSecurity",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9lelZSY1Npb2RWa1NHNTRXRFU2NHhGc1ZTbmpnc2pfd3c0WFZUUm54MnR2djNZVUJOd3RHY01NMDV5aVdiYVczVHZLSThHbzktYTVJZ2R3UEE0MFktbHRiRXVrUVdKRFNqOUtvbQ?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-23-auto-3e2b67b797",
-      "published": "2026-10-23",
-      "company": "休日当番医電話サービスの着信履歴2073件",
-      "service": "",
-      "affected_count": 2073,
-      "cause": "報道自動検知",
-      "summary": "休日当番医電話サービスの着信履歴2073件、情報漏えいの可能性 東海市、アルカディア不正アクセスで",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5JcU5saWFOVnJHcHppeWFBcFZ5R2VsR2c2Y3Z6bTVqeEtpUXRVYjIzcWlMSzhBSmhubkZTaEhPcWRTTlNScGtaRGd3eWdlUlk2Q0l0WVBmQ0RkMlNZeUZGTEln?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-23-auto-3dec3f933f",
-      "published": "2026-10-23",
-      "company": "個人情報465件漏えいか 田村市の委託業者使用サービス",
-      "service": "",
-      "affected_count": 465,
-      "cause": "報道自動検知",
-      "summary": "個人情報465件漏えいか 田村市の委託業者使用サービス",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5sWF9Mdm5QZ0tjeXpWUzY0WDZraEw3ZnpVWnA1SGhtMDRERmZEUFZOc2Rua0pxOWsyMjFBMm9QMGxMdWFicDZZTlNudw?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-23-auto-df87ffc584",
-      "published": "2026-10-23",
-      "company": "ご迷惑をおかけしました 中日新聞北陸本社の関連会社「中日サービス",
-      "service": "",
-      "affected_count": 112,
-      "cause": "報道自動検知",
-      "summary": "ご迷惑をおかけしました 中日新聞北陸本社の関連会社「中日サービス」、顧客情報112件が流出:中日新聞Web",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBGMm1KZVVXLTRuVncyOG9uMXlobnZtS1h5NVp0c1M1X2Z0b01INldJdFJtMU1xUUFjSTkzYjRhOTB4LXdQWDdpSFVIV2NfYlZMNVExa3JHejR3QUJLN3c4cDRpbUtuUQ?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-23-auto-b1455ea6a6",
-      "published": "2026-10-23",
-      "company": "総合葬祭業たまのや",
-      "service": "",
-      "affected_count": 10400,
-      "cause": "報道自動検知",
-      "summary": "総合葬祭業たまのや、顧客情報1万400件流出か 被害は確認されず (福島民友新聞)",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "福島民友新聞",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVVhCOHkzbWJQNzJ5LTZ0bGotMG9lNWFuX0ZHTzRzVl9qQUtJVFVmS2pFakh5NzNEUURqNlc3VHNzMFdkMTBpeGxMTVNwZlJ6bkJMRTZKTzZXRUdMQnVZWEtVSkVnMHR1OHRRYmd6ZVhULXpYWXpIdWFqZGwzU0RqLXJZUzluVFBFNnJVcHBR?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9FSl9IV0ljdVF4cjNQcnl3Y2hzbU5aT3lnb181UWtoMEdmemcwY2FyOEd5TU5NLUhhMVhyN29PNVBySl83RFQ5ZU9HVWJQTnNhVUt6SUJYUDZxSnJIYXZEWlpHeXU4ekQ2S05pbg?oc=5",
           "official": false
         }
       ]
@@ -253,6 +73,23 @@
         {
           "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1zcTd6LXNEV3RvazdWMG1RU0RiM2l0WDJ6dE1Jbk56Y25TUnBfRTNIUUlGNnhJejRSc01Ybk5WNWEwdDhjY1p3eEplVDJ6bld2NHBGcVA4OURoQQ?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-auto-ef11537550",
+      "published": "2026-10-23",
+      "company": "KOMOJU",
+      "service": "",
+      "affected_count": 4100,
+      "cause": "報道自動検知",
+      "summary": "KOMOJUに不正アクセス、約4,100件の個人データ漏えいを確認 加盟店のAPI認証情報も流出、Shopify決済に一時障害",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOY01TNnB2TFdfZ3NxOUJOOEFMMGl3ZGRlU3p1REF1YU5iY1ctWTJtNW1LcGFyVThZVWhZQXZtMG5va1BOby1WWjhFTkF6Zkg4dW56TkFXZkFPWDdZMmhsOU1UQjkzNEtkQ1ExVW85SlhBZnNNLWV5cVo4TGx4VjR1elRrZmFNdm1DejN6dDV2RmVNeEFjdzVQMGhZUnRlOGRVdmY2enRYOW12X2VGUWFFc0lUSQ?oc=5",
           "official": false
         }
       ]
@@ -292,6 +129,23 @@
       ]
     },
     {
+      "id": "2026-10-23-auto-df87ffc584",
+      "published": "2026-10-23",
+      "company": "ご迷惑をおかけしました 中日新聞北陸本社の関連会社「中日サービス",
+      "service": "",
+      "affected_count": 112,
+      "cause": "報道自動検知",
+      "summary": "ご迷惑をおかけしました 中日新聞北陸本社の関連会社「中日サービス」、顧客情報112件が流出:中日新聞Web",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBGMm1KZVVXLTRuVncyOG9uMXlobnZtS1h5NVp0c1M1X2Z0b01INldJdFJtMU1xUUFjSTkzYjRhOTB4LXdQWDdpSFVIV2NfYlZMNVExa3JHejR3QUJLN3c4cDRpbUtuUQ?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
       "id": "2026-10-23-auto-d9e284707a",
       "published": "2026-10-23",
       "company": "デジタル庁、Studio社へ",
@@ -326,6 +180,40 @@
         {
           "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9DdnREX0pyQUlsWm9XTVpsSDk5elo0VTdfS2EyeXNtaC1BTTcxaC1Lem45MGFtMWNndzc1LXl6eXFTaFJFQzltejc4Uk9sWHdvSnFKeURwTVFZRWNMVWFTS2E1RmNWSVkzYVM2Zg?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-auto-c68947c7e3",
+      "published": "2026-10-23",
+      "company": "セーファーインターネット協会が利用する「さくらのレンタルサーバ",
+      "service": "",
+      "affected_count": 0,
+      "cause": "報道自動検知",
+      "summary": "セーファーインターネット協会が利用する「さくらのレンタルサーバ」に不正アクセス",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9sMG1vNEhGenB5ZGZRWGl3V0FHNExjSWR1WS1aRVdjMV9DOWgxX2g3U1BkTmtXYnNpQlgyQXdtbzA0amVpZDNaOEYzQUh6bFktTFIwUk9iMUVORDNlMUxLNjBqUHlxdUJfQnFMSA?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-auto-bdcb9ad679",
+      "published": "2026-10-23",
+      "company": "北九州市運営のサイトから不正アクセス",
+      "service": "",
+      "affected_count": 0,
+      "cause": "報道自動検知",
+      "summary": "[福岡県]北九州市運営のサイトから不正アクセスで個人情報漏えいの可能性",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1GbFRwUTM1RzJRY3pmYkNYcjFGaXh2MFF4aG9ueTVXVzBDUldWa0I0LXYwTzdUcDV0NzUwblJpZXJVODR6MXBGY25SbVIxdVY3Z2poZlVR?oc=5",
           "official": false
         }
       ]
@@ -382,6 +270,23 @@
       ]
     },
     {
+      "id": "2026-10-23-auto-b1455ea6a6",
+      "published": "2026-10-23",
+      "company": "総合葬祭業たまのや",
+      "service": "",
+      "affected_count": 10400,
+      "cause": "報道自動検知",
+      "summary": "総合葬祭業たまのや、顧客情報1万400件流出か 被害は確認されず (福島民友新聞)",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "福島民友新聞",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVVhCOHkzbWJQNzJ5LTZ0bGotMG9lNWFuX0ZHTzRzVl9qQUtJVFVmS2pFakh5NzNEUURqNlc3VHNzMFdkMTBpeGxMTVNwZlJ6bkJMRTZKTzZXRUdMQnVZWEtVSkVnMHR1OHRRYmd6ZVhULXpYWXpIdWFqZGwzU0RqLXJZUzluVFBFNnJVcHBR?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
       "id": "2026-10-23-auto-af63daadcf",
       "published": "2026-10-23",
       "company": "広島県主催のスポーツイベント 委託事業者のHPから個人情報が2件流出",
@@ -416,6 +321,23 @@
       ]
     },
     {
+      "id": "2026-10-23-auto-8a7b97b5d4",
+      "published": "2026-10-23",
+      "company": "ファインズ 予約システムへ",
+      "service": "",
+      "affected_count": 1536322,
+      "cause": "報道自動検知",
+      "summary": "ファインズ 予約システムへの不正アクセス まとめ-153万6,322件の個人情報漏洩 四谷メディカルキューブなど4事業者が影響を公表|セキュリティニュースのセキュリティ対策Lab",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSHJSZWV2TE1sNFV2TG94bXdYLWNzdkY2VGpyUmFkanBiNUlTLVcxMDdWbTdlQUtJZTI3a2pMemVtY2pDYllCMWtUWHgyNF81blBhVHYyRG95cFpYd2xoQXYxdjVlelU4V1N1b1IzS00wbkpnU3NtZy1lNHNBdVg3Ni1rdEtvWjUxRnB5cEFmSXU1dU82dFQ5LUZTck9SdWE0cTJTNTFxV3hXRWxpTGZhTlhB?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
       "id": "2026-10-23-auto-89806655a0",
       "published": "2026-10-23",
       "company": "警視庁",
@@ -428,6 +350,23 @@
         {
           "name": "INTERNET Watch",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBvZFVhMzJIT0FnaWlOR28ybmsxWjI2d0VfVmtFMHVmb2htajZpUHM0YkJGWlhta29vOWo1Y3k5alNEbGEweW9TclVSS0FpNzJLTjdxbFVyVEVHZnhoVW5qOHdtdzdCMk9zSHBTM0JEeUM3ekYtMUV6VzFDV01BQWM?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-auto-873d56d365",
+      "published": "2026-10-23",
+      "company": "SmartHRグループ5社、2,012人",
+      "service": "",
+      "affected_count": 2012,
+      "cause": "報道自動検知",
+      "summary": "SmartHRグループ5社、2,012人の個人情報が流出した可能性 「Studio」への不正アクセスで問い合わせフォームが対象に",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMTloY21CUUkwNzdRVG9RTXFNekRpWkVEOEtXOTMzMTVoSFBlQVV3LXhRcldZN3Frb1BvbVZJSjQydkJuaHZiZTNCc1V2VEhPZnNJNW9QRUpLUXc5SnJGbGJLcGZnSjFxVlFlNmJVdnotd3dFcHRKbFlhRjRhRjRpM0wyQzJrNHl3OWRtalB1d2xrOVM0TG1EdWJ6V2NWbTJqU1E?oc=5",
           "official": false
         }
       ]
@@ -467,6 +406,57 @@
       ]
     },
     {
+      "id": "2026-10-23-auto-6008f7bd10",
+      "published": "2026-10-23",
+      "company": "田村市",
+      "service": "",
+      "affected_count": 465,
+      "cause": "報道自動検知",
+      "summary": "田村市、個人情報465件漏えいの可能性 「Studio」不正アクセス問題:福島ニュース",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBXWEVrbHE3QU1CdnNBVkVSczJUOUxEakZkbWU3NzBkMFBmZkkxZFVhOHJ5Y0g3YTZ5ZDR1dlF2Zkx3eEY5R0FtMVJVRThjZXhYNDJkUV81NGx1SlBBZTIzZEtFWE9ZQmJr?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-auto-56fe9b4a84",
+      "published": "2026-10-23",
+      "company": "全国約650自治体に情報共有サービス",
+      "service": "",
+      "affected_count": 0,
+      "cause": "報道自動検知",
+      "summary": "全国約650自治体に情報共有サービス、名古屋市のIT企業にサイバー攻撃 個人情報流出の可能性あり",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1qZHdPWURBN3VFVzVzNHNFS0lmRUNJSzVRTkhUU1NtV0ZDSzRBclkyTDNVQW5aZTNfU3d3YmVKcXR5S2p5bm1ZT1k2SDk3ZmJFWVZsbw?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-auto-5404fc285f",
+      "published": "2026-10-23",
+      "company": "講談社BECK 従業員のメールアカウント",
+      "service": "",
+      "affected_count": 0,
+      "cause": "報道自動検知",
+      "summary": "講談社BECK 従業員のメールアカウントに不正アクセス、50件の不審なメールを送信",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBFQkZzcTA3TVE1V2RISDkwZnhmeTh6Mm9tU2pzSGpDcUlGRWN3b3RlTVJXQmdnZjVhWUtZMVpPYmdoLXhVV1dnWFlqT3UxV05HTjVTaV9RMTRJUDduZ1lneHRScWZjcVlkWlRHaA?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
       "id": "2026-10-23-auto-459a1da9eb",
       "published": "2026-10-23",
       "company": "委託事業者のHP",
@@ -501,6 +491,57 @@
       ]
     },
     {
+      "id": "2026-10-23-auto-3f11e8e26e",
+      "published": "2026-10-23",
+      "company": "厚生労働省委託の「1FEdu」にサイバー攻撃 認証情報漏えいと不正ログインを確認",
+      "service": "",
+      "affected_count": 0,
+      "cause": "報道自動検知",
+      "summary": "厚生労働省委託の「1FEdu」にサイバー攻撃 認証情報漏えいと不正ログインを確認|セキュリティニュースのセキュリティ対策Lab",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWXRTTTlVc3cxbkhQS3ZCYWcyOW1yb1hYUzZUQWV5N3kyM3o1bVhCQ2hBTUJ4V2RwM3QzZmhKb1djSGloRkdhRkNwTnZqTGV0US1VSW82UDFVUDJrS0FxTThEOTlVRVV2c1dmLVpkSGh5T19xTERsejMxSWhDY1NQdEpUY0UwRGx5VW0yLWJ5VF84VWNFUERuSlhjWVZzb2ZxcGkzZEVOdw?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-auto-3e2b67b797",
+      "published": "2026-10-23",
+      "company": "休日当番医電話サービスの着信履歴2073件",
+      "service": "",
+      "affected_count": 2073,
+      "cause": "報道自動検知",
+      "summary": "休日当番医電話サービスの着信履歴2073件、情報漏えいの可能性 東海市、アルカディア不正アクセスで",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5JcU5saWFOVnJHcHppeWFBcFZ5R2VsR2c2Y3Z6bTVqeEtpUXRVYjIzcWlMSzhBSmhubkZTaEhPcWRTTlNScGtaRGd3eWdlUlk2Q0l0WVBmQ0RkMlNZeUZGTEln?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-auto-3dec3f933f",
+      "published": "2026-10-23",
+      "company": "個人情報465件漏えいか 田村市の委託業者使用サービス",
+      "service": "",
+      "affected_count": 465,
+      "cause": "報道自動検知",
+      "summary": "個人情報465件漏えいか 田村市の委託業者使用サービス",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5sWF9Mdm5QZ0tjeXpWUzY0WDZraEw3ZnpVWnA1SGhtMDRERmZEUFZOc2Rua0pxOWsyMjFBMm9QMGxMdWFicDZZTlNudw?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
       "id": "2026-10-23-auto-3c63856267",
       "published": "2026-10-23",
       "company": "情報流出原因はPHPの脆弱性標的の攻撃」ICT企業",
@@ -513,6 +554,23 @@
         {
           "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBybVFHRFk2RGllLUR1enVIT2xFWEJEZlY4SjlCdUJ6S1U5S25NVTNyNEhPN1ZqTkJMVkRFQU9GUTk5cTNDbHFPaTl5VmYxLVpCMXhteFVJYWZBT1R2eDJydGtYMkE5ZHc?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-auto-384f05b017",
+      "published": "2026-10-23",
+      "company": "ムーンスターのサーバ",
+      "service": "",
+      "affected_count": 0,
+      "cause": "報道自動検知",
+      "summary": "ムーンスターのサーバに不正アクセス、オンラインストアを利用した顧客情報が漏えいした可能性",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "ScanNetSecurity",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9lelZSY1Npb2RWa1NHNTRXRFU2NHhGc1ZTbmpnc2pfd3c0WFZUUm54MnR2djNZVUJOd3RHY01NMDV5aVdiYVczVHZLSThHbzktYTVJZ2R3UEE0MFktbHRiRXVrUVdKRFNqOUtvbQ?oc=5",
           "official": false
         }
       ]
@@ -564,6 +622,23 @@
         {
           "name": "株式会社アクト",
           "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5hcnNQeFVNeVk2a0Y3am9jNG0temUxY1NIVnN4ZnF5ZElOcXZxRUh3VUFiS05YaGJMTzZrWHZzMVgtWjRPYWk1cg?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-auto-1fd97f9e3f",
+      "published": "2026-10-23",
+      "company": "セキュリティー対策",
+      "service": "",
+      "affected_count": 0,
+      "cause": "報道自動検知",
+      "summary": "セキュリティー対策、どこまでやれば? 危機感強まるもコストに苦慮 [東京都] [情報漏洩・個人情報流出の最新ニュース]",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oczh1V3hfd1loQlA0VW5ORlRZUWc3dWJ3aVVfUFpob3pVMGE0ZHB5NWM2U1lvZG5TWXBhYjVBRGZBSnNJZFFKTUxKbVNyOEV5cndNMm9sRV9BVEljcnM5ekJ0X2x1aVU?oc=5",
           "official": false
         }
       ]
@@ -1908,7 +1983,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "BigGo ファイナンス",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE03WDFWSm5vdF9TeGdQRmljckZKTkJGbkNESXJQM2ZoSS0wenFleTdfcndka0tsWFpSUDAyVXhJTnk3NTJlMjgtcWhqLThiRzhXMGJ3R3pqOFJYb0hqTkc3bHBUaFpJQmVXclhiSVc0cENFOVo4?oc=5",
           "official": false
         }
@@ -3111,7 +3186,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "合同会社ロケットボーイズ",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOYldzTkotQkdab2R4aWZnQ1FXc09ONDBOaXB6VUhvVFV3c3gyUVhFUlpVR1ZJRzRVazNvMWI5Q2lRMTFEdE5HR3VReEFBaDlVdGQtaFBUQnVvR3RGbWI4dXNSTjhQR25JN1VTYk5zZGpvdHVpZDFzZk1zbnNtTDc0RWFDdmdpVDZ3NXJIS3RzVXBnbVZHVDdBbExfNFgwZ2FJZ2xV?oc=5",
           "official": false
         }
@@ -3869,7 +3944,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "合同会社ロケットボーイズ",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNT0tOZWxCN045WEZKRGpyVW5kYnljdHdNLWNvYUhQc1dldTlTQlk1ZVR2NUpqXzBkcG9ySy1Kb1ZwamJYVV85cXMxeFBvenUzQ2xpNzMxWlZUS09WQ1R2MFNpRmp5MVpVUkJKNFlLbUFaTjJfNDlnLVoxSW1vdk1GVnczQzRRSlVuUEcyZlVDVkQzX05uSnhIcGltSXlja1ltUWZXZUFzNE9GN0JJdmdyZm4yaThoY0hlNmFCMA?oc=5",
           "official": false
         }
@@ -8842,7 +8917,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "https://kabu-ir.com/",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8yQzJvQmVGaW9GdWU0WllwNVNWMHBRSk9vNkg1M2ZwZU5iZUkxR3JEc0VjaUpBQkVZcmhiS2dfd0lBWDlGQTJpVUJJUXBoWWZaOXJmNw?oc=5",
           "official": false
         }
