@@ -1,0 +1,28 @@
+.public-updated-card .public-news-link{
+  display:inline-flex;
+  align-items:center;
+  width:max-content;
+  margin-top:10px;
+  padding:7px 10px;
+  border:1px solid rgba(255,255,255,.32);
+  border-radius:8px;
+  color:#fff;
+  background:rgba(255,255,255,.09);
+  font-size:11px;
+  font-weight:800;
+  line-height:1;
+  text-decoration:none;
+  transition:.15s ease;
+}
+
+.public-updated-card .public-news-link:hover{
+  background:rgba(255,255,255,.18);
+  border-color:rgba(255,255,255,.5);
+  transform:translateY(-1px);
+}
+
+@media(max-width:760px){
+  .public-updated-card .public-news-link{
+    margin-top:8px;
+  }
+}
