@@ -1,202 +1,276 @@
 {
   "version": "1.1",
-  "generated_at": "2026-10-22T20:11:29+00:00",
-  "before_count": 352,
-  "after_count": 363,
-  "net_change": 11,
-  "new_count": 9,
+  "generated_at": "2026-10-22T23:26:56+00:00",
+  "before_count": 363,
+  "after_count": 377,
+  "net_change": 14,
+  "new_count": 13,
   "removed_count": 0,
-  "visible_before_count": 352,
-  "visible_after_count": 363,
-  "visible_net_change": 11,
-  "raw_before_count": 536,
-  "raw_after_count": 552,
-  "raw_net_change": 16,
+  "visible_before_count": 363,
+  "visible_after_count": 377,
+  "visible_net_change": 14,
+  "raw_before_count": 552,
+  "raw_after_count": 571,
+  "raw_net_change": 19,
   "new_candidate_ids": [
-    "2026-10-23-auto-cab27c156e",
-    "2026-10-23-auto-ecfcf48d5e",
-    "2026-10-23-auto-af63daadcf",
-    "2026-10-23-auto-bb7127f25a",
-    "2026-10-23-auto-edb16144bb",
-    "2026-10-23-auto-fe0f8c7a60",
-    "2026-10-23-auto-1aa82e29cc",
-    "2026-10-23-auto-4089206da0",
-    "2026-10-23-auto-27d2924aa6"
+    "2026-10-23-auto-1fd97f9e3f",
+    "2026-10-23-auto-ef11537550",
+    "2026-10-23-auto-bdcb9ad679",
+    "2026-10-23-auto-873d56d365",
+    "2026-10-23-auto-8a7b97b5d4",
+    "2026-10-23-auto-56fe9b4a84",
+    "2026-10-23-auto-c68947c7e3",
+    "2026-10-23-auto-5404fc285f",
+    "2026-10-23-auto-384f05b017",
+    "2026-10-23-auto-3e2b67b797",
+    "2026-10-23-auto-3dec3f933f",
+    "2026-10-23-auto-df87ffc584",
+    "2026-10-23-auto-b1455ea6a6"
   ],
   "new_candidates": [
     {
-      "id": "2026-10-23-auto-cab27c156e",
+      "id": "2026-10-23-auto-1fd97f9e3f",
       "member_ids": [
-        "2026-10-23-auto-cab27c156e"
+        "2026-10-23-auto-1fd97f9e3f"
       ],
       "priority": "C",
       "published": "2026-10-23",
-      "company": "ラクス、子会社システム",
+      "company": "セキュリティー対策",
       "service": "",
       "affected_count": 0,
-      "summary": "ラクス、子会社システムに不正アクセス 契約者情報が流出",
+      "summary": "セキュリティー対策、どこまでやれば? 危機感強まるもコストに苦慮 [東京都] [情報漏洩・個人情報流出の最新ニュース]",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9DdnREX0pyQUlsWm9XTVpsSDk5elo0VTdfS2EyeXNtaC1BTTcxaC1Lem45MGFtMWNndzc1LXl6eXFTaFJFQzltejc4Uk9sWHdvSnFKeURwTVFZRWNMVWFTS2E1RmNWSVkzYVM2Zg?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oczh1V3hfd1loQlA0VW5ORlRZUWc3dWJ3aVVfUFpob3pVMGE0ZHB5NWM2U1lvZG5TWXBhYjVBRGZBSnNJZFFKTUxKbVNyOEV5cndNMm9sRV9BVEljcnM5ekJ0X2x1aVU?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-10-23-auto-ecfcf48d5e",
+      "id": "2026-10-23-auto-ef11537550",
       "member_ids": [
-        "2026-10-23-auto-ecfcf48d5e"
+        "2026-10-23-auto-ef11537550"
       ],
       "priority": "C",
       "published": "2026-10-23",
-      "company": "8000件余個人情報漏えいの可能性 富山県が運営する企業情報サイトなど",
+      "company": "KOMOJU",
       "service": "",
-      "affected_count": 8000,
-      "summary": "8000件余個人情報漏えいの可能性 富山県が運営する企業情報サイトなどに不正アクセス (北日本放送)",
-      "sources": [
-        {
-          "name": "北日本放送",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBfMm5nNUk2NkU2QmFBM0hVZnlFSW9majV3amxHVjE2ZlNQN2pGb3IwbGFCSk5BVi1LQU5KZ2thV2Y1cWdVUXRXaWctRVZRekpoWkNFVnNFcEttZl9TMjllM2pwbnB1MEU2R3dHYjlneG9aMXVmZXd2SG40bGQwM1E?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-23-auto-af63daadcf",
-      "member_ids": [
-        "2026-10-23-auto-af63daadcf",
-        "2026-10-23-auto-459a1da9eb"
-      ],
-      "priority": "C",
-      "published": "2026-10-23",
-      "company": "広島県主催のスポーツイベント 委託事業者のHPから個人情報が2件流出",
-      "service": "",
-      "affected_count": 0,
-      "summary": "広島県主催のスポーツイベント 委託事業者のHPから個人情報が2件流出 外部サービスの不正アクセスによる 二次被害は確認されず(RCC中国放送)",
+      "affected_count": 4100,
+      "summary": "KOMOJUに不正アクセス、約4,100件の個人データ漏えいを確認 加盟店のAPI認証情報も流出、Shopify決済に一時障害",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNdkprcU9iTnlRUmpqc0ZlX1FvM0U5d3hpWU0xS0xZbTFDVVFpcnM0SHA3SEVZbm9sZ3ZST0J2clA4LUh0TXFMeURocVpZZ3ktQVA4VmNxZnZkUTV3ZVlvR1I2aXNua3dCS204d1Z5RHdKSUhOZEZid2xuYWpob3pQem5WdU4zUGV0N3Y4Wm5ORFBhZjZYMzF1SmViWVdMS3UtR0NjQWZhOEdLaV9nR2oyU0VJaEFvUXhwM2dmQXNCVm5ZeFB5azNiWms5MW9nWlNEa3VnbmF2eVk5X004c29yWlh1VVFYakJ3elVUbF9ZZWRpYWd1Q1E?oc=5",
-          "official": false
-        },
-        {
-          "name": "テレビ新広島",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1JaUtpNlBGeFpOV3ZRdTFnenJZZWhPazRsQlcxRC1OWDI5bGc5MmoxRzltQVBFeTc3Zi1WMEh0bnAwN2hBRUhiNnJ1SVJkQUFyLWg1a1NDZnhCWFU3NGR2d1UwSWdaOU1zRUVETUNMUzdLNUV6NlN1Yk5vMGZuaUk?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOY01TNnB2TFdfZ3NxOUJOOEFMMGl3ZGRlU3p1REF1YU5iY1ctWTJtNW1LcGFyVThZVWhZQXZtMG5va1BOby1WWjhFTkF6Zkg4dW56TkFXZkFPWDdZMmhsOU1UQjkzNEtkQ1ExVW85SlhBZnNNLWV5cVo4TGx4VjR1elRrZmFNdm1DejN6dDV2RmVNeEFjdzVQMGhZUnRlOGRVdmY2enRYOW12X2VGUWFFc0lUSQ?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-10-23-auto-bb7127f25a",
+      "id": "2026-10-23-auto-bdcb9ad679",
       "member_ids": [
-        "2026-10-23-auto-bb7127f25a"
+        "2026-10-23-auto-bdcb9ad679"
+      ],
+      "priority": "C",
+      "published": "2026-10-23",
+      "company": "北九州市運営のサイトから不正アクセス",
+      "service": "",
+      "affected_count": 0,
+      "summary": "[福岡県]北九州市運営のサイトから不正アクセスで個人情報漏えいの可能性",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1GbFRwUTM1RzJRY3pmYkNYcjFGaXh2MFF4aG9ueTVXVzBDUldWa0I0LXYwTzdUcDV0NzUwblJpZXJVODR6MXBGY25SbVIxdVY3Z2poZlVR?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-auto-873d56d365",
+      "member_ids": [
+        "2026-10-23-auto-873d56d365"
+      ],
+      "priority": "C",
+      "published": "2026-10-23",
+      "company": "SmartHRグループ5社、2,012人",
+      "service": "",
+      "affected_count": 2012,
+      "summary": "SmartHRグループ5社、2,012人の個人情報が流出した可能性 「Studio」への不正アクセスで問い合わせフォームが対象に",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMTloY21CUUkwNzdRVG9RTXFNekRpWkVEOEtXOTMzMTVoSFBlQVV3LXhRcldZN3Frb1BvbVZJSjQydkJuaHZiZTNCc1V2VEhPZnNJNW9QRUpLUXc5SnJGbGJLcGZnSjFxVlFlNmJVdnotd3dFcHRKbFlhRjRhRjRpM0wyQzJrNHl3OWRtalB1d2xrOVM0TG1EdWJ6V2NWbTJqU1E?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-auto-8a7b97b5d4",
+      "member_ids": [
+        "2026-10-23-auto-8a7b97b5d4"
       ],
       "priority": "B",
       "published": "2026-10-23",
-      "company": "JR四国、不正アクセスでメルマガ会員約3万人",
+      "company": "ファインズ 予約システムへ",
       "service": "",
-      "affected_count": 30000,
-      "summary": "JR四国、不正アクセスでメルマガ会員約3万人の個人情報が漏えいか",
+      "affected_count": 1536322,
+      "summary": "ファインズ 予約システムへの不正アクセス まとめ-153万6,322件の個人情報漏洩 四谷メディカルキューブなど4事業者が影響を公表|セキュリティニュースのセキュリティ対策Lab",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBXc1NfMXQzRU8wdGYyZHFrOFZsMWR1NmZSaTRmTWVneUNXZ0lSV2paWExBTkZpbFA1WXRNbVozRWMwaGpMZUdNcER3WlZjMXdTWkI1RTNOU25hQ2VmZF80?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSHJSZWV2TE1sNFV2TG94bXdYLWNzdkY2VGpyUmFkanBiNUlTLVcxMDdWbTdlQUtJZTI3a2pMemVtY2pDYllCMWtUWHgyNF81blBhVHYyRG95cFpYd2xoQXYxdjVlelU4V1N1b1IzS00wbkpnU3NtZy1lNHNBdVg3Ni1rdEtvWjUxRnB5cEFmSXU1dU82dFQ5LUZTck9SdWE0cTJTNTFxV3hXRWxpTGZhTlhB?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-10-23-auto-edb16144bb",
+      "id": "2026-10-23-auto-56fe9b4a84",
       "member_ids": [
-        "2026-10-23-auto-edb16144bb"
-      ],
-      "priority": "C",
-      "published": "2026-10-23",
-      "company": "委託事業に係る個人情報",
-      "service": "",
-      "affected_count": 0,
-      "summary": "委託事業に係る個人情報の漏えいについて",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBUUXlsdWw5SElNdE5oY1lmWk94LXBkQmZwalF4VWJSX2tMR21RNUlOTERwdU93MXM0ZThyNnpGMUdhOVhvb3RMREpLQlBiTC1ELXRYSWRPN0I?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-23-auto-fe0f8c7a60",
-      "member_ids": [
-        "2026-10-23-auto-fe0f8c7a60"
-      ],
-      "priority": "C",
-      "published": "2026-10-23",
-      "company": "山口FG、子会社の福利厚生アプリ",
-      "service": "",
-      "affected_count": 0,
-      "summary": "山口FG、子会社の福利厚生アプリに不正アクセス 個人情報流出の可能性",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1zcTd6LXNEV3RvazdWMG1RU0RiM2l0WDJ6dE1Jbk56Y25TUnBfRTNIUUlGNnhJejRSc01Ybk5WNWEwdDhjY1p3eEplVDJ6bld2NHBGcVA4OURoQQ?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-23-auto-1aa82e29cc",
-      "member_ids": [
-        "2026-10-23-auto-1aa82e29cc"
-      ],
-      "priority": "C",
-      "published": "2026-10-23",
-      "company": "春日井市のメルマガ登録者情報1532件",
-      "service": "",
-      "affected_count": 1532,
-      "summary": "春日井市のメルマガ登録者情報1532件が流出の恐れ 委託先に不正アクセス",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9oUDh6UWFPNlUtQTJfT2p3R2d0VVZvUk5icWg1ZXNEQVFlVzhFTVJvMThYNlFuYVhaOEJuT2MwS2t0WFhMQk9ST05XRFRjQ3BzZTFkeg?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-23-auto-4089206da0",
-      "member_ids": [
-        "2026-10-23-auto-4089206da0"
+        "2026-10-23-auto-56fe9b4a84"
       ],
       "priority": "B",
       "published": "2026-10-23",
-      "company": "市が利用するメール配信システム",
+      "company": "全国約650自治体に情報共有サービス",
       "service": "",
-      "affected_count": 20000,
-      "summary": "市が利用するメール配信システムに不正アクセス 地域通貨利用者など2万人超に影響の可能性 宮城・名取市(tbc東北放送)",
+      "affected_count": 0,
+      "summary": "全国約650自治体に情報共有サービス、名古屋市のIT企業にサイバー攻撃 個人情報流出の可能性あり",
       "sources": [
         {
-          "name": "tbc東北放送",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBWSW5yaUNKN2RQVHhJNEp4eEF2bXAtclJiMjBEZU5LTjhGaXk5Vm5UVUdON3F5TzQ0dkpsZG45WXI0Q2NERG9OZTR2a0poMkRteVFIc1FyY1dPU0kwYXhRUFA4N09ZbExzXzQ2a3pmYmJoMEZXZ0ZaRWF4TWRrVTA?oc=5",
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1qZHdPWURBN3VFVzVzNHNFS0lmRUNJSzVRTkhUU1NtV0ZDSzRBclkyTDNVQW5aZTNfU3d3YmVKcXR5S2p5bm1ZT1k2SDk3ZmJFWVZsbw?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-10-23-auto-27d2924aa6",
+      "id": "2026-10-23-auto-c68947c7e3",
       "member_ids": [
-        "2026-10-23-auto-27d2924aa6"
+        "2026-10-23-auto-c68947c7e3"
       ],
-      "priority": "B",
+      "priority": "C",
       "published": "2026-10-23",
-      "company": "茨城県移住情報配信会社",
+      "company": "セーファーインターネット協会が利用する「さくらのレンタルサーバ",
       "service": "",
-      "affected_count": 2700,
-      "summary": "茨城県移住情報配信会社に不正アクセス 氏名やメルアド、個人情報2700件漏えいか",
+      "affected_count": 0,
+      "summary": "セーファーインターネット協会が利用する「さくらのレンタルサーバ」に不正アクセス",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFB6U2I2TFJyNTAtMTNOaWltSlJRTDB0MlU2QTlfTEQ4cDRFYkRPRDFEWkFGODUzSUdXVktkMURTbjRmaWwyZndubzVacw?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9sMG1vNEhGenB5ZGZRWGl3V0FHNExjSWR1WS1aRVdjMV9DOWgxX2g3U1BkTmtXYnNpQlgyQXdtbzA0amVpZDNaOEYzQUh6bFktTFIwUk9iMUVORDNlMUxLNjBqUHlxdUJfQnFMSA?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-auto-5404fc285f",
+      "member_ids": [
+        "2026-10-23-auto-5404fc285f"
+      ],
+      "priority": "C",
+      "published": "2026-10-23",
+      "company": "講談社BECK 従業員のメールアカウント",
+      "service": "",
+      "affected_count": 0,
+      "summary": "講談社BECK 従業員のメールアカウントに不正アクセス、50件の不審なメールを送信",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBFQkZzcTA3TVE1V2RISDkwZnhmeTh6Mm9tU2pzSGpDcUlGRWN3b3RlTVJXQmdnZjVhWUtZMVpPYmdoLXhVV1dnWFlqT3UxV05HTjVTaV9RMTRJUDduZ1lneHRScWZjcVlkWlRHaA?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-auto-384f05b017",
+      "member_ids": [
+        "2026-10-23-auto-384f05b017"
+      ],
+      "priority": "C",
+      "published": "2026-10-23",
+      "company": "ムーンスターのサーバ",
+      "service": "",
+      "affected_count": 0,
+      "summary": "ムーンスターのサーバに不正アクセス、オンラインストアを利用した顧客情報が漏えいした可能性",
+      "sources": [
+        {
+          "name": "ScanNetSecurity",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9lelZSY1Npb2RWa1NHNTRXRFU2NHhGc1ZTbmpnc2pfd3c0WFZUUm54MnR2djNZVUJOd3RHY01NMDV5aVdiYVczVHZLSThHbzktYTVJZ2R3UEE0MFktbHRiRXVrUVdKRFNqOUtvbQ?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-auto-3e2b67b797",
+      "member_ids": [
+        "2026-10-23-auto-3e2b67b797"
+      ],
+      "priority": "C",
+      "published": "2026-10-23",
+      "company": "休日当番医電話サービスの着信履歴2073件",
+      "service": "",
+      "affected_count": 2073,
+      "summary": "休日当番医電話サービスの着信履歴2073件、情報漏えいの可能性 東海市、アルカディア不正アクセスで",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5JcU5saWFOVnJHcHppeWFBcFZ5R2VsR2c2Y3Z6bTVqeEtpUXRVYjIzcWlMSzhBSmhubkZTaEhPcWRTTlNScGtaRGd3eWdlUlk2Q0l0WVBmQ0RkMlNZeUZGTEln?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-auto-3dec3f933f",
+      "member_ids": [
+        "2026-10-23-auto-3dec3f933f"
+      ],
+      "priority": "C",
+      "published": "2026-10-23",
+      "company": "個人情報465件漏えいか 田村市の委託業者使用サービス",
+      "service": "",
+      "affected_count": 465,
+      "summary": "個人情報465件漏えいか 田村市の委託業者使用サービス",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5sWF9Mdm5QZ0tjeXpWUzY0WDZraEw3ZnpVWnA1SGhtMDRERmZEUFZOc2Rua0pxOWsyMjFBMm9QMGxMdWFicDZZTlNudw?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-auto-df87ffc584",
+      "member_ids": [
+        "2026-10-23-auto-df87ffc584"
+      ],
+      "priority": "C",
+      "published": "2026-10-23",
+      "company": "ご迷惑をおかけしました 中日新聞北陸本社の関連会社「中日サービス",
+      "service": "",
+      "affected_count": 112,
+      "summary": "ご迷惑をおかけしました 中日新聞北陸本社の関連会社「中日サービス」、顧客情報112件が流出:中日新聞Web",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBGMm1KZVVXLTRuVncyOG9uMXlobnZtS1h5NVp0c1M1X2Z0b01INldJdFJtMU1xUUFjSTkzYjRhOTB4LXdQWDdpSFVIV2NfYlZMNVExa3JHejR3QUJLN3c4cDRpbUtuUQ?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-auto-b1455ea6a6",
+      "member_ids": [
+        "2026-10-23-auto-b1455ea6a6"
+      ],
+      "priority": "B",
+      "published": "2026-10-23",
+      "company": "総合葬祭業たまのや",
+      "service": "",
+      "affected_count": 10400,
+      "summary": "総合葬祭業たまのや、顧客情報1万400件流出か 被害は確認されず (福島民友新聞)",
+      "sources": [
+        {
+          "name": "福島民友新聞",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVVhCOHkzbWJQNzJ5LTZ0bGotMG9lNWFuX0ZHTzRzVl9qQUtJVFVmS2pFakh5NzNEUURqNlc3VHNzMFdkMTBpeGxMTVNwZlJ6bkJMRTZKTzZXRUdMQnVZWEtVSkVnMHR1OHRRYmd6ZVhULXpYWXpIdWFqZGwzU0RqLXJZUzluVFBFNnJVcHBR?oc=5",
           "official": false
         }
       ]
