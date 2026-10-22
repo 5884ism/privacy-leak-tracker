@@ -66,53 +66,6 @@
           "official": false
         }
       ]
-    },
-    {
-      "id": "2026-10-22-auto-dac2389002",
-      "status": "confirmed",
-      "published": "2026-10-22",
-      "company": "カプコン",
-      "service": "CAPCOM ID",
-      "affected_count": 11774247,
-      "cause": "報道自動検知",
-      "summary": "不正アクセスの概要（10月22日時点）\n\n(1) メールアドレス、システム固有の識別情報（※2）の漏えい\n対象件数：11,774,247件（全世界合計）\n※2 アカウント作成日時、最終ログイン日時、ログイン回数、最終ログイン時のクライアントIP\n\n(2) 生年月日、性別、国・地域、ニックネームの漏えい\n対象件数：(1)のうち43件\n\n(3)「CAPCOM ID」のログインパスワードの不正な変更\n対象件数：(1)のうち196件\nお客様ご自身で設定されたパスワードの漏えいは確認されておりません。一方、196件のアカウントにおいて、パスワードが不正に変更されていたことを確認しました。当該アカウントは既にパスワードをリセットしており、不正アクセスによる影響範囲については引き続き調査を進めております。\n\n対象となるお客様には順次個別にご連絡いたします。なお、クレジットカード情報は漏えい対象には含まれておりません。",
-      "exposed_data": "要確認",
-      "resolution_date": "",
-      "resolution_note": "",
-      "resolution_url": "",
-      "reviewed_at": "2026-10-22 19:39 JST",
-      "sources": [
-        {
-          "name": "公式",
-          "url": "https://www.capcom.co.jp/ir/news/html/261022.html",
-          "official": false
-        },
-        {
-          "name": "合同会社ロケットボーイズ",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUFRiOTROZElLZnhSMm9nb3haaFhycERIclJPRjhkNXczdTBScHZkZ01rYlZYWk43ZFlPSVAzYktkMnZGVkFnakNicEtrYU5qUE95ZDFfWHktNzJiUTRJUVhwdlFwa3E5RGFzT1dFanpLdjJlNmRTdS16ekJJalZ1dFJXVFJ0a1d1N0hjcWFWSkxLYTVTaS1JWmF2cENTVEg2djR1YmtDTjg?oc=5",
-          "official": false
-        },
-        {
-          "name": "ASCII.jp",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAzbnlVT0VSU0gxV2ZXTURUVnFUUVlpRTdsdHdLbGVTYlZfUUxMNFdxYzBRblN0Nl91NWJLb3RNT2JGMzk3OFNsak91UUt2Q2VWLUVNZQ?oc=5",
-          "official": false
-        },
-        {
-          "name": "Game*Spark",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5pYUVZbzNpS1pvc2w3eEF3SjVKY0Y1QUlsTWotam1uX3dxSTVMSkZVeTgyMmxQRTRJeXM1a29taDdaUmxPcThTeVZqd3A5aWp1UVpCMkRIdW4yZDJVNks2eEtjQVRZZw?oc=5",
-          "official": false
-        },
-        {
-          "name": "Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBtRlZXMV9DVnZPN05Hd3ktWVdsMm1adm11UTJOdWJ4REN6cUh3ZV9nYmRrYWFyNG9iZGNxNWhOcVBWend6WDE0Z2psUm1GUGVESzlSX0lyMmYxT0tTWGFhNTYwMFZMSzFoMVhWZUZ4RDVrU0M2eVVQMGNxMDE5Wk0?oc=5",
-          "official": false
-        },
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1NS2F6Zmp6WmlCOUhiMUtkZkFfZUppaG5ycmJXZXBjbGNYRGpJQWYzWDRDanFkZGluMHlESjV1cTNiQ3NFNktjSDJ3dWpleEhHWjh1V3NVMG5iQ0ZGZGstT2dPSG5OU2xUUGJjMQ?oc=5",
-          "official": false
-        }
-      ]
     }
   ],
   "changed": [
@@ -199,7 +152,7 @@
           "official": false
         },
         {
-          "name": "日本経済新聞",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5CQkgxWTdmeUIwTkJkM05KdVY1V1lLVFVtcmNuaVk3YmFYVVhYdUxtRmVBNU0tX2dRYWFuUGdfVDMwUTdjMmlDbXRWY3RyUUtTV0l3b05nVnB0Vmh5NjcwYnptWDN6akJOYzJXcg?oc=5",
           "official": false
         }
@@ -236,27 +189,208 @@
           "official": true
         },
         {
-          "name": "INTERNET Watch",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBPV1lTUDZES3ZVbDlwc21jWTVJSjJQZ1pPa2Z1c2dGOW1LRnh5YmJVSWtGdWsyRmwxV0xsYktRdGoxVDJMRGpZanhjZTdXbHNQVDVKTkYtaWMwdUloYkRERThNbzlvV2lheVBz?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-17-auto-fcde0c86c1",
+      "company": "ヤマト運輸",
+      "service": "",
+      "published": "2026-10-17",
+      "affected_count": 5310000,
+      "cause": "報道自動検知",
+      "summary": "ヤマト運輸、個人情報「531万件」流出 商品明細も漏えい、クレカやパスワードの流出はなし (ITmedia ビジネスオンライン)",
+      "exposed_data": "要確認",
+      "reviewed_at": "2026-10-18 09:08 JST",
+      "from_status": "confirmed",
+      "to_status": "confirmed",
+      "from_label": "漏えい確認",
+      "to_label": "漏えい確認",
+      "change_type": "content",
+      "changed_fields": [
+        "sources"
+      ],
+      "changed_labels": [
+        "情報源"
+      ],
+      "resolution_date": "",
+      "resolution_note": "",
+      "resolution_url": "",
+      "sources": [
+        {
+          "name": "ヤマト運輸公式",
+          "url": "https://www.yamato-hd.co.jp/important/info_260929_1.html",
+          "official": false
+        },
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE05S1VPV1g3ek1IZ3QwM0Y1blZSYnRkMHNlM3BHTVdldl83bks2T1lvMkNvYl92M1d2VlF6c1JxMEF2VTFuTVhmWDVodGFGNlMzejAxUjlxNmI2TDBhNUVVdzY0aw?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-19-auto-0e6344c2a4",
+      "company": "ユミルリンク",
+      "service": "",
+      "published": "2026-10-19",
+      "affected_count": 9000000,
+      "cause": "報道自動検知",
+      "summary": "不正アクセスで個人情報延べ900万件漏えいか メール配信サービス「ユミルリンク」 (テレビ朝日系(ANN))",
+      "exposed_data": "要確認",
+      "reviewed_at": "2026-10-20 07:56 JST",
+      "from_status": "confirmed",
+      "to_status": "confirmed",
+      "from_label": "漏えい確認",
+      "to_label": "漏えい確認",
+      "change_type": "content",
+      "changed_fields": [
+        "sources"
+      ],
+      "changed_labels": [
+        "情報源"
+      ],
+      "resolution_date": "",
+      "resolution_note": "",
+      "resolution_url": "",
+      "sources": [
+        {
+          "name": "公式発表",
+          "url": "https://www.nikkei.com/nkd/disclosure/tdnr/20261019553124/",
+          "official": true
+        },
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQ3AzLUZjV3V5ODhtTGxKdC03X2d2aWZCanl1VlVJTE9aSmdyNlByYmVZMXlnMlA2Ql9vSW9WZ2dJYktqMU5vUHhxdzJpVlA4akh3d1VISGQ4X1NDZkQ4VmZsVEIzSXE0SmZVbGhSNEE0RDNIZUtzWXZkaVlfYk1hQmxOTHBZTTJEcVE1TjlNbVZpSkhQYVpxUURn?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-17-auto-b8a44fe43d",
+      "company": "株式会社アルカディア",
+      "service": "SpeeCAN RAIDEN（raiden3.ktaiwork.jpのお客様が対象）ライデン・スクール（s2.ktaiwork.jpのお客様が対象）",
+      "published": "2026-10-13",
+      "affected_count": 13000,
+      "cause": "報道自動検知",
+      "summary": "全国警察官・職員の個人情報が流出",
+      "exposed_data": "対象サービス\t\nraiden.ktaiwork.jp\nraiden2.ktaiwork.jp\nraiden3.ktaiwork.jp\nraiden2.speecan.jp\ns.ktaiwork.jp\ns2.ktaiwork.jp\n\n対象項目\t\n連絡先の名前、メールアドレス、電話・FAX番号\n担当者、契約情報\n履歴として保存されている本文に記載されている内容\n\n対象サービス\tNET119　（映像通報は現時点で漏洩の可能性はございません）\t119RAIDEN\n対象URL\tnet119.speecan.jp　net119fd.speecan.jp\tfs119.ktaiwork.jp\n漏洩の可能性がある個人情報の項目\t\n利用者の名前、生年月日、性別、住所、電話番号、メールアドレス、FAX番号、他サービス登録時に入力した情報\t連絡先の名前、メールアドレス、電話・FAX番号\n担当者、契約情報\n履歴として保存されている本文に記載されている内容\n\n漏洩の可能性がある個人情報の最大件数\t約13000件\t\nメールアドレス：約97000件\n電話番号：約17000件\nFAX 番号：約400件",
+      "reviewed_at": "2026-10-21 15:05 JST",
+      "from_status": "confirmed",
+      "to_status": "confirmed",
+      "from_label": "漏えい確認",
+      "to_label": "漏えい確認",
+      "change_type": "content",
+      "changed_fields": [
+        "sources"
+      ],
+      "changed_labels": [
+        "情報源"
+      ],
+      "resolution_date": "",
+      "resolution_note": "",
+      "resolution_url": "",
+      "sources": [
+        {
+          "name": "公式発表",
+          "url": "https://raiden.site.ktaiwork.jp/archives/4597",
+          "official": true
+        },
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5CRlRrUkQyNjZJSmhtdWs2RmtoQnlnVF9ERmdxc0JPVTJHR1FhbXZBTjlDVFFfZkJYdFZVdEQ2NmhfaTZFcGdEalBLeFdlTWtjSDVId3RjNFcxY3ZHeHBwUkM4VGZYQQ?oc=5",
+          "official": false
+        },
+        {
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPbk43VUlLeGpaak5OODZ2T3dRT2txdWM5dURXQndrbnZhS1JYMlhEeXk1ME1BT0ZuZWZoWEJ3T3RiVHQwOXBiXzI3TlFfYzhodklXWWNYZFBLaXE4eFlfRUo1ak5zaWpEWUN4SjB4TndkMWo1dHF3ek81S1dYN0RTTHdvY05wNkRfQ280eExPaEwxSzk2cWJ3cFJ3TU1mRjYza3hFMjg2QjBRaGZMQ3MtOXJuTGtCQQ?oc=5",
+          "official": false
+        },
+        {
+          "name": "朝日新聞",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1GcW1nckdnWXBXanZCUlowbFU4Mm1XWXRIc2JlcW5pVkxNUjhfdDdWbnQ5ZFJ2WjNwX3Y0SGtBLU9LX1R1NWNhWmNReEhQa19xc0tIX0dHa2F6M0JibF9QWDBENW5YX0U?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-22-auto-dac2389002",
+      "company": "カプコン",
+      "service": "CAPCOM ID",
+      "published": "2026-10-22",
+      "affected_count": 11774247,
+      "cause": "報道自動検知",
+      "summary": "不正アクセスの概要（10月22日時点）\n\n(1) メールアドレス、システム固有の識別情報（※2）の漏えい\n対象件数：11,774,247件（全世界合計）\n※2 アカウント作成日時、最終ログイン日時、ログイン回数、最終ログイン時のクライアントIP\n\n(2) 生年月日、性別、国・地域、ニックネームの漏えい\n対象件数：(1)のうち43件\n\n(3)「CAPCOM ID」のログインパスワードの不正な変更\n対象件数：(1)のうち196件\nお客様ご自身で設定されたパスワードの漏えいは確認されておりません。一方、196件のアカウントにおいて、パスワードが不正に変更されていたことを確認しました。当該アカウントは既にパスワードをリセットしており、不正アクセスによる影響範囲については引き続き調査を進めております。\n\n対象となるお客様には順次個別にご連絡いたします。なお、クレジットカード情報は漏えい対象には含まれておりません。",
+      "exposed_data": "要確認",
+      "reviewed_at": "2026-10-22 19:39 JST",
+      "from_status": "confirmed",
+      "to_status": "confirmed",
+      "from_label": "漏えい確認",
+      "to_label": "漏えい確認",
+      "change_type": "content",
+      "changed_fields": [
+        "sources"
+      ],
+      "changed_labels": [
+        "情報源"
+      ],
+      "resolution_date": "",
+      "resolution_note": "",
+      "resolution_url": "",
+      "sources": [
+        {
+          "name": "公式",
+          "url": "https://www.capcom.co.jp/ir/news/html/261022.html",
+          "official": false
+        },
+        {
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUFRiOTROZElLZnhSMm9nb3haaFhycERIclJPRjhkNXczdTBScHZkZ01rYlZYWk43ZFlPSVAzYktkMnZGVkFnakNicEtrYU5qUE95ZDFfWHktNzJiUTRJUVhwdlFwa3E5RGFzT1dFanpLdjJlNmRTdS16ekJJalZ1dFJXVFJ0a1d1N0hjcWFWSkxLYTVTaS1JWmF2cENTVEg2djR1YmtDTjg?oc=5",
+          "official": false
+        },
+        {
+          "name": "ASCII.jp",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAzbnlVT0VSU0gxV2ZXTURUVnFUUVlpRTdsdHdLbGVTYlZfUUxMNFdxYzBRblN0Nl91NWJLb3RNT2JGMzk3OFNsak91UUt2Q2VWLUVNZQ?oc=5",
+          "official": false
+        },
+        {
+          "name": "Game*Spark",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5pYUVZbzNpS1pvc2w3eEF3SjVKY0Y1QUlsTWotam1uX3dxSTVMSkZVeTgyMmxQRTRJeXM1a29taDdaUmxPcThTeVZqd3A5aWp1UVpCMkRIdW4yZDJVNks2eEtjQVRZZw?oc=5",
+          "official": false
+        },
+        {
+          "name": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBtRlZXMV9DVnZPN05Hd3ktWVdsMm1adm11UTJOdWJ4REN6cUh3ZV9nYmRrYWFyNG9iZGNxNWhOcVBWend6WDE0Z2psUm1GUGVESzlSX0lyMmYxT0tTWGFhNTYwMFZMSzFoMVhWZUZ4RDVrU0M2eVVQMGNxMDE5Wk0?oc=5",
+          "official": false
+        },
+        {
+          "name": "日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1NS2F6Zmp6WmlCOUhiMUtkZkFfZUppaG5ycmJXZXBjbGNYRGpJQWYzWDRDanFkZGluMHlESjV1cTNiQ3NFNktjSDJ3dWpleEhHWjh1V3NVMG5iQ0ZGZGstT2dPSG5OU2xUUGJjMQ?oc=5",
           "official": false
         }
       ]
     }
   ],
-  "generated_at": "2026-10-22T10:39:52+00:00",
-  "last_checked_at": "2026-10-22T10:39:52+00:00",
+  "generated_at": "2026-10-22T11:26:50+00:00",
+  "last_checked_at": "2026-10-22T11:26:50+00:00",
   "after_count": 34,
   "net_change": 3,
-  "added_count": 3,
-  "changed_count": 3,
+  "added_count": 2,
+  "changed_count": 7,
   "added_ids": [
     "2026-10-22-auto-217fc06efd",
-    "2026-10-19-auto-03c10fec21",
-    "2026-10-22-auto-dac2389002"
+    "2026-10-19-auto-03c10fec21"
   ],
   "changed_ids": [
     "2026-10-19-auto-159f8c0dbd",
     "2026-10-19-auto-7498ce5ae0",
-    "2026-10-19-auto-86c1b21212"
+    "2026-10-19-auto-86c1b21212",
+    "2026-10-17-auto-fcde0c86c1",
+    "2026-10-19-auto-0e6344c2a4",
+    "2026-10-17-auto-b8a44fe43d",
+    "2026-10-22-auto-dac2389002"
   ]
 }
