@@ -1,34 +1,127 @@
 <!doctype html>
 <html lang="ja">
 <head>
+  <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-R6JG78RZYR"></script>
-  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-R6JG78RZYR');</script>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="個人情報漏えい・流出・不正アクセスに関する自動検知ニュースを掲載。">
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-R6JG78RZYR');
+  </script>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="個人情報漏えい・流出・不正アクセスに関する自動検知ニュースを約1時間おきに更新して掲載。" />
+  <meta name="theme-color" content="#10245f" />
   <title>個人情報漏えいニュース | 個人情報漏えいトラッカー</title>
-  <link rel="stylesheet" href="top.css?v=1.0">
+
+  <link rel="stylesheet" href="top.css?v=1.1" />
 </head>
 <body>
-<header class="hero"><div class="wrap hero-inner">
-  <div><p class="eyebrow">PRIVACY LEAK NEWS</p><h1>個人情報漏えいニュース</h1>
-  <p class="lead">国内の個人情報漏えい・流出・不正アクセスに関するニュースを自動検知して掲載しています。</p>
-  <div class="hero-note"><strong>自動検知ニュースについて</strong><span>掲載時点では運営による内容確認前の情報を含みます。事実関係・対象範囲はリンク先の公式発表・報道をご確認ください。</span></div></div>
-  <div class="hero-side"><span>最終更新</span><strong id="generatedAt">読み込み中...</strong><a href="index.html">確認済み案件データベース →</a></div>
-</div></header>
-<main class="wrap">
-  <section id="updateSection" class="update-section" hidden>
-    <div class="section-head"><div><p class="section-kicker">UPDATED NEWS</p><h2>アップデートニュース</h2><p>運営が内容を確認・修正したニュースだけを表示します。新規検知ニュースはここには表示しません。</p></div><span id="updateCount" class="count-pill">0件</span></div>
-    <div id="updateCards" class="update-cards"></div>
-  </section>
-  <section class="toolbar">
-    <div class="searchbox"><label for="q">ニュースを検索</label><input id="q" type="search" placeholder="企業名・サービス名・概要で検索"></div>
-    <div class="view-switch"><button class="active" data-view="all">すべて <span id="allCount">0</span></button><button data-view="mine">自分に関連 <span id="mineCount">0</span></button></div>
-  </section>
-  <section class="news-section"><div class="section-head"><div><p class="section-kicker">DETECTED NEWS</p><h2>検知ニュース一覧</h2><p>新しく検知したニュースを新しい順に掲載しています。自分に関係しそうなニュースは「自分に関連」に保存できます。</p></div></div>
-    <div id="newsCards" class="news-cards" aria-live="polite"></div><p id="empty" class="empty" hidden>条件に一致するニュースはありません。</p><div id="pager" class="pager"></div>
-  </section>
-  <section class="guide"><article><span>1</span><div><strong>ニュースを確認</strong><p>自動検知したニュースを一覧で確認します。</p></div></article><article><span>2</span><div><strong>自分に関連を保存</strong><p>気になるニュースだけ端末内へ保存します。</p></div></article><article><span>3</span><div><strong>公式情報を確認</strong><p>実際の対象者・対応方法は情報源で確認してください。</p></div></article></section>
-</main>
-<footer><div class="wrap footer-inner"><div><strong>個人情報漏えいトラッカー</strong><p>運営：株式会社スモールツリー</p></div><p>本ページの「自動検知ニュース」には運営による確認前の情報が含まれます。誤検知・表現の不正確さがあり得るため、最終的な事実関係は各情報源をご確認ください。</p></div></footer>
-<script src="top.js?v=1.0" defer></script>
-</body></html>
+  <header class="hero">
+    <div class="wrap hero-inner">
+      <div>
+        <p class="eyebrow">PRIVACY LEAK NEWS</p>
+        <h1>個人情報漏えいニュース</h1>
+        <p class="lead">
+          国内の個人情報漏えい・流出・不正アクセスに関するニュースを自動検知し、約1時間おきに情報を更新しています。
+        </p>
+
+        <div class="hero-note">
+          <strong>自動検知ニュースについて</strong>
+          <span>
+            掲載時点では運営による内容確認前の情報を含みます。
+            事実関係・対象範囲はリンク先の公式発表・報道をご確認ください。
+          </span>
+        </div>
+
+        <div class="update-policy">
+          <span><b>約1時間おきに自動更新</b>しています</span>
+          <span><b class="inline-new">NEW</b> は直近の更新で新たに検知した案件です</span>
+        </div>
+      </div>
+
+      <div class="hero-side">
+        <span>最終更新</span>
+        <strong id="generatedAt">読み込み中...</strong>
+        <a href="index.html">確認済み案件データベース →</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="updateSection" class="update-section" hidden>
+      <div class="section-head">
+        <div>
+          <p class="section-kicker">UPDATED NEWS</p>
+          <h2>アップデートニュース</h2>
+          <p>運営が内容を確認・修正したニュースだけを表示します。新規検知ニュースはここには表示しません。</p>
+        </div>
+        <span id="updateCount" class="count-pill">0件</span>
+      </div>
+      <div id="updateCards" class="update-cards"></div>
+    </section>
+
+    <section class="toolbar">
+      <div class="searchbox">
+        <label for="q">ニュースを検索</label>
+        <input id="q" type="search" placeholder="企業名・サービス名・概要で検索" />
+      </div>
+
+      <div class="view-switch">
+        <button class="active" data-view="all">すべて <span id="allCount">0</span></button>
+        <button data-view="mine">自分に関連 <span id="mineCount">0</span></button>
+      </div>
+    </section>
+
+    <section class="news-section">
+      <div class="section-head">
+        <div>
+          <p class="section-kicker">DETECTED NEWS</p>
+          <h2>検知ニュース一覧</h2>
+          <p>
+            約1時間おきに新しいニュースを検知し、新しい順に掲載しています。
+            <span class="new-help"><b>NEW</b> は直近の更新で新たに検知した案件です。</span>
+            自分に関係しそうなニュースは「自分に関連」に保存できます。
+          </p>
+        </div>
+      </div>
+
+      <div id="newsCards" class="news-cards" aria-live="polite"></div>
+      <p id="empty" class="empty" hidden>条件に一致するニュースはありません。</p>
+      <div id="pager" class="pager"></div>
+    </section>
+
+    <section class="guide">
+      <article>
+        <span>1</span>
+        <div><strong>ニュースを確認</strong><p>約1時間おきに自動検知したニュースを確認します。</p></div>
+      </article>
+      <article>
+        <span>2</span>
+        <div><strong>NEWをチェック</strong><p>直近更新で新しく検知した案件にはNEWが付きます。</p></div>
+      </article>
+      <article>
+        <span>3</span>
+        <div><strong>自分に関連を保存</strong><p>気になるニュースだけ端末内へ保存できます。</p></div>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-inner">
+      <div>
+        <strong>個人情報漏えいトラッカー</strong>
+        <p>運営：株式会社スモールツリー</p>
+      </div>
+      <p>
+        本ページの「自動検知ニュース」には、運営による確認前の情報が含まれます。
+        誤検知・表現の不正確さがあり得るため、最終的な事実関係は各情報源をご確認ください。
+      </p>
+    </div>
+  </footer>
+
+  <script src="top.js?v=1.1" defer></script>
+</body>
+</html>
