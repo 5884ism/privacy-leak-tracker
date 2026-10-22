@@ -1,18 +1,206 @@
 {
   "version": "1.1",
-  "generated_at": "2026-10-22T11:59:39+00:00",
+  "generated_at": "2026-10-22T20:11:29+00:00",
   "before_count": 352,
-  "after_count": 352,
-  "net_change": 0,
-  "new_count": 0,
+  "after_count": 363,
+  "net_change": 11,
+  "new_count": 9,
   "removed_count": 0,
   "visible_before_count": 352,
-  "visible_after_count": 352,
-  "visible_net_change": 0,
+  "visible_after_count": 363,
+  "visible_net_change": 11,
   "raw_before_count": 536,
-  "raw_after_count": 536,
-  "raw_net_change": 0,
-  "new_candidate_ids": [],
-  "new_candidates": [],
+  "raw_after_count": 552,
+  "raw_net_change": 16,
+  "new_candidate_ids": [
+    "2026-10-23-auto-cab27c156e",
+    "2026-10-23-auto-ecfcf48d5e",
+    "2026-10-23-auto-af63daadcf",
+    "2026-10-23-auto-bb7127f25a",
+    "2026-10-23-auto-edb16144bb",
+    "2026-10-23-auto-fe0f8c7a60",
+    "2026-10-23-auto-1aa82e29cc",
+    "2026-10-23-auto-4089206da0",
+    "2026-10-23-auto-27d2924aa6"
+  ],
+  "new_candidates": [
+    {
+      "id": "2026-10-23-auto-cab27c156e",
+      "member_ids": [
+        "2026-10-23-auto-cab27c156e"
+      ],
+      "priority": "C",
+      "published": "2026-10-23",
+      "company": "ラクス、子会社システム",
+      "service": "",
+      "affected_count": 0,
+      "summary": "ラクス、子会社システムに不正アクセス 契約者情報が流出",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9DdnREX0pyQUlsWm9XTVpsSDk5elo0VTdfS2EyeXNtaC1BTTcxaC1Lem45MGFtMWNndzc1LXl6eXFTaFJFQzltejc4Uk9sWHdvSnFKeURwTVFZRWNMVWFTS2E1RmNWSVkzYVM2Zg?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-auto-ecfcf48d5e",
+      "member_ids": [
+        "2026-10-23-auto-ecfcf48d5e"
+      ],
+      "priority": "C",
+      "published": "2026-10-23",
+      "company": "8000件余個人情報漏えいの可能性 富山県が運営する企業情報サイトなど",
+      "service": "",
+      "affected_count": 8000,
+      "summary": "8000件余個人情報漏えいの可能性 富山県が運営する企業情報サイトなどに不正アクセス (北日本放送)",
+      "sources": [
+        {
+          "name": "北日本放送",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBfMm5nNUk2NkU2QmFBM0hVZnlFSW9majV3amxHVjE2ZlNQN2pGb3IwbGFCSk5BVi1LQU5KZ2thV2Y1cWdVUXRXaWctRVZRekpoWkNFVnNFcEttZl9TMjllM2pwbnB1MEU2R3dHYjlneG9aMXVmZXd2SG40bGQwM1E?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-auto-af63daadcf",
+      "member_ids": [
+        "2026-10-23-auto-af63daadcf",
+        "2026-10-23-auto-459a1da9eb"
+      ],
+      "priority": "C",
+      "published": "2026-10-23",
+      "company": "広島県主催のスポーツイベント 委託事業者のHPから個人情報が2件流出",
+      "service": "",
+      "affected_count": 0,
+      "summary": "広島県主催のスポーツイベント 委託事業者のHPから個人情報が2件流出 外部サービスの不正アクセスによる 二次被害は確認されず(RCC中国放送)",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNdkprcU9iTnlRUmpqc0ZlX1FvM0U5d3hpWU0xS0xZbTFDVVFpcnM0SHA3SEVZbm9sZ3ZST0J2clA4LUh0TXFMeURocVpZZ3ktQVA4VmNxZnZkUTV3ZVlvR1I2aXNua3dCS204d1Z5RHdKSUhOZEZid2xuYWpob3pQem5WdU4zUGV0N3Y4Wm5ORFBhZjZYMzF1SmViWVdMS3UtR0NjQWZhOEdLaV9nR2oyU0VJaEFvUXhwM2dmQXNCVm5ZeFB5azNiWms5MW9nWlNEa3VnbmF2eVk5X004c29yWlh1VVFYakJ3elVUbF9ZZWRpYWd1Q1E?oc=5",
+          "official": false
+        },
+        {
+          "name": "テレビ新広島",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1JaUtpNlBGeFpOV3ZRdTFnenJZZWhPazRsQlcxRC1OWDI5bGc5MmoxRzltQVBFeTc3Zi1WMEh0bnAwN2hBRUhiNnJ1SVJkQUFyLWg1a1NDZnhCWFU3NGR2d1UwSWdaOU1zRUVETUNMUzdLNUV6NlN1Yk5vMGZuaUk?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-auto-bb7127f25a",
+      "member_ids": [
+        "2026-10-23-auto-bb7127f25a"
+      ],
+      "priority": "B",
+      "published": "2026-10-23",
+      "company": "JR四国、不正アクセスでメルマガ会員約3万人",
+      "service": "",
+      "affected_count": 30000,
+      "summary": "JR四国、不正アクセスでメルマガ会員約3万人の個人情報が漏えいか",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBXc1NfMXQzRU8wdGYyZHFrOFZsMWR1NmZSaTRmTWVneUNXZ0lSV2paWExBTkZpbFA1WXRNbVozRWMwaGpMZUdNcER3WlZjMXdTWkI1RTNOU25hQ2VmZF80?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-auto-edb16144bb",
+      "member_ids": [
+        "2026-10-23-auto-edb16144bb"
+      ],
+      "priority": "C",
+      "published": "2026-10-23",
+      "company": "委託事業に係る個人情報",
+      "service": "",
+      "affected_count": 0,
+      "summary": "委託事業に係る個人情報の漏えいについて",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBUUXlsdWw5SElNdE5oY1lmWk94LXBkQmZwalF4VWJSX2tMR21RNUlOTERwdU93MXM0ZThyNnpGMUdhOVhvb3RMREpLQlBiTC1ELXRYSWRPN0I?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-auto-fe0f8c7a60",
+      "member_ids": [
+        "2026-10-23-auto-fe0f8c7a60"
+      ],
+      "priority": "C",
+      "published": "2026-10-23",
+      "company": "山口FG、子会社の福利厚生アプリ",
+      "service": "",
+      "affected_count": 0,
+      "summary": "山口FG、子会社の福利厚生アプリに不正アクセス 個人情報流出の可能性",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1zcTd6LXNEV3RvazdWMG1RU0RiM2l0WDJ6dE1Jbk56Y25TUnBfRTNIUUlGNnhJejRSc01Ybk5WNWEwdDhjY1p3eEplVDJ6bld2NHBGcVA4OURoQQ?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-auto-1aa82e29cc",
+      "member_ids": [
+        "2026-10-23-auto-1aa82e29cc"
+      ],
+      "priority": "C",
+      "published": "2026-10-23",
+      "company": "春日井市のメルマガ登録者情報1532件",
+      "service": "",
+      "affected_count": 1532,
+      "summary": "春日井市のメルマガ登録者情報1532件が流出の恐れ 委託先に不正アクセス",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9oUDh6UWFPNlUtQTJfT2p3R2d0VVZvUk5icWg1ZXNEQVFlVzhFTVJvMThYNlFuYVhaOEJuT2MwS2t0WFhMQk9ST05XRFRjQ3BzZTFkeg?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-auto-4089206da0",
+      "member_ids": [
+        "2026-10-23-auto-4089206da0"
+      ],
+      "priority": "B",
+      "published": "2026-10-23",
+      "company": "市が利用するメール配信システム",
+      "service": "",
+      "affected_count": 20000,
+      "summary": "市が利用するメール配信システムに不正アクセス 地域通貨利用者など2万人超に影響の可能性 宮城・名取市(tbc東北放送)",
+      "sources": [
+        {
+          "name": "tbc東北放送",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBWSW5yaUNKN2RQVHhJNEp4eEF2bXAtclJiMjBEZU5LTjhGaXk5Vm5UVUdON3F5TzQ0dkpsZG45WXI0Q2NERG9OZTR2a0poMkRteVFIc1FyY1dPU0kwYXhRUFA4N09ZbExzXzQ2a3pmYmJoMEZXZ0ZaRWF4TWRrVTA?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-auto-27d2924aa6",
+      "member_ids": [
+        "2026-10-23-auto-27d2924aa6"
+      ],
+      "priority": "B",
+      "published": "2026-10-23",
+      "company": "茨城県移住情報配信会社",
+      "service": "",
+      "affected_count": 2700,
+      "summary": "茨城県移住情報配信会社に不正アクセス 氏名やメルアド、個人情報2700件漏えいか",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFB6U2I2TFJyNTAtMTNOaWltSlJRTDB0MlU2QTlfTEQ4cDRFYkRPRDFEWkFGODUzSUdXVktkMURTbjRmaWwyZndubzVacw?oc=5",
+          "official": false
+        }
+      ]
+    }
+  ],
   "removed_candidates": []
 }
