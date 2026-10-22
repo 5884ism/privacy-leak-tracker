@@ -1,6 +1,6 @@
 {
   "version": "1.2",
-  "last_updated": "2026-10-22 08:59 JST",
+  "last_updated": "2026-10-22 17:19 JST",
   "incidents": [
     {
       "published": "2026-10-22",
@@ -15,6 +15,38 @@
         {
           "name": "大阪大学",
           "url": "https://www.osaka-u.ac.jp/ja/news/topics/2026/10/21004"
+        }
+      ]
+    },
+    {
+      "published": "2026-10-21",
+      "company": "株式会社リクルート",
+      "service": "中古車情報サイト『カーセンサーnet』（アプリ版を含む） 中古車販売店向け業務支援サービス『C-MATCH』",
+      "affected_count": 3710000,
+      "status": "confirmed",
+      "cause": "報道自動検知",
+      "summary": "「カーセンサー」などに不正アクセス、最大371万件の個人情報漏えいか 問い合わせ客の氏名・住所など (ITmedia NEWS)",
+      "exposed_data": "＜漏えいした可能性のある個人情報（対象者、項目、件数）＞\n(1）『カーセンサーnet』（アプリ版を含む）ご利用者様のうち、当該サービス上で中古車販売店へのお問い合わせをされた方　（3,210,421件）\n\n＜内訳＞\n・項目：氏名、住所（3,176,375件）\n・項目：氏名、住所、問い合わせ内容、年代、性別（33,247件）\n・項目：氏名、住所、問い合わせ内容、電話番号、FAX番号、メールアドレス（799件）\n※上記「住所」は原則として市区町村名までの情報です。町名・番地・建物名・部屋番号等まで含む住所が記載されている可能性がある件数は、最大447,670 件です\n\n（2）『カーセンサーnet』（アプリ版を含む）ご利用者様のうち、当該サービス上で口コミ投稿をされた方（5,289件）\n＜内訳＞\n・項目：氏名（5,285件）\n・項目：氏名、メールアドレス（4件）\n\n（3）『C-MATCH』にご登録のある中古車販売店様（483,168件）\n・項目：代表者様や担当者様の氏名・電話番号、古物商許認可番号・許認可保有者氏名・発行都道府県、ログインID\n※個人事業主の場合、上記に加え、事業所・窓口の住所、郵便番号、電話番号、FAX番号、引落口座情報が含まれます。\n\n（4）当社従業員（退職者含む）、当社と業務委託契約を締結しているまたは締結していた企業様の従業員の方や個人事業主の方、当社と『カーセンサー』の販売代理店契約を締結しているまたは締結していた企業様の従業員の方（10,673件）\n・項目：氏名、メールアドレス、ログインID\n\n※上記(1)〜(4)全てに、当社内で付与する管理用IDが含まれています。\n※上記(1)〜(4)いずれにもクレジットカードなどの決済情報、ログインパスワードは含まれておりません。",
+      "sources": [
+        {
+          "name": "公式",
+          "url": "https://www.recruit.co.jp/newsroom/pressrelease/2026/1021_149447.html"
+        },
+        {
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxPVkIzY00tOEN4Uzk4NGU4N1dGczFqcTVJZlFnOE9LdElBTWFvVThzaGFZbWZEMTFhYW1Mcld0SERwNXEwV2lBa2oxZW5uRmNPS3pTWWoxTzRDUXFuRGpJZVlKdVJObW9ZVzYwcmkxOUhUMVkxTGFZamxxTlpmZUFjdnMtSWtZYlQ4ckJUcnZObkt5bnpKVUZHSVkyRUJzSVA1ckNINTRaaXlvQTVxSy1WWDN2d0xUYlIwbjQyc1VyVE5VTGlzeTBHX3gyYUV4YW5kbTFnWTFLZXZQN3pRZi1zLTlPNzE0T2tLeXgxdVA1bjRXZFNla1lJRGpQb0tMSHRPR2U4ZHZSYlZtTXdvN2xIYnVoZVVfeXE0MDJkVmthOHZzSXBJdlptLXhnbDFna0ZfUFhFS2Nndlp1ZFo2aloxSURMdl9QdGNkeEUwYVJiX0d1UW9iMV9WclpfdDN1U1p5U3NB?oc=5"
+        },
+        {
+          "name": "Car Watch",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5yR0xYUjRZUnFSY3ZreXVzNExFeGNzUE5hNFlfaVFUTEFtSUU3cXRMVjYwTVFGQmYzYTA1QnlOa09wYnZIRDBxZnhsTUhMdnpLQW1zUWEzXzNfUDR1bE5Cd3pDeUQ?oc=5"
+        },
+        {
+          "name": "ITmedia",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBJc0wwdW0xdUIyREV3U2lwV1R6QmEtRUppQm8wZndKNjJvMXFFNVN3M1B0WTIycXhKVVJjYktHdlRGcFpLRERidlFXY0tkOXRoa1ZxcXpVNkRwQkpuUTltR0EyX3FTZU5yUkE?oc=5"
+        },
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5XcHplWUdKcU53X1J6dEFkT3hSTS14SURZOGJhRHItWWlMdG9lcmZwSU93UGpUMXlRdkFjRk1xSkdMalJxRm1fS05Eajh3bnI1YkZEQVN1T29VV0xVZ3NLenBUYk1LcDM0YzZfZHdCaE5jbWhLSmEtbGtkclVsMzg?oc=5"
         }
       ]
     },
@@ -267,11 +299,11 @@
           "url": "https://www.busitec.co.jp/news/info"
         },
         {
-          "name": "Googleニュース",
+          "name": "Yahoo!ニュース",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5uR2VlTURhMFNlMm5qc3pGeXg3U3Q5YmU1T1pJZTdvY1dYcmlNNHpRLWNpal94ckxzZTByOFN5SlRLOHJGWVJ1LVF2cjQ4TWhsdEFTbDBWNjVhdnc2UHgzWVBnemV4bmZsTWljeGxkZ2tuZmpNQzVIbnduREhOdEk?oc=5"
         },
         {
-          "name": "ASCII.jp",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4ybS0tbnlpaFBiT2o5V1pYSEtsMzBGZkE1OElkX082LUROeS1CcWVnQWRvczh0NVlscTdDUGxwWFJzclFOakN3WGVhOFN3OVlBMHFPdQ?oc=5"
         }
       ]
