@@ -145,6 +145,9 @@ jobs:
       - name: Generate public feed
         run: python scripts/export_public.py
 
+      - name: Generate public news
+        run: python scripts/export_public_news.py
+
       - name: Report public changes
         run: python scripts/report_public_changes.py report /tmp/public-before.json
 
@@ -152,7 +155,7 @@ jobs:
         run: |
           git config user.name "privacy-leak-bot"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/incidents.json data/public-incidents.json data/public-update.json
+          git add data/incidents.json data/public-incidents.json data/public-update.json data/public-news.json
           if git diff --cached --quiet; then
             echo "No changes"
             exit 0
