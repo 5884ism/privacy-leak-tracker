@@ -2,9 +2,9 @@ name: Hourly privacy news update
 
 on:
   schedule:
-    # Every hour at :25 UTC-minute.
-    # Avoids collision with the daily workflow scheduled at 21:10 UTC (06:10 JST).
-    - cron: '25 * * * *'
+    # Run every hour at minute 17.
+    # GitHub Actions scheduled workflows may start a few minutes late.
+    - cron: '17 * * * *'
   workflow_dispatch:
 
 permissions:
