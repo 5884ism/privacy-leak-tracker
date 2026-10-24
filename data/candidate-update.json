@@ -1,181 +1,196 @@
 {
   "version": "1.1",
-  "generated_at": "2026-10-24T07:22:02+00:00",
-  "before_count": 496,
-  "after_count": 505,
-  "net_change": 9,
-  "new_count": 8,
+  "generated_at": "2026-10-24T12:44:02+00:00",
+  "before_count": 505,
+  "after_count": 455,
+  "net_change": -50,
+  "new_count": 9,
   "removed_count": 0,
-  "visible_before_count": 496,
-  "visible_after_count": 505,
-  "visible_net_change": 9,
-  "raw_before_count": 710,
-  "raw_after_count": 725,
-  "raw_net_change": 15,
+  "visible_before_count": 505,
+  "visible_after_count": 455,
+  "visible_net_change": -50,
+  "raw_before_count": 725,
+  "raw_after_count": 737,
+  "raw_net_change": 12,
   "new_candidate_ids": [
-    "2026-10-24-auto-417ae015aa",
-    "2026-10-24-auto-5328feccbb",
-    "2026-10-24-auto-69cabdeb6f",
-    "2026-10-24-auto-9464180ca5",
-    "2026-10-24-auto-2a8b67e1b6",
-    "2026-10-24-auto-bfa79f3fd6",
-    "2026-10-24-auto-74ba220270",
-    "2026-10-24-auto-9bbd9ebb79"
+    "2026-10-24-auto-bbb23a3c93",
+    "2026-10-24-auto-c5f58c3244",
+    "2026-10-24-auto-4afce72ee1",
+    "2026-10-24-auto-a8701f12b2",
+    "2026-10-24-auto-31b3355da7",
+    "2026-10-24-auto-63c4e680a9",
+    "2026-10-24-auto-35a8f2543f",
+    "2026-10-24-auto-e8ad71ffcd",
+    "2026-10-24-auto-7aa75e07cc"
   ],
   "new_candidates": [
     {
-      "id": "2026-10-24-auto-417ae015aa",
+      "id": "2026-10-24-auto-bbb23a3c93",
       "member_ids": [
-        "2026-10-24-auto-417ae015aa"
+        "2026-10-24-auto-bbb23a3c93"
       ],
-      "priority": "B",
+      "priority": "C",
       "published": "2026-10-24",
-      "company": "GMO、政府へ能動的サイバー防御「要請」",
+      "company": "横須賀市自然・人文博物館のメールマガジン",
+      "service": "",
+      "affected_count": 1000,
+      "summary": "【横須賀市】横須賀市自然・人文博物館のメールマガジンに不正アクセス|約1,000人分の個人情報漏えいのおそれ",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5EdGdvMW9JMkpDVXBrVHk4Q1NHcDBvT284TXpiMVRzdThnU3g3V29uVGM1MDBWbDU5N0VPeWlTcU8xVFdBNTRTaFBpS3ZLaE1QYmxXYXpJRGMyYTRFc3Qta3pJcTBEZFBzbVR6OEFWUTJzVVJhTThj?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-24-auto-c5f58c3244",
+      "member_ids": [
+        "2026-10-24-auto-c5f58c3244"
+      ],
+      "priority": "C",
+      "published": "2026-10-24",
+      "company": "GMO緊急要請の「能動的サイバー防御",
       "service": "",
       "affected_count": 0,
-      "summary": "GMO、政府へ能動的サイバー防御「要請」 不正アクセスで情報流出 (朝日新聞)",
+      "summary": "GMO緊急要請の「能動的サイバー防御」、政府側は慎重な姿勢 [情報漏洩・個人情報流出の最新ニュース]",
       "sources": [
         {
-          "name": "朝日新聞",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9qeFA3NXd6WnhLNVBqQ3FXejJRTkZhd1VzYlpYTDY5QUZhOThKMU9pVndIMHpfbl96SFFOdE11QTNHWjNyaHdSSmtNTjJSaDZZd0FGMFU1ajhfOG03dG5SekRVZ0ZnN3c?oc=5",
-          "official": false
-        },
-        {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTTdfcWJXd1ZKaE1IRWxDamJ0WmZjYnNDb2hqUEVqUTVGOTVPNWphVGNNU0R5dFJWeEs4V3ZBT25jYmRWZ3Nsamw3d2p6R0hhcXdmRk1HanVOekt2UmR5MzA0ekhCOU1jdkhDa2ZFMGxNZTB5M1JyN0tVSk9ObTlRWFoyTi1USXBPN3VJY2l3?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9fRlgwOGNsV1dtbi1kbVVPWERYcXd1UkstQXJUZjZ4S01uLS1Ud0pDdDlPem5xM0lxNnNZa2V2TlRrckNFQWxzMS0yU0NyRFdRdElRT3B6aHM0RlJLTDBKRUtIbTJoem1Ebkl4cWttRk84WmlTX0xkLXZR?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-10-24-auto-5328feccbb",
+      "id": "2026-10-24-auto-4afce72ee1",
       "member_ids": [
-        "2026-10-24-auto-5328feccbb"
+        "2026-10-24-auto-4afce72ee1"
       ],
       "priority": "C",
       "published": "2026-10-24",
-      "company": "能動的サイバー防御とは? 警察・自衛隊が攻撃側に侵入し「無害化」",
+      "company": "ヤマダデンキ",
       "service": "",
       "affected_count": 0,
-      "summary": "能動的サイバー防御とは? 警察・自衛隊が攻撃側に侵入し「無害化」 [情報漏洩・個人情報流出の最新ニュース]",
+      "summary": "ヤマダデンキに不正アクセス、「ヤマダビデオ」「スマホゴールド会員」の一部サービス停止 個人情報への影響を調査",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVE1OUnJ5N0tSc1U4RmxjTUl5S3BBa3FZVTZJMG5lQ0R0Z0RLQTUzb3JyR1dqN2JNVTlFVWxrWFFpX1Q5Z2g3SzJmSDU5bFBpWDlQbGNfN1NZMFlsOTlxbGc0b1RWTkFFM2Z4STlrQnNRYnBBNVNjZVM3QkdBbkZ3VQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZEVPRTJDNS1kc0NaMGR0cVhIVjNlTlBMRDlVLWpSZVhFMjVlb3JRYjlocEhZNXpJa1FtLUIyMGp2cC1BMnFZaF9oRXhCaHJRMXRVYnhlMl9SR3RYZGZhQ2d2VXZ1VXFZQkU1VVY1Wk9fdmZraGUycmVuSUlVMVhfWnZwU3FydWVwYVdQOXdoVm9pcXBoRThkbi1wd1ZiR0YwV2NrOWM0b3RvMVV4Xy1v?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-10-24-auto-69cabdeb6f",
+      "id": "2026-10-24-auto-a8701f12b2",
       "member_ids": [
-        "2026-10-24-auto-69cabdeb6f"
+        "2026-10-24-auto-a8701f12b2"
       ],
       "priority": "C",
       "published": "2026-10-24",
-      "company": "流出情報での不正取引を確認とGMO",
+      "company": "野村證券、「i-Port」の委託先",
       "service": "",
       "affected_count": 0,
-      "summary": "流出情報での不正取引を確認とGMO",
+      "summary": "野村證券、「i-Port」の委託先で不正アクセス 金融機関の利用者のアドレス漏えいか(ビジネス+IT)",
       "sources": [
         {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE95RThpUG80aTRHVldLb3pCMlBWTS1jTUZuR01GSUtqdnlfZXZnM2Mwb25vdlo3dHh2bjY5Y0wzV1YtTldPZm5iRGlYUnNrSE51T3ZWc1RYdmxpelU?oc=5",
+          "name": "ビジネス+IT",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE52S3U0LVVXR1RFZ1c3N3owZG13Sk5MM192dDVBdlpIR1JranQ1aG4xc1ZQeG9vMjVEUG9pOHVHdXp3dE92WmZSbDZHdFRmbDA0WmZQNTBtUHFzSmNhM2xkRmdnS3l2NWg0dHF1bjdIZXRObjJmQU1RZUM5Z1VNSm8?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-10-24-auto-9464180ca5",
+      "id": "2026-10-24-auto-31b3355da7",
       "member_ids": [
-        "2026-10-24-auto-9464180ca5"
+        "2026-10-24-auto-31b3355da7"
       ],
-      "priority": "B",
+      "priority": "C",
       "published": "2026-10-24",
-      "company": "GMO「攻撃者から金銭の要求」 利用者に見舞金も",
+      "company": "GMOが「能動的サイバー防御」を緊急要請 全利用者に一律5000円支払いへ",
       "service": "",
       "affected_count": 0,
-      "summary": "GMO「攻撃者から金銭の要求」 利用者に見舞金も 不正アクセス(毎日新聞)",
+      "summary": "GMOが「能動的サイバー防御」を緊急要請 全利用者に一律5000円支払いへ 不正アクセスで顧客情報流出 金銭要求には応じず",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBnR2kwdlZzcFV2TVhQWkJyQm4tLWdCTklydGdza0tWLVZUUXVtaTVHWjBJTlluRzdXLW0xV1dPbzVuZjNMTWFIWXBCQnZ2TzBNZVJBUE9QWGljWi0xMHFXc0Y2S3ljR2xfeGduMzFxd0dQSl9iRF9zdVd0N1k3Rlk?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1WWHJ6VmFvZG5WWDFld29xUVE5R2F3U2Nta2pMT1poQjJBdHFiUmFqZTBKeXQ5cEZaeU5qZzBpZGlrc0F1Sk1ydGpjMDdacUNYQ3JIb1F3QzhmME9JTVlRVEp1QzFHdWliU3FPenl5MzBoMVBH?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-10-24-auto-2a8b67e1b6",
+      "id": "2026-10-24-auto-63c4e680a9",
       "member_ids": [
-        "2026-10-24-auto-2a8b67e1b6"
+        "2026-10-24-auto-63c4e680a9"
       ],
       "priority": "C",
       "published": "2026-10-24",
-      "company": "エムスリー「MR君」不正アクセス、第2報で会員等2万5,775名",
+      "company": "GMO、能動的防御を要請 政府",
       "service": "",
-      "affected_count": 25775,
-      "summary": "エムスリー「MR君」不正アクセス、第2報で会員等2万5,775名の情報漏えいを確認",
+      "affected_count": 0,
+      "summary": "GMO、能動的防御を要請 政府に不正アクセス攻撃で―FX取引、金銭被害を補償",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1jSENkY3UzbFZWelItczE1THBuTF9nNUtvNHZfWDdXTl9VQ0dSTGY1b3pfU25vOXdyb1had2tXa2VEMFlONE94dk9pY3J3Y3lRWXFUcElKZHRjQ0Fsa0d5OA?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZFJIb3ZoNWhtR3N2clhFaG11RjJYMzNKVGU0WmJuaWtrdGptQ1ZxcXVMSjhtc2ZoM0E2bFYxbVBzajN4WlYzR3NzZ3Y2OWE0TmFOejFuZjUyR2ZoRnBIZTNxT2F2TUhWM3NMb19QcXY1U24xYnY0Zm9WZFRqRndkVg?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-10-24-auto-bfa79f3fd6",
+      "id": "2026-10-24-auto-35a8f2543f",
       "member_ids": [
-        "2026-10-24-auto-bfa79f3fd6"
+        "2026-10-24-auto-35a8f2543f"
       ],
       "priority": "C",
       "published": "2026-10-24",
-      "company": "個人情報140件漏えい 福島県郡山市、委託事業者のウェブサービス",
+      "company": "GMOインターネットが政府に「能動的サイバー防御」適用を要請 実現なら初適用に",
       "service": "",
-      "affected_count": 140,
-      "summary": "個人情報140件漏えい 福島県郡山市、委託事業者のウェブサービスに不正アクセス (福島民友新聞)",
-      "sources": [
-        {
-          "name": "福島民友新聞",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYjgySk5xdm14Qks1UVBPN2twdy1tQ3JMYVZUQVVXRzY5THB6aHhHU1VITUxZMUg5dG8yY0VKNzBOLTRoTWtlUEJsaFdhMndOY2NlTHFRdHJHSmZVR3pWWnlIQWU1X2xNRkkxWVNwN0hSQjV2YTJjeXp2YzFGYlNoYVdoVi1ub0VqU3JGYTNn?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-24-auto-74ba220270",
-      "member_ids": [
-        "2026-10-24-auto-74ba220270"
-      ],
-      "priority": "B",
-      "published": "2026-10-24",
-      "company": "東京メトロ、イベントメルマガのアドレス約8万件流出 委託先",
-      "service": "",
-      "affected_count": 80000,
-      "summary": "東京メトロ、イベントメルマガのアドレス約8万件流出 委託先に不正アクセス",
+      "affected_count": 0,
+      "summary": "GMOインターネットが政府に「能動的サイバー防御」適用を要請 実現なら初適用に 不正アクセスで口座情報流出や不正取引も",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9DUmlLYURSUks2M1pMc0VzQU5IN3hhcW1sN3VtemUwU1NnUE5ueUNudEV0LUx1MTBxZXVBU05IR1FzN1luN3UtQWR1QXRzcHRTel83TXR1V1N5T3lmRW9JWg?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5jbGRxUUx3Q2pJMFliVlE1anQtckRRUXNqM01xc0RMZGMzNm1KTWF0Mm5uaWJRaG9oTGY0SUFZay15MXdsOEluM3hCM0l2X1FaT3dPVW4zcmllZkFRcWtNekw0X0U3N0lMWVZ0VjRKUGZ1dw?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-10-24-auto-9bbd9ebb79",
+      "id": "2026-10-24-auto-e8ad71ffcd",
       "member_ids": [
-        "2026-10-24-auto-9bbd9ebb79"
+        "2026-10-24-auto-e8ad71ffcd"
       ],
       "priority": "C",
       "published": "2026-10-24",
-      "company": "島根県、個人情報471人分漏えいか セミナー応募者 委託業者",
+      "company": "橋下徹氏",
       "service": "",
-      "affected_count": 471,
-      "summary": "島根県、個人情報471人分漏えいか セミナー応募者 委託業者に不正アクセス",
+      "affected_count": 0,
+      "summary": "橋下徹氏 個人情報漏洩多発で弁護士〝バブル〟状態と指摘「チャンスになってる」",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBwSXBzNFlTRllMaHFzdzhzZkJZaXU5M092SXdSOHdKZU5wOVhPU01FdFdfNmNpbk4yX1Rpb0NFSWFiUWNac2lHRnlEdWdjUlVfMjg2NjJWeFlpQWM?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9PcFNJeHV2dThNRFV2djhYTHRIa2I2VlZaMjZDS245OXNZOTJIMnBHSWYwb2dwcEl3aFh0VHc3NmVNajY1N1FKeUtab2Y2U2h6VkU5SW9HelR5QW12ZFctaFpNZjFHbnpHYTJWSWdR?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-24-auto-7aa75e07cc",
+      "member_ids": [
+        "2026-10-24-auto-7aa75e07cc"
+      ],
+      "priority": "C",
+      "published": "2026-10-24",
+      "company": "糸満市、ふるさと納税の寄付者情報",
+      "service": "",
+      "affected_count": 0,
+      "summary": "糸満市、ふるさと納税の寄付者情報が流出 沖縄",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5HU0d2NGdwd1JNMnk4c2tPS1hrMTd0c1ZvWURkWkZGLVR4VDNlOXBydkhsb2xJazhrN2E3UzFkX3BHWWhIOERzVnhVQXpCNmVZZzRrUEFzNzR6azZ5VEhmOU9B?oc=5",
           "official": false
         }
       ]
