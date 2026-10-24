@@ -83,6 +83,33 @@
           "official": false
         }
       ]
+    },
+    {
+      "id": "2026-10-24-auto-9377ee5a17",
+      "status": "confirmed",
+      "published": "2026-10-24",
+      "company": "モスバーガー",
+      "service": "モスカード",
+      "affected_count": 570000,
+      "cause": "報道自動検知",
+      "summary": "モスバーガー 流通済みプリペイドカード情報 約57万件が流出",
+      "exposed_data": "流出した情報 モスカード番号（16 桁）、PIN 番号（6 桁）、残高情報\n対象件数 発行総数 約 380 万件のうち、流出件数 113 万 3,070 件\n（うち、流通済みカード 約 57 万件／未流通カード 約 56 万件）",
+      "resolution_date": "",
+      "resolution_note": "",
+      "resolution_url": "",
+      "reviewed_at": "2026-10-25 07:20 JST",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5vb1RMZDZERHlhOThVQ005MUt5MmxBNklWamktMTY4Ri1YOTNyczR3RWNKTURhZUpQeHNtMjctRWVZV2lTamhkZVl3RzhfYXEtSkZxUURKYkpBOGlHVFZz?oc=5",
+          "official": false
+        },
+        {
+          "name": "公式",
+          "url": "https://www.mos.jp/topics/20261023_1/",
+          "official": true
+        }
+      ]
     }
   ],
   "changed": [
@@ -312,16 +339,17 @@
       ]
     }
   ],
-  "generated_at": "2026-10-24T22:15:34+00:00",
-  "last_checked_at": "2026-10-24T22:15:34+00:00",
-  "after_count": 38,
-  "net_change": 4,
-  "added_count": 3,
+  "generated_at": "2026-10-24T22:20:23+00:00",
+  "last_checked_at": "2026-10-24T22:20:23+00:00",
+  "after_count": 39,
+  "net_change": 5,
+  "added_count": 4,
   "changed_count": 5,
   "added_ids": [
     "2026-10-24-auto-4d77a16e82",
     "2026-10-23-auto-b0475a2ed8",
-    "2026-10-25-auto-babdac0547"
+    "2026-10-25-auto-babdac0547",
+    "2026-10-24-auto-9377ee5a17"
   ],
   "changed_ids": [
     "2026-09-timescar",
