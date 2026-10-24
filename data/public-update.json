@@ -1,19 +1,19 @@
 {
   "version": "1.4",
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "day_start_count": 34,
   "added": [],
   "changed": [
     {
-      "id": "2026-10-19-auto-7498ce5ae0",
-      "company": "H2O",
-      "service": "",
-      "published": "2026-10-19",
-      "affected_count": 1260000,
-      "cause": "報道自動検知",
-      "summary": "「阪急阪神百貨店」公式通販などに不正アクセス 約126万件の個人情報が漏えい 名前や住所など「多大なるご心配とご迷惑 深くおわび」 | MBSニュース | 関西の最新ニュースを分かりやすく。 (1ページ)",
-      "exposed_data": "要確認",
-      "reviewed_at": "2026-10-19 18:51 JST",
+      "id": "2026-09-timescar",
+      "company": "パーク24",
+      "service": "タイムズカー",
+      "published": "2026-09-30",
+      "affected_count": 6600000,
+      "cause": "不正アクセス",
+      "summary": "タイムズカー会員情報等が第三者に取得されたことを確認。",
+      "exposed_data": "会員情報、本人確認関連情報等",
+      "reviewed_at": "",
       "from_status": "confirmed",
       "to_status": "confirmed",
       "from_label": "漏えい確認",
@@ -31,63 +31,30 @@
       "sources": [
         {
           "name": "公式発表",
-          "url": "https://data.swcms.net/file/h2o-retailing/ja/news/auto_20261019552921/pdfFile.pdf",
+          "url": "https://www.park24.co.jp/news/2026/10/20261016-1.html",
           "official": true
         },
         {
-          "name": "1ページ",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBNSjhwWGh0ZTVvdWc5Z0RuMGdiVTZzY2plRlRRVjRyYjFUWUhfZFpJU0ZVTUc1UTVyeTR6UUo1RFVpNENtd3lqamVqNjI5aGs0RXJYZnNOT2dIVE5BMXhUUHFPbzRjX1NkUEdWdER3ZGpYLTBKOUFiWXJxci1qV2c?oc=5",
+          "name": "ニュース報道",
+          "url": "https://news.mynavi.jp/techplus/",
           "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-19-auto-86c1b21212",
-      "company": "ニフティ、回線申込管理システム",
-      "service": "",
-      "published": "2026-10-19",
-      "affected_count": 542513,
-      "cause": "報道自動検知",
-      "summary": "ニフティの回線申込・受付管理システムへ不正アクセスによるサイバー攻撃、最大54万2,513件の個人情報漏えいの可能性",
-      "exposed_data": "要確認",
-      "reviewed_at": "2026-10-20 00:40 JST",
-      "from_status": "possible",
-      "to_status": "possible",
-      "from_label": "漏えいの可能性",
-      "to_label": "漏えいの可能性",
-      "change_type": "content",
-      "changed_fields": [
-        "sources"
-      ],
-      "changed_labels": [
-        "情報源"
-      ],
-      "resolution_date": "",
-      "resolution_note": "",
-      "resolution_url": "",
-      "sources": [
-        {
-          "name": "公式発表",
-          "url": "https://www.nifty.co.jp/newsrelease/nifty202610195434.htm",
-          "official": true
         },
         {
-          "name": "INTERNET Watch",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBPV1lTUDZES3ZVbDlwc21jWTVJSjJQZ1pPa2Z1c2dGOW1LRnh5YmJVSWtGdWsyRmwxV0xsYktRdGoxVDJMRGpZanhjZTdXbHNQVDVKTkYtaWMwdUloYkRERThNbzlvV2lheVBz?oc=5",
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFA0dXo4S0gwWktiQ3NPd3ptbURTVHBIa21Lc0dxd2pKRDdqYkhnTG5lenFua3BxbE5oVWZjd1Y4T0VsUV9OWHFBSDBjSEttcjRUMTg2LVRMaU9GZFJTZlg0RURhSlJNUDVQNEVrYlpST3lTdw?oc=5",
           "official": false
         }
       ]
     }
   ],
-  "generated_at": "2026-10-23T23:52:42+00:00",
-  "last_checked_at": "2026-10-23T23:52:42+00:00",
+  "generated_at": "2026-10-24T21:55:42+00:00",
+  "last_checked_at": "2026-10-24T21:55:42+00:00",
   "after_count": 34,
   "net_change": 0,
   "added_count": 0,
-  "changed_count": 2,
+  "changed_count": 1,
   "added_ids": [],
   "changed_ids": [
-    "2026-10-19-auto-7498ce5ae0",
-    "2026-10-19-auto-86c1b21212"
+    "2026-09-timescar"
   ]
 }
