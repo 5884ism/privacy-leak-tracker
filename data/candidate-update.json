@@ -1,56 +1,36 @@
 {
   "version": "1.1",
-  "generated_at": "2026-10-24T22:32:22+00:00",
-  "before_count": 444,
-  "after_count": 437,
-  "net_change": -7,
-  "new_count": 2,
+  "generated_at": "2026-10-24T23:09:39+00:00",
+  "before_count": 437,
+  "after_count": 439,
+  "net_change": 2,
+  "new_count": 1,
   "removed_count": 0,
-  "visible_before_count": 444,
-  "visible_after_count": 437,
-  "visible_net_change": -7,
-  "raw_before_count": 739,
-  "raw_after_count": 743,
-  "raw_net_change": 4,
+  "visible_before_count": 437,
+  "visible_after_count": 439,
+  "visible_net_change": 2,
+  "raw_before_count": 743,
+  "raw_after_count": 745,
+  "raw_net_change": 2,
   "new_candidate_ids": [
-    "2026-10-25-auto-00f7c6e66f",
-    "2026-10-23-auto-acf1f781af"
+    "2026-10-25-auto-f0c0eda65d"
   ],
   "new_candidates": [
     {
-      "id": "2026-10-25-auto-00f7c6e66f",
+      "id": "2026-10-25-auto-f0c0eda65d",
       "member_ids": [
-        "2026-10-25-auto-00f7c6e66f"
+        "2026-10-25-auto-f0c0eda65d"
       ],
-      "priority": "B",
+      "priority": "C",
       "published": "2026-10-25",
-      "company": "H2Oで顧客 1",
+      "company": "東海3県 25の市町",
       "service": "",
-      "affected_count": 260000,
-      "summary": "H2Oで顧客 1 26万件漏えい 各社で不正アクセス相次ぐ",
+      "affected_count": 0,
+      "summary": "東海3県 25の市町で情報漏洩か 防災情報などの配信を委託するIT会社に不正アクセス メールアドレスや連絡先が流出した可能性 Ponzi Scheme (l5hYRaR09m)",
       "sources": [
         {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAzYU1MUzhBV01ubW5xQThoVk1hdnR5cjNYaWJEX19wbklhMVRhYU8tR1FqWnUySFdBWFVKWUVJQWxfN2o5dFVNa2tjUVN2a0haSmRGOEFQSnpBM0cwUWNXandvcE1KZjlsdG9MOGZicWYtdG5GVkhzOWpWRHQ?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-23-auto-acf1f781af",
-      "member_ids": [
-        "2026-10-23-auto-acf1f781af"
-      ],
-      "priority": "A",
-      "published": "2026-10-23",
-      "company": "タイムズカー",
-      "service": "",
-      "affected_count": 1460000,
-      "summary": "タイムズカーの不正アクセス、画像流出の被害者に見舞金3000円...損害賠償求め集団訴訟へ「金額は見合っていない」",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1zb1JNZmVNU3ZocWFLX2NhVmszcHJTdVE5RUZQZ2tGdnIyeU5DWUl5TVBWQTktN2lzaFE2bm9jSXYxOEE5bUFHNkthVXM4dDl4aGpzSTlybWppRW5GNlU3dzA3bmlhbGs?oc=5",
+          "name": "l5hYRaR09m",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9NOUoyaE54QXlRVk56VFVNYXZvRUJ1dXlDT1BmcGJ3Nmp2SG9rSlJrZFpFSERkRVF0TkJpbnZtRW81Mk9JbXJUVDkxNVlOZW1ScTJYYm5ENWp5cnlEdENERTJIY0ZsYnBJcnJDXw?oc=5",
           "official": false
         }
       ]
