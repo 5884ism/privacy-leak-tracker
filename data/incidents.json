@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-25 07:00 JST",
+  "last_updated": "2026-10-25 07:05 JST",
   "incidents": [
     {
       "id": "2026-10-25-auto-babdac0547",
@@ -1442,24 +1442,31 @@
     {
       "id": "2026-10-24-auto-4d77a16e82",
       "published": "2026-10-24",
-      "company": "沖縄ツーリスト、最大73万人",
-      "service": "",
+      "company": "沖縄ツーリスト株式会社",
+      "service": "「OTSレンタカー」等",
       "affected_count": 730000,
-      "status": "candidate",
+      "status": "confirmed",
       "cause": "報道自動検知",
       "summary": "沖縄ツーリスト、最大73万人の顧客情報が漏えい...レンタカー予約で氏名・生年月日・運転免許証番号など (読売新聞オンライン)",
-      "exposed_data": "要確認",
+      "exposed_data": "氏名、生年月日、性別、住所、電話番号、メールアドレス、Facebook ID、運転免許証の発行日および有効期限（※）、運転免許証番号（※）\nなお、クレジットカード情報は今回漏えいが確認されたシステムでは保有しておらず、漏えいは確認されておりません。運転免許証の画像（最大6,000件）（※）は別のデータベースに保存されており、画像については、漏えいの有無を引き続き調査しております。\n（※）日本の運転免許証のみ",
       "sources": [
         {
           "name": "読売新聞",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE95RDRsd3V6R3FremRtMklTbEN0R3NzYUFyYkxDTTVLMDF6NjVzTVV3ck5OQ1IwVldILUhVSkVGcnNnTk1kV2wyQ2R4dm42NkVKbzJ1bEg4dDVHY1owOFE?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE95RDRsd3V6R3FremRtMklTbEN0R3NzYUFyYkxDTTVLMDF6NjVzTVV3ck5OQ1IwVldILUhVSkVGcnNnTk1kV2wyQ2R4dm42NkVKbzJ1bEg4dDVHY1owOFE?oc=5",
+          "official": false
+        },
+        {
+          "name": "公式",
+          "url": "https://otspremium.com/news/3030",
+          "official": false
         }
       ],
       "auto_detected": true,
       "rss_pub_date": "Fri, 23 Oct 2026 22:30:00 GMT",
       "article_count": 13,
-      "priority": "A",
-      "priority_score": 11
+      "official_urls": [],
+      "reviewed_at": "2026-10-25 07:05 JST",
+      "review_note": ""
     },
     {
       "id": "2026-10-24-auto-324b7c1d86",
