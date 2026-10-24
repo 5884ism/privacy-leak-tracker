@@ -1,7 +1,51 @@
 {
   "version": "1.2",
-  "last_updated": "2026-10-25 06:56 JST",
+  "last_updated": "2026-10-25 07:00 JST",
   "incidents": [
+    {
+      "published": "2026-10-23",
+      "company": "佐川へ",
+      "service": "お荷物問い合わせサービス",
+      "affected_count": 53230000,
+      "status": "confirmed",
+      "cause": "報道自動検知",
+      "summary": "佐川急便、お荷物問い合わせサービスへの不正アクセスによるサイバー攻撃で最大約5,323万件の個人情報漏えいの可能性―2026年最大規模の公表件数|セキュリティニュースのセキュリティ対策Lab",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "公式",
+          "url": "https://www2.sagawa-exp.co.jp/information/detail/425/"
+        },
+        {
+          "name": "日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4zRzNyVDdVR0VxUnkydHFTcGk2QXVjR0dNYkxoNWJES2laRkRyTjBrUFhOYkdRcW9MM21HNlViWS1kc2RtWjNtRm9NY1ZKVUllVlo3ZXBPblYxMkFTN2FBWXRfdVhQT0hlTHU4eg?oc=5"
+        },
+        {
+          "name": "ITmedia",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE42UXI5V08wUXFlZGRmYzZpNVFSUjlsVWwxdnZld2toTk94T1FEQzJNZXg0QXd5LVV0YzBVWU5DUUd6eFJCZmVJVldtN01PbS1MU0FNWkMyZ3V1SlNoNDVPUHNPU3ZUeEM4clE?oc=5"
+        },
+        {
+          "name": "朝日新聞",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBDcElGc0hWbG1Kb2wtZ1N2SEJVcENPTkVYU3h6WXdJUmxfUmk1Z0VyaF9BTHNIcHFPazA0c3BqUVhxelZiMXZkQVg2YlpKUmtHeHVwc2pxQ3pJcU04TENjZGN6YzM5YVU?oc=5"
+        },
+        {
+          "name": "INTERNET Watch",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBlWG16bjRmRXphLXVBVEgyRVJ1VWUxVnNiVjNaWXlVeXZZWjNTM1o5UFJHcXBoTGcxeTliYkFOcnMyQ1dJQmZaWEc1SlRZSTlJc3ZHMnZaUkhsRlI1WENPVXdVdzJoWkVFSTFJ?oc=5"
+        },
+        {
+          "name": "ビジネス+IT",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9lQ2JCX3pTSlBMNm1pRlN1Y2l4WFpFZmVLLXdsMmMxSThCTzRKM2ZmYW1XY0xKa2JWQnZFWHk2MEZtd2dadGJscE0zWUtEMTNOM05v?oc=5"
+        },
+        {
+          "name": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPOXBnVi1CV1I3bnhPODZkaEZjOWNMWmRCNFN6RktOcGtIUTJlanpHVGpxWkt2Wk9SX25EUFRHMUZ1MjNLX1IxeVFYZGJoenhYaS1lUm52TlBkVUdXNEN3S2JfV3U0VHduWmVGbTJjNFQ5R1g1ampuX05IbUhYenRSbVotdVVpRUowUkJodTJn?oc=5"
+        },
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA2dVhucElMVUhkOXF2LURuRHNxeDZqTlpBMDRzbWZxYWpSTkUzaGdaZXBqeEV0VzFyRXJJTnJHOUVzaUg0TUpIVkdZNndJSWh2ZzZTdUFZVTlrZDk2TWdrUzQ0N3FpWFhEcl9EQVFkbDRwQ2dXakxhUlZOU0w2dW8?oc=5"
+        }
+      ]
+    },
     {
       "published": "2026-10-22",
       "company": "カプコン",
@@ -395,7 +439,7 @@
           "url": "https://www.nttsolmare.com/press/2026/1016-1.html"
         },
         {
-          "name": "Googleニュース",
+          "name": "INTERNET Watch",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8xVjJWZk1yRTQ1bGlKVE85ZU9oYzNrVk5BWXNUVWhfY3hZcVh2S25fOVhhTWF2UW1CY0tGbDBUNERRUlJCUldpRlBKaUtSQVBsaFBhM0hoMHliUTJqbkc4V0UxbU5yOEJvUnFwWEpqLS1QNVYtWU1OY1lobXRWYUU?oc=5"
         }
       ],
