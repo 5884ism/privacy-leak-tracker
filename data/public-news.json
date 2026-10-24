@@ -1,25 +1,43 @@
 {
   "version": "1.1",
-  "generated_at": "2026-10-25T07:20+09:00",
+  "generated_at": "2026-10-25T07:32+09:00",
   "update_interval_minutes": 60,
-  "news_count": 739,
+  "news_count": 743,
   "latest_detected_ids": [
-    "2026-10-25-auto-92f99fcd1e"
+    "2026-10-25-auto-00f7c6e66f",
+    "2026-10-23-auto-acf1f781af"
   ],
   "news": [
     {
-      "id": "2026-10-25-auto-92f99fcd1e",
+      "id": "2026-10-25-auto-00f7c6e66f",
       "published": "2026-10-25",
-      "company": "FX自動取引",
+      "company": "H2Oで顧客 1",
       "service": "",
-      "affected_count": 0,
+      "affected_count": 260000,
       "cause": "報道自動検知",
-      "summary": "FX自動取引、トレーダー「いったん止める」 GMO不正アクセスで動揺",
+      "summary": "H2Oで顧客 1 26万件漏えい 各社で不正アクセス相次ぐ",
       "exposed_data": "要確認",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4wSWhnbzRwR19xdFZhb1JybmtOWFJaOTBGcWFUQktsbHpsN0lMRGxONXJVdy0wWnh4ZGVIeHdXeXBFRlJWSHIwZ245NHlMRFZaZm9sN1RSMW4tYzNhYzk5bGtQeDZrYjZOZkRSNQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAzYU1MUzhBV01ubW5xQThoVk1hdnR5cjNYaWJEX19wbklhMVRhYU8tR1FqWnUySFdBWFVKWUVJQWxfN2o5dFVNa2tjUVN2a0haSmRGOEFQSnpBM0cwUWNXandvcE1KZjlsdG9MOGZicWYtdG5GVkhzOWpWRHQ?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-auto-acf1f781af",
+      "published": "2026-10-23",
+      "company": "タイムズカー",
+      "service": "",
+      "affected_count": 1460000,
+      "cause": "報道自動検知",
+      "summary": "タイムズカーの不正アクセス、画像流出の被害者に見舞金3000円...損害賠償求め集団訴訟へ「金額は見合っていない」",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1zb1JNZmVNU3ZocWFLX2NhVmszcHJTdVE5RUZQZ2tGdnIyeU5DWUl5TVBWQTktN2lzaFE2bm9jSXYxOEE5bUFHNkthVXM4dDl4aGpzSTlybWppRW5GNlU3dzA3bmlhbGs?oc=5",
           "official": false
         }
       ]
@@ -31,7 +49,7 @@
       "service": "",
       "affected_count": 0,
       "cause": "報道自動検知",
-      "summary": "タイムズカー、個人情報漏えいの内容をマイページで確認可能に 退会者も専用フォームで照会",
+      "summary": "タイムズカー、個人情報漏えいの内容をマイページで確認可能に 退会者も専用フォームで照会(おたくま経済新聞)",
       "exposed_data": "要確認",
       "sources": [
         {
@@ -52,7 +70,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "テレビ朝日",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE05OW8td19mM05xeXRQeVI1QTFVTGd2Y25fTGk4UGtKUUlpeUlyZk90UVc0TmZSOXdXcXQ5aFFDZ2V1aXVUNUVOU2FXZWQ2cHBXVHVydFoybnBNZTNBRzh6dTB5aGxRYVZvbWpiUWJUbVBPVDEtZ1VzbUZWd2Q2UjA?oc=5",
           "official": false
         }
@@ -99,12 +117,63 @@
       "service": "",
       "affected_count": 0,
       "cause": "報道自動検知",
-      "summary": "不正アクセスによる情報漏えいを知らせる岩井コスモ証券のウェブサイト画面(手前)=20日夜 - 岩井コスモ証券にサイバー攻撃 意図せぬ売買注文、被害初確認か",
+      "summary": "不正アクセスによる情報漏えいを知らせる岩井コスモ証券のウェブサイト画面(手前)=20日夜",
       "exposed_data": "要確認",
       "sources": [
         {
           "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBSZkx4WFB3aVVoNllSemhCUnU5TVBUcWFBSjZNcC00TWJIQk1feGhZLW5kVjZITVJiUGNRcmJSOWRRb1lFZ0dab3VZUVcxVVdHbm5sSmV1WQ?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-25-auto-aed73ec56a",
+      "published": "2026-10-25",
+      "company": "サービス停止中の「コミックシーモア",
+      "service": "",
+      "affected_count": 4200000,
+      "cause": "報道自動検知",
+      "summary": "サービス停止中の「コミックシーモア」、個人情報流出は最大420万件...再開時期は未定(読売新聞オンライン)",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "読売新聞",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE85VmdaR2dDeU1sM3VaRldUQVloY28xaE5McHRnTE9SSFZIVUpPTWRHMk8wU19TS3FBbmZGZTktZmpMZVVWUURpZmlISm5aMzVCeXRUT3ZoU3prVVFJYWlWMElLQVBoTVBqNnhmUGVNbFJFakFRbXFod1BOajFMemc?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-25-auto-ad3260fd75",
+      "published": "2026-10-25",
+      "company": "GMO 国にサイバー防御緊急要請",
+      "service": "",
+      "affected_count": 0,
+      "cause": "報道自動検知",
+      "summary": "GMO 国にサイバー防御緊急要請 口座情報流出 損失は補償 全顧客に見舞金5000円",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTVFsX2ZuNjRQbS1CdFMtd1RvTGZxd0UwYUdVS3RxdkxqMy01dWdya09ya1NYVmQ4bXNZNDh5elRuSmpYWXFld2ZKbEk5TGN4ZVlkX0kyNWhIbHhyWE16RkNsZkF4b3RNcWlnT2M0LXhMUW9sRDhyalRDQmZCY0JDRThxSV9sQjA5Z2p0TDRR?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-25-auto-92f99fcd1e",
+      "published": "2026-10-25",
+      "company": "FX自動取引",
+      "service": "",
+      "affected_count": 0,
+      "cause": "報道自動検知",
+      "summary": "FX自動取引、トレーダー「いったん止める」 GMO不正アクセスで動揺",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4wSWhnbzRwR19xdFZhb1JybmtOWFJaOTBGcWFUQktsbHpsN0lMRGxONXJVdy0wWnh4ZGVIeHdXeXBFRlJWSHIwZ245NHlMRFZaZm9sN1RSMW4tYzNhYzk5bGtQeDZrYjZOZkRSNQ?oc=5",
           "official": false
         }
       ]
@@ -122,6 +191,23 @@
         {
           "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB6TmxHLWZjYnAtMjZ6Sk5VbU9xRXdyWlFjbTBwZUFEVVEyQlBHYmFZY3BnUVd2cTBxWVVyQmx5eUx5OEhtT252UGpWS1oxbjRTZ0ZyWDh6cG9penV2T3p4V01CanN6NEFidWNqUC1uX3F6dw?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-25-auto-2cfff0d595",
+      "published": "2026-10-25",
+      "company": "WEBサイト制作ツール【Studio】へ",
+      "service": "",
+      "affected_count": 0,
+      "cause": "報道自動検知",
+      "summary": "WEBサイト制作ツール【Studio】への不正アクセスに伴う弊クラブ公式サイトお問い合わせフォームにご入力いただいた情報の漏洩の可能性について - albirex-niigata-ladies.com",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB3YmNKQ3pPLUJzcUZjNTVnTEZsdUhpcFd6RVlEeXFvSHhyd1lCQUIyd2R3V3h6MWFTTE0zU1BkS1ZjVkp3d2xyVUk1cGh3bVhLVnR3Y1p1OE94X0EyT0IyYk1oSmZnQQ?oc=5",
           "official": false
         }
       ]
@@ -154,7 +240,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "NHKニュース",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE44dlo1R0RQa2tpUm9qcW53UzZTRERDV1dua0ZzVXo5ZkFSOTBLbUVqdTY5VTNpTjB1dDhvMzB0cWsxR3Y2dXIxMlFWbDBtQ0dFdXg3RGtFbms1M0Nrcko4?oc=5",
           "official": false
         }
@@ -572,7 +658,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "スポニチアネックス",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9oNmxQYThmZmpiU3V4R3ZJWHFMY01OV2t6WVdCTC1JSGNSUzNaZ2k0VXRZc3BaSmtDYTB1Z3UwcE9rZVpES2hrZmxoeksyenhKLVJhUllUd1RqWUJ6VzdBZDhaTHhhVDQ5Mms1Z2UxeVdxOTBwV0FCSGdLUXpvcnM?oc=5",
           "official": false
         }
@@ -742,7 +828,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "毎日新聞",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBnR2kwdlZzcFV2TVhQWkJyQm4tLWdCTklydGdza0tWLVZUUXVtaTVHWjBJTlluRzdXLW0xV1dPbzVuZjNMTWFIWXBCQnZ2TzBNZVJBUE9QWGljWi0xMHFXc0Y2S3ljR2xfeGduMzFxd0dQSl9iRF9zdVd0N1k3Rlk?oc=5",
           "official": false
         }
@@ -806,7 +892,7 @@
       "service": "",
       "affected_count": 0,
       "cause": "報道自動検知",
-      "summary": "糸満市、ふるさと納税の寄付者情報が流出 沖縄",
+      "summary": "糸満市、ふるさと納税の寄付者情報が流出 沖縄(琉球新報)",
       "exposed_data": "要確認",
       "sources": [
         {
@@ -1512,7 +1598,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "共同通信",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9wclNVQmFNOXdaTFd6LU5sTG12ZnFfZ0pGblZURXdENDNxOU1SRVBCZTd3V1VDZF9ROWxSRk5UVXZ6b0hoMEdDanFhVQ?oc=5",
           "official": false
         }
@@ -2064,7 +2150,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "西日本新聞me",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1GbFRwUTM1RzJRY3pmYkNYcjFGaXh2MFF4aG9ueTVXVzBDUldWa0I0LXYwTzdUcDV0NzUwblJpZXJVODR6MXBGY25SbVIxdVY3Z2poZlVR?oc=5",
           "official": false
         }
@@ -2253,23 +2339,6 @@
         {
           "name": "RCC中国放送",
           "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNdkprcU9iTnlRUmpqc0ZlX1FvM0U5d3hpWU0xS0xZbTFDVVFpcnM0SHA3SEVZbm9sZ3ZST0J2clA4LUh0TXFMeURocVpZZ3ktQVA4VmNxZnZkUTV3ZVlvR1I2aXNua3dCS204d1Z5RHdKSUhOZEZid2xuYWpob3pQem5WdU4zUGV0N3Y4Wm5ORFBhZjZYMzF1SmViWVdMS3UtR0NjQWZhOEdLaV9nR2oyU0VJaEFvUXhwM2dmQXNCVm5ZeFB5azNiWms5MW9nWlNEa3VnbmF2eVk5X004c29yWlh1VVFYakJ3elVUbF9ZZWRpYWd1Q1E?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-23-auto-acf1f781af",
-      "published": "2026-10-23",
-      "company": "タイムズカー",
-      "service": "",
-      "affected_count": 0,
-      "cause": "報道自動検知",
-      "summary": "タイムズカーの不正アクセス、画像流出の被害者に見舞金3000円...損害賠償求め集団訴訟へ「金額は見合っていない」",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1zb1JNZmVNU3ZocWFLX2NhVmszcHJTdVE5RUZQZ2tGdnIyeU5DWUl5TVBWQTktN2lzaFE2bm9jSXYxOEE5bUFHNkthVXM4dDl4aGpzSTlybWppRW5GNlU3dzA3bmlhbGs?oc=5",
           "official": false
         }
       ]
@@ -7953,7 +8022,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "日本経済新聞",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5MdmU2eWhEa280cllkQWV0Q09JZU4yQm9YX3FmM09XTmUyUW41RERHMTRuVlhpaC1HUTI4T3RUalVJNXk5dzF2QzhoUVpHUW5FeUVtWUZ3?oc=5",
           "official": false
         }

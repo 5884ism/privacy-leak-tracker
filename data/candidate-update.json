@@ -1,36 +1,56 @@
 {
   "version": "1.1",
-  "generated_at": "2026-10-24T19:32:16+00:00",
-  "before_count": 520,
-  "after_count": 522,
-  "net_change": 2,
-  "new_count": 1,
+  "generated_at": "2026-10-24T22:32:22+00:00",
+  "before_count": 444,
+  "after_count": 437,
+  "net_change": -7,
+  "new_count": 2,
   "removed_count": 0,
-  "visible_before_count": 520,
-  "visible_after_count": 522,
-  "visible_net_change": 2,
-  "raw_before_count": 744,
-  "raw_after_count": 746,
-  "raw_net_change": 2,
+  "visible_before_count": 444,
+  "visible_after_count": 437,
+  "visible_net_change": -7,
+  "raw_before_count": 739,
+  "raw_after_count": 743,
+  "raw_net_change": 4,
   "new_candidate_ids": [
-    "2026-10-25-auto-92f99fcd1e"
+    "2026-10-25-auto-00f7c6e66f",
+    "2026-10-23-auto-acf1f781af"
   ],
   "new_candidates": [
     {
-      "id": "2026-10-25-auto-92f99fcd1e",
+      "id": "2026-10-25-auto-00f7c6e66f",
       "member_ids": [
-        "2026-10-25-auto-92f99fcd1e"
+        "2026-10-25-auto-00f7c6e66f"
       ],
-      "priority": "C",
+      "priority": "B",
       "published": "2026-10-25",
-      "company": "FX自動取引",
+      "company": "H2Oで顧客 1",
       "service": "",
-      "affected_count": 0,
-      "summary": "FX自動取引、トレーダー「いったん止める」 GMO不正アクセスで動揺",
+      "affected_count": 260000,
+      "summary": "H2Oで顧客 1 26万件漏えい 各社で不正アクセス相次ぐ",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4wSWhnbzRwR19xdFZhb1JybmtOWFJaOTBGcWFUQktsbHpsN0lMRGxONXJVdy0wWnh4ZGVIeHdXeXBFRlJWSHIwZ245NHlMRFZaZm9sN1RSMW4tYzNhYzk5bGtQeDZrYjZOZkRSNQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAzYU1MUzhBV01ubW5xQThoVk1hdnR5cjNYaWJEX19wbklhMVRhYU8tR1FqWnUySFdBWFVKWUVJQWxfN2o5dFVNa2tjUVN2a0haSmRGOEFQSnpBM0cwUWNXandvcE1KZjlsdG9MOGZicWYtdG5GVkhzOWpWRHQ?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-auto-acf1f781af",
+      "member_ids": [
+        "2026-10-23-auto-acf1f781af"
+      ],
+      "priority": "A",
+      "published": "2026-10-23",
+      "company": "タイムズカー",
+      "service": "",
+      "affected_count": 1460000,
+      "summary": "タイムズカーの不正アクセス、画像流出の被害者に見舞金3000円...損害賠償求め集団訴訟へ「金額は見合っていない」",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1zb1JNZmVNU3ZocWFLX2NhVmszcHJTdVE5RUZQZ2tGdnIyeU5DWUl5TVBWQTktN2lzaFE2bm9jSXYxOEE5bUFHNkthVXM4dDl4aGpzSTlybWppRW5GNlU3dzA3bmlhbGs?oc=5",
           "official": false
         }
       ]
