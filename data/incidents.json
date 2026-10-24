@@ -1,27 +1,29 @@
 {
-  "last_updated": "2026-10-25 07:11 JST",
+  "last_updated": "2026-10-25 07:15 JST",
   "incidents": [
     {
       "id": "2026-10-25-auto-babdac0547",
       "published": "2026-10-25",
-      "company": "GMO不正アクセス",
-      "service": "",
-      "affected_count": 0,
-      "status": "candidate",
+      "company": "GMOインターネット株式会社",
+      "service": "お名前.com デスクトップクラウド",
+      "affected_count": 26739,
+      "status": "confirmed",
       "cause": "報道自動検知",
-      "summary": "GMO不正アクセス、「攻撃者」から金銭要求も...ネット上に「数十億円の損害与えた」との主張(読売新聞オンライン)",
-      "exposed_data": "要確認",
+      "summary": "GMO不正アクセス",
+      "exposed_data": "(1) 対象サービス お名前.com デスクトップクラウド（全プラン）\n(2) 影響の可能性があるサー\nバー\n26,739 件 ※上記は対象となり得るサーバー数であり、不正アクセスまたは情\n報取得が確認された件数ではありません。\n(3) 影響の可能性がある情報 サーバー内に保存されていた情報（取引ツール等に保存された取引口座のロ\nグイン情報等を含みます）",
       "sources": [
         {
-          "name": "読売新聞",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0yYk5pczByQUdtRi16Y1RtcDJHZkc5SkZUcjRJeVNIendtaDJnV1FiLU1ycHRkdnhmdkFDZmhZZm5HM2hkQ3UwbFZoQXBXUU1WYlZkYXFGb3A3dmdnV1dOSHRvQnZraExoQTBjNXMtVWFiem5IeE93ZzBwS1hQOVU?oc=5"
+          "name": "公式",
+          "url": "https://internet.gmo/news/article/250/",
+          "official": false
         }
       ],
       "auto_detected": true,
       "rss_pub_date": "Sat, 24 Oct 2026 13:34:29 GMT",
       "article_count": 1,
-      "priority": "C",
-      "priority_score": 1
+      "official_urls": [],
+      "reviewed_at": "2026-10-25 07:15 JST",
+      "review_note": ""
     },
     {
       "id": "2026-10-25-auto-e518d64949",
@@ -255,7 +257,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "NHKニュース",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE44dlo1R0RQa2tpUm9qcW53UzZTRERDV1dua0ZzVXo5ZkFSOTBLbUVqdTY5VTNpTjB1dDhvMzB0cWsxR3Y2dXIxMlFWbDBtQ0dFdXg3RGtFbms1M0Nrcko4?oc=5"
         }
       ],
@@ -277,7 +279,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Yahoo!ニュース",
+          "name": "UX新潟テレビ21",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE00c1V0d3ZBUzVvSFRMV2tLcGk2a3ZSMldSNmRRMlFjaXRvZ2xQanlTdmxuc25FaHJseHVSejVjTWg1QWFkTTJ1akVsTTBmdV9mM1lhZWZablpmenBSQ3lSYnhldGZ1U3Q0VkRTWEtKakhieWJ2ZkxYZHl6REQ2d28?oc=5"
         }
       ],
@@ -299,7 +301,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Yahoo!ニュース",
+          "name": "時事通信",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9HUmJXWW1fUWktR1FFRFVUdGJrOXI2ODBTdW1keXFseGN0N2twT2pCYllsVEZEakJkNWRQWEN5WjdmTU1Uc2dJNUh0ZF8wczVkOXFqSGJ0RDlJdko3S0g5Q214RTB6SzNQa0VMTlRqeE04YWVvTFl0dW1GdnVGbE0?oc=5"
         }
       ],
@@ -651,7 +653,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "日本経済新聞",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBINDBscjBJSmJmbEVhNUJDWXdtOTNFNFFpVjAxeURHUW8yaFdqdTRMd05UV3pGVW1vN1MwVkhhSk94NExIaHlNTFJYWjNUYkhOR1lwaW5QdF9jdkY1X3lpRE40c2hvdm5mNF9XNw?oc=5"
         }
       ],
@@ -1047,7 +1049,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Yahoo!ニュース",
+          "name": "共同通信",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBjYWhPYzJEdmFhTU1uSExFeUluSHhBM2lscUJsN1VyTlM4RDhGUVdCYjFwMGR5SFlzbzl4MWY3UEV4aHQyWTVCZk9pWGhCNVFpTHNBYlQza2Z4aGVEUndZVGxNUDNBSVVXZXFXN2lhNmwzMlVyam1uUnVJazBSalU?oc=5"
         }
       ],
@@ -1113,7 +1115,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "朝日新聞",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9FQk9vcm51bW9ZX3dtX0VZbWJzQmdYcjNTTDBRYXhaS2lXR0hqSVdJRkZyN19MMi1qVmhBamliejZ3S0wxWFhReUc1OEt5VEw2dlA3WUs1dnNuRXFHRFFjRDVqUUhUQzQ?oc=5"
         }
       ],
@@ -1311,7 +1313,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "つがる市",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSDU1Umdld2Z2aUhmXzh0RW9HQlJyY3JvcXJsRi1hdnQwR0l6TjQwUFhnVXA5VDBMaE5lU0RHWDZBYkJ6aHlEX0FPODhVRkxHa0s2TXMxb1BqRGl1NEJNbTJ6NDFiMkVMOGItMlNoZ3hrV1F0VWVXR3laeXBLMk1OYlkwRS0?oc=5"
         }
       ],
@@ -1381,7 +1383,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "日本共産党",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5RTG9kbzE2WU96ZERaNFNpZzZwN0lrTG11MFZPZWIwU3Q5amNvdFVZRWpxNFJUN21jMXctN3NRUVUzMDU5Yk5sMUl5WTVnMXJCMVNEZXc2QnJySGV4RWlSNmFFZUdpSFgxTHhHWDJEenBGM1V0?oc=5"
         }
       ],
@@ -2122,7 +2124,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "株式会社ギフティ",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE84MlJ4U1YzVzJnQ0tVejRhNzVnMzV5Ql9hQlcyNWxQcjloOVZyZlZCNm9lNVZRNVZtdHZqT18yczRGLUFGQlpfMkJ4U1Qyb1I3ZE16T1pMSXk?oc=5"
         }
       ],
@@ -2518,7 +2520,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "西日本新聞me",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1GbFRwUTM1RzJRY3pmYkNYcjFGaXh2MFF4aG9ueTVXVzBDUldWa0I0LXYwTzdUcDV0NzUwblJpZXJVODR6MXBGY25SbVIxdVY3Z2poZlVR?oc=5"
         }
       ],
@@ -2606,7 +2608,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "中日新聞Web",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1qZHdPWURBN3VFVzVzNHNFS0lmRUNJSzVRTkhUU1NtV0ZDSzRBclkyTDNVQW5aZTNfU3d3YmVKcXR5S2p5bm1ZT1k2SDk3ZmJFWVZsbw?oc=5"
         }
       ],
@@ -3110,7 +3112,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "日テレNEWS NNN",
+          "name": "2026年10月22日掲載",
           "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9ZNmVtLVpoazBQUkZjTVNlNnhDMGZhUkI1M3RKM1kzRV94bEoxZTNhdlpDVDFxYXNCalRQQjNRWW11TEVFM1h4a3k1VUI1U3VqMzk2UDY5WEtTN19Ec0JpRm5IeXdtYzk0RHJnMHpfeVpmTExqUzM3R1M2MWg?oc=5"
         }
       ],
@@ -3176,7 +3178,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Yahoo!ニュース",
+          "name": "HOBBY Watch",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5vUWphTGZMOEdsckY4Z2FxQmo2UEN0MktvaHZ5c3VBbC1ObjJDZXZ5cWtKUU9fZlpsOGVQamNTWDdSQzAwN0NtZWNMdEtVdG80akFNb1ltZkhsdjNrSEVnbXZuWEhrSmk3eHpZeUlOb2xDYkM2eUZiTWt5dVZVcU0?oc=5"
         }
       ],
@@ -3352,7 +3354,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "琉球新報デジタル",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5PMXZnb3dSTW1EY2ZFYldLSVM5YlZ0OEV6Z2IyTG9yUk5HMjlYVnlwY29GVGEzVFNDMzZfb3pqbE5tSjdXLU1TX2h1ZDZidUt6WXdvVnB0QUtwcnZ1cjFTdw?oc=5"
         }
       ],
@@ -3374,7 +3376,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Yahoo!ニュース",
+          "name": "KSB瀬戸内海放送",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Nc3BoSGh5Z19Kb0tSYTJxQm5oek9UZENGbkNZTEp3ZW5uY285Tjh5dkxpVFRtUzBHa2EwYzRVOXdKQ2ZDaF9Ua2FlWmlrUE0xYTVTWVNDYXdnTmczM2QwU3hpWDEyTmhfSFNYUVZueVhTWkF3bmx0ZzJ0WkwzQVE?oc=5"
         }
       ],
@@ -3396,7 +3398,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "NHKニュース",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1RRU1YNzZuOFl5b1FfdlVscUIyTFlUcXc3dEVSbnBMWXhPTE1aSWd0a3NiY0RSbXJURVpaeVRmTm5DUFRERXB1U2Q5NGV0eHhtNWxJRUE0RDJFdk1lRzdv?oc=5"
         }
       ],
@@ -3700,7 +3702,7 @@
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWnhvOGF4M0NoOVZUcC1vU1pOS1ZYeExZbWR2Z0xrN1c0N3l2aHZBU2hNVGVEeDJCaHZlc2s1XzlkU3VScGNRNGxjd0pBeERLRFZSZWNKendZTXJ4cVNJZmx6MUlQZ3NDR2UxUXhsajBielBwNUJwZGw0Rnkwbm1YVVR4Q05sOGZ5VnpaQzh0YzJ5SXU5Z2ZBOXZuUUtMbWF4WWI1OVVPakM2Wm03?oc=5"
         },
         {
-          "name": "Yahoo!ニュース",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GY3RYalc1X2ZkSUtfbXRsUXF3TWpDNjVSQjhLVHkzbm5UX0ZKb0RHUUdXSlRlQlM2bmd3U1FSNU0tbmstN3NNSXkwemZhdVRYeFFtN1YxcWR3N2h4ekExQjlhbXA5OHVSSGhSTWFMTUFDbGpGSE9FbmtaOWVIWm8?oc=5"
         },
         {
@@ -3840,7 +3842,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Yahoo!ニュース",
+          "name": "北國新聞社",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBtZlRBQlg3WU03UkNOVXpUelE4Tzc1ZkVmZjRCU25vTV9nV25kVk9YR2FFeHdtNDlna1VRa2lVYTJDUVRCRGJZZXBjYkNEZDM1Z2hJbGlRdUpzZ0lIWkszMEZKaVkxMDhyeUVBUi1TSjUydGJaLV9uTGFFTHQzT1k?oc=5"
         }
       ],
@@ -4152,7 +4154,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "株式会社トラストバンク",
+          "name": "第2報",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8tSHRFcmt0dXV0QllFcF91N1BOYnExOTRmUXczLUQ4SDk5eXo3SjFUWHhyd0FZU3pPUGM4VV9KZFdUN1hPSjJSYlhnUTJsOS01VkJFanhQVFFqTFQzUlB4Yl8wcXY2U25uWGN2X1RLWQ?oc=5"
         }
       ],
@@ -4174,7 +4176,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "日本経済新聞",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1JR0xRMms3cUlIbHJTVkFSckliejBwUGJMaTR1LWJZQTdoaVRpQXliblctRlROelZnY0tVNGZUS3pka2psZVFvM2kySXFXdFFwV1VEWjV4YU1EdnFyZy1NNExUbUlTcTR3UFJ3VA?oc=5"
         }
       ],
@@ -4812,7 +4814,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "滑川町",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVVUwLUM1NlJmZURWcS1YSUVLVmhJcFNaa1ZISlI2NmVKbjNoSnRYa0VwNGRpUjV3eWlYbEZkNzBiRTc0S3NqSU1sR21TLTk1NzNobGdLY1U0ZmNnNGFpeHM2ZFNYdEpEdTQ3cDFWaVdhdzNGaGN5TmFCRFV3Q1JRV3NHVEo1Zm5wd3dabmVCclc4OGM?oc=5"
         }
       ],
@@ -4834,7 +4836,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Yahoo!ニュース",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQdE1yd3dab0JRcHBFUGNtT3RncXF0aUlIbnhVd0NJZ2hkbVkwRnplS2ZNenZ6UFp5cVJQeHRWZjhOZXBBNU9keXM1WjF1NjY4d3c2a2I0VEtaUXk3X0NnOFhpYzFsaFdFVTVHRjZXQ0xvbHR0TlpKMEVQYWF1cnc?oc=5"
         }
       ],
@@ -4856,7 +4858,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "日本経済新聞",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE02N3BCSFg1S0dlb25fRndndFZ1TXF1c09rSnQ5R3RRQ05CRWRlZmF4aWdZZnd0UGZmM1FFaU9tWnp3SWQ5N2oxSWlKcDUtVnpUaGRsUHJwUElGa0k1RHlpTEZCdkViN1BlWVc1eA?oc=5"
         }
       ],
@@ -4904,7 +4906,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "寒川町ホームページ",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPeUF6R1ZsMDd6RjNva1VQM1UxZ08yaXphaGFfeXR1ejZHeEw0eXJDTWZSSzBmdkdtMHRwMHlad0J1djlRam1VbWFDY0NNN05WbjNJa0ZkZURmT090aERsNnF2Ykl5ZjRZcThsbmYxWThhYV9DckRHV09oRWhhSHp1U1EzTUIxLVEwNHRWakdqcmtuNGRyZFdzMUdJc25XOU9fa1VVYVVXTTBRdGJv?oc=5"
         }
       ],
@@ -4926,7 +4928,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "NHKニュース",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5RbVN6QnkxdXhENGJGYmVGZE9jQU9yRmxyMWZ3ejJoSjJqN2JzcDZLai03Sk5PS1Fvdi1sVDRqb1ZnSVBfMUx4TlRzcE9DbFdWWWhVeVVGYmdGTlhKZEt3?oc=5"
         }
       ],
@@ -4992,7 +4994,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "時事ドットコム",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBCVVZuQmJrSkJ3ZFU5akNwSHcxaUliSGVfNXpHSmh0TmxXYjlWSXJkX2RxSEhLaW9QRzZKakJuRnlTdHVWZnNmM1ZiZ1BPS3l5VFJleWxnaGFfOE9Sc0oxS21rZw?oc=5"
         }
       ],
@@ -5058,7 +5060,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "NHKニュース",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBCRkFiNFZQMXhvV01XVWlURDZES2U1QkZpZmJyTmhkeklBbTlBYjNFZkNVa1lKaFZTdGZPb1ZtbmlLRG41WkRINl9obTdpVG9SM2xMZTRlU0VYVUx5eEVj?oc=5"
         }
       ],
@@ -5106,7 +5108,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "朝日新聞",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBpNV9ianZwYng4NWx3d1V2T1BXb01qX081aElhMHp6VVR4dVc4bmxjQUJjbEJzbG5zX0RkQjVGUDlCLWl5SFV0VE1ya2FfNU8wSl85b01paUZ3ZjdOYk54ZDhPVTliOFk?oc=5"
         }
       ],
@@ -5242,7 +5244,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "群馬テレビ",
+          "name": "Yahoo!ニュース",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1IczJDM2FLZ0pmNjFEN1ZVVnJ2cHJDcWNLUWptV3hxdERlVDdjVU13R2VySlh3cElaR1lxYjNnYnEzYWxQcGRyenNmNjhrU1FJU1htZE96N2ZpTG1iRS1qcXpscldibmh4ZHFTb01TYVpKbUVDYUhkQTRJUUt0aTg?oc=5"
         }
       ],
@@ -5356,7 +5358,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "INTERNET Watch",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5hVGtVanhwX2hXd2hxVWRlcHdFYWVFUzlSZFJPdmFKTTBxRzFyMk52eDdQU3lDb19RaGRJVmtGRXJYYzBDdE5ENDc2N2JwT09vSGEwQ2tyRTc3dVRlSkxtNW5NZk1xenl5Q21B?oc=5"
         }
       ],
@@ -5378,7 +5380,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "大崎市",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdzBkSDh6SWZmN3AzMXJ3Tmw2V3R5alFQejZRNDZTOGdKUW5yckZCMU9BQW1yNXFlOWdFa3hsbnQzd2djLW9CeDByVGc0c1dvMGdFT3hwLWUzV05ZRzhESkd0RkVVZVZ5WFFNWkV2QU1iSUNUeHN1TVBjUXBkMS03emNIUG5GYng3M1FKd3lMSF9uSXFEdXNQZ05aTkhja2czRjY2eQ?oc=5"
         }
       ],
@@ -5400,7 +5402,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "Yahoo!ニュース",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBrSkMwY2ZnNmZnemZjRlZxV3l3eXZkQ1BMTVAtVjhfYjdaOEZjSlJ4NEk0c1lUVjl2bnVmR041Q1hTSG1EallDTXIzaFlCT0hJQzB5LWJGZC1zWFVBSXR1RmJWSEdwZGwzWEs4aWs4UTZ3VUszMUVZTXpoY1dHYXM?oc=5"
         }
       ],
@@ -5796,7 +5798,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "ケータイ Watch",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA0aFBUTFE5Mk4xRE85T3h3YzEwaWViejVKVWlFdTZiRU1QSy1qblNfdWRldHowcldxaFFBYU40WUxiTDIwcFZvbkVUX044QnFqVzdhNGpscFBDekZNZk95WlpjUVRJU0E?oc=5"
         }
       ],
@@ -6962,7 +6964,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "日本経済新聞",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5UYTFOQ2FPb0tUSTFRRzNlcHBveGhiSW9ZWExIWVJJSlpQMGtDa1VKdGotUkgwWmgyeEFIaGc5cEQ5UDFWLV90djROSXdUNmR0SHM3a19hNTRmYUczbXQ5d3J0bFlIcEhzY3ZfZQ?oc=5"
         }
       ],
@@ -7468,7 +7470,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "日本経済新聞",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA0Wm81UTJQQVhGSTlwWGxlMWJ2UjVMTTZ4Z0JDOTR6XzZOYmtQUmpZOUxhdGxXZDJvQkRCdE5ESzA3ZWFBNXZQckZZYlhFa3BXY3RJY2tCbHk1Q29MemNFREpiZnoyQzdpdFNIWQ?oc=5"
         }
       ],
@@ -7934,7 +7936,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "株式会社SmartHR",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5WOUJjTUY5X1Z5TzFJdThDNVZfOFd3blpkOFByU3FOODd2cjR6Q2hxME14ZE9DU21FVUxIRmR4cDdBSGdYV2JiVmJ4VHptT0ZTSnI4?oc=5"
         }
       ],
@@ -8342,7 +8344,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "時事通信",
+          "name": "朝日新聞",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54OWgzc3FRZ2w3OXk2WTFFLTNKSVd4QlR0ZXVCSjlPUDVkS0NvY3dsVjJGRWViN0h6aXpvUkdicFdmdENpcXhsRUl6Q1d2ZXQwdF93RVFsTmRTY0hiblFPS1A2LUJ3NmM?oc=5"
         }
       ],
@@ -8641,7 +8643,7 @@
           "official": false
         },
         {
-          "name": "Googleニュース",
+          "name": "ITmedia",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBJc0wwdW0xdUIyREV3U2lwV1R6QmEtRUppQm8wZndKNjJvMXFFNVN3M1B0WTIycXhKVVJjYktHdlRGcFpLRERidlFXY0tkOXRoa1ZxcXpVNkRwQkpuUTltR0EyX3FTZU5yUkE?oc=5",
           "official": false
         }
@@ -8979,7 +8981,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "読売新聞",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4tMWE3azEwVkJUUlllZ3ByLTZoQW1laEFQTmpFYUJmdThLYVY4MWlqbnVoNDFXMW9VSXQtT0IwU1lBWF95SVdRcVpFX0ZNZXhnajZkd0FGeHVybkFuX1ZpaHQ3YTl4UQ?oc=5"
         }
       ],
@@ -9221,7 +9223,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "日本経済新聞",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9XQmo3MmpBRGtBMl84MWI3SEpfSFkwaVJEVnRLaVowbV9tYWhFWl83UXFwRjZZOUNrVVQ0YnpaUXZob1hDbTg3N2pjQ0FjM0s4U0V1V0xhVWkwRG1lRkZPZ1RNZnNUWHBmMnp2NQ?oc=5"
         }
       ],
@@ -9859,7 +9861,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "朝日新聞",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9aOXJldlRHVlpBcDEtVUNwLVpBeEFwUTZ2cDVCTmh0NkRCN1RibXU4Y2M2VWZOemJFbmxKNHhlRk55UkpDcFB2aHFlYVFxdHpOakYtWDM1ckk2dUZJU3B0cG5zc1pQYUU?oc=5"
         }
       ],
@@ -9881,7 +9883,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "合同会社ロケットボーイズ",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPODYwVGJSTG81TFk2aXluTEdBaFdxelM4VEVNUFB1Mm5aU0h6dzhzNzY0UENaclV1Z0NfYnd0ZWtCYkFXc081NW9xYU1yb01pMzB6Z1lieWVqbzktSERaRXVWYzhLZ1BHcUVLRlpobnc2N0podEI4aEtpV3Zmamo5T0R2SldHQkE?oc=5"
         }
       ],
@@ -11407,7 +11409,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "日本経済新聞",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5CM0Q0S0ZNLWpXR0hUa1hrTnlVTGJOc0JsVm1qTkptVXcxejc1b21WcHh5aFdoaS1pUWJ6M3NDZS0zN1JLanFnczFhd1M1cjc5cXBwaFA3VWhmSk4yWnRtS1poM1I2VTE1d0RONA?oc=5"
         }
       ],
@@ -12175,7 +12177,7 @@
           "official": true
         },
         {
-          "name": "Googleニュース",
+          "name": "INTERNET Watch",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBPV1lTUDZES3ZVbDlwc21jWTVJSjJQZ1pPa2Z1c2dGOW1LRnh5YmJVSWtGdWsyRmwxV0xsYktRdGoxVDJMRGpZanhjZTdXbHNQVDVKTkYtaWMwdUloYkRERThNbzlvV2lheVBz?oc=5"
         }
       ],
@@ -13639,7 +13641,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "1/2枚目",
+          "name": "ITmedia",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1TQWhscFZLZm1uV3Jfc1FyczJGWEJpb0VwVTRVM2kycWpRbkdkbkRHNWRWVDlQYl9FY1RqOG8ydm5HUkNBQ3FYdnlMbm9jS19vNU1WX3h2aHlQRzJNb2RNc1RYWUM3U0dGU0E?oc=5"
         }
       ],
@@ -14901,7 +14903,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "日本経済新聞",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE93Y2RhRkpNaFFNcktZamZpa1FKMGtydS04XzFOSkhQT3RtcFk0Nm1RS19QckZVTDFraWlOb0VOUmlxVUp4T1RUMm5BNWpTQmlSeUVuQmtiLU9oZUZEbEp0eUlQaG5tbzlFV3VuZQ?oc=5"
         }
       ],
@@ -15077,7 +15079,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "日テレNEWS NNN",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTEFYOUlvYlFmY05UVWVLWDJYbXlWOGp0c1dQRFBNSGJDTUdnNjc1SVpkdnFzcGJ4S3lkQXdSMFpacHRhUXBKZW9XR1FJY3M5RXBJbmNWMm5NT2JPMXdSd1M0WDN1cXV3SlozNVRvMWx0SUhmeGNMaGhXaHVNS0R4YUhSenlWcms?oc=5"
         }
       ],

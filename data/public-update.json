@@ -61,6 +61,28 @@
           "official": false
         }
       ]
+    },
+    {
+      "id": "2026-10-25-auto-babdac0547",
+      "status": "confirmed",
+      "published": "2026-10-25",
+      "company": "GMOインターネット株式会社",
+      "service": "お名前.com デスクトップクラウド",
+      "affected_count": 26739,
+      "cause": "報道自動検知",
+      "summary": "GMO不正アクセス",
+      "exposed_data": "(1) 対象サービス お名前.com デスクトップクラウド（全プラン）\n(2) 影響の可能性があるサー\nバー\n26,739 件 ※上記は対象となり得るサーバー数であり、不正アクセスまたは情\n報取得が確認された件数ではありません。\n(3) 影響の可能性がある情報 サーバー内に保存されていた情報（取引ツール等に保存された取引口座のロ\nグイン情報等を含みます）",
+      "resolution_date": "",
+      "resolution_note": "",
+      "resolution_url": "",
+      "reviewed_at": "2026-10-25 07:15 JST",
+      "sources": [
+        {
+          "name": "公式",
+          "url": "https://internet.gmo/news/article/250/",
+          "official": false
+        }
+      ]
     }
   ],
   "changed": [
@@ -184,7 +206,7 @@
           "official": false
         },
         {
-          "name": "Googleニュース",
+          "name": "ITmedia",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBJc0wwdW0xdUIyREV3U2lwV1R6QmEtRUppQm8wZndKNjJvMXFFNVN3M1B0WTIycXhKVVJjYktHdlRGcFpLRERidlFXY0tkOXRoa1ZxcXpVNkRwQkpuUTltR0EyX3FTZU5yUkE?oc=5",
           "official": false
         }
@@ -221,7 +243,7 @@
           "official": true
         },
         {
-          "name": "Googleニュース",
+          "name": "INTERNET Watch",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBPV1lTUDZES3ZVbDlwc21jWTVJSjJQZ1pPa2Z1c2dGOW1LRnh5YmJVSWtGdWsyRmwxV0xsYktRdGoxVDJMRGpZanhjZTdXbHNQVDVKTkYtaWMwdUloYkRERThNbzlvV2lheVBz?oc=5",
           "official": false
         }
@@ -290,15 +312,16 @@
       ]
     }
   ],
-  "generated_at": "2026-10-24T22:11:19+00:00",
-  "last_checked_at": "2026-10-24T22:11:19+00:00",
-  "after_count": 37,
-  "net_change": 3,
-  "added_count": 2,
+  "generated_at": "2026-10-24T22:15:34+00:00",
+  "last_checked_at": "2026-10-24T22:15:34+00:00",
+  "after_count": 38,
+  "net_change": 4,
+  "added_count": 3,
   "changed_count": 5,
   "added_ids": [
     "2026-10-24-auto-4d77a16e82",
-    "2026-10-23-auto-b0475a2ed8"
+    "2026-10-23-auto-b0475a2ed8",
+    "2026-10-25-auto-babdac0547"
   ],
   "changed_ids": [
     "2026-09-timescar",
