@@ -45,16 +45,54 @@
           "official": false
         }
       ]
+    },
+    {
+      "id": "2026-10-19-auto-c22f67811c",
+      "company": "NTTソルマーレの「コミックシーモア",
+      "service": "",
+      "published": "2026-10-19",
+      "affected_count": 0,
+      "cause": "報道自動検知",
+      "summary": "NTTソルマーレの「コミックシーモア」に不正アクセス、サービスを停止し精査中(INTERNET Watch)",
+      "exposed_data": "要確認",
+      "reviewed_at": "2026-10-20 08:00 JST",
+      "from_status": "confirmed",
+      "to_status": "confirmed",
+      "from_label": "漏えい確認",
+      "to_label": "漏えい確認",
+      "change_type": "content",
+      "changed_fields": [
+        "sources"
+      ],
+      "changed_labels": [
+        "情報源"
+      ],
+      "resolution_date": "",
+      "resolution_note": "",
+      "resolution_url": "",
+      "sources": [
+        {
+          "name": "公式発表",
+          "url": "https://www.nttsolmare.com/press/2026/1016-1.html",
+          "official": true
+        },
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8xVjJWZk1yRTQ1bGlKVE85ZU9oYzNrVk5BWXNUVWhfY3hZcVh2S25fOVhhTWF2UW1CY0tGbDBUNERRUlJCUldpRlBKaUtSQVBsaFBhM0hoMHliUTJqbkc4V0UxbU5yOEJvUnFwWEpqLS1QNVYtWU1OY1lobXRWYUU?oc=5",
+          "official": false
+        }
+      ]
     }
   ],
-  "generated_at": "2026-10-24T21:55:42+00:00",
-  "last_checked_at": "2026-10-24T21:55:42+00:00",
+  "generated_at": "2026-10-24T21:56:26+00:00",
+  "last_checked_at": "2026-10-24T21:56:26+00:00",
   "after_count": 34,
   "net_change": 0,
   "added_count": 0,
-  "changed_count": 1,
+  "changed_count": 2,
   "added_ids": [],
   "changed_ids": [
-    "2026-09-timescar"
+    "2026-09-timescar",
+    "2026-10-19-auto-c22f67811c"
   ]
 }

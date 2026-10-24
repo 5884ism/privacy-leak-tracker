@@ -1,28 +1,6 @@
 {
-  "last_updated": "2026-10-25 06:55 JST",
+  "last_updated": "2026-10-25 06:56 JST",
   "incidents": [
-    {
-      "id": "2026-10-25-auto-aed73ec56a",
-      "published": "2026-10-25",
-      "company": "サービス停止中の「コミックシーモア",
-      "service": "",
-      "affected_count": 4200000,
-      "status": "candidate",
-      "cause": "報道自動検知",
-      "summary": "サービス停止中の「コミックシーモア」、個人情報流出は最大420万件...再開時期は未定(読売新聞オンライン)",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "読売新聞",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE85VmdaR2dDeU1sM3VaRldUQVloY28xaE5McHRnTE9SSFZIVUpPTWRHMk8wU19TS3FBbmZGZTktZmpMZVVWUURpZmlISm5aMzVCeXRUT3ZoU3prVVFJYWlWMElLQVBoTVBqNnhmUGVNbFJFakFRbXFod1BOajFMemc?oc=5"
-        }
-      ],
-      "auto_detected": true,
-      "rss_pub_date": "Sat, 24 Oct 2026 09:05:00 GMT",
-      "article_count": 1,
-      "priority": "B",
-      "priority_score": 6
-    },
     {
       "id": "2026-10-25-auto-babdac0547",
       "published": "2026-10-25",
@@ -12228,8 +12206,9 @@
           "official": true
         },
         {
-          "name": "INTERNET Watch",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8xVjJWZk1yRTQ1bGlKVE85ZU9oYzNrVk5BWXNUVWhfY3hZcVh2S25fOVhhTWF2UW1CY0tGbDBUNERRUlJCUldpRlBKaUtSQVBsaFBhM0hoMHliUTJqbkc4V0UxbU5yOEJvUnFwWEpqLS1QNVYtWU1OY1lobXRWYUU?oc=5"
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8xVjJWZk1yRTQ1bGlKVE85ZU9oYzNrVk5BWXNUVWhfY3hZcVh2S25fOVhhTWF2UW1CY0tGbDBUNERRUlJCUldpRlBKaUtSQVBsaFBhM0hoMHliUTJqbkc4V0UxbU5yOEJvUnFwWEpqLS1QNVYtWU1OY1lobXRWYUU?oc=5",
+          "official": false
         }
       ],
       "auto_detected": true,
@@ -12245,7 +12224,41 @@
         },
         "last_checked": "2026-10-24 08:52 JST",
         "status": "ok"
-      }
+      },
+      "merged_candidates": [
+        {
+          "id": "2026-10-25-auto-aed73ec56a",
+          "status": "candidate",
+          "published": "2026-10-25",
+          "company": "サービス停止中の「コミックシーモア",
+          "service": "",
+          "affected_count": 4200000,
+          "cause": "報道自動検知",
+          "summary": "サービス停止中の「コミックシーモア」、個人情報流出は最大420万件...再開時期は未定(読売新聞オンライン)",
+          "exposed_data": "要確認",
+          "sources": [
+            {
+              "name": "読売新聞",
+              "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE85VmdaR2dDeU1sM3VaRldUQVloY28xaE5McHRnTE9SSFZIVUpPTWRHMk8wU19TS3FBbmZGZTktZmpMZVVWUURpZmlISm5aMzVCeXRUT3ZoU3prVVFJYWlWMElLQVBoTVBqNnhmUGVNbFJFakFRbXFod1BOajFMemc?oc=5"
+            }
+          ],
+          "auto_detected": true,
+          "rss_pub_date": "Sat, 24 Oct 2026 09:05:00 GMT",
+          "article_count": 1
+        }
+      ],
+      "merged_from_ids": [
+        "2026-10-25-auto-aed73ec56a"
+      ],
+      "incident_structure": "shared_vendor",
+      "affected_organizations": [
+        {
+          "name": "サービス停止中の「コミックシーモア"
+        }
+      ],
+      "affected_organization_count": 1,
+      "merge_note": "",
+      "merged_at": "2026-10-25 06:56 JST"
     },
     {
       "id": "2026-10-19-auto-0e6344c2a4",
