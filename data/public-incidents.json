@@ -1,6 +1,6 @@
 {
   "version": "1.2",
-  "last_updated": "2026-10-25 07:05 JST",
+  "last_updated": "2026-10-25 07:11 JST",
   "incidents": [
     {
       "published": "2026-10-24",
@@ -59,10 +59,30 @@
         {
           "name": "Yahoo!ニュース",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPOXBnVi1CV1I3bnhPODZkaEZjOWNMWmRCNFN6RktOcGtIUTJlanpHVGpxWkt2Wk9SX25EUFRHMUZ1MjNLX1IxeVFYZGJoenhYaS1lUm52TlBkVUdXNEN3S2JfV3U0VHduWmVGbTJjNFQ5R1g1ampuX05IbUhYenRSbVotdVVpRUowUkJodTJn?oc=5"
+        }
+      ]
+    },
+    {
+      "published": "2026-10-23",
+      "company": "デジタル庁",
+      "service": "お問合せフォーム",
+      "affected_count": 13000,
+      "status": "confirmed",
+      "cause": "報道自動検知",
+      "summary": "デジタル庁、公式サイトへの問い合わせ最大1万3000件漏えいか Web制作ツール「Studio」不正アクセスで",
+      "exposed_data": "デジタル庁のホームページの以下のお問合せフォームに入力いただいた内容",
+      "sources": [
+        {
+          "name": "INTERNET Watch",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8tQVhpeWxrOTlqNXVPRUc2dUNUbzZlVE4teHcydHRneUZYLWhsZXNUY25HRE1ISUZGQ2hXdTMzU1g4UWc5b0N3U09YeTFlSVN2UWV5YW9oZDNJeVNzcmhYeUtPZmtyZ3pDMmxj?oc=5"
         },
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA2dVhucElMVUhkOXF2LURuRHNxeDZqTlpBMDRzbWZxYWpSTkUzaGdaZXBqeEV0VzFyRXJJTnJHOUVzaUg0TUpIVkdZNndJSWh2ZzZTdUFZVTlrZDk2TWdrUzQ0N3FpWFhEcl9EQVFkbDRwQ2dXakxhUlZOU0w2dW8?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBwdjB0d1BLeXh6Y1BtNy1YZlJjbTVGME9ncTZHNGtVRklXNlp0dUlIQXB4QXRtd182WHVKeDVHamlEZjRKVkdJUzdoV3hIdU51Y090aGJyUUZtNUI5amRGdmdpeEhrNHppU3c?oc=5"
+        },
+        {
+          "name": "公式",
+          "url": "https://www.digital.go.jp/press/a0a8f66c-b32d-4695-9372-bcd5d4280f22"
         }
       ]
     },
@@ -137,12 +157,8 @@
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5yR0xYUjRZUnFSY3ZreXVzNExFeGNzUE5hNFlfaVFUTEFtSUU3cXRMVjYwTVFGQmYzYTA1QnlOa09wYnZIRDBxZnhsTUhMdnpLQW1zUWEzXzNfUDR1bE5Cd3pDeUQ?oc=5"
         },
         {
-          "name": "ITmedia",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBJc0wwdW0xdUIyREV3U2lwV1R6QmEtRUppQm8wZndKNjJvMXFFNVN3M1B0WTIycXhKVVJjYktHdlRGcFpLRERidlFXY0tkOXRoa1ZxcXpVNkRwQkpuUTltR0EyX3FTZU5yUkE?oc=5"
-        },
-        {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5XcHplWUdKcU53X1J6dEFkT3hSTS14SURZOGJhRHItWWlMdG9lcmZwSU93UGpUMXlRdkFjRk1xSkdMalJxRm1fS05Eajh3bnI1YkZEQVN1T29VV0xVZ3NLenBUYk1LcDM0YzZfZHdCaE5jbWhLSmEtbGtkclVsMzg?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBJc0wwdW0xdUIyREV3U2lwV1R6QmEtRUppQm8wZndKNjJvMXFFNVN3M1B0WTIycXhKVVJjYktHdlRGcFpLRERidlFXY0tkOXRoa1ZxcXpVNkRwQkpuUTltR0EyX3FTZU5yUkE?oc=5"
         }
       ]
     },
@@ -361,7 +377,7 @@
           "url": "https://www.nifty.co.jp/newsrelease/nifty202610195434.htm"
         },
         {
-          "name": "INTERNET Watch",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBPV1lTUDZES3ZVbDlwc21jWTVJSjJQZ1pPa2Z1c2dGOW1LRnh5YmJVSWtGdWsyRmwxV0xsYktRdGoxVDJMRGpZanhjZTdXbHNQVDVKTkYtaWMwdUloYkRERThNbzlvV2lheVBz?oc=5"
         }
       ]
