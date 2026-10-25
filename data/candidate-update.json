@@ -1,116 +1,56 @@
 {
   "version": "1.1",
-  "generated_at": "2026-10-25T11:45:07+00:00",
-  "before_count": 444,
-  "after_count": 449,
-  "net_change": 5,
-  "new_count": 5,
+  "generated_at": "2026-10-25T16:28:45+00:00",
+  "before_count": 449,
+  "after_count": 456,
+  "net_change": 7,
+  "new_count": 2,
   "removed_count": 0,
-  "visible_before_count": 444,
-  "visible_after_count": 449,
-  "visible_net_change": 5,
-  "raw_before_count": 752,
-  "raw_after_count": 760,
-  "raw_net_change": 8,
+  "visible_before_count": 449,
+  "visible_after_count": 456,
+  "visible_net_change": 7,
+  "raw_before_count": 760,
+  "raw_after_count": 763,
+  "raw_net_change": 3,
   "new_candidate_ids": [
-    "2026-10-25-auto-7d49bbe9b3",
-    "2026-10-25-auto-50b2cbdad7",
-    "2026-10-25-auto-0dd19f3e2a",
-    "2026-10-25-auto-f859d8cdbe",
-    "2026-10-25-auto-0d30f4ddc7"
+    "2026-10-26-auto-e52f09ed87",
+    "2026-10-26-auto-552d89f5fb"
   ],
   "new_candidates": [
     {
-      "id": "2026-10-25-auto-7d49bbe9b3",
+      "id": "2026-10-26-auto-e52f09ed87",
       "member_ids": [
-        "2026-10-25-auto-7d49bbe9b3"
+        "2026-10-26-auto-e52f09ed87"
       ],
       "priority": "C",
-      "published": "2026-10-25",
-      "company": "Keystoneのハードウェアウォレット公式サイト",
+      "published": "2026-10-26",
+      "company": "野村證券、外部委託先へ",
       "service": "",
       "affected_count": 0,
-      "summary": "Keystoneのハードウェアウォレット公式サイトに不正アクセス、顧客注文データが流出 シードフレーズは影響なし",
+      "summary": "野村證券、外部委託先への不正アクセスで顧客情報漏えいの可能性! メールアドレスなどが対象、取引口座情報は含まれず",
       "sources": [
         {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4tRnFvSlczcGVRN2VJQ3Q4ZWdsbWxoWTBOSFRqaVUxTVRvX2V5cktmX09URjlINWpCSmFWNHJ0ek92d29MYkJfdTRjTWxlZDJ4NDdXMi1ON19icml1YXN0amQxMDEyWEpJdlVQbVBwYXZkMDU1?oc=5",
+          "name": "DXマガジン",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5XMEdUNHRGdUkxaDVYU014a1RybmFIejBFVUVLX2V2MG5nMVB4Vl93WmN1eDZHTGVITVBUZE05ODdlTVBzMDJ5RjBjLXM2MEhQ?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-10-25-auto-50b2cbdad7",
+      "id": "2026-10-26-auto-552d89f5fb",
       "member_ids": [
-        "2026-10-25-auto-50b2cbdad7"
+        "2026-10-26-auto-552d89f5fb"
       ],
       "priority": "C",
-      "published": "2026-10-25",
-      "company": "NEXCO東日本「ドラとら",
+      "published": "2026-10-26",
+      "company": "ニュース」“詐欺師は名前と住所を正確に言ってきた”",
       "service": "",
       "affected_count": 0,
-      "summary": "NEXCO東日本「ドラとら」に不正アクセス、パスワード含む登録情報が閲覧された可能性 マイルートも停止",
+      "summary": "「ニュース」“詐欺師は名前と住所を正確に言ってきた” 情報流出リスクは Bobby Cox (m4PjYhPLIw)",
       "sources": [
         {
-          "name": "合同会社ロケットボーイズ",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQeG1KZkR5Ym9STnJaMGdvNE1mVzF6MlhSZ28yRloxc05ZMWZWU2otYXlMTHBaZEZnOUhqM3RQamlBemtNa09qUjJYR0c2WFpsdjUxYVB1UXhNdUhrTURTZ1hsaXREU2xOY1YxQnNPTmpDamRraFBtM1gzeTNJcGEtc3FuODU1LTZmWHNmS2RBLXJxQ3hLRUpuZldUS3dVZw?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-25-auto-0dd19f3e2a",
-      "member_ids": [
-        "2026-10-25-auto-0dd19f3e2a"
-      ],
-      "priority": "C",
-      "published": "2026-10-25",
-      "company": "ハードウェアウォレットのKeystone、購入者",
-      "service": "",
-      "affected_count": 0,
-      "summary": "ハードウェアウォレットのKeystone、購入者の個人情報が流出(NADA NEWS)",
-      "sources": [
-        {
-          "name": "NADA NEWS",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBuVm95UG1pdE1uR1N4Q3d0UUFRYy0xT2Vjel9jUHQ4TmpDRnA5Ykh5UHE3MjNHU05KN3BUMy02TkJQT2Rka053SDJRT1NmREdNQXI1dEtDeVIwVW5UR1VVSUdYdlo1aUF0WFZBN0Z6Ykt2MEtLRDRXdmpKSFpSOEk?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-25-auto-f859d8cdbe",
-      "member_ids": [
-        "2026-10-25-auto-f859d8cdbe"
-      ],
-      "priority": "C",
-      "published": "2026-10-25",
-      "company": "韓国Lotte Group系クーポン発行会社Giftielがハッキング被害",
-      "service": "",
-      "affected_count": 0,
-      "summary": "韓国Lotte Group系クーポン発行会社Giftielがハッキング被害、返金口座番号まで流出",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1IZ1hWR1d0emJJMjhqcXhzTGV6M1hqZFhtX0I3aENkR1I0eHJLSnRiWWZTcnZXOFpqeUtIN0VRNEp5Z083N1hxMlVVMEdZaXJNRnB2dVZQZUNFQzZxZGpJYUdtRDJ1MG9TeHdnVUg2RllzeW9F?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-25-auto-0d30f4ddc7",
-      "member_ids": [
-        "2026-10-25-auto-0d30f4ddc7"
-      ],
-      "priority": "C",
-      "published": "2026-10-25",
-      "company": "ギフティエル",
-      "service": "",
-      "affected_count": 0,
-      "summary": "ギフティエルで個人情報流出 払戻申請者の口座含む - CHOSUNBIZ",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVDhXOVJpa1BobDhmRVRqSTAzaUREd1h1YkJnUExabVBTMDF0emU2QlVNUGNLaUtXTG4zcHZ6cFBBd1ZucEJZUjM1c291VUp5cTNwRm1IUzJ3MDVObW1qUVplLVE4Y2VNWDhTbWlyWGpCcXVVR1RoSFZyRjJEcW54STF3eWJsSlp3MXJCc1l1dW1jS1HSAZMBQVVfeXFMUFQ4VzlSaWtQaGw4ZkVUakkwM2lERHdYdWJCZ1BMWm1QUzAxdHplNkJVTVBjS2lLV0xuM3B2enBQQXdWbnBCWVIzNXNvdVVKeXEzcEZtSFMydzA1Tm1talFaZS1ROGNlTVg4U21pclhqQnF1VUdUaEhWckYyRHFueEkxd3libEpadzFyQnNZdXVtY0tR?oc=5",
+          "name": "m4PjYhPLIw",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1UVVh6Ynk0Ymt0MzM5Y2xtV2ZKR3RpLWFRR0wzd29MSF9PTUU1SmdROW1sOV9SOHVER1BlekJZU2pRY3BpTmR1bVVpbVNTZmNPRlI0Q1RhcTNqTVcxdVRZeUt6Q3I1MHRzSkY4?oc=5",
           "official": false
         }
       ]
