@@ -1,486 +1,116 @@
 {
   "version": "1.1",
-  "generated_at": "2026-10-27T13:18:05+00:00",
-  "before_count": 631,
-  "after_count": 675,
-  "net_change": 44,
-  "new_count": 23,
+  "generated_at": "2026-10-27T18:47:34+00:00",
+  "before_count": 675,
+  "after_count": 684,
+  "net_change": 9,
+  "new_count": 5,
   "removed_count": 0,
-  "visible_before_count": 631,
-  "visible_after_count": 675,
-  "visible_net_change": 44,
-  "raw_before_count": 946,
-  "raw_after_count": 981,
-  "raw_net_change": 35,
+  "visible_before_count": 675,
+  "visible_after_count": 684,
+  "visible_net_change": 9,
+  "raw_before_count": 981,
+  "raw_after_count": 991,
+  "raw_net_change": 10,
   "new_candidate_ids": [
-    "2026-10-27-auto-da5e7deae9",
-    "2026-10-27-auto-a093b84b07",
-    "2026-10-27-auto-167119d904",
-    "2026-10-27-auto-293c27ccc9",
-    "2026-10-27-auto-b72162ea70",
-    "2026-10-27-auto-5f44026be8",
-    "2026-10-27-auto-c4ce515054",
-    "2026-10-27-auto-67dde6b5f5",
-    "2026-10-27-auto-f02ecf34bb",
-    "2026-10-27-auto-3a2308efd9",
-    "2026-10-27-auto-117dac353f",
-    "2026-10-27-auto-1df67b50e7",
-    "2026-10-27-auto-6993eaed21",
-    "2026-10-27-auto-8a8b412a53",
-    "2026-10-27-auto-d9c0478e2b",
-    "2026-10-27-auto-b8f6ea0c7c",
-    "2026-10-27-auto-c4873db69d",
-    "2026-10-27-auto-7d8688a0f6",
-    "2026-10-27-auto-f9574c0db5",
-    "2026-10-27-auto-20bb88b045",
-    "2026-10-27-auto-6ee7d5729d",
-    "2026-10-27-auto-f447250eec",
-    "2026-10-27-auto-690f43e1cd"
+    "2026-10-28-auto-35e73e0c60",
+    "2026-10-28-auto-5087fad629",
+    "2026-10-28-auto-4f75b87966",
+    "2026-10-28-auto-2837dcf600",
+    "2026-10-28-auto-3c9ec24f4f"
   ],
   "new_candidates": [
     {
-      "id": "2026-10-27-auto-da5e7deae9",
+      "id": "2026-10-28-auto-35e73e0c60",
       "member_ids": [
-        "2026-10-27-auto-da5e7deae9"
+        "2026-10-28-auto-35e73e0c60"
       ],
-      "priority": "A",
-      "published": "2026-10-27",
-      "company": "So-net、会員データベースへ",
+      "priority": "C",
+      "published": "2026-10-28",
+      "company": "岐阜県主催イベント、参加者1135人分",
       "service": "",
-      "affected_count": 2140000,
-      "summary": "So-net、会員データベースへの不正アクセスで会員情報約214万件などが漏えい。一部退会者も含む",
+      "affected_count": 1135,
+      "summary": "岐阜県主催イベント、参加者1135人分の個人情報漏えい データ管理会社が不正アクセス被害",
       "sources": [
         {
-          "name": "INTERNET Watch",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1wRi13MXVMQTZrRERMRkhTeGE1WWJ5b28tLTBpNHltc203amZFTHhYdklINTFuNFpLMlNNOUQwTU5fR2Jza093c240TmxRQ3hUeDV1cVdqNEJtMkhYNWNOWXJkX3VieXI5UXpF?oc=5",
-          "official": false
-        },
-        {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9DWnhNaWxfaTBoY19Sb3diNTY2dUZ5cjJjU1ZDbWs5OUR6OHctN0xhbUQ2WU51Ui1JeUNiVE5yYTF2eDRVS1NxQWZOSjYyYzFKV0NqYXlVd0xnQUNveFJZOUhGRQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB5bDFQQWZNQWFDRWQ0SmdTSFJoME9YaGRXVE5ERURnZ0tRckVrZlZMdGU0RlAtN0lERWxjVmxWbWtENktBb1g2MkZfX0dvY2UxODFkMg?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-10-27-auto-a093b84b07",
+      "id": "2026-10-28-auto-5087fad629",
       "member_ids": [
-        "2026-10-27-auto-a093b84b07"
+        "2026-10-28-auto-5087fad629"
       ],
-      "priority": "B",
-      "published": "2026-10-27",
-      "company": "【不正アクセス】GMO",
+      "priority": "C",
+      "published": "2026-10-28",
+      "company": "横浜市緊急情報伝達システム 8区",
       "service": "",
       "affected_count": 0,
-      "summary": "【不正アクセス】GMOが顧客情報と称するものの公開を確認 攻撃者の予告通りに JR東海やジョーシンでも情報漏えい",
+      "summary": "横浜市緊急情報伝達システム 8区で個人情報流出か 委託業者に不正アクセス",
       "sources": [
         {
-          "name": "日テレNEWS NNN",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSUJ4SFkzdDlFc1pMaW9SZW16NmdobVFYOG9NdzFqS3RwLVVFdlZ1TDhmbFBRd0xnbHVnWnh4dkU0QU5KYmxyRy1IeWo0Vl9lNmd1eFVqdHMteFpteXQzNmhwVnVvb1p4NGs4RXZJWW9JdC1mLTVKZkdsNTdTUzdpcFlaUEpzWDA?oc=5",
-          "official": false
-        },
-        {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAyVGdveWJKTFBMNGFRem5FLS1FbnMtSGxRWVRVTDNMcUJjVWlzV05sZ0xnQm1mY0FtMFJaaDVuQ05SaWhDRzVMZFlQTXI2dmFLVHpDd1hxVkhxYlJxcFZiZ2VDa2FRcTVuZUI2Mkpn?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1Sb3VYQm1rUVlYclA5UVFqdC01WTVmWWZqeVVOWVdPX0RvOXRMc0I5RnZPNlVNOElWd2JjTDVuQWNjd21fSjdkSzF3S0ZkR3JEbGJPTVhCQjV2MjVvOU1CUFZTdDc?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-10-27-auto-167119d904",
+      "id": "2026-10-28-auto-4f75b87966",
       "member_ids": [
-        "2026-10-27-auto-167119d904"
+        "2026-10-28-auto-4f75b87966"
       ],
       "priority": "C",
-      "published": "2026-10-27",
-      "company": "オンライン診療サービス",
+      "published": "2026-10-28",
+      "company": "兵庫県「スタートアップ支援事業",
       "service": "",
       "affected_count": 0,
-      "summary": "オンライン診療サービスに不正アクセス 最大87人分の患者情報閲覧 [情報漏洩・個人情報流出の最新ニュース]",
+      "summary": "兵庫県「スタートアップ支援事業」の情報漏えいの恐れ 「ブラストメール」不正アクセスで(神戸新聞NEXT)",
       "sources": [
         {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9neFU0WVozZGtyWU5FUDVGT0NPRFBvaWpvWnhwS1ZGUTRIQlk4TDktd1pOUGdYS2o0ZnZYb2xvb2hxWlJKQS0zZjZZalUxVkJlQ3FadTRaYjY5TFNXWGNrWXhKaTM3SUU?oc=5",
+          "name": "神戸新聞NEXT",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE90ekxjald4WndyckQyN1pMZXVxSTNLUXR0X0dJdEFRVVNvU1c0VWFUenQwRWdoSjdqWUhGOHZjY2lfam9oYUl4d0lVa1FwdHNVS1RESTJvb011NkdFb0Q1dHoyalcwcVh2YXZzUS1IZV9HRDloSHF1YzM5ODQ4UHM?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-10-27-auto-293c27ccc9",
+      "id": "2026-10-28-auto-2837dcf600",
       "member_ids": [
-        "2026-10-27-auto-293c27ccc9"
+        "2026-10-28-auto-2837dcf600"
       ],
       "priority": "C",
-      "published": "2026-10-27",
-      "company": "GMO攻撃者が「顧客情報」公開 会社「拡散しないで」法的措置準備",
+      "published": "2026-10-28",
+      "company": "木原官房長官",
       "service": "",
       "affected_count": 0,
-      "summary": "GMO攻撃者が「顧客情報」公開 会社「拡散しないで」法的措置準備 [情報漏洩・個人情報流出の最新ニュース]",
+      "summary": "木原官房長官、顧客情報公開「卑劣な行為」=情報拡散回避呼び掛け―不正アクセス(時事通信)",
       "sources": [
         {
-          "name": "朝日新聞",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5CeW56WmJfTVBOV3FRSUw5TnJjQm1PVEFTZVFITjFUcWFJRVlBXzNNZ0d6YVJkSkNiYTIta0RIMzdUS0xFeXRhZXhzaWxLaE4yN29hamhUSC1OZEtRR0tEd05zekVDSkk?oc=5",
+          "name": "Yahoo!ファイナンス",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVEhvOFdzWllSRlJ6UERsQnZ3M0hvXzJwaHgweTMyMkdUUVFjcVBKTXZJZ05Qc1I5OFVaejFWdjVLMmdDQ1BrWjB4cjZTdDh5c3Q0eld0SGJtdWtITDFzWnhZa3dVLU42OTJBYUVVbE1GXzRwNnM5Sk1HamtTeE9JVVhOMjBXTlU?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-10-27-auto-b72162ea70",
+      "id": "2026-10-28-auto-3c9ec24f4f",
       "member_ids": [
-        "2026-10-27-auto-b72162ea70"
+        "2026-10-28-auto-3c9ec24f4f"
       ],
       "priority": "C",
-      "published": "2026-10-27",
-      "company": "ダイハツメディアサイト",
+      "published": "2026-10-28",
+      "company": "当社サービス「OWNLY」へ",
       "service": "",
       "affected_count": 0,
-      "summary": "ダイハツメディアサイト、個人情報漏えい...不正アクセスで停止(レスポンス)",
-      "sources": [
-        {
-          "name": "レスポンス",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ranNXT3RnbEtBVy1PWVA3NXZaUDFMS3ozbENnbTlNeUwwb0pXU2ZMZ25RRDlsSU5hZ2p3c1Y3Z3ZUeVhFYnpTcU1JX2FKNFJKSW1SU2RWR2FSVmRUdXBhclVadlZPUGtkc3AtN05aWEQxT05sV1lMdHUwOG5hVFE?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-27-auto-5f44026be8",
-      "member_ids": [
-        "2026-10-27-auto-5f44026be8"
-      ],
-      "priority": "A",
-      "published": "2026-10-27",
-      "company": "ソネットから個人情報258・5万件漏えい",
-      "service": "",
-      "affected_count": 50000,
-      "summary": "ソネットから個人情報258・5万件漏えい、モスフードではキャンペーン応募者のユーザー名など1・4万件流出",
+      "summary": "当社サービス「OWNLY」への不正アクセスに伴うお客様情報漏洩に関するお詫びとお知らせ",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1VajF6YjVXbW16eW9sWTNueTVpZEVWWGRhRGdkSDBKZ2RpTG9IMk1rMExibVVXM3R1NHF2ckh2d1B2Q1ZlaG1JcDJwOXJkWDltVzhHOXp4WXpJYW92ZVFWYVUwUmcwUQ?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-27-auto-c4ce515054",
-      "member_ids": [
-        "2026-10-27-auto-c4ce515054"
-      ],
-      "priority": "C",
-      "published": "2026-10-27",
-      "company": "新幹線「スマートEX」「エクスプレス予約",
-      "service": "",
-      "affected_count": 0,
-      "summary": "新幹線「スマートEX」「エクスプレス予約」で会員情報漏えい メール配信委託先に不正アクセス",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5YcDVXVUpXRmdQV2V4YURTbUxSNi1OLTJad18wNkhNa3lWN3VZXzdQc3BpcHV2NWtFaWU5N0dhSzZDekNXQ2xCVGNYUkhOb3hvblE?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-27-auto-67dde6b5f5",
-      "member_ids": [
-        "2026-10-27-auto-67dde6b5f5"
-      ],
-      "priority": "C",
-      "published": "2026-10-27",
-      "company": "関西みらい銀行 メール配信会社不正アクセス",
-      "service": "",
-      "affected_count": 0,
-      "summary": "関西みらい銀行 メール配信会社不正アクセスで情報漏えいか",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5FS0JJNnZGT0FwX25TVjhySTdpa3JlNFo4Rm9ZalJjcjhzblAxbGZfN3JfdzhfWDBzMGI1ampMazRmNWhtSU5ObUJBd0syalhaYUJULUZJeDlHSElXdHhN?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-27-auto-f02ecf34bb",
-      "member_ids": [
-        "2026-10-27-auto-f02ecf34bb"
-      ],
-      "priority": "C",
-      "published": "2026-10-27",
-      "company": "ダイハツ、報道向けサイト",
-      "service": "",
-      "affected_count": 0,
-      "summary": "ダイハツ、報道向けサイトで個人情報漏洩 メアドなど流出の可能性",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5xTVdqVlBQNmRENUFRam4xazhIMUFkT25sczZ5RU1CN3VGUUV2aGdScVNkRHdlbVRyMUVQTGREYWNTM0hxeHAtR21MVV9JM1FGZW16eUQzNEpvc3pFbWd5cTVqcnJkTTVmUFphaw?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-27-auto-3a2308efd9",
-      "member_ids": [
-        "2026-10-27-auto-3a2308efd9"
-      ],
-      "priority": "B",
-      "published": "2026-10-27",
-      "company": "ツクツク!!!",
-      "service": "",
-      "affected_count": 19115,
-      "summary": "「ツクツク!!!」に不正アクセス、カード情報1万9,115件、36万2,750件の個人情報漏洩のおそれ",
-      "sources": [
-        {
-          "name": "合同会社ロケットボーイズ",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZlZyWGFLdEp4SWRlbWd2Vjl0cFo2Und0dEltV1NoMHp1X2hMNEdUU2l6Y1YwejM5aDRHRlYxN1JuTmlkYUY2djlOZ3NCZEtYdmNyclZ1MnBnVGRqY2o3azFlZjgxMGlWQ2hHT0o0MFpmalRKLXk5U2hyV3poZl9Dc2NpRDhGOWhocGJ0dmtOb0Raa1JqNXQ4cU9kbUVWQ3VCMlJtMGpn?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-27-auto-117dac353f",
-      "member_ids": [
-        "2026-10-27-auto-117dac353f"
-      ],
-      "priority": "A",
-      "published": "2026-10-27",
-      "company": "第一ライフ",
-      "service": "",
-      "affected_count": 124000,
-      "summary": "第一ライフG、従業員ら12万4000人の個人情報流出の恐れ 人事システムに不正アクセス",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9pejQyaldrV3Y2YTdidXBuWlBTYS1NRVRlOUVrX1hXNFpkb1JEUzkzcjE1TU9qR0Jha2hDRkJVenFpQlF1elVoekZNdUUxMmgtUTRkOXF3?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-27-auto-1df67b50e7",
-      "member_ids": [
-        "2026-10-27-auto-1df67b50e7"
-      ],
-      "priority": "C",
-      "published": "2026-10-27",
-      "company": "モスフード",
-      "service": "",
-      "affected_count": 0,
-      "summary": "モスフード、キャンペーン参加者情報漏えい(時事通信)",
-      "sources": [
-        {
-          "name": "時事通信",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA4ZWxIMXpsWU9XMHZKMUZTTzZ1QW1xbHRlTmhNVTZscWxiM252Nmk5Tk82LW5SNkRFaUd4QnJEZnVyMkl5a3E0VnBSaU5FWmNwdThlREJIN3VPNFRhWFJpaTh0dmRteUVheWZURDBnSGxEQVk2RmtndDlZcm13QzA?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-27-auto-6993eaed21",
-      "member_ids": [
-        "2026-10-27-auto-6993eaed21"
-      ],
-      "priority": "C",
-      "published": "2026-10-27",
-      "company": "グノシー",
-      "service": "",
-      "affected_count": 132,
-      "summary": "グノシーに不正アクセス、取引先・役職員等132人の個人情報流出 業務アカウントの認証情報を悪用",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUWZGWXBmN183NnlQVnVKbGZ6aFJmaTl2Nk11TDBaYlByRDZFWGVqWXdlTkVkLXlIMEdhOENHUDd1anhpSGV2UzF4ZkNieUNIQTg2UkFtamZlbU5kQ3ZlR19uX3lHSlBLZG1WbW9IZFNmM1hGYW5RVzJQLXh6VTV6eG1Xa3ZsLUI1cXFLWlVBdDhvMUwxeXF1WkZjdWo?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-27-auto-8a8b412a53",
-      "member_ids": [
-        "2026-10-27-auto-8a8b412a53"
-      ],
-      "priority": "C",
-      "published": "2026-10-27",
-      "company": "UPSIDER、経営幹部の交流サイト",
-      "service": "",
-      "affected_count": 544,
-      "summary": "UPSIDER、経営幹部の交流サイトに不正アクセス 544人の情報漏洩",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE01YXRDYWlnbUJiOFoxaGNBbHdObVpidGVNRTZWQ3ZRZk9aSFE2WlRWUlJveXhyQUUydVVJS3Z3eGQ5aW9wODZMV2JtRjZNOVN5SWRlcDYwdVhhalFnNFFiYUJFajlJZTJQbXN6eQ?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-27-auto-d9c0478e2b",
-      "member_ids": [
-        "2026-10-27-auto-d9c0478e2b"
-      ],
-      "priority": "C",
-      "published": "2026-10-27",
-      "company": "レベルエンター「AI.R-Scorer",
-      "service": "",
-      "affected_count": 0,
-      "summary": "レベルエンター「AI.R-Scorer」に不正アクセス、脆弱性悪用で約10カ月間情報にアクセス可能 答案・パスワードなど漏えいのおそれ|セキュリティニュースのセキュリティ対策Lab",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRzd1VnhZbHA2aXF5MFdSYlo1eU5vOEMxMFhGOFZpZ0syZGYyM1F1NzF0dmRTMVpYdFREODhUZ2VuZ3dwdThlc3VKbDRkU1Y3TVZyX2lZdWs1bFV1YmZoWHFRN3gwWGc2RXprQlFlMkZ1dUNaTmZHNmtSV3lSTFBwZGlXaFZWdk8xSUJPQkVKaWN0WThqSkRCVlpyWmg5ZkFlRmxWSlFrd0Q2ckdURHJCbQ?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-27-auto-b8f6ea0c7c",
-      "member_ids": [
-        "2026-10-27-auto-b8f6ea0c7c"
-      ],
-      "priority": "C",
-      "published": "2026-10-27",
-      "company": "石川・野々市の住民情報システムサポートサイト不正アクセス",
-      "service": "",
-      "affected_count": 0,
-      "summary": "石川・野々市の住民情報システムサポートサイト不正アクセス 漏えい確認されずもマイナンバー含む情報1件(石川テレビ)",
-      "sources": [
-        {
-          "name": "石川テレビ",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1TWk53SzNWYnJ3aDllV0VQRlBVeW04QnJvb25MaXEyaEN0TlBZcTlrUE9ZNG1GTkx0aGtEdWFPeVVOY3JxZEVBTEtzWUNfM3ZlV2UtclljNWZhTVFOMHRCMlpzZ19GOXhxS3VoNXhaRVZac0JkZTdYcndPTnJkSTA?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-27-auto-c4873db69d",
-      "member_ids": [
-        "2026-10-27-auto-c4873db69d"
-      ],
-      "priority": "C",
-      "published": "2026-10-27",
-      "company": "ヤクルト本社「不正アクセスを確認",
-      "service": "",
-      "affected_count": 0,
-      "summary": "ヤクルト本社「不正アクセスを確認」 顧客情報への影響調査",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5rR3hBS1ZlWnpOb3pURTlaQ19VOGtEdXZpTzJ6aGdlRjRkekdkS1hkTUQ3cjVQaUlZaEFvc1BLVjZVNnpteTlhRjV2VGYxYWt3VjNfdjhGaFlDUmc0QnFXdkFTUnFzT1JiZUZ1TA?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-27-auto-7d8688a0f6",
-      "member_ids": [
-        "2026-10-27-auto-7d8688a0f6"
-      ],
-      "priority": "B",
-      "published": "2026-10-27",
-      "company": "宮崎県のAR観光ガイドシステム「みやざき神話さんぽ」",
-      "service": "",
-      "affected_count": 551,
-      "summary": "宮崎県のAR観光ガイドシステム「みやざき神話さんぽ」 不正アクセスで個人情報が流出 メールアドレスなど551件",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE04VG81V1BBbXhPWnN6ZnJ6dDVsYmgwYjFrV1ZJSWZpQ1RQaGtZbkttQ1FJdHhHdUwzN1J6ZGRoVUtMWmZzOGFTX1BsR3lwTFEtaGVpTE96MThYdC1iS3YtaVRvd3l1M05ORXoyYmdPQ2JudkkxWnZodHppSE4xUDQ?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-27-auto-f9574c0db5",
-      "member_ids": [
-        "2026-10-27-auto-f9574c0db5"
-      ],
-      "priority": "C",
-      "published": "2026-10-27",
-      "company": "不正アクセスで婚活事業申し込み者氏名など漏えいか 宮城",
-      "service": "",
-      "affected_count": 0,
-      "summary": "不正アクセスで婚活事業申し込み者氏名など漏えいか 宮城",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5QTVd0dnB0cHgwYnpFaXlja1RMbnJkcmlEMEJTekhjZUpIVHpWRzJDdEZjOVJ0TmxBX1gxWHJITFZCLXBkVy1WXzhFdi1CMUkzN1NpTUJ2NzRMa3VRb0Zn?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-27-auto-20bb88b045",
-      "member_ids": [
-        "2026-10-27-auto-20bb88b045"
-      ],
-      "priority": "C",
-      "published": "2026-10-27",
-      "company": "プレステサービス",
-      "service": "",
-      "affected_count": 0,
-      "summary": "プレステサービスで不正アクセスの恐れ 家族アカウントが「勝手に追加」されたとの投稿相次ぐ",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1HelVnU09MTUJBRXZCSmk2TkZoc2FoaDhIc1ZPOENKRUFHWVJCVG4zSGpibXhGSENjU3AtY210cVdNMnBNSWxpaUZFMUJhR0xBNEl1eU1rbEZZaTVWWkJMSzY2X0FNd25TMUZDVktxZVRxdw?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-27-auto-6ee7d5729d",
-      "member_ids": [
-        "2026-10-27-auto-6ee7d5729d"
-      ],
-      "priority": "C",
-      "published": "2026-10-27",
-      "company": "りそな、顧客メアド流出の恐れ=ユミル社へ",
-      "service": "",
-      "affected_count": 0,
-      "summary": "りそな、顧客メアド流出の恐れ=ユミル社への不正アクセスで",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBUeDZhakdLMTBETmVENW1jN1NvVXdqM2k0UG1rUm9FaEd3SmwtTUJhbG1zSFZKd0NocTV3TVlMTDNoR2ZfeklYOUpsdXRIeGZuc2dfMWhVMXdZSUFWaWkzQUZfb2ltaGdMSGE1c1B3cDA4OHRJNmI3RUtOVVjSAYIBQVVfeXFMTlNQOHJQUGcyZzNIeGhTYndPTkZsa2pmLVpZUFpNT0FJOFVQMHJCSUY4bHJuV0ZZc0J0VDg5Wmd0NlF5dXUyNWlRR2tURS0xLVpMRXA1YnA2azdDTTQ1OUxYU1FxMVJmU0hUY1RvcGM4ZDQya3JaOENWYVF6UWdQY2I5Zw?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-27-auto-f447250eec",
-      "member_ids": [
-        "2026-10-27-auto-f447250eec"
-      ],
-      "priority": "C",
-      "published": "2026-10-27",
-      "company": "AIの悪用で変わるサイバー攻撃 — 相次ぐ公開Webシステムへ",
-      "service": "",
-      "affected_count": 0,
-      "summary": "AIの悪用で変わるサイバー攻撃 — 相次ぐ公開Webシステムへの不正アクセスとランサムウェアの動向 - CTC",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5DWW85enlWOEx1WHZTV3VpUG1EYkFnS0trQnNGRGNHd3czRm5XMnlrV2VPZFB4dERjbXpLMVhMTmhGbFNpRG9DWHJnU29hTU5NeDhlSXZ4SDV0MFRVQVR5SF9JN0M3aGlkeU52cy03S2VWRGY5VTZyR09XREF1QQ?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-27-auto-690f43e1cd",
-      "member_ids": [
-        "2026-10-27-auto-690f43e1cd"
-      ],
-      "priority": "B",
-      "published": "2026-10-27",
-      "company": "東京都農林水産振興財団、援農ボランティア事業",
-      "service": "",
-      "affected_count": 16000,
-      "summary": "東京都農林水産振興財団、援農ボランティア事業の個人情報最大約1万6,000件に影響 ブラストメールへの不正アクセスで",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZXROb0Y1YnlYY3ZibWZmYjNSOC1SOUpsTTNYWGN5X1NMWDM0T3YwWDV2emJtdmxENGZRZUU5dDRKNUYwUlJpN3ZQZ1VLTjhFUXVTNk9LYjFpRkdteHRUU1Z0UERDbU8ycHZndkxfZ1dUZTdpZ2RlMENsRVVJZk5wVnpFbE9DR2Zha29YZTVRNE01YXJZalpjMA?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA0dENYQTljWHJhUXAwR2U2SnQtcmlIbHBHZ29jOUp2RVpDMGtLd0piUmdDQ3B2UDBqR2VmQnZiVFczWlU5UTF0RVI3RjF5VENfY19KWngtcFdFVEtJT0o0WHpFUVhLdFF2X0Vn?oc=5",
           "official": false
         }
       ]
