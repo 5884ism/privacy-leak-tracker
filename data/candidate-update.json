@@ -1,116 +1,276 @@
 {
   "version": "1.1",
-  "generated_at": "2026-10-27T18:47:34+00:00",
-  "before_count": 675,
-  "after_count": 684,
-  "net_change": 9,
-  "new_count": 5,
+  "generated_at": "2026-10-27T23:00:26+00:00",
+  "before_count": 684,
+  "after_count": 697,
+  "net_change": 13,
+  "new_count": 13,
   "removed_count": 0,
-  "visible_before_count": 675,
-  "visible_after_count": 684,
-  "visible_net_change": 9,
-  "raw_before_count": 981,
-  "raw_after_count": 991,
-  "raw_net_change": 10,
+  "visible_before_count": 684,
+  "visible_after_count": 697,
+  "visible_net_change": 13,
+  "raw_before_count": 991,
+  "raw_after_count": 1012,
+  "raw_net_change": 21,
   "new_candidate_ids": [
-    "2026-10-28-auto-35e73e0c60",
-    "2026-10-28-auto-5087fad629",
-    "2026-10-28-auto-4f75b87966",
-    "2026-10-28-auto-2837dcf600",
-    "2026-10-28-auto-3c9ec24f4f"
+    "2026-10-28-auto-2868109cae",
+    "2026-10-28-auto-e27af46563",
+    "2026-10-28-auto-c610e89588",
+    "2026-10-28-auto-3a0f3eb23b",
+    "2026-10-28-auto-f411267467",
+    "2026-10-28-auto-7ee939c734",
+    "2026-10-28-auto-5860eb2099",
+    "2026-10-28-auto-f48cd47f23",
+    "2026-10-28-auto-33da6c7279",
+    "2026-10-28-auto-782903a999",
+    "2026-10-28-auto-e303320a45",
+    "2026-10-28-auto-dca0f919c8",
+    "2026-10-28-auto-563f00018c"
   ],
   "new_candidates": [
     {
-      "id": "2026-10-28-auto-35e73e0c60",
+      "id": "2026-10-28-auto-2868109cae",
       "member_ids": [
-        "2026-10-28-auto-35e73e0c60"
+        "2026-10-28-auto-2868109cae"
       ],
       "priority": "C",
       "published": "2026-10-28",
-      "company": "岐阜県主催イベント、参加者1135人分",
+      "company": "JETRO「e-Venue",
+      "service": "",
+      "affected_count": 133,
+      "summary": "JETRO「e-Venue」に不正アクセス、最大133件の個人情報漏えいの可能性 9月・10月に侵入、サービス停止",
+      "sources": [
+        {
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTmdlTVAyc1dIcHVUUFJybnhsaTQ3SEhxZnBMNFNNRXl3aVJ3Z1B3N3BQVWxmaHAtUExYOTUwaHBJbWRhOGtkYi1Db2o3ZC1wM2Q3dHhHQ21ROU1JRVpXanhadEhzQk5qUUhWT1AxWWJUTWVuNE9OYVlZUTdnU04yYV9YLU13WFl4OVdweFNJRGt6RzV2QUJsZUpPWGdPMkJGdFY4VXpGdE1IMjZMMERnb3AtVQ?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-28-auto-e27af46563",
+      "member_ids": [
+        "2026-10-28-auto-e27af46563"
+      ],
+      "priority": "B",
+      "published": "2026-10-28",
+      "company": "じげん「ミナオシ」、40,026件",
+      "service": "",
+      "affected_count": 40026,
+      "summary": "じげん「ミナオシ」、40,026件の個人情報漏えいを確認 ブラストメールへの不正アクセスで資料請求・ウェビナー申込情報に影響",
+      "sources": [
+        {
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPV1k0Nm1uQ09YZDAtSHhhMnNLUkd4QndrYzZPSHo2ZHVzQnZNX2x6dTNvTGUzTnQ2S2VxRGtSRmJhMnJHeW5wNWpuQlQ3S1hmbXhtSHNaVnBoT3pyQ0hpUHBVRnpHeE9PVTFuMm1rMFJVLTlyX2k4MDJFcE9ZY3BtN2ptR2JmelltejVDNHkzckhWMXBqMnhGSEpSZHJxWV9K?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-28-auto-c610e89588",
+      "member_ids": [
+        "2026-10-28-auto-c610e89588"
+      ],
+      "priority": "C",
+      "published": "2026-10-28",
+      "company": "UPSIDER「Breakthrough GRID",
+      "service": "",
+      "affected_count": 0,
+      "summary": "UPSIDER「Breakthrough GRID」に不正アクセス、会員情報や議事録が漏えい 法人カード・決済情報は影響なし",
+      "sources": [
+        {
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNM3dpTVRyb1VaaEdTZ0RVQXpXWHF2R3ZCMWRGZ3JsSG9NNWt2WFByV21rejBCS1B6aVlGdHViYUh4ZktRdnVlY29feTVwS0I0eWpHcmhmSnNYSG5MRnZjT3Z2TWJ0SXBzeklGTV9XTWFMSzIwZndLQ25hZ2FsMDczQ3lVVUFoS2Vfd05WRS1CejRUSlhxNjhkZVFxODNSUG9TUTlNQ2Z5Tlg0VmoxYm12NzZGd0RmZ244NmJV?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-28-auto-3a0f3eb23b",
+      "member_ids": [
+        "2026-10-28-auto-3a0f3eb23b"
+      ],
+      "priority": "B",
+      "published": "2026-10-28",
+      "company": "スマートシェア「OWNLY",
+      "service": "",
+      "affected_count": 14034,
+      "summary": "スマートシェア「OWNLY」に不正アクセス、モスバーガーのSNSキャンペーン1万4,034件のが個人情報漏洩-ファイルアップロード機能の不備を悪用|セキュリティニュースのセキュリティ対策Lab",
+      "sources": [
+        {
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQX25NXzhxSUxzZTlJcW5wZ0NHdF9VSDU1R0F5ZzN5ZnBSTDh3OFQtVUxFYzVzVU1ZVWpZblVfalp2ODJ6SWs0Ui1yUnd5d2JGd0ROb3F4RGVEbWxhbDlaWWtwWXNJN1Z2alZBcGxpSmtsY2F3TGNpd0VpV1lYQWRsS095c2lGT0M4SmNHdzlrTWg1bVFFRDRQbUdqNnZWenNMN1E?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-28-auto-f411267467",
+      "member_ids": [
+        "2026-10-28-auto-f411267467"
+      ],
+      "priority": "C",
+      "published": "2026-10-28",
+      "company": "東京消防庁、採用試験の論文と受験者氏名",
+      "service": "",
+      "affected_count": 0,
+      "summary": "東京消防庁、採用試験の論文と受験者氏名が漏えいか...外部委託先で不正アクセス(読売新聞オンライン)",
+      "sources": [
+        {
+          "name": "読売新聞",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5HcGtpVkJ3UWJ5VkNBeU1GSm9yRXd0OHFvSERsN0xoOWhkR3FjTkhDaGNpMEZLR2l2TVpBM1VpQVowcXRQaFl0MnVXV0VHTUJGVnhPMWF6QmFCSUZkNVZWX0FzVVJKWDRsVFo1d01kemJiNDd3d0F5MWppZ2ZUUU0?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-28-auto-7ee939c734",
+      "member_ids": [
+        "2026-10-28-auto-7ee939c734"
+      ],
+      "priority": "C",
+      "published": "2026-10-28",
+      "company": "自治体向け不正アクセス 石川コンピュータ・センター(北國新聞社)",
+      "service": "",
+      "affected_count": 0,
+      "summary": "自治体向け不正アクセス 石川コンピュータ・センター(北國新聞社)",
+      "sources": [
+        {
+          "name": "北國新聞社",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1sVUpvR1kxdEdFQWNaMzRpbjNmemJ6WUhZWENnOFNDdWlCRjVPenNVTFlQNHFkNTFqVzNxZl9nQXQtRk5NOVVxUzBoMzY1cVFpb3RtUVhRRUVpY1dCN19ialA5ODU2UFFBUGNxNl9QbkNtWnd3VFpUV05KWkpYZTg?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-28-auto-5860eb2099",
+      "member_ids": [
+        "2026-10-28-auto-5860eb2099"
+      ],
+      "priority": "B",
+      "published": "2026-10-28",
+      "company": "静岡ガス「Webエネリア」、メールアドレス9万5,412件",
+      "service": "",
+      "affected_count": 95412,
+      "summary": "静岡ガス「Webエネリア」、メールアドレス9万5,412件が漏えい ブラストメールへのサイバー攻撃が波及",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeWxiSGszcjZLSWEtTFE5MmlmUzN0WE9vQmg1SDZ4ZGM3YjZEY19ka2xUbWVsLUVxUnZRcmdQa0xkdmRobWZCS3NNVmhwWlJ3TlFFNmVrLXV0ejROMlV4b2RLdkNaNFlOc2dXT1cyZnZ3THBScWJJYVE3X1ZkYURySUJJN1phc2RHNzBZTkkyQ0VNU3o5NnZQV0V6cm4?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-28-auto-f48cd47f23",
+      "member_ids": [
+        "2026-10-28-auto-f48cd47f23"
+      ],
+      "priority": "B",
+      "published": "2026-10-28",
+      "company": "Lean on Me",
+      "service": "",
+      "affected_count": 82723,
+      "summary": "Lean on Me、82,723人の個人データを第三者が取得 Metabaseへの不正アクセスで要配慮個人情報も判明",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdlVxaGgtTjdNRjY5LXJlVHc1ZF9OVFRDRkM2YkVnYThCT09ycmoydGpnNnB0LVBrOWFiLXdnU05jaDJ3RXhzeVBXaHg2bGRKaWJSd1NreV9Hbk4zR3J4NUY5U1p2dklYbFRLaFlBbGxxMC1DSk43S21ndFBjeElrWGd3OTZaSm1BZm41MEZCblRHXy1xQ19UWS1ITUVqdGg4aDFZMjRIS1JSVW1NeGNidg?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-28-auto-33da6c7279",
+      "member_ids": [
+        "2026-10-28-auto-33da6c7279"
+      ],
+      "priority": "B",
+      "published": "2026-10-28",
+      "company": "岐阜県が実施したスタンプラリーから情報漏洩 応募者のメールアドレスや性別・年齢層",
       "service": "",
       "affected_count": 1135,
-      "summary": "岐阜県主催イベント、参加者1135人分の個人情報漏えい データ管理会社が不正アクセス被害",
+      "summary": "岐阜県が実施したスタンプラリーから情報漏洩 応募者のメールアドレスや性別・年齢層など1135人分 氏名と詳細な住所・電話番号は含まれず 再委託先が使用のデータ分析ツールに不正アクセス | 名古屋・愛知・岐阜・三重のニュース【CBC news】 | CBC web (1ページ)",
+      "sources": [
+        {
+          "name": "1ページ",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE11RVRzcUh1WDVpMDI4ZUMwN3Z1TlVBQndMbndTVkNsQUZGeDRKTVQ2RFBZODBKTkNlZ0FaSkVzQ3d4ZEtHZmpRYTRROWFkeTEtN3hnME9ZWjlrWG5oWHVoYjNqWG5CS0E?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-28-auto-782903a999",
+      "member_ids": [
+        "2026-10-28-auto-782903a999"
+      ],
+      "priority": "C",
+      "published": "2026-10-28",
+      "company": "情報漏えい「知識豊富と示すため」 元旭化成社員を起訴―名古屋地検",
+      "service": "",
+      "affected_count": 0,
+      "summary": "情報漏えい「知識豊富と示すため」 元旭化成社員を起訴―名古屋地検",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB5bDFQQWZNQWFDRWQ0SmdTSFJoME9YaGRXVE5ERURnZ0tRckVrZlZMdGU0RlAtN0lERWxjVmxWbWtENktBb1g2MkZfX0dvY2UxODFkMg?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE44Nl9YUEVsMFZzakJJRUJ2VnkzTTU1SkktVDdoLVhIbnkzbFhTT3k4Z0hKRWtPVzFhSzVKRnJ6QlZwelV3ZDFTaVgxNEpraHBoNmFXdXk5YVd6cnY1U3lRSC1WMA?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-10-28-auto-5087fad629",
+      "id": "2026-10-28-auto-e303320a45",
       "member_ids": [
-        "2026-10-28-auto-5087fad629"
+        "2026-10-28-auto-e303320a45"
       ],
-      "priority": "C",
+      "priority": "B",
       "published": "2026-10-28",
-      "company": "横浜市緊急情報伝達システム 8区",
+      "company": "静岡市で新た",
       "service": "",
-      "affected_count": 0,
-      "summary": "横浜市緊急情報伝達システム 8区で個人情報流出か 委託業者に不正アクセス",
+      "affected_count": 10000,
+      "summary": "静岡市で新たに個人情報1万件超流出か 「ふるさとチョイス」など、業務委託先への不正アクセスの影響で",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1Sb3VYQm1rUVlYclA5UVFqdC01WTVmWWZqeVVOWVdPX0RvOXRMc0I5RnZPNlVNOElWd2JjTDVuQWNjd21fSjdkSzF3S0ZkR3JEbGJPTVhCQjV2MjVvOU1CUFZTdDc?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5pZ1M3RzVlY3FUcTBrc3FMQkctMHNRWC1sX3BjeUNaLVoxMmNVU2Fva2FKLVNRLTNCS05KeXM3ZzF5d0lCY2NSMnFIMElCZw?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-10-28-auto-4f75b87966",
+      "id": "2026-10-28-auto-dca0f919c8",
       "member_ids": [
-        "2026-10-28-auto-4f75b87966"
+        "2026-10-28-auto-dca0f919c8"
       ],
       "priority": "C",
       "published": "2026-10-28",
-      "company": "兵庫県「スタートアップ支援事業",
+      "company": "一番くじONLINE」の配送先情報",
       "service": "",
       "affected_count": 0,
-      "summary": "兵庫県「スタートアップ支援事業」の情報漏えいの恐れ 「ブラストメール」不正アクセスで(神戸新聞NEXT)",
-      "sources": [
-        {
-          "name": "神戸新聞NEXT",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE90ekxjald4WndyckQyN1pMZXVxSTNLUXR0X0dJdEFRVVNvU1c0VWFUenQwRWdoSjdqWUhGOHZjY2lfam9oYUl4d0lVa1FwdHNVS1RESTJvb011NkdFb0Q1dHoyalcwcVh2YXZzUS1IZV9HRDloSHF1YzM5ODQ4UHM?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-28-auto-2837dcf600",
-      "member_ids": [
-        "2026-10-28-auto-2837dcf600"
-      ],
-      "priority": "C",
-      "published": "2026-10-28",
-      "company": "木原官房長官",
-      "service": "",
-      "affected_count": 0,
-      "summary": "木原官房長官、顧客情報公開「卑劣な行為」=情報拡散回避呼び掛け―不正アクセス(時事通信)",
-      "sources": [
-        {
-          "name": "Yahoo!ファイナンス",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVEhvOFdzWllSRlJ6UERsQnZ3M0hvXzJwaHgweTMyMkdUUVFjcVBKTXZJZ05Qc1I5OFVaejFWdjVLMmdDQ1BrWjB4cjZTdDh5c3Q0eld0SGJtdWtITDFzWnhZa3dVLU42OTJBYUVVbE1GXzRwNnM5Sk1HamtTeE9JVVhOMjBXTlU?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-28-auto-3c9ec24f4f",
-      "member_ids": [
-        "2026-10-28-auto-3c9ec24f4f"
-      ],
-      "priority": "C",
-      "published": "2026-10-28",
-      "company": "当社サービス「OWNLY」へ",
-      "service": "",
-      "affected_count": 0,
-      "summary": "当社サービス「OWNLY」への不正アクセスに伴うお客様情報漏洩に関するお詫びとお知らせ",
+      "summary": "「一番くじONLINE」の配送先情報が流出か 物流システムに不正アクセス、出荷にも影響",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA0dENYQTljWHJhUXAwR2U2SnQtcmlIbHBHZ29jOUp2RVpDMGtLd0piUmdDQ3B2UDBqR2VmQnZiVFczWlU5UTF0RVI3RjF5VENfY19KWngtcFdFVEtJT0o0WHpFUVhLdFF2X0Vn?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9RQ09PQzJTeElCQTE4ZTlkMG8zcXBYZ1RYUmtDRVhZLUFfX0xteUNUU3RxMjAtTDN2a2Zid0phNEZTdGZ0X0J0VWVlNHltVEJVODd1U2tLZ1V2UmVBeEtJajVB?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-28-auto-563f00018c",
+      "member_ids": [
+        "2026-10-28-auto-563f00018c"
+      ],
+      "priority": "C",
+      "published": "2026-10-28",
+      "company": "Keystone、Shopify上の公式ストア侵害",
+      "service": "",
+      "affected_count": 0,
+      "summary": "Keystone、Shopify上の公式ストア侵害で顧客情報の漏えい 端末の秘密鍵や決済情報は対象外",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONkRya1dlbFpTLWptM2FzaS10YW1MN2pCN0g2MDVjLTNzMEllREVlb09LeGc4SlY5M3ZzaVpKWTB1VFlZN2czT3dPZTE5V0o1QlRtR1h2OGEtR2t3YnBzUllDbVlxZHZJOUNlSjRiZlFZcm5NZ3JCOEZocGM4MzlqNXdTZWRKbUZORjJRSHN3MGUxZndUSkkyNnMweXRXSjVncUM4VUY4WHJNQjBfR2lWX1dQZ1RmQmRsd25hR1ln?oc=5",
           "official": false
         }
       ]
