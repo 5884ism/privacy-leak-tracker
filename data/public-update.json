@@ -1,56 +1,9 @@
 {
   "version": "1.4",
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "day_start_count": 39,
   "added": [],
   "changed": [
-    {
-      "id": "2026-10-19-auto-159f8c0dbd",
-      "company": "岩井コスモ証券、4611人",
-      "service": "",
-      "published": "2026-10-19",
-      "affected_count": 4611,
-      "cause": "報道自動検知",
-      "summary": "岩井コスモ証券、4611人の顧客情報漏えい 委託先に不正アクセス (アスキー)",
-      "exposed_data": "要確認",
-      "reviewed_at": "2026-10-20 08:13 JST",
-      "from_status": "confirmed",
-      "to_status": "confirmed",
-      "from_label": "漏えい確認",
-      "to_label": "漏えい確認",
-      "change_type": "content",
-      "changed_fields": [
-        "sources"
-      ],
-      "changed_labels": [
-        "情報源"
-      ],
-      "resolution_date": "",
-      "resolution_note": "",
-      "resolution_url": "",
-      "sources": [
-        {
-          "name": "公式発表",
-          "url": "https://www.iwaicosmo.co.jp/news/2026/10161410.html",
-          "official": true
-        },
-        {
-          "name": "公式発表",
-          "url": "https://www.busitec.co.jp/news/info",
-          "official": true
-        },
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5uR2VlTURhMFNlMm5qc3pGeXg3U3Q5YmU1T1pJZTdvY1dYcmlNNHpRLWNpal94ckxzZTByOFN5SlRLOHJGWVJ1LVF2cjQ4TWhsdEFTbDBWNjVhdnc2UHgzWVBnemV4bmZsTWljeGxkZ2tuZmpNQzVIbnduREhOdEk?oc=5",
-          "official": false
-        },
-        {
-          "name": "ASCII.jp",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4ybS0tbnlpaFBiT2o5V1pYSEtsMzBGZkE1OElkX082LUROeS1CcWVnQWRvczh0NVlscTdDUGxwWFJzclFOakN3WGVhOFN3OVlBMHFPdQ?oc=5",
-          "official": false
-        }
-      ]
-    },
     {
       "id": "2026-10-19-auto-03c10fec21",
       "company": "株式会社リクルート",
@@ -87,13 +40,50 @@
           "official": false
         },
         {
-          "name": "Googleニュース",
+          "name": "Car Watch",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5yR0xYUjRZUnFSY3ZreXVzNExFeGNzUE5hNFlfaVFUTEFtSUU3cXRMVjYwTVFGQmYzYTA1QnlOa09wYnZIRDBxZnhsTUhMdnpLQW1zUWEzXzNfUDR1bE5Cd3pDeUQ?oc=5",
           "official": false
         },
         {
-          "name": "ITmedia",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBJc0wwdW0xdUIyREV3U2lwV1R6QmEtRUppQm8wZndKNjJvMXFFNVN3M1B0WTIycXhKVVJjYktHdlRGcFpLRERidlFXY0tkOXRoa1ZxcXpVNkRwQkpuUTltR0EyX3FTZU5yUkE?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-auto-b0475a2ed8",
+      "company": "デジタル庁",
+      "service": "お問合せフォーム",
+      "published": "2026-10-23",
+      "affected_count": 13000,
+      "cause": "報道自動検知",
+      "summary": "デジタル庁、公式サイトへの問い合わせ最大1万3000件漏えいか Web制作ツール「Studio」不正アクセスで",
+      "exposed_data": "デジタル庁のホームページの以下のお問合せフォームに入力いただいた内容",
+      "reviewed_at": "2026-10-25 07:11 JST",
+      "from_status": "confirmed",
+      "to_status": "confirmed",
+      "from_label": "漏えい確認",
+      "to_label": "漏えい確認",
+      "change_type": "content",
+      "changed_fields": [
+        "sources"
+      ],
+      "changed_labels": [
+        "情報源"
+      ],
+      "resolution_date": "",
+      "resolution_note": "",
+      "resolution_url": "",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8tQVhpeWxrOTlqNXVPRUc2dUNUbzZlVE4teHcydHRneUZYLWhsZXNUY25HRE1ISUZGQ2hXdTMzU1g4UWc5b0N3U09YeTFlSVN2UWV5YW9oZDNJeVNzcmhYeUtPZmtyZ3pDMmxj?oc=5",
+          "official": false
+        },
+        {
+          "name": "公式",
+          "url": "https://www.digital.go.jp/press/a0a8f66c-b32d-4695-9372-bcd5d4280f22",
           "official": false
         }
       ]
@@ -134,7 +124,7 @@
           "official": false
         },
         {
-          "name": "ITmedia",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE42UXI5V08wUXFlZGRmYzZpNVFSUjlsVWwxdnZld2toTk94T1FEQzJNZXg0QXd5LVV0YzBVWU5DUUd6eFJCZmVJVldtN01PbS1MU0FNWkMyZ3V1SlNoNDVPUHNPU3ZUeEM4clE?oc=5",
           "official": false
         },
@@ -142,35 +132,58 @@
           "name": "朝日新聞",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBDcElGc0hWbG1Kb2wtZ1N2SEJVcENPTkVYU3h6WXdJUmxfUmk1Z0VyaF9BTHNIcHFPazA0c3BqUVhxelZiMXZkQVg2YlpKUmtHeHVwc2pxQ3pJcU04TENjZGN6YzM5YVU?oc=5",
           "official": false
-        },
+        }
+      ]
+    },
+    {
+      "id": "2026-10-20-auto-00c8bd2611",
+      "company": "株式会社トラストバンク",
+      "service": "ふるさとチョイス",
+      "published": "2026-10-20",
+      "affected_count": 4454097,
+      "cause": "報道自動検知",
+      "summary": "不正アクセスによる寄付者様情報の外部流出に関するお詫びとお知らせ",
+      "exposed_data": "氏名、メールアドレス、住所、電話番号、ハッシュ化されたパスワード、寄附控除試算額",
+      "reviewed_at": "2026-10-20 19:23 JST",
+      "from_status": "confirmed",
+      "to_status": "confirmed",
+      "from_label": "漏えい確認",
+      "to_label": "漏えい確認",
+      "change_type": "content",
+      "changed_fields": [
+        "sources"
+      ],
+      "changed_labels": [
+        "情報源"
+      ],
+      "resolution_date": "",
+      "resolution_note": "",
+      "resolution_url": "",
+      "sources": [
         {
-          "name": "INTERNET Watch",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBlWG16bjRmRXphLXVBVEgyRVJ1VWUxVnNiVjNaWXlVeXZZWjNTM1o5UFJHcXBoTGcxeTliYkFOcnMyQ1dJQmZaWEc1SlRZSTlJc3ZHMnZaUkhsRlI1WENPVXdVdzJoWkVFSTFJ?oc=5",
-          "official": false
-        },
-        {
-          "name": "ビジネス+IT",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9lQ2JCX3pTSlBMNm1pRlN1Y2l4WFpFZmVLLXdsMmMxSThCTzRKM2ZmYW1XY0xKa2JWQnZFWHk2MEZtd2dadGJscE0zWUtEMTNOM05v?oc=5",
-          "official": false
+          "name": "公式発表",
+          "url": "https://www.trustbank.co.jp/newsroom/newsrelease/news261020/",
+          "official": true
         },
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPOXBnVi1CV1I3bnhPODZkaEZjOWNMWmRCNFN6RktOcGtIUTJlanpHVGpxWkt2Wk9SX25EUFRHMUZ1MjNLX1IxeVFYZGJoenhYaS1lUm52TlBkVUdXNEN3S2JfV3U0VHduWmVGbTJjNFQ5R1g1ampuX05IbUhYenRSbVotdVVpRUowUkJodTJn?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE05WFc0SnFsNUZDZXkwRGlYeHpmODZtM0tKWFZfRHpoc2s2NnJmUl9MYWlMTkduZHFYOG5kS0JkNjF2THpFRkdtendDQkM1NVJyS1NYVU9zWDgxdnhMLUN4bmRtM0lpMXdwSW1pTw?oc=5",
           "official": false
         }
       ]
     }
   ],
-  "generated_at": "2026-10-25T23:15:01+00:00",
-  "last_checked_at": "2026-10-25T23:15:01+00:00",
+  "generated_at": "2026-10-27T00:25:28+00:00",
+  "last_checked_at": "2026-10-27T00:25:28+00:00",
   "after_count": 39,
   "net_change": 0,
   "added_count": 0,
-  "changed_count": 3,
+  "changed_count": 4,
   "added_ids": [],
   "changed_ids": [
-    "2026-10-19-auto-159f8c0dbd",
     "2026-10-19-auto-03c10fec21",
-    "2026-10-23-auto-216b281bc9"
+    "2026-10-23-auto-b0475a2ed8",
+    "2026-10-23-auto-216b281bc9",
+    "2026-10-20-auto-00c8bd2611"
   ]
 }
