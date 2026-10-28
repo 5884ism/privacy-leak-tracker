@@ -1,564 +1,136 @@
 {
   "version": "1.1",
-  "generated_at": "2026-10-28T16:42:56+00:00",
-  "before_count": 769,
-  "after_count": 799,
-  "net_change": 30,
-  "new_count": 24,
+  "generated_at": "2026-10-28T21:43:05+00:00",
+  "before_count": 799,
+  "after_count": 806,
+  "net_change": 7,
+  "new_count": 6,
   "removed_count": 0,
-  "visible_before_count": 769,
-  "visible_after_count": 799,
-  "visible_net_change": 30,
-  "raw_before_count": 1090,
-  "raw_after_count": 1135,
-  "raw_net_change": 45,
+  "visible_before_count": 799,
+  "visible_after_count": 806,
+  "visible_net_change": 7,
+  "raw_before_count": 1135,
+  "raw_after_count": 1147,
+  "raw_net_change": 12,
   "new_candidate_ids": [
-    "2026-10-29-auto-04a5b39b7c",
-    "2026-10-29-auto-316caa418c",
-    "2026-10-29-auto-7ddf4924a0",
-    "2026-10-29-auto-bed21e3300",
-    "2026-10-29-auto-dcb6c90513",
-    "2026-10-29-auto-75f36df105",
-    "2026-10-29-auto-e86ab06caa",
-    "2026-10-29-auto-61e4e7a340",
-    "2026-10-29-auto-f9ba02f57c",
-    "2026-10-29-auto-0768335a28",
-    "2026-10-29-auto-4552116feb",
-    "2026-10-29-auto-85442c26d4",
-    "2026-10-29-auto-0835e7ae3a",
-    "2026-10-29-auto-19d7f4e4e1",
-    "2026-10-29-auto-e4e59a2b9f",
-    "2026-10-29-auto-48a18c3225",
-    "2026-10-29-auto-ff9911d45b",
-    "2026-10-29-auto-f8ecd24336",
-    "2026-10-29-auto-5cd26dff58",
-    "2026-10-29-auto-a948ffba9e",
-    "2026-10-29-auto-004f39d9c6",
-    "2026-10-29-auto-0066edb5c1",
-    "2026-10-29-auto-4eac862d2d",
-    "2026-10-29-auto-19800e9e1b"
+    "2026-10-29-auto-08c4f602ab",
+    "2026-10-29-auto-09d6952f9b",
+    "2026-10-29-auto-fa88fe479d",
+    "2026-10-29-auto-9d893d7985",
+    "2026-10-29-auto-cd6ef007ce",
+    "2026-10-29-auto-c0602d8211"
   ],
   "new_candidates": [
     {
-      "id": "2026-10-29-auto-04a5b39b7c",
+      "id": "2026-10-29-auto-08c4f602ab",
       "member_ids": [
-        "2026-10-29-auto-04a5b39b7c",
-        "2026-10-29-auto-1e10ba4186"
-      ],
-      "priority": "A",
-      "published": "2026-10-29",
-      "company": "ソニー生命 顧客",
-      "service": "",
-      "affected_count": 385000,
-      "summary": "ソニー生命の顧客向けサイトに不正アクセス、契約情報約38万件が漏えい (2026年10月28日掲載)",
-      "sources": [
-        {
-          "name": "Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9kNTlZZ2pwVG96MWlLQktzMDhlcEF0NFhfY0gwS2diZkZZNVlHMFVyYmR1Q3ZVQUduMHZkOHFZWlZBdUJPazgyUlRTcjJ4cnk0WGhXSUFYSGNaSXg3UFZqanFSQjlxTFJwTVZGcFVVUS1HZXhBbjIwT0ZndWZzMm8?oc=5",
-          "official": false
-        },
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBYMEFYNGxPX09OQXJRdWVNX0VsSUp4M0w4bGJSbWx0ZmRMdElIaDhhTUpsaHhPSXU3dGEzb1ZVdXBmRjI4b1VpMEItbmZBNlh3RlRybi13WQ?oc=5",
-          "official": false
-        },
-        {
-          "name": "NHKニュース",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5yalNEVG9yS1pKMjJmTFFNczJneHlZZW5OY002ZVFnOTNqTy11TGF3QWlyRWMxcVhTX3BFS3l2Y3dJUWZoWWlkZ29UUFN2MjFpOWdPVXB3cnNoQ2ZLS3Uw?oc=5",
-          "official": false
-        },
-        {
-          "name": "沖縄タイムス社",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9HWUVNWUFCbHR4RXlmT1Z2QmJmUDk2S3d6TVZKTnhpOEg2STBJd1pGMmxYckc3RXFmOGdOLWZPMWwzalV2d2VYMDkzS3lDZno1ek0tOHVNVEg1bVVuTXc?oc=5",
-          "official": false
-        },
-        {
-          "name": "下野新聞社",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ieXVoRmdzQ2NKZ3hodXJyLW5LRUY1anpRTDBIVmtmV1NDSkpTSWpabF9ydjZVWEROV1paRllhZEsyS0IzWEpiekFGS0RGaWpoYVp0dkMweGNNdFk?oc=5",
-          "official": false
-        },
-        {
-          "name": "北海道新聞デジタル",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9TRnFHUlUzdTJUTEYwbXBEUEtmY3B3OUFrUkotVW8zN1EtNjkwZ3hIeW1MTDh4SUpQQTR0RUxaUEd2dkJDSlpSQ1JoWGR2SEhBZTN5Q2VQcmhjMFpYbFQ5RVluN0k?oc=5",
-          "official": false
-        },
-        {
-          "name": "www.nnn.co.jp",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBwSXlHUDk4VUMzSkM4c25mOXRzYjVrRnBVS0otR0ZjLUpXMXpld2hlcFlQTk0xdDdYdHdrSGgyT3FSV25IdHFlOU9va0lTWmJQ?oc=5",
-          "official": false
-        },
-        {
-          "name": "Infoseek",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Uc0pHcjBLS1o4aG5LNFlKekxCajZyUHdPMGQxR2diRDUzRGt1bTBReTZObTRZOEhfZUhnRklEVlpQSWFPLWFtMmhZcVJadVhySHA1QlowN0o1R3RvYnlFZHBYMTk1LXdVQ1JfRTNPWdIBdEFVX3lxTE5ZYm9MTXAyOGdUTEZpWUpqQ0Zfb0QtUnpPeXFuMTJOMndrbjdFQjhZUzFiYzAzamZhZWw2b0FTQVo2T1NVdGZ3SVJqbnp3UXBoU0JwSlhqNWxZVVVUZmlBT1lnU1NEOE9mRU5fVzFzdGdXSTZl?oc=5",
-          "official": false
-        },
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5JOUFaMG5TVWJEenJYSlRzVXcxM3NDanZSWjZpSFRsTXNWekc0QVpBRjEtY1pjQWt2WmdXSmV4dkVWSDNxeWd5WjNuMi1CYklwdkEwYzVncXVnTUFISkNjd25tRDBiWmFYOHNUQw?oc=5",
-          "official": false
-        },
-        {
-          "name": "ｄメニューニュース",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQV2xQTTg5U1FxSm9Cb016SXdWWldLSHFaanl1LU4xa0hmWkVhTVdtSzVnbS1QanRxTU93cTRMSFZUQ1puQmFLU2F2b1BzaDNkdFhjbGtKbjlKMDB3VTl3ZnJzTEwxVHFNXzhzRkJyVHJIZzNicE5KZGFjZE54Y2ZQYXRvLUxmWWPSAYwBQVVfeXFMT1hVVEEwcHNWWHdQTXdMZ3NBUEx0eWRMUnB4ZEppbDJXc3diSFFJdHRKSHRyVXJmZ0dvRG9PWGV1eVdodHBSN0JMeHd6M2tERmZtZzNrSkkxRjgtVkdDX2dtQ3haeXNDZ0hIeDRiVHZRRVdOWDh1MWk0bG9ITVBpb3ExWkZmamE2UWZKX2I?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-29-auto-316caa418c",
-      "member_ids": [
-        "2026-10-29-auto-316caa418c"
-      ],
-      "priority": "B",
-      "published": "2026-10-29",
-      "company": "日本航空 予約システム",
-      "service": "",
-      "affected_count": 90000,
-      "summary": "日本航空 予約システムに不正アクセス 9万人超の情報漏えいか",
-      "sources": [
-        {
-          "name": "NHKニュース",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA0YWFpbWk4X2c4RmhyOE1nM1N2Y2VTUUlpT2k1Q040YVp4bmFXN3dLcEdndEJ1WmZoZkJ1dUlNVXRiVEFFano5elVyc1cxSjNDem8xN3lfU3ZQSk54ajJR?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-29-auto-7ddf4924a0",
-      "member_ids": [
-        "2026-10-29-auto-d9db5ad24c",
-        "2026-10-29-auto-7ddf4924a0"
-      ],
-      "priority": "A",
-      "published": "2026-10-29",
-      "company": "花キューピット",
-      "service": "",
-      "affected_count": 4240000,
-      "summary": "「花キューピット」に不正アクセス、会員の個人情報が最大423万件流出...クレジットカードは含まれず (読売新聞オンライン)",
-      "sources": [
-        {
-          "name": "読売新聞",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE04NnlQaFhZWDFHTi1oRno3SVR1UllmdDUwd2J6dzFWSE84dWdraDA0YW9RT0VaX3pzb0ljUnZSTVFvMnFoNFhrejRnY1lVV1hJaTg2WXAzVjYtdGVfMVc1QzdNYjc?oc=5",
-          "official": false
-        },
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWFBvcEdablJoVE92ZU5LdmFXNVdfRmxrZ2t3T2duc1JJbGRJWXhBRUtBYzVtUGdSbUl2eks2RDZYN29UeW52R0J5RTdwbDdfYzV5NC16ZTlFM3drb2NMNlptQzBxT3BndC1uQzY4cERlQUVuZGUwb1J6aGRXblhFWXJBRVBpNEE?oc=5",
-          "official": false
-        },
-        {
-          "name": "ｄメニューニュース",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQejhMSGVlT0dKY2E3Y0Fjc21TelpBQTFma3AzWEVuNFc0TmlQZVJBUG82cXZNNV9hTi1XUGhxUklleFMzVjB0ZmtHVnJwaER5MkZqNDFaUG4zUW5USTF6S3k3c3FTMXQ1VElnTjV5YU9UUDkzdFVraFdLNUZjRkpkb1oyaHRFZ2g1X01LV0x30gGTAUFVX3lxTFBubXlLM05tX1dpYVFsR2FpdTZaZUhKY3djd1FKZmF1VTVQdnljRkt5NkF2SWFId3F3cFg5Z1hvUkpEeWRqd3BkcWlVVmRPSTZqVWFCUUo1WTFYdXNUMDdGSFNWZF9xSmdCSm9rY3hJWEs5NnJhZXJlSk1CeWxDTG4wWWNJaVVvTERDVHhEaDg3TFpXbw?oc=5",
-          "official": false
-        },
-        {
-          "name": "Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE41Uy1Qc2xGRDFnUnVibHN2RGRNdmRLbFRZS0s3d18xMUh2MjZMQTdocjl0RVF2YzB1ZDdmUWdUUHV5bTJ1UHBISXhKY01wOFdpOEFka2NFV0U5aFdrZjhFcEZGSmNycWFvS0d5YXZ6TEdNN2pqQm1rNzhuY1phS2s?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-29-auto-bed21e3300",
-      "member_ids": [
-        "2026-10-29-auto-bed21e3300"
-      ],
-      "priority": "B",
-      "published": "2026-10-29",
-      "company": "スカイチケット、新た",
-      "service": "",
-      "affected_count": 30000,
-      "summary": "スカイチケット、新たに顧客情報流出 口座番号など3万件超",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE12SGpzNEp3dnpzNTZjbkNxbDVKdGh5WGNYbWducXZLLXdnaU9XYkhlTGk5VldsOEFvZGctOGVjMEJzZUt4Y3hKSFVOc2RPaDNMYzRJaUlpc1N5OWk0cVdrLWtSMFgtX0U?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-29-auto-dcb6c90513",
-      "member_ids": [
-        "2026-10-29-auto-dcb6c90513"
-      ],
-      "priority": "A",
-      "published": "2026-10-29",
-      "company": "JAL 9万2000人",
-      "service": "",
-      "affected_count": 92000,
-      "summary": "JAL 9万2000人の個人情報流出 ANAも不正アクセス報告 「TBSショッピング」に不正アクセス 最大5万人分の情報流出",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBoWmNKUXhnXzhoTmxVTE1VNW9LYVNVMmRhUWRUTnFyQzlUNUEtaVZES3ZxMFNrNWJtSkk3b19vSGdiZXpqeGw1T1VFRURXMDk5bV81Y1FXSWE1a0lnV3ZyR2dVOC16RXdheS01YW5XSkV0Y2pscm13aDI5QkhCSU0?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-29-auto-75f36df105",
-      "member_ids": [
-        "2026-10-29-auto-75f36df105"
-      ],
-      "priority": "A",
-      "published": "2026-10-29",
-      "company": "日本航空、約9万2000人分",
-      "service": "",
-      "affected_count": 92000,
-      "summary": "日本航空、約9万2000人分の個人情報漏えいか 旅客システム委託先に不正アクセス(日テレNEWS NNN)",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5iY2M3WXduTWwtN094RWNFbE5Fc0Zfb1N6dk5OT2tOVFMxeWJlcHVnY0lWYU82ZExoQVd5VDdCOXl2c3NaVDJkVTJ6NEpFWTlJWWY2d2FMZ0xXWTRnNVU0YkhHLTlZVi1mazFpZFhfNTZTbUFDcFlrUjY0akRxZkE?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-29-auto-e86ab06caa",
-      "member_ids": [
-        "2026-10-29-auto-e86ab06caa"
-      ],
-      "priority": "B",
-      "published": "2026-10-29",
-      "company": "JAL パスポート番号や国籍も漏洩か",
-      "service": "",
-      "affected_count": 92000,
-      "summary": "JAL パスポート番号や国籍も漏洩か 不正アクセスで約9万2000人分の情報(テレビ朝日系(ANN))",
-      "sources": [
-        {
-          "name": "テレビ朝日",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9FekJKV3ZCN3FTLWF2QW5GY3VtR3ZSaUZjcGRuWGMyU1FNM1dTb3FOV1JacldDRnNJcTluMmRmbTdWOXRYaFdGZ01qUUpyQl85cGNHOXI5WElJdjI5ZW5vNWEzcmlHZ05SVHhpYWd2S0NaTm5NVjFrM1J1Y21KSlU?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-29-auto-61e4e7a340",
-      "member_ids": [
-        "2026-10-29-auto-61e4e7a340"
+        "2026-10-29-auto-08c4f602ab"
       ],
       "priority": "C",
       "published": "2026-10-29",
-      "company": "横浜市緊急情報伝達システム 中・西区",
+      "company": "サブウェイ 公式 モバイルオーダーAPIへ不正アクセス",
       "service": "",
       "affected_count": 0,
-      "summary": "横浜市緊急情報伝達システム 中・西区で個人情報流出か 委託業者に不正アクセス",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9NX3NHa05vdUVZbFZUaE03NXlud1RGNlgzc29Yd2VvWVN2RVJKRU40bzFrLTRGRlFaZVBxMlp4YVVrcmo2ekFPdDdVRHEzdEdla2dZaDRUMWQxa25HU1VET04tb0Y?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-29-auto-f9ba02f57c",
-      "member_ids": [
-        "2026-10-29-auto-f9ba02f57c",
-        "2026-10-29-auto-e2acb43018"
-      ],
-      "priority": "C",
-      "published": "2026-10-29",
-      "company": "さとふる」メール配信サービスへ",
-      "service": "",
-      "affected_count": 0,
-      "summary": "「さとふる」メール配信サービスへの不正アクセスによる情報漏えい",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9YWUpoR3pxRXptX2l5VFRIcExxOWptWHktbVFJYUM1MDE1cHFkQmVCY2piZi1VYlU4THkwNTRoTE94SFdUeDRYMFlaWlI5bnhBMld4RVNJSXRXV2R3ZFdaYWljT3lLemctcVNjeFEzWkl2ZGZXTEVabnBVOA?oc=5",
-          "official": false
-        },
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5pMjlsbHMwZGhIVlRnaG0xOXczRVVIVjZvb1lqMEVEdnF1TVNsemJCQzgxVlctcEJaZkxNdGRHS1R0YXBiS2w0SG1MV0pTek8yUXQwWGhfS0s2UXRXdGc?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-29-auto-0768335a28",
-      "member_ids": [
-        "2026-10-29-auto-0768335a28"
-      ],
-      "priority": "B",
-      "published": "2026-10-29",
-      "company": "TBS、ECサイト",
-      "service": "",
-      "affected_count": 50000,
-      "summary": "TBS、ECサイトの会員情報5万件流出 委託先に不正アクセス",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5tMXd0dEwzR1NvZGU3clZjaURlZnpKX0hiTE55Rm14RDlYRFl3REl2YUg4OW5DVlFlZjlsbU1ORUMwVG1VdjVFSFByWVA3QUlSRTU4ZFpEWFgwbGRrRElVT0hZeFNIYm02Nk1OZw?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-29-auto-4552116feb",
-      "member_ids": [
-        "2026-10-29-auto-4552116feb"
-      ],
-      "priority": "C",
-      "published": "2026-10-29",
-      "company": "オンライン診療のマイシン",
-      "service": "",
-      "affected_count": 0,
-      "summary": "オンライン診療のマイシンに不正アクセス、患者73人分の情報漏洩か",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5Jem4yVmZabVBuTjA5eGg1MV9iYUdOVDJXWU9aSVJxOFNXeTBGYUlNQ1JrREdka29kUVM5V2VGZ29WWnYyRUExaVkyX2I3NXVxWUpyREdNRENZTWNjZTV2UnRMT1ZWRl9yVEpCNw?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-29-auto-85442c26d4",
-      "member_ids": [
-        "2026-10-29-auto-85442c26d4"
-      ],
-      "priority": "C",
-      "published": "2026-10-29",
-      "company": "DIRECT GAMES(ダイレクトゲームズ)",
-      "service": "",
-      "affected_count": 0,
-      "summary": "DIRECT GAMES(ダイレクトゲームズ)に不正アクセス、会員情報が漏えい 暗号化パスワード・注文履歴も流出、全会員に再設定を案内|セキュリティニュースのセキュリティ対策Lab",
+      "summary": "サブウェイ 公式 モバイルオーダーAPIへ不正アクセス、個人情報漏えいのおそれ-DIRIGIOのサービスで複数ブランドに影響",
       "sources": [
         {
           "name": "合同会社ロケットボーイズ",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNOFZzZWY0SVplenVTQ0JHNG5HQ3hEQndlTnREWjJybjFyNHVqMERMck1JdXI3a19PclI4bUNvWllQTDVPN0JZT0wzYjZtemVwLVNRVXZvUW9FWGRJVlMwMzlSb3lvejVYZ0NkcnV1aks1YWMwZjdDT25GYVlqbWJma0lRSDNBQQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVmdNaGV0aTU3V05jazlCNUdLUi0yd3NZZDdnMEVkLUZSNEd0ZTRzRmU5RDBOenhvQnFkS19oN05MRjdsM2taT0hpV3RuVENzb1VLZXpxTlY3amJMYzRtYmNvUE5pWDNoa3Z0aGFDaUFIUng5Q2V3TVFMQmdZTzNmaUdwNndRdktobEJYbVJraEdGNDNEeGM2cURqQ0otYUp4aVdySw?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-10-29-auto-0835e7ae3a",
+      "id": "2026-10-29-auto-09d6952f9b",
       "member_ids": [
-        "2026-10-29-auto-0835e7ae3a"
-      ],
-      "priority": "A",
-      "published": "2026-10-29",
-      "company": "スカイチケット」銀行口座を含む個人情報3万2341件が新た",
-      "service": "",
-      "affected_count": 32341,
-      "summary": "「スカイチケット」銀行口座を含む個人情報3万2341件が新たに流出(TBS NEWS DIG Powered by JNN)",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB1ajNqQkZLR2I3Wk9wS2NYNFIzTmw3YlJ5SFQ5NXdWRTVDWG90X3RUR3N0MmxtenJycjB1TEpjM0JfRlU2bzBMSjdlQTE5U0dsMUdSM3FpV2J4ZFNVM1Itc1V4UnQ2NlRqb3V5NEQycF9kUEhlVlhsbW50VDVmTkU?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-29-auto-19d7f4e4e1",
-      "member_ids": [
-        "2026-10-29-auto-19d7f4e4e1"
+        "2026-10-29-auto-09d6952f9b"
       ],
       "priority": "C",
       "published": "2026-10-29",
-      "company": "電力・ガス業者が販売状況を報告する国のサイト",
+      "company": "ジェネリック製薬とSTORiiY、配送委託先の倉庫管理システム",
       "service": "",
       "affected_count": 0,
-      "summary": "電力・ガス業者が販売状況を報告する国のサイトに不正アクセス",
+      "summary": "ジェネリック製薬とSTORiiY、配送委託先の倉庫管理システムに不正アクセス 購入履歴・後払い請求情報など漏えいのおそれ",
       "sources": [
         {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5WdU50OHYtWnQ1ejh4SmRVdUlCQ3YySnJlYnhMa1VETEdXWVlHSWdJWW81MzAyc01VR3F1bVA0cmlkX1JXMVd3RTBSNnQxM29HODlBdFphMTdnTEJzM1pR?oc=5",
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdlV3SnA0LWlJT0NVei01dnpnZndfQjJUYkk3ZGxuU0dQbFhJRlJfck9uUHNpbUYwYTQxZGZLN0pobk5FZnNRcFBULXM2c2dfVm5yN0NHSDdfTHhQMVplZnhUeEg5RkN2Wl9JRWRnSTgzUmxuNm5pUUZBUndYOXBjWF9lNWFjdHRzM1FvYzNLTzhNSV84SllwZVFDcUt4cE5FaGxDcnV1QWJDbkhSS3VOQ2JVU2c?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-10-29-auto-e4e59a2b9f",
+      "id": "2026-10-29-auto-fa88fe479d",
       "member_ids": [
-        "2026-10-29-auto-e4e59a2b9f"
+        "2026-10-29-auto-fa88fe479d"
       ],
       "priority": "C",
       "published": "2026-10-29",
-      "company": "経産省のサイト",
+      "company": "漏えい情報 大規模化...サイバー攻撃 現状と備え",
       "service": "",
       "affected_count": 0,
-      "summary": "経産省のサイトに不正アクセス 運営停止し原因究明",
+      "summary": "漏えい情報 大規模化...サイバー攻撃 現状と備え",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA0OWdyVmlpVWxNcTVrREpDa21qM01hM0RCcUtkRFVwXzRLd2hyQWFpeEpocXlISG50azQyamNvZGgtd0FSYWdRRlF1TE55YTZPQWh4bG53MW9mRlR4TDd5U3BGWHliUEo2MUhZeg?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5mbnVWSWVBaTdzV3k0TW51WnNZS3V1VlJpV3VWejZGeFBieXNSZmNCWkNDYWFqRUpoZHpndkYtUE1Rck5xWW1rdzBnejZVTm1wY0tBYUNQejZ6d3FDYkdWX2hpcXowZw?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-10-29-auto-48a18c3225",
+      "id": "2026-10-29-auto-9d893d7985",
       "member_ids": [
-        "2026-10-29-auto-48a18c3225"
+        "2026-10-29-auto-9d893d7985"
+      ],
+      "priority": "C",
+      "published": "2026-10-29",
+      "company": "経産省「デントリネット",
+      "service": "",
+      "affected_count": 0,
+      "summary": "経産省「デントリネット」に不正アクセス、電力・ガス事業者の報告情報流出のおそれ 定期報告サイト停止、メール提出に切り替え",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZ0ZLTnN2Rm03YkhaNWNaVS11RjhkSVhtWTVxcEt2THN0Rlg4d1ltbWl5Ni1UQjE3dnNCcm1XSGh2Q21UREZWUGhwR3Q2MGdOWktMOUUzNGtoRVpXdTBaQTJGcXFIRjA3aGNLd2wtMnFEWEo2dmFuanVsb2E3TTBPLUg4TlVBcjdONnpaR1pTWThUWjllUFNNdUFlcUtoZWRXOFhCSzBlOWw5ZkxvQ3A5RE1BTU1xUUtVVUE?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-29-auto-cd6ef007ce",
+      "member_ids": [
+        "2026-10-29-auto-cd6ef007ce"
       ],
       "priority": "B",
       "published": "2026-10-29",
-      "company": "旅行予約「スカイチケット」、銀行の口座番号など3万件超の情報",
+      "company": "資さんうどん、従業員・退職者約2万人",
+      "service": "",
+      "affected_count": 20000,
+      "summary": "資さんうどん、従業員・退職者約2万人の個人情報漏えいのおそれ 賃金履歴や退職理由、委託先の設定不備で外部閲覧の可能性|セキュリティニュースのセキュリティ対策Lab",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPTnpBdDZmZ0RMeDF5NEhYd05RMnVyQkdFVUozMEFETmdaWldvRGstUElPT2lHR05UZThCWkZqV1BCYlRPOXMtZ3g3T1g1RnMyeEhqc3M0ck5PLUt1QzBrcjZPb0xaUDZXYjI1VzNDR2JmTWQzRGxfWnFJQmxwSVhpX0ZGZ0ZNU3V4eTZPZk5WZ3gxSUZsWHhHRnBEMG1jQloxZmhrNHNNS0ZFanpqdFE?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-29-auto-c0602d8211",
+      "member_ids": [
+        "2026-10-29-auto-c0602d8211"
+      ],
+      "priority": "B",
+      "published": "2026-10-29",
+      "company": "銀行口座など",
       "service": "",
       "affected_count": 30000,
-      "summary": "旅行予約「スカイチケット」、銀行の口座番号など3万件超の情報が流出",
+      "summary": "銀行口座などの情報流出 「スカイチケット」3万件超(FNNプライムオンライン)",
       "sources": [
         {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1KOVY4WTFOcHZVYllPR3lKZE96YklzaUZJTXc1WVcyZ0tkMmQ1V2ZMbWkwT1dpc3RqZjVyeG9aVWhUbFZmYXZzWEUzUklyZEpJQjNRLThrYk9abG5lb21EYzhqbVVuSWFZNGZlbQ?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-29-auto-ff9911d45b",
-      "member_ids": [
-        "2026-10-29-auto-ff9911d45b"
-      ],
-      "priority": "B",
-      "published": "2026-10-29",
-      "company": "TBSショッピング",
-      "service": "",
-      "affected_count": 50000,
-      "summary": "TBSショッピング 約5万件の会員情報が流出 業務委託先のメール配信システムに不正アクセス",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBZM1NIVmwyb2xFdUM2aEtBd2dET25tMWVrNmp3UzlQd3FZcEptb0RqSFExS1dpSDZLWmtpcGE2UVJ4OFFUX1ZpVmNSaW9MdWlMM3NCLWFFcS1ybUZXWlpZQTRWUUgwQ1JFN0xxWFlMQzRqTEE2?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-29-auto-f8ecd24336",
-      "member_ids": [
-        "2026-10-29-auto-f8ecd24336"
-      ],
-      "priority": "C",
-      "published": "2026-10-29",
-      "company": "アニメイトのメールマガジン登録者",
-      "service": "",
-      "affected_count": 0,
-      "summary": "アニメイトのメールマガジン登録者の個人情報が漏えい。メール配信に利用していた外部サービスに不正アクセス",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9ZWWJvWHVhNW00ekI0TFpCRno0dzdtSDg1UzhkemE2ZG5kQmJMRlNVYWlybGp0dkkxZ2tyVTBlc2JaVUpLNjVZdHNpOXhOUC1aM3pkYWh4YlRQZw?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-29-auto-5cd26dff58",
-      "member_ids": [
-        "2026-10-29-auto-5cd26dff58"
-      ],
-      "priority": "B",
-      "published": "2026-10-29",
-      "company": "旅行予約サイト「スカイチケット」、返金用の銀行口座・名義など",
-      "service": "",
-      "affected_count": 32341,
-      "summary": "旅行予約サイト「スカイチケット」、返金用の銀行口座・名義などの顧客情報3万2341件が流出(読売新聞オンライン)",
-      "sources": [
-        {
-          "name": "Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAzRll1czhJN1ZGTlJaUU9WWWZNNldjU2JaMHR5OUNKemtGbXpWc3J5aW5MeFVCamZqQWdnVnM0N05EM2xjeUpONVRoOG04VnFwOGNNTkVLRnlOZ3laWF9aZXMzMlVvTGJuT0M4TWhMdW9LU2FWR1Q2Vnd4VlhmZXM?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-29-auto-a948ffba9e",
-      "member_ids": [
-        "2026-10-29-auto-a948ffba9e"
-      ],
-      "priority": "B",
-      "published": "2026-10-29",
-      "company": "日航9万人分情報流出か 一部はパスポート番号(共同通信)",
-      "service": "",
-      "affected_count": 90000,
-      "summary": "日航9万人分情報流出か 一部はパスポート番号(共同通信)",
-      "sources": [
-        {
-          "name": "Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB2VHZUby1kdVFvYjE3RHRTMGVUUHM3cU9IcWc2N1VIOXczRGRUWWl3ZDBPS2hvNWtmNFVvSndPeWNrS0VuQWRqTUFOZU9pUko2cVB4cERiSkhZR3BWdjhvX0lWRWpTbERWQUVwYm1kVmpNYjg5aUJzSmRRYUNNWFE?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-29-auto-004f39d9c6",
-      "member_ids": [
-        "2026-10-29-auto-004f39d9c6"
-      ],
-      "priority": "C",
-      "published": "2026-10-29",
-      "company": "サーティワン、最大8174人",
-      "service": "",
-      "affected_count": 8174,
-      "summary": "サーティワン、最大8174人の情報漏えい モバイルオーダーサービス利用者が対象「多大なるご迷惑とご心配をおかけします」",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBuMmhDRUVUYkpNdEtfVGpZTkFyb2FEclJ3dnVrc1pjenZMWV9ycWxGZG1hMXV5bEd5c3FKTk1YdmpqTWtuZjBaWllrcllkUTlfRjBwclBR?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-29-auto-0066edb5c1",
-      "member_ids": [
-        "2026-10-29-auto-0066edb5c1"
-      ],
-      "priority": "B",
-      "published": "2026-10-29",
-      "company": "JALの予約システム",
-      "service": "",
-      "affected_count": 90000,
-      "summary": "JALの予約システムに不正アクセス 約9万人分の予約情報が漏えい 一部ではパスポート番号も",
-      "sources": [
-        {
-          "name": "ITmedia",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBCTkYzQjdsSDZiTnBsejNCNHIxQWZIc3RNTGRuQU4tVHpmb2ZreFRDdm9ubXFEMjI0YS1lNG0yX0JMSnkzdkhNZFBlOW9LY1ZZNm50cXBQQmx3V1RtM0NMV3FfX21Del9udXc?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-29-auto-4eac862d2d",
-      "member_ids": [
-        "2026-10-29-auto-4eac862d2d"
-      ],
-      "priority": "C",
-      "published": "2026-10-29",
-      "company": "ライフカード",
-      "service": "",
-      "affected_count": 0,
-      "summary": "ライフカード、顧客情報漏えいの可能性 「ETCカード番号」の一部も",
-      "sources": [
-        {
-          "name": "CNET Japan",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFByTzQxMUc3VlpCQWJfTW9DOE5BUTV1Tk1Fb2k5MF9wb3F5LVVRSUlFX1dESHZMS0tCQnpfbG16eWY4bUVwZ1AxRW5WU0NEY0UwMmc?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-29-auto-19800e9e1b",
-      "member_ids": [
-        "2026-10-29-auto-19800e9e1b"
-      ],
-      "priority": "B",
-      "published": "2026-10-29",
-      "company": "JAL、約9.2万人分",
-      "service": "",
-      "affected_count": 92000,
-      "summary": "JAL、約9.2万人分の顧客情報が流出か パスポート番号なども漏えいの恐れ (2026年10月28日掲載)",
-      "sources": [
-        {
-          "name": "ライブドアニュース",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9wV01QXzExU1ZEWmhJWWdmQThNRjNxRjMtNmppZEZOVkdod0JmYWUtUVl5dTRJa1BTdGk1bUl6SmxVZXpSOUNCR19BZE82bDNTcUlvaHV6M2ZoeEdYMUE?oc=5",
+          "name": "FNNプライムオンライン",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9RLTM5U1U1UF8ycGpKTHAtbEtoQVJITWljWThfbHZ4ZElIOUtIWER5X1JnQk16ZHNsbDM2TmlKT1hsbEozVk9POVZ4bEMtRndBSUl6bEUtQm0tRXY5RzhROHlmZmhjQ2FVRkV3SWtaQXVZUQ?oc=5",
           "official": false
         }
       ]
