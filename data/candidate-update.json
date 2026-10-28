@@ -1,276 +1,236 @@
 {
   "version": "1.1",
-  "generated_at": "2026-10-27T23:00:26+00:00",
-  "before_count": 684,
-  "after_count": 697,
-  "net_change": 13,
-  "new_count": 13,
+  "generated_at": "2026-10-28T00:30:06+00:00",
+  "before_count": 697,
+  "after_count": 709,
+  "net_change": 12,
+  "new_count": 11,
   "removed_count": 0,
-  "visible_before_count": 684,
-  "visible_after_count": 697,
-  "visible_net_change": 13,
-  "raw_before_count": 991,
-  "raw_after_count": 1012,
-  "raw_net_change": 21,
+  "visible_before_count": 697,
+  "visible_after_count": 709,
+  "visible_net_change": 12,
+  "raw_before_count": 1012,
+  "raw_after_count": 1028,
+  "raw_net_change": 16,
   "new_candidate_ids": [
-    "2026-10-28-auto-2868109cae",
-    "2026-10-28-auto-e27af46563",
-    "2026-10-28-auto-c610e89588",
-    "2026-10-28-auto-3a0f3eb23b",
-    "2026-10-28-auto-f411267467",
-    "2026-10-28-auto-7ee939c734",
-    "2026-10-28-auto-5860eb2099",
-    "2026-10-28-auto-f48cd47f23",
-    "2026-10-28-auto-33da6c7279",
-    "2026-10-28-auto-782903a999",
-    "2026-10-28-auto-e303320a45",
-    "2026-10-28-auto-dca0f919c8",
-    "2026-10-28-auto-563f00018c"
+    "2026-10-28-auto-17fe33e1dd",
+    "2026-10-28-auto-fedb1d8c16",
+    "2026-10-28-auto-2a9448d7bc",
+    "2026-10-28-auto-cc8910d9d0",
+    "2026-10-28-auto-1d2ab7c206",
+    "2026-10-28-auto-5b18983af6",
+    "2026-10-28-auto-7fc35e4b16",
+    "2026-10-28-auto-221d8c1bf8",
+    "2026-10-28-auto-cd50250152",
+    "2026-10-28-auto-94abdc77b8",
+    "2026-10-28-auto-92de3e2f25"
   ],
   "new_candidates": [
     {
-      "id": "2026-10-28-auto-2868109cae",
+      "id": "2026-10-28-auto-17fe33e1dd",
       "member_ids": [
-        "2026-10-28-auto-2868109cae"
+        "2026-10-28-auto-17fe33e1dd"
       ],
       "priority": "C",
       "published": "2026-10-28",
-      "company": "JETRO「e-Venue",
+      "company": "製薬企業向けサービス「MR君」へ不正アクセス",
       "service": "",
-      "affected_count": 133,
-      "summary": "JETRO「e-Venue」に不正アクセス、最大133件の個人情報漏えいの可能性 9月・10月に侵入、サービス停止",
+      "affected_count": 0,
+      "summary": "製薬企業向けサービス「MR君」へ不正アクセス、一部の医師会員と製薬企業の担当者に関する情報が漏えい",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBsQ2E2TFZ1Ui1RU1NzOTFHeUZFZlN1OG1yanBrS0RsQl9kM1llTzZRT2hWOGhpdmE0M0oxQTdUaDBjeW1hVmVOLVU0TVBZYTFuRHJrLTNpb01xclpjcVNxVmhnWUpwZU9CMlg4OA?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-28-auto-fedb1d8c16",
+      "member_ids": [
+        "2026-10-28-auto-fedb1d8c16"
+      ],
+      "priority": "C",
+      "published": "2026-10-28",
+      "company": "スズキワールドホームページ",
+      "service": "",
+      "affected_count": 0,
+      "summary": "スズキワールドホームページに不正アクセス、問い合わせフォームの送信ログに記録された情報が不正に閲覧・取得された可能性",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5KNGlmZGxUMTh6bzBJYWVyTDRUSXM2UFpwZ3BnTWpRcHpIQXJwMUFzXzNlTUhLX3ZiS2R4QW1MRWNlaDdvak80WHhnZzZqUmtlUjI4Uzc0U3RwUjRWR1VtUnVULUlvQkZXUVRzbw?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-28-auto-2a9448d7bc",
+      "member_ids": [
+        "2026-10-28-auto-2a9448d7bc"
+      ],
+      "priority": "C",
+      "published": "2026-10-28",
+      "company": "プライバシーマーク付与事業者の経営者向け啓発資料「不正アクセスに対する安全管理措",
+      "service": "",
+      "affected_count": 0,
+      "summary": "プライバシーマーク付与事業者の経営者向け啓発資料「不正アクセスに対する安全管理措置について」を公開",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBpTC1lcDUwNWdRanR4Z1dwS1BTSHBkRGFnU0gtZjV2RXd3OHJwNXlzWG15MnhvWUMxWmo2UkNDRHpzN0ZJdEwyVWZOUU9Dek9Cejc1bmZaVHpoNG0wQW0wcHBDTzhyVVFxQ0xwVg?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-28-auto-cc8910d9d0",
+      "member_ids": [
+        "2026-10-28-auto-cc8910d9d0"
+      ],
+      "priority": "B",
+      "published": "2026-10-28",
+      "company": "アイラッシュガレージECサイト",
+      "service": "",
+      "affected_count": 49191,
+      "summary": "アイラッシュガレージECサイトに不正アクセス、4万9,191件の顧客情報が漏えい",
+      "sources": [
+        {
+          "name": "ScanNetSecurity",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5XWFdQaWZYNl9qYkc3Z1poSk1Ga0UtcnVmclQybVhXOFZOZ04wendON0U1ZFVQQXJqZzVZT1UwUVJXT2NWQmV1UkdBS2tNYXdVNldocXdlekJORXljdGxfQmFZdnJ2bm9ISGUzcw?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-28-auto-1d2ab7c206",
+      "member_ids": [
+        "2026-10-28-auto-1d2ab7c206"
+      ],
+      "priority": "C",
+      "published": "2026-10-28",
+      "company": "札幌国際大学のメールアカウント",
+      "service": "",
+      "affected_count": 0,
+      "summary": "札幌国際大学のメールアカウントに不正アクセス、学内外の宛先に大量のフィッシングメールを送信",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE12eXhHUElMSE9VTDJDOVJKdUdDOFppRHdPMXRRWmhkRENnMzdEMXRXWmhQajY5NEhDSnNaUHJhX1FoSlNITklIYzBoajh3ZmVSYXJ6TkhNMG9EOWpQMnFVTVJ3QWU3Rm5BSHlJcQ?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-28-auto-5b18983af6",
+      "member_ids": [
+        "2026-10-28-auto-5b18983af6"
+      ],
+      "priority": "C",
+      "published": "2026-10-28",
+      "company": "釧路市が市立小中学校の学習用端末の管理運用を委託しているポータス",
+      "service": "",
+      "affected_count": 0,
+      "summary": "釧路市が市立小中学校の学習用端末の管理運用を委託しているポータスにランサムウェア攻撃",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1Id0J0TUNXOGlYRThlTnpZVFd4LTFHcklyRURJWWR5LU03RGR2bF9JOENJSF8yVnM4NDQxaE9BVDBxTTR2eklVM1JDWlo4U3FQamwyMnRjcW9iaDQ2cGdudmhuYnkyNDRlZjN0bA?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-28-auto-7fc35e4b16",
+      "member_ids": [
+        "2026-10-28-auto-7fc35e4b16"
+      ],
+      "priority": "C",
+      "published": "2026-10-28",
+      "company": "正常に部屋を用意できない予約が発生 ~",
+      "service": "",
+      "affected_count": 0,
+      "summary": "正常に部屋を用意できない予約が発生 ~ PIECE 運営施設が利用する Booking.com 管理アカウントに不正アクセス",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBRaG5mVkNTald3LUJPTHhTQU5BTFlHaVoxQWJITmlzTC1xOGl1TkZBSHViRGNCc1FuWXYtOUZ3NTlpckdzMEF0VFRhb1BCUmlVWEZ0N1lxUXdJeGtsR29mY1pBTnppUWF6dHcyag?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-28-auto-221d8c1bf8",
+      "member_ids": [
+        "2026-10-28-auto-221d8c1bf8"
+      ],
+      "priority": "B",
+      "published": "2026-10-28",
+      "company": "個人情報等",
+      "service": "",
+      "affected_count": 0,
+      "summary": "個人情報等が漏えいした際の「対処」と「日頃の対策」を IPA が紹介(ScanNetSecurity)",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ZQWVyazI1SlN6SzhxVFIwSlZEekZKOW1OdzVpRGVtQTUtelJwV1d4T0xWV0ZhY2pBcVNQQjNLamVMcFBvcXFuNTJvcUNyMmpqNENTcjBwM1plOVpITTEwczlaRUtYY0taVElCcXp1ZE84bTZ6a01sRGlTZkRWVk0?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-28-auto-cd50250152",
+      "member_ids": [
+        "2026-10-28-auto-cd50250152"
+      ],
+      "priority": "C",
+      "published": "2026-10-28",
+      "company": "県立高の教諭と生徒のメールアカウント",
+      "service": "",
+      "affected_count": 0,
+      "summary": "県立高の教諭と生徒のメールアカウントが不正アクセス被害 千葉(毎日新聞)",
+      "sources": [
+        {
+          "name": "毎日新聞",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1iMGc1dVA0OUVxVXNQVEhTRDU2aGllSDhOUHhxMFhxSkxkck1iNGY1QUIxVWZBVnBBbHY4NVRmYWNoWFg5SklZRW9iS2c0U0c5N3pSMGk2OUxuN0JUUHhaeDFNUlRwZHNtN2Z6Z3JTNG5yQlBLUWp2MHMyOGhwV2s?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-28-auto-94abdc77b8",
+      "member_ids": [
+        "2026-10-28-auto-94abdc77b8"
+      ],
+      "priority": "C",
+      "published": "2026-10-28",
+      "company": "台湾大塚製薬",
+      "service": "",
+      "affected_count": 0,
+      "summary": "台湾大塚製薬、情報漏えいの疑いを公表 ランサムウェア グループEclipseが832GBのデータ窃取を主張、The Gentlemenも掲載",
       "sources": [
         {
           "name": "合同会社ロケットボーイズ",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTmdlTVAyc1dIcHVUUFJybnhsaTQ3SEhxZnBMNFNNRXl3aVJ3Z1B3N3BQVWxmaHAtUExYOTUwaHBJbWRhOGtkYi1Db2o3ZC1wM2Q3dHhHQ21ROU1JRVpXanhadEhzQk5qUUhWT1AxWWJUTWVuNE9OYVlZUTdnU04yYV9YLU13WFl4OVdweFNJRGt6RzV2QUJsZUpPWGdPMkJGdFY4VXpGdE1IMjZMMERnb3AtVQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQV2ZDSk1xNkRQNGV5bHE2NHhuMnBOQ3c1RjE4dTZISllOT0Y0QVUwcjBTak5kd0I0X01sOWF4WE1sRVJYbHliUnhsc2g3QlJWWmhfZkM2VkR2NkNURl9hekQyNEJXcFdxMW5YVHpBbnJyeFNGVlBIbzJqTEM4dVRSbzhOQ2gzR2poTTRjQlk4WFN6Ym5yMHIwTWJPdl9IdzdJTnNpbw?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-10-28-auto-e27af46563",
+      "id": "2026-10-28-auto-92de3e2f25",
       "member_ids": [
-        "2026-10-28-auto-e27af46563"
-      ],
-      "priority": "B",
-      "published": "2026-10-28",
-      "company": "じげん「ミナオシ」、40,026件",
-      "service": "",
-      "affected_count": 40026,
-      "summary": "じげん「ミナオシ」、40,026件の個人情報漏えいを確認 ブラストメールへの不正アクセスで資料請求・ウェビナー申込情報に影響",
-      "sources": [
-        {
-          "name": "合同会社ロケットボーイズ",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPV1k0Nm1uQ09YZDAtSHhhMnNLUkd4QndrYzZPSHo2ZHVzQnZNX2x6dTNvTGUzTnQ2S2VxRGtSRmJhMnJHeW5wNWpuQlQ3S1hmbXhtSHNaVnBoT3pyQ0hpUHBVRnpHeE9PVTFuMm1rMFJVLTlyX2k4MDJFcE9ZY3BtN2ptR2JmelltejVDNHkzckhWMXBqMnhGSEpSZHJxWV9K?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-28-auto-c610e89588",
-      "member_ids": [
-        "2026-10-28-auto-c610e89588"
+        "2026-10-28-auto-92de3e2f25"
       ],
       "priority": "C",
       "published": "2026-10-28",
-      "company": "UPSIDER「Breakthrough GRID",
+      "company": "週刊CSIRTブリーフィング",
       "service": "",
       "affected_count": 0,
-      "summary": "UPSIDER「Breakthrough GRID」に不正アクセス、会員情報や議事録が漏えい 法人カード・決済情報は影響なし",
-      "sources": [
-        {
-          "name": "合同会社ロケットボーイズ",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNM3dpTVRyb1VaaEdTZ0RVQXpXWHF2R3ZCMWRGZ3JsSG9NNWt2WFByV21rejBCS1B6aVlGdHViYUh4ZktRdnVlY29feTVwS0I0eWpHcmhmSnNYSG5MRnZjT3Z2TWJ0SXBzeklGTV9XTWFMSzIwZndLQ25hZ2FsMDczQ3lVVUFoS2Vfd05WRS1CejRUSlhxNjhkZVFxODNSUG9TUTlNQ2Z5Tlg0VmoxYm12NzZGd0RmZ244NmJV?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-28-auto-3a0f3eb23b",
-      "member_ids": [
-        "2026-10-28-auto-3a0f3eb23b"
-      ],
-      "priority": "B",
-      "published": "2026-10-28",
-      "company": "スマートシェア「OWNLY",
-      "service": "",
-      "affected_count": 14034,
-      "summary": "スマートシェア「OWNLY」に不正アクセス、モスバーガーのSNSキャンペーン1万4,034件のが個人情報漏洩-ファイルアップロード機能の不備を悪用|セキュリティニュースのセキュリティ対策Lab",
-      "sources": [
-        {
-          "name": "合同会社ロケットボーイズ",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQX25NXzhxSUxzZTlJcW5wZ0NHdF9VSDU1R0F5ZzN5ZnBSTDh3OFQtVUxFYzVzVU1ZVWpZblVfalp2ODJ6SWs0Ui1yUnd5d2JGd0ROb3F4RGVEbWxhbDlaWWtwWXNJN1Z2alZBcGxpSmtsY2F3TGNpd0VpV1lYQWRsS095c2lGT0M4SmNHdzlrTWg1bVFFRDRQbUdqNnZWenNMN1E?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-28-auto-f411267467",
-      "member_ids": [
-        "2026-10-28-auto-f411267467"
-      ],
-      "priority": "C",
-      "published": "2026-10-28",
-      "company": "東京消防庁、採用試験の論文と受験者氏名",
-      "service": "",
-      "affected_count": 0,
-      "summary": "東京消防庁、採用試験の論文と受験者氏名が漏えいか...外部委託先で不正アクセス(読売新聞オンライン)",
-      "sources": [
-        {
-          "name": "読売新聞",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5HcGtpVkJ3UWJ5VkNBeU1GSm9yRXd0OHFvSERsN0xoOWhkR3FjTkhDaGNpMEZLR2l2TVpBM1VpQVowcXRQaFl0MnVXV0VHTUJGVnhPMWF6QmFCSUZkNVZWX0FzVVJKWDRsVFo1d01kemJiNDd3d0F5MWppZ2ZUUU0?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-28-auto-7ee939c734",
-      "member_ids": [
-        "2026-10-28-auto-7ee939c734"
-      ],
-      "priority": "C",
-      "published": "2026-10-28",
-      "company": "自治体向け不正アクセス 石川コンピュータ・センター(北國新聞社)",
-      "service": "",
-      "affected_count": 0,
-      "summary": "自治体向け不正アクセス 石川コンピュータ・センター(北國新聞社)",
-      "sources": [
-        {
-          "name": "北國新聞社",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1sVUpvR1kxdEdFQWNaMzRpbjNmemJ6WUhZWENnOFNDdWlCRjVPenNVTFlQNHFkNTFqVzNxZl9nQXQtRk5NOVVxUzBoMzY1cVFpb3RtUVhRRUVpY1dCN19ialA5ODU2UFFBUGNxNl9QbkNtWnd3VFpUV05KWkpYZTg?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-28-auto-5860eb2099",
-      "member_ids": [
-        "2026-10-28-auto-5860eb2099"
-      ],
-      "priority": "B",
-      "published": "2026-10-28",
-      "company": "静岡ガス「Webエネリア」、メールアドレス9万5,412件",
-      "service": "",
-      "affected_count": 95412,
-      "summary": "静岡ガス「Webエネリア」、メールアドレス9万5,412件が漏えい ブラストメールへのサイバー攻撃が波及",
+      "summary": "週刊CSIRTブリーフィング:PHP2Shellでコード実行を確認、HTTP2ShellがNode.js・.NETに波及 委託先サービスの情報漏えいも拡大【2026年10月第4週】|セキュリティ対策Lab",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeWxiSGszcjZLSWEtTFE5MmlmUzN0WE9vQmg1SDZ4ZGM3YjZEY19ka2xUbWVsLUVxUnZRcmdQa0xkdmRobWZCS3NNVmhwWlJ3TlFFNmVrLXV0ejROMlV4b2RLdkNaNFlOc2dXT1cyZnZ3THBScWJJYVE3X1ZkYURySUJJN1phc2RHNzBZTkkyQ0VNU3o5NnZQV0V6cm4?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-28-auto-f48cd47f23",
-      "member_ids": [
-        "2026-10-28-auto-f48cd47f23"
-      ],
-      "priority": "B",
-      "published": "2026-10-28",
-      "company": "Lean on Me",
-      "service": "",
-      "affected_count": 82723,
-      "summary": "Lean on Me、82,723人の個人データを第三者が取得 Metabaseへの不正アクセスで要配慮個人情報も判明",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdlVxaGgtTjdNRjY5LXJlVHc1ZF9OVFRDRkM2YkVnYThCT09ycmoydGpnNnB0LVBrOWFiLXdnU05jaDJ3RXhzeVBXaHg2bGRKaWJSd1NreV9Hbk4zR3J4NUY5U1p2dklYbFRLaFlBbGxxMC1DSk43S21ndFBjeElrWGd3OTZaSm1BZm41MEZCblRHXy1xQ19UWS1ITUVqdGg4aDFZMjRIS1JSVW1NeGNidg?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-28-auto-33da6c7279",
-      "member_ids": [
-        "2026-10-28-auto-33da6c7279"
-      ],
-      "priority": "B",
-      "published": "2026-10-28",
-      "company": "岐阜県が実施したスタンプラリーから情報漏洩 応募者のメールアドレスや性別・年齢層",
-      "service": "",
-      "affected_count": 1135,
-      "summary": "岐阜県が実施したスタンプラリーから情報漏洩 応募者のメールアドレスや性別・年齢層など1135人分 氏名と詳細な住所・電話番号は含まれず 再委託先が使用のデータ分析ツールに不正アクセス | 名古屋・愛知・岐阜・三重のニュース【CBC news】 | CBC web (1ページ)",
-      "sources": [
-        {
-          "name": "1ページ",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE11RVRzcUh1WDVpMDI4ZUMwN3Z1TlVBQndMbndTVkNsQUZGeDRKTVQ2RFBZODBKTkNlZ0FaSkVzQ3d4ZEtHZmpRYTRROWFkeTEtN3hnME9ZWjlrWG5oWHVoYjNqWG5CS0E?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-28-auto-782903a999",
-      "member_ids": [
-        "2026-10-28-auto-782903a999"
-      ],
-      "priority": "C",
-      "published": "2026-10-28",
-      "company": "情報漏えい「知識豊富と示すため」 元旭化成社員を起訴―名古屋地検",
-      "service": "",
-      "affected_count": 0,
-      "summary": "情報漏えい「知識豊富と示すため」 元旭化成社員を起訴―名古屋地検",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE44Nl9YUEVsMFZzakJJRUJ2VnkzTTU1SkktVDdoLVhIbnkzbFhTT3k4Z0hKRWtPVzFhSzVKRnJ6QlZwelV3ZDFTaVgxNEpraHBoNmFXdXk5YVd6cnY1U3lRSC1WMA?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-28-auto-e303320a45",
-      "member_ids": [
-        "2026-10-28-auto-e303320a45"
-      ],
-      "priority": "B",
-      "published": "2026-10-28",
-      "company": "静岡市で新た",
-      "service": "",
-      "affected_count": 10000,
-      "summary": "静岡市で新たに個人情報1万件超流出か 「ふるさとチョイス」など、業務委託先への不正アクセスの影響で",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5pZ1M3RzVlY3FUcTBrc3FMQkctMHNRWC1sX3BjeUNaLVoxMmNVU2Fva2FKLVNRLTNCS05KeXM3ZzF5d0lCY2NSMnFIMElCZw?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-28-auto-dca0f919c8",
-      "member_ids": [
-        "2026-10-28-auto-dca0f919c8"
-      ],
-      "priority": "C",
-      "published": "2026-10-28",
-      "company": "一番くじONLINE」の配送先情報",
-      "service": "",
-      "affected_count": 0,
-      "summary": "「一番くじONLINE」の配送先情報が流出か 物流システムに不正アクセス、出荷にも影響",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9RQ09PQzJTeElCQTE4ZTlkMG8zcXBYZ1RYUmtDRVhZLUFfX0xteUNUU3RxMjAtTDN2a2Zid0phNEZTdGZ0X0J0VWVlNHltVEJVODd1U2tLZ1V2UmVBeEtJajVB?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-28-auto-563f00018c",
-      "member_ids": [
-        "2026-10-28-auto-563f00018c"
-      ],
-      "priority": "C",
-      "published": "2026-10-28",
-      "company": "Keystone、Shopify上の公式ストア侵害",
-      "service": "",
-      "affected_count": 0,
-      "summary": "Keystone、Shopify上の公式ストア侵害で顧客情報の漏えい 端末の秘密鍵や決済情報は対象外",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONkRya1dlbFpTLWptM2FzaS10YW1MN2pCN0g2MDVjLTNzMEllREVlb09LeGc4SlY5M3ZzaVpKWTB1VFlZN2czT3dPZTE5V0o1QlRtR1h2OGEtR2t3YnBzUllDbVlxZHZJOUNlSjRiZlFZcm5NZ3JCOEZocGM4MzlqNXdTZWRKbUZORjJRSHN3MGUxZndUSkkyNnMweXRXSjVncUM4VUY4WHJNQjBfR2lWX1dQZ1RmQmRsd25hR1ln?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPQU9veEN4LVZPckRiRVR6el8wc2xzNkgxRU5BQTV1a2U3ck1GSU40WFhrNzc2a25laEh4V2NSY3VRaDhJOTluZ3dTZVgtWlE0REpUckFic3FLMURqQmFPTW1PVlN2ZWZLR2dTVW1aTGpzQWZuM3hkQS1VSHUtaVNPWg?oc=5",
           "official": false
         }
       ]
