@@ -2,14 +2,132 @@
   "version": "1.4",
   "date": "2026-10-29",
   "day_start_count": 39,
-  "added": [],
-  "changed": [],
-  "generated_at": "2026-10-29T00:55:17+00:00",
-  "last_checked_at": "2026-10-29T00:55:17+00:00",
-  "after_count": 39,
-  "net_change": 0,
-  "added_count": 0,
-  "changed_count": 0,
-  "added_ids": [],
-  "changed_ids": []
+  "added": [
+    {
+      "id": "2026-10-24-auto-ddf0bbaf23",
+      "status": "possible",
+      "published": "2026-10-24",
+      "company": "グッドスマイルカンパニー",
+      "service": "グッドスマイルカンパニー公式ショップ",
+      "affected_count": 0,
+      "cause": "報道自動検知",
+      "summary": "グッドスマイルカンパニー、公式ショップ不正アクセス発生により会員情報流出の可能性―サイトを閉鎖し原因確認作業へ",
+      "exposed_data": "基本情報\n氏名、読み仮名、性別、住所、電話番号、メールアドレス\n\n注文情報\n注文日、商品名、数量、金額、お届先の住所・氏名・電話番号［別途登録あった場合］、決済方法、決済状況（決済済か否か）\n\nクレジットカード情報\nクレジットカードのブランド、カード番号下4桁及び有効期限",
+      "resolution_date": "",
+      "resolution_note": "",
+      "resolution_url": "",
+      "reviewed_at": "2026-10-29 16:27 JST",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBXR25qRDRCVGRVVjltS2YyX29KOXRlX0gzU3c1ZTJlVFJHSXU3Zzh0V3dPTDlkM05nZFAyUE9ndDFDYjZrb0RueWVYb1VRd3czZjR4NmlqTU8xSEl4Y3EzN3gyTQ?oc=5",
+          "official": false
+        },
+        {
+          "name": "公式",
+          "url": "https://support.goodsmile.com/hc/ja/articles/63547468806297-%E4%B8%8D%E6%AD%A3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%81%AB%E3%82%88%E3%82%8B%E3%81%8A%E5%AE%A2%E6%A7%98%E6%83%85%E5%A0%B1%E6%B5%81%E5%87%BA%E3%81%AE%E5%8F%AF%E8%83%BD%E6%80%A7%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6-2026%E5%B9%B410%E6%9C%8826%E6%97%A5%E8%BF%BD%E8%A8%98",
+          "official": true
+        }
+      ]
+    }
+  ],
+  "changed": [
+    {
+      "id": "2026-10-23-auto-b0475a2ed8",
+      "company": "デジタル庁",
+      "service": "お問合せフォーム",
+      "published": "2026-10-23",
+      "affected_count": 13000,
+      "cause": "報道自動検知",
+      "summary": "デジタル庁、公式サイトへの問い合わせ最大1万3000件漏えいか Web制作ツール「Studio」不正アクセスで",
+      "exposed_data": "デジタル庁のホームページの以下のお問合せフォームに入力いただいた内容",
+      "reviewed_at": "2026-10-25 07:11 JST",
+      "from_status": "confirmed",
+      "to_status": "confirmed",
+      "from_label": "漏えい確認",
+      "to_label": "漏えい確認",
+      "change_type": "content",
+      "changed_fields": [
+        "sources"
+      ],
+      "changed_labels": [
+        "情報源"
+      ],
+      "resolution_date": "",
+      "resolution_note": "",
+      "resolution_url": "",
+      "sources": [
+        {
+          "name": "INTERNET Watch",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8tQVhpeWxrOTlqNXVPRUc2dUNUbzZlVE4teHcydHRneUZYLWhsZXNUY25HRE1ISUZGQ2hXdTMzU1g4UWc5b0N3U09YeTFlSVN2UWV5YW9oZDNJeVNzcmhYeUtPZmtyZ3pDMmxj?oc=5",
+          "official": false
+        },
+        {
+          "name": "公式",
+          "url": "https://www.digital.go.jp/press/a0a8f66c-b32d-4695-9372-bcd5d4280f22",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-23-auto-216b281bc9",
+      "company": "佐川へ",
+      "service": "お荷物問い合わせサービス",
+      "published": "2026-10-23",
+      "affected_count": 53230000,
+      "cause": "報道自動検知",
+      "summary": "佐川急便、お荷物問い合わせサービスへの不正アクセスによるサイバー攻撃で最大約5,323万件の個人情報漏えいの可能性―2026年最大規模の公表件数|セキュリティニュースのセキュリティ対策Lab",
+      "exposed_data": "要確認",
+      "reviewed_at": "2026-10-25 07:00 JST",
+      "from_status": "confirmed",
+      "to_status": "confirmed",
+      "from_label": "漏えい確認",
+      "to_label": "漏えい確認",
+      "change_type": "content",
+      "changed_fields": [
+        "sources"
+      ],
+      "changed_labels": [
+        "情報源"
+      ],
+      "resolution_date": "",
+      "resolution_note": "",
+      "resolution_url": "",
+      "sources": [
+        {
+          "name": "公式",
+          "url": "https://www2.sagawa-exp.co.jp/information/detail/425/",
+          "official": false
+        },
+        {
+          "name": "日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4zRzNyVDdVR0VxUnkydHFTcGk2QXVjR0dNYkxoNWJES2laRkRyTjBrUFhOYkdRcW9MM21HNlViWS1kc2RtWjNtRm9NY1ZKVUllVlo3ZXBPblYxMkFTN2FBWXRfdVhQT0hlTHU4eg?oc=5",
+          "official": false
+        },
+        {
+          "name": "ITmedia",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE42UXI5V08wUXFlZGRmYzZpNVFSUjlsVWwxdnZld2toTk94T1FEQzJNZXg0QXd5LVV0YzBVWU5DUUd6eFJCZmVJVldtN01PbS1MU0FNWkMyZ3V1SlNoNDVPUHNPU3ZUeEM4clE?oc=5",
+          "official": false
+        },
+        {
+          "name": "朝日新聞",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBDcElGc0hWbG1Kb2wtZ1N2SEJVcENPTkVYU3h6WXdJUmxfUmk1Z0VyaF9BTHNIcHFPazA0c3BqUVhxelZiMXZkQVg2YlpKUmtHeHVwc2pxQ3pJcU04TENjZGN6YzM5YVU?oc=5",
+          "official": false
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-10-29T07:27:41+00:00",
+  "last_checked_at": "2026-10-29T07:27:41+00:00",
+  "after_count": 40,
+  "net_change": 1,
+  "added_count": 1,
+  "changed_count": 2,
+  "added_ids": [
+    "2026-10-24-auto-ddf0bbaf23"
+  ],
+  "changed_ids": [
+    "2026-10-23-auto-b0475a2ed8",
+    "2026-10-23-auto-216b281bc9"
+  ]
 }
