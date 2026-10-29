@@ -1,236 +1,76 @@
 {
   "version": "1.1",
-  "generated_at": "2026-10-29T00:54:21+00:00",
-  "before_count": 806,
-  "after_count": 803,
-  "net_change": -3,
-  "new_count": 11,
+  "generated_at": "2026-10-29T01:51:41+00:00",
+  "before_count": 803,
+  "after_count": 807,
+  "net_change": 4,
+  "new_count": 3,
   "removed_count": 0,
-  "visible_before_count": 806,
-  "visible_after_count": 803,
-  "visible_net_change": -3,
-  "raw_before_count": 1147,
-  "raw_after_count": 1163,
-  "raw_net_change": 16,
+  "visible_before_count": 803,
+  "visible_after_count": 807,
+  "visible_net_change": 4,
+  "raw_before_count": 1163,
+  "raw_after_count": 1169,
+  "raw_net_change": 6,
   "new_candidate_ids": [
-    "2026-10-29-auto-5adf96a70e",
-    "2026-10-29-auto-f58e247638",
-    "2026-10-29-auto-043322a169",
-    "2026-10-29-auto-3294b05620",
-    "2026-10-29-auto-716d4a71d7",
-    "2026-10-29-auto-2895e3f504",
-    "2026-10-29-auto-b78e8891a4",
-    "2026-10-29-auto-2f088213e6",
-    "2026-10-29-auto-88534d00ff",
-    "2026-10-29-auto-aa2ea7ac16",
-    "2026-10-29-auto-1067743f2d"
+    "2026-10-29-auto-15a287e7ec",
+    "2026-10-29-auto-3f3e1be11e",
+    "2026-10-29-auto-45a92b8480"
   ],
   "new_candidates": [
     {
-      "id": "2026-10-29-auto-5adf96a70e",
+      "id": "2026-10-29-auto-15a287e7ec",
       "member_ids": [
-        "2026-10-29-auto-5adf96a70e"
+        "2026-10-29-auto-15a287e7ec"
       ],
       "priority": "C",
       "published": "2026-10-29",
-      "company": "ENEOSでんき",
+      "company": "石油資源開発が利用するラクスライトクラウドのASPサービス「blastmail",
       "service": "",
       "affected_count": 0,
-      "summary": "ENEOSでんきに不正アクセス、情報漏えいの恐れ|セキュリティニュースのセキュリティ対策Lab",
+      "summary": "石油資源開発が利用するラクスライトクラウドのASPサービス「blastmail」に不正アクセス",
       "sources": [
         {
-          "name": "合同会社ロケットボーイズ",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcTVncVkyMzJuTWZzVGdwQWtjc1hBVXRTNUtuTjVKWjBLQTBaV0xWdmZsNXQ4RUF4MDFTVlBNbW14R3hHTVBWdDBKdU1NT19rblJOWU1GM1JXZnpsaUR0a2xNSXJHOGRMM1dJT0ljQndWU0hwQmttVHZ2UlJ6YVRTNUIwb2NsVnpxT3dQZFdKU2t5OVBLYXdYYW9OOGYwU0Mx?oc=5",
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9TUE90U3FRQ2VfOVJwN2RGOF9pd29XTDBsVTNsVjJncDEwWlBveU80S3UxTk5jXy11OUhmdTNkbHBCWUNJT05RZWYwZ3FLQm1FenRVQld3bnZMcnBCakZrelhUTnI1ZE0wcmNpbQ?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-10-29-auto-f58e247638",
+      "id": "2026-10-29-auto-3f3e1be11e",
       "member_ids": [
-        "2026-10-29-auto-f58e247638"
+        "2026-10-29-auto-3f3e1be11e"
       ],
       "priority": "C",
       "published": "2026-10-29",
-      "company": "「怖くてメールも開けない」 相次ぐ情報流出で広がる「漏洩疲れ」(朝日新聞)",
+      "company": "インプレス「DIGITAL X News」、約5万8,000件",
+      "service": "",
+      "affected_count": 58000,
+      "summary": "インプレス「DIGITAL X News」、約5万8,000件の情報漏えいを確認 ユミルリンク「Cuenote」への不正アクセスで",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOOHphYlpCYzBqOEJqRE5XbVNhd0VZdjA5dXFLYXgzVzJBX0ZMUTYyZS0tcndVZ3B6QTdoNFlCc3pyLUkwTVYzWUFCQ3ZxNHVFcE1QV1FEMzlCUG9SRlVmaGtvZWVlRmZ2QlRTUmlmVk1zVHNVdnlHbFM2SXp2RG8tNU9neG51REt5ZklkUGdQblFseDBfY25HdGQ1V0dPa0lKa0ljTDJXTVdDeHdJdnpTVw?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-29-auto-45a92b8480",
+      "member_ids": [
+        "2026-10-29-auto-45a92b8480"
+      ],
+      "priority": "C",
+      "published": "2026-10-29",
+      "company": "AKB48 Mailアプリ版",
       "service": "",
       "affected_count": 0,
-      "summary": "「怖くてメールも開けない」 相次ぐ情報流出で広がる「漏洩疲れ」(朝日新聞)",
-      "sources": [
-        {
-          "name": "Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5NdVF4NkdKYWFpZGRPcEQtaUhDcVBMdTJ2OHIxRkVPbXlJcDVfVkZLbU9qQWhoQ1l3WjJSQVB4UU03bXd3VjBQUTZsUDdISWUzSEJwV29NM2ZrM3Voei1iYXNMbWN6U3NXb0xKS2lDTkRwU1N0dEJHN2ROS2QxQ2c?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-29-auto-043322a169",
-      "member_ids": [
-        "2026-10-29-auto-043322a169"
-      ],
-      "priority": "C",
-      "published": "2026-10-29",
-      "company": "九州FG証券、セミナー受付システム",
-      "service": "",
-      "affected_count": 1708,
-      "summary": "九州FG証券、セミナー受付システムに不正アクセス 1,708名のメールアドレス漏えいの可能性",
+      "summary": "AKB48 Mailアプリ版に不正アクセス、サーバー接続を遮断 情報流出の形跡は確認されず",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTEJ5RTJWTmtxVzZhb2VraWtkLTlMTXBDWGVPajgzRHZsT0hhQUpjdjFTb2Z3Q0piZ2VXZ3VTR3JIblAxTHB2TW5vX3dVbnd4SXNsWG1iUGtaZEswSFM3Z2xfQW4zVTBJUUJLNVI2Zl9FT3NlQ1lrU3FTLUU4cVZSWjhLaWl6WW1NUUZyME4yMEo4UzN2OFQ5Vk5jc2xTNV9FNjdKVlhMU3JBel9HTTVlMw?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-29-auto-3294b05620",
-      "member_ids": [
-        "2026-10-29-auto-3294b05620"
-      ],
-      "priority": "B",
-      "published": "2026-10-29",
-      "company": "ベネフィット・ワン「トク買」、2万9,465人",
-      "service": "",
-      "affected_count": 29465,
-      "summary": "ベネフィット・ワン「トク買」、2万9,465人の個人情報漏えいを確認 委託先フォレステックに不正アクセス、決済認証情報にも影響のおそれ|セキュリティニュースのセキュリティ対策Lab",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPTVhVUkFxMTdPSFJtY0NhNGFpRHB5cmNJQVFreTNBcy1kUkVnRUhLS1VsRGxSZThSd2xfeXVadGRxbjAxZDhyTzRHWFhCT3NFaS1xLVlWUjU4aEI0MGRQbFJmZ041OGhjRDNPVVE5MUtORkNvaGJRZk1lWEl2dThJWHRXdU1FSEhPaXM1N09KUVJmRkd3eWFqTzdpaFpKSUxwaEVtR0p5UQ?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-29-auto-716d4a71d7",
-      "member_ids": [
-        "2026-10-29-auto-716d4a71d7"
-      ],
-      "priority": "C",
-      "published": "2026-10-29",
-      "company": "医療機関業務支援システム「@link(アットリンク)",
-      "service": "",
-      "affected_count": 0,
-      "summary": "医療機関業務支援システム「@link(アットリンク)」に不正アクセス、サービスの提供を一時停止",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE00eWh2MHZLdGtDYl95WEJxUEVQR1VyZV93QXc3TFpJWEpXTlFxOEo5NW9ELU1QTU92QUE0MUFRNkFUaThYS1lkanMwUnA3X1FfVE1wZzJGRGgtRWtXRE1LSHRxbmxPQjltSlNtdw?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-29-auto-2895e3f504",
-      "member_ids": [
-        "2026-10-29-auto-2895e3f504"
-      ],
-      "priority": "C",
-      "published": "2026-10-29",
-      "company": "H2Oリテイリング 傘下 ペルソナ、メールアドレス2万8,052件",
-      "service": "",
-      "affected_count": 28052,
-      "summary": "H2Oリテイリング 傘下 ペルソナ、メールアドレス2万8,052件の情報漏えいのおそれ ユミルリンクへの不正アクセスで",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaHdYZEMwOGJJMXJlanJfRm03SC1abUJEQWFfeGt0S21hYUZQdVo1SHVPcjdHRG5lM2JVcWhKYWhHNms5QnJfbjJPNk0zcUVNcVlHa3VUZHJoMGtlM0VBWDNRYnJOa2x0dnc2eTM2bEpSdFp1Z1dZVDRzXzNkUXNBOFVDa0p4bndOeTB5bHQ4SHF4OFZldGtNbmowSnlkV3Ja?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-29-auto-b78e8891a4",
-      "member_ids": [
-        "2026-10-29-auto-b78e8891a4"
-      ],
-      "priority": "C",
-      "published": "2026-10-29",
-      "company": "韓国Bithumb、外部侵入者による内部モバイルシステムへ",
-      "service": "",
-      "affected_count": 0,
-      "summary": "韓国Bithumb、外部侵入者による内部モバイルシステムへの不正アクセスと個人情報漏えいを公表",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9scmdGdlZkLVNjQThiU1NfWDZ1NlpUZ1hObzVuM2dxeU9QZU9LS1AwVnc1bzN5eGJDallVNWh6REg1dUs2YlU0TFk0akVJWW16eHE5RmhzLXhuSk1CNV95ZlVRMGhXRVRxTFB6dHBhOG5rSzZD?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-29-auto-2f088213e6",
-      "member_ids": [
-        "2026-10-29-auto-2f088213e6"
-      ],
-      "priority": "C",
-      "published": "2026-10-29",
-      "company": "トラベルジップ",
-      "service": "",
-      "affected_count": 7050,
-      "summary": "トラベルジップに不正アクセス、自治体観光4サイトで個人情報7,050件流出 画像アップロードの脆弱性を悪用",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbmgtZVNWSVhJYUREWXNSOG8zWElrWTRRUGMtanRRNnRhcUIyaW1ZN0xzSFlfZFpaSlBUZUpWTTBDVmx2N2hwdTFlQmNUUXJDUEphd3pLMmo2eEUtakcxaHVWS3pMNEp0SE9sWmZ4cmZMYmlUWTZLRnhQZkNKeVN4TFFyendral9QN1NYS1FGbzR5bldfMWozcw?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-29-auto-88534d00ff",
-      "member_ids": [
-        "2026-10-29-auto-88534d00ff"
-      ],
-      "priority": "C",
-      "published": "2026-10-29",
-      "company": "三井住友DS投信直販ネットのマイページにログインできない状況に",
-      "service": "",
-      "affected_count": 0,
-      "summary": "三井住友DS投信直販ネットのマイページにログインできない状況に、取引委託業者のシステムで不正アクセスを検知",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE82OFd6c3VtTm02Ri02LVZlX0dzTzBybVc1WGhzdFhDamg0dE1HakNobG9HNHZfTkRBYVktVURQaW02eC1qZ2h1RjVwWERVdmNOS1QxM0k4T1N1VzZTOXBzalZhT284bm9rd2x2Tg?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-29-auto-aa2ea7ac16",
-      "member_ids": [
-        "2026-10-29-auto-aa2ea7ac16"
-      ],
-      "priority": "C",
-      "published": "2026-10-29",
-      "company": "BtoC通販向け決済「NP後払い",
-      "service": "",
-      "affected_count": 0,
-      "summary": "BtoC通販向け決済「NP後払い」に不正アクセス",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5GWEVqZTdLd2FjOUJ6bmN5Y2ZwRkZZd3JKaV9RTGhabmxGQ05NdmY0eVV6UXJXOUVXS0hiZnRkMjBNNDdiRUhEMnBFZkNSZnV4VzJGQlhzSmxUSVRwdXQ5M2VqSkFKa0FzOHEtSw?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-29-auto-1067743f2d",
-      "member_ids": [
-        "2026-10-29-auto-1067743f2d"
-      ],
-      "priority": "C",
-      "published": "2026-10-29",
-      "company": "日航9万人分情報流出か 一部はパスポート番号 | | 全国のニュース",
-      "service": "",
-      "affected_count": 90000,
-      "summary": "日航9万人分情報流出か 一部はパスポート番号 | | 全国のニュース",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBBeFlZNDJLQTZQdDU1VVNvb1pudk9rWjRvVl9valZscmNwRzBIT2lTVlViZFhRMGJ0YkYzN3lJOFhGUEl5aFV0Y19SMy0tWWxaeXBTTGdB?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONUdQUTRnY29ZUDFVY0Fyd2h1a18wNE9QdnhHZW8tOGViTVNTdU9OVmJkUDhhVy1yOUlReUxsX3pDRnFGbHZxdXp4SUxlbG42QlZ0a2hpQVcyNXh3bU1vcHZOQk1zYjl2WGMxbmVYQkpMNU53YmRSQ3RUbHQ2WFpKN0tTUW85MV9VZmxJ?oc=5",
           "official": false
         }
       ]
