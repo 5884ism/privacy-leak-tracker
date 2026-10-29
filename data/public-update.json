@@ -1,103 +1,15 @@
 {
   "version": "1.4",
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "day_start_count": 39,
   "added": [],
-  "changed": [
-    {
-      "id": "2026-10-23-auto-b0475a2ed8",
-      "company": "デジタル庁",
-      "service": "お問合せフォーム",
-      "published": "2026-10-23",
-      "affected_count": 13000,
-      "cause": "報道自動検知",
-      "summary": "デジタル庁、公式サイトへの問い合わせ最大1万3000件漏えいか Web制作ツール「Studio」不正アクセスで",
-      "exposed_data": "デジタル庁のホームページの以下のお問合せフォームに入力いただいた内容",
-      "reviewed_at": "2026-10-25 07:11 JST",
-      "from_status": "confirmed",
-      "to_status": "confirmed",
-      "from_label": "漏えい確認",
-      "to_label": "漏えい確認",
-      "change_type": "content",
-      "changed_fields": [
-        "sources"
-      ],
-      "changed_labels": [
-        "情報源"
-      ],
-      "resolution_date": "",
-      "resolution_note": "",
-      "resolution_url": "",
-      "sources": [
-        {
-          "name": "INTERNET Watch",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8tQVhpeWxrOTlqNXVPRUc2dUNUbzZlVE4teHcydHRneUZYLWhsZXNUY25HRE1ISUZGQ2hXdTMzU1g4UWc5b0N3U09YeTFlSVN2UWV5YW9oZDNJeVNzcmhYeUtPZmtyZ3pDMmxj?oc=5",
-          "official": false
-        },
-        {
-          "name": "公式",
-          "url": "https://www.digital.go.jp/press/a0a8f66c-b32d-4695-9372-bcd5d4280f22",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-23-auto-216b281bc9",
-      "company": "佐川へ",
-      "service": "お荷物問い合わせサービス",
-      "published": "2026-10-23",
-      "affected_count": 53230000,
-      "cause": "報道自動検知",
-      "summary": "佐川急便、お荷物問い合わせサービスへの不正アクセスによるサイバー攻撃で最大約5,323万件の個人情報漏えいの可能性―2026年最大規模の公表件数|セキュリティニュースのセキュリティ対策Lab",
-      "exposed_data": "要確認",
-      "reviewed_at": "2026-10-25 07:00 JST",
-      "from_status": "confirmed",
-      "to_status": "confirmed",
-      "from_label": "漏えい確認",
-      "to_label": "漏えい確認",
-      "change_type": "content",
-      "changed_fields": [
-        "sources"
-      ],
-      "changed_labels": [
-        "情報源"
-      ],
-      "resolution_date": "",
-      "resolution_note": "",
-      "resolution_url": "",
-      "sources": [
-        {
-          "name": "公式",
-          "url": "https://www2.sagawa-exp.co.jp/information/detail/425/",
-          "official": false
-        },
-        {
-          "name": "日本経済新聞",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4zRzNyVDdVR0VxUnkydHFTcGk2QXVjR0dNYkxoNWJES2laRkRyTjBrUFhOYkdRcW9MM21HNlViWS1kc2RtWjNtRm9NY1ZKVUllVlo3ZXBPblYxMkFTN2FBWXRfdVhQT0hlTHU4eg?oc=5",
-          "official": false
-        },
-        {
-          "name": "ITmedia",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE42UXI5V08wUXFlZGRmYzZpNVFSUjlsVWwxdnZld2toTk94T1FEQzJNZXg0QXd5LVV0YzBVWU5DUUd6eFJCZmVJVldtN01PbS1MU0FNWkMyZ3V1SlNoNDVPUHNPU3ZUeEM4clE?oc=5",
-          "official": false
-        },
-        {
-          "name": "朝日新聞",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBDcElGc0hWbG1Kb2wtZ1N2SEJVcENPTkVYU3h6WXdJUmxfUmk1Z0VyaF9BTHNIcHFPazA0c3BqUVhxelZiMXZkQVg2YlpKUmtHeHVwc2pxQ3pJcU04TENjZGN6YzM5YVU?oc=5",
-          "official": false
-        }
-      ]
-    }
-  ],
-  "generated_at": "2026-10-28T00:31:08+00:00",
-  "last_checked_at": "2026-10-28T00:31:08+00:00",
+  "changed": [],
+  "generated_at": "2026-10-29T00:55:17+00:00",
+  "last_checked_at": "2026-10-29T00:55:17+00:00",
   "after_count": 39,
   "net_change": 0,
   "added_count": 0,
-  "changed_count": 2,
+  "changed_count": 0,
   "added_ids": [],
-  "changed_ids": [
-    "2026-10-23-auto-b0475a2ed8",
-    "2026-10-23-auto-216b281bc9"
-  ]
+  "changed_ids": []
 }
