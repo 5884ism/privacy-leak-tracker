@@ -29,6 +29,33 @@
           "official": true
         }
       ]
+    },
+    {
+      "id": "2026-10-27-auto-f695eb230c",
+      "status": "possible",
+      "published": "2026-10-27",
+      "company": "Joshin",
+      "service": "",
+      "affected_count": 6230000,
+      "cause": "報道自動検知",
+      "summary": "Joshinに不正アクセス 約600万件超える個人情報が漏洩した可能性 免許証の画像やマイナンバーカードなどの情報も漏洩したか(関西テレビ)",
+      "exposed_data": "■漏洩の可能性があるお客さま情報\n\n調査中のシステム 1 会員情報データベースサーバー\n漏洩した可能性がある件数 最大約 600 万件\n対象となるお客さま情報 ①氏名 ②住所 ③電話番号 ④会員番号\n\n調査中のシステム 2 ジョーシンのサブスク\n漏洩した可能性がある件数 最大約 23 万件\n対象となるお客さま情報 ①会員番号 ②電話番号＋手書きサイン（バイナリデータ）\n③ログイン ID 初期パスワード ④請求履歴 ⑤契約番号、デバ\nイス ID ⑥有効化コード\n\n調査中のシステム 3 リフォーム写真アップロードシステム\n漏洩した可能性がある件数 最大約 800 件\n対象となるお客さま情報 ①免許証画像 2 件、マイナンバーカード 1 件、口座番号 5 件\n※該当のお客さまに関しては個別にご連絡をとっております。\n\n②リフォーム施工中の工事写真データ\n※件数は漏洩した可能性のある総件数であり、個人情報漏えいが確定した件数ではありません。\n※当社では決済情報の非保持化に対応しており、クレジットカード情報は保持しておりません。",
+      "resolution_date": "",
+      "resolution_note": "",
+      "resolution_url": "",
+      "reviewed_at": "2026-10-29 16:31 JST",
+      "sources": [
+        {
+          "name": "公式",
+          "url": "https://www.joshin.co.jp/ja/ir/news/auto_20261026556267/pdfFile.pdf",
+          "official": true
+        },
+        {
+          "name": "Yahoo!ファイナンス",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPS05kUmtMT2dnZ1A1TTkyR3RKdnlqSnJJVDN4VzVHSzJRUGxDUTBRYWpGQ19NcWNIanNlaEh2YlRlNU05VEtqM29nYUdVajZmbnQxSGluQ2hMcWMtc1gtc3A1Qzdlb08yaDBzdzFCSW5CWE0tSlhiZUNiQ0lUbWl5Ri11eEVTSjQ?oc=5",
+          "official": false
+        }
+      ]
     }
   ],
   "changed": [
@@ -117,14 +144,15 @@
       ]
     }
   ],
-  "generated_at": "2026-10-29T07:27:41+00:00",
-  "last_checked_at": "2026-10-29T07:27:41+00:00",
-  "after_count": 40,
-  "net_change": 1,
-  "added_count": 1,
+  "generated_at": "2026-10-29T07:31:54+00:00",
+  "last_checked_at": "2026-10-29T07:31:54+00:00",
+  "after_count": 41,
+  "net_change": 2,
+  "added_count": 2,
   "changed_count": 2,
   "added_ids": [
-    "2026-10-24-auto-ddf0bbaf23"
+    "2026-10-24-auto-ddf0bbaf23",
+    "2026-10-27-auto-f695eb230c"
   ],
   "changed_ids": [
     "2026-10-23-auto-b0475a2ed8",
