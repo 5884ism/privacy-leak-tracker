@@ -1,61 +1,156 @@
 {
   "version": "1.1",
-  "generated_at": "2026-10-30T19:31:02+00:00",
-  "before_count": 944,
-  "after_count": 953,
-  "net_change": 9,
-  "new_count": 2,
+  "generated_at": "2026-10-30T23:52:44+00:00",
+  "before_count": 953,
+  "after_count": 903,
+  "net_change": -50,
+  "new_count": 7,
   "removed_count": 0,
-  "visible_before_count": 944,
-  "visible_after_count": 953,
-  "visible_net_change": 9,
-  "raw_before_count": 1389,
-  "raw_after_count": 1400,
-  "raw_net_change": 11,
+  "visible_before_count": 953,
+  "visible_after_count": 903,
+  "visible_net_change": -50,
+  "raw_before_count": 1400,
+  "raw_after_count": 1413,
+  "raw_net_change": 13,
   "new_candidate_ids": [
-    "2026-10-31-auto-33702a1e9e",
-    "2026-10-31-auto-6733eb2787"
+    "2026-10-31-auto-69f2709046",
+    "2026-10-31-auto-24f0f507da",
+    "2026-10-31-auto-ab6d0413c1",
+    "2026-10-31-auto-b8c4d22a57",
+    "2026-10-31-auto-3dbb14b33f",
+    "2026-10-31-auto-ed60c937a9",
+    "2026-10-31-auto-a3903b2e78"
   ],
   "new_candidates": [
     {
-      "id": "2026-10-31-auto-33702a1e9e",
+      "id": "2026-10-31-auto-69f2709046",
       "member_ids": [
-        "2026-10-31-auto-33702a1e9e"
+        "2026-10-31-auto-69f2709046"
       ],
-      "priority": "A",
+      "priority": "B",
       "published": "2026-10-31",
-      "company": "経産省、省内の会員制交流スペース予約システム",
+      "company": "近鉄グループホールディングス 100万円以上の社債を購入した投資家",
       "service": "",
-      "affected_count": 1100,
-      "summary": "経産省、省内の会員制交流スペース予約システムに不正アクセス...1100人分の個人情報漏えいか (読売新聞オンライン)",
+      "affected_count": 1000000,
+      "summary": "近鉄グループホールディングス 100万円以上の社債を購入した投資家の個人情報が漏えいした可能性 2678件の氏名や社債の購入金額 委託先が不正アクセス受ける(関西テレビ)",
       "sources": [
         {
-          "name": "読売新聞",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5WaXVodjVPMFdiOGZnUjBveUlUXzNOY25yY3JVTWFXclJUR3pKNXNxMzIyR19uaFhWSWFDR0U3c2lxNkx1alJCUG53VjhxQ3d6Ym1IZVZOdjZSdUstcnZ1LTBHRnI?oc=5",
-          "official": false
-        },
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWmNObENxeFMtRWpLYmMxMTVjNjJSQThKMFlQRmgtaENDWnpxLVJPSnI1dWFQeEZ3aE5xS0ZDbUdDakdwa3JFRExfTkgtV2hqYmE3TmJrd2lSZFVGYUVKMVNfNUVDbWNqQTB4cWJsVkRVal9wQ1FfTENrU1Q1SGJsV29uREhhTFFYaWVISXdn?oc=5",
+          "name": "関西テレビ",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1EOWFSSFRhc1g0ZW1kRk5YWDhvZHZhSzlOSmVWRjk3b3lZeXU4ZmxDcnhHNXg0MzIzTFFxLWdlV3hScnJVNmFObUoxVUpJVkZhdm90OElpNGFiLUZheWlDdDZ2a3BXeWdVT0plZ3V0SFRMR1c2SkFzbzc3WTN1REk?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-10-31-auto-6733eb2787",
+      "id": "2026-10-31-auto-24f0f507da",
       "member_ids": [
-        "2026-10-31-auto-6733eb2787"
+        "2026-10-31-auto-24f0f507da"
       ],
       "priority": "C",
       "published": "2026-10-31",
-      "company": "三田村邦彦",
+      "company": "医療関係でも個人情報",
       "service": "",
       "affected_count": 0,
-      "summary": "三田村邦彦 不正アクセスによる情報漏えい、登録先洗い出し段階でゾッとした「何社あるのだろう...」",
+      "summary": "医療関係でも個人情報が流出...「自分の情報は自分で守れ」知らん顔の政府はますます不安な「一元管理」推進",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4tbXNqTTdJejcwVmkwcEo5TVRJLUpiSEhGZHZGZGZxVFhtU3BtR19yUkstai1keFZsZkNfWTBVclRLWDlXZ0dqX2pteEFYNUI5RTlXYWU2bVJvREoyNEww?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE44ekJfRnZjellxMjA3R3JVWFpvMWIyZEp2ajhxOTlDeWtEY1M5SUMtUnhUWmt6V21xbVZKVnEyRzNpNWZLeDFBaGlxOF9IQnNrQjBv?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-31-auto-ab6d0413c1",
+      "member_ids": [
+        "2026-10-31-auto-ab6d0413c1"
+      ],
+      "priority": "C",
+      "published": "2026-10-31",
+      "company": "近鉄グループホールディングス 社債購入の投資家情報漏えいの可能性",
+      "service": "",
+      "affected_count": 0,
+      "summary": "近鉄グループホールディングス 社債購入の投資家情報漏えいの可能性",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9YZzV2RkJVLUp1QTlteHJ1MHRFZDRGZl96Zm9fUWRTNHpmLXFHRnV4RWdLUnpreTVHdlRYS1Fyb3ZSQkNjTjFCREVLbDNCRlVVdktoY2JlWlZ2ZTNEVElkdHltbm1hVWRFWjhQenlMT18tVURPVi1mMV9pS0dud28?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-31-auto-b8c4d22a57",
+      "member_ids": [
+        "2026-10-31-auto-b8c4d22a57"
+      ],
+      "priority": "C",
+      "published": "2026-10-31",
+      "company": "相次ぐ情報漏えい 官民連携 防御力を高めよ",
+      "service": "",
+      "affected_count": 0,
+      "summary": "相次ぐ情報漏えい 官民連携 防御力を高めよ",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBUMXBRb0xKbFF1REpsN1M2VU96WVVWeGlqNGtmVkM3R0VMSUh6T2V0TWpEMlU5Z3FraF9vMVFRaVMzMnlVcU1RdWR6SmhzSXhSMmxVajkyRVhkYkV1d0E?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-31-auto-3dbb14b33f",
+      "member_ids": [
+        "2026-10-31-auto-3dbb14b33f"
+      ],
+      "priority": "C",
+      "published": "2026-10-31",
+      "company": "2週間ぶり帰還に“2万いいね”超え―不正アクセス受けた「コミックシーモア」が一部",
+      "service": "",
+      "affected_count": 20000,
+      "summary": "2週間ぶり帰還に“2万いいね”超え―不正アクセス受けた「コミックシーモア」が一部サービス再開",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1LQmt1dEE4eWFkMmRTRTVFdmRaeHJ0RHNuRE9SZVdfR3ptbGgwSzdoUGxsQTFYcDJTRC1vX0lxbGlWQUZ3ZmdrV2hSakxpZnRLWDdzclh5bElHSGxlS1pMWXVNQWRNM1h1?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-31-auto-ed60c937a9",
+      "member_ids": [
+        "2026-10-31-auto-ed60c937a9"
+      ],
+      "priority": "C",
+      "published": "2026-10-31",
+      "company": "医療機関に対策強化通知 オンライン診療不正アクセスで―上野厚労相",
+      "service": "",
+      "affected_count": 0,
+      "summary": "医療機関に対策強化通知 オンライン診療不正アクセスで―上野厚労相",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9lX0c5TkVrbkk5S0dDODRlbUNhSUdwYTAtVDZLMDR4S2JzaGQwa0NvUmtwTVQ2Si1pdE50MXFjSjYxM2ZqR25hLTBlN0E2a0V4SzY0RkFHUW9NZzh0YU9QUWVyaw?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-31-auto-a3903b2e78",
+      "member_ids": [
+        "2026-10-31-auto-a3903b2e78"
+      ],
+      "priority": "B",
+      "published": "2026-10-31",
+      "company": "学生ら8万人分",
+      "service": "",
+      "affected_count": 80000,
+      "summary": "学生ら8万人分の情報流出か 佐賀大学がランサムウエア被害 附属病院の患者情報も流出の恐れ 脅迫文も確認",
+      "sources": [
+        {
+          "name": "佐賀新聞",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4wd3QtVEdHenRHbjN0Z3JnNHkyZnlkU0lGRzBRTkY1aWxuYUNWSmo1eHRvaHFlM0c5RmRDZlR4X1JkcUR4MHQtcnVoZzlHQXd4dGlzd2R3?oc=5",
           "official": false
         }
       ]
