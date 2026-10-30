@@ -1,252 +1,36 @@
 {
   "version": "1.1",
-  "generated_at": "2026-10-30T00:58:17+00:00",
-  "before_count": 880,
-  "after_count": 899,
-  "net_change": 19,
-  "new_count": 11,
+  "generated_at": "2026-10-30T01:08:42+00:00",
+  "before_count": 899,
+  "after_count": 901,
+  "net_change": 2,
+  "new_count": 1,
   "removed_count": 0,
-  "visible_before_count": 880,
-  "visible_after_count": 899,
-  "visible_net_change": 19,
-  "raw_before_count": 1273,
-  "raw_after_count": 1294,
-  "raw_net_change": 21,
+  "visible_before_count": 899,
+  "visible_after_count": 901,
+  "visible_net_change": 2,
+  "raw_before_count": 1294,
+  "raw_after_count": 1297,
+  "raw_net_change": 3,
   "new_candidate_ids": [
-    "2026-10-30-auto-5f0a839639",
-    "2026-10-30-auto-c922a83f50",
-    "2026-10-30-auto-80fac03c4b",
-    "2026-10-30-auto-1b5a9b7a77",
-    "2026-10-30-auto-2c2e85a694",
-    "2026-10-30-auto-e5cf07840a",
-    "2026-10-30-auto-dd65b27ba3",
-    "2026-10-30-auto-1d4eec6e2f",
-    "2026-10-30-auto-43f38b22bc",
-    "2026-10-30-auto-fb0f16522d",
-    "2026-10-30-auto-a82b410768"
+    "2026-10-30-auto-7896087c8a"
   ],
   "new_candidates": [
     {
-      "id": "2026-10-30-auto-5f0a839639",
+      "id": "2026-10-30-auto-7896087c8a",
       "member_ids": [
-        "2026-10-30-auto-5f0a839639"
+        "2026-10-30-auto-7896087c8a"
       ],
-      "priority": "C",
+      "priority": "B",
       "published": "2026-10-30",
-      "company": "情報漏えい 4月以降延べ2.6億人分",
-      "service": "",
-      "affected_count": 0,
-      "summary": "情報漏えい 4月以降延べ2.6億人分",
-      "sources": [
-        {
-          "name": "Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBsNnVROEZUWTNOZ0J6LTRrRlpScFBwUWl2enI0Tzlqa0VkRS0xN1JJMGV5aERHVVhCWEdrMEdDQWdWZHZ6TTBvNFl5ZWhjMmpS?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-30-auto-c922a83f50",
-      "member_ids": [
-        "2026-10-30-auto-c922a83f50"
-      ],
-      "priority": "A",
-      "published": "2026-10-30",
-      "company": "ヤクルト、不正アクセス",
+      "company": "ヤクルト本社、顧客情報約4万件",
       "service": "",
       "affected_count": 40000,
-      "summary": "ヤクルト、不正アクセスで顧客情報4万件漏えい 氏名や電話番号など(ロイター)",
+      "summary": "ヤクルト本社、顧客情報約4万件が流出 不正アクセスで",
       "sources": [
         {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5sOVBXRnlLMkRFcXd2dTZ0VVdiNzBRZ0VoRDZoeGdtYnFKRllwTXdFV01XV0JpTUlNTU0zcWZmLVBjWS1LRUgtZFBoV3Q0Wl9pWjVjVVVKNjQ2cXAxVk1QQm9VekpzSmo0MkZVRHlwNUszTm1ndUQ2ZmpHVlFLZw?oc=5",
-          "official": false
-        },
-        {
-          "name": "Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA5WDQ2WWpKWGNsdlJ3UndIME9RVUJPa0RiR1pSeUdRb0xuOEFoZU5KNmdLTlhJVldOOEVYN1lvYjZ0MlpaUnp0R28tM0NXOTdWalpDa2VKVWFQMU1hQkl0RGFZNGkwOWM4NlRhWENSVUpkaV85N09lODh3MEJVOTQ?oc=5",
-          "official": false
-        },
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE85UjBnZ0ZzV2tSYk02eW9aX3ZOQlE4c1d4dHNEdGh6anBfXzBBV3ZSVWtnd0c1YldLd3hxNkM2c1BfdlpqRmZxN2JSSGNYc2tyOGtFa2JiRG1kUQ?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-30-auto-80fac03c4b",
-      "member_ids": [
-        "2026-10-30-auto-80fac03c4b"
-      ],
-      "priority": "C",
-      "published": "2026-10-30",
-      "company": "これまでに「延べ2.6億人分",
-      "service": "",
-      "affected_count": 0,
-      "summary": "これまでに「延べ2.6億人分」の個人情報漏洩--個人情報保護委員会",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBJMVhza0FhelZFUVVBaUx1WWxweUNQMWpiRjBUdXoxSFFkNkpNWGg3VlQ5ZmFDX3h5b0pjVzBkMnFodTNmREtEbkFDaHZlVmhlTUE?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-30-auto-1b5a9b7a77",
-      "member_ids": [
-        "2026-10-30-auto-1b5a9b7a77"
-      ],
-      "priority": "B",
-      "published": "2026-10-30",
-      "company": "エックスサーバー、メールアドレス45万9,679件",
-      "service": "",
-      "affected_count": 459679,
-      "summary": "エックスサーバー、メールアドレス45万9,679件が情報漏洩-ブラストメールへの不正アクセスで氏名38万件超も流出",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQeGFuYzFFYnZKaUhqQ1pKMXZmVzBrWFR1S2hKZktoV1VkN1Z4VS1QS25aVmRFcmlRdVZwUnJBaDRRRVh0T25wQTRBRlhiSGljUFJIRjRtRHNHY1pjTGRRNUhOMnh6VThEQ2otYTJ1SU1uRUNIY0RjdmN1bnVIU24wbC1aWnVMVXcycE5xMWN5TWk?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-30-auto-2c2e85a694",
-      "member_ids": [
-        "2026-10-30-auto-2c2e85a694"
-      ],
-      "priority": "C",
-      "published": "2026-10-30",
-      "company": "今日もどこか",
-      "service": "",
-      "affected_count": 0,
-      "summary": "今日もどこかで情報漏えい 第53回「2026年9月の情報漏えい」カメラが情報漏えいの瞬間を捉えた世紀の映像",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5oV19Za0NQUUkzVnVkUmZCNVVNT0ppWFNlSlE3UVFRdm9OeDJqSENVQVY2SEhVOG9ZaDhNdm9Ic2c2QWJhemI3S3NxZWt3UUUyUGJUd05rRVNFRXFKdG1RWlVsdm9vZWh6akl2cQ?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-30-auto-e5cf07840a",
-      "member_ids": [
-        "2026-10-30-auto-e5cf07840a"
-      ],
-      "priority": "C",
-      "published": "2026-10-30",
-      "company": "Gunosy の社内業務用アカウントの認証情報を用いた不正ログイン",
-      "service": "",
-      "affected_count": 0,
-      "summary": "Gunosy の社内業務用アカウントの認証情報を用いた不正ログイン、取引先や役員・従業員等の情報が流出",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9WSFczZWE1R2N2VmpJX1R5cjdPX2RSRlhlT3dua3gtZU5QQ1l3SXB6emc4dWVaX1hXSVVic2NqY0N4QnZnOEswQlZXdXNfNEdCRl9TUm9lZ1pjbjZzTDZmS1U1aGU3amNQQk56Tw?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-30-auto-dd65b27ba3",
-      "member_ids": [
-        "2026-10-30-auto-dd65b27ba3"
-      ],
-      "priority": "B",
-      "published": "2026-10-30",
-      "company": "顧客アプリ」は格好の餌食に 相次ぐ不正アクセス",
-      "service": "",
-      "affected_count": 0,
-      "summary": "「顧客アプリ」は格好の餌食に 相次ぐ不正アクセス、自社を守る手立ては?(ITmedia ビジネスオンライン)",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5pbldrVnowUDZkTUhUbUFjNHhXYmFnaThxcWZxMmlzcW5DMDR2STE0bm1WQzRPVmpENFREUS1Lb0JQaUlUSUItYWVOd0RZNnc3alIyZmFBLVhYeWh3TU9iOWVMVmR2Y3JDRVUzTVJTRzVLRExLU1d3OWlJV2gtUzA?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-30-auto-1d4eec6e2f",
-      "member_ids": [
-        "2026-10-30-auto-1d4eec6e2f"
-      ],
-      "priority": "C",
-      "published": "2026-10-30",
-      "company": "韓国 ジンエアーにサイバー攻撃、会員1,454人",
-      "service": "",
-      "affected_count": 1454,
-      "summary": "韓国 ジンエアーにサイバー攻撃、会員1,454人の個人情報が流出 会員情報照会APIへの不正アクセスを確認",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQLWhKem9uUjR5aGNNaFVKMC0tYzlJM05QRGR3dS1EanlGSGplc3Z2d1Z4emg0V3dRNXNjb0hfbnVwRU5kTnRScUhUdmp3ZEVkcjFHdWROWUtvLW5MSEJaUkgwSFhXN2FCTVlBdjJzaGl3Y3JWSE1GdjdJNUdiMWNja2RWY2t3c1dxRENoN2tR?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-30-auto-43f38b22bc",
-      "member_ids": [
-        "2026-10-30-auto-43f38b22bc"
-      ],
-      "priority": "C",
-      "published": "2026-10-30",
-      "company": "個人情報漏えい件数の推移 - 26年",
-      "service": "",
-      "affected_count": 0,
-      "summary": "個人情報漏えい件数の推移 - 26年の情報漏えい3.3億件、2年で100倍に AIで無差別に不正アクセス - 写真・画像(1/1)",
-      "sources": [
-        {
-          "name": "1/1",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE13X3VpME9URXhuZ2tGME03dTZqNmxvMnd3YjkzQVFxTmVfdFQwR0Q1dlR6YTU3SEc1R0VseEdOcTlNTXVySWt0blFZbnRBeXZYU0tfcWJpMA?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-30-auto-fb0f16522d",
-      "member_ids": [
-        "2026-10-30-auto-fb0f16522d"
-      ],
-      "priority": "C",
-      "published": "2026-10-30",
-      "company": "阪和興業のインドネシア子会社",
-      "service": "",
-      "affected_count": 0,
-      "summary": "阪和興業のインドネシア子会社に不正アクセス、サーバー・PCのファイル暗号化を確認 取引先情報への影響を調査",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNYU1iTlFyb2hRdXhqVG9saHlrY1BVN2pEMmtRRHpGVDZKcE01YzF3X3JkS2JtQnRlNTBrYkRwTVh1RTdXX3JscThINE4tMDlIZkFpZzdRS2RCejNDWVNNQ1JuY2FGSTJhZGpBX1A3NFF3MTRNdFJpMUlRV3FuQXV6cTZLY0ZXTUZQbDdhd3FwZ0RtcE0wa0RrY1dLRlNESmtLWEIzRzFtVzdDUnRqWHowWjBtVjk?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-30-auto-a82b410768",
-      "member_ids": [
-        "2026-10-30-auto-a82b410768",
-        "2026-10-30-auto-ab036d3f6f"
-      ],
-      "priority": "C",
-      "published": "2026-10-30",
-      "company": "リモートディテーリング事業等を行うエンタッチ",
-      "service": "",
-      "affected_count": 0,
-      "summary": "リモートディテーリング事業等を行うエンタッチにランサムウェア攻撃",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBWaFpfZWlONUdMVWRhb1ExdnlJYWZGSE40bngxX1VLZVVOcFUwN1BDRHE3T084TllSS3I5MG9TZWUzTmVqQm04TExoallDNWdKN0dUSjF4OExUVF9QUVZFeDlHR0JEVUExQ2ZaLQ?oc=5",
-          "official": false
-        },
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE53MXMxdXlEeFNkbXZxSGYzczRuenBiMHhzajhQdEE1aS12cGJaUnpWLUZPV0NVbFFkRFV0S184RkhRZEZZSG1DakxzaWtRSUZKMmZsTkMwMkdkV1RLMW9iR3YwNTdrTks4WnRqaQ?oc=5",
+          "name": "日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0zRG9seWtSbmRseldnNG5OQ3c3dDFrMlBVeEVRYk5hR0N2OW0xb25wZWVYUlNaZ2ZGcWZsWHBCeVF2SlM3TDJEdEl2RzlHNTR3R0c2OUVUUzRHa2lpZEtFcVVZajlsRFJ1X3hVdQ?oc=5",
           "official": false
         }
       ]

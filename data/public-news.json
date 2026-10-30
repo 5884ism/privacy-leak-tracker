@@ -1,215 +1,25 @@
 {
   "version": "1.1",
-  "generated_at": "2026-10-30T09:59+09:00",
+  "generated_at": "2026-10-30T10:08+09:00",
   "update_interval_minutes": 60,
-  "news_count": 1294,
+  "news_count": 1297,
   "latest_detected_ids": [
-    "2026-10-30-auto-5f0a839639",
-    "2026-10-30-auto-c922a83f50",
-    "2026-10-30-auto-80fac03c4b",
-    "2026-10-30-auto-1b5a9b7a77",
-    "2026-10-30-auto-2c2e85a694",
-    "2026-10-30-auto-e5cf07840a",
-    "2026-10-30-auto-dd65b27ba3",
-    "2026-10-30-auto-1d4eec6e2f",
-    "2026-10-30-auto-43f38b22bc",
-    "2026-10-30-auto-fb0f16522d",
-    "2026-10-30-auto-a82b410768"
+    "2026-10-30-auto-7896087c8a"
   ],
   "news": [
     {
-      "id": "2026-10-30-auto-5f0a839639",
+      "id": "2026-10-30-auto-7896087c8a",
       "published": "2026-10-30",
-      "company": "情報漏えい 4月以降延べ2.6億人分",
-      "service": "",
-      "affected_count": 0,
-      "cause": "報道自動検知",
-      "summary": "情報漏えい 4月以降延べ2.6億人分",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBsNnVROEZUWTNOZ0J6LTRrRlpScFBwUWl2enI0Tzlqa0VkRS0xN1JJMGV5aERHVVhCWEdrMEdDQWdWZHZ6TTBvNFl5ZWhjMmpS?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-30-auto-c922a83f50",
-      "published": "2026-10-30",
-      "company": "ヤクルト、不正アクセス",
+      "company": "ヤクルト本社、顧客情報約4万件",
       "service": "",
       "affected_count": 40000,
       "cause": "報道自動検知",
-      "summary": "ヤクルト、不正アクセスで顧客情報4万件漏えい 氏名や電話番号など(ロイター)",
+      "summary": "ヤクルト本社、顧客情報約4万件が流出 不正アクセスで",
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Reuters",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5sOVBXRnlLMkRFcXd2dTZ0VVdiNzBRZ0VoRDZoeGdtYnFKRllwTXdFV01XV0JpTUlNTU0zcWZmLVBjWS1LRUgtZFBoV3Q0Wl9pWjVjVVVKNjQ2cXAxVk1QQm9VekpzSmo0MkZVRHlwNUszTm1ndUQ2ZmpHVlFLZw?oc=5",
-          "official": false
-        },
-        {
-          "name": "Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA5WDQ2WWpKWGNsdlJ3UndIME9RVUJPa0RiR1pSeUdRb0xuOEFoZU5KNmdLTlhJVldOOEVYN1lvYjZ0MlpaUnp0R28tM0NXOTdWalpDa2VKVWFQMU1hQkl0RGFZNGkwOWM4NlRhWENSVUpkaV85N09lODh3MEJVOTQ?oc=5",
-          "official": false
-        },
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE85UjBnZ0ZzV2tSYk02eW9aX3ZOQlE4c1d4dHNEdGh6anBfXzBBV3ZSVWtnd0c1YldLd3hxNkM2c1BfdlpqRmZxN2JSSGNYc2tyOGtFa2JiRG1kUQ?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-30-auto-80fac03c4b",
-      "published": "2026-10-30",
-      "company": "これまでに「延べ2.6億人分",
-      "service": "",
-      "affected_count": 0,
-      "cause": "報道自動検知",
-      "summary": "これまでに「延べ2.6億人分」の個人情報漏洩--個人情報保護委員会",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBJMVhza0FhelZFUVVBaUx1WWxweUNQMWpiRjBUdXoxSFFkNkpNWGg3VlQ5ZmFDX3h5b0pjVzBkMnFodTNmREtEbkFDaHZlVmhlTUE?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-30-auto-1b5a9b7a77",
-      "published": "2026-10-30",
-      "company": "エックスサーバー、メールアドレス45万9,679件",
-      "service": "",
-      "affected_count": 459679,
-      "cause": "報道自動検知",
-      "summary": "エックスサーバー、メールアドレス45万9,679件が情報漏洩-ブラストメールへの不正アクセスで氏名38万件超も流出",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQeGFuYzFFYnZKaUhqQ1pKMXZmVzBrWFR1S2hKZktoV1VkN1Z4VS1QS25aVmRFcmlRdVZwUnJBaDRRRVh0T25wQTRBRlhiSGljUFJIRjRtRHNHY1pjTGRRNUhOMnh6VThEQ2otYTJ1SU1uRUNIY0RjdmN1bnVIU24wbC1aWnVMVXcycE5xMWN5TWk?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-30-auto-2c2e85a694",
-      "published": "2026-10-30",
-      "company": "今日もどこか",
-      "service": "",
-      "affected_count": 0,
-      "cause": "報道自動検知",
-      "summary": "今日もどこかで情報漏えい 第53回「2026年9月の情報漏えい」カメラが情報漏えいの瞬間を捉えた世紀の映像",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5oV19Za0NQUUkzVnVkUmZCNVVNT0ppWFNlSlE3UVFRdm9OeDJqSENVQVY2SEhVOG9ZaDhNdm9Ic2c2QWJhemI3S3NxZWt3UUUyUGJUd05rRVNFRXFKdG1RWlVsdm9vZWh6akl2cQ?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-30-auto-e5cf07840a",
-      "published": "2026-10-30",
-      "company": "Gunosy の社内業務用アカウントの認証情報を用いた不正ログイン",
-      "service": "",
-      "affected_count": 0,
-      "cause": "報道自動検知",
-      "summary": "Gunosy の社内業務用アカウントの認証情報を用いた不正ログイン、取引先や役員・従業員等の情報が流出",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9WSFczZWE1R2N2VmpJX1R5cjdPX2RSRlhlT3dua3gtZU5QQ1l3SXB6emc4dWVaX1hXSVVic2NqY0N4QnZnOEswQlZXdXNfNEdCRl9TUm9lZ1pjbjZzTDZmS1U1aGU3amNQQk56Tw?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-30-auto-dd65b27ba3",
-      "published": "2026-10-30",
-      "company": "顧客アプリ」は格好の餌食に 相次ぐ不正アクセス",
-      "service": "",
-      "affected_count": 0,
-      "cause": "報道自動検知",
-      "summary": "「顧客アプリ」は格好の餌食に 相次ぐ不正アクセス、自社を守る手立ては?(ITmedia ビジネスオンライン)",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5pbldrVnowUDZkTUhUbUFjNHhXYmFnaThxcWZxMmlzcW5DMDR2STE0bm1WQzRPVmpENFREUS1Lb0JQaUlUSUItYWVOd0RZNnc3alIyZmFBLVhYeWh3TU9iOWVMVmR2Y3JDRVUzTVJTRzVLRExLU1d3OWlJV2gtUzA?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-30-auto-1d4eec6e2f",
-      "published": "2026-10-30",
-      "company": "韓国 ジンエアーにサイバー攻撃、会員1,454人",
-      "service": "",
-      "affected_count": 1454,
-      "cause": "報道自動検知",
-      "summary": "韓国 ジンエアーにサイバー攻撃、会員1,454人の個人情報が流出 会員情報照会APIへの不正アクセスを確認",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQLWhKem9uUjR5aGNNaFVKMC0tYzlJM05QRGR3dS1EanlGSGplc3Z2d1Z4emg0V3dRNXNjb0hfbnVwRU5kTnRScUhUdmp3ZEVkcjFHdWROWUtvLW5MSEJaUkgwSFhXN2FCTVlBdjJzaGl3Y3JWSE1GdjdJNUdiMWNja2RWY2t3c1dxRENoN2tR?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-30-auto-43f38b22bc",
-      "published": "2026-10-30",
-      "company": "個人情報漏えい件数の推移 - 26年",
-      "service": "",
-      "affected_count": 0,
-      "cause": "報道自動検知",
-      "summary": "個人情報漏えい件数の推移 - 26年の情報漏えい3.3億件、2年で100倍に AIで無差別に不正アクセス - 写真・画像(1/1)",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "1/1",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE13X3VpME9URXhuZ2tGME03dTZqNmxvMnd3YjkzQVFxTmVfdFQwR0Q1dlR6YTU3SEc1R0VseEdOcTlNTXVySWt0blFZbnRBeXZYU0tfcWJpMA?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-30-auto-fb0f16522d",
-      "published": "2026-10-30",
-      "company": "阪和興業のインドネシア子会社",
-      "service": "",
-      "affected_count": 0,
-      "cause": "報道自動検知",
-      "summary": "阪和興業のインドネシア子会社に不正アクセス、サーバー・PCのファイル暗号化を確認 取引先情報への影響を調査",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNYU1iTlFyb2hRdXhqVG9saHlrY1BVN2pEMmtRRHpGVDZKcE01YzF3X3JkS2JtQnRlNTBrYkRwTVh1RTdXX3JscThINE4tMDlIZkFpZzdRS2RCejNDWVNNQ1JuY2FGSTJhZGpBX1A3NFF3MTRNdFJpMUlRV3FuQXV6cTZLY0ZXTUZQbDdhd3FwZ0RtcE0wa0RrY1dLRlNESmtLWEIzRzFtVzdDUnRqWHowWjBtVjk?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-30-auto-a82b410768",
-      "published": "2026-10-30",
-      "company": "リモートディテーリング事業等を行うエンタッチ",
-      "service": "",
-      "affected_count": 0,
-      "cause": "報道自動検知",
-      "summary": "リモートディテーリング事業等を行うエンタッチにランサムウェア攻撃",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBWaFpfZWlONUdMVWRhb1ExdnlJYWZGSE40bngxX1VLZVVOcFUwN1BDRHE3T084TllSS3I5MG9TZWUzTmVqQm04TExoallDNWdKN0dUSjF4OExUVF9QUVZFeDlHR0JEVUExQ2ZaLQ?oc=5",
+          "name": "日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0zRG9seWtSbmRseldnNG5OQ3c3dDFrMlBVeEVRYk5hR0N2OW0xb25wZWVYUlNaZ2ZGcWZsWHBCeVF2SlM3TDJEdEl2RzlHNTR3R0c2OUVUUzRHa2lpZEtFcVVZajlsRFJ1X3hVdQ?oc=5",
           "official": false
         }
       ]
@@ -227,6 +37,23 @@
         {
           "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1PZXNjbHBVc0F3T3g5TEg3YjJUV1ZhRTlEeTI5YmRpbThhY2xVcXAtTUl2eVFsVklhVDREMm5mWTkzWFlMMU9BMw?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-30-auto-fb0f16522d",
+      "published": "2026-10-30",
+      "company": "阪和興業のインドネシア子会社",
+      "service": "",
+      "affected_count": 0,
+      "cause": "報道自動検知",
+      "summary": "阪和興業のインドネシア子会社に不正アクセス、サーバー・PCのファイル暗号化を確認 取引先情報への影響を調査",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNYU1iTlFyb2hRdXhqVG9saHlrY1BVN2pEMmtRRHpGVDZKcE01YzF3X3JkS2JtQnRlNTBrYkRwTVh1RTdXX3JscThINE4tMDlIZkFpZzdRS2RCejNDWVNNQ1JuY2FGSTJhZGpBX1A3NFF3MTRNdFJpMUlRV3FuQXV6cTZLY0ZXTUZQbDdhd3FwZ0RtcE0wa0RrY1dLRlNESmtLWEIzRzFtVzdDUnRqWHowWjBtVjk?oc=5",
           "official": false
         }
       ]
@@ -419,6 +246,23 @@
       ]
     },
     {
+      "id": "2026-10-30-auto-e5cf07840a",
+      "published": "2026-10-30",
+      "company": "Gunosy の社内業務用アカウントの認証情報を用いた不正ログイン",
+      "service": "",
+      "affected_count": 0,
+      "cause": "報道自動検知",
+      "summary": "Gunosy の社内業務用アカウントの認証情報を用いた不正ログイン、取引先や役員・従業員等の情報が流出",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9WSFczZWE1R2N2VmpJX1R5cjdPX2RSRlhlT3dua3gtZU5QQ1l3SXB6emc4dWVaX1hXSVVic2NqY0N4QnZnOEswQlZXdXNfNEdCRl9TUm9lZ1pjbjZzTDZmS1U1aGU3amNQQk56Tw?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
       "id": "2026-10-30-auto-e55dca761e",
       "published": "2026-10-30",
       "company": "焦点",
@@ -448,6 +292,23 @@
         {
           "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZTh6bHg1azAyUmtMVGZ3RmVjaWozOUJQOVVzdVlzUHl4VUlFTVQ5UkNTdGdacnp2VnhNdFlTQVJxVHVXYVhHSnRjakhWZzVKeE5DN19Ed3BJWHdLOWlka2RXSDQwMmROMVpwX2tMLXVIMi1vcENQdVBFcXc5czNwUGhhTkh3NWdhTlI0ZWxn?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-30-auto-dd65b27ba3",
+      "published": "2026-10-30",
+      "company": "顧客アプリ」は格好の餌食に 相次ぐ不正アクセス",
+      "service": "",
+      "affected_count": 0,
+      "cause": "報道自動検知",
+      "summary": "「顧客アプリ」は格好の餌食に 相次ぐ不正アクセス、自社を守る手立ては?(ITmedia ビジネスオンライン)",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5pbldrVnowUDZkTUhUbUFjNHhXYmFnaThxcWZxMmlzcW5DMDR2STE0bm1WQzRPVmpENFREUS1Lb0JQaUlUSUItYWVOd0RZNnc3alIyZmFBLVhYeWh3TU9iOWVMVmR2Y3JDRVUzTVJTRzVLRExLU1d3OWlJV2gtUzA?oc=5",
           "official": false
         }
       ]
@@ -538,6 +399,33 @@
       ]
     },
     {
+      "id": "2026-10-30-auto-c922a83f50",
+      "published": "2026-10-30",
+      "company": "ヤクルト、不正アクセス",
+      "service": "",
+      "affected_count": 40000,
+      "cause": "報道自動検知",
+      "summary": "ヤクルト、不正アクセスで顧客情報4万件漏えい 氏名や電話番号など(ロイター)",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5sOVBXRnlLMkRFcXd2dTZ0VVdiNzBRZ0VoRDZoeGdtYnFKRllwTXdFV01XV0JpTUlNTU0zcWZmLVBjWS1LRUgtZFBoV3Q0Wl9pWjVjVVVKNjQ2cXAxVk1QQm9VekpzSmo0MkZVRHlwNUszTm1ndUQ2ZmpHVlFLZw?oc=5",
+          "official": false
+        },
+        {
+          "name": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA5WDQ2WWpKWGNsdlJ3UndIME9RVUJPa0RiR1pSeUdRb0xuOEFoZU5KNmdLTlhJVldOOEVYN1lvYjZ0MlpaUnp0R28tM0NXOTdWalpDa2VKVWFQMU1hQkl0RGFZNGkwOWM4NlRhWENSVUpkaV85N09lODh3MEJVOTQ?oc=5",
+          "official": false
+        },
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE85UjBnZ0ZzV2tSYk02eW9aX3ZOQlE4c1d4dHNEdGh6anBfXzBBV3ZSVWtnd0c1YldLd3hxNkM2c1BfdlpqRmZxN2JSSGNYc2tyOGtFa2JiRG1kUQ?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
       "id": "2026-10-30-auto-c54d6434ea",
       "published": "2026-10-30",
       "company": "アイシン、1900人",
@@ -565,13 +453,13 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "Yahoo!ニュース",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBiMzZJUXZ5Sk5ydkxsT2ZSa3dQNUhzRUtoUUFPOUZPNnJDaTd3MW9sRU5HTTdTMmhNeXBZU2V6S0hON0swSjFqQzVRV0tidUZhTFNwdDZXcHVKeklhdHNtUm9XNmxZekdnWUZoajZuTnNvM2F2WktQOGQ0ZGh6Mmc?oc=5",
           "official": false
         },
         {
-          "name": "Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5xNmxpWW9HcWI4OXRyamNOS0VTX0VmRzE5MERjTnA4NGg2V3JNcll0ejVTV3BidGdMWVZVM0tXMmhjVXpLTXZhbkNFUkw0VVFIV2hZLWFuZmpCRVVJVmpnZ2hHZVhWNEl0VW1fZDVVM3FIOVJsWjNQTVdxME41Q3c?oc=5",
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1ONzRDQjY3ZVpacmNIUnl4RGtIOHFaV2VSamJtRmJlLUtGRk5TM3NvbU9UdXN0d1VVWHQxVDhxS0N5ajk0R2wyMGtHUVF6aTVaVFRUWUZlN21CRmZiVlhleWh6N0JzQzBGM3NneHp3VdIBdEFVX3lxTE1xbmZ2RnlvY2NtaW9wbmZVODBqdzFnWlVFck9JQlJhejU1V09DMjdJek1abkoybXc0dVRrc2FlQ2ZMazRzNHphZGhjNTF0dFNjVmFVMnVzWWtxalRwbXJNREhtNjVMSE9INlEzeUx2bFhwUXBw?oc=5",
           "official": false
         }
       ]
@@ -640,6 +528,23 @@
         {
           "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE53MXMxdXlEeFNkbXZxSGYzczRuenBiMHhzajhQdEE1aS12cGJaUnpWLUZPV0NVbFFkRFV0S184RkhRZEZZSG1DakxzaWtRSUZKMmZsTkMwMkdkV1RLMW9iR3YwNTdrTks4WnRqaQ?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-30-auto-a82b410768",
+      "published": "2026-10-30",
+      "company": "リモートディテーリング事業等を行うエンタッチ",
+      "service": "",
+      "affected_count": 0,
+      "cause": "報道自動検知",
+      "summary": "リモートディテーリング事業等を行うエンタッチにランサムウェア攻撃",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBWaFpfZWlONUdMVWRhb1ExdnlJYWZGSE40bngxX1VLZVVOcFUwN1BDRHE3T084TllSS3I5MG9TZWUzTmVqQm04TExoallDNWdKN0dUSjF4OExUVF9QUVZFeDlHR0JEVUExQ2ZaLQ?oc=5",
           "official": false
         }
       ]
@@ -832,6 +737,23 @@
       ]
     },
     {
+      "id": "2026-10-30-auto-80fac03c4b",
+      "published": "2026-10-30",
+      "company": "これまでに「延べ2.6億人分",
+      "service": "",
+      "affected_count": 0,
+      "cause": "報道自動検知",
+      "summary": "これまでに「延べ2.6億人分」の個人情報漏洩--個人情報保護委員会",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBJMVhza0FhelZFUVVBaUx1WWxweUNQMWpiRjBUdXoxSFFkNkpNWGg3VlQ5ZmFDX3h5b0pjVzBkMnFodTNmREtEbkFDaHZlVmhlTUE?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
       "id": "2026-10-30-auto-7dfe91cba6",
       "published": "2026-10-30",
       "company": "メール配信サービス「ブラストメール」へ",
@@ -951,6 +873,40 @@
       ]
     },
     {
+      "id": "2026-10-30-auto-5f0a839639",
+      "published": "2026-10-30",
+      "company": "情報漏えい 4月以降延べ2.6億人分",
+      "service": "",
+      "affected_count": 0,
+      "cause": "報道自動検知",
+      "summary": "情報漏えい 4月以降延べ2.6億人分",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBsNnVROEZUWTNOZ0J6LTRrRlpScFBwUWl2enI0Tzlqa0VkRS0xN1JJMGV5aERHVVhCWEdrMEdDQWdWZHZ6TTBvNFl5ZWhjMmpS?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-30-auto-56f8d0ba2c",
+      "published": "2026-10-30",
+      "company": "GMO熊谷社長",
+      "service": "",
+      "affected_count": 0,
+      "cause": "報道自動検知",
+      "summary": "GMO熊谷社長、流出事件で犯人特定の有力情報入手と表明 笑顔投稿には謝罪",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9vc1JTb0VCbU4yTXRGWUYtbDliQ1NrQldTSTFkaU5tdVhIMFJVejFpM2FWaFhIZld0MjRhSmJhZk5USmtGTXJHUldraGs5WGxyRGFldElqWjJtbTU1cEZjUXJaclNfX0xBbzRUVXg4cGNobC03?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
       "id": "2026-10-30-auto-56d698a689",
       "published": "2026-10-30",
       "company": "神奈川県のメルマガ配信サービス",
@@ -995,7 +951,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "NHK",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1EUXZuWlVpZmVtYmpIVEoxZzN2Mjl2bDY4bW1jTEJneUh2X2xqT1pDdFNlMDVnTnVQN3I0N0JVR0xkNmZhU1FYeklmbFMyZzUzbmhTZXpuUGRkOFpVUXEw?oc=5",
           "official": false
         }
@@ -1014,6 +970,40 @@
         {
           "name": "共同通信",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE45djZrM3B5bzhncnM5YzhXUjYxU3YxalBhZlc5alotdmNmb1hseHFtd18weF9TWl90WUlZcUZ6S2FCS3pieFU3NEgyNmhTYlNlX2JkNHhENE50d1VWN0lVMzZ6Q0taWWdETkpFSVIwVkp2N1RyOFlaUlAtT1ZZVWM?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-30-auto-4a04f6928d",
+      "published": "2026-10-30",
+      "company": "企業狙う不正アクセス",
+      "service": "",
+      "affected_count": 0,
+      "cause": "報道自動検知",
+      "summary": "企業狙う不正アクセス 情報流出3億件超 2年で約100倍に急増 AI使いシステムのほころび無差別攻撃",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "沖縄タイムス社",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5GMHZ3QmIwMkdZNFduZTBPWXFYWGl3VVNMMEpzdDd4ZEc0OFhqWGdiYVQ0el9pTk5mdDBNcjg0dVBRQWJGcmprQTB1dFhVNEFEcU9SX2lBTXNCSmdrN0E?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-30-auto-43f38b22bc",
+      "published": "2026-10-30",
+      "company": "個人情報漏えい件数の推移 - 26年",
+      "service": "",
+      "affected_count": 0,
+      "cause": "報道自動検知",
+      "summary": "個人情報漏えい件数の推移 - 26年の情報漏えい3.3億件、2年で100倍に AIで無差別に不正アクセス",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE13X3VpME9URXhuZ2tGME03dTZqNmxvMnd3YjkzQVFxTmVfdFQwR0Q1dlR6YTU3SEc1R0VseEdOcTlNTXVySWt0blFZbnRBeXZYU0tfcWJpMA?oc=5",
           "official": false
         }
       ]
@@ -1172,6 +1162,23 @@
       ]
     },
     {
+      "id": "2026-10-30-auto-2c2e85a694",
+      "published": "2026-10-30",
+      "company": "今日もどこか",
+      "service": "",
+      "affected_count": 0,
+      "cause": "報道自動検知",
+      "summary": "今日もどこかで情報漏えい 第53回「2026年9月の情報漏えい」カメラが情報漏えいの瞬間を捉えた世紀の映像",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5oV19Za0NQUUkzVnVkUmZCNVVNT0ppWFNlSlE3UVFRdm9OeDJqSENVQVY2SEhVOG9ZaDhNdm9Ic2c2QWJhemI3S3NxZWt3UUUyUGJUd05rRVNFRXFKdG1RWlVsdm9vZWh6akl2cQ?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
       "id": "2026-10-30-auto-2ba5b29889",
       "published": "2026-10-30",
       "company": "サーティワン31モバイルオーダーで最大8,174名",
@@ -1269,6 +1276,40 @@
         {
           "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8tMndmQlJKQ1VZXzF6a1B0NjN3RHVGb2JSbDJpalNIY1R4QXJXWnc4YnEtZzk2Vjl0b3JSQTVWeWhZRU1lTVlRaTBNOU5LQXZITDFGZFJxdXJnUi15MEFOTHJfY0s3RXpDNFdWd3Q5ajhnZHlO?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-30-auto-1d4eec6e2f",
+      "published": "2026-10-30",
+      "company": "韓国 ジンエアーにサイバー攻撃、会員1,454人",
+      "service": "",
+      "affected_count": 1454,
+      "cause": "報道自動検知",
+      "summary": "韓国 ジンエアーにサイバー攻撃、会員1,454人の個人情報が流出 会員情報照会APIへの不正アクセスを確認",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQLWhKem9uUjR5aGNNaFVKMC0tYzlJM05QRGR3dS1EanlGSGplc3Z2d1Z4emg0V3dRNXNjb0hfbnVwRU5kTnRScUhUdmp3ZEVkcjFHdWROWUtvLW5MSEJaUkgwSFhXN2FCTVlBdjJzaGl3Y3JWSE1GdjdJNUdiMWNja2RWY2t3c1dxRENoN2tR?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-30-auto-1b5a9b7a77",
+      "published": "2026-10-30",
+      "company": "エックスサーバー、メールアドレス45万9,679件",
+      "service": "",
+      "affected_count": 459679,
+      "cause": "報道自動検知",
+      "summary": "エックスサーバー、メールアドレス45万9,679件が情報漏洩-ブラストメールへの不正アクセスで氏名38万件超も流出",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQeGFuYzFFYnZKaUhqQ1pKMXZmVzBrWFR1S2hKZktoV1VkN1Z4VS1QS25aVmRFcmlRdVZwUnJBaDRRRVh0T25wQTRBRlhiSGljUFJIRjRtRHNHY1pjTGRRNUhOMnh6VThEQ2otYTJ1SU1uRUNIY0RjdmN1bnVIU24wbC1aWnVMVXcycE5xMWN5TWk?oc=5",
           "official": false
         }
       ]
@@ -1420,7 +1461,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "NHKニュース",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE01RVpGNFpHVmVUMmM1QzJPTmFodWMzbml4emhLS0RieFRCeS1mRmVvNzNLYkJXb2JESHU1d2VNTWFTWXp2cS1OMm9KSHdQZUIzcTkxMVlFZWdKbEM2X2lB?oc=5",
           "official": false
         }
@@ -1753,7 +1794,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "読売新聞",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE41Uy1Qc2xGRDFnUnVibHN2RGRNdmRLbFRZS0s3d18xMUh2MjZMQTdocjl0RVF2YzB1ZDdmUWdUUHV5bTJ1UHBISXhKY01wOFdpOEFka2NFV0U5aFdrZjhFcEZGSmNycWFvS0d5YXZ6TEdNN2pqQm1rNzhuY1phS2s?oc=5",
           "official": false
         }
@@ -3004,7 +3045,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "テレビ朝日",
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9iQnZVVkkwX2U0YzBiR3dic0RIUUlHV2M0c1RuMW13c3pOSHJ0Y3BfZ0JiRjl3ME40NnlNTHIwdEZKQ0RrWXl3Uy1RRXJyQ2o5WmttZHRiaGVGSTMtbWhLMzZ4ZFFzVXVvZHJacC1aVEluSGs?oc=5",
           "official": false
         }
@@ -3391,7 +3432,7 @@
       "service": "",
       "affected_count": 0,
       "cause": "報道自動検知",
-      "summary": "全日空、顧客情報流出か 不正アクセス、影響調査中 | | 全国のニュース",
+      "summary": "【印刷用】全日空、顧客情報流出か/不正アクセス、影響調査中 | 全国ニュース",
       "exposed_data": "要確認",
       "sources": [
         {
@@ -8613,7 +8654,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "合同会社ロケットボーイズ",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPeU9SNGxfOG5xbTN1NGdvWjVZNWQzNFdxWURSZjF0VDhncTF1cnEyc29EM2RpdkQ2YzRncG1fcEFhRjRiQXMwdEdpME9IVEVPQ290NmxxcmZTVXROdF9CUklMTDRHZEw5dGRFTzVOZHBFQy16UllNQ1FsLWpScmpqcTJPZkNDZFpSSHJ5d2o4ZjFmSUFOT2VLT0JRaWJJTW1wRFA5dXdUY3ZRMWhJaVE?oc=5",
           "official": false
         }
