@@ -1,55 +1,28 @@
 {
   "version": "1.1",
-  "generated_at": "2026-10-31T12:40:53+00:00",
-  "before_count": 923,
-  "after_count": 930,
-  "net_change": 7,
-  "new_count": 9,
-  "removed_count": 0,
-  "visible_before_count": 923,
-  "visible_after_count": 930,
-  "visible_net_change": 7,
-  "raw_before_count": 1429,
-  "raw_after_count": 1446,
-  "raw_net_change": 17,
+  "generated_at": "2026-10-31T17:49:01+00:00",
+  "before_count": 930,
+  "after_count": 922,
+  "net_change": -8,
+  "new_count": 1,
+  "removed_count": 1,
+  "visible_before_count": 930,
+  "visible_after_count": 922,
+  "visible_net_change": -8,
+  "raw_before_count": 1446,
+  "raw_after_count": 1451,
+  "raw_net_change": 5,
   "new_candidate_ids": [
-    "2026-10-31-auto-83240ffff6",
-    "2026-10-31-auto-8f03e02085",
-    "2026-10-31-auto-8d9c62e1e7",
-    "2026-10-31-auto-67001b5d34",
-    "2026-10-31-auto-81756b7fdc",
-    "2026-10-31-auto-72e0c0c264",
-    "2026-10-31-auto-b609f61759",
-    "2026-10-31-auto-53acc672a5",
-    "2026-10-31-auto-345f95cdb7"
+    "2026-11-01-auto-8f03e02085"
   ],
   "new_candidates": [
     {
-      "id": "2026-10-31-auto-83240ffff6",
+      "id": "2026-11-01-auto-8f03e02085",
       "member_ids": [
-        "2026-10-31-auto-83240ffff6"
+        "2026-11-01-auto-8f03e02085"
       ],
       "priority": "C",
-      "published": "2026-10-31",
-      "company": "NTTデータ委託先",
-      "service": "",
-      "affected_count": 0,
-      "summary": "NTTデータ委託先に不正アクセス 社債購入者情報漏えいの可能性",
-      "sources": [
-        {
-          "name": "NHKニュース",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5WcExuZFl4SU5fZUtMNVZtSHdxd3pCSVFVMTM5S3pnci1oS3pFejZsemFnR2tKRHZvSlJTd292TlpGci13V295WUFkLWt0bDFuVXBaeHRKLTYyOElzS0FN?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-31-auto-8f03e02085",
-      "member_ids": [
-        "2026-10-31-auto-8f03e02085"
-      ],
-      "priority": "C",
-      "published": "2026-10-31",
+      "published": "2026-11-01",
       "company": "NTTデータ、委託先SaaS",
       "service": "",
       "affected_count": 0,
@@ -61,146 +34,20 @@
           "official": false
         }
       ]
-    },
-    {
-      "id": "2026-10-31-auto-8d9c62e1e7",
-      "member_ids": [
-        "2026-10-31-auto-8d9c62e1e7"
-      ],
-      "priority": "B",
-      "published": "2026-10-31",
-      "company": "クラブツーリズム",
-      "service": "",
-      "affected_count": 4000000,
-      "summary": "クラブツーリズム 400万件超の個人情報が漏洩か 自社のサーバーの一部に不正アクセス",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1oMUMyVDUzYThFSkJVckxKWjJxd055ZFJnUHlZYnloS0dIbjRiSFlvbjEzTXB4c2xjZVBqYk43SUplNW0xVzZTV2V1V0FPQnlIUXZucVdR?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-31-auto-67001b5d34",
-      "member_ids": [
-        "2026-10-31-auto-67001b5d34",
-        "2026-10-31-auto-21787633b9"
-      ],
-      "priority": "B",
-      "published": "2026-10-31",
-      "company": "近鉄GHDや野村証など、社債購入者",
-      "service": "",
-      "affected_count": 2678,
-      "summary": "近鉄GHDや野村証など、社債購入者の情報漏えいの可能性-不正アクセス",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE53enFmT0MtbkM0REp6azRzOFBZTTdKSWxDTHh1NHFDQng2VEVBNm56SzFnS29MSEJ4UWVjOGZSbEVadDdnOFM0SHdlSDYxc3lrbEtFSlhJUGlSak9lWnlRR1JGcldqczFLbm9zOEQzekd5Sk04?oc=5",
-          "official": false
-        },
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE93UnAzVXB1UjMyc1F2YlYxMmpVQ1ZWbmRDMFlmZzZJSlllN0QxSVRBanFnVUtKZjc2Tm1Yd0RFSkcyMDVTa3dsOGU5Q3I1U3lmMlczNHJZVU1TOG9QQnBWZVZoQ211NWVsT29Bdg?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-31-auto-81756b7fdc",
-      "member_ids": [
-        "2026-10-31-auto-81756b7fdc"
-      ],
-      "priority": "C",
-      "published": "2026-10-31",
-      "company": "閲覧権限のない内部情報へ",
-      "service": "",
-      "affected_count": 0,
-      "summary": "閲覧権限のない内部情報への不正アクセス・勤務中に同僚にセクハラ...長崎県壱岐市が職員2人を処分(読売新聞オンライン)",
-      "sources": [
-        {
-          "name": "読売新聞",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFByeVdBeGFiTklOdTYtckVsTzB5Vm9RZXIxaGRIRi0wcDVUTm1kUDVmY3pEaU45UVhYTlptVGk0dDRiTkl4aWZVZmxTSzdjUkRubjBKZkoxRi1NYWtBNFNhUkkzUTN6YWRrc05IZHplR0xDRVNXeVJhTFFyc3hFa2c?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-31-auto-72e0c0c264",
-      "member_ids": [
-        "2026-10-31-auto-72e0c0c264"
-      ],
-      "priority": "C",
-      "published": "2026-10-31",
-      "company": "カード情報流出",
-      "service": "",
-      "affected_count": 0,
-      "summary": "カード情報流出、PayPay不正送金も 利用者はどう備えるべきか",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5BTUY2VHhyd1FmMUtrSGpFSmpfWU5RanNDcjlVLXJnTFdoUVNyRklYYkw5SFVGR01TQ3UzMHlrT0ZGS2hTdm94dFdzNjdJT0IxV1lWaXMtZTMtYkY1cW8wX1JtekRmQdIBa0FVX3lxTE1WQ29samt4Tml4ZUFqaTN5Q2tPQ3BQYUNpRV9lREhnTUNZNkRfeVBOM2c5WGNuLXFfdHVvU2VMUV9uUnE2VHRaSTY2a0E2aHZxeXoxZTRhZlk0NVlmYmQ3QnpEVG1YcGYzQ0hr?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-31-auto-b609f61759",
-      "member_ids": [
-        "2026-10-31-auto-b609f61759"
-      ],
-      "priority": "C",
-      "published": "2026-10-31",
-      "company": "近鉄GHD、社債投資家2678人分の氏名・購入額",
-      "service": "",
-      "affected_count": 2678,
-      "summary": "近鉄GHD、社債投資家2678人分の氏名・購入額が漏えいか NTTデータ再委託先に不正アクセス",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1EbW9aZzlZLU1wdGNQZE5KWUQ0OXBFOWdyZzBuT0N3MGJHNEMxd1ZjSnNXSVBqd2U0ZHc3YmNxUmxVTk93eDJSYW9Uc2tTbm9qaW15bmUyMHhwLVdRMkdsTzNjY1M5bG9lNDV4VnVidDltUUJ6?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-31-auto-53acc672a5",
-      "member_ids": [
-        "2026-10-31-auto-53acc672a5"
-      ],
-      "priority": "C",
-      "published": "2026-10-31",
-      "company": "近鉄社債購入者の情報",
-      "service": "",
-      "affected_count": 2678,
-      "summary": "近鉄社債購入者の情報が漏えいか 氏名や金額、2678人分",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNc05JZ3BPT0FpNWtSZXJSdjN6dHdHbTdKc0hPNGt5MFVQNHlQWWtLLTd3SDh1MVhtOTZFbnFkS0NWbjVnaUxNMDAtaXNXbElPQUt3em02elNoTC1SLUVsRS1qQWVrQ3Bqd21aTkFoWFNUekh0VkZUcTNYUmxUVXpfcVc1bFVrbmEzeU11VUl5YmQyRTTSAZMBQVVfeXFMTXNOSWdwT09BaTVrUmVyUnYzenR3R203SnNITzRreTBVUDR5UFlrSy03d0g4dTFYbTk2RW5xZEtDVm41Z2lMTTAwLWlzV2xJT0FLd3ptNnpTaEwtUi1FbEUtakFla0NwandtWk5BaFhTVHpIdFZGVHEzWFJsVFV6X3FXNWxVa25hM3lNdVVJeWJkMkU0?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-31-auto-345f95cdb7",
-      "member_ids": [
-        "2026-10-31-auto-345f95cdb7"
-      ],
-      "priority": "C",
-      "published": "2026-10-31",
-      "company": "【代表インタビュー】バイナンスで約1兆円流出|資産の8割を仮想通貨で持つCryp",
-      "service": "",
-      "affected_count": 0,
-      "summary": "【代表インタビュー】バイナンスで約1兆円流出|資産の8割を仮想通貨で持つCrypto Times代表は、どこに置いているのか",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5RMFBVZlJHTkdYUXpfcnpqV2k2WjdaeGVYbTBCcklkQlBRQ2ZBcUJJT2hiUlE0VFlsQUZ5dWU4NWZ5SVpFUnBOYnAzajhUQTJ0LVNubTZMS0dkaDZzQUZhYnpQaw?oc=5",
-          "official": false
-        }
-      ]
     }
   ],
-  "removed_candidates": []
+  "removed_candidates": [
+    {
+      "id": "2026-10-31-auto-8f03e02085",
+      "member_ids": [
+        "2026-10-31-auto-8f03e02085"
+      ],
+      "priority": "C",
+      "published": "2026-10-31",
+      "company": "NTTデータ、委託先SaaS",
+      "service": "",
+      "affected_count": 0,
+      "summary": "NTTデータ、委託先SaaSに不正アクセス...社債特典サービス停止、漏えい「空白」とは?"
+    }
+  ]
 }
