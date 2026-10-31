@@ -1,6 +1,6 @@
 {
   "version": "1.2",
-  "last_updated": "2026-10-30 09:59 JST",
+  "last_updated": "2026-10-31 09:47 JST",
   "incidents": [
     {
       "published": "2026-10-27",
@@ -121,16 +121,8 @@
           "url": "https://www2.sagawa-exp.co.jp/information/detail/425/"
         },
         {
-          "name": "日本経済新聞",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4zRzNyVDdVR0VxUnkydHFTcGk2QXVjR0dNYkxoNWJES2laRkRyTjBrUFhOYkdRcW9MM21HNlViWS1kc2RtWjNtRm9NY1ZKVUllVlo3ZXBPblYxMkFTN2FBWXRfdVhQT0hlTHU4eg?oc=5"
-        },
-        {
-          "name": "ITmedia",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE42UXI5V08wUXFlZGRmYzZpNVFSUjlsVWwxdnZld2toTk94T1FEQzJNZXg0QXd5LVV0YzBVWU5DUUd6eFJCZmVJVldtN01PbS1MU0FNWkMyZ3V1SlNoNDVPUHNPU3ZUeEM4clE?oc=5"
-        },
-        {
-          "name": "朝日新聞",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBDcElGc0hWbG1Kb2wtZ1N2SEJVcENPTkVYU3h6WXdJUmxfUmk1Z0VyaF9BTHNIcHFPazA0c3BqUVhxelZiMXZkQVg2YlpKUmtHeHVwc2pxQ3pJcU04TENjZGN6YzM5YVU?oc=5"
         }
       ]
     },
@@ -145,7 +137,7 @@
       "exposed_data": "デジタル庁のホームページの以下のお問合せフォームに入力いただいた内容",
       "sources": [
         {
-          "name": "INTERNET Watch",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8tQVhpeWxrOTlqNXVPRUc2dUNUbzZlVE4teHcydHRneUZYLWhsZXNUY25HRE1ISUZGQ2hXdTMzU1g4UWc5b0N3U09YeTFlSVN2UWV5YW9oZDNJeVNzcmhYeUtPZmtyZ3pDMmxj?oc=5"
         },
         {
@@ -272,6 +264,12 @@
       "official_updates": [
         {
           "detected_at": "2026-10-22 19:33 JST",
+          "title": "音源販売「SONICWIRE」 公式ページ内容更新を検知",
+          "url": "https://www.crypton.co.jp/cfm/news/2026/10/20info",
+          "kind": "page_changed"
+        },
+        {
+          "detected_at": "2026-10-31 09:46 JST",
           "title": "音源販売「SONICWIRE」 公式ページ内容更新を検知",
           "url": "https://www.crypton.co.jp/cfm/news/2026/10/20info",
           "kind": "page_changed"
@@ -895,6 +893,12 @@
           "title": "株式会社アルカディア 公式ページ内容更新を検知",
           "url": "https://raiden.site.ktaiwork.jp/archives/4597",
           "kind": "page_changed"
+        },
+        {
+          "detected_at": "2026-10-31 09:46 JST",
+          "title": "株式会社アルカディア 公式ページ内容更新を検知",
+          "url": "https://raiden.site.ktaiwork.jp/archives/4597",
+          "kind": "page_changed"
         }
       ]
     },
@@ -1036,6 +1040,12 @@
           "title": "「Gyazo」への不正アクセスによる情報漏えいに関する調査結果のご報告とお詫び（第三報）",
           "url": "https://corp.helpfeel.com/news/news-20261021",
           "kind": "new_official_page"
+        },
+        {
+          "detected_at": "2026-10-31 09:47 JST",
+          "title": "Helpfeel 公式ページ内容更新を検知",
+          "url": "https://corp.helpfeel.com/news/news-20260916-1",
+          "kind": "page_changed"
         }
       ]
     },
