@@ -1,25 +1,43 @@
 {
   "version": "1.1",
-  "generated_at": "2026-11-01T02:49+09:00",
+  "generated_at": "2026-11-01T06:40+09:00",
   "update_interval_minutes": 60,
-  "news_count": 1451,
+  "news_count": 1453,
   "latest_detected_ids": [
-    "2026-11-01-auto-8f03e02085"
+    "2026-11-01-auto-875ef7f5fc",
+    "2026-11-01-auto-137ccce384"
   ],
   "news": [
     {
-      "id": "2026-11-01-auto-8f03e02085",
+      "id": "2026-11-01-auto-875ef7f5fc",
       "published": "2026-11-01",
-      "company": "NTTデータ、委託先SaaS",
+      "company": "楽天証券",
       "service": "",
       "affected_count": 0,
       "cause": "報道自動検知",
-      "summary": "NTTデータ、委託先SaaSに不正アクセス...社債特典サービス停止、漏えい「空白」とは?",
+      "summary": "楽天証券、顧客情報流出の可能性 NTTデータ委託先不正アクセスで",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "CNET Japan",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9sM2R4WkNHVGh5MzI2YWRYOW9FWDRqUkZMQkZraHppcFRNaGlPMk5kZmI3OHh6YjhDaVk0VEZXcGRsc2VYajBDQmk3dUkxTU5uQ1E?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-01-auto-137ccce384",
+      "published": "2026-11-01",
+      "company": "キャンプ場予約",
+      "service": "",
+      "affected_count": 0,
+      "cause": "報道自動検知",
+      "summary": "キャンプ場予約 個人情報漏えい 中城公園、県民の森",
       "exposed_data": "要確認",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE00eGJsWXlwa0UyX3U5SzVnaE1KZ3o2Nms2TDNUR3pVYVE4MXpKaHVGa3hZSE9ER00zUGxtMlpCWlc2OHpxMDJjdTNWVUg2SE9wMXJz?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1zU3c1UUsxdUZNVEtNekNncHp4cHoyamRacUV4RzFobDYtWERPLXJnNUU5Rk1NWkJEdzlSQ2JvTzVRSkd6ODRzMkU2djFiU2RTZkhkdGJ3SkpVUDFWbHZwdw?oc=5",
           "official": false
         }
       ]
@@ -54,6 +72,23 @@
         {
           "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBVV2ZaS256bkRBR0Z4QUFXNFFWSzB2ZHNya21CWFMxczdkNk1NQ2V2elFWUXpZc2dhaEx6T0NtTXltal93b3NuMGZjaElMX0xpa1NOSmxKNkxNcmJkSGJkZXRhWU9FRGM?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-01-auto-8f03e02085",
+      "published": "2026-11-01",
+      "company": "NTTデータ、委託先SaaS",
+      "service": "",
+      "affected_count": 0,
+      "cause": "報道自動検知",
+      "summary": "NTTデータ、委託先SaaSに不正アクセス...社債特典サービス停止、漏えい「空白」とは?",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "ビジネス+IT",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE00eGJsWXlwa0UyX3U5SzVnaE1KZ3o2Nms2TDNUR3pVYVE4MXpKaHVGa3hZSE9ER00zUGxtMlpCWlc2OHpxMDJjdTNWVUg2SE9wMXJz?oc=5",
           "official": false
         }
       ]
@@ -120,7 +155,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "合同会社ロケットボーイズ",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZm9MNDQ1LXgtbDhMaVJhZmJNU0xoZl9pbnFLT09hYTFHY2x6Nm9kTVpjMmRIMHJPTUx1UnBNU2hleGh4OUswTHEyYUUwMjVFMXpmNjJPSlJpRVNCNndfX2NHaGpIMnJyTHdqWVFEajBlWnNjZFA1cEhqd2Q1cXh6U3RKeGlkX3pKbDU5Q3hwSjY3UWZwSFZJUjBsQ3g?oc=5",
           "official": false
         }
@@ -1065,7 +1100,7 @@
     {
       "id": "2026-10-31-auto-13273d4635",
       "published": "2026-10-31",
-      "company": "(企業",
+      "company": "企業",
       "service": "",
       "affected_count": 0,
       "cause": "報道自動検知",
@@ -1217,8 +1252,8 @@
           "official": false
         },
         {
-          "name": "KSBニュース",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8xYWplOFhJR3NOS3NPcWdiMkFBVlZVYTN1MjRUZlFqVTRNZUtzbW9Hbl9mUlVKX08teXd3TTA5bGh6bmY5VU1ZYnBWeXBmUElmTlY3djN3?oc=5",
+          "name": "東京報道新聞",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1fU2ZnVFFqWmlpSUlZT1J0TkJGd0lEenUyQWV6Z25xcDBxclpEV01URjFSU2xKYlVkdXYxS2l6TEpWb1dzWWxFTDBHcHcyTnVoM1FZ?oc=5",
           "official": false
         }
       ]
@@ -1949,7 +1984,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "FNNプライムオンライン",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE53ZFd4YmlDei14NnlYcXVmR2xYWEF0cHZxY1BuX08tbWVKb0gyZFE5aUQ1UTBJZ2hkc09ESHVNYXZTMFBmTzNvUm1fd1N2Zw?oc=5",
           "official": false
         }
@@ -1983,7 +2018,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "TBS NEWS DIG",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5kMlZ3azIybVptRXczQmE2TTRyT1EtRVMzMG9fWUdpbk1xTHBXaElPTXl5X3dLWE9RZ1lfaURXU1F1bEIwa1pVMnkzVG9yWkRtM0tFMS1xS1pzUDFfcnZJU2dicDdMRTdNLWhTaXg5WkFSQnhmTExnT182Z09Kd3c?oc=5",
           "official": false
         }
@@ -3677,11 +3712,6 @@
           "official": false
         },
         {
-          "name": "Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5rNXJ6NEtHOHlPS0FpZ295QlQxYXFjaTRaeTVTWFFGZzFFazIwNzhjS09iZVpPN1laQUdtWWd3eXU0RUtyaVotQTlZcEs2RkpVbU9lLVV1ZUROVW5oRUpJTjY2Z19tTWUtMGFyQkl5UXJfVjFFc3dTZVF0WS1WT2c?oc=5",
-          "official": false
-        },
-        {
           "name": "時事ドットコム",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5WNGwxdFlydzFFZUtUZ0Y3cEhEN0FjTHpPakdaanBOTW9QMGhMNnJBR1c3ZnZvM1Q1c1BxUTlUQ1FjSGxrVTlJekFCSUptX3RpNnl2bW9ZVWptcE9MWVVzUVppVQ?oc=5",
           "official": false
@@ -3789,7 +3819,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "NHKニュース",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5OQ3UtRzhRS1dzOXFBYndRYkhGUmVpQUVqYUtFaFFhXzZKV3pFMTd1UkdxZFNUdkFHRnlZQnIyOHpKVmVPRUg3cGlHN2lRS3J4a2xYN0Q5dHhKUUZaSTNv?oc=5",
           "official": false
         }
@@ -3840,7 +3870,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "読売新聞",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9IOUVJWjg3elFobjRGVEVMd1BDdG5CQkhZOXM2TkRJeW9vQy1iMjVaenRQX0VraHZpRElhbldwNURaOFVtNDVpY3FWdVNrNi1pMm15c0tHVi1DWnNwUTJNWVRHaDZidw?oc=5",
           "official": false
         }
@@ -4325,7 +4355,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "www.city.shinagawa.tokyo.jp",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9YWUpoR3pxRXptX2l5VFRIcExxOWptWHktbVFJYUM1MDE1cHFkQmVCY2piZi1VYlU4THkwNTRoTE94SFdUeDRYMFlaWlI5bnhBMld4RVNJSXRXV2R3ZFdaYWljT3lLemctcVNjeFEzWkl2ZGZXTEVabnBVOA?oc=5",
           "official": false
         }
@@ -5193,7 +5223,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "朝日新聞",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1jc2hyYmxaV2UybGx5RE9aV19lQzZCNWFkTGtjYzhwS1FoMXB0QzQ0aDVzdm5CLUFEaDNUOTRmXzk3MVBiRGl0UlpWX3FWNUFMYmp1bXkxNVRWVXBDMnpxMXhxNHlZYk0?oc=5",
           "official": false
         }
@@ -5283,7 +5313,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "テレ朝NEWS",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1EcDB4V0NwOUpCWlp5RWJYTXpHazd3SjFEZzJBZ2RtdkZNYmlhWTRsYi1fN0d3bEtsekQ4ZzJwcDEyVWJOSUZTWE1LWEVDa1djRm9qR0Z2eWhKaGlYT21DVGYwSHQ4YURTRGNJUmhtZ2pJQQ?oc=5",
           "official": false
         }
@@ -5371,7 +5401,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "ITmedia",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0xMnFmTm5LVFRuRjlLUjhSOEpoc3NvTGJnV0s0OHdFR2N2amthOFdKTmszVkJVSkJzOFUzSGpWOS1fQ0JreGFFX0NvZWRPMVJEbDRuNm9sMTB5cFh6d1pFWGR2T1FlekRiWUE?oc=5",
           "official": false
         }
