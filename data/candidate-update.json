@@ -1,156 +1,202 @@
 {
   "version": "1.1",
-  "generated_at": "2026-10-31T05:52:02+00:00",
-  "before_count": 912,
-  "after_count": 923,
-  "net_change": 11,
-  "new_count": 7,
+  "generated_at": "2026-10-31T12:40:53+00:00",
+  "before_count": 923,
+  "after_count": 930,
+  "net_change": 7,
+  "new_count": 9,
   "removed_count": 0,
-  "visible_before_count": 912,
-  "visible_after_count": 923,
-  "visible_net_change": 11,
-  "raw_before_count": 1422,
-  "raw_after_count": 1429,
-  "raw_net_change": 7,
+  "visible_before_count": 923,
+  "visible_after_count": 930,
+  "visible_net_change": 7,
+  "raw_before_count": 1429,
+  "raw_after_count": 1446,
+  "raw_net_change": 17,
   "new_candidate_ids": [
-    "2026-10-31-auto-efd8fbee1b",
-    "2026-10-31-auto-fd333cae00",
-    "2026-10-31-auto-da84758f18",
-    "2026-10-31-auto-944f35db6e",
-    "2026-10-31-auto-7392d6f79d",
-    "2026-10-31-auto-da99ddb25b",
-    "2026-10-31-auto-2c77641170"
+    "2026-10-31-auto-83240ffff6",
+    "2026-10-31-auto-8f03e02085",
+    "2026-10-31-auto-8d9c62e1e7",
+    "2026-10-31-auto-67001b5d34",
+    "2026-10-31-auto-81756b7fdc",
+    "2026-10-31-auto-72e0c0c264",
+    "2026-10-31-auto-b609f61759",
+    "2026-10-31-auto-53acc672a5",
+    "2026-10-31-auto-345f95cdb7"
   ],
   "new_candidates": [
     {
-      "id": "2026-10-31-auto-efd8fbee1b",
+      "id": "2026-10-31-auto-83240ffff6",
       "member_ids": [
-        "2026-10-31-auto-efd8fbee1b"
+        "2026-10-31-auto-83240ffff6"
       ],
       "priority": "C",
       "published": "2026-10-31",
-      "company": "ブロックチェーン分析大手チェイナリシス",
+      "company": "NTTデータ委託先",
       "service": "",
       "affected_count": 0,
-      "summary": "ブロックチェーン分析大手チェイナリシスに不正アクセス、10月は日米で個人情報漏えい10件以上",
+      "summary": "NTTデータ委託先に不正アクセス 社債購入者情報漏えいの可能性",
+      "sources": [
+        {
+          "name": "NHKニュース",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5WcExuZFl4SU5fZUtMNVZtSHdxd3pCSVFVMTM5S3pnci1oS3pFejZsemFnR2tKRHZvSlJTd292TlpGci13V295WUFkLWt0bDFuVXBaeHRKLTYyOElzS0FN?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-31-auto-8f03e02085",
+      "member_ids": [
+        "2026-10-31-auto-8f03e02085"
+      ],
+      "priority": "C",
+      "published": "2026-10-31",
+      "company": "NTTデータ、委託先SaaS",
+      "service": "",
+      "affected_count": 0,
+      "summary": "NTTデータ、委託先SaaSに不正アクセス...社債特典サービス停止、漏えい「空白」とは?",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBxWlkzZVYwN0lmMC1sZjZUaWozMU13aURsZXJ4cE5IQnBmOU5yTzJfVzBtRkItMkQ4R1FQR01NS3JBSU0?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE00eGJsWXlwa0UyX3U5SzVnaE1KZ3o2Nms2TDNUR3pVYVE4MXpKaHVGa3hZSE9ER00zUGxtMlpCWlc2OHpxMDJjdTNWVUg2SE9wMXJz?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-10-31-auto-fd333cae00",
+      "id": "2026-10-31-auto-8d9c62e1e7",
       "member_ids": [
-        "2026-10-31-auto-fd333cae00"
-      ],
-      "priority": "C",
-      "published": "2026-10-31",
-      "company": "【今すぐに確認を】iPhone",
-      "service": "",
-      "affected_count": 0,
-      "summary": "【今すぐに確認を】iPhone、不正アクセスやパスワード流出を防ぐ5つの“最強設定”(集英社オンライン)",
-      "sources": [
-        {
-          "name": "集英社オンライン",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE50a2FfZkU0MnB1UUNBMkNHN1R4QjRMUk9FaEpzLUh0UVFfYllQSU05ejhUTW5HV25KRmZxUzZJVnFMUkJPeWtMOFVNVllBUEptUVNvc25idmJGejRPMGRZa2RXMFlYSy1SLUdmTHNHSHFGa3JQTnA4Z0c2UDRxWEE?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-31-auto-da84758f18",
-      "member_ids": [
-        "2026-10-31-auto-da84758f18"
-      ],
-      "priority": "C",
-      "published": "2026-10-31",
-      "company": "市民のアドレスが分かる状態でメール送信や国保関連書類を郵便局員が紛失...佐賀市",
-      "service": "",
-      "affected_count": 0,
-      "summary": "市民のアドレスが分かる状態でメール送信や国保関連書類を郵便局員が紛失...佐賀市、個人情報漏えい9件",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE40bmQzSkE4aHB2MlM0bXotQ1Z0S3QwbnpvMVV4dGRhaG9hRXhvMmlWeExRb3ByUGRBMVctbUZRM0FnYjltSUhYNnJxZEtvb3VoTzZMTTVKRjJKakpXRUhDaUtEOEdvWm9YM193VXdkc1g0VjBNOUhmQ3Q3NDNrckU?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-31-auto-944f35db6e",
-      "member_ids": [
-        "2026-10-31-auto-944f35db6e"
-      ],
-      "priority": "C",
-      "published": "2026-10-31",
-      "company": "情報は流出より自ら流入の努力を四季風(大)",
-      "service": "",
-      "affected_count": 0,
-      "summary": "情報は流出より自ら流入の努力を四季風(大)",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBPeWs0WHlIWW5hSEw5UktWbjE4UFd5QkFieVNIdGoxU3hkT1dyLS02bHpzU0p3NVdFY0ttck9TUklMMlJPaklxWTA4WQ?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-31-auto-7392d6f79d",
-      "member_ids": [
-        "2026-10-31-auto-7392d6f79d"
+        "2026-10-31-auto-8d9c62e1e7"
       ],
       "priority": "B",
       "published": "2026-10-31",
-      "company": "GMOトラスト・ログイン",
+      "company": "クラブツーリズム",
       "service": "",
-      "affected_count": 45030,
-      "summary": "GMOトラスト・ログインで情報漏えい、対象2,492社・45,030人に拡大 公開ストレージの設定不備が原因",
-      "sources": [
-        {
-          "name": "合同会社ロケットボーイズ",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVDE4NS1HcVktNXdtdDFLdmM1UkV1NVlzYjRaX3QzdFdRVUJFa2p6M3ZLMVphQm1ZSm5tZzdWNUVsNnZ4YzVHRGl6eWN2NUh6VXVVYzFzMllMZElWMWVRSlVRRUl0NEl3eS1mQnFoTEhHZXVXLXc5UGtHOWQ4M1BjX2FEVGZCbzZWVDJPb2dmT2NHZUFQMEVqOWZlMA?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-10-31-auto-da99ddb25b",
-      "member_ids": [
-        "2026-10-31-auto-da99ddb25b"
-      ],
-      "priority": "C",
-      "published": "2026-10-31",
-      "company": "複雑な攻撃",
-      "service": "",
-      "affected_count": 0,
-      "summary": "複雑な攻撃、追跡困難 資産不正流出でバイナンス:時事ドットコム",
+      "affected_count": 4000000,
+      "summary": "クラブツーリズム 400万件超の個人情報が漏洩か 自社のサーバーの一部に不正アクセス",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE96dTB5NllMNTF4dnRZMkNqZ2ZJN0pUazFSS0RPUVJ0a2NqSDlYeEhmUXcyQTJyOFlzOUJNbEVYNXozM3gyZGxQajhzLW50bExKZ3Q1X051U2liM3lveVk4a2hsRQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1oMUMyVDUzYThFSkJVckxKWjJxd055ZFJnUHlZYnloS0dIbjRiSFlvbjEzTXB4c2xjZVBqYk43SUplNW0xVzZTV2V1V0FPQnlIUXZucVdR?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-10-31-auto-2c77641170",
+      "id": "2026-10-31-auto-67001b5d34",
       "member_ids": [
-        "2026-10-31-auto-2c77641170"
+        "2026-10-31-auto-67001b5d34",
+        "2026-10-31-auto-21787633b9"
       ],
       "priority": "B",
       "published": "2026-10-31",
-      "company": "佐賀大にサイバー攻撃、学生や教職員ら8万人分",
+      "company": "近鉄GHDや野村証など、社債購入者",
       "service": "",
-      "affected_count": 80000,
-      "summary": "佐賀大にサイバー攻撃、学生や教職員ら8万人分の個人情報流出か...付属病院の患者情報も・脅迫受けたと説明",
+      "affected_count": 2678,
+      "summary": "近鉄GHDや野村証など、社債購入者の情報漏えいの可能性-不正アクセス",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9FYkl2Rl9OR09zZ3p1TXBWVC00c0tWZ3ZxQ3BtTHVDbXJ3QlJ0WEYxay1Zb3JxV0JIWVp1cS1ndS1VT3EwZXRHdUY0NzFlZE1fQjJlVDJJVGNmVUh0bzJFUE9SeWpqU2k0TlQwaktJNVpBdXhTdl9QZkRJdUNKSXc?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE53enFmT0MtbkM0REp6azRzOFBZTTdKSWxDTHh1NHFDQng2VEVBNm56SzFnS29MSEJ4UWVjOGZSbEVadDdnOFM0SHdlSDYxc3lrbEtFSlhJUGlSak9lWnlRR1JGcldqczFLbm9zOEQzekd5Sk04?oc=5",
+          "official": false
+        },
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE93UnAzVXB1UjMyc1F2YlYxMmpVQ1ZWbmRDMFlmZzZJSlllN0QxSVRBanFnVUtKZjc2Tm1Yd0RFSkcyMDVTa3dsOGU5Q3I1U3lmMlczNHJZVU1TOG9QQnBWZVZoQ211NWVsT29Bdg?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-31-auto-81756b7fdc",
+      "member_ids": [
+        "2026-10-31-auto-81756b7fdc"
+      ],
+      "priority": "C",
+      "published": "2026-10-31",
+      "company": "閲覧権限のない内部情報へ",
+      "service": "",
+      "affected_count": 0,
+      "summary": "閲覧権限のない内部情報への不正アクセス・勤務中に同僚にセクハラ...長崎県壱岐市が職員2人を処分(読売新聞オンライン)",
+      "sources": [
+        {
+          "name": "読売新聞",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFByeVdBeGFiTklOdTYtckVsTzB5Vm9RZXIxaGRIRi0wcDVUTm1kUDVmY3pEaU45UVhYTlptVGk0dDRiTkl4aWZVZmxTSzdjUkRubjBKZkoxRi1NYWtBNFNhUkkzUTN6YWRrc05IZHplR0xDRVNXeVJhTFFyc3hFa2c?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-31-auto-72e0c0c264",
+      "member_ids": [
+        "2026-10-31-auto-72e0c0c264"
+      ],
+      "priority": "C",
+      "published": "2026-10-31",
+      "company": "カード情報流出",
+      "service": "",
+      "affected_count": 0,
+      "summary": "カード情報流出、PayPay不正送金も 利用者はどう備えるべきか",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5BTUY2VHhyd1FmMUtrSGpFSmpfWU5RanNDcjlVLXJnTFdoUVNyRklYYkw5SFVGR01TQ3UzMHlrT0ZGS2hTdm94dFdzNjdJT0IxV1lWaXMtZTMtYkY1cW8wX1JtekRmQdIBa0FVX3lxTE1WQ29samt4Tml4ZUFqaTN5Q2tPQ3BQYUNpRV9lREhnTUNZNkRfeVBOM2c5WGNuLXFfdHVvU2VMUV9uUnE2VHRaSTY2a0E2aHZxeXoxZTRhZlk0NVlmYmQ3QnpEVG1YcGYzQ0hr?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-31-auto-b609f61759",
+      "member_ids": [
+        "2026-10-31-auto-b609f61759"
+      ],
+      "priority": "C",
+      "published": "2026-10-31",
+      "company": "近鉄GHD、社債投資家2678人分の氏名・購入額",
+      "service": "",
+      "affected_count": 2678,
+      "summary": "近鉄GHD、社債投資家2678人分の氏名・購入額が漏えいか NTTデータ再委託先に不正アクセス",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1EbW9aZzlZLU1wdGNQZE5KWUQ0OXBFOWdyZzBuT0N3MGJHNEMxd1ZjSnNXSVBqd2U0ZHc3YmNxUmxVTk93eDJSYW9Uc2tTbm9qaW15bmUyMHhwLVdRMkdsTzNjY1M5bG9lNDV4VnVidDltUUJ6?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-31-auto-53acc672a5",
+      "member_ids": [
+        "2026-10-31-auto-53acc672a5"
+      ],
+      "priority": "C",
+      "published": "2026-10-31",
+      "company": "近鉄社債購入者の情報",
+      "service": "",
+      "affected_count": 2678,
+      "summary": "近鉄社債購入者の情報が漏えいか 氏名や金額、2678人分",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNc05JZ3BPT0FpNWtSZXJSdjN6dHdHbTdKc0hPNGt5MFVQNHlQWWtLLTd3SDh1MVhtOTZFbnFkS0NWbjVnaUxNMDAtaXNXbElPQUt3em02elNoTC1SLUVsRS1qQWVrQ3Bqd21aTkFoWFNUekh0VkZUcTNYUmxUVXpfcVc1bFVrbmEzeU11VUl5YmQyRTTSAZMBQVVfeXFMTXNOSWdwT09BaTVrUmVyUnYzenR3R203SnNITzRreTBVUDR5UFlrSy03d0g4dTFYbTk2RW5xZEtDVm41Z2lMTTAwLWlzV2xJT0FLd3ptNnpTaEwtUi1FbEUtakFla0NwandtWk5BaFhTVHpIdFZGVHEzWFJsVFV6X3FXNWxVa25hM3lNdVVJeWJkMkU0?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-10-31-auto-345f95cdb7",
+      "member_ids": [
+        "2026-10-31-auto-345f95cdb7"
+      ],
+      "priority": "C",
+      "published": "2026-10-31",
+      "company": "【代表インタビュー】バイナンスで約1兆円流出|資産の8割を仮想通貨で持つCryp",
+      "service": "",
+      "affected_count": 0,
+      "summary": "【代表インタビュー】バイナンスで約1兆円流出|資産の8割を仮想通貨で持つCrypto Times代表は、どこに置いているのか",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5RMFBVZlJHTkdYUXpfcnpqV2k2WjdaeGVYbTBCcklkQlBRQ2ZBcUJJT2hiUlE0VFlsQUZ5dWU4NWZ5SVpFUnBOYnAzajhUQTJ0LVNubTZMS0dkaDZzQUZhYnpQaw?oc=5",
           "official": false
         }
       ]
