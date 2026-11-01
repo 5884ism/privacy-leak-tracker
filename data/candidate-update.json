@@ -1,56 +1,326 @@
 {
   "version": "1.1",
-  "generated_at": "2026-11-01T19:48:11+00:00",
-  "before_count": 947,
-  "after_count": 950,
-  "net_change": 3,
-  "new_count": 2,
+  "generated_at": "2026-11-01T23:40:13+00:00",
+  "before_count": 950,
+  "after_count": 942,
+  "net_change": -8,
+  "new_count": 15,
   "removed_count": 0,
-  "visible_before_count": 947,
-  "visible_after_count": 950,
-  "visible_net_change": 3,
-  "raw_before_count": 1470,
-  "raw_after_count": 1474,
-  "raw_net_change": 4,
+  "visible_before_count": 950,
+  "visible_after_count": 942,
+  "visible_net_change": -8,
+  "raw_before_count": 1474,
+  "raw_after_count": 1496,
+  "raw_net_change": 22,
   "new_candidate_ids": [
-    "2026-11-02-auto-470fee3ce6",
-    "2026-11-02-auto-b45903c3ca"
+    "2026-11-02-auto-ba3e4332ac",
+    "2026-11-02-auto-365286679c",
+    "2026-11-02-auto-1a2fedb61d",
+    "2026-11-02-auto-9d03e5a595",
+    "2026-11-02-auto-cf5f2060e2",
+    "2026-11-02-auto-02b546df86",
+    "2026-11-02-auto-ba57c21f53",
+    "2026-11-02-auto-d149753721",
+    "2026-11-02-auto-2596a19e52",
+    "2026-11-02-auto-8d92eb0af2",
+    "2026-11-02-auto-69f3d8591a",
+    "2026-11-02-auto-7cd239fbee",
+    "2026-11-02-auto-68100ac12a",
+    "2026-11-02-auto-1952e1a610",
+    "2026-11-02-auto-6aa1c621fb"
   ],
   "new_candidates": [
     {
-      "id": "2026-11-02-auto-470fee3ce6",
+      "id": "2026-11-02-auto-ba3e4332ac",
       "member_ids": [
-        "2026-11-02-auto-470fee3ce6"
+        "2026-11-02-auto-ba3e4332ac"
       ],
       "priority": "C",
       "published": "2026-11-02",
-      "company": "ハッキングに北朝鮮関与の報告 FBIがバイナンス事件で",
+      "company": "越境ECサービス「WorldShopping",
       "service": "",
-      "affected_count": 0,
-      "summary": "ハッキングに北朝鮮関与の報告 FBIがバイナンス事件で [情報漏洩・個人情報流出の最新ニュース]",
+      "affected_count": 301,
+      "summary": "越境ECサービス「WorldShopping」に不正アクセス、海外顧客301名の個人情報が漏えい",
       "sources": [
         {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBYM0pXNWg3S2FEcFdzUEFna2E0NTNfLWV2blpzQzlOdU9rbWNpR0ZHQWlBSF9xZzZrY2RkVWlwMUhmaU1ndm9PSEt4Y0FiZGlCQnhLd25lZDJZaVEwa19DcjFBSlNIdms?oc=5",
+          "name": "ScanNetSecurity",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1iakhCdnZFRDhxOFd4YWJNbGJjbHNVdU5oT2x0RmpRRVQ5SEtFeGNLeldTdmlTdlo5NUpLamVIS0gyZkt5ZGZfcmtSOV95ODdMUGh2TTg3T3RhYzIxQ3p1NWtTZFE3ei1aeVlubQ?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-11-02-auto-b45903c3ca",
+      "id": "2026-11-02-auto-365286679c",
       "member_ids": [
-        "2026-11-02-auto-b45903c3ca"
+        "2026-11-02-auto-365286679c"
       ],
       "priority": "B",
       "published": "2026-11-02",
-      "company": "GMO系4・5万人分漏えい 9年間外部から閲覧可能に",
+      "company": "既知の脆弱性を対策すれば",
       "service": "",
-      "affected_count": 50000,
-      "summary": "GMO系4・5万人分漏えい 9年間外部から閲覧可能に",
+      "affected_count": 0,
+      "summary": "「既知の脆弱性を対策すれば、AIが大きな脅威とは言いがたい」「個人情報漏えいの被害は何年も続く」、森井名誉教授が語るサイバー攻撃の現状 GMOへの攻撃は「直接顧客の個人情報を人質に取るランサムウェアの新形態」 | チバテレ+プラス",
+      "sources": [
+        {
+          "name": "INTERNET Watch",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9tVWxSVFRKUU1BNmRZVEI5VWVLUVFXVTZ0ZlJfV1NPbVJpNTZ4OTBCY3pBZldNNWxXd2x4SHREZTNhVk1tLU0wYUpqaHZ2dzZvenF2dENIZzFVcE9UZWM5SDJiLVIwS19XTS1z?oc=5",
+          "official": false
+        },
+        {
+          "name": "千葉テレビ放送株式会社",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5BQWp0OVJ1bVVxb3REM0NReGI2SDJ4Uk54ZWlKVjFIMDZoWFFJVTIwS2ZpRWF6eWd1VXhFOVRqTUZNN01naWNRblk3SmRta054SGRwbkdfTFlSSlEtdUpj?oc=5",
+          "official": false
+        },
+        {
+          "name": "Excite エキサイト",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9hcXJlaFJaT3JGNGhwZ3lzbmo2TmRhZkp5cGxSQlg4SV82b2NyMXFZdUZpczVKQXhfTlB1Y2tPOUFXVzVzemJHS2J2T1pKeWZ4Z19EVlV6NHRaLXBVYmc0dHpVSDdFUldxN2dmMkpjaHotaU9Qd0JUUjJ1N194Zw?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-02-auto-1a2fedb61d",
+      "member_ids": [
+        "2026-11-02-auto-1a2fedb61d"
+      ],
+      "priority": "C",
+      "published": "2026-11-02",
+      "company": "いいかげん",
+      "service": "",
+      "affected_count": 0,
+      "summary": "「いいかげん、猫を見せてくださいよ」突然の来訪者は娘の免許証画像を持っていて...個人情報流出、被害を連鎖させる手口とは",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1UMVRsVTd3RkNFSmpWbmVHc3VKNFhKQlhJYjYxSkNXQ3VqcF9JYy1XR25UZDhUbVlEZGFHZDd1cm1GS0d2akZycTNTdXo4Qk42QlRkTURqSldCakpNanc?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1DbUdpeC14NUE3Z3d1dkhUZGUzS2NKN1lpTVZpQ2MydTlYb3hxTzY4OC1Mak5vSU9kcWZzeW1hX3U5MU9mV0FFOE55MA?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-02-auto-9d03e5a595",
+      "member_ids": [
+        "2026-11-02-auto-9d03e5a595"
+      ],
+      "priority": "C",
+      "published": "2026-11-02",
+      "company": "モバイルオーダー「PICKS」へ",
+      "service": "",
+      "affected_count": 8312,
+      "summary": "モバイルオーダー「PICKS」への不正アクセスによるサイバー攻撃のまとめ-8,312人の個人情報漏えい サーティワン・サブウェイなどに影響|セキュリティニュースのセキュリティ対策Lab",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNaTZ2TEloblc4SWs3TmVzZmVVRnZaSE53QTlSaTNNUExac2ZSVTNVMmR0czVCWFFvTDhna210Q0Z2alpsMXhWTDg3bkw4VXdxNzZELXNPZE1kU1hMLVNBNHZlZ3RwLWdaM2daT2hUZDc3SWFXVFVTRVhhYVQ2UG51LVZIQ1doM1BGNWJEU2JKQTFoZFV0d2lhUnNqa05pbkZEeTBKWEtrVDhWQVlhYWRaUmx6Qk9XTlk?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-02-auto-cf5f2060e2",
+      "member_ids": [
+        "2026-11-02-auto-cf5f2060e2"
+      ],
+      "priority": "C",
+      "published": "2026-11-02",
+      "company": "Sallyに2件",
+      "service": "",
+      "affected_count": 0,
+      "summary": "Sallyに2件の不正アクセス、問い合わせ情報が漏えいした可能性",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5JSEJDYzByU1FwTW4zbG5fNkpoVGJSOFY5RlEzZ3h3Z204WXJlRGZmOFJvS0haa0Z1dWQ1UkVJcUpPaVVjVXpwMWFINWZkVEIwSE1GR1JZUVNmQlBDbDYyd21oMGtRN0NYUmhHXw?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-02-auto-02b546df86",
+      "member_ids": [
+        "2026-11-02-auto-02b546df86"
+      ],
+      "priority": "B",
+      "published": "2026-11-02",
+      "company": "フィリップ・キャピタル証券、顧客162名",
+      "service": "",
+      "affected_count": 162,
+      "summary": "フィリップ・キャピタル証券、顧客162名の情報漏えいを確認 デジタル証券の委託先に不正アクセス、100名は生年月日も対象",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORGRPSno1ckpMdHI2VDRzLWpGSmQweHhiY29TMTZoTmcyekVqUzFleXhmOWplV2lTUzE1cU5nb0JGSXNKSlZwZUJIVWJBYVoteFlyVnNiOThiRi1RU0c4XzROTDZseTRCLXlCY0NVSkJDYnVsVWVBYkFLbjViVEpmY3QzVGpSaFNyUnZscy1mNV93OVM0amFpeWFic3JLTXMxS1ZHd1ZYeDRRYmxH?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-02-auto-ba57c21f53",
+      "member_ids": [
+        "2026-11-02-auto-ba57c21f53"
+      ],
+      "priority": "C",
+      "published": "2026-11-02",
+      "company": "フジッコのキャンペーンの応募受付業務の委託先",
+      "service": "",
+      "affected_count": 0,
+      "summary": "フジッコのキャンペーンの応募受付業務の委託先に不正アクセス",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAxb0dmSEhpQ0N5NFNfZUJ6bGhqaWdPaTJ6bzFubEZWZE4tSWtjOTZETTdXdUdqbThWSVJmWm5NODNOMlg3RGIxbEpIY0hxRm9XTnZBNEZOQzItSnVjOHY0SDA1a3RPbmVZZnMycA?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-02-auto-d149753721",
+      "member_ids": [
+        "2026-11-02-auto-d149753721"
+      ],
+      "priority": "C",
+      "published": "2026-11-02",
+      "company": "NTTデータの委託先",
+      "service": "",
+      "affected_count": 2678,
+      "summary": "NTTデータの委託先に不正アクセス、社債投資家の情報漏洩の恐れ-近鉄2,678件・SBI証券1,169人・楽天証券延べ362件に影響|セキュリティニュースのセキュリティ対策Lab",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTlhiaEplRUc0TUs2WXBOb21uNnhrSzZFVlRqRWp0TFJGR3U3U3hzeXB4MjRuWTVIZ3BNMEdzOGdPRGhvdEtHTThLUXRSdVRqcHJBMVp0c3E4QlhMMDFERE96cUloVkVzaHQwaWNFVmdSVUpMSV9KdVVya25RWE81TXdNa0dFUlQ2RHR0VDI2OUVERXZHMGQ0dUs0OUN1OW92MExCRlBFR1VWbWNTbExHcGhTSDVjLVpPMlo4ZFh3?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-02-auto-2596a19e52",
+      "member_ids": [
+        "2026-11-02-auto-2596a19e52"
+      ],
+      "priority": "C",
+      "published": "2026-11-02",
+      "company": "会員名簿とされるデータがアップロードされていると警察から報告 ~",
+      "service": "",
+      "affected_count": 0,
+      "summary": "会員名簿とされるデータがアップロードされていると警察から報告 ~ 在宅ワーク求人サイト「ママワークス」に不正アクセス",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAyeG5MamVicXUyNzR1ekhQTXpkMXdEa0pfVVFSWU5KWUpzUm1wdFVMcW1tSUlBbzB5UnlzWnZ1R2xxdnNpWlhkWENMalJaaWxDWENaVEhjRUZjU09jTGRod2tDUEcweDFCd0syMQ?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-02-auto-8d92eb0af2",
+      "member_ids": [
+        "2026-11-02-auto-8d92eb0af2"
+      ],
+      "priority": "C",
+      "published": "2026-11-02",
+      "company": "スターツ証券、Securitizeへ",
+      "service": "",
+      "affected_count": 0,
+      "summary": "スターツ証券、Securitizeへの不正アクセスで投資家情報流出のおそれ 氏名・保有口数が対象",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPYldzUFI4VHkzVl9obHcxUjdpeG9zUFZKcnpNQnBRbF96SHM5QWdaQkVMTnF5WHJxV2ltSnVVaHd6dTdKS0dJcWVKVlB2eVFFZ2sxaTh5S25wdkNtcFNTZUtZYUN4RWdVcFdJZjZsbG1leTVhNFB2Zk9RYWpPMW5aNzRhZjJiMW5NdnplUW1rN1NwVmRnSWJpOUlydm9iU2Q4dENXcXl4a0RUYTBlbkFFRnJ4Rlc?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-02-auto-69f3d8591a",
+      "member_ids": [
+        "2026-11-02-auto-69f3d8591a"
+      ],
+      "priority": "C",
+      "published": "2026-11-02",
+      "company": "「SHIPS CYCLE",
+      "service": "",
+      "affected_count": 0,
+      "summary": "「SHIPS CYCLE MARKET」で利用している外部アプリケーション「Swym Wishlist Plus」に不正アクセス、外部の疑似サイトに誘導",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4wemktaElRZTJZRmlBY0pxTE96V2E5eGo3TW9uRGx4WEhDN3hUWDRuMHk0eVFTUE80Nm9QZVZYTDB4dHBhNVBfQjVnVllIWURWX1ZwdVpkNGZGbWRZeTB4WExxTDhDeGxCX0MxYg?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-02-auto-7cd239fbee",
+      "member_ids": [
+        "2026-11-02-auto-7cd239fbee"
+      ],
+      "priority": "C",
+      "published": "2026-11-02",
+      "company": "GMO系4.5万人分漏えい 設定ミスで9年間外部から取得可能に(毎日新聞)",
+      "service": "",
+      "affected_count": 45000,
+      "summary": "GMO系4.5万人分漏えい 設定ミスで9年間外部から取得可能に(毎日新聞)",
+      "sources": [
+        {
+          "name": "毎日新聞",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBqYkVWY0pOUkZkVXdUTlNzUzRjMTdJQlBBQXVONENYZUgyWmtURmhFTjlEN1B3Y3dlamFyTWNyYzJkWUJGTWtfZzZCYURJX185NWl2Zll6SVZJV2VXWmNXMnlja1hEMnl3d3JnR0h5WndONVp6TVhoeERSUDFjd2c?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-02-auto-68100ac12a",
+      "member_ids": [
+        "2026-11-02-auto-68100ac12a"
+      ],
+      "priority": "C",
+      "published": "2026-11-02",
+      "company": "SmartNews(スマートニュース)に再び不正アクセス",
+      "service": "",
+      "affected_count": 0,
+      "summary": "SmartNews(スマートニュース)に再び不正アクセス、ポイント・特典システムで不正操作を確認 交換停止、10月22日の事件とは別事案|セキュリティニュースのセキュリティ対策Lab",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNEJlejVzakw3RWVsVkx6d2Q1dFVZNWljTU9OMW80Z2dzOXNfb0wyT1hlYUpham9iRnlSRXk5UnpFd0hUYzRfSVZybjdUU0I5WF80c25ndDVCOHRvSjVZTFJBWE13cVQxYzZKVHE0d01PWFBUYUVsb19sX2lXTC1XX0lRcU5iVndxeF9xQ3VGajhoQ2JjUWlWSEFEcGJCZFlPYV9TQS1LMnE1X1lmOUE?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-02-auto-1952e1a610",
+      "member_ids": [
+        "2026-11-02-auto-1952e1a610"
+      ],
+      "priority": "C",
+      "published": "2026-11-02",
+      "company": "AI狂騒曲",
+      "service": "",
+      "affected_count": 0,
+      "summary": "AI狂騒曲:止まらない情報流出、激化する米中対立、日本はどうする?",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFByWXpxeGZQMktIbDVHYlNuZU1nRkpKQUgwVUVpQjBzRnQwbDRmZkp1LWtiVlVsNUFxenhzZ0NSTnAyV3BtVzJBZk9iSE81MzRKYVFGdEJiek42aFE?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-02-auto-6aa1c621fb",
+      "member_ids": [
+        "2026-11-02-auto-6aa1c621fb"
+      ],
+      "priority": "C",
+      "published": "2026-11-02",
+      "company": "AI を活用した総点検で発見 ~ デジタルアーツのクラウドサービス運用環境",
+      "service": "",
+      "affected_count": 0,
+      "summary": "AI を活用した総点検で発見 ~ デジタルアーツのクラウドサービス運用環境に不正アクセス",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBEcjBXYzVzY2haRHNDbzZMMW5oaDRtS0ZldkpGT29UbUpONEliVE1GZVZndDBMdlgxYlNlU1ZzWUpoZlp5M2pSdlBtOTdoMDJ0ZXAxVlZJbng3TzdfQVlhdHd2NDZmS3NOd2VSNQ?oc=5",
           "official": false
         }
       ]
