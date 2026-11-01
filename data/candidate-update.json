@@ -1,36 +1,56 @@
 {
   "version": "1.1",
-  "generated_at": "2026-11-01T01:16:21+00:00",
-  "before_count": 925,
-  "after_count": 926,
-  "net_change": 1,
-  "new_count": 1,
+  "generated_at": "2026-11-01T07:39:39+00:00",
+  "before_count": 926,
+  "after_count": 928,
+  "net_change": 2,
+  "new_count": 2,
   "removed_count": 0,
-  "visible_before_count": 925,
-  "visible_after_count": 926,
-  "visible_net_change": 1,
-  "raw_before_count": 1457,
-  "raw_after_count": 1458,
-  "raw_net_change": 1,
+  "visible_before_count": 926,
+  "visible_after_count": 928,
+  "visible_net_change": 2,
+  "raw_before_count": 1458,
+  "raw_after_count": 1465,
+  "raw_net_change": 7,
   "new_candidate_ids": [
-    "2026-11-01-auto-03a1d495cc"
+    "2026-11-01-auto-d027109f13",
+    "2026-11-01-auto-d1a4de5bf3"
   ],
   "new_candidates": [
     {
-      "id": "2026-11-01-auto-03a1d495cc",
+      "id": "2026-11-01-auto-d027109f13",
       "member_ids": [
-        "2026-11-01-auto-03a1d495cc"
+        "2026-11-01-auto-d027109f13"
       ],
-      "priority": "B",
+      "priority": "C",
       "published": "2026-11-01",
-      "company": "富士山予約システム",
+      "company": "Chainalysis",
       "service": "",
-      "affected_count": 70000,
-      "summary": "富士山予約システム、7万人情報流出の可能性 - pressrelease-jp.com",
+      "affected_count": 0,
+      "summary": "Chainalysisに不正アクセス、顧客情報の一部に漏えいの可能性",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5HenE0M2NqMEpNRGloSGRLa004VmI1X0MwOHVsQk5wZWJrNE9OSzhnRmJqaUFzUXE0SnhaLUc2eEk4QnhCaHNHdThKX2FFalJpNzl5VWpQdkhPeW5HYVRGRXZnM21KX3l1Ujc2LXhyM1k1SWlaTkZFbE5Ccw?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRFZ6RV9rM0FLVXpLcmRpM0lpU3BSYVRLUzBwc0RBSS1xd00ycUc1aE83cjZfUGM0U0k0QTE0c2ktU2ZsMEsxWWgxeDN1SUZRRGNpaWVTYU1uRks0emhMTzloTVV5YS1Ea3BIalBISGJFbi11bVk4WWR3ZkUzVmdXT3RBOUNYQkc2VEpPckl6a1oyQXRPRzRHV0tNVDNybkd3N05lRjlB?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-01-auto-d1a4de5bf3",
+      "member_ids": [
+        "2026-11-01-auto-d1a4de5bf3"
+      ],
+      "priority": "C",
+      "published": "2026-11-01",
+      "company": "メールの宛先間違いや添付ミスによる情報漏えいリスクの低減へ。「Wonder Gu",
+      "service": "",
+      "affected_count": 0,
+      "summary": "メールの宛先間違いや添付ミスによる情報漏えいリスクの低減へ。「Wonder Guard Mail」の提供を開始",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9Gam1uMFo0VG1YaVBiSnA1ZkVvM3Bqbm1URUpvNnJpbmVCNGw5eWpQeTB6Vk9GRklTZTJ4RGVnaFFnWG1fUGNObVMzZ0FHODZ0RUR3ZkdHMUJqMGZMdU5LYnUwcjlPdmNWZ2xF?oc=5",
           "official": false
         }
       ]
