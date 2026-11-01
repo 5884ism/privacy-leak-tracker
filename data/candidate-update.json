@@ -1,56 +1,76 @@
 {
   "version": "1.1",
-  "generated_at": "2026-10-31T21:40:52+00:00",
-  "before_count": 922,
-  "after_count": 924,
-  "net_change": 2,
-  "new_count": 2,
+  "generated_at": "2026-11-01T00:08:41+00:00",
+  "before_count": 924,
+  "after_count": 925,
+  "net_change": 1,
+  "new_count": 3,
   "removed_count": 0,
-  "visible_before_count": 922,
-  "visible_after_count": 924,
-  "visible_net_change": 2,
-  "raw_before_count": 1451,
-  "raw_after_count": 1453,
-  "raw_net_change": 2,
+  "visible_before_count": 924,
+  "visible_after_count": 925,
+  "visible_net_change": 1,
+  "raw_before_count": 1453,
+  "raw_after_count": 1457,
+  "raw_net_change": 4,
   "new_candidate_ids": [
-    "2026-11-01-auto-875ef7f5fc",
-    "2026-11-01-auto-137ccce384"
+    "2026-11-01-auto-44a681ae05",
+    "2026-11-01-auto-328aad66c3",
+    "2026-11-01-auto-01048e2efc"
   ],
   "new_candidates": [
     {
-      "id": "2026-11-01-auto-875ef7f5fc",
+      "id": "2026-11-01-auto-44a681ae05",
       "member_ids": [
-        "2026-11-01-auto-875ef7f5fc"
+        "2026-11-01-auto-44a681ae05"
       ],
       "priority": "C",
       "published": "2026-11-01",
-      "company": "楽天証券",
+      "company": "FX口座の不正取引はなぜ起きた? 外部クラウド(VPS)へ",
       "service": "",
       "affected_count": 0,
-      "summary": "楽天証券、顧客情報流出の可能性 NTTデータ委託先不正アクセスで",
+      "summary": "FX口座の不正取引はなぜ起きた? 外部クラウド(VPS)への不正アクセスの仕組みと投資家ができる対策(2026年11月1日)",
       "sources": [
         {
-          "name": "CNET Japan",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9sM2R4WkNHVGh5MzI2YWRYOW9FWDRqUkZMQkZraHppcFRNaGlPMk5kZmI3OHh6YjhDaVk0VEZXcGRsc2VYajBDQmk3dUkxTU5uQ1E?oc=5",
+          "name": "2026年11月1日",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9NcXZKMkgzR3hLWWNKaHlxUlE4cmlqNU4wWUpVVG41RXJ2MmVZaXNNZmhGenRPaXJhZzBxSlQybmt1NkdsQnZtbUhLdkxhck5WX29KUnNwUHA3cnhLMF8za1B5Zw?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-11-01-auto-137ccce384",
+      "id": "2026-11-01-auto-328aad66c3",
       "member_ids": [
-        "2026-11-01-auto-137ccce384"
+        "2026-11-01-auto-328aad66c3"
       ],
-      "priority": "C",
+      "priority": "B",
       "published": "2026-11-01",
-      "company": "キャンプ場予約",
+      "company": "銀行からカフェ、学校まで...10月の一ヶ月間",
       "service": "",
-      "affected_count": 0,
-      "summary": "キャンプ場予約 個人情報漏えい 中城公園、県民の森",
+      "affected_count": 5340000,
+      "summary": "銀行からカフェ、学校まで...10月の一ヶ月間で個人情報534万件が流出 : 社会 : 財経日報",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1zU3c1UUsxdUZNVEtNekNncHp4cHoyamRacUV4RzFobDYtWERPLXJnNUU5Rk1NWkJEdzlSQ2JvTzVRSkd6ODRzMkU2djFiU2RTZkhkdGJ3SkpVUDFWbHZwdw?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9fZU44c3BnSXhQcGtkSUJOVmtac0dCM0tmRllURnNUV2dYS3AwUXlYcXlKcHlDSFVxcFg0N0xMdllYalZuVC1OSGhWMFdLM3hqRDBYczNlOVhsWGpZRHFRTklOUQ?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-01-auto-01048e2efc",
+      "member_ids": [
+        "2026-11-01-auto-01048e2efc"
+      ],
+      "priority": "C",
+      "published": "2026-11-01",
+      "company": "現代イージーウェル",
+      "service": "",
+      "affected_count": 0,
+      "summary": "現代イージーウェルの会員情報照会APIに外部からの不正アクセス、個人情報流出 : 社会 : 財経日報",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBJT0JIVnhBMWQzcnF6enZKcW1wUjNBWTRiazFIcWtVM1JUUG5HTU9PLWtKNjlDd0lyamJrUGFqY29XN25vUUluOThONXBvVXBqSExmeTVhQloyN0JQQmlMN0Jhaw?oc=5",
           "official": false
         }
       ]
