@@ -1,539 +1,60 @@
 {
   "version": "1.1",
-  "generated_at": "2026-11-02T16:18:48+00:00",
-  "before_count": 977,
-  "after_count": 880,
-  "net_change": -97,
-  "new_count": 20,
-  "removed_count": 1,
-  "visible_before_count": 977,
-  "visible_after_count": 880,
-  "visible_net_change": -97,
-  "raw_before_count": 1530,
-  "raw_after_count": 1580,
-  "raw_net_change": 50,
+  "generated_at": "2026-11-02T23:38:53+00:00",
+  "before_count": 880,
+  "after_count": 889,
+  "net_change": 9,
+  "new_count": 2,
+  "removed_count": 0,
+  "visible_before_count": 880,
+  "visible_after_count": 889,
+  "visible_net_change": 9,
+  "raw_before_count": 1580,
+  "raw_after_count": 1587,
+  "raw_net_change": 7,
   "new_candidate_ids": [
-    "2026-11-03-auto-d4248c4fbd",
-    "2026-11-03-auto-05ace51d3b",
-    "2026-11-03-auto-188c57950f",
-    "2026-11-03-auto-6f9e09d705",
-    "2026-11-03-auto-3efd61251a",
-    "2026-11-03-auto-d3f6e6589e",
-    "2026-11-03-auto-82d73b61c4",
-    "2026-11-03-auto-a19e5d1ae3",
-    "2026-11-03-auto-b764c0aaf4",
-    "2026-11-03-auto-63cdc78c4c",
-    "2026-11-03-auto-7c45ed27d4",
-    "2026-11-03-auto-0b5742d9fb",
-    "2026-11-03-auto-0963727d88",
-    "2026-11-03-auto-a6f3a2e7c1",
-    "2026-11-03-auto-b75b5f00b0",
-    "2026-11-03-auto-b28fc1ed56",
-    "2026-11-03-auto-f0a72c9ccf",
-    "2026-11-03-auto-58e531e5c1",
-    "2026-11-03-auto-5831126e5d",
-    "2026-11-03-auto-85b9e8218a"
+    "2026-11-03-auto-60b70b862a",
+    "2026-11-03-auto-81e688d57e"
   ],
   "new_candidates": [
     {
-      "id": "2026-11-03-auto-d4248c4fbd",
+      "id": "2026-11-03-auto-60b70b862a",
       "member_ids": [
-        "2026-11-03-auto-bade21a9a2",
-        "2026-11-03-auto-d4248c4fbd",
-        "2026-11-03-auto-770727b4a1",
-        "2026-11-03-auto-16073689a7"
-      ],
-      "priority": "A",
-      "published": "2026-11-03",
-      "company": "サントリー",
-      "service": "",
-      "affected_count": 100000,
-      "summary": "サントリーHD 不正アクセスで個人情報約10万人分が漏えい | NHKニュース | サイバー攻撃、AI・ネット・IT、企業・経営",
-      "sources": [
-        {
-          "name": "FNNプライムオンライン",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBJa05FZTBLVGx5dERaTTFDRER1YmVlZ2MzRHNQS053ZUkzd0haRjJMRnlyM3VrTzdJenpDOVIwWXlzU0lfWThGcUJkRU1Ydw?oc=5",
-          "official": false
-        },
-        {
-          "name": "NHKニュース",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBRZ0VDcmlsaUpJU3gyaE1UVnc5VmY1UVhZMjI2NWlUVUFObURnNUJNTmd3QWIzRFFDTndEcXNtX3IxSldkMEJzWXpzLUpseXd6OXZBOHI0czBEbmpTUVNN?oc=5",
-          "official": false
-        },
-        {
-          "name": "日本経済新聞",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBVR19ieHkyb3ZtdDgtU2Z4MVZIZ2p5Ui1JRHp2NV9KZG95Z2dpMl9FejhMS2hVVlFHTlllcTFCeU1YaWVya1kxQXExSzlkYVlyQXV6d0VFU0IxZGg3RlEzTzVNdWJqZndXb0oxOA?oc=5",
-          "official": false
-        },
-        {
-          "name": "Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBkeTdKVGtaeC1UU2VoSGhKRTdSaVZzN2tsMkw3UkQ1QUFsa1hEa1dDLTBWNWRxdndzeGhPRktVMmd1WW5yTnV1RHd0dV9YMGxD?oc=5",
-          "official": false
-        },
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeDI2enNDTUViRDhZdE5CaXNFTW5laW42VTNCa2hLdFU2VHIyVTBLRGNtblNXZG1fZ3ZyY2RSbWlad29wV1IyNzBvQVY0aWF2b2xNb01lWnJxMlM3UWpWdHFMMkcwNWFVTFVXM1NxSjhlakZFMjdjcmE1OTl2TGx4TzU0d2xjbk0?oc=5",
-          "official": false
-        },
-        {
-          "name": "日テレNEWS NNN",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOT2FMS3EyaFlZX0xYa2hWaGRoZ0dQYlNqYlVsUE9UbThlSlZyV1RNcFR5cFBJWVI5WUV1eTZWMFllWnpNTDVCU0EydGtrZ0ptYXZudWlkb2VYcE9kNGNrYVhoR0pGc2NHdVJ6d1BaYmNKS0hsbDVvS1ZSU2FnUFFWbGptTktTckk?oc=5",
-          "official": false
-        },
-        {
-          "name": "Yahoo!ファイナンス",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOandrb1pKRE9zX05TclVNMEtkeUQweEdTM2Z3RDVTNjdLZDIwcFlxVndoWUpCWm51Umk3RlYzYlNNX2NqV1U1d091dGlOdExCWU02SVg5WXc2R2tVZzBCMGdaVVVKSzFrakxSMXpzREJvWWoxOURiRm5RQ1FfekZkZWFjUUpwS1E?oc=5",
-          "official": false
-        },
-        {
-          "name": "BigGo ファイナンス",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1YNm5kYmJuZWdsY1hOTVROeW9IeHNLRDVlVWlCZ1dwYk5sQ1F6T1BKbHRSc1FJYkZQUEJrMG9KZmR4NVlZQlk5UXpnV0c3NzRoUTZjelV4SW5EUnQtVjdNUjN6b1pUdGFoZTFUbnFVTXgtenA2?oc=5",
-          "official": false
-        },
-        {
-          "name": "ビジネス+IT",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5Fd1NIV3VzR252MWxoSlB3Ni1DeXdhOXRjTWpxZnpOM3pLOThBdlpzU2E1NXljcWQ1cFBfSFBtdlZnUmx6M3ZUcU1VRHl2cy1qdFRF?oc=5",
-          "official": false
-        },
-        {
-          "name": "TBS NEWS DIG",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE8tUUpoRDdKRk1LWEdXUFU1dmRRRDRIMklsTFpCZTZ1ZVpyeTZUY2hFOXlJQ3lfQUNZaXpaTXRLNGx0c2gwS2hvZXozVDJzQW9ERmhqbUFLdw?oc=5",
-          "official": false
-        },
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOR1JuMHRKR05fdGswSGkyMGpnM3Bad0Q0cGRzSnB5WGhFVlVZTnFKWWF4elptNFJVZThHRS1QSjNsMk43bXVIblVzQXlzeFBQMTQ5eDlzcWFERHdrQVo5cmh6YUVyUDNqX2ZrdjBlSk9ubFdNczNUVGJDanNfN25BSHpuZWE4SGMxVVd4ZGQ1ZldmNGVGWnBkYVFnYjNjM0otNmktUm16dkFVT2tUUDZ0cUlXdHQ2R25JbHRpUA?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-03-auto-05ace51d3b",
-      "member_ids": [
-        "2026-11-03-auto-05ace51d3b"
-      ],
-      "priority": "A",
-      "published": "2026-11-03",
-      "company": "ロードサービス利用者",
-      "service": "",
-      "affected_count": 5500000,
-      "summary": "プレステージ・インターナショナルに不正アクセス、最大約550万件の個人情報を持ち出し ロードサービスの車両・事故情報や口座情報も対象|セキュリティニュースのセキュリティ対策Lab",
-      "sources": [
-        {
-          "name": "日本経済新聞",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBoaTZjV0N2RTB2bC1FNFBjWHM0eXJHSFNHdzB3elRSc25TeVNqdmxBNkFSaE82MkJlcGhqRm8tMjY3Q3N1Sy1jbFVzZFBZWlJ6ajdaSkN2UkRfS1IzOUpPZjU1clhscUVaVENWRw?oc=5",
-          "official": false
-        },
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBlUk9pREEyZUphUFpxdkZ2VmM1VzZEYkdUVDVQQUpEM0dMcW5tLTFqeWtwVHZRWDB0Rnl4QURGdXg4RVExOUpfMkNkNUIzQXktN2hjZDc4amxrU2g1WUNxc0s1bnYzNUYycHd6bHVVdVhzUQ?oc=5",
-          "official": false
-        },
-        {
-          "name": "NHKニュース",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBnRHZVZ2UwMHBXS3BwbVF2VEVQYVRTZEFxcWhzeHBobjI2MmNmWVBYZjFwaWZCS1QwVFEzcXJnbzBidXphZmY0dDZQRGVKZHpqOG5lQnY4VHFwdV82QjNr?oc=5",
-          "official": false
-        },
-        {
-          "name": "朝日新聞",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1XWE1tWER2QnhUc3ZVazU4N1ROd1hnQTlOc1hvUHEzai1ZVGJFVDkxck9iVkFheWtTZ0w3QlQ0TVVQdklNT0xTOXJMZTludEJaYS1hLVJBd01BZl9WYjNEZmxjY1Bld0U?oc=5",
-          "official": false
-        },
-        {
-          "name": "合同会社ロケットボーイズ",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPT21KU1ptTVFQUUNfVFV4cDNSQjN5Y1NRM0xwcTNnNDhjZ05oMnFfZjBXQ3pZSGJUa0dsSlhzem0zc3dXNTRlSGFpbjVrenN2eWFueF83MklMaXVheUJMcmQtU3BDdjJLRkplYnBydHZWUUYyVVVMRzJVVHd2ckpjTlJkOVNEOVZ0RHZ6MU9YdmlhLUlpR0pNbTVKUUtNa051aXhCekpsWk9UWTVMUXc?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-03-auto-188c57950f",
-      "member_ids": [
-        "2026-11-03-auto-c4c19aea9f",
-        "2026-11-03-auto-188c57950f",
-        "2026-11-03-auto-06820d15ea",
-        "2026-11-03-auto-871664659f"
-      ],
-      "priority": "A",
-      "published": "2026-11-03",
-      "company": "丸井",
-      "service": "",
-      "affected_count": 9000,
-      "summary": "丸井で個人情報漏えい、銀行口座番号も(共同通信)",
-      "sources": [
-        {
-          "name": "Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5UcTlIeUlyM1FDemNRODFWQTFkUGlfb0JKQ20yeEZubk1qSklxR2JEck1zcW5ab2Z0M3BEX0JxTUQ2QXBaWDFXM3lUWXYtUFZ6LUFDc2F0V0ZmdkhnZlk0RjQ1Ukc3T3FNZlNYSm0tZ0YzejN1NkxIb0pleE5RN3M?oc=5",
-          "official": false
-        },
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1KV0ZfbGtkWVdnZEkxbkNqOW91WTdIUENXQ01HQ0Y0aUhMQ1h0c2ZfdHBPVEE3YTVIaWZ1SzZVczZrZkc3QVlJU0R2aw?oc=5",
-          "official": false
-        },
-        {
-          "name": "京都新聞デジタル",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5nRkNWMmJsUWpoZHQzOHRWOVUtYVBVVVJRVmJWQ3hRTkpmT0ttU2hyM3VHektkTUdJQWRfMi1WTV9vTG5ZMGM3cHQ5NWRmSTNqeGxYeFpQNFpJZ2c?oc=5",
-          "official": false
-        },
-        {
-          "name": "NHKニュース",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBoaWdwZ2NYTjdHTlVZSVdyUlFsTXZwT1M4SEwzQ0g2QkpMT3A1bmsySlpDU0E0bDItMGJ2cklRT05IZ0VpNU50eVg4M3R4WnVqRDZuZ1ViNk5aY1JTODdz?oc=5",
-          "official": false
-        },
-        {
-          "name": "Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8yNUdvbXV5MC0tUnpPcXY0YWJobFNzYWkzbFFaeVptYnUySjctUWd4YTlSWG41b3hsSUFBZ1BhZ1FNbElUUENxWHVabGJqc0dIMXRhSnQzSnFCUGR3VVliV3gwZE02Z3dIT2RHMUxJNEoxVW9mQnNic2ZhcjRyWjQ?oc=5",
-          "official": false
-        },
-        {
-          "name": "時事通信",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVWhhaEhDU1ZDTXlLMU9leU5wME9hX3QyRFdXSG9zcENTRnF2ZU1RNVdBNnJUYy1USzlsdnhMbmRidlZXMHVubGlnUUpqR3lIallOSVc3OW1aWEpiRVFfbFJxZGYwSTRMMTh2ZDlCd2UzalUwWFF6c2kwVE52UW5mWmJZRjc0V28?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-03-auto-6f9e09d705",
-      "member_ids": [
-        "2026-11-03-auto-6f9e09d705"
+        "2026-11-03-auto-60b70b862a"
       ],
       "priority": "C",
       "published": "2026-11-03",
-      "company": "兵庫・姫路市「オンライン手続サイト",
+      "company": "情報漏えいでカードを不正利用されたら補償されるのか(尾藤克之)",
       "service": "",
       "affected_count": 0,
-      "summary": "兵庫・姫路市「オンライン手続サイト」で情報漏えいか 外部のメール配信サービスが不正アクセス受け(神戸新聞NEXT)",
+      "summary": "情報漏えいでカードを不正利用されたら補償されるのか(尾藤克之) - エキスパート",
       "sources": [
         {
-          "name": "Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1tcm51NV9yOFNVc2tPb1FJcVNCcm9kT3NIU3M5QWk5bldDd2RUUllsRVROblBXQjZ2VnRrWC0xU3RGbUNmcjhiTFFvSmJ0anZVNjY3elQzWlpoZV9lcWdEaktjQU5GWWxtRklhT0tiVHlPUHJXMmltUmx5d0J3T0k?oc=5",
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUDFzWnNsY3pmOFBpU1lHTV9OR3dTaVNoWnZYTHZ4OXpzSE8zSHVwM0tiVTcyT3MyalVCeFhEZm84UmxHci1iLUViZ0tWUV92WGFCcVhWZm1kRW5tWFNJV2hOaVcxdURUSTNkRU5YaDJUMEtQZGNGMTVFdWFEaEhqN3UtYnh1bEJR?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-11-03-auto-3efd61251a",
+      "id": "2026-11-03-auto-81e688d57e",
       "member_ids": [
-        "2026-11-03-auto-3efd61251a"
+        "2026-11-03-auto-81e688d57e"
       ],
-      "priority": "B",
+      "priority": "C",
       "published": "2026-11-03",
-      "company": "川崎市、オンライン申請システム",
+      "company": "NTTデータ、委託先クラウド型ソフトウェア",
       "service": "",
       "affected_count": 0,
-      "summary": "川崎市、オンライン申請システムで不正アクセス検知 個人情報流出は調査中",
-      "sources": [
-        {
-          "name": "カナロコ",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE16VXZ0Y2x2NXJidk5veDJiaEpDYzI0ZUdHS0N4MkZUMjJlekppTV9lWFRCTzRJVDNzWElEWUpmR1FtTnVPczlFNEtIUzVKb3pXVlhkRkpiVFlNMHM5WjMyZnl6UENfYUJOak5KYQ?oc=5",
-          "official": false
-        },
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBqZEdZR1NiZEREYU16cFBwNTI2STlZRUJ6bFpQc19OdWktakMyRU9sZmI2ZDVsbElFbG1ibzJyQ25jcm4yUjJJRXVqbw?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-03-auto-d3f6e6589e",
-      "member_ids": [
-        "2026-11-03-auto-d3f6e6589e"
-      ],
-      "priority": "C",
-      "published": "2026-11-03",
-      "company": "NTTデータ、2789人",
-      "service": "",
-      "affected_count": 2789,
-      "summary": "NTTデータ、2789人の情報漏洩を確認 委託先の不正アクセスで",
-      "sources": [
-        {
-          "name": "日本経済新聞",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBPSThmRzBZWUwzcjNxdDNpYndUWTBoTURPN29QOWM3OW1WWGw0NnJOWE0wSDlNQk85TGpnNXBGc2VSMEdsNU1Keng1RXRsZnJaczVMMnZkbzRlNEZCbFpTRWpNME15ZkcwR2M1Rw?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-03-auto-82d73b61c4",
-      "member_ids": [
-        "2026-11-03-auto-82d73b61c4"
-      ],
-      "priority": "A",
-      "published": "2026-11-03",
-      "company": "デイリー馬三郎",
-      "service": "",
-      "affected_count": 152500,
-      "summary": "「デイリー馬三郎」に不正アクセス、最大15万2,500件の個人情報漏洩のおそれ パスワード・口座番号も対象",
-      "sources": [
-        {
-          "name": "合同会社ロケットボーイズ",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOYUtTMkV0dDJteU9Bc21Zay1hRFNiTGI0NHh3VnNobm9BTTlsUUpONnJpR0pWSzVNcVBTamNFTS1YV1VJRjZ6aGx4MFRRLUdOWEZIQkM5NGRSMkVOMG5TT0lXRzhZVklxT0RlNDNJU0FlZ0IzVm81UXJWczFSc0dERjFySWlmbldXR1hOUzBrNTducGtHenY1Qmc5WngwOHpaUllJNlBQVzByN0E?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-03-auto-a19e5d1ae3",
-      "member_ids": [
-        "2026-11-03-auto-a19e5d1ae3"
-      ],
-      "priority": "C",
-      "published": "2026-11-03",
-      "company": "HYBE",
-      "service": "",
-      "affected_count": 0,
-      "summary": "HYBE、外部ハッキング攻撃による個人情報流出を謝罪...氏名からパスポート番号まで大規模な被害(Kstyle)",
-      "sources": [
-        {
-          "name": "Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9wN3M2ei02djgyQ0JPOGh0QUUzRUhsQWpuaU5NX3BILVgwRDhzZEtIRmNzamRUYkpzRDJ6a2JOR1dyUDNjZVlDR1VMNkt0aHFTTTlxdzJBWWZlWm5BV2xXbVlyZHJKNWFqYmIzVWZWd2NJNERvVmVqY3JobldYVk0?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-03-auto-b764c0aaf4",
-      "member_ids": [
-        "2026-11-03-auto-b764c0aaf4"
-      ],
-      "priority": "A",
-      "published": "2026-11-03",
-      "company": "近鉄・都ホテルズ」でメアド約13万件漏えい 姫路市でも流出の可能性 「アララ」へ",
-      "service": "",
-      "affected_count": 130000,
-      "summary": "「近鉄・都ホテルズ」でメアド約13万件漏えい 姫路市でも流出の可能性 「アララ」への不正アクセス受け",
+      "summary": "NTTデータ、委託先クラウド型ソフトウェアに不正アクセス 社債購入者特典サービス停止",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNeWNSTTg0S3luU0ZPYk13UkNGNmNWQTZSNG9zTFBVVHE1RWZxZzc1bkFsRmhQMmYydEVINS1aOTZJdmRubFFJLTE4elJzT2FBNUF1bWVaejZlX1h1eFM4YmdIMkFxTEZBZ0pWX05oSWp5TEtUMng0andnbGhIWDg5cWZmSdIBgwFBVV95cUxNeWNSTTg0S3luU0ZPYk13UkNGNmNWQTZSNG9zTFBVVHE1RWZxZzc1bkFsRmhQMmYydEVINS1aOTZJdmRubFFJLTE4elJzT2FBNUF1bWVaejZlX1h1eFM4YmdIMkFxTEZBZ0pWX05oSWp5TEtUMng0andnbGhIWDg5cWZmSQ?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-03-auto-63cdc78c4c",
-      "member_ids": [
-        "2026-11-03-auto-63cdc78c4c"
-      ],
-      "priority": "A",
-      "published": "2026-11-03",
-      "company": "北陸電力「ほくリンク」会員のメールアドレス約55万件",
-      "service": "",
-      "affected_count": 550000,
-      "summary": "北陸電力の「ほくリンク」会員のメールアドレス約55万件が外部に流出 メール配信委託の業者に不正アクセス",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPekM5cVFCaFd0dHdxcTlFT2pjc0VOYy1ZZWFRVUktLU0wVFJvWEpxNjBQU0FSNTR5Wk1US2E2VExvLVV6YktPNEV1eFpxYURZMXlvVFJGNjZ5RzZfeTcxQTVzVndpTWVqejcxRm54cTRGdGlFb3B4VXVaWmhqU2J2X2RlUE9UOGc?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-03-auto-7c45ed27d4",
-      "member_ids": [
-        "2026-11-03-auto-7c45ed27d4"
-      ],
-      "priority": "C",
-      "published": "2026-11-03",
-      "company": "近鉄不動産、資料請求者らのメールアドレス漏洩 委託先",
-      "service": "",
-      "affected_count": 0,
-      "summary": "近鉄不動産、資料請求者らのメールアドレス漏洩 委託先に不正アクセス",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9wOExLZkJZMmx1MlhEUE8xaTI3ZjZQNnFyVVNmOG5TX05HTU9qRHk2dTFGdU5PODAxT1AwUnZRWEFOanRDR3ZaVEh5NTZpbEFGQWI2Mk9ROXNnV0I1bVJvV0daRGtsRERjNEVXOA?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-03-auto-0b5742d9fb",
-      "member_ids": [
-        "2026-11-03-auto-0b5742d9fb"
-      ],
-      "priority": "C",
-      "published": "2026-11-03",
-      "company": "くまモンのスタンプラリー事業",
-      "service": "",
-      "affected_count": 478,
-      "summary": "くまモンのスタンプラリー事業 不正アクセスで478人分の個人情報漏えい【熊本】",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1FTXNpdnBUU09XTnd4SFNUZEMycWNXclEydXFOZzljNEo5UUtFU1dpM2NfZjlIUWdvUDJFdVFiNkdLcW9lel9NNUNqQzZLdw?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-03-auto-0963727d88",
-      "member_ids": [
-        "2026-11-03-auto-0963727d88"
-      ],
-      "priority": "B",
-      "published": "2026-11-03",
-      "company": "大阪ガス、メールアドレス3万4000件",
-      "service": "",
-      "affected_count": 34000,
-      "summary": "大阪ガス、メールアドレス3万4000件が漏洩 委託先に不正アクセス",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE83aFdOa1JMdk9WcUNBUG85ZWhHTUpZQlp3V2xfWVhEU3pqdF9fdmI4YU1reGtGeUh6eW9HOWh6V0V1WTJQdldKSXdSTzl2YU9mbDdfWDhuTFR1LXZTX3d1YVdlUWNiclE5UDl5YQ?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-03-auto-a6f3a2e7c1",
-      "member_ids": [
-        "2026-11-03-auto-a6f3a2e7c1"
-      ],
-      "priority": "C",
-      "published": "2026-11-03",
-      "company": "島根県物産協会ネットショッピングサイト",
-      "service": "",
-      "affected_count": 0,
-      "summary": "島根県物産協会ネットショッピングサイトに不正アクセス...クレカ番号など漏洩の恐れ 約2か月報告も遅れる",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBGb2c5dzJCbU1CRmtYVE41akNtYmhfV1Z1alFITjVuYWRyTE42QVNRU2kxaUR6dHBUNGxlYUltREw5aGl2MzFScjY3RV9uRWJhQWd3M3I3SUdaNEQ1UWxLbFlwQjNheEh1NXBBMnlUUW5rdWU4X3F1ZEpRTVIxeVU?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-03-auto-b75b5f00b0",
-      "member_ids": [
-        "2026-11-03-auto-b75b5f00b0"
-      ],
-      "priority": "B",
-      "published": "2026-11-03",
-      "company": "大阪ガスのおかず定期便サービスで3万件",
-      "service": "",
-      "affected_count": 30000,
-      "summary": "大阪ガスのおかず定期便サービスで3万件の情報流出 「FitDish」利用者のメールアドレスが不正アクセス被害",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9aazM3T0E1cWF0VHNuTnRWb05CRTlacXhXNjFqM2RJSTNlcElsbTJNT21IUzR1MlNKcXNfa1hoQW1ESkdrSHZqVkhyanNoUWFsWmxSNmFfQy1xY2M4eml1RzdlY1lWX2g2dWltLThYRGNVMEV6R01xWHdlcHdmdHM?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-03-auto-b28fc1ed56",
-      "member_ids": [
-        "2026-11-03-auto-b28fc1ed56"
-      ],
-      "priority": "B",
-      "published": "2026-11-03",
-      "company": "にいつフード「グリーンカード」会員297名",
-      "service": "",
-      "affected_count": 297,
-      "summary": "にいつフード「グリーンカード」会員297名に個人情報漏えいの可能性 委託先へ不正アクセス、住所・生年月日など対象",
-      "sources": [
-        {
-          "name": "合同会社ロケットボーイズ",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQanpKQ25hN1hldDYzdmpaZkdGekFIemZpM1FwTHJ1RDdEeFgwVU5KNDNxNnN1ZkQ1N2pRWjAyN0c5ZWZrRzJTLUN5M3pONXJOaTY0YnJmdVBmcXp3VVpyaEw1cGF1RnpMMlhLSENLWEQzTExmWWpfQXhsclVrb2pQc0ljY1F1U2R0LUhITW85emRYYWE0Mnp0TkNR?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-03-auto-f0a72c9ccf",
-      "member_ids": [
-        "2026-11-03-auto-f0a72c9ccf"
-      ],
-      "priority": "C",
-      "published": "2026-11-03",
-      "company": "りそな、顧客のメールアドレス",
-      "service": "",
-      "affected_count": 0,
-      "summary": "りそな、顧客のメールアドレスが漏えいの可能性 委託先に不正アクセス",
-      "sources": [
-        {
-          "name": "CNET Japan",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE94QUJIV3hObUtIT3R5TmFQWWVDTXdlQXJEVmJ0T2lNZUN2dUNxekd4ZlgzeXBMMi1wa21Vd1hhZk1HVXpITHE4UHJJdDVFcnpXTUE?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-03-auto-58e531e5c1",
-      "member_ids": [
-        "2026-11-03-auto-58e531e5c1"
-      ],
-      "priority": "C",
-      "published": "2026-11-03",
-      "company": "テレ東マート",
-      "service": "",
-      "affected_count": 0,
-      "summary": "テレ東マートに不正アクセス、11月2日午前3時53分に通販サイト緊急停止 個人情報・カード情報の漏えいは確認されず",
-      "sources": [
-        {
-          "name": "合同会社ロケットボーイズ",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVHJXbUFlYWhKNDdxZEozVUNaTUlvbzBhR0RMSEx3dUdsZDZKMWc3aHFCWFB6dGFnNzgwa1kwcHpJOVVyRlFIZEZidXlxVXhQZy1jMWx1V3pRT3JYZFY5ck1HbzExSE1kaUtZTmJROWp0UlBMNlB2eEFiOTNBUWdNY3g1dFBNcEd2MTBHRWF3b0pUM0ZXeThxSFR6d05GQ2U4dHIwbQ?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-03-auto-5831126e5d",
-      "member_ids": [
-        "2026-11-03-auto-5831126e5d"
-      ],
-      "priority": "C",
-      "published": "2026-11-03",
-      "company": "ライフ/第三者による不正アクセス",
-      "service": "",
-      "affected_count": 298,
-      "summary": "ライフ/第三者による不正アクセス、公式アプリ298件の情報が閲覧された可能性",
-      "sources": [
-        {
-          "name": "流通ニュース",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9mQXNfMnBucWtVR2g3MHhyQms5Z3c5aU9qU3l6QWljZWFEcDl3S0YyNmpuTDlHYWFtRnBmZlpyY3VsNk1BWG5ZaXJCYXp0eHJsbk5oMWcxLXc?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-03-auto-85b9e8218a",
-      "member_ids": [
-        "2026-11-03-auto-85b9e8218a"
-      ],
-      "priority": "B",
-      "published": "2026-11-03",
-      "company": "バリューゴルフ「1人予約ランド",
-      "service": "",
-      "affected_count": 1300000,
-      "summary": "バリューゴルフ「1人予約ランド」に不正アクセス、会員のメールアドレス流出の可能性、影響人数は未公表-登録会員130万人超",
-      "sources": [
-        {
-          "name": "合同会社ロケットボーイズ",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNTVtZFU5U1FVUk5ESXRTdG10Qmhac2l3WmJVcDhFNVJDdFY0ajNGTlpWSjg0Q3RQZzV3cVFvS3M2VDVlMVMyMkVNVktEZ0dRN3dVLXdlNnJYMVVmLXREMmpwQkhkN1AtLXZ5dG42aTJxQ3ZCYWlKUUdfVnpMRFFlN2xieTRsbXJZazNwa2Q4RjZoRFd6?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSUpTc1Joel83dVo3TElhNEptckhCQXpSSDlMZjRQR002VU5GTUJUbWlpd1BNOXgtd2RDMlMydkJsUzczNnhac3N3TG1HYW1CTW5hZ0hjY3hkN08wdktxRmRFZS03Yy1XUmJtV1JPdHNVZTVMY2ZWbHA5X3dvUk5kN0ktQWdBUXVSUk9LckdjNNIBlAFBVV95cUxPc1JTVnhUT01DeTZFMWY3TzJ1bGxIMkV5VHh1SGVqdlZTZGhyRUxPOUJwSzhDMXAwS0VSVm02ZWgtWVh2Mmxibmc5WDN1T2lLLVNFWTd4a21OOFg4eEQyZEhTZnFpTlV1VllWUVFGaFBydk1YU0lZOGlPMXlEc1BOOFhlNWZnZ1NvaTRBdldrODhCUGxU?oc=5",
           "official": false
         }
       ]
     }
   ],
-  "removed_candidates": [
-    {
-      "id": "2026-11-02-auto-1a2fedb61d",
-      "member_ids": [
-        "2026-11-02-auto-1a2fedb61d"
-      ],
-      "priority": "C",
-      "published": "2026-11-02",
-      "company": "いいかげん",
-      "service": "",
-      "affected_count": 0,
-      "summary": "「いいかげん、猫を見せてくださいよ」突然の来訪者は娘の免許証画像を持っていて...個人情報流出、被害を連鎖させる手口とは"
-    }
-  ]
+  "removed_candidates": []
 }
