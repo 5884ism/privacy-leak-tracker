@@ -1,36 +1,431 @@
 {
   "version": "1.1",
-  "generated_at": "2026-11-02T00:40:41+00:00",
-  "before_count": 942,
-  "after_count": 950,
-  "net_change": 8,
-  "new_count": 1,
+  "generated_at": "2026-11-02T06:17:50+00:00",
+  "before_count": 950,
+  "after_count": 977,
+  "net_change": 27,
+  "new_count": 20,
   "removed_count": 0,
-  "visible_before_count": 942,
-  "visible_after_count": 950,
-  "visible_net_change": 8,
-  "raw_before_count": 1496,
-  "raw_after_count": 1499,
-  "raw_net_change": 3,
+  "visible_before_count": 950,
+  "visible_after_count": 977,
+  "visible_net_change": 27,
+  "raw_before_count": 1499,
+  "raw_after_count": 1530,
+  "raw_net_change": 31,
   "new_candidate_ids": [
-    "2026-11-02-auto-3070e23683"
+    "2026-11-02-auto-51f4c93a0c",
+    "2026-11-02-auto-4b52ce115a",
+    "2026-11-02-auto-a067d38495",
+    "2026-11-02-auto-e98655379a",
+    "2026-11-02-auto-e546845948",
+    "2026-11-02-auto-171a9c3713",
+    "2026-11-02-auto-07c6750dd4",
+    "2026-11-02-auto-4597ba850d",
+    "2026-11-02-auto-ad28a440f3",
+    "2026-11-02-auto-f27487a98f",
+    "2026-11-02-auto-5c2636a0c1",
+    "2026-11-02-auto-e418e30440",
+    "2026-11-02-auto-a296619a8d",
+    "2026-11-02-auto-41153fc1e2",
+    "2026-11-02-auto-df6d3ed579",
+    "2026-11-02-auto-dc4027935a",
+    "2026-11-02-auto-ec694c51c7",
+    "2026-11-02-auto-ee7fab562c",
+    "2026-11-02-auto-3236e045ec",
+    "2026-11-02-auto-c7d97efed8"
   ],
   "new_candidates": [
     {
-      "id": "2026-11-02-auto-3070e23683",
+      "id": "2026-11-02-auto-51f4c93a0c",
       "member_ids": [
-        "2026-11-02-auto-3070e23683"
+        "2026-11-02-auto-51f4c93a0c"
+      ],
+      "priority": "A",
+      "published": "2026-11-02",
+      "company": "アララ",
+      "service": "",
+      "affected_count": 77000000,
+      "summary": "アララ メッセージ、不正アクセスで最大約7,700万件のメールアドレス 流出の恐れ-最大380社の環境に侵入、713万通の不審メールも送信|セキュリティニュースのセキュリティ対策Lab",
+      "sources": [
+        {
+          "name": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1HWmE1T0lNX3c3dHBBQW53RUFRMjdKQ2R1UE9CZ3h5RUt0YnAwVFNINGd6WEFraU5Sd3VRZnlCMy1faS1rZUVNTGUycHl2WFlfOVBxbzRYMHZxTjYxbmR3UUx4RExFLW4yMmZsajJuNkZJLTJwRWF6dmxPcHRua2M?oc=5",
+          "official": false
+        },
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQeG5lcThXT3Jkb0h3U0ZjdnJKWHRoZzl6QW0ya3I4Y2ZTUnZWSldxR3JhUHUyd2xTU3pub2RUZEI0ZWtoU0d3NE9wLUVZSGVGSDhtOWdyS0MtMWxqY0trc2pITFFuZEpaRFVLM05JeGJURm9wTkdudVRTVEdabVBTdUpTUGJ5QVlHTHlQNm5iRDVHbzY3ejRpM0p3?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-02-auto-4b52ce115a",
+      "member_ids": [
+        "2026-11-02-auto-4b52ce115a"
+      ],
+      "priority": "B",
+      "published": "2026-11-02",
+      "company": "713万通超の不審メール確認 「アララメッセージ」不正アクセスで",
+      "service": "",
+      "affected_count": 7130000,
+      "summary": "713万通超の不審メール確認 「アララメッセージ」不正アクセスで [情報漏洩・個人情報流出の最新ニュース]",
+      "sources": [
+        {
+          "name": "朝日新聞",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBnSnU1MFl0UW05ZU9iSkZFc2RsRDRIc3JnWFN1dEdqak1MbW1XdHZtU2pZbHA5T0RaeE9CRmdLdktNeDNiV3pKMkJaN3o1WU1kdUpFbTZSYUs2UUpYMkhiS0ZGRGtoQlE?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-02-auto-a067d38495",
+      "member_ids": [
+        "2026-11-02-auto-a067d38495"
+      ],
+      "priority": "B",
+      "published": "2026-11-02",
+      "company": "楽天証券や野村證券など",
+      "service": "",
+      "affected_count": 0,
+      "summary": "楽天証券や野村證券などで情報漏えいか NTTデータ委託先への不正アクセスで(アスキー)",
+      "sources": [
+        {
+          "name": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5CU3k0MUc0bW9SUnVXMXJqeWVaOXY1c0g4eEVkMGc3MU8xdzVNUUVWS3BRNWl3WlVPeTJoMm05enN3RkpaZkJHYWRDXzZ2UzFTLWlYSHB2a0Z2UWZjNkYzVm9yeFZ2amVQMjkzRTIxWG9DU0lGUFlCQkZPTlk1Vms?oc=5",
+          "official": false
+        },
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5Xbm9tSEJrQmdOMllPVk5TWmVSNmJDeVpfRzQtVEpxTXk2TVhCUDk2TnQ3MVRZckFJem1hM1A2N1liaUZJMF9Gd2JyS285OTRkcmFWQXRvaUY1UnB4RnoxWVRn?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-02-auto-e98655379a",
+      "member_ids": [
+        "2026-11-02-auto-e98655379a"
       ],
       "priority": "C",
       "published": "2026-11-02",
-      "company": "1兆円不正流出「北朝鮮が関与」=バイナンス暗号資産が資金洗浄―FBI",
+      "company": "Vook",
       "service": "",
       "affected_count": 0,
-      "summary": "1兆円不正流出「北朝鮮が関与」=バイナンス暗号資産が資金洗浄―FBI",
+      "summary": "Vookに不正アクセス、会員らの個人情報が漏えいのおそれ 分析ツールの脆弱性を悪用、作品閲覧パスワードも対象",
+      "sources": [
+        {
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNEFOYllhVnVURmVUUk5BcDZLMXpUQThZQ0xwQjRWdkJCTVR3X2lMS0N5YkVPUlJiaWFyTlZ6VXdwWXpXcUV1QTVZa0hVVzRRTmVXZ2NqZDdIcnJ2T3ZQWVFsTkVlcFNwaEpMUmdzOHBjX2JnZFlCbTVhLU1ES1B2VFM3ZVVYczhmd25NbDJyM2hPcE1sRzAtZXlqZG95NjZIVzloWQ?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-02-auto-e546845948",
+      "member_ids": [
+        "2026-11-02-auto-e546845948"
+      ],
+      "priority": "C",
+      "published": "2026-11-02",
+      "company": "IKEA(イケア)のソファ用カバーなどを販売する「cover-ing",
+      "service": "",
+      "affected_count": 0,
+      "summary": "IKEA(イケア)のソファ用カバーなどを販売する「cover-ing」に不正アクセス、約5年間サーバー内ファイルが外部閲覧可能に 個人情報漏えいのおそれ|セキュリティニュースのセキュリティ対策Lab",
+      "sources": [
+        {
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRXdsNERrN0RaYWhoMHZHY3RHSkdfU05VNkhTd2NWMEt5TzltQ1UxUXRvTWdrWVIxdjhleFNCUVRMM095bXdQLVhVTTlRSW4xOEEzR21DWGNLaGtXRHBFa2MydzFIM1B3WWtEYUVfRzJCTEdMbjAwUk5XVWgwZG5za3libTdiaXVScHozNTJEUVBlY291YTdhRXdwdWFhVFdvdnYtWUN6OXdFcHM?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-02-auto-171a9c3713",
+      "member_ids": [
+        "2026-11-02-auto-171a9c3713"
+      ],
+      "priority": "B",
+      "published": "2026-11-02",
+      "company": "GMO傘下",
+      "service": "",
+      "affected_count": 45000,
+      "summary": "GMO傘下、個人情報4.5万人分漏えい 9年間外部から閲覧可能、設定ミスで:時事ドットコム",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE40SUxiMmJsaUpkbmtFLWd6RlpwdzYwQjJGSmxnNGN4bFRRdkZVcVg5QlI3ZDNrb2g3dmlRWkE0X0l4aEhGeVN0aEMwY2Q4RFpUbTlHSHJFZlQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBxbWc1aDd5cmczYS0yejRpaWtKQkh4Vzc0dW9XTlhITGxsX01xUl9ZaHo4R3pfcnZHV2FHNDVDOERHXzFmbHhuRWNjMlJCclVFY0ktcjBuOUtsV1RGMlI1TEtZSQ?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-02-auto-07c6750dd4",
+      "member_ids": [
+        "2026-11-02-auto-07c6750dd4"
+      ],
+      "priority": "C",
+      "published": "2026-11-02",
+      "company": "UCC上島珈琲、顧客メールアドレス5,529件",
+      "service": "",
+      "affected_count": 5529,
+      "summary": "UCC上島珈琲、顧客メールアドレス5,529件の漏えいを確認 過去に利用したLINE連携サービス「COMSBI」への不正アクセスで",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOX2Q4NHNjbllZTHRuT1hRVTZnWkZ0Y1lnTklraFZsbG9FUEt1bTczSnlQVkdZTFlYcnF5Tmc3RGFMOFpKMThVaE5GWlExS3BaRlVsQVlMSXVsU2JLdENKckhoVzhjckJIcnBFTThoWXkzcU5uT0xLNzhTb0h1dTRIaC1LWjBURWtqb0hXQTlWWjZjbkt1ZHpfanF2NjROenRDTWdzaw?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-02-auto-4597ba850d",
+      "member_ids": [
+        "2026-11-02-auto-4597ba850d"
+      ],
+      "priority": "C",
+      "published": "2026-11-02",
+      "company": "BuySell Technologiesグループ、WASABI SWITCHへ",
+      "service": "",
+      "affected_count": 1369,
+      "summary": "BuySell Technologiesグループ、WASABI SWITCHへの不正アクセスで注文情報1,369件・顧客情報224件が漏えい 偽返金メールも確認|セキュリティニュースのセキュリティ対策Lab",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWFZMNzktUnJ0ZFhhalYwQURZODJISVkzUHFKYjk0WGZmUFZJWXRsN0dkZjNNd1paV1N0WWZwUUtyMG04NWE0d1VzNzlPRVBEcnlKNzdUNDFVbXRlMTh2RGptMlNReVJ0bkN3NmhSV0VtZnBheTNwUFJMcHN5MWVKdEg3dnJYWUdISllyY3ZCYWtObjVxblhPWmhjX3NIMHZ5a1djVFpCbkJqSjlMbGRQZXBvenk3Z0FadlhvVllndVNLYXM?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-02-auto-ad28a440f3",
+      "member_ids": [
+        "2026-11-02-auto-ad28a440f3"
+      ],
+      "priority": "B",
+      "published": "2026-11-02",
+      "company": "とくモニ!、不正アクセスで会員4万2,900名",
+      "service": "",
+      "affected_count": 42900,
+      "summary": "とくモニ!、不正アクセスで会員4万2,900名の個人情報流出 銀行口座情報も対象、運営元を装う偽のアカウント復旧メールを確認|セキュリティニュースのセキュリティ対策Lab",
+      "sources": [
+        {
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNamZVLXZwNlZsRUtQLUYySFpRMEFoNzRyZ3dxdzVncVhwbl9VcUdnalNxa0JOZG1xTVE2ZzJiZ3paY3NvSE91dGhyZ0RUQms4dlFFaDBJM3ljR3NmQUlnQWtQczRnMFBuby1SdlNwR0FuOGxTVkRFeGZzSTJtOW1CQVN5RTFvVW1jdHc?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-02-auto-f27487a98f",
+      "member_ids": [
+        "2026-11-02-auto-f27487a98f"
+      ],
+      "priority": "C",
+      "published": "2026-11-02",
+      "company": "NTTデータ、委託先SaaSへ",
+      "service": "",
+      "affected_count": 0,
+      "summary": "NTTデータ、委託先SaaSへの不正アクセスで社債特典支援サービス停止 個人情報漏えいの可能性",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBaRkZuZElxcDRJOVlLRWl6dlZuX2wwUkRSQXkzS2F6eEMtTnkxX3NXVFZfNU9kX0gwVTNlUVlyUGRlOU5iaG5GVEIzMVRRT3hFSjdyYnoxeGNyQjlsT2NjZklR?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-02-auto-5c2636a0c1",
+      "member_ids": [
+        "2026-11-02-auto-5c2636a0c1"
+      ],
+      "priority": "C",
+      "published": "2026-11-02",
+      "company": "ゴルフスクールガイドの管理画面",
+      "service": "",
+      "affected_count": 0,
+      "summary": "ゴルフスクールガイドの管理画面に不正アクセス、申込者の氏名・メールアドレスなど閲覧のおそれ 2026年8月に脆弱性を悪用",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZ25vc2JHeGV4VEZKbU5BcTBXdTRJT3J2VVkzV0ctTnhUNzkxaVRyRjJDRXlDNS01dUNBbS1pQWlQd1dFblBaaTBUeGcyeG5zUU53cWRJRDF5UERKNHprS3JnU2pPcUpCOW5VT2daaUhKMGxiZVMwSllta2FjT0Y5LUNkZHdJdHJTWEJXUnc0V25mTEZleW9uZjJFcy1FYnpSZWVB?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-02-auto-e418e30440",
+      "member_ids": [
+        "2026-11-02-auto-e418e30440"
+      ],
+      "priority": "B",
+      "published": "2026-11-02",
+      "company": "KDDI、顧客情報最大2万2541件",
+      "service": "",
+      "affected_count": 22541,
+      "summary": "KDDI、顧客情報最大2万2541件の漏えい可能性 ライフネット生命の連携システムに不正アクセス",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE10blRMNzVTVkVnNmJaYkhwY0JBcjRfUkZFbXl0T1JraURMV3JKMFIzQUVkTEEtSFNxa201bUlaLVJNVERmelA2elp4bHozOUNRTlNWVURFOXZEZ1RsR2hDaVpR?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-02-auto-a296619a8d",
+      "member_ids": [
+        "2026-11-02-auto-a296619a8d"
+      ],
+      "priority": "C",
+      "published": "2026-11-02",
+      "company": "ワイン通販サイト エノテカ・オンライン",
+      "service": "",
+      "affected_count": 0,
+      "summary": "ワイン通販サイト エノテカ・オンライン、不正アクセス疑いでサイト停止 身に覚えのない注文・不審な会員登録を確認",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOcEl5ZndPT19jSTA0eE1EOTNJdURlYmVlaUF6ZkJlRkh2aVhTTC1JNTlJeXNLaEo4QVVQZ2F1ZllEY1JLdmRnVzd0eUg2emFRWl9kSk1QVUJDZ01HUWtybUxoVVZRdHRKWlJCckg4X2cwQ1FJVllhRENOLTh5Z3BtS3kzZmJ4Ym9xWVlIZGdTMTY2RGtWajUxQ09YZ3V1RHlhc3V0Tl91R2k0WVZnVkE?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-02-auto-41153fc1e2",
+      "member_ids": [
+        "2026-11-02-auto-41153fc1e2"
+      ],
+      "priority": "C",
+      "published": "2026-11-02",
+      "company": "Mリーグ公式サイトおよび公式オンラインショップへ",
+      "service": "",
+      "affected_count": 0,
+      "summary": "Mリーグ公式サイトおよび公式オンラインショップへの不正アクセスによるお客様情報の漏えいについて(お詫びとご報告)",
+      "sources": [
+        {
+          "name": "お詫びとご報告",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOREc2bGRxZFhUcXk4bmw2YnNhWkdFTURTWmd2MEFYWGNOc0hsYXhiYXdxRTVxcEhsX2NTT1IwNzZwTnJCRlVPWmRnMU14cUotekZKWlBRRmhYd0prNWRCQ0x6VzZzSUJhZ3VkVV9DWVBjajZBZUplVS1sdXEwelRqSjU2dXJLZFNj?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-02-auto-df6d3ed579",
+      "member_ids": [
+        "2026-11-02-auto-df6d3ed579"
+      ],
+      "priority": "C",
+      "published": "2026-11-02",
+      "company": "テレ東、通販サイト",
+      "service": "",
+      "affected_count": 0,
+      "summary": "テレ東、通販サイトに不正アクセス 情報漏えいは確認されず サイトを緊急停止",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5JOUl2UktaN0pNbGs2NnNRS25iWEVtV25qWThBSFZnaTNlR0E0VzZhRGRFbWk0Q1RrMmZ2RmhKNzRNTGdmLUFQSE1veDJuUWk1UEl3M0toalQydXRUQ2Zkb2JWdDN6ZHJhd1JlZXd3UHNKZVlsLUhBMm1jWQ?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-02-auto-dc4027935a",
+      "member_ids": [
+        "2026-11-02-auto-dc4027935a"
+      ],
+      "priority": "B",
+      "published": "2026-11-02",
+      "company": "Gマーケット",
+      "service": "",
+      "affected_count": 10000,
+      "summary": "Gマーケット、個人情報流出の顧客に1万ウォン...eクーポン被害は全額賠償",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQQ1lHSE1LTXROMEVRZVhRN3Nad1h1WXI4UVpiVWdJc0JRb25FWENFb1lUUElZcTdnZmNGa1A5bGhGaXBpVjJjQ1FYNFFzZnQ0ZWoyYnlKSXYxZXpTazg2WHdZVkV1TGxNTGc2WkRveTBzbC1oZEVMTjZBNFN6dHlaSA?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-02-auto-ec694c51c7",
+      "member_ids": [
+        "2026-11-02-auto-ec694c51c7"
+      ],
+      "priority": "B",
+      "published": "2026-11-02",
+      "company": "栃木県警 全職員3900人",
+      "service": "",
+      "affected_count": 50000,
+      "summary": "栃木県警 全職員3900人の情報流出か——防災メールの会社に不正アクセス、7県警5万人・142万通の不正メール Eastenders Bafta Award 2026 (Vit3RdoQs3)",
+      "sources": [
+        {
+          "name": "Vit3RdoQs3",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNk5Zc2FtOHBCM2lvU01LQzMwMVdxejdOTWVFYUFxaENMdXZHcFNjRTIxZElkamtvb2xiX21qLTdMY2JyR0xUQy1tSGpVM0IzRVdKLVItamVUQlpzVXU3Q2xSNmZMQW9EdXlIX2JWODQ4SC1IZ2g4ajhWNHZGMGdkX1pPQk0zUlU?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-02-auto-ee7fab562c",
+      "member_ids": [
+        "2026-11-02-auto-ee7fab562c"
+      ],
+      "priority": "B",
+      "published": "2026-11-02",
+      "company": "楽天証券、顧客情報362件",
+      "service": "",
+      "affected_count": 362,
+      "summary": "楽天証券、顧客情報362件が漏えいか NTTデータ委託先に不正アクセス",
+      "sources": [
+        {
+          "name": "ITmedia",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBaYUtVWDR5UXZBaW0xeTV3czEwSVN5R2NZOGN4MEZPaHVwa3BuN3ZrZ2o4WjRmZ2dGSVh6LXk2cnpQOUxoeHNGVS1CU21MOW1CTTFzemhwVEhrVzV1bkwxaW1lZl9pWmZNX1E?oc=5",
+          "official": false
+        },
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQQ2xYcGNlWnJaMm5lUVcteEpLQnhXYWNKbjBjVDNXT1V2N2ozYkZrRnZvV25oel91ZG9IU1k1UGR3Q3dhekdYejY2dF9EWmhFUlVfb0RKMGYtVFVUUjhqWGZTU3Q1LUlDTGRybVJjckN3VndtbHNwWFl4QXp5ZHh6Z3dlMDI2ZzVGR3ZvSW5kZzByVXFRb3lwVDFWX0xuczF5eVVCY19XRGdBSGNCVndUY0hlQlpRc2dJRTlPSW1MRW5hcFlCRWdDMDFYN2hVUnNUX3I2eERUa050S25BZzk0b3Vocldqa0ZvekpZ0gGbAUFVX3lxTE1MUlR3bFA0YzJoRTFKVnVxU21TVURFR3NwVEVlRzdOZ2JBRE9rcUlPMkV3TWJOWnBacGZ2LS1PRElRVGZTM3pONUVXVklqOHhyd0kwWkJ5dy0yTTFQVlhzQ2dIZ2hOZTdtbG15RkktZzRzTUNzUlRPVmVuN1J4d3pDRUszbjcyQ1VfRk5fYk1qMVlaYWZXQlhlUlhr?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-02-auto-3236e045ec",
+      "member_ids": [
+        "2026-11-02-auto-3236e045ec"
+      ],
+      "priority": "C",
+      "published": "2026-11-02",
+      "company": "野村証券、顧客情報漏えいの可能性=委託先",
+      "service": "",
+      "affected_count": 0,
+      "summary": "野村証券、顧客情報漏えいの可能性=委託先で不正アクセス(時事通信)",
+      "sources": [
+        {
+          "name": "時事通信",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZmN4NUlpcEJiMWR5YmF4d0k5MTJlaG1KYVlJV29iejhLNF8xOFRSYWVLSXl4MnRlWGNoSnRzM29wNzFZdU1vb0MzamluWEVRM3Byc000cC1maEVZMjRnNklsdThXUmdhcS1qbm5WZmp2Z0NDTWRJQ1laNGtTcFQzMkVCMWxINnM?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-02-auto-c7d97efed8",
+      "member_ids": [
+        "2026-11-02-auto-c7d97efed8"
+      ],
+      "priority": "C",
+      "published": "2026-11-02",
+      "company": "◎野村証券",
+      "service": "",
+      "affected_count": 0,
+      "summary": "◎野村証券、顧客情報漏えいの可能性",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9IR0tvZlpwWGhoank1Q08xMjVGak5nMXY4cXlFdFdRTW9RX2xrN2NFNkMyVzlRNmtoM3FTSW1lY2dkWjlHcDh1Nm1mZlJLaVdmeDJoRG9YTzhWaEZjSmc?oc=5",
           "official": false
         }
       ]
