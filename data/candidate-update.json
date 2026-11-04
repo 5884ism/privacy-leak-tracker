@@ -1,56 +1,256 @@
 {
   "version": "1.1",
-  "generated_at": "2026-11-03T21:07:35+00:00",
-  "before_count": 1076,
-  "after_count": 1138,
-  "net_change": 62,
-  "new_count": 2,
+  "generated_at": "2026-11-04T01:20:37+00:00",
+  "before_count": 1138,
+  "after_count": 1097,
+  "net_change": -41,
+  "new_count": 12,
   "removed_count": 0,
-  "visible_before_count": 1076,
-  "visible_after_count": 1138,
-  "visible_net_change": 62,
-  "raw_before_count": 1633,
-  "raw_after_count": 1634,
-  "raw_net_change": 1,
+  "visible_before_count": 1138,
+  "visible_after_count": 1097,
+  "visible_net_change": -41,
+  "raw_before_count": 1634,
+  "raw_after_count": 1663,
+  "raw_net_change": 29,
   "new_candidate_ids": [
-    "2026-11-04-auto-e7dc0b0a53",
-    "2026-11-04-auto-07f7180cd5"
+    "2026-11-04-auto-84b351c502",
+    "2026-11-04-auto-40ce437caa",
+    "2026-11-04-auto-78fd6a643e",
+    "2026-11-04-auto-efc3da521f",
+    "2026-11-04-auto-182dfc1a4a",
+    "2026-11-04-auto-13f99f7b2f",
+    "2026-11-04-auto-fd00dd7209",
+    "2026-11-04-auto-f9a032c7c1",
+    "2026-11-04-auto-08ceebd1dd",
+    "2026-11-04-auto-d4ed075fa0",
+    "2026-11-04-auto-616044b6f1",
+    "2026-11-04-auto-6409b3d25d"
   ],
   "new_candidates": [
     {
-      "id": "2026-11-04-auto-e7dc0b0a53",
+      "id": "2026-11-04-auto-84b351c502",
       "member_ids": [
-        "2026-11-04-auto-e7dc0b0a53"
+        "2026-11-04-auto-84b351c502"
       ],
       "priority": "C",
       "published": "2026-11-04",
-      "company": "新潟市オンライン申請システム(e-NIIGATA)の外部メール送信サービスへ",
+      "company": "大学コンソーシアム大阪",
       "service": "",
-      "affected_count": 0,
-      "summary": "新潟市オンライン申請システム(e-NIIGATA)の外部メール送信サービスへの不正アクセスに伴う影響について",
+      "affected_count": 1557,
+      "summary": "大学コンソーシアム大阪に不正アクセス、学生延べ1,557人分・43大学の管理用アカウントが漏えいのおそれ 近畿大学の延べ789人分にも影響|セキュリティニュースのセキュリティ対策Lab",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNR3FjTHRoU0g2ZFpYRmV4UVBpNlZ4Tl9JeHV0a1hTbWNlTVhnVjcxNlUxblRzWE1GRE5sQXZGbzA5cldDY3BpUWcxNDl6UW44SlBqaU84eDlHOERKdGdCNG5tQTUyQUlmOEltVURXbmxhb1dWUDdUcjlhenpMd2w2LVVXNDhXTUlaVmc?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOcU1meTFuM2RGUFJtd2MxTXZyYzBVOXdLNE1TNFpzZW03Wk5IOWg4UlRIX20tMGc1SjB1WU9zbHpVRE1PeFNQendZYnhFa0RFbjF5ODFZXy1pMXF1Y0VtbXZRZFVUM3pRWG9aLWpiWFNNbEw1UTN1Sl8zdldBNTBTVzZhQlRSNDVyZ2FJVGExLUlsbURxbnZZRHlxSWtybjI3Nlk5dk5OU1BfOTh6VUZLTlZ6SGhfYnc?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-11-04-auto-07f7180cd5",
+      "id": "2026-11-04-auto-40ce437caa",
       "member_ids": [
-        "2026-11-04-auto-07f7180cd5"
+        "2026-11-04-auto-40ce437caa"
       ],
-      "priority": "B",
+      "priority": "C",
       "published": "2026-11-04",
-      "company": "Lovable製アプリから情報漏えい",
+      "company": "大阪市の行政オンラインシステム、利用者情報",
       "service": "",
-      "affected_count": 200000,
-      "summary": "Lovable製アプリから情報漏えい、パスポート番号と20万件のチャット",
+      "affected_count": 0,
+      "summary": "大阪市の行政オンラインシステム、利用者情報が漏えいした可能性 アララへの不正アクセスで新規登録・パスワード再設定も停止|セキュリティニュースのセキュリティ対策Lab",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9IMlZXcFRNb1lRZjZocm5DQVB0UTdwM21Ia2xlQXZwSHFOUS1aZTZoTi1CTDRrWm5ZSUozOWtRQ2dWaHFuR0FMRzM1alJ3dDlDTE1wbWtxQXBpMVlmNVpGRFMteERhd0tsQnUxRlkzdDIxTGtZNVFhNkFn?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcjRYWHZtb1RWaVJRZWk3dFFxUzdLWkVGZ1BLRDlBSkJ6YWNOYWItbW15SXRiWmNxNFVDVEloQnlGaGU3bWlUdG9vVnJsQVl4TERHZmdQRVZCVExRWVJUNlRaUW1ZeEl6NGtzczdwTC1kR21TTi1lUUlPeTUxVXl2S3Z6b1QxR19CNWlzTXZvOVZ1QTZmMHFXNE02RWlMWEc4VHc?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-auto-78fd6a643e",
+      "member_ids": [
+        "2026-11-04-auto-78fd6a643e"
+      ],
+      "priority": "C",
+      "published": "2026-11-04",
+      "company": "栃木県宇都宮市の電子申請システムで個人約3万1,000人・事業者約5,800団体",
+      "service": "",
+      "affected_count": 31000,
+      "summary": "栃木県宇都宮市の電子申請システムで個人約3万1,000人・事業者約5,800団体の情報漏えいを調査 アララへの不正アクセスでメール認証も停止|セキュリティニュースのセキュリティ対策Lab",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZ2N2RTBPbDlhdkw4UkRYTENPUTNLRkVobzlrb0dUYkFIXzZjOUlyQ0JUNVdjeVJSSTlMTmxLTC01QU9aQU1BYTk0UEdUT3ZtOVRjNmZUeWoxaS03SU1EeS1zSUlVRTJsSVNweXl3amF5X1l3Qkh6VWZOYWtNc29QQTlYcTBhWlA3dmhEME5MM0hRUktsZUZlb25RbkpTelJCVF81ZEhBVmc?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-auto-efc3da521f",
+      "member_ids": [
+        "2026-11-04-auto-efc3da521f"
+      ],
+      "priority": "B",
+      "published": "2026-11-04",
+      "company": "スーパーマーケットのベルク、メールアドレス78万6,739件・氏名2,352件",
+      "service": "",
+      "affected_count": 786739,
+      "summary": "スーパーマーケットのベルク、メールアドレス78万6,739件・氏名2,352件の流出を確認 「漏えいなし」の発表を11月3日に訂正",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUFpvOU9abUZlUzVxd2ZMNkFscFVteWg5X1R1NzB1dTN4cTFBOGNMcFRzTWp4aDZDV2hTR1FvOUxLeXBlbDNpZDdHdkd3MF9qLVB0NGJaTlNOSGlWZXEyTmI3RVNJQ0k5WS1nNUxDeENhVkpEWGZ1dlVDR1plUW9zU2pEeFN4ckNVSUctX1l4dFE0MGJx?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-auto-182dfc1a4a",
+      "member_ids": [
+        "2026-11-04-auto-182dfc1a4a"
+      ],
+      "priority": "C",
+      "published": "2026-11-04",
+      "company": "マンパワーグループ、登録派遣社員のメールアドレス",
+      "service": "",
+      "affected_count": 0,
+      "summary": "マンパワーグループ、登録派遣社員のメールアドレスに漏えいのおそれ 委託先の配信サービスに不正アクセス、対象件数を調査",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZ1BhWGpCY0ZzWXIxOFlYU0ZKQ2R1c0xxbjBOWFVTZ0JpMW5vdkM3d3A0N1RCOXlDbXN4Y1VQTXZyNEVVZzJ4ZC1SOHBsOUtYUU5GaTVjMk1fWkRhbjUxU1lZLUhTc1ZTLTZlWnN6b0VtUlFUTFV0cXJrcGNBcS1ZVXBCYzk1cjREZW1Ib3lTMS03TkQxUS13NS1NMEpwU2JtWEdIaA?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-auto-13f99f7b2f",
+      "member_ids": [
+        "2026-11-04-auto-13f99f7b2f"
+      ],
+      "priority": "B",
+      "published": "2026-11-04",
+      "company": "久世福商店などのサンクゼール、会員メール87万8,343件",
+      "service": "",
+      "affected_count": 878343,
+      "summary": "久世福商店などのサンクゼール、会員メール87万8,343件が漏えい アララへのサイバー攻撃が波及",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVHk5cGZiM0czNExXMVIzT09EZ05lQVBGZlFnZk1oaGxXellzV09IX0ZqNEFMTnkzYVoxbjg4a0N4UVVJTmxvTkd0VGhlWUsyMDNvWno2LUJxRHJ6T05RTEstWl9lZ1ljZWNucnlwLURhekZuWVFoOThTazBmcGxHOWtObEhjZXg3WmppYnVlOGpZeTJBMEE?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-auto-fd00dd7209",
+      "member_ids": [
+        "2026-11-04-auto-fd00dd7209"
+      ],
+      "priority": "C",
+      "published": "2026-11-04",
+      "company": "高速道路情報サイト「ドラとら",
+      "service": "",
+      "affected_count": 0,
+      "summary": "高速道路情報サイト「ドラとら」に不正アクセス、登録情報が閲覧された可能性",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBkVFVRRThQOVhJWEE5TXdHaUxRUC1VMWVkYTVDV3VOWVRreDRYM3A1UVhhU3dzQ2lpdGpqWGVLNWM1SUpORkYwbW9GT3lielFTQU51X2F2dERmQlNFcUNDbVFsSXlWblNTWFNqbg?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-auto-f9a032c7c1",
+      "member_ids": [
+        "2026-11-04-auto-f9a032c7c1"
+      ],
+      "priority": "B",
+      "published": "2026-11-04",
+      "company": "コーヒースタイルUCC、LINEユーザーID44万9,442件",
+      "service": "",
+      "affected_count": 449442,
+      "summary": "コーヒースタイルUCC、LINEユーザーID44万9,442件が漏えい ニックネーム17万件超、会員ポイント機能も停止",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOd2tydXl0T1B0Q1pDOE93R1pxcFNJRzdYdlNNQ0RkWG1WTEVBOTJWaDNOc3duVkdaVmNLVFI0RlFGQWJPWktYLTRvWkRPVzBIWjBwWW00aEJGVnZrdlZfdGJmcF9qajBsTkQ4RnVpUXlTTU1LV1hEVjhfNDJXaHhKYV9ERG9PUHYxeU1hZ3JDQU9SeWxvamlSTHBQbExkdw?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-auto-08ceebd1dd",
+      "member_ids": [
+        "2026-11-04-auto-08ceebd1dd"
+      ],
+      "priority": "C",
+      "published": "2026-11-04",
+      "company": "横浜市、オンライン申請システム",
+      "service": "",
+      "affected_count": 0,
+      "summary": "横浜市、オンライン申請システムに不正アクセス 登録者名など情報漏えいか",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1wX3dTM0JBNEdUZllZQmg3STM4LUVmaUoweld2ZnBJODhUT1lQUTVpSWVBUTdBbXBaaVVfcDd3ckhBUm5vbXlvaEp4WkZCUElLUGd6VG4taDN6ZVpoMWthdEMzNmZjRkZqSEdTNw?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-auto-d4ed075fa0",
+      "member_ids": [
+        "2026-11-04-auto-d4ed075fa0"
+      ],
+      "priority": "B",
+      "published": "2026-11-04",
+      "company": "アララ」不正アクセス",
+      "service": "",
+      "affected_count": 0,
+      "summary": "「アララ」不正アクセス、大阪市のサービスでも利用者氏名など漏えいの可能性...福井県立恐竜博物館でも(読売新聞オンライン)",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBYcVRBZnJzN3pQeWdXQndsZUtlZnNaZ3UzNDAwb3FhNF9TdU5uLW84cmtmbTdYV0xua0pZQ1pjTDB2amxXRUM0dU13QS0yUlcyVl83dktOOVRJLWwxX0pGQjFRWnEwQldfZUFEX29kLXM2Zw?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-auto-616044b6f1",
+      "member_ids": [
+        "2026-11-04-auto-616044b6f1"
+      ],
+      "priority": "C",
+      "published": "2026-11-04",
+      "company": "【写真・画像】22府県警",
+      "service": "",
+      "affected_count": 0,
+      "summary": "【写真・画像】22府県警で個人情報流出か 不正アクセス、一般住民も | | 全国のニュース",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE44ZTVrUThGSXgxcVNZSGdDdngxN2Q0VnRoRGZrRTdha2QxQzdQR0tqQVFZMW1FXzdVYjBjNlRmT0t1RUpsX0NHeHREeGRoVlFXY1FOdTZXNHJYVEl5Mks0WWQ1RkM?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-04-auto-6409b3d25d",
+      "member_ids": [
+        "2026-11-04-auto-6409b3d25d"
+      ],
+      "priority": "C",
+      "published": "2026-11-04",
+      "company": "オンラインゲーム「ハンゲ",
+      "service": "",
+      "affected_count": 0,
+      "summary": "オンラインゲーム「ハンゲ」、不正アクセスの可能性で緊急メンテナンス 11月3日23時10分から原因調査",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZzlRT0JzN2pZQUdOY1VOMGhKVWZQUlVjaW1ZdllyT2x6a0JyREViSWhaaWkzcnQ2OHNNUEphclc1Uk53d3k3Y0pyWjcyWld5Q0h0N0pQOVRMMWF4TmI4OW1Lc0dKX0NIZDFhNkt1T3QwVTdnSlAyMnJNbmgtMnItLTQ5N0RUakNhNXpYZS1DdHFPV1BqNlE4Nk95UHc?oc=5",
           "official": false
         }
       ]
