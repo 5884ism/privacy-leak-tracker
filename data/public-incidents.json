@@ -1,6 +1,6 @@
 {
   "version": "1.2",
-  "last_updated": "2026-11-04 10:20 JST",
+  "last_updated": "2026-11-05 10:30 JST",
   "incidents": [
     {
       "published": "2026-10-27",
@@ -219,6 +219,20 @@
         {
           "name": "公式",
           "url": "https://www.gettiis.jp/notice/detail/42"
+        }
+      ],
+      "official_updates": [
+        {
+          "detected_at": "2026-11-05 10:29 JST",
+          "title": "株式会社リンクステーション 公式ページ内容更新を検知",
+          "url": "https://www.gettiis.jp/notice/detail/42",
+          "kind": "page_changed"
+        },
+        {
+          "detected_at": "2026-11-05 10:29 JST",
+          "title": "不正アクセスによるGETTIIS会員情報の漏えいに関するお詫びとお知らせ（最終報）",
+          "url": "https://www.gettiis.jp/notice/detail/47",
+          "kind": "new_official_page"
         }
       ]
     },
@@ -510,6 +524,12 @@
         },
         {
           "detected_at": "2026-10-29 09:54 JST",
+          "title": "ノーコードWeb制作「Studio 公式ページ内容更新を検知",
+          "url": "https://studio.design/ja/whats-new/unauthorized-access-2026-10",
+          "kind": "page_changed"
+        },
+        {
+          "detected_at": "2026-11-05 10:29 JST",
           "title": "ノーコードWeb制作「Studio 公式ページ内容更新を検知",
           "url": "https://studio.design/ja/whats-new/unauthorized-access-2026-10",
           "kind": "page_changed"
