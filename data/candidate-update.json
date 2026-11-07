@@ -1,96 +1,56 @@
 {
   "version": "1.1",
-  "generated_at": "2026-11-06T23:15:21+00:00",
-  "before_count": 1400,
-  "after_count": 1413,
-  "net_change": 13,
-  "new_count": 4,
+  "generated_at": "2026-11-07T00:56:16+00:00",
+  "before_count": 1413,
+  "after_count": 1418,
+  "net_change": 5,
+  "new_count": 2,
   "removed_count": 0,
-  "visible_before_count": 1400,
-  "visible_after_count": 1413,
-  "visible_net_change": 13,
-  "raw_before_count": 2021,
-  "raw_after_count": 2029,
+  "visible_before_count": 1413,
+  "visible_after_count": 1418,
+  "visible_net_change": 5,
+  "raw_before_count": 2029,
+  "raw_after_count": 2037,
   "raw_net_change": 8,
   "new_candidate_ids": [
-    "2026-11-07-auto-861be71725",
-    "2026-11-07-auto-fc322b7528",
-    "2026-11-07-auto-374fc6e29e",
-    "2026-11-07-auto-e9f8b07d5d"
+    "2026-11-07-auto-db2e10e3bf",
+    "2026-11-07-auto-8237e7bd17"
   ],
   "new_candidates": [
     {
-      "id": "2026-11-07-auto-861be71725",
+      "id": "2026-11-07-auto-db2e10e3bf",
       "member_ids": [
-        "2026-11-07-auto-861be71725"
+        "2026-11-07-auto-db2e10e3bf"
       ],
       "priority": "C",
       "published": "2026-11-07",
-      "company": "筑後市HP",
+      "company": "由利本荘市と大仙市",
       "service": "",
       "affected_count": 0,
-      "summary": "[福岡県]筑後市HPに不正アクセス 利用者情報漏えいか",
+      "summary": "由利本荘市と大仙市で個人情報漏えいの恐れ 委託業者が不正アクセス被害",
       "sources": [
         {
-          "name": "西日本新聞me",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE51ZDJBRzdUd2NEemV4RzBjU01zLXZkZUg0VUtXSXZDeHFnbUpINE9aOTY2ZS12eGNtQ2VKZUdQY1E1OHBGRTlyWDYwdkRPblJJc085WVBR?oc=5",
+          "name": "秋田魁新報電子版",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1lZGw5NUJRVFV4aHl5TnJyVVZiNktWdjBkVTIzZVE3dFM1YXRYdmxkTnJPRF9aM0M3Sk1MWl85eHBsZ2s3bHJkY2ZySUNnb1NSZTFyNWlQMXBwd01nNGNmUndR?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-11-07-auto-fc322b7528",
+      "id": "2026-11-07-auto-8237e7bd17",
       "member_ids": [
-        "2026-11-07-auto-fc322b7528"
+        "2026-11-07-auto-8237e7bd17"
       ],
-      "priority": "C",
+      "priority": "B",
       "published": "2026-11-07",
-      "company": "施設予約サイト",
+      "company": "仙台市、マイナンバーカード予約者のメールアドレス1万2,211件",
       "service": "",
-      "affected_count": 0,
-      "summary": "施設予約サイト 個人情報流出か 首里城、美ら海水族館",
+      "affected_count": 12211,
+      "summary": "仙台市、マイナンバーカード予約者のメールアドレス1万2,211件に漏えいの可能性 TKC経由でアララへのサイバー攻撃で、通知メール停止|セキュリティニュースのセキュリティ対策Lab",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE93MEQ3Z2dIMmJ3RG9PMkgtdzVQbGsxSlhGUWtyR2dfa29tSExiQk5zOWdWT0ZUS2JsYnN3QWFUVVhxRDJlcWdtZGkwZlp0RWY3UW5mX2cwUXE5SlpwSzFRcw?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-07-auto-374fc6e29e",
-      "member_ids": [
-        "2026-11-07-auto-374fc6e29e"
-      ],
-      "priority": "C",
-      "published": "2026-11-07",
-      "company": "りそな、過去のローン顧客",
-      "service": "",
-      "affected_count": 0,
-      "summary": "りそな、過去のローン顧客の情報漏えい",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5CSkpMeVkxeGIwSlZ0SmVtSV9iNEJZclIxcHU0SFhjUUgxY1c5dzYxVHhnV3FxVDF0Zi1HVU1hMDA4dUh6VmdZYkZ4YzVRaVV5OTFneWd3R0dIZHdTczluYi1kRlY4b3p5?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-07-auto-e9f8b07d5d",
-      "member_ids": [
-        "2026-11-07-auto-e9f8b07d5d"
-      ],
-      "priority": "C",
-      "published": "2026-11-07",
-      "company": "消防庁の安否情報システム",
-      "service": "",
-      "affected_count": 0,
-      "summary": "消防庁の安否情報システムに不正アクセス 富士ソフト報告受け運用停止、原因を調査",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9nSzBCYzlhWkNJZDRheDgzLXA3SkIwRHBLRC1qQ0ktbEhwdHVVYmFsM25KdExzVjRPbXE2NXIwdzdOUHZOYnRVWENoOXlCeHFIUkJiN1VmTk1FTGFSVEpLamwyM3dGRG5YRmc?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSTY1MWw3YXlmYVgycktmeDdFM0hzcmg0UXRZeHFMOVV5ZURHRHpGc1pMbEtmRnZUZXV0djJMQ1N0blhoTDM3T3laU3VGZVRwTnBkandjVXlDUzFzWXJSTWE3RG11bXpZZFBOUVRwaGE1SkxmUy1EdHBmcXhnSGRwVU5YbS03bm9QV2tOX0lsdlBkdGdQUWZpaWJWWmNZdVpObnpPQk52X3lwbW9wOEdzOA?oc=5",
           "official": false
         }
       ]
