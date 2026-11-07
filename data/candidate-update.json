@@ -1,216 +1,296 @@
 {
   "version": "1.1",
-  "generated_at": "2026-11-07T02:54:21+00:00",
-  "before_count": 1418,
-  "after_count": 1437,
-  "net_change": 19,
-  "new_count": 10,
+  "generated_at": "2026-11-07T10:20:24+00:00",
+  "before_count": 1437,
+  "after_count": 1452,
+  "net_change": 15,
+  "new_count": 14,
   "removed_count": 0,
-  "visible_before_count": 1418,
-  "visible_after_count": 1437,
-  "visible_net_change": 19,
-  "raw_before_count": 2037,
-  "raw_after_count": 2050,
-  "raw_net_change": 13,
+  "visible_before_count": 1437,
+  "visible_after_count": 1452,
+  "visible_net_change": 15,
+  "raw_before_count": 2050,
+  "raw_after_count": 2067,
+  "raw_net_change": 17,
   "new_candidate_ids": [
-    "2026-11-07-auto-d685752924",
-    "2026-11-07-auto-923d27406e",
-    "2026-11-07-auto-0133409961",
-    "2026-11-07-auto-83540d8fce",
-    "2026-11-07-auto-d08b2ec836",
-    "2026-11-07-auto-2deaf9b9cb",
-    "2026-11-07-auto-f5fa6e7b7a",
-    "2026-11-07-auto-e8c9b0af2c",
-    "2026-11-07-auto-379310910c",
-    "2026-11-07-auto-f3a8449864"
+    "2026-11-07-auto-4b753c211b",
+    "2026-11-07-auto-713df66f8f",
+    "2026-11-07-auto-32d2f2a6e9",
+    "2026-11-07-auto-5e1a16874c",
+    "2026-11-07-auto-02d38d1a5b",
+    "2026-11-07-auto-231f027229",
+    "2026-11-07-auto-3d88f5d5a3",
+    "2026-11-07-auto-82264c9d13",
+    "2026-11-07-auto-97569e2f05",
+    "2026-11-07-auto-99fb1c96e4",
+    "2026-11-07-auto-fd75dfb190",
+    "2026-11-07-auto-10b40ad5c2",
+    "2026-11-07-auto-9bfd142a20",
+    "2026-11-07-auto-c3d16f8340"
   ],
   "new_candidates": [
     {
-      "id": "2026-11-07-auto-d685752924",
+      "id": "2026-11-07-auto-4b753c211b",
       "member_ids": [
-        "2026-11-07-auto-d685752924"
+        "2026-11-07-auto-4b753c211b"
       ],
-      "priority": "B",
+      "priority": "C",
       "published": "2026-11-07",
-      "company": "宮崎市、スマート申請の登録3万9,412件",
+      "company": "【社説】サイバー攻撃対策",
       "service": "",
-      "affected_count": 39412,
-      "summary": "宮崎市、スマート申請の登録3万9,412件に情報漏えいの可能性 アララ不正アクセスで新規登録・パスワード再設定に影響",
+      "affected_count": 0,
+      "summary": "【社説】サイバー攻撃対策、問われる実効性 官民とも優先度を上げて [情報漏洩・個人情報流出の最新ニュース]",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9xM0lwQzlwdFFyYVd1M1ZZZHZNelBWbFpQNVZENXNzZjU5UV8zbEo5RmpxaVZ5M1RZMnM5WjBCZmxmS3FhR2dCWWliSHNNZXEzWTJKOVRmRFZSYzk3SVR2YkF2ZUNTeTg?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-07-auto-713df66f8f",
+      "member_ids": [
+        "2026-11-07-auto-713df66f8f"
+      ],
+      "priority": "C",
+      "published": "2026-11-07",
+      "company": "姫路市、行政オンライン申請とマイナンバーカード予約",
+      "service": "",
+      "affected_count": 0,
+      "summary": "姫路市、行政オンライン申請とマイナンバーカード予約で個人情報漏えいのおそれ アララ不正アクセス、防災メールや申請通知にも影響|セキュリティニュースのセキュリティ対策Lab",
       "sources": [
         {
           "name": "合同会社ロケットボーイズ",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObVBJbWVnU0xlQVZSRDVsQkZxQVRqcU5JSlJWMUprYXI0VWxMTlhYWjQyQUJlQWJTZXBmdmwtRDB6bzk3NlBnOHV6T0JMbUpRM2pfVHVxdTFQa2lfMmJ0MkFMR0RBZ0VKVEhMM1h0QTRpTVhpTGtYeHNWTkQtSG9YVV9oUUxiSkJsVzY5c2dwMkk2TUkwZmdudUNYV180VEFIMmNuMmtzZnN6THlPWUFraG5n?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOeXQ5U0FlblZaYk1NLU9mbzNjcGJ1RE5zZnRDVHk2ZERhclpETTlxeWZuX3I5bjZPQnVoZTAtdkwyWC1XZFRGVVROSzl3TU12UFozRnFOaWNfUlgtUUk0UHIyeHZNSUdpOXhkRUlONzNvVHZSYmEtSE91WVJFalVQYTRiRDBSOUhwMDlXUC01TndSUWRiT3cyMGxrR202aDZJTWpMdU50cEZMLTVFbWc?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-11-07-auto-923d27406e",
+      "id": "2026-11-07-auto-32d2f2a6e9",
       "member_ids": [
-        "2026-11-07-auto-923d27406e"
+        "2026-11-07-auto-32d2f2a6e9"
       ],
       "priority": "B",
       "published": "2026-11-07",
-      "company": "SBC信越放送の公式アプリ",
+      "company": "山陰合同銀行で運転免許証番号など顧客情報1585人分漏えい 個人ローン保証会社",
       "service": "",
-      "affected_count": 14000,
-      "summary": "SBC信越放送の公式アプリに不正アクセス 会員情報最大約1万4,000件が漏えいのおそれ、暗号化パスワードも対象",
+      "affected_count": 1585,
+      "summary": "山陰合同銀行で運転免許証番号など顧客情報1585人分漏えい 個人ローン保証会社が不正アクセス被害",
       "sources": [
         {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUEJoWW5OejFHZ20xVnViR3VFLXVuRzBZY2FNUzB1Ql8xa2NTWkZSbVNzNC1ocVI3eF91eVNYdHhwNnJFMzVETkpzWUpNb01nX3VsSDU0VU9lb1ZQTWx6NGtpTExiazlkdHd1SDhFclo0RHFlVktxT3dBMGI1aFdxdkFzZ0tIMVFFVFZrdVU1Yy1VYXc3?oc=5",
+          "name": "FNNプライムオンライン",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5tVE9wME5lU2Vjb0FVX1ZBaWxpMHFxVExYR3pQZWVoeW4xdGNHSWN0U3NtRG5FS2l1MnFVMV9rYTA2UF9WZmV5Y0N3LVRHdw?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-11-07-auto-0133409961",
+      "id": "2026-11-07-auto-5e1a16874c",
       "member_ids": [
-        "2026-11-07-auto-0133409961"
+        "2026-11-07-auto-5e1a16874c"
+      ],
+      "priority": "C",
+      "published": "2026-11-07",
+      "company": "熊本県事業",
+      "service": "",
+      "affected_count": 478,
+      "summary": "熊本県事業で個人情報478人分漏えい メールアドレス、性別など(熊本日日新聞)",
+      "sources": [
+        {
+          "name": "熊本日日新聞",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBpbUNfcXNKVGZyOHgtU2EycVlickxLYllTaTdQMmdSbTYtQzFDZEEwRl80d2I0MzdRWE0zWkwtRzVDYko4NWRJTnphQm0wUFlmSGpndFdiYVR5Qlc3ck5pZmVNVGFxN1VVTTdITENFYy15WEVzUEZtb1ZxdTNYbVU?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-07-auto-02d38d1a5b",
+      "member_ids": [
+        "2026-11-07-auto-02d38d1a5b"
+      ],
+      "priority": "C",
+      "published": "2026-11-07",
+      "company": "宮崎県「ひなたMAFiN」のメール配信に登録されたアドレスなど漏えいか...「ア",
+      "service": "",
+      "affected_count": 0,
+      "summary": "宮崎県「ひなたMAFiN」のメール配信に登録されたアドレスなど漏えいか...「アララ」不正アクセス(読売新聞オンライン)",
+      "sources": [
+        {
+          "name": "読売新聞",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9CLXNvdFFaNGNWc05BbVZ5RG1lelNSSWFiVFR5RW1iZzIxcmFSVnB6blJXbHN1d2RzZjBIc1BzalZfMWQ5R3JRM0tUX0l6MFVyOHVJWVROSHNRMTBPRnIwVHgxRkE4T09uM2t1QUlsenRfd01ZRjl5dXRLTVZWTkU?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-07-auto-231f027229",
+      "member_ids": [
+        "2026-11-07-auto-231f027229"
+      ],
+      "priority": "C",
+      "published": "2026-11-07",
+      "company": "行政手続きシステムに登録のアドレス971件",
+      "service": "",
+      "affected_count": 971,
+      "summary": "行政手続きシステムに登録のアドレス971件が漏えいか 委託先に不正アクセス 山形県尾花沢市(YBC山形放送)",
+      "sources": [
+        {
+          "name": "YBC山形放送",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1fazI5Y1ZCcWNUdXZieVBCdzYyN0NCMVlieUhWc3F2c1RHNTlVRUVWTVcxWU5lNUVqWlVhU0xKQWF4Q1BLdGRtZDUyb2V5SnZzRTcyUjhqbENJX2VGQ1gtd2ZSS295TThaU1VBLUhmV3dkcy1vV2VEOWJ5VHk4MkE?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-07-auto-3d88f5d5a3",
+      "member_ids": [
+        "2026-11-07-auto-3d88f5d5a3"
+      ],
+      "priority": "C",
+      "published": "2026-11-07",
+      "company": "メールアドレス11件",
+      "service": "",
+      "affected_count": 0,
+      "summary": "メールアドレス11件が漏えいの可能性 群馬・伊勢崎市 配信サービス業者への不正アクセスで",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9LX213TW80WHJhbW5JaGVTVTN5RURGa25SUkpRTkthd2ZrTTZpWHNJUnY3VUpLTkdzZ2R0MndFYWZSZmJubDBfeG5mNFh5Slh1amhhUy1TdnQ2UQ?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-07-auto-82264c9d13",
+      "member_ids": [
+        "2026-11-07-auto-82264c9d13"
+      ],
+      "priority": "C",
+      "published": "2026-11-07",
+      "company": "日本ハム・楽天・西武・ロッテ・ソフトバンクの5球団でメールアドレス1万3,711",
+      "service": "",
+      "affected_count": 13711,
+      "summary": "日本ハム・楽天・西武・ロッテ・ソフトバンクの5球団でメールアドレス1万3,711件流出 千葉ロッテ公式サイトも不正アクセス",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbWhEd2MtdTUybVdoemZBWE9uQmk2YnV2ZDhIbUNJdWh0TWxkZjFLOVA4b1RmYlJyOTRYSjBtVXVnVW9MY3pJZ1VEV3JUbmVHcXZOV2ZZYklXVE9GY25Kd2ZFUERjWXh1ODJmX0U1MUg4aldobFMyRHdhTmd1bWd0dGZOb3ZFdW5rNEhUWmpNRXRTOWFpZlg4aGFIS205RkZG?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-07-auto-97569e2f05",
+      "member_ids": [
+        "2026-11-07-auto-97569e2f05"
+      ],
+      "priority": "C",
+      "published": "2026-11-07",
+      "company": "オンライン麻雀「Maru-Jan」へ",
+      "service": "",
+      "affected_count": 0,
+      "summary": "オンライン麻雀「Maru-Jan」への不正アクセスによる個人情報の流出をシグナルトークが発表",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5IWFZvb3FTWExzY0ZzZU9uZGctakxqblVqbzNmS1JTRWViVlhfS1NmUTE1eVU0RDQ0VHNTTFJ1TmNCN2tqMnNoN1R1U0FBaE8wMURHNmZ2SmNGUnlTVmVFY0tBMA?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-07-auto-99fb1c96e4",
+      "member_ids": [
+        "2026-11-07-auto-99fb1c96e4"
+      ],
+      "priority": "C",
+      "published": "2026-11-07",
+      "company": "山陰合銀の個人ローン契約者1600人",
+      "service": "",
+      "affected_count": 1600,
+      "summary": "山陰合銀の個人ローン契約者1600人の情報流出 保証会社に不正アクセス",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAwa0xmNHVLZld1amtrcFc5cUMwTWxWUXZHS29JYm9zTDRXUEJwbnIyNFh4OHppOTJ1T0htN081SHEyeS1EajhHeFA4ZU12OUlZ?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-07-auto-fd75dfb190",
+      "member_ids": [
+        "2026-11-07-auto-fd75dfb190"
+      ],
+      "priority": "C",
+      "published": "2026-11-07",
+      "company": "Gnosis Pay、不正アクセス",
+      "service": "",
+      "affected_count": 0,
+      "summary": "Gnosis Pay、不正アクセスで顧客情報流出 顧客資金に影響なし",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9IWUdDaVVFT1BFdHlqU2VudVZxb0VHOC14T2FkeVhKRmFCa2VsNkJpbEdUV2p3SHM4ZTlESXRLRDFqYjA?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-07-auto-10b40ad5c2",
+      "member_ids": [
+        "2026-11-07-auto-10b40ad5c2"
       ],
       "priority": "B",
       "published": "2026-11-07",
-      "company": "ライフ ネットスーパー、13万3,330件",
+      "company": "山陰合同銀行の個人ローン情報",
       "service": "",
-      "affected_count": 133330,
-      "summary": "ライフ ネットスーパー、13万3,330件の個人情報漏洩の恐れ-富士通の再委託先アララへのサイバー攻撃で、公式アプリ298件とは別事案|セキュリティニュースのセキュリティ対策Lab",
+      "affected_count": 1500,
+      "summary": "山陰合同銀行の個人ローン情報が漏えい 契約者約1500人分 氏名や電話、運転免許証番号など",
       "sources": [
         {
-          "name": "合同会社ロケットボーイズ",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQaFljMVZ2ZW9jS1FfTmU3RTN0YVhaVGlfbm1WWGZSQ0tLWl9RSXRqTzdRMVNhckc5cksyOE45elZIbkNhZlFkeXhHMGE4YzBKWEVxdS1iSGV3UkJ2dkNvckxOTl9vRUJhNTgxNGRyVFhaM0YzMzh3T0J5UFlRb2tJZmlVeUZqSVhGNUFabWRub244T1VwNFByQUUtYXlWeEd2V2xhT28zTFplOU42VmZYS25sRDJkeFl6dUN0Skl2aW4?oc=5",
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBpOW1SblFGYkZ2T1p1T3kxNnRlVHJublNYVlloOFhVdF8yWW5YQzZ1WnFYck1ZeWo3bVFDLXhZU0J2bVhXUmRvWWtWX2EyR0lxYmdUUGlhYUh1V0E?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-11-07-auto-83540d8fce",
+      "id": "2026-11-07-auto-9bfd142a20",
       "member_ids": [
-        "2026-11-07-auto-83540d8fce"
+        "2026-11-07-auto-9bfd142a20"
       ],
       "priority": "C",
       "published": "2026-11-07",
-      "company": "沖縄美ら海水族館・首里城公園のチケット利用者情報にも流出の可能性 沖縄県がアソビ",
+      "company": "EBiDAN「会員向けメールサービス」登録のアドレス",
       "service": "",
       "affected_count": 0,
-      "summary": "沖縄美ら海水族館・首里城公園のチケット利用者情報にも流出の可能性 沖縄県がアソビュー経由の不正アクセスを公表",
+      "summary": "EBiDAN「会員向けメールサービス」登録のアドレスが漏えい、不審なメールに注意喚起",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQYldJRkx0OTJoTVlpcG5mWTBJLVFmNWNhWEJIckZPZk1jQ3dPUVZjNFdGT0NGSFEzOEs1QTh4dzktR2ljSUVZU0YwVUhOSDJoRU5lMkotQmNJOXhYMXcwQVpVeExaRFZZUnpBWVUwdHV0SHRpNXF6YTVfX0ZqVjNaMGxRM19wNlVKdGlpYVVMaFRNa2Iw?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1LR1kyUFh6ZlFKVFhVQUVjZFJoelFDRGtFSGZhZTYzOGo4dm5jS19YNGZ0T0FvaGdGSGs1cmVRNHc2RmRBb0lFNVVKSFd6dVc1SkJ5dEFwM29CUHdjU0M0dWhTb0NhSng5c1VHVtIBckFVX3lxTE5QQlNuRU1RRVJjVWFZOU9WYkpuZFBfQ0lROVhydnl3aG5kSUZGWm5LMlRfemxwMk9LWHBtMjhoc01HMzdlRzBIZXRaX0RFMTRqNUZsMUdwN2FFNzk1T0l5UEJtRnQxRTNjM0tfY1gxWE1jUQ?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-11-07-auto-d08b2ec836",
+      "id": "2026-11-07-auto-c3d16f8340",
       "member_ids": [
-        "2026-11-07-auto-d08b2ec836"
+        "2026-11-07-auto-c3d16f8340"
       ],
       "priority": "C",
       "published": "2026-11-07",
-      "company": "埼玉県、県営プール3施設とこども動物自然公園の利用者情報",
+      "company": "二条城、市京セラ美術館...京都市の事業",
       "service": "",
       "affected_count": 0,
-      "summary": "埼玉県、県営プール3施設とこども動物自然公園の利用者情報に漏えいの可能性 アソビュー委託先への不正アクセス",
+      "summary": "二条城、市京セラ美術館...京都市の事業で個人情報流出か、プレゼント発送請け負った佐川急便からも(京都新聞)",
       "sources": [
         {
-          "name": "合同会社ロケットボーイズ",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZXJpVmtZMDZLcVBTd1hGdjkwMHdnbVJldjNuSUZlZVBwNGZmVXZlNlg4WXpDRV9jMDhETmY2WEtDMDRDR2E3WkVBMVdwaC1icXJaUXR3d3BWNW16c2g2MXAwUWxtcEFzSEJrTmE1eVVPcEx5dHF0Q0FkZ0VvSXVweWc2SVVyWjljdDNhRHFJTkxTUHJzTXQ1RVVR?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-07-auto-2deaf9b9cb",
-      "member_ids": [
-        "2026-11-07-auto-2deaf9b9cb"
-      ],
-      "priority": "C",
-      "published": "2026-11-07",
-      "company": "首里城」や「美ら海水族館」チケット予約サイト",
-      "service": "",
-      "affected_count": 0,
-      "summary": "「首里城」や「美ら海水族館」チケット予約サイトで個人情報流出か アソビューのメール配信に不正アクセス",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1Ub2ZhT0tZQUhFMm9DUFpaSWVySmljS2h3Qng4QUlNVjRrN3dFNDI4WHdRSElrbGxUaFhLYTlRNWNRZ051LWJtM1RTOA?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-07-auto-f5fa6e7b7a",
-      "member_ids": [
-        "2026-11-07-auto-f5fa6e7b7a"
-      ],
-      "priority": "B",
-      "published": "2026-11-07",
-      "company": "岡山県産業振興財団のイベント・研修のメールアドレス",
-      "service": "",
-      "affected_count": 23000,
-      "summary": "岡山県産業振興財団のイベント・研修のメールアドレスが漏えいか 約2万3000件",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5COFhEeUJEUjE2Y3o5azhkUy1PX1haenUwTVlQUXhVREVIeEt0cVdrS2MxQ1Z1SnBpSWlRcVZvWFNtWS1rZ2tQdDhDa3lzZF9j?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-07-auto-e8c9b0af2c",
-      "member_ids": [
-        "2026-11-07-auto-e8c9b0af2c"
-      ],
-      "priority": "C",
-      "published": "2026-11-07",
-      "company": "秋田魁新報社・24年展覧会 電子券購入者情報漏えいか 「アララ」不正アクセスで",
-      "service": "",
-      "affected_count": 0,
-      "summary": "秋田魁新報社・24年展覧会 電子券購入者情報漏えいか 「アララ」不正アクセスで",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE41LVRXTDNsd0R0OGRFa0VyVlI4UXQzcDZxSUJrQktYcFR3UWE4UEFPVUZyMUNvWFhsOTIzRVdweXphR1BxRldUbi1Eaw?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-07-auto-379310910c",
-      "member_ids": [
-        "2026-11-07-auto-379310910c"
-      ],
-      "priority": "B",
-      "published": "2026-11-07",
-      "company": "福島県郡山市",
-      "service": "",
-      "affected_count": 52600,
-      "summary": "福島県郡山市、行政手続き・マイナンバーカード予約で約5万2,600件が影響対象の可能性-アララに不正アクセス、登録者情報を調査|セキュリティニュースのセキュリティ対策Lab",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNczZqeE52ZHRQV2lxdU1SODdoZEc4X2pac2ZRZ2tvREotVFdrUEhuYTl4aE5nR2ZVRThnY3RXSXJjYnVLYVR6SUhVRGF6MTdqMENlMzdFU0VoTjBHSVRIaURLRXJWNlA2Y1VuVzdSaVdYUXpHalNqTXFVS202anVVdlpxNjV4dGFUSEpVb0RieV9lYU0?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-07-auto-f3a8449864",
-      "member_ids": [
-        "2026-11-07-auto-f3a8449864"
-      ],
-      "priority": "C",
-      "published": "2026-11-07",
-      "company": "小田原市立総合医療センター導入の小児科診療予約システム",
-      "service": "",
-      "affected_count": 0,
-      "summary": "【小田原市】小田原市立総合医療センター導入の小児科診療予約システムに不正アクセス",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNW9wOHNwV1JUaVctRlowMm1QemNKdW5TLVkxbWdHQll5MTdfYXQ5RnVPN1ZsVmwyX0ZMeFNYWEJueUtZNFdwNkh4LVlGNThSZngwaTdtWERxMmg0cGpYN2tmWVpTTEdneWhEeDJJa1o1ZUJ6eEg4UnhfbXBTUVpIdHRYb3dPX0xhWENMSg?oc=5",
+          "name": "京都新聞",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8yTzBIZVRwVGRqXzJ1djhWX2piaXNsSFFHYkRDMmNlQjZjYmZvcldXRGJHTGE3cFJOc1VvTG1wc1FVem84Y2hXSUluSm11RWtVeU5UeFphckoxUUdxc3dfaFctRlQ5UGdPSmtxbTh5QW5ScTQyTzNxQm90dndmbGc?oc=5",
           "official": false
         }
       ]
