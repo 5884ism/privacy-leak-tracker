@@ -1,176 +1,268 @@
 {
   "version": "1.1",
-  "generated_at": "2026-11-08T07:28:33+00:00",
-  "before_count": 1462,
-  "after_count": 1468,
-  "net_change": 6,
-  "new_count": 8,
+  "generated_at": "2026-11-08T15:19:29+00:00",
+  "before_count": 1468,
+  "after_count": 1485,
+  "net_change": 17,
+  "new_count": 12,
   "removed_count": 0,
-  "visible_before_count": 1462,
-  "visible_after_count": 1468,
-  "visible_net_change": 6,
-  "raw_before_count": 2082,
-  "raw_after_count": 2096,
-  "raw_net_change": 14,
+  "visible_before_count": 1468,
+  "visible_after_count": 1485,
+  "visible_net_change": 17,
+  "raw_before_count": 2096,
+  "raw_after_count": 2117,
+  "raw_net_change": 21,
   "new_candidate_ids": [
-    "2026-11-08-auto-2ed994ede8",
-    "2026-11-08-auto-2a6c620697",
-    "2026-11-08-auto-eb3c7a3722",
-    "2026-11-08-auto-f8b37d000b",
-    "2026-11-08-auto-1ba7f1e802",
-    "2026-11-08-auto-210e5a523a",
-    "2026-11-08-auto-7a88edb81a",
-    "2026-11-08-auto-6375144250"
+    "2026-11-09-auto-ceaca51fb1",
+    "2026-11-09-auto-083e385ce4",
+    "2026-11-09-auto-b8703a1bdf",
+    "2026-11-09-auto-9bf9c3f6f3",
+    "2026-11-09-auto-5ae851f955",
+    "2026-11-09-auto-8ea5177a48",
+    "2026-11-09-auto-9dcedc695e",
+    "2026-11-09-auto-7663d99971",
+    "2026-11-09-auto-9217f67580",
+    "2026-11-09-auto-d44f741259",
+    "2026-11-09-auto-eafbd28ffc",
+    "2026-11-09-auto-cc596c236e"
   ],
   "new_candidates": [
     {
-      "id": "2026-11-08-auto-2ed994ede8",
+      "id": "2026-11-09-auto-ceaca51fb1",
       "member_ids": [
-        "2026-11-08-auto-2ed994ede8"
-      ],
-      "priority": "C",
-      "published": "2026-11-08",
-      "company": "電子マネー WebMoney(ウェブマネー)",
-      "service": "",
-      "affected_count": 0,
-      "summary": "電子マネー WebMoney(ウェブマネー)に不正アクセス、決済情報漏えいのおそれ-サービスも停止",
-      "sources": [
-        {
-          "name": "合同会社ロケットボーイズ",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRUs4QjYzYjB4WWpBY2RzS2I5eENuazVka1ppaDFJUmZuSG5PSlhnb2NSMHBmWVZGdHpBaC1YZFJPWE02VS1DdzBfbGhTWWp1Zkg2blVSU0RXOVRSTTNfRXExT0pqRmxFZXFyVTM3UjBNRHJoTkExQl9ua002ek91S2I5NDd1VjJrcGtzRW1YVlJ3aEo2QXV0dkFRN3poZw?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-08-auto-2a6c620697",
-      "member_ids": [
-        "2026-11-08-auto-2a6c620697"
-      ],
-      "priority": "C",
-      "published": "2026-11-08",
-      "company": "学研、委託先へ",
-      "service": "",
-      "affected_count": 0,
-      "summary": "学研、委託先への不正アクセスで個人情報漏えい 影響範囲を調査",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5xOV9yUXFLelNxZktkZkJzRmZYQlkyRGZ2N2RYQ0tKeWE2RHQ4ZW9yY3pqSTdNeFo2ektoZlpaX2hhQW9sYkk5YTBocHJFcmN0S0E?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-08-auto-eb3c7a3722",
-      "member_ids": [
-        "2026-11-08-auto-eb3c7a3722"
-      ],
-      "priority": "C",
-      "published": "2026-11-08",
-      "company": "クラウド・ホスティングサービスを展開する使えるねっと",
-      "service": "",
-      "affected_count": 127,
-      "summary": "クラウド・ホスティングサービスを展開する使えるねっとに不正アクセス、顧客情報が漏えい 共有サーバーでWeb更新データ・メール消失、VPS127件も調査|セキュリティニュースのセキュリティ対策Lab",
-      "sources": [
-        {
-          "name": "合同会社ロケットボーイズ",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOLWF1ei1uTnEyRnY1dnZTUC1BUkVYMmU5QUVOQmQ5TEhYeERBYW5DdGg5bjJOd2lOS09TT28yZGxMQmRpX3JrZTZNX29qNWRfRFlud3N1Tks5ZVhtNVFqTDNINURvMFpZUUVlV1Fadk5nMTB2dEpGUUI3UWFIdXVodUxtdzRLOEI2X1dtQlJHM2NpdzlDOU9YdEIxZXVHTjIwa0NWWFRIZw?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-08-auto-f8b37d000b",
-      "member_ids": [
-        "2026-11-08-auto-f8b37d000b"
-      ],
-      "priority": "A",
-      "published": "2026-11-08",
-      "company": "三井ダイレクト損保、サイバー攻撃で最大23万4,000件",
-      "service": "",
-      "affected_count": 234000,
-      "summary": "三井ダイレクト損保、サイバー攻撃で最大23万4,000件の個人情報漏えい、氏名・住所・車両情報や保険契約の補償内容も対象",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcWdyS0dQOEtldGFjWUJUZXpFYXAwQVc0REhpbnRpSFppWVhIeUVONFFRZ1JlekV2ckFYTlNYa1A1bVM4ck1wbjRzemgyZ1ZjLTg2VWgwMVZaOGZTcXJxN2dBNzEta2d3SEZ0bld1ODFmNGNSN1lXRmNHQkd6dHREdHBEQU5TLVladUlqQzlJcXR5OFBZM1FzZDk1WGQ0SGF0RWc?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-08-auto-1ba7f1e802",
-      "member_ids": [
-        "2026-11-08-auto-1ba7f1e802"
+        "2026-11-09-auto-ceaca51fb1"
       ],
       "priority": "B",
-      "published": "2026-11-08",
-      "company": "JERA「JERAサンデイ」、メールアドレス 3万337件",
+      "published": "2026-11-09",
+      "company": "49円の不正利用→被害額40万円に」半年で4億人分",
       "service": "",
-      "affected_count": 30337,
-      "summary": "JERA「JERAサンデイ」、メールアドレス 3万337件が情報流出 アララへの不正アクセスで",
+      "affected_count": 400000,
+      "summary": "「49円の不正利用→被害額40万円に」半年で4億人分の個人情報流出...ダークウェブで売買も“名寄せ”による第2波の脅威とは",
+      "sources": [
+        {
+          "name": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8wNGZIYmVyRThxTzkxcG1SQ3VJMHRVcFFMVU51TzlKV29aWVNTVWtpUFY1TFRrNFdkeUozejBjRHQ4OWV1RE9YeFJodDlvNGo0SFV5UW1YUnpOcjBRNTFneHROTHp3RG5kMXdMazVuVFF5aC12Ynh0alUyaGJ3MnM?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-auto-083e385ce4",
+      "member_ids": [
+        "2026-11-09-auto-083e385ce4"
+      ],
+      "priority": "C",
+      "published": "2026-11-09",
+      "company": "パスワード使い回さない",
+      "service": "",
+      "affected_count": 0,
+      "summary": "パスワード使い回さない、メールに記載されたURLは開かない...個人でできる情報漏えい対策",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9nT1ZZejhoNWpnYmtrd2ZNRjBfOThITXdEZ05FZHhtRHRkTUN4SEhzZ2YtTXNYemJYMnd0Z3lPRXBpR3RrM2J2X2tmUHNySlkzM1ByX1RwUjVoSTNBdUp5MGJKUi02QQ?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-auto-b8703a1bdf",
+      "member_ids": [
+        "2026-11-09-auto-b8703a1bdf"
+      ],
+      "priority": "C",
+      "published": "2026-11-09",
+      "company": "森永乳業、関係会社17社18サイトを一時閉鎖 Webサイト",
+      "service": "",
+      "affected_count": 0,
+      "summary": "森永乳業、関係会社17社18サイトを一時閉鎖 Webサイトに不正アクセス、個人情報漏えいは確認されず",
       "sources": [
         {
           "name": "合同会社ロケットボーイズ",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQYm1qa0RlY1J4NE5ET2NYY2RfdGd1TTkySVBmVjhVMjRGX1V3d09SRHdORnZYLXllS1g1UTRvR3Fram9TZnBvMTNlbTRNVFVyZW1ZSXlWRy1iRmFadXNVUXV1a0FPcDhvUGFlS2NVeWYwaGpVQ2lHaVVpcWpVUmo0RThoRFdJX2dNWUJ3?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOajZMaVJLXzN5dU9QVThBNWFLcUQ1bnlFWnBqYlNNMVFxcUFTSjFIVmZtVWZqVV9WN3J5RzVaZHVudUVPTTZGenRSb1RpazgzNDZYT09UUWV4MFkyR2s1bVRlZnlSTzR0Z0lEMEZBV1l2MzNUM2VnTVZyY1JSUXgyd19sV004QllMeVotRWQwUWJOT2FNM3R0SzZR?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-11-08-auto-210e5a523a",
+      "id": "2026-11-09-auto-9bf9c3f6f3",
       "member_ids": [
-        "2026-11-08-auto-210e5a523a"
+        "2026-11-09-auto-9bf9c3f6f3"
       ],
-      "priority": "C",
-      "published": "2026-11-08",
-      "company": "ミツカン「ミツカン365」、487人",
+      "priority": "B",
+      "published": "2026-11-09",
+      "company": "スバル、ロードサービスなど最大22万8,734件",
       "service": "",
-      "affected_count": 487,
-      "summary": "ミツカン「ミツカン365」、487人の会員情報が改ざん・29人の個人情報が漏えい サイト内の不備を悪用",
+      "affected_count": 228734,
+      "summary": "スバル、ロードサービスなど最大22万8,734件の個人情報漏洩の恐れ 委託先にプレステージ・コアソリューションの不正アクセスが波及|セキュリティニュースのセキュリティ対策Lab",
       "sources": [
         {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxObVZfZXJSVEFoQXJsWFc0NTNjdUkwU2lJWkJDX1BMRjZNZDBUQmx1XzZub19pY1lfSTY1U1BrVlBsRXozOHYtVExsYlJlZnVhM2RjS1hPWGRDQ2F0M3JoRDB5UHhWdmttUE1TYlUxaTZwT1BzNENZdzd1bXR0ZFJJSHh4M2xsdlFkMlBSQXhQcl9MOWhzZHYydA?oc=5",
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZXUzTUNwaXpaeTN5STNBMzh3QThpYzlvSVVmZWJkeFA1Ty1IdXBNY0hmYWs3LUlKczNZblN0X0pWMEs2U3hrdHZRejB0S1dlb3Y3OVllZjhLeGoxbGlsOG5NX2E4UUw2NHlFaEJKQWpWTlgzV0EzUDVGNFF1Q0dYemRGNkZNOTQxM3k3c0lmRngwUmo5WlhiVm1XWkVySGNFQ0kwMWZCZTZzRmZHd1BV?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-11-08-auto-7a88edb81a",
+      "id": "2026-11-09-auto-5ae851f955",
       "member_ids": [
-        "2026-11-08-auto-7a88edb81a"
+        "2026-11-09-auto-5ae851f955"
       ],
-      "priority": "A",
-      "published": "2026-11-08",
-      "company": "オンライン麻雀「Maru-Jan(マルジャン)",
+      "priority": "B",
+      "published": "2026-11-09",
+      "company": "小学館「小学館ID」など199万3,665件",
       "service": "",
-      "affected_count": 1855578,
-      "summary": "オンライン麻雀「Maru-Jan(マルジャン)」、不正アクセスで会員185万5,578人のパスワードが流出 管理システムの機能悪用、11月7日にサービス再開|セキュリティニュースのセキュリティ対策Lab",
+      "affected_count": 1993665,
+      "summary": "小学館「小学館ID」など199万3,665件が情報漏えいのおそれ アララへのサイバー攻撃で",
       "sources": [
         {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOU1pmZGVHbWttdmh6ZmI4RVh0YWFtcnplWGtYSnE3ekQtd2xSU3hQbVhKM2RRMUI3SU5lYXlCNEJhUEs2X0RBMWkySFkzLWFJQ0FxT3RDSFY5MUpYclVac2padHdxTTc0SFJwXzNZT3UtaTQyZGIzdzEwX256TEFpZm1jdHNENlFnX3RWZHl6a2lzUTdWN0dRaUN4WVNSY0ZVejUxMVZVMjBNQk9XT1VMOG1lSWRvVkk?oc=5",
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeXpuSW5NSlp6NFNnc2lzUW9rZTlSMFdFamhKMnNIMGk0QzQ2WFZ0dEVZRU9TOHFOUjdNR0toeDRXSzRaUUdVeXlWcUctdVFlT3lhX1BqNGE3X29RVHNrZXlKZnRETWJzMlBqcGZYSjY0SVpMNmRzRWw1TjlKYlpvV2dqQnRRaVNR?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-11-08-auto-6375144250",
+      "id": "2026-11-09-auto-8ea5177a48",
       "member_ids": [
-        "2026-11-08-auto-6375144250"
+        "2026-11-09-auto-8ea5177a48"
+      ],
+      "priority": "B",
+      "published": "2026-11-09",
+      "company": "エディオン、ECサイトのログ",
+      "service": "",
+      "affected_count": 9554,
+      "summary": "エディオン、ECサイトのログに不正アクセス 最大9,554名の個人情報漏洩の恐れ、クレジットカード有効期限も対象の可能性",
+      "sources": [
+        {
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOR2plbi01aElwQm5Fd2RYaGh0UzVFWVd1cVZ0aWRLMm1TZmpiRVR1QzFva3czY25SUVBMVDRrLXBnT0F2bVpKMUktUUtzQm9RdFVUbTF3M3k5WDE0d2ZTcWRjNTc1R2Z5cnZfREpuckt1UjFfUmdBVllPbnY0cW51RFdDS3Q5SHNCOXZNQ056c2lFcnZrN3VMWg?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-auto-9dcedc695e",
+      "member_ids": [
+        "2026-11-09-auto-9dcedc695e"
       ],
       "priority": "C",
-      "published": "2026-11-08",
-      "company": "アソビシステム",
+      "published": "2026-11-09",
+      "company": "電子チケット「teket(テケト)",
       "service": "",
       "affected_count": 0,
-      "summary": "アソビシステム、FRUITS ZIPPERなどファンクラブ サイト 11サイトのメールアドレス漏えい Fanplusの委託先 アララへのサイバー攻撃で|セキュリティニュースのセキュリティ対策Lab",
+      "summary": "電子チケット「teket(テケト)」に不正アクセス、全会員の氏名・メールアドレスが流出 発券用コードも対象、サービス全面停止",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbU45OGtkWU1HaWZNWVJ5U0VycE83LVptcDRSY1JKck0wYjdxZ0xJYnN3TjcwdWZuVjBzd2tzUzU0QXU5eUVIazBvTHZkMUtxVFd3RjFJc21Qay1CWU9Cem9uX283NzFQdHJSVVl1QjlhbWdoUnpZUFo0M3FKZDJ2SU5jelYxa2pPd214cVJOOVVBR1ViM3k4TWROQm5XWW9Ub2NUSm4wVXpqLXNhd0c4?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdFVaUDk2RVlNSFJxbUNiSWMtNFZVWmlPYk11ZkVWUmZpSFdjQlJFeEQzaHBUZ1FxS2YyUDdsQWhLaXFsMUxkcDdDX1RjcFRsOFNVeWktTmwyTDNydWlBWlJLa3A3bDZaQmlsMkFDRklpbWg3cmxWcHY1aXhqUUk4Nm1vd1Z6QkxZWlQ3VXpHZk0zLXJvNjI0VEJadk9vSi1q?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-auto-7663d99971",
+      "member_ids": [
+        "2026-11-09-auto-7663d99971"
+      ],
+      "priority": "B",
+      "published": "2026-11-09",
+      "company": "和食さと「さとキッズくらぶ」、メールアドレス31万8,513件",
+      "service": "",
+      "affected_count": 318513,
+      "summary": "和食さと「さとキッズくらぶ」、メールアドレス31万8,513件が流出 アララへの不正アクセスで、子どもの誕生日等は対象外",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNHNQQnhqOUlXQVNfTENBejJkODVEbGJJNENLNlhXOWppT2E5a1FscDhXdnJiNS0xUTNsNWFMQ1IweWwxU0twLUFtYVhtZmNadjhaaGRITHBCQWNyQ2lmMGZGT05JcGFoN0NmV0dBYmp3YlBYNW1URnJNOXc5SGtFTUJUcTdCQVJBMDBydzhocGJ5UmhaWmtpeldFY3pSek53LWhqYQ?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-auto-9217f67580",
+      "member_ids": [
+        "2026-11-09-auto-9217f67580"
+      ],
+      "priority": "B",
+      "published": "2026-11-09",
+      "company": "フジオフードグループ、メールアドレス31万6,668件",
+      "service": "",
+      "affected_count": 316668,
+      "summary": "フジオフードグループ、メールアドレス31万6,668件が流出 串家物語・デリスデュパレに影響、アララへの不正アクセスで",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdTJpMUZOYVppaEk0azlIVnVNRVZoNWFlSzhVM0xrQy1nUUZCNGw1TG9aMTZjVVZhbjlzdzZnSUpzZ3FXNmR3VnVOQWJDdmZ2Z2NCcF9oM1l0TzhXeUJKQ2g2RmUtSkJ2V2JwVkt4NV9oMUNOSDJ2bENvYS1UenBnVEQ3RFJJTVJBSVFBWGNFSnZuUzdyaEh2anF2bUhKTE0?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-auto-d44f741259",
+      "member_ids": [
+        "2026-11-09-auto-d44f741259"
+      ],
+      "priority": "B",
+      "published": "2026-11-09",
+      "company": "カラーコンタクトレンズ 通販サイト ホテラバ、メールアドレス157万8,779件",
+      "service": "",
+      "affected_count": 1578779,
+      "summary": "カラーコンタクトレンズ 通販サイト ホテラバ、メールアドレス157万8,779件が情報流出 GMOコマース経由でアララの配信基盤が不正アクセスが波及|セキュリティニュースのセキュリティ対策Lab",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZkF4T1Zja2ZOaWt2ZGI5eS11X2E0S1VhemE4ekNRVkpXbDViYldmdGk0NGI5eUNfVHBMOS1vYnBhU1Fjdm5sdHJkZWR1TkRkTk1pVWM4b29RSUZiMmlnYzEyd2ttM191TE1zbHB6VjVZSGRVTmJGdkRVNjk5QVcxVTlWSEZlWDh2SjhESWRYYnpyMk0?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-auto-eafbd28ffc",
+      "member_ids": [
+        "2026-11-09-auto-eafbd28ffc",
+        "2026-11-09-auto-f2028e4956",
+        "2026-11-09-auto-e3ca933eee"
+      ],
+      "priority": "C",
+      "published": "2026-11-09",
+      "company": "SMエンターテインメント",
+      "service": "",
+      "affected_count": 0,
+      "summary": "SMエンターテインメントに不正アクセス、住民登録番号・口座番号など個人情報が流出 「bubble」運営のDear Uなど系列会社にも影響|セキュリティニュースのセキュリティ対策Lab",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbXRHUHlLZDc2aUZ2Z21hc3VIbERJQmdNTUZRTy00SzhEN29FbXl1YkhJZ040d0UzTVZhd0l4eFJLcTdkS0lFM3lHcThRVV9qNUcwczNHN3lJTGI5X005N3BqNnNOazZzVnFES3lqRVJDbXo0b3h1Mm9UMWo4bTZMNkxaaWNNS3hqeGxoTFdkckgzelV5TTZERkR5SFJGYjRCcVlGa3Nn?oc=5",
+          "official": false
+        },
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA3eXI5ZXk5eC03WVZnMlR2VWhwN1k4eDdTOFFnWFZLTVZqejBjZmlleEFxZGlYNDhXZm9WZVFvaGctVGtEWE5sMzJBdUpRb1g4b0dqM3NHeFFYelgt?oc=5",
+          "official": false
+        },
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBPRmhXckx4Y2N2WFdWbzNmOGp5YVlnVzZqSEtoaUdRN2xpWHJQUWJ4cE1lQ0VlTlRWYm1teVJuREhNeS1jeE0zT3NzZU5GNUpuVTVWM1BiMklVem80UVJTNmZ3?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-auto-cc596c236e",
+      "member_ids": [
+        "2026-11-09-auto-cc596c236e"
+      ],
+      "priority": "C",
+      "published": "2026-11-09",
+      "company": "Bubble",
+      "service": "",
+      "affected_count": 0,
+      "summary": "Bubbleに不正アクセス...SM「口座番号などの一部流出した」",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1Sb3E5N2MxUnN4dk1kMFB1OVR2R0h0MGVNTWNaSlhwZHZEOW5ESmExRGpyUXUybF8tTml1Q19jMjV1ZHdFVmpxX0t1a0dHM1FzYVhrZGItWENoQzhLVm5BWE81WjlWLWtEd3ZoYlM3c0g?oc=5",
           "official": false
         }
       ]
