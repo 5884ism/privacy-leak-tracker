@@ -1,96 +1,302 @@
 {
   "version": "1.1",
-  "generated_at": "2026-11-08T20:33:21+00:00",
-  "before_count": 1485,
-  "after_count": 1490,
-  "net_change": 5,
-  "new_count": 4,
+  "generated_at": "2026-11-09T00:52:24+00:00",
+  "before_count": 1490,
+  "after_count": 1489,
+  "net_change": -1,
+  "new_count": 14,
   "removed_count": 0,
-  "visible_before_count": 1485,
-  "visible_after_count": 1490,
-  "visible_net_change": 5,
-  "raw_before_count": 2117,
-  "raw_after_count": 2122,
-  "raw_net_change": 5,
+  "visible_before_count": 1490,
+  "visible_after_count": 1489,
+  "visible_net_change": -1,
+  "raw_before_count": 2122,
+  "raw_after_count": 2143,
+  "raw_net_change": 21,
   "new_candidate_ids": [
-    "2026-11-09-auto-b3b08e7781",
-    "2026-11-09-auto-ea41ebedb2",
-    "2026-11-09-auto-9cd71006b4",
-    "2026-11-09-auto-71070dd102"
+    "2026-11-09-auto-4ddfc272b2",
+    "2026-11-09-auto-a16cb94545",
+    "2026-11-09-auto-ea89fea596",
+    "2026-11-09-auto-e6ba7f8d70",
+    "2026-11-09-auto-ccd48402a9",
+    "2026-11-09-auto-8614108e81",
+    "2026-11-09-auto-53e4389e9b",
+    "2026-11-09-auto-8d69de57ae",
+    "2026-11-09-auto-dc57ce1414",
+    "2026-11-09-auto-8d91865884",
+    "2026-11-09-auto-06190e3a34",
+    "2026-11-09-auto-6cfac113ae",
+    "2026-11-09-auto-9c006d2400",
+    "2026-11-09-auto-fb9ecfb245"
   ],
   "new_candidates": [
     {
-      "id": "2026-11-09-auto-b3b08e7781",
+      "id": "2026-11-09-auto-4ddfc272b2",
       "member_ids": [
-        "2026-11-09-auto-b3b08e7781"
-      ],
-      "priority": "B",
-      "published": "2026-11-09",
-      "company": "セキュリティ団体JNSA",
-      "service": "",
-      "affected_count": 15128,
-      "summary": "セキュリティ団体JNSAが不正アクセス被害、管理者情報など最大1万5,128件漏えいの恐れ(ビジネス+IT)",
-      "sources": [
-        {
-          "name": "Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9VWkZQVXV0MTcwMW5ZOHV1d3dRR3hkTzZZTC1ENHZhNngyNUdCSnotM3V2MUgwZDBLYlFfcERRSllDMHQtWEtTYmlCNUxWRU84T2NSMjlFamZsXzZjai1zaG1HczVGZk56eHdnak9feHp2NHFxTmFYM05NZGN3Tm8?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-09-auto-ea41ebedb2",
-      "member_ids": [
-        "2026-11-09-auto-ea41ebedb2"
-      ],
-      "priority": "B",
-      "published": "2026-11-09",
-      "company": "山陰合同銀行、個人ローン契約者1,585人",
-      "service": "",
-      "affected_count": 1585,
-      "summary": "山陰合同銀行、個人ローン契約者1,585人の情報漏えい 氏名・年収・運転免許証番号など、SMBCコンシューマーファイナンスへの不正アクセスで|セキュリティニュースのセキュリティ対策Lab",
-      "sources": [
-        {
-          "name": "合同会社ロケットボーイズ",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBmUjBuUWk3RmFva3k0Ymd0d0JiZ3RrdmktMnQ3OFYtTFlkZS1jMXVVT2JHUDRZYVR0NzNXdFd0QXplaV9rRG9RTFpKN0xLdkQ5ZEN6OHJkbXZTM2w5aUdla0ZVU1paODBPMkZoemtMRGtsd1BUX09qVmZyQno?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-09-auto-9cd71006b4",
-      "member_ids": [
-        "2026-11-09-auto-9cd71006b4"
+        "2026-11-09-auto-4ddfc272b2"
       ],
       "priority": "C",
       "published": "2026-11-09",
-      "company": "スバルファイナンス、「SUBARU安心ホットライン」最大3,117件",
+      "company": "岐阜産業保健総合支援センター",
       "service": "",
-      "affected_count": 3117,
-      "summary": "スバルファイナンス、「SUBARU安心ホットライン」最大3,117件の情報流出 ロードサービス委託先への不正アクセスで",
+      "affected_count": 3058,
+      "summary": "岐阜産業保健総合支援センターに不正アクセス 3,058人の情報流出を確認、最大8,074人に漏えいの可能性 政府機関サイトへの不正申請も試みる|セキュリティニュースのセキュリティ対策Lab",
       "sources": [
         {
           "name": "合同会社ロケットボーイズ",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOS2lub2NLUGdvNlU2MTlEZGlvTUR1U2c2c2oyVTZCLWtiNFdtenNEdUw4aFhHaDlYOFJzbEZMS2lpQU5la3JZa3liQS1iay1ZdDBENmRKRmdJVEZ0TlVDdmxRTTFhbUNrVTRzWFNybWNLdUx1S0xHVjRfWjJhcWJJR0tNd2IzZ0JHY29MQW1ubzQ5NjBRUWFB?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQc2k4c1pZMkI1dDIweTdMa1FCTERmVy1WQ0VrZ3ZSX01IU3VOZWFJQUlUZldvUnNpQlcyaF9qRWRKYWF3WFBnVGk5YTFVbV9RMGVHSHFWYWdOWXBvSUNGaWtLVG5sTE9tR050alAyUE5xX1hsRC1sZjJjU2ZiTGlqQkM3X0RqcnR3bTFqeWFmUURqR0x4R0xBZFVUWHlnRXM?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-11-09-auto-71070dd102",
+      "id": "2026-11-09-auto-a16cb94545",
       "member_ids": [
-        "2026-11-09-auto-71070dd102"
+        "2026-11-09-auto-a16cb94545"
       ],
       "priority": "C",
       "published": "2026-11-09",
-      "company": "チューリッヒ保険、契約終了したロードサービス委託先から顧客情報",
+      "company": "ポイントインカム」と「CoinTrade",
       "service": "",
       "affected_count": 0,
-      "summary": "チューリッヒ保険、契約終了したロードサービス委託先から顧客情報が流出 1月末に委託終了も過去データが対象",
+      "summary": "「ポイントインカム」と「CoinTrade」で個人情報が流出",
+      "sources": [
+        {
+          "name": "ScanNetSecurity",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9xZ2lCbk1rbmlwQlkwb09SVW5EVmtxa3VRUGs5aXpzTXUyUFozWnJ4MnVlVjZwVHJmcTFqSTd3bUZXZUtqek51STloUG51cVo2eWZZVFhsa3RlbE1vZVJKTXNhMVRweVliS3BtNQ?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-auto-ea89fea596",
+      "member_ids": [
+        "2026-11-09-auto-ea89fea596",
+        "2026-11-09-auto-428a102a76"
+      ],
+      "priority": "B",
+      "published": "2026-11-09",
+      "company": "チームスピリット",
+      "service": "",
+      "affected_count": 28824,
+      "summary": "チームスピリット、開発用サーバ侵入で2万8824件流出 顧客企業の従業員の勤怠記録も",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1xOEZla19WSURleFNzUVU2OEdmczkwTWFFSmxLU2d2T1pRdGs5Z0IzZWxjVW9ZX3pjdk9jeGJKb2tHVUliS0ozdWpwQmtkVEc5N3ZJ?oc=5",
+          "official": false
+        },
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSFExQUFPLWo0Z0RiTmgzWElMUlVEMlRZRWxIMlM4Z01qNHBwaVhSUm9ySTNYcUdWQWR5d1otSUV6dWdONVUwREpsVktDVkJLLVZvT1lwVGltTnRyeHAwODIzRVYzbTJkalNtTW1ra242bmNUQlJuQmdFQjAxZEJTalhjWUxtMWU5eTBjb3otbmpLVlpWeXFjWk92aw?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-auto-e6ba7f8d70",
+      "member_ids": [
+        "2026-11-09-auto-e6ba7f8d70"
+      ],
+      "priority": "C",
+      "published": "2026-11-09",
+      "company": "情報漏えい続出でフィッシングに変化? “その人専用詐欺メール”登場の懸念",
+      "service": "",
+      "affected_count": 0,
+      "summary": "情報漏えい続出でフィッシングに変化? “その人専用詐欺メール”登場の懸念",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9vT1ZjelZPRzRZemFEcGlwNG5FSFFIM2xpNjNwazRBSXlobFR5RG96SnZ4S180NkFYclZzR1Y5c19MVm40OU45NG1yVC1heUszLW4zWk9HQWJleG5nbWpIdHhoWkg5WmpPT3c?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-auto-ccd48402a9",
+      "member_ids": [
+        "2026-11-09-auto-ccd48402a9"
+      ],
+      "priority": "C",
+      "published": "2026-11-09",
+      "company": "ENEOSカーリース、最大8,500契約",
+      "service": "",
+      "affected_count": 0,
+      "summary": "ENEOSカーリース、最大8,500契約の個人情報漏えいの可能性 EV充電「Charge Plus」法人会員にも波及、委託先に不正アクセス|セキュリティニュースのセキュリティ対策Lab",
       "sources": [
         {
           "name": "合同会社ロケットボーイズ",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTFJXaGZZempWVFJTRXlmdEdpVkhwdGRRdXZwNjNudi1QZUdaa1RsREY3TTBSRlZBbDUwS3BWMEZ1eklKd2IzeGprTnNhczRYVXN1aERfQXp3MG96bnlleTZobGZxWUt5dm5UeTktVmlacS1QS3QwUUdZQ3dSLU9aT2F4VmhRWWxDSnNiMzJKMWpIMUgweFNXcmJ4ZTRDUm5qNUgtTVVkNFpUVVJ6?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMGREdWdTRF9nUC12Q29Ia050MTBGRjQ2RUFJUVpsdkJ6SkYwdF84Z29sdVhoWmY0QW9fdWFzNHNSckc5M3VWOTBadGNHODBVWW4tamJHOVVHVWc4ek9Na0wxSHNYV2tYWVJUN2dJblpMU0tvRERJLWNDeV94eDZsQ3BaajBDaEZTX3lpNlF2a1UxQS1Ndjd3Nk9zZFJLWEd0TW0xY1ZfTl9BUzNZMXJn?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-auto-8614108e81",
+      "member_ids": [
+        "2026-11-09-auto-8614108e81"
+      ],
+      "priority": "C",
+      "published": "2026-11-09",
+      "company": "対策済み」と言い切るには早い 徹底しないとマズい“不正アクセス対策8選”",
+      "service": "",
+      "affected_count": 0,
+      "summary": "「対策済み」と言い切るには早い 徹底しないとマズい“不正アクセス対策8選”:脆弱性対策だけでは足りない(1/2 ページ)",
+      "sources": [
+        {
+          "name": "1/2 ページ",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB0WWg4VEp1V2ZlMW84MUUwNFllTWRzMkZGYzBWZG4yeTI1c2J0Y042V0hSVktaaUFveU5Va1ZrNTdwOEoyVkl2TXBuMDZZQ0NmemFSbVRtNGl1N2FiZkVoWmdOdWVtQVp3Ty01R0ltU2NmUQ?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-auto-53e4389e9b",
+      "member_ids": [
+        "2026-11-09-auto-53e4389e9b"
+      ],
+      "priority": "C",
+      "published": "2026-11-09",
+      "company": "ソニー少額短期保険、開発・テスト環境",
+      "service": "",
+      "affected_count": 108,
+      "summary": "ソニー少額短期保険、開発・テスト環境に不正アクセス 従業員らの個人情報108件が流出、Webシステムの脆弱性を悪用",
+      "sources": [
+        {
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORzJ1a2F4cVNLS2xMTnFLTVhidVdrUzRYUkdvUzMyUUlSYTdrVmw4ZWE2OGNpSXAyVUZUVWVIV29ienY3T1MzZVhINURfR1RuQTQtS21SOHlRWlRVNkMzamEyYjExVzRYQzhOUVZBQV82Qk9QLUR3UHJoRWliZUY5dW1HM1FlQ0NJVTY4cUZVR2xMcElrdHYtcG5WN2hxQUxZck13?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-auto-8d69de57ae",
+      "member_ids": [
+        "2026-11-09-auto-8d69de57ae"
+      ],
+      "priority": "B",
+      "published": "2026-11-09",
+      "company": "日本デジタル研究所(JDL)、顧客情報28,475件",
+      "service": "",
+      "affected_count": 28475,
+      "summary": "日本デジタル研究所(JDL)、顧客情報28,475件が流出した可能性 アララへの不正アクセスで第二報、担当者名や顧客コードも対象|セキュリティニュースのセキュリティ対策Lab",
+      "sources": [
+        {
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPM0VyV3d1Q2xEc2R3cEMtQVlMSmhQdmlOOUtyLTZLRVQxbGlqei1NYS10SEQ2aGZTakpKaGdjcWxPMXpOUEptb3k4OURIeUQxWm9GYzRXSm5JUWh1QmgyWnlKSXFsUjl4b1ZoR3FOWUlKMGRRMW1aemEyS0NKSGR4OTU0QzA4eFNkd2E3bEVGWjNtWGdFWTBaZUtjejRNeWFJWkhDYV92VTZjNURs?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-auto-dc57ce1414",
+      "member_ids": [
+        "2026-11-09-auto-dc57ce1414"
+      ],
+      "priority": "C",
+      "published": "2026-11-09",
+      "company": "ソニー銀行のデジタル証券に関連する外部委託先Securitize Japan",
+      "service": "",
+      "affected_count": 0,
+      "summary": "ソニー銀行のデジタル証券に関連する外部委託先Securitize Japanに不正アクセス",
+      "sources": [
+        {
+          "name": "ScanNetSecurity",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1uNlkwSzl2b0NSSHh2RTRDdUgxQW9Mb0dVcVV4YXBWakVvZkhVZFBZckE4cEc3WFNwbXBNRmhJWGhYLUs5YWtPUVg0d05pR0hXNkJyWVB0eEQ1WGF1ZXNhZXhJcUlZeG1FdHUyZQ?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-auto-8d91865884",
+      "member_ids": [
+        "2026-11-09-auto-8d91865884"
+      ],
+      "priority": "C",
+      "published": "2026-11-09",
+      "company": "セレス「ポイントインカム」約1万1,100人の情報が閲覧された可能性 「Coin",
+      "service": "",
+      "affected_count": 11100,
+      "summary": "セレス「ポイントインカム」約1万1,100人の情報が閲覧された可能性 「CoinTrade」関連のメールアドレス8万8,289件も流出",
+      "sources": [
+        {
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTVNUT2R6X1BFR3Q3QlN6aXJWemIzYkpEME5HQ2M1WU1MWmV0ZUF1Q25Jc3hvSFhKNjY2Q2d6TmZHNi16UWYyc3V0MWI3VFhEelJwemdqN2JVWWVfS1p1SU1QMEt6d3V2c0ZfMjJMbTR0MzVKS011QlVZWGRjMDVhaF9yUkV0b2NrLWFORFZiN1J0R1JIWm5KcDduajN0Zw?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-auto-06190e3a34",
+      "member_ids": [
+        "2026-11-09-auto-06190e3a34"
+      ],
+      "priority": "C",
+      "published": "2026-11-09",
+      "company": "個人情報保護委員会が公式サイトを緊急メンテナンスで一時停止",
+      "service": "",
+      "affected_count": 0,
+      "summary": "個人情報保護委員会が公式サイトを緊急メンテナンスで一時停止 漏えい等報告は専用フォームで受付",
+      "sources": [
+        {
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNDg2SmVRSHJmaXRsSWVRbEc4UTROSm5wd0prN3dzajY4eDZySHBUeGJGOUhWUU5lS1lmMFMtbFlUUHhvdFc5VGtzekxCdFdnYnd5M29ld0VHRUs1eTNoenZZS0I2VWNWT2gzRHFsWEppM2NPNHNHTlkwUVZKaWIyUS1VX0NlamxrcHVLTFRVOUdWckU?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-auto-6cfac113ae",
+      "member_ids": [
+        "2026-11-09-auto-6cfac113ae"
+      ],
+      "priority": "C",
+      "published": "2026-11-09",
+      "company": "デジタルハリウッド、資料請求者などのメールアドレス1万958件",
+      "service": "",
+      "affected_count": 10958,
+      "summary": "デジタルハリウッド、資料請求者などのメールアドレス1万958件が流出 委託先が利用するアララのメール配信システムに不正アクセス|セキュリティニュースのセキュリティ対策Lab",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPM0YtTVk2bDROTzM4cGpfRHdPYWtSMnBsMnJaLVRjY2lpR0dGa1dDaDZmdzdPZ3dfS3BrNUM2bW0yRmhZQU9yUTdicjE5aHBSRFI2MEFnTG5yQlhIa2g1eU1CSWZsdnRoMDYxWnFaeUN4MUNmSVpZekdxV1RPNTdQeFMyRjl1bTAwbFpTMmtTUkhYSWdrNWgycjZiWTYwWlcxY2hWSy1R?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-auto-9c006d2400",
+      "member_ids": [
+        "2026-11-09-auto-9c006d2400"
+      ],
+      "priority": "C",
+      "published": "2026-11-09",
+      "company": "MOTEX(エムオーテックス)、公式サイトへ",
+      "service": "",
+      "affected_count": 0,
+      "summary": "MOTEX(エムオーテックス)、公式サイトへの不正アクセスで個人情報漏洩の可能性-LANSCOPE 関連5サイトの停止続く",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTW5MRGlpN3ZlU21sdG9iQ3VoemxReFp6S0Q0VTNVc3ZYeUluNFBsU0VoX25JTmFIcmFPOGF6ZUR0dC1PaEdXUVZESFktcklWODd2aV9jOFd4c2c1Qy1zblRXb3pDYkJ3YklrN2ptSUp4eUF4cDNrbjR1UDNWaVZ1ck5paWNQNDYwVE9DMUM4bUlPTnhEdm53TGpmRFZfYUY4R01B?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-auto-fb9ecfb245",
+      "member_ids": [
+        "2026-11-09-auto-fb9ecfb245"
+      ],
+      "priority": "C",
+      "published": "2026-11-09",
+      "company": "NVIDIA(エヌビディア)",
+      "service": "",
+      "affected_count": 0,
+      "summary": "NVIDIA(エヌビディア)、フアンCEOへの中国スパイ工作疑惑(ハニートラップ疑惑)で独立調査 不倫を認め謝罪とAxios報道、機密流出は確認されず|セキュリティニュースのセキュリティ対策Lab",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObmI4OURDZGt1RWJDQlo4NkdPZ0RaV2ZacXR1UFZWdWxRSzdTdjEtMklDWnJvQlYtNDhiN2o2b0gyZGtxSUNad0tpOHR1TzNzb0dNMWZLSF9oM1o2anBockdEWWE4NU92Q0V4aTNHUUFVZE5feUZrX2xEZk1JQ09MejhnaWlHYllBX1habkdFWEVqeWRqakJ4dkRKV05HVWxHQUdBci1mcS1xWFQ5Z2tTT3FDY2lxQQ?oc=5",
           "official": false
         }
       ]
