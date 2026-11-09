@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-09 09:52 JST",
+  "last_updated": "2026-11-09 09:58 JST",
   "incidents": [
     {
       "id": "2026-11-09-auto-895055b492",
@@ -357,9 +357,9 @@
       ],
       "auto_detected": true,
       "rss_pub_date": "Sun, 08 Nov 2026 08:14:26 GMT",
-      "article_count": 2,
-      "priority": "B",
-      "priority_score": 6
+      "article_count": 3,
+      "priority": "A",
+      "priority_score": 7
     },
     {
       "id": "2026-11-09-auto-e3ca933eee",
@@ -401,7 +401,7 @@
       ],
       "auto_detected": true,
       "rss_pub_date": "Sun, 08 Nov 2026 10:14:00 GMT",
-      "article_count": 4,
+      "article_count": 5,
       "priority": "A",
       "priority_score": 7
     },
@@ -457,19 +457,23 @@
       "affected_count": 15128,
       "status": "candidate",
       "cause": "報道自動検知",
-      "summary": "セキュリティ団体JNSAが不正アクセス被害、管理者情報など最大1万5,128件漏えいの恐れ(ビジネス+IT)",
+      "summary": "セキュリティ団体JNSAが不正アクセス被害、管理者情報など最大1万5,128件漏えいの恐れ (ビジネス+IT)",
       "exposed_data": "要確認",
       "sources": [
         {
           "name": "Yahoo!ニュース",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9VWkZQVXV0MTcwMW5ZOHV1d3dRR3hkTzZZTC1ENHZhNngyNUdCSnotM3V2MUgwZDBLYlFfcERRSllDMHQtWEtTYmlCNUxWRU84T2NSMjlFamZsXzZjai1zaG1HczVGZk56eHdnak9feHp2NHFxTmFYM05NZGN3Tm8?oc=5"
+        },
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOYjk5LVlnVTJvWDVJWTF6dHBxNkZxMEdjOXE3OE5SSS1yVlplU2dzNHRlR2xxQ3BJOE5LYksxOGpmalEzb2NrcTZ6TnJrYmFuYzlLTkZkNTdSTVBWREktM09ZaEV4M01FR24wb05oaFVvZFluY2FzVlJDWjhLTF95eW16NUtOaFhWZTZGcmV3?oc=5"
         }
       ],
       "auto_detected": true,
       "rss_pub_date": "Sun, 08 Nov 2026 16:27:01 GMT",
-      "article_count": 1,
-      "priority": "B",
-      "priority_score": 4
+      "article_count": 2,
+      "priority": "A",
+      "priority_score": 7
     },
     {
       "id": "2026-11-09-auto-ea41ebedb2",
@@ -581,7 +585,7 @@
       ],
       "auto_detected": true,
       "rss_pub_date": "Sun, 08 Nov 2026 22:00:39 GMT",
-      "article_count": 3,
+      "article_count": 4,
       "priority": "A",
       "priority_score": 7
     },
@@ -713,28 +717,6 @@
       ],
       "auto_detected": true,
       "rss_pub_date": "Sun, 08 Nov 2026 23:05:12 GMT",
-      "article_count": 1,
-      "priority": "B",
-      "priority_score": 5
-    },
-    {
-      "id": "2026-11-09-auto-ceaca51fb1",
-      "published": "2026-11-09",
-      "company": "49円の不正利用→被害額40万円に」半年で4億人分",
-      "service": "",
-      "affected_count": 400000,
-      "status": "candidate",
-      "cause": "報道自動検知",
-      "summary": "「49円の不正利用→被害額40万円に」半年で4億人分の個人情報流出...ダークウェブで売買も“名寄せ”による第2波の脅威とは",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8wNGZIYmVyRThxTzkxcG1SQ3VJMHRVcFFMVU51TzlKV29aWVNTVWtpUFY1TFRrNFdkeUozejBjRHQ4OWV1RE9YeFJodDlvNGo0SFV5UW1YUnpOcjBRNTFneHROTHp3RG5kMXdMazVuVFF5aC12Ynh0alUyaGJ3MnM?oc=5"
-        }
-      ],
-      "auto_detected": true,
-      "rss_pub_date": "Sun, 08 Nov 2026 08:00:38 GMT",
       "article_count": 1,
       "priority": "B",
       "priority_score": 5
@@ -1046,6 +1028,28 @@
       "article_count": 1,
       "priority": "C",
       "priority_score": 1
+    },
+    {
+      "id": "2026-11-09-auto-ceaca51fb1",
+      "published": "2026-11-09",
+      "company": "49円の不正利用→被害額40万円に」半年で4億人分",
+      "service": "",
+      "affected_count": 400000,
+      "status": "candidate",
+      "cause": "報道自動検知",
+      "summary": "「49円の不正利用→被害額40万円に」半年で4億人分の個人情報流出...ダークウェブで売買も“名寄せ”による第2波の脅威とは",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8wNGZIYmVyRThxTzkxcG1SQ3VJMHRVcFFMVU51TzlKV29aWVNTVWtpUFY1TFRrNFdkeUozejBjRHQ4OWV1RE9YeFJodDlvNGo0SFV5UW1YUnpOcjBRNTFneHROTHp3RG5kMXdMazVuVFF5aC12Ynh0alUyaGJ3MnM?oc=5"
+        }
+      ],
+      "auto_detected": true,
+      "rss_pub_date": "Sun, 08 Nov 2026 08:00:38 GMT",
+      "article_count": 1,
+      "priority": "B",
+      "priority_score": 5
     },
     {
       "id": "2026-11-08-auto-65a5ec5f0c",
@@ -1399,7 +1403,7 @@
       ],
       "auto_detected": true,
       "rss_pub_date": "Sun, 08 Nov 2026 04:11:00 GMT",
-      "article_count": 6,
+      "article_count": 8,
       "priority": "B",
       "priority_score": 5
     },
@@ -1579,7 +1583,7 @@
       ],
       "auto_detected": true,
       "rss_pub_date": "Sun, 08 Nov 2026 02:50:37 GMT",
-      "article_count": 3,
+      "article_count": 5,
       "priority": "A",
       "priority_score": 12
     },
@@ -1745,7 +1749,7 @@
       ],
       "auto_detected": true,
       "rss_pub_date": "Fri, 06 Nov 2026 11:35:39 GMT",
-      "article_count": 16,
+      "article_count": 18,
       "priority": "A",
       "priority_score": 9
     },
@@ -2283,7 +2287,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "日テレNEWS",
+          "name": "Yahoo!ニュース",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5OT1R2X045QkhVeE1NdkFnTllsUmllMnZYa1k2c2tHemlNYmZCUFNCQ2RHV3YtdEZ6MHczUl9IWG1FeEhhbDhWa3FBM1UzUXRkMDZ4WDlDUzJEMmN1VzgySXBFcGlJZ3ZTVHR0UG5RWEdMaF9qSmtsamF3WlVTZWs?oc=5"
         }
       ],
@@ -2443,7 +2447,7 @@
       ],
       "auto_detected": true,
       "rss_pub_date": "Fri, 06 Nov 2026 06:06:01 GMT",
-      "article_count": 3,
+      "article_count": 5,
       "priority": "A",
       "priority_score": 10
     },
@@ -2553,7 +2557,7 @@
       ],
       "auto_detected": true,
       "rss_pub_date": "Fri, 06 Nov 2026 21:00:00 GMT",
-      "article_count": 6,
+      "article_count": 7,
       "priority": "B",
       "priority_score": 5
     },
@@ -3714,8 +3718,8 @@
       "auto_detected": true,
       "rss_pub_date": "Thu, 05 Nov 2026 12:33:00 GMT",
       "article_count": 6,
-      "priority": "A",
-      "priority_score": 7
+      "priority": "B",
+      "priority_score": 6
     },
     {
       "id": "2026-11-06-auto-518ea05383",
@@ -3861,7 +3865,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "Yahoo!ニュース",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE45TlVxZ09QSzJseG5pcWw3LWlTXzZodVhqWFVfV0tRdE0wdEdULUNwdGk1TUVEazZfMXJLUllXQ1lLaXhZNng3ZjFyY1g1MDl0ZVRpcWVKajhXWTU3M01oU1RLWGYzU01RS3JRc1M5WVRsRFozNV80d05BVHI3VEk?oc=5"
         }
       ],
@@ -3869,7 +3873,7 @@
       "rss_pub_date": "Thu, 05 Nov 2026 07:50:49 GMT",
       "article_count": 10,
       "priority": "A",
-      "priority_score": 11
+      "priority_score": 10
     },
     {
       "id": "2026-11-06-auto-7a72e1d79c",
@@ -6027,7 +6031,7 @@
       ],
       "auto_detected": true,
       "rss_pub_date": "Fri, 06 Nov 2026 08:16:00 GMT",
-      "article_count": 10,
+      "article_count": 11,
       "priority": "B",
       "priority_score": 5
     },
@@ -6406,8 +6410,8 @@
       "auto_detected": true,
       "rss_pub_date": "Fri, 06 Nov 2026 05:10:00 GMT",
       "article_count": 2,
-      "priority": "B",
-      "priority_score": 4
+      "priority": "C",
+      "priority_score": 3
     },
     {
       "id": "2026-11-06-auto-4503a37529",
@@ -8833,7 +8837,7 @@
       ],
       "auto_detected": true,
       "rss_pub_date": "Thu, 05 Nov 2026 03:07:28 GMT",
-      "article_count": 169,
+      "article_count": 170,
       "priority": "A",
       "priority_score": 11
     },
@@ -9641,7 +9645,7 @@
       ],
       "auto_detected": true,
       "rss_pub_date": "Tue, 03 Nov 2026 14:59:10 GMT",
-      "article_count": 42,
+      "article_count": 43,
       "priority": "A",
       "priority_score": 10
     },
@@ -9745,7 +9749,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "関西テレビ",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Oek1ZNS1hRWxNN0JhZnQyTEg1VUlvV3ZYcWU1WWVrZThpaDhBN2hIVjZNV0VxRlEyQXpvQ19sdjNBLVY3cVA3VW94YnA4V01hU1lzYXZacWFNbDBGYTZJc0JQSmdsWnRvc2IyazVMLUVrU0hGNmR6X0R6QlpzN0E?oc=5"
         }
       ],
@@ -9753,7 +9757,7 @@
       "rss_pub_date": "Tue, 03 Nov 2026 02:51:01 GMT",
       "article_count": 12,
       "priority": "A",
-      "priority_score": 10
+      "priority_score": 9
     },
     {
       "id": "2026-11-04-auto-a1ec9563cb",
@@ -12103,7 +12107,7 @@
       ],
       "auto_detected": true,
       "rss_pub_date": "Mon, 02 Nov 2026 14:14:13 GMT",
-      "article_count": 33,
+      "article_count": 34,
       "priority": "A",
       "priority_score": 12
     },
@@ -13445,11 +13449,15 @@
         {
           "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5NbENkeTVHZjFuUFdtOWxZOU9KaEo4M3BSNkJqTUZmTGxocXRXeXpBMHhqamVXVmhfNGUzaktGdnhhd041dUJUMHBEbTlHdUJqdzg1M2QzRnpMU04xRk5wa0FkcF9lZXdndUNLdlExcm9FU3FYUTlnQzRRWHB1OG8?oc=5"
+        },
+        {
+          "name": "テレ朝NEWS",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE83TWFHbFZaMEJpVkdfLVZBMHBaM29vLXEwV1BQb09hVlpjM1lOc2ZmbHViQzlSTXdqeWdCXzhYcmdtZkxOVVNlX1VKbV9ycnYxQUtQZEtZSmZDU0owRU9MV0tVMmVmTnZ5RjdCS05DcUNDdw?oc=5"
         }
       ],
       "auto_detected": true,
       "rss_pub_date": "Tue, 03 Nov 2026 00:41:42 GMT",
-      "article_count": 13,
+      "article_count": 15,
       "priority": "A",
       "priority_score": 9
     },
@@ -14067,7 +14075,7 @@
       "rss_pub_date": "Sun, 01 Nov 2026 21:45:00 GMT",
       "article_count": 4,
       "priority": "B",
-      "priority_score": 5
+      "priority_score": 4
     },
     {
       "id": "2026-11-02-auto-f99eacf9c3",
@@ -17171,10 +17179,6 @@
         {
           "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1EUXZuWlVpZmVtYmpIVEoxZzN2Mjl2bDY4bW1jTEJneUh2X2xqT1pDdFNlMDVnTnVQN3I0N0JVR0xkNmZhU1FYeklmbFMyZzUzbmhTZXpuUGRkOFpVUXEw?oc=5"
-        },
-        {
-          "name": "BigGo ファイナンス",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBaQXV1WjJOa29ueDhzMDRZWU1TMzVXOTliNTZtd0ZqZzU4Q2p6MU5YY3J4M0xOV29MOE43Wm9VV19aQmhLU3QtWGZIRlYxTkJ0UWNiWHBPZVcxUnQzbmFSWlk0bVk4TmlpZWdQaTEwUzRrU25U?oc=5"
         },
         {
           "name": "ITmedia",
@@ -50216,14 +50220,14 @@
     }
   ],
   "maintenance": {
-    "last_cleanup": "2026-11-09 09:52 JST",
-    "candidate_before": 2122,
+    "last_cleanup": "2026-11-09 09:58 JST",
+    "candidate_before": 2143,
     "removed_noise": 1,
     "removed_verified_duplicates": 0,
     "merged_candidate_records": 0,
-    "candidate_after": 2121,
-    "new_candidates_added": 22,
-    "new_articles_merged": 20,
+    "candidate_after": 2142,
+    "new_candidates_added": 1,
+    "new_articles_merged": 19,
     "cleanup_version": "1.8"
   },
   "official_monitor": {
