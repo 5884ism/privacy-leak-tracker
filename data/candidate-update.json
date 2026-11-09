@@ -1,18 +1,524 @@
 {
   "version": "1.1",
-  "generated_at": "2026-11-09T00:58:55+00:00",
-  "before_count": 1489,
-  "after_count": 1488,
-  "net_change": -1,
-  "new_count": 0,
-  "removed_count": 0,
-  "visible_before_count": 1489,
-  "visible_after_count": 1488,
-  "visible_net_change": -1,
+  "generated_at": "2026-11-09T08:05:28+00:00",
+  "before_count": 1488,
+  "after_count": 1532,
+  "net_change": 44,
+  "new_count": 22,
+  "removed_count": 1,
+  "visible_before_count": 1488,
+  "visible_after_count": 1532,
+  "visible_net_change": 44,
   "raw_before_count": 2143,
-  "raw_after_count": 2143,
-  "raw_net_change": 0,
-  "new_candidate_ids": [],
-  "new_candidates": [],
-  "removed_candidates": []
+  "raw_after_count": 2178,
+  "raw_net_change": 35,
+  "new_candidate_ids": [
+    "2026-11-09-auto-c993d6c52b",
+    "2026-11-09-auto-4bfc452539",
+    "2026-11-09-auto-4298b0ddf2",
+    "2026-11-09-auto-bb9100c175",
+    "2026-11-09-auto-14ff9e4846",
+    "2026-11-09-auto-08a706a3d4",
+    "2026-11-09-auto-7acd2a74e9",
+    "2026-11-09-auto-45f1c23c7e",
+    "2026-11-09-auto-5a7d95bc38",
+    "2026-11-09-auto-c1569801f2",
+    "2026-11-09-auto-71cbe969bc",
+    "2026-11-09-auto-66f2a13893",
+    "2026-11-09-auto-ea77306cc9",
+    "2026-11-09-auto-c23fcaebe6",
+    "2026-11-09-auto-b0675b87bf",
+    "2026-11-09-auto-89cc6d5761",
+    "2026-11-09-auto-d78c705d2a",
+    "2026-11-09-auto-80da7a55dc",
+    "2026-11-09-auto-ce23943fd3",
+    "2026-11-09-auto-d3ebb52e8e",
+    "2026-11-09-auto-11b19c7ee3",
+    "2026-11-09-auto-0234a8e38e"
+  ],
+  "new_candidates": [
+    {
+      "id": "2026-11-09-auto-c993d6c52b",
+      "member_ids": [
+        "2026-11-09-auto-c993d6c52b",
+        "2026-11-09-auto-bc4c752ec1",
+        "2026-11-09-auto-73b2c6b950",
+        "2026-11-09-auto-6b3c7225fa",
+        "2026-11-09-auto-a66dacbf22",
+        "2026-11-09-auto-439b7dfc8e"
+      ],
+      "priority": "B",
+      "published": "2026-11-09",
+      "company": "ラクスル",
+      "service": "",
+      "affected_count": 0,
+      "summary": "ラクスルに不正アクセス、印刷データの個人情報流出のおそれ 名刺・はがきの記載者にも影響",
+      "sources": [
+        {
+          "name": "CNET Japan",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE90a2tmOUFqdGJGVmR2NGdaYzV5Z2t6eGd6R1lQZTRlZHUwSDN5RE1TVG1qT2RleTN4V2pBQXJMbHc1ZmwyWnZub0tYRmxHSG1PRWc?oc=5",
+          "official": false
+        },
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOR1hQMmowSFExTUo2RUt1RTJGMERGTERrMXJ1OW1ybUpxOXdzaWwxcHR0a0QwemhDVWJTaWRNUDY2ZWwxN3RLNjd5SHp3eVFOYWZ6c0lMbDlBNmZsS2tPUjZQTThyOG9SS1dXT05kU2NPTTZEaWpMR2hhbmZXQVdHbUV5NGdNaXFOaGdiY09n?oc=5",
+          "official": false
+        },
+        {
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbjQ3ME1ZMVR2X1V6SHQxY2poQlhpR3ZHQmdMYmwzd053WEw4NjRIVDZ4S1paRGJsSzhmSFcyaHRLUzVWdWdwT281QU0tX0x6dTNxdjBDQnRPMUhZS3B5QjNCVTlib2xERHlkNjRFckdCYVI1dEk5TGxOQVV1ZWQ1RFpXN0dNQm94WnRxR0hyQQ?oc=5",
+          "official": false
+        },
+        {
+          "name": "NHKニュース",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XNFFsc1VEckZ0bGVZWk9jbWYySW5XVHFscGZEbWZDeVRSQURCS3owYkZWS0Jjbklwb0F0MVk2S1NSQmFOZW9BSHBYRG9LRWh1MUFNeFBfaDBtTVJ3cEpv?oc=5",
+          "official": false
+        },
+        {
+          "name": "ITmedia",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBHLTBMRnFsM0tOTTBwVVRWQXhrY0tUTzBPZjlHY3VBWDh4dHEzS0xYYTFENXB0ejF4dlhPNU53TjE1TjNLWGdaWmdRVTZjUjM2bU5pbGNuUFlDNVFfTE9SMDBacFZIMGdwX3c?oc=5",
+          "official": false
+        },
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZlpRWm5iNlBoSUVSZ0hyMEtFNXB6ek90b1ZjUEprUnZGQ3hnYkY2QUFyNElWdHFTR0dLeGFLT3ZveVpidGVyWFYxMmJIQl9YSDJPS2FvM3J6TjBDNEhqd195dFZVLVBCQkN1NHROR1ctNC1XSnhoYnVRMlZaSjRKUl9Oa05vUmNWVlo2RFVB?oc=5",
+          "official": false
+        },
+        {
+          "name": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GZ19sMEoyc3QtQzI2ZU5LOHBMVXBHNXRRbmFSaU5XcEJueHFMazJhTGtjcXUtY3lVTXUtYkVKanNSMXUxd2tHTWdjaXVSekZHZFBZam04ODA4N3h1dVJIZ2o2bnA4WHhmWnRsUnhMTURkdkZtMTFHc1g3cTgzYjg?oc=5",
+          "official": false
+        },
+        {
+          "name": "INTERNET Watch",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB6Njg5dzdGYWRFc2JfeDFpX0tEdlV3UGttV0pXLW9WQk1NOGxGdzA3bEctaHhVTkJTQ09RaXRlQnlBTnF1cHRZdVliVW9GempiVXF6dVBUd0MwWGNxaWUwUEdxSjNTajVTd3FN?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-auto-4bfc452539",
+      "member_ids": [
+        "2026-11-09-auto-4bfc452539"
+      ],
+      "priority": "C",
+      "published": "2026-11-09",
+      "company": "自社の認証情報で生成AI不正利用される ネット印刷・キングプリンターズへ",
+      "service": "",
+      "affected_count": 0,
+      "summary": "自社の認証情報で生成AI不正利用される ネット印刷・キングプリンターズへの不正アクセス、個人情報漏えいなし",
+      "sources": [
+        {
+          "name": "ITmedia",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4weHc0UTBVZFMxbXdzcGJxNHFMa1BycXkxN3NXRS1FRTdjelNOOVR5OUNuUGt0Tk92QUx3ZzBldmgzSEVSc1dya01XdDVMT1EtcWFXcTNpcW94cExaU292REU4WVNRdC1CNUE?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-auto-4298b0ddf2",
+      "member_ids": [
+        "2026-11-09-auto-4298b0ddf2",
+        "2026-11-09-auto-dbc6ffa601"
+      ],
+      "priority": "C",
+      "published": "2026-11-09",
+      "company": "早稲田大、PHP脆弱性への対応中",
+      "service": "",
+      "affected_count": 3400,
+      "summary": "早稲田大、PHP脆弱性への対応中に不正アクセス発見 個人情報約3400件流出確認",
+      "sources": [
+        {
+          "name": "ITmedia",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBKWWJhODl5OGZyQmlRdGZCeUgyRlRBcC1PcWU0a29kb2lKUHhlQy1qOXU0SWRNSWJGTkZFN3paYnNsRjRHRXZNUWstS1VaT29DaWc5dUd0Y1RTRExCSFBMMlR3Q1o1UHBOVHc?oc=5",
+          "official": false
+        },
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxORVZTOE5FWnVrXzYtZHY3RGNBZ2J3eFpXcjBrMXlBblhJMGJhemRpdXBSMkY4Zy1QLWR3RTlwcnJ0WnFEblZuNDBQSlVTcGxzX2l1M21RTGRlRHRobkxtcENhcmIzQmdvdkc2Z3NJUDY1MnZCMGRWdUNXUW53TW5rZG11bGFEN2lDc0ViMlBXQmR6YVdPSk9qUkdqbHNBNHI3aEVYcnFybERZaTVuZFIyUGNFNlFXeEFISTRZS1JuUlJOcmJsa0JqLWx1ZlFwSlM5bVo3cUQ2cXBnWW5BNlp3ZzhTTm9mQQ?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-auto-bb9100c175",
+      "member_ids": [
+        "2026-11-09-auto-bb9100c175"
+      ],
+      "priority": "C",
+      "published": "2026-11-09",
+      "company": "さっぽろえきバスナビ」停止 外部から",
+      "service": "",
+      "affected_count": 0,
+      "summary": "「さっぽろえきバスナビ」停止 外部からの不正アクセスで誤情報配信 個人情報の漏洩なし 札幌市",
+      "sources": [
+        {
+          "name": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE44dFhHa2h5R2VpWFJDdE5oMTkzRmhZRi1rSUprdi13UUJlQkFaUHRTTW54bFdqWTdFSV83T2hOMlA0WHJMVTZObFBxOUczSC1PdEt6endJVjd5c25oSTJBazFMWGpMMWpMdzY3a2p1REJsbUdoSVJTcC1RcGk4ek0?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-auto-14ff9e4846",
+      "member_ids": [
+        "2026-11-09-auto-14ff9e4846"
+      ],
+      "priority": "C",
+      "published": "2026-11-09",
+      "company": "コーナン、自転車サービスで949件情報漏洩 再委託先",
+      "service": "",
+      "affected_count": 949,
+      "summary": "コーナン、自転車サービスで949件情報漏洩 再委託先に不正アクセス",
+      "sources": [
+        {
+          "name": "日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9lZElDLUpsQmpic3pIWHJWaXdjMWR2Ym0tOFAwTFlpMDVScHRSU19uSEVJYTJhdEdTMHhmb2NtMmdaaFc3SHVBNHB2cFo1Zzh4ckxwaTVKV2FHQXNIdjhHbXhlZDk1X0gwNjdORA?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-auto-08a706a3d4",
+      "member_ids": [
+        "2026-11-09-auto-08a706a3d4"
+      ],
+      "priority": "C",
+      "published": "2026-11-09",
+      "company": "FWD生命の代理店保険システム「FWD navi",
+      "service": "",
+      "affected_count": 9000,
+      "summary": "FWD生命の代理店保険システム「FWD navi」に不正アクセス、最大9,000件の個人情報漏洩の恐れ",
+      "sources": [
+        {
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSWE0UzgtYUFyQmdZYlloRUlNbXhrTk5QRzgzYmpkcHJZdC1zWUlLN2oxSm5UYkw0V0VpV0liT1NjQ3dCaFZEQVB4S3V2YVlOU3REdUZqWFB5STN2eUNwU0tSdVo1V1BXYkN3QVYyQ1RUeUwxM29Td202eDNKb1BUaFNjMkxrSFo0cmJ2MGotQkUyOHRpTldFQWJHOWloODRXbkxpbUE1bG9BbDAydXJod1M0dXc?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-auto-7acd2a74e9",
+      "member_ids": [
+        "2026-11-09-auto-7acd2a74e9"
+      ],
+      "priority": "C",
+      "published": "2026-11-09",
+      "company": "県 委託先サーバーに対する不正アクセスによる情報漏えいの可能性",
+      "service": "",
+      "affected_count": 0,
+      "summary": "県 委託先サーバーに対する不正アクセスによる情報漏えいの可能性",
+      "sources": [
+        {
+          "name": "FNNプライムオンライン",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5MUWwxbWtJTm9MTklPT3dwRU5oOHZtREgtTjJoVW5zeXdPVi1nQjBOX3gyTzZQUmRwRVg0aXliZzQ3bE8yNFF4djdXd0ZZUQ?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-auto-45f1c23c7e",
+      "member_ids": [
+        "2026-11-09-auto-45f1c23c7e"
+      ],
+      "priority": "C",
+      "published": "2026-11-09",
+      "company": "住友生命、クレジットカード番号など漏えい=委託先",
+      "service": "",
+      "affected_count": 0,
+      "summary": "住友生命、クレジットカード番号など漏えい=委託先で不正アクセス",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1mdmpaRXZEWkdES2pLb3BFbmRTV0ZUVUxmUVNia252QTNZYjdkYWt1Y19jT1I5SndKWUowNDB3RHh2MDEwMmdqTWNqdHlMY3ZIVURKRDNVVVA?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-auto-5a7d95bc38",
+      "member_ids": [
+        "2026-11-09-auto-5a7d95bc38"
+      ],
+      "priority": "A",
+      "published": "2026-11-09",
+      "company": "印刷のキンコーズ、会員情報26万6,395件",
+      "service": "",
+      "affected_count": 266395,
+      "summary": "印刷のキンコーズ、会員情報26万6,395件の流出を確認 アララへの不正アクセスで氏名・生年月日・会員証番号も対象",
+      "sources": [
+        {
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVHEtMWhEc0VUSnVFaXhTMVU4YU1ZOEU0U0JBS240YmtlV0tLMXdoUjRMd2ZsXzJaX1ptV1E2YUFWWDcxSUh4NUVwZnhzRUQxVW1GSjY2aXZNU2dMSmllVGtRcEl6RWw4a1lEbElNVXROdjVmT2NLQTZlQS1CbXZ3YlhNMjlubW5sOHFnMWVDWC1VOWFJdjI3ZmdpVG1xOFRvRVF2ZTd5NGxzYjVzODF2X1R3?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-auto-c1569801f2",
+      "member_ids": [
+        "2026-11-09-auto-c1569801f2"
+      ],
+      "priority": "C",
+      "published": "2026-11-09",
+      "company": "山陰合同銀、1585人分",
+      "service": "",
+      "affected_count": 1585,
+      "summary": "山陰合同銀、1585人分の顧客情報漏えい 外部保証先に不正アクセス",
+      "sources": [
+        {
+          "name": "ニッキンONLINE",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1qRzVVeVVKaVljX2xOMERuMmN3M2ZGQXQtVEZ5d2E2ZEZRYVJtY3NkWGx4Z0IwX1ZMNXA4SkRjdzlTZE1Pcm8wN0R2YUhMQ2ZxNXBNRjRn?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-auto-71cbe969bc",
+      "member_ids": [
+        "2026-11-09-auto-71cbe969bc"
+      ],
+      "priority": "C",
+      "published": "2026-11-09",
+      "company": "10月だけで109件",
+      "service": "",
+      "affected_count": 109,
+      "summary": "10月だけで109件の個人情報漏えい 上場企業の公表事故が10カ月で過去最多に",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5DUWEzM2d1UmtGTnhfN2NEdlJjSTl3VF95WVo0aG4zM2tZcXJILXZkUlJVMGRCeWhQRHZwb0libEVndkVlNEdzZTdELUhBR2VTNHd6QjFIY3VXZ0J3c2t5OTdR?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-auto-66f2a13893",
+      "member_ids": [
+        "2026-11-09-auto-66f2a13893"
+      ],
+      "priority": "C",
+      "published": "2026-11-09",
+      "company": "JR西日本ホテルズ7施設",
+      "service": "",
+      "affected_count": 0,
+      "summary": "JR西日本ホテルズ7施設で個人情報漏えいの可能性 「会場ベストサーチ」運営アイデアログの開発環境に不正アクセス",
+      "sources": [
+        {
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMk1ack1rWm5ZSnZTTWlYT1k1emhrcV9uX05YYXNpS1ZRbFZJLXI3OUI4VF9qX0YwOU1SVzF2dnZvSXFFSFBpTkM1UUtnaG1YQ0hBa1pYR2JfQUV6MlhKTmdxalRzMzFLMUdLWTlNMHZmS3ZKLVRuWDBYYmUzcVhtaXdublE4R1RQTWxGdlA5cGZBYmJD?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-auto-ea77306cc9",
+      "member_ids": [
+        "2026-11-09-auto-ea77306cc9"
+      ],
+      "priority": "B",
+      "published": "2026-11-09",
+      "company": "エディオン通販サイト",
+      "service": "",
+      "affected_count": 0,
+      "summary": "エディオン通販サイトに不正アクセス、情報漏えいのおそれ",
+      "sources": [
+        {
+          "name": "ASCII.jp",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5JUGhRLXRyOTVyTWRDZk5TdW9pOU8zcWxiSUUwaG8xTGNqUC10aDYyWUR5ZFF5OHdYWVJxWnhfOXU2aGROcTJQQUh4Wno0N0RDbHdIcQ?oc=5",
+          "official": false
+        },
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1PbDF2VEZEUHI3S0tRdFVuUlVjY3NhV1lnb3RxYmFCX0t2SDVkRXFLUDBxbkU3bkV6ZlpxQm1LcXNFQ0U3RzNMZWV0dzJ6dGZJUnVDbXpIOUZVSU9yOXJUeA?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-auto-c23fcaebe6",
+      "member_ids": [
+        "2026-11-09-auto-c23fcaebe6"
+      ],
+      "priority": "B",
+      "published": "2026-11-09",
+      "company": "早稲田大学「MyWaseda」認証情報が不正取得 延べ3,342件",
+      "service": "",
+      "affected_count": 3342,
+      "summary": "早稲田大学「MyWaseda」認証情報が不正取得 延べ3,342件、暗号化パスワードも流出 卒業生向けサービス停止",
+      "sources": [
+        {
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPaDBLaVlveW5vTXQ5TkprcE42NnhhbFUzc0MwTTFGZktEcXBTbU9jRGwyUkJHYmRQTW5DTWcydFd6czE4aVRRU1ZEa1FTODNBSDFRRmxpa0dJVGF4Nzg4cEl0SGdEbTNLMlF0TE5RM2ZRbjdEQjYxLVNHQl9hRHJHcDdUU1VNSklsLUxhVGhya0p0YmVkbGtv?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-auto-b0675b87bf",
+      "member_ids": [
+        "2026-11-09-auto-b0675b87bf"
+      ],
+      "priority": "C",
+      "published": "2026-11-09",
+      "company": "南会津町",
+      "service": "",
+      "affected_count": 0,
+      "summary": "南会津町で不正アクセス メールアドレス流出の可能性も(ふくしまNEWS -KFBデジタル-)",
+      "sources": [
+        {
+          "name": "ふくしまNEWS -KFBデジタル-",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBlYi05ZnRlZkI3ZUZXU2hpZlJxNDhFTkVsYWRxbU5DT0JpTWtmZEplcVRIS2FkaWM1SmxnMEVabGx4XzcwOVVpdkoyWGNaZ2RjMjh5UFBndlh6N1NfVG9BMkM3Y2JUR2NGeFg2ZHZCdVBXNXF5Sm9odkZJSEhZVEU?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-auto-89cc6d5761",
+      "member_ids": [
+        "2026-11-09-auto-89cc6d5761"
+      ],
+      "priority": "C",
+      "published": "2026-11-09",
+      "company": "明治座オンラインチケット、利用サービス",
+      "service": "",
+      "affected_count": 0,
+      "summary": "明治座オンラインチケット、利用サービスに不正アクセスによるサイバー攻撃、予約・照会を一時停止",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcFFUdDB1ZmNNR3BSWnRTeVlFZFdudGVpVklOZU10UjVoSzlEU0xkSTY4QXlZQlNoNU1zTzR3dWtKS3lNRGtETTVrbzdILWpGVXAzY0c4ek5Jd2doTTI0a2ZvTzZHWi1CN1Z5OHNkTERGWUI3UUxLRVVpaDMxcDFhX25RVTRBU0tNS210NWhGSE02NWpBWWphWUtneTNFSUdFTzlZ?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-auto-d78c705d2a",
+      "member_ids": [
+        "2026-11-09-auto-d78c705d2a"
+      ],
+      "priority": "C",
+      "published": "2026-11-09",
+      "company": "上越市の市立中学校1校",
+      "service": "",
+      "affected_count": 116,
+      "summary": "上越市の市立中学校1校で個人情報流出 116人分の学級編成資料が校外へ",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1jZWc4VDg1aVMyM3JLaU54dkJRbTlwVTFVUnlocE5xMl9nSVhqaXNXUFRJNUFRdmZxZjlHUElmVVFuNEhEYXpKSDhxeUY1T2NpS2F3SEpn?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-auto-80da7a55dc",
+      "member_ids": [
+        "2026-11-09-auto-80da7a55dc"
+      ],
+      "priority": "C",
+      "published": "2026-11-09",
+      "company": "韓国SMエンタで役職員",
+      "service": "",
+      "affected_count": 0,
+      "summary": "韓国SMエンタで役職員の個人情報流出...口座番号や住民登録番号も、会社が謝罪(KOREA WAVE)",
+      "sources": [
+        {
+          "name": "KOREA WAVE",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5VbGJrSUlDdTVEOC1RazNBNHVoNENWMlRrc0UyaFUzcWtUUnFjczZneGF3aGdfeGE2NVI4Q1laZkRXLU9TbFZMMnp4UkFyNDVKNUprQzNrNWdwTzBzRVpZNnVNeUNPQWRVaTdzTEFTS3p1eV9hZnljckhHaU5IWEk?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-auto-ce23943fd3",
+      "member_ids": [
+        "2026-11-09-auto-ce23943fd3"
+      ],
+      "priority": "C",
+      "published": "2026-11-09",
+      "company": "札幌市「さっぽろえきバスナビ",
+      "service": "",
+      "affected_count": 0,
+      "summary": "札幌市「さっぽろえきバスナビ」に不正アクセス 地下鉄の運行見合わせ・全線遅延を誤配信、システムを一時停止",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdXZLb1FUM3d5akJybmh2a3NwZkVhNHRsdG1lMEJwaFJLMkxFbzl6S053UWNGTnRYb0NnemFLTGdPREtKOWFIeXluYktiTjA0VGFLNnlfLWpKSVdXbmhUY1FUcVdudGpVWEtlYno5MFI0UEh6X2w4MXlaX21DVWNReTNPbUhrRFlzV0JSUDNRSEJEckJlTDVGSjJSb2JmT3Nwanc?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-auto-d3ebb52e8e",
+      "member_ids": [
+        "2026-11-09-auto-d3ebb52e8e"
+      ],
+      "priority": "B",
+      "published": "2026-11-09",
+      "company": "teket」不正アクセスで全会員",
+      "service": "",
+      "affected_count": 0,
+      "summary": "「teket」不正アクセスで全会員の情報流出 QRコード入場にも影響",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5OY3hqZVpBa29DcjNhNlU0bDRzME1Sa3FLVnV0VkZrZW9td1NDTXRONjJ0dkJrSXVRV3RjRHZ5VFV3clNMWEtRdWV1bEhkRDlKRzJhR29heUlmaGpkN0RXc1JR?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-auto-11b19c7ee3",
+      "member_ids": [
+        "2026-11-09-auto-11b19c7ee3"
+      ],
+      "priority": "C",
+      "published": "2026-11-09",
+      "company": "M1とDoctor Anywhere",
+      "service": "",
+      "affected_count": 0,
+      "summary": "M1とDoctor Anywhereで個人情報流出",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9wUTFqaVRld0FRa3AxMGlybnpNMjZPdHNCZ3NMUlJlaEtIazIyWDZubS1Zb0dRV0JsNlE3VWladDRaNEo3ZXRoVdIBTkFVX3lxTE9YMV9Mc0pxNTNHTGRsX19BV2RXb2dhWXhaOGlzZFBKWVQyM2xHZ1RYR0NCR1JWRzZ2WTI0MjRzRmpSLTRxQTBZLTktWDNaZw?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-09-auto-0234a8e38e",
+      "member_ids": [
+        "2026-11-09-auto-0234a8e38e"
+      ],
+      "priority": "B",
+      "published": "2026-11-09",
+      "company": "住友生命、顧客情報8万人分",
+      "service": "",
+      "affected_count": 80000,
+      "summary": "住友生命、顧客情報8万人分が漏えい 委託先に不正アクセス",
+      "sources": [
+        {
+          "name": "ニッキンONLINE",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE84M1hfc1lsUGI1VWRUbjBjekoyMlJUVjZtdXJUZktmbzNWVnFFWUc0VXgzeXR6UW03eE5GVFFzUU90dGs2SWlJQlJWTVFIMFBmMEFHbGRn?oc=5",
+          "official": false
+        }
+      ]
+    }
+  ],
+  "removed_candidates": [
+    {
+      "id": "2026-11-09-auto-ceaca51fb1",
+      "member_ids": [
+        "2026-11-09-auto-ceaca51fb1"
+      ],
+      "priority": "B",
+      "published": "2026-11-09",
+      "company": "49円の不正利用→被害額40万円に」半年で4億人分",
+      "service": "",
+      "affected_count": 400000,
+      "summary": "「49円の不正利用→被害額40万円に」半年で4億人分の個人情報流出...ダークウェブで売買も“名寄せ”による第2波の脅威とは"
+    }
+  ]
 }
