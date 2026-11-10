@@ -1,141 +1,176 @@
 {
   "version": "1.1",
-  "generated_at": "2026-11-10T17:57:09+00:00",
-  "before_count": 1579,
-  "after_count": 1586,
-  "net_change": 7,
-  "new_count": 6,
+  "generated_at": "2026-11-10T23:29:48+00:00",
+  "before_count": 1586,
+  "after_count": 1599,
+  "net_change": 13,
+  "new_count": 8,
   "removed_count": 0,
-  "visible_before_count": 1579,
-  "visible_after_count": 1586,
-  "visible_net_change": 7,
-  "raw_before_count": 2271,
-  "raw_after_count": 2285,
-  "raw_net_change": 14,
+  "visible_before_count": 1586,
+  "visible_after_count": 1599,
+  "visible_net_change": 13,
+  "raw_before_count": 2285,
+  "raw_after_count": 2298,
+  "raw_net_change": 13,
   "new_candidate_ids": [
-    "2026-11-11-auto-c23a7585ae",
-    "2026-11-11-auto-f2d3c262c7",
-    "2026-11-11-auto-ca9e774582",
-    "2026-11-11-auto-ec5997a655",
-    "2026-11-11-auto-270a8868b4",
-    "2026-11-11-auto-96409470b9"
+    "2026-11-11-auto-9b73111a0a",
+    "2026-11-11-auto-e6a868ed94",
+    "2026-11-11-auto-bdfc5470c7",
+    "2026-11-11-auto-17d99f1b74",
+    "2026-11-11-auto-4973d7e895",
+    "2026-11-11-auto-a17e1eacdc",
+    "2026-11-11-auto-3ab9445755",
+    "2026-11-11-auto-ae9006c8b5"
   ],
   "new_candidates": [
     {
-      "id": "2026-11-11-auto-c23a7585ae",
+      "id": "2026-11-11-auto-9b73111a0a",
       "member_ids": [
-        "2026-11-11-auto-c23a7585ae"
-      ],
-      "priority": "B",
-      "published": "2026-11-11",
-      "company": "タイ航空で乗客",
-      "service": "",
-      "affected_count": 0,
-      "summary": "タイ航空で乗客の個人情報流出の疑い 旅客サービスシステムの委託先に不正アクセス JALとANAも同様の被害",
-      "sources": [
-        {
-          "name": "TBS NEWS DIG",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1zU1kyMFFIM1A1Znlnd292MVpOR0o3aWx0QW1fNVpvNVAzelJ2VEs2d0pjVEUxakZ5Z2tIUmpQSlQtUDVUdlVuSElhWlZubUItOWZVd19lMA?oc=5",
-          "official": false
-        },
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1CcWl4RU1mTWtGOHZSOGxkVV9XOGk5YmtRcDdhSXUweGN1WlZ1S1FWY2lWTHZGMWMySHIxRi1Vc1ZxU1g4amFQUjdjMUlCMkNEbUw0TEtNMHNENkdxM05FYW56bEozQkJSVjRUNDJuWDFNUG5ldGFpcTQwazlEMlU?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-11-auto-f2d3c262c7",
-      "member_ids": [
-        "2026-11-11-auto-f2d3c262c7"
+        "2026-11-11-auto-9b73111a0a"
       ],
       "priority": "C",
       "published": "2026-11-11",
-      "company": "「エディオン」不正アクセス被害 クレジットカード情報など流出か(HOME広島ホー",
+      "company": "モバイルオーダーサービス「PICKS",
       "service": "",
-      "affected_count": 0,
-      "summary": "「エディオン」不正アクセス被害 クレジットカード情報など流出か(HOME広島ホームテレビ)",
+      "affected_count": 8312,
+      "summary": "モバイルオーダーサービス「PICKS」に不正アクセス、8,312人の個人情報が漏えい",
       "sources": [
         {
-          "name": "Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBmSXhjUzRHNFRfWGc1WjBtLWRBdTN6dHBSRk9ndDNOZXZkTWR5enhnU0lianp4TmNZZDZhUXdkd0JGcjFodzY0U0RGZVZsOER0aENSUkhzZ1VSVGtCTGR0aUV4VGU2Szl1WDVWTHhYVlR1SE9GcFNUWVM3QW1RQVE?oc=5",
+          "name": "ScanNetSecurity",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9QbXlYbFpsbW16SVlaVHhJRmVYbmtxOWRTS0hsMnNoenlFWnJtbjVTRGR1YlhnUHlvTksxcXB0M0NQX0VtblpkU2p5Ny1VeENWdEhPVzFUR1g5ZU5MMDNiamxTWVFKZEpkZFlFTg?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-11-11-auto-ca9e774582",
+      "id": "2026-11-11-auto-e6a868ed94",
       "member_ids": [
-        "2026-11-11-auto-ca9e774582"
-      ],
-      "priority": "B",
-      "published": "2026-11-11",
-      "company": "エディオン顧客情報1万3685人分漏洩か クレカ情報も",
-      "service": "",
-      "affected_count": 13685,
-      "summary": "エディオン顧客情報1万3685人分漏洩か クレカ情報も、ECサイト停止",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5vRVZrX2hGbVNrU3E4RHR2b1otSWREc1l6OFhXT1JiaEFzd3Jxak1KVHdtaWNBODg5SU5XZkNheWptaTlvYVhRekRpekVRc2xuSHRkZHdhVHZGUnpoc2pndmVSV3VTV2Rlc2MyZQ?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-11-auto-ec5997a655",
-      "member_ids": [
-        "2026-11-11-auto-ec5997a655"
-      ],
-      "priority": "B",
-      "published": "2026-11-11",
-      "company": "ソフト99 クレカ情報含む 最大約13万人",
-      "service": "",
-      "affected_count": 130000,
-      "summary": "ソフト99 クレカ情報含む 最大約13万人の個人情報漏えいか | NHKニュース | サイバー攻撃、AI・ネット・IT、企業・経営",
-      "sources": [
-        {
-          "name": "NHK",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5Hb2FZZTVaU1VzMW9nRW02d05wV1hOLWgtWTE4Q2xPSWNvbWpQbWl2Z2tTMFFqcVRJMVFtWnlUVHNUakI3cmZTQVVnNU1RYk9RbFBWTDFVb2Q3NXZMbDBj?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-11-auto-270a8868b4",
-      "member_ids": [
-        "2026-11-11-auto-270a8868b4"
+        "2026-11-11-auto-e6a868ed94"
       ],
       "priority": "C",
       "published": "2026-11-11",
-      "company": "Notion AIのチャット記録",
+      "company": "パルマのWebサービス",
       "service": "",
       "affected_count": 0,
-      "summary": "Notion AIのチャット記録が流出 委託先Fireworks AIに不正アクセス、ユーザーの確認方法と危険性",
+      "summary": "パルマのWebサービスに不正アクセス、情報漏えいの有無を調査 外部専門機関と連携",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSFZ0LXRjV2ZJb1hycEEyTUVuVEF3N040UnFPY1l0X21JU2cwZTBocVBhVUxfeTVIQlFXdFNjYThYMkppSERxVGRIMlFueHpFWUU3QUJvNmNac0k5NXNiN1lLMGRGUG0xODBzR1JpTDFLek03WlMwdjZjNnp4aUE5WEtqdHhlRjFWcVBoeURTUGpDdVpuLTNHTXA1c1M?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZjEyZFlFT210cnVRYzZiTkRUX2ptakp2Mkw4ZjBYSHZObU93UWpQT0tLSXlSSkx2ejV5eDFCcFBjc3hUck85anF4V0p6YkcwSGtxUWtHQWlsUTN1bFI5aTRWdVZZei1fTTJiV1FFdlozWGZGTE5aZmxmb2JrU1BkSlhMdm1yS3ZrT1NuZTZ6SHFMLUY2djVYLVVGcw?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-11-11-auto-96409470b9",
+      "id": "2026-11-11-auto-bdfc5470c7",
       "member_ids": [
-        "2026-11-11-auto-96409470b9"
+        "2026-11-11-auto-bdfc5470c7"
       ],
       "priority": "C",
       "published": "2026-11-11",
-      "company": "音楽祭」チケット購入者",
+      "company": "ビジュアルアーツ",
       "service": "",
       "affected_count": 0,
-      "summary": "「音楽祭」チケット購入者の個人情報が「流出」 京都府が実行委事務局務める",
+      "summary": "ビジュアルアーツに不正アクセス、認証情報が保存されていた可能性のある端末で明確な痕跡は確認されず",
+      "sources": [
+        {
+          "name": "ScanNetSecurity",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5KQTlfV0Qzek5oaDZiem5qM1BMcFNwNHhaaEstLTNaTFhycldTb3h4ZW1mbXMwY2ZsT2VVY0JKQmN4NUFnUDV4MU5PRm9VNDdGV0JfWWNjOUZ4RnNsOEdXZUNPdVFCeWJRV3NEdg?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-11-auto-17d99f1b74",
+      "member_ids": [
+        "2026-11-11-auto-17d99f1b74"
+      ],
+      "priority": "B",
+      "published": "2026-11-11",
+      "company": "ティンパンアレイ",
+      "service": "",
+      "affected_count": 1200000,
+      "summary": "ティンパンアレイに不正アクセス、延べ約120万件の会員情報が流出した可能性",
+      "sources": [
+        {
+          "name": "ScanNetSecurity",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBpRzg4eFJ5N0RXMi12bVd2c0hLUUI2ZmxjNF9rN2xhUTBHTUREdTZtWlJNZzNNS0Jzb0JUd0tVRXdUYy1MeTNvc3ZMQ0h6NnVpWDlwOWNFcGVRdnJJeFQtaEhLS0FLd1pTUEVfVA?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-11-auto-4973d7e895",
+      "member_ids": [
+        "2026-11-11-auto-4973d7e895"
+      ],
+      "priority": "C",
+      "published": "2026-11-11",
+      "company": "オンラインくじサイト「はにくじランド",
+      "service": "",
+      "affected_count": 0,
+      "summary": "オンラインくじサイト「はにくじランド」に不正アクセス、第三者による不正なコマンド実行と認証情報の不正利用の形跡を確認",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBnbzh0Rm5pcW5rSmhkVlN3V01GZzBMX096X0FYdWtrbllkekp3anF1bG4xbnFfYlJuay1NSG9mVlM1TV9LUkNEN3p3cXlfcVVqVFhnRWdEX2M?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE11Wi1QVEQ1RzUxVTNtWUpWUk9tNUpCTWtBT216dm1pbkhIcUdjV25aZTBCUTE1bDlJZXJmYU5GWGpVak02VHBzdklmeG8zV2NtaEN2Sl9aaEwyT2lSVWpURlVKQXJ6WjNtNHFFUw?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-11-auto-a17e1eacdc",
+      "member_ids": [
+        "2026-11-11-auto-a17e1eacdc"
+      ],
+      "priority": "C",
+      "published": "2026-11-11",
+      "company": "タイ国際航空、顧客情報流出の可能性 予約システム委託先",
+      "service": "",
+      "affected_count": 0,
+      "summary": "タイ国際航空、顧客情報流出の可能性 予約システム委託先が不正アクセス被害",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBhNTRyZWxETC10LWlvLXc4ZzU2eFpnRDd0WVpGSWpMZUxGcTlKTXEyaVZ4NFZrd0RuZExZQmd3N3ppZE1yaFB4dGxXbFZEeGRETmQtc3FaSmlEMUFFRGg5d0p5cEtJbWtXVW5SRWhVaUYzSGM?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-11-auto-3ab9445755",
+      "member_ids": [
+        "2026-11-11-auto-3ab9445755"
+      ],
+      "priority": "C",
+      "published": "2026-11-11",
+      "company": "富山県立大学の安否確認メール配信システム",
+      "service": "",
+      "affected_count": 3000,
+      "summary": "富山県立大学の安否確認メール配信システムに不正アクセス 学生・教職員約3000人分のアドレス流出(富山テレビ)",
+      "sources": [
+        {
+          "name": "富山テレビ",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9BdzVHRGVwV1BldG1ZcnRmd0I5N2lYU2NIQm5xblVOeXp2Rng3ekpGb3g3MDNncjhtNTI5QkZYLVAxcnBwNGc3YnprM0N2WkExUXdzb1lIVFI5Zm9IQVBsWnNwTm4xN2tYV1J2RzFxM2RET3g5VEhpSmlSSTNtSzg?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-11-auto-ae9006c8b5",
+      "member_ids": [
+        "2026-11-11-auto-ae9006c8b5"
+      ],
+      "priority": "C",
+      "published": "2026-11-11",
+      "company": "医療情報漏えい時の報告「システム事業者には求めていない",
+      "service": "",
+      "affected_count": 0,
+      "summary": "医療情報漏えい時の報告「システム事業者には求めていない」、セキュリティ開示書の非該当件数「把握していない」 ~ 厚生労働大臣",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9mSFZzYXp4SUk2Q0k3NFBYVmh1ZzgzN21iS0pZbWpoTXhSLThkNlYtRHdXZ1diSlN3em16cVdYcEF6V2VwZ3dHbVJKa2tJNUljLUxkYmZwQVRxUnZ3bXczazlLbGY5SjRzYzVB?oc=5",
           "official": false
         }
       ]
