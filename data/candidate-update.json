@@ -1,136 +1,428 @@
 {
   "version": "1.1",
-  "generated_at": "2026-11-10T03:34:13+00:00",
-  "before_count": 1553,
-  "after_count": 1557,
-  "net_change": 4,
-  "new_count": 6,
+  "generated_at": "2026-11-10T09:58:36+00:00",
+  "before_count": 1557,
+  "after_count": 1579,
+  "net_change": 22,
+  "new_count": 20,
   "removed_count": 0,
-  "visible_before_count": 1553,
-  "visible_after_count": 1557,
-  "visible_net_change": 4,
-  "raw_before_count": 2228,
-  "raw_after_count": 2239,
-  "raw_net_change": 11,
+  "visible_before_count": 1557,
+  "visible_after_count": 1579,
+  "visible_net_change": 22,
+  "raw_before_count": 2239,
+  "raw_after_count": 2271,
+  "raw_net_change": 32,
   "new_candidate_ids": [
-    "2026-11-10-auto-f88e208799",
-    "2026-11-10-auto-98184aac29",
-    "2026-11-10-auto-1770f69670",
-    "2026-11-10-auto-71f91c60e4",
-    "2026-11-10-auto-6b9afe09f2",
-    "2026-11-10-auto-8e675b7c4e"
+    "2026-11-10-auto-41bfeae937",
+    "2026-11-10-auto-880b75757f",
+    "2026-11-10-auto-648c3b865c",
+    "2026-11-10-auto-b78c732b09",
+    "2026-11-10-auto-99780ad0e2",
+    "2026-11-10-auto-7285e2ea34",
+    "2026-11-10-auto-f7334cb076",
+    "2026-11-10-auto-aa700b221c",
+    "2026-11-10-auto-d202bb9aae",
+    "2026-11-10-auto-4961857e0b",
+    "2026-11-10-auto-2090c6aada",
+    "2026-11-10-auto-563fc7ed5f",
+    "2026-11-10-auto-cc78eb5018",
+    "2026-11-10-auto-504a770f41",
+    "2026-11-10-auto-59a7e66c5d",
+    "2026-11-10-auto-c67a42f2c7",
+    "2026-11-10-auto-debfab9dc5",
+    "2026-11-10-auto-d0b15666a5",
+    "2026-11-10-auto-1ba0f43fd9",
+    "2026-11-10-auto-be8a202ed2"
   ],
   "new_candidates": [
     {
-      "id": "2026-11-10-auto-f88e208799",
+      "id": "2026-11-10-auto-41bfeae937",
       "member_ids": [
-        "2026-11-10-auto-f88e208799"
+        "2026-11-10-auto-41bfeae937",
+        "2026-11-10-auto-3f7003aa60",
+        "2026-11-10-auto-c4fbb8a328"
       ],
       "priority": "C",
       "published": "2026-11-10",
-      "company": "エディオンでセキュリティコード含むクレカ情報など流出の可能性 通販サイト",
+      "company": "キリンHD傘下3社、業務委託先",
+      "service": "",
+      "affected_count": 1950,
+      "summary": "キリンHD傘下3社、業務委託先に不正アクセス...キャンペーン参加者の個人情報など1950件が漏えい",
+      "sources": [
+        {
+          "name": "読売新聞",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9CRjJOT3BPeXhRQjFLNWppM2lKUkFnVVg4LXZMNjF5WDZ6UlVXVk9aSDZURjJkZFlGUElobFdQRm5RNk85OHg0aktPTTdNLVJaRUo5U09aU2g1T1F5czRQaU40SVQ?oc=5",
+          "official": false
+        },
+        {
+          "name": "日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ick13eTh0YmZjRjlrQThsVHpIZ0VpaC1vOHd0MEtLek5tTC1BaERadmV1d0o2X1lMbGNIQld5OVJDMnVHVnBxTXNPRDFYNWdydnFkamFHdXI4SWxDZmxQQVJRVGVnLV9Mak1pVA?oc=5",
+          "official": false
+        },
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAya2wyQ2FxV3dvQV82NjBOa01LWFRPYXhDV3UxQkRWdDh1SGxnQzl5TGpnRXFqZXctdUxsNEl5MkltRDRGSXJ4NHhfcklTeWsxOFVNeE1yUmZQTzZwZXAxU1BaTDhCTHlHTGo4VENzMjB4cmRj?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-auto-880b75757f",
+      "member_ids": [
+        "2026-11-10-auto-880b75757f"
+      ],
+      "priority": "B",
+      "published": "2026-11-10",
+      "company": "ソフト99 公式オンラインショップ",
+      "service": "",
+      "affected_count": 136968,
+      "summary": "ソフト99 公式オンラインショップに不正アクセス、13万6,968人の個人情報漏えいのおそれ 画像添付機能から不正ファイル",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQb0IzQ3hacjYyNU9YamFSaXdZanBNYnNadUFPQmsxR1F1T0xjbUFhSkJ2MWxNZkpyNTVMeGZxczFvMDc3M2FwbXVXN0IzTlFKclVkaHc2eF9VLUlHRDhxOVZJM3M4Vi1zS3lKT0l4aXdLaVZqd1R2Q0xKXzFjTWl1YXNRMlYzeHdOdFhlMGRRUXBSTlhCWnRNb0o2YkJpZjNCaWVxSlR4Q3k5UQ?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-auto-648c3b865c",
+      "member_ids": [
+        "2026-11-10-auto-648c3b865c"
+      ],
+      "priority": "C",
+      "published": "2026-11-10",
+      "company": "氏名や電話番号",
       "service": "",
       "affected_count": 0,
-      "summary": "エディオンでセキュリティコード含むクレカ情報など流出の可能性 通販サイトに不正アクセス",
+      "summary": "氏名や電話番号、聞きません 漏洩問題で企業側、個人情報手放す動き [情報漏洩・個人情報流出の最新ニュース]",
+      "sources": [
+        {
+          "name": "朝日新聞",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBZN0ZiZG5YYXVVVHJCeGM4dEdBeThSVHFmX0wxdGNCczFEVEpxZHE0bDdMWE1abU42T0NtRkJpYkZDYlc5MU51N2c1VmJiN1p3VFR0S19SR1hjbTV1bUFHbzZ5alNNV3M?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-auto-b78c732b09",
+      "member_ids": [
+        "2026-11-10-auto-b78c732b09"
+      ],
+      "priority": "B",
+      "published": "2026-11-10",
+      "company": "学研 グループ17社で79万3,060件",
+      "service": "",
+      "affected_count": 793060,
+      "summary": "学研 グループ17社で79万3,060件の個人情報漏えい-アララへの不正アクセスで第二報、教育・医療・介護関連会社にも影響",
+      "sources": [
+        {
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVVFyVEhyYmQ3UzZOaGJ0bi1xT2pSbVdZMXFXejFkaDN6c1lXcXZJYnBUNnJUaFRDTzRvN09RZ0NCdkdveG5TUmVLVC1RUFRsTGJVYm5nVG9BUVFhdHJGNE4yVEhkNm9qLVRGRFBKeW00dmx5MTBiMWEzWEdPQ05QWXVYc3c5X1V6dktLRg?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-auto-99780ad0e2",
+      "member_ids": [
+        "2026-11-10-auto-99780ad0e2"
+      ],
+      "priority": "C",
+      "published": "2026-11-10",
+      "company": "渋谷区の施設予約システム",
+      "service": "",
+      "affected_count": 218,
+      "summary": "渋谷区の施設予約システムに不正アクセス、218アカウントの個人情報漏えいを確認 217件改ざん・5件不正利用",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQd2hCUG90YXdESHM5RERJdG1uR3lveV9ER18wWjA3elA5M2pWVFh0Tk5uNE1Qb19TTGRUUkk0QWY2S2tERW91VGRxR3RoTjBwZmZlU09FV3gxazEzWTZWTV9iWGs3elc2YWJ4VUJFMnNsLW8tVTh3bFFfUjBKa1dkMGxxanV3cXhXUE5tS2pYT1ROcWtIRVRDelhhaDc5emN4OUcwVktfZWM?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-auto-7285e2ea34",
+      "member_ids": [
+        "2026-11-10-auto-7285e2ea34"
+      ],
+      "priority": "C",
+      "published": "2026-11-10",
+      "company": "アイル「CROSS POINT",
+      "service": "",
+      "affected_count": 0,
+      "summary": "アイル「CROSS POINT」に不正アクセス、導入企業1社の会員情報を第三者が取得 流出した正規APIキーを悪用",
+      "sources": [
+        {
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOczlTWXVKX3l5NHFJbnV3NzdZTnBJdDcxVlRqN2FSM25jdnpDWjE0WlVyS2VpMVA0UE5RdU9EVjlFQ3FDTm5MdzhXa3pjNU0yYmJQZFpRdzJ0dnhmWURZMDJqWG9OMkQ3WV82T241SkllLWVfUlZZdmFrNV9hUzZmT2htTXBMYlplZUkyTGw5VC1SVlVkbGF0Nzd4TFZWVVBZLVFRMnZPNUtjOXVXUjZtYmRB?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-auto-f7334cb076",
+      "member_ids": [
+        "2026-11-10-auto-f7334cb076"
+      ],
+      "priority": "C",
+      "published": "2026-11-10",
+      "company": "PEPPY(ペピイ)",
+      "service": "",
+      "affected_count": 0,
+      "summary": "PEPPY(ペピイ)に不正アクセス、動物病院6,503軒の情報流出の可能性 愛犬・愛猫の投稿画像も削除、通販サイトは再開",
+      "sources": [
+        {
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMXN4SUJRazItOWdQTGxLSEkzN0N1dGtDSzZCc1MtUGZySERwQlM4VndoeGtlcV9tdFpiSlFjTjJiYmpPTzVJNGl3Z2thZGc5QzNnQTY5dk9rQmVybUZjRW9kY3EwamJQbVFEd041UHJCa0ZjemVSbjA5LWc5OHdmQTZQRVRGN0NiaEZyT29pYVN0eTJzTHNGd3gxSGRvcHl1Mnh6ZjFuV29YMUY5MlhQQl9POA?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-auto-aa700b221c",
+      "member_ids": [
+        "2026-11-10-auto-aa700b221c"
+      ],
+      "priority": "B",
+      "published": "2026-11-10",
+      "company": "イオン子会社",
+      "service": "",
+      "affected_count": 414,
+      "summary": "イオン子会社、個人情報414件流出=夏ギフト注文客の氏名や住所など",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1OV3k5UFdYMEMyR0hweURTUWtKSTgzRloxR0hRT2lybGZDQmNQRm9KcVkyc0pOQlYyeFNQU25Gc3FPSTJlaHNSNG44M0M1WkpvTGw1X1RmVTk?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-auto-d202bb9aae",
+      "member_ids": [
+        "2026-11-10-auto-d202bb9aae"
+      ],
+      "priority": "C",
+      "published": "2026-11-10",
+      "company": "エディオン 不正プログラムでクレカ情報500件余漏えいのおそれ",
+      "service": "",
+      "affected_count": 500,
+      "summary": "エディオン 不正プログラムでクレカ情報500件余漏えいのおそれ",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9PeURiaHp1Sk5mQi1WVFU3WVk1R3RINXFEWUVUS2Q5a2tjVFptUTUtODFFQ0VfTVZWc1BhZ1o5ZEJPM3RNUHE3Sk9iX3IzalZKM0dUeG1ycFZlcEwzazNv?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-auto-4961857e0b",
+      "member_ids": [
+        "2026-11-10-auto-4961857e0b"
+      ],
+      "priority": "C",
+      "published": "2026-11-10",
+      "company": "イオンの夏ギフト」依頼主・届け先など申し込み情報414件",
+      "service": "",
+      "affected_count": 414,
+      "summary": "「イオンの夏ギフト」依頼主・届け先など申し込み情報414件が漏えい...24年夏キャンペーン、4店舗で(読売新聞オンライン)",
+      "sources": [
+        {
+          "name": "読売新聞",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5WTzVvMDdvT1VsV0V1VUxZZmpobElQWWM1OU1pTFRRTTRVeXFKTGZ5UkhyZmtmN2o5dENTZ09JZjlfZVRDdmtrWTVjTDBLTWZMTnNrWkZ1cjg3U0s4NE9uNC1zRldXajd2RDIyQkx0czFfV1hZNUppN09LT3VnM1U?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-auto-2090c6aada",
+      "member_ids": [
+        "2026-11-10-auto-2090c6aada"
+      ],
+      "priority": "C",
+      "published": "2026-11-10",
+      "company": "総合ネットセキュリティ企業 イー・ガーディアン",
+      "service": "",
+      "affected_count": 0,
+      "summary": "総合ネットセキュリティ企業 イー・ガーディアン、情報漏えい時の対応を他社事例とSNSの反応をもとにAIで支援する「情報漏えい対応支援インテリジェンス」を提供開始",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE05SV94bnZ2UUptWER6aGlreWQ3WXJTMDJlOEExbmNuSlBWZUtpYnhFNURsYWNlR2JabmRIT3FadlZPTTQ?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-auto-563fc7ed5f",
+      "member_ids": [
+        "2026-11-10-auto-563fc7ed5f"
+      ],
+      "priority": "B",
+      "published": "2026-11-10",
+      "company": "イージートラベル、69万人超",
+      "service": "",
+      "affected_count": 690000,
+      "summary": "イージートラベル、69万人超の個人情報流出 不正アクセスで/台湾(中央社フォーカス台湾)",
       "sources": [
         {
           "name": "Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9PZUY3UVJlNWhSdzYtSlJkV21uckJSdzZqMFRLSTE5dDNuNVRiVFROdFFidUEzaWQ0Ykk5OFBPYk1EYlJkazVBMmkyX1MxbktmczFLSGxyVFVDbFQ5MWZuY1E1WjkzSEtiQklyM3dBRjNnT1pJUE1oUnUzS2xFZHM?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4xTm5XTGJudmM0ZlRtaHR3S2d3YTRPWFl5SXUtSEFxUFN6T1hmZ1VwbW9TLU84TlN0a3hXNEZMLXprNzdLalBtSkhQVDFQcV9VSGo4T2xlQjlUNTA5dHo1MFNSSXRtREtOdURwcUJZcE5Xb1ZOcVhXNFdpZG1NbUk?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-11-10-auto-98184aac29",
+      "id": "2026-11-10-auto-cc78eb5018",
       "member_ids": [
-        "2026-11-10-auto-98184aac29"
+        "2026-11-10-auto-cc78eb5018"
       ],
       "priority": "B",
       "published": "2026-11-10",
-      "company": "覆面調査・モニターサービス「ファンくる」、会員情報421万7,663件",
+      "company": "千葉興業銀行、顧客メールアドレス17万1,260件",
       "service": "",
-      "affected_count": 4217663,
-      "summary": "覆面調査・モニターサービス「ファンくる」、会員情報421万7,663件の情報流出、一部 個人情報漏洩の恐れも",
-      "sources": [
-        {
-          "name": "合同会社ロケットボーイズ",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNlp5VGdER0MteGZ1dG9MYkdJZmRNRGRpVU9hMEtja3I5TnFtQTJkT2dDTG5ISnhmUWI1cWV6UThsQndKMDNYaTcxdGNkOEkwSGdKQTA0bkdmaVVaSGdTajVLb3hnNVNlTXhWVkVUYVlnY0Y2VXBRdXhWUlVKNFRFaDNmZHpETHkxWE1jSlU1aXJ0eXdtVHY0MnpzOG9DWElJcS1STG1kR0VHVXdH?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-10-auto-1770f69670",
-      "member_ids": [
-        "2026-11-10-auto-1770f69670"
-      ],
-      "priority": "B",
-      "published": "2026-11-10",
-      "company": "LAWSON DO! SPORTSで2万7,908人分",
-      "service": "",
-      "affected_count": 27908,
-      "summary": "LAWSON DO! SPORTSで2万7,908人分の個人情報漏えいのおそれ 大会申込者の体調情報も、トライアスロン・青梅・所沢マラソンに影響|セキュリティニュースのセキュリティ対策Lab",
-      "sources": [
-        {
-          "name": "合同会社ロケットボーイズ",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQmhVaEhZc3hHZ3p0VnAtZnd0U0xkVm5FSnp0bUlabmNoX3U1TFk3VnB0bVBrYnhrSmJKdjdtSlFGdzhtSFlMN1htd0c3d3J4dkpBeHBCRmxWa3JlYnJhbzZpOGVRT2ItRE14RmMtMXFzYVlRaGNmQ2VoTGpDT2JBQlAtNUdCWm1xR09xeldKd0tHYVd1OUJ6Y3BVWHQ1cWJxVlRtcA?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-10-auto-71f91c60e4",
-      "member_ids": [
-        "2026-11-10-auto-71f91c60e4"
-      ],
-      "priority": "C",
-      "published": "2026-11-10",
-      "company": "アクセスキー直書き→委託先がテスト用イメージをネット公開 「ラフールサーベイ」約",
-      "service": "",
-      "affected_count": 24000,
-      "summary": "アクセスキー直書き→委託先がテスト用イメージをネット公開 「ラフールサーベイ」約2.4万人の情報漏えい",
+      "affected_count": 171260,
+      "summary": "千葉興業銀行、顧客メールアドレス17万1,260件が流出 アララへの不正アクセスで|セキュリティニュースのセキュリティ対策Lab",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9RbV84NGtXemlaVG5YbFlIWjVMR1RnZElmeW5uYVJDM3A3SEhyZjJOLVVHNU1XNzcwNzVKOGZER3pfeUY5TkZaYnhkSy03akR4OF9RZXRILWVwa0o3MWJ4bDU4RENDMTZLNFE?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNRVp4azlMQ1J1QmtUbUFTb19oN0swVWhIQnh4X3p2MnRXNzZBVXZlYXMzeWxGSDNLY1JJTnR5cTN2UUVXVmVKcUFpYnV2cGNaREdnM2x1eWpyV0R5U1RVSE1laFplZ2Q4V09pR0s5YUlZQks5Y1VmTlRldTlFX0o3NHR2bzMxQVh1ZklqNXBIRjZkdw?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-11-10-auto-6b9afe09f2",
+      "id": "2026-11-10-auto-504a770f41",
       "member_ids": [
-        "2026-11-10-auto-6b9afe09f2"
+        "2026-11-10-auto-504a770f41"
       ],
       "priority": "C",
       "published": "2026-11-10",
-      "company": "アパレル業界向けクラウド販売・在庫管理システム「One’sCloset(ワンズク",
+      "company": "「エディオン」不正アクセス被害 クレジットカード情報など流出か",
       "service": "",
       "affected_count": 0,
-      "summary": "アパレル業界向けクラウド販売・在庫管理システム「One’sCloset(ワンズクローゼット)に不正アクセス、個人情報漏洩の恐れ",
+      "summary": "「エディオン」不正アクセス被害 クレジットカード情報など流出か",
       "sources": [
         {
-          "name": "合同会社ロケットボーイズ",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNR0hObGRxSUM3aEMzQ0dfUXA2Z1Nmc1Q1aDhGSER4MzVXUlhhUDRxeE1iUndpWkZwQkhTek9pWklwdUZsblNFbW5VZGZMaHkzRjhZbEpldVJaejZtMlViVk1OOGNMMVg0bi0zbHFRNmZJZkw5MXlBY1pabXU3UVprUWItRXJHR1lBMnRWdXByU0ZvMlBabWdqdHpQMA?oc=5",
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBrb2lZWEJHMXo0VnRLVGJ1WmNYVFdYMVVzMGt1VUZIakFHbS1JZndQQXdNclJHRk43YzVNR0pJTURsU3FVUjNSWjloUjdaYkg4Q0xsTmhJdVc5RTFMQnlrMGRWMFlWazliajJSbE5FOA?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-11-10-auto-8e675b7c4e",
+      "id": "2026-11-10-auto-59a7e66c5d",
       "member_ids": [
-        "2026-11-10-auto-8e675b7c4e"
+        "2026-11-10-auto-59a7e66c5d"
       ],
-      "priority": "A",
+      "priority": "C",
       "published": "2026-11-10",
-      "company": "広島銀行のカードローン顧客情報747件",
+      "company": "富山県立大で3000人分のメールアドレス漏えい 大学に所蔵する学生と教職員ほぼ全",
       "service": "",
-      "affected_count": 747,
-      "summary": "広島銀行のカードローン顧客情報747件が流出 保証業務を委託しているム「SMBCコンシューマーファイナンス」への不正アクセスの影響で | RCC NEWS | 広島ニュース | RCC中国放送 (1ページ)",
+      "affected_count": 3000,
+      "summary": "富山県立大で3000人分のメールアドレス漏えい 大学に所蔵する学生と教職員ほぼ全員 安否確認に利用する外部サービスへ不正アクセス | 富山のニュース|天気・防災|チューリップテレビ (1ページ)",
+      "sources": [
+        {
+          "name": "1ページ",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4tUmZPajZGNXhITnUxejMzNmU1T0RhYUZkR203Q3d1bk5vQVNJVHJjY19ILUhUNmRlUEJiTVhZOHZkalRwaWtmbkdmR0xDUUplWDhwZ1cxblRoZmRXVlJHZnpJcWxLLXM?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-auto-c67a42f2c7",
+      "member_ids": [
+        "2026-11-10-auto-c67a42f2c7"
+      ],
+      "priority": "C",
+      "published": "2026-11-10",
+      "company": "ブランジスタソリューションの「まとまるEC店長」サーバーに不審スクリプト",
+      "service": "",
+      "affected_count": 0,
+      "summary": "ブランジスタソリューションの「まとまるEC店長」サーバーに不審スクリプト、注文情報漏えいのおそれ Yahoo!ショッピング・Qoo10の購入者に偽返金メール|セキュリティニュースのセキュリティ対策Lab",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5YOVZuMk40WjNyQmRmdWdGamNmQlA5VWF0MWtSYWhQV2ctSkd2RFhINUtSRk42WXhDc3hTZW1zT2Ruc0d1WXlDWVpKdUN5Ri1vMFR4TGRpT1dJY2lOcTJzZTZBTUszLWc?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVGEwNHBiTTlBSlpJS2M1VzJiNVVVWFhiY3VERWhEMWs1WFR3cThrcFVvMFBkUXdKc3VKT1pHY29BaUNsXy00YTNOZURsdHpVUGwxRzE5d1l2MC1zd3RCYkVsZ0NnNU83UVREaHFCYW9CRnc2RTliZ3llZmFvTTRzdE8zMlpkakp0eV9laXFTZHNFV01JdkRuQlBzTk1STVlOWllTLTdIWXVHTFlj?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-auto-debfab9dc5",
+      "member_ids": [
+        "2026-11-10-auto-debfab9dc5"
+      ],
+      "priority": "B",
+      "published": "2026-11-10",
+      "company": "NTTデータ受託システム",
+      "service": "",
+      "affected_count": 80000,
+      "summary": "NTTデータ受託システムに不正アクセス、住友生命「Vitality」利用者約8万人の情報漏えい",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBpOUw2ajNWY1NnREU0YURZcjNUNWRVc0QtXzkxYXp0Y1VNTjkyZzZSNG1RUjhPN09oYUFYS2Zwc0dTM3gycWlFaHRsQkxqRnp3TW1PSE5KaUhYQVpTMThkVElzaGhIVVRGeEE?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-auto-d0b15666a5",
+      "member_ids": [
+        "2026-11-10-auto-d0b15666a5"
+      ],
+      "priority": "C",
+      "published": "2026-11-10",
+      "company": "森半tea&coffee、メールアドレス6,796件",
+      "service": "",
+      "affected_count": 6796,
+      "summary": "森半tea&coffee、メールアドレス6,796件が流出 利用終了した顧客管理サービスの配信ログも被害に",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeXd0WEZobmJqZVNHSHFCMDdYV0hoTE53QU94dUpNSFN4aWpmbE1qZnRKT3FqNVVCeUoyUmEtSDlfUWh5b3JGcXYzWUNwWl9OSnJZUkdidHR3ZUNJUU5BcU5JM3dvRVNHR1pSNFR4bjBfLXJxalRPSlNlRktJUEppY0JWWDBpbG10dkc1R2xnZXlBRXg0bHR3M3hkWXE?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-auto-1ba0f43fd9",
+      "member_ids": [
+        "2026-11-10-auto-1ba0f43fd9"
+      ],
+      "priority": "C",
+      "published": "2026-11-10",
+      "company": "富山県立大でアドレス流出 学生と教職員3千人分",
+      "service": "",
+      "affected_count": 0,
+      "summary": "富山県立大でアドレス流出 学生と教職員3千人分 不正アクセスで|社会|富山のニュース|富山新聞",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1SUFFmRDdVRTBDejBJQ3lDY21hWDlncEpzeDA0elh0UEZOYlVkV2hkSnpuMEhJSGM3aExUWHl4bHFVQ3pfb3dvQTR4cGhjYV92UTdMTS1iZUpXQQ?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-10-auto-be8a202ed2",
+      "member_ids": [
+        "2026-11-10-auto-be8a202ed2"
+      ],
+      "priority": "C",
+      "published": "2026-11-10",
+      "company": "ハードウェアウォレットでも防げない不正送金 Bybit約15億ドル流出が示す「ブ",
+      "service": "",
+      "affected_count": 0,
+      "summary": "ハードウェアウォレットでも防げない不正送金 Bybit約15億ドル流出が示す「ブラインド署名」の危険性、Clear Signing標準化進む|セキュリティニュースのセキュリティ対策Lab",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMHpyRVpCaHYwX2VZYzZWejVadkgyTUxpX01WeVZVdVN1T1VfcGtOdFJrQTVldng5SjhnaWQ4YUpLRkJNcTk4enNrSWg0YWZaakZZT0FyOElEdGhUYWVKTVdPMmowRkl3YXFHSlF2YW9hR0QySzdOTU8tTDBwMnF3aW96Z05nZDlrLXJUQVZDVHFLWThJWTJoX0JiWnNIXzdWdjNRWE5B?oc=5",
           "official": false
         }
       ]
