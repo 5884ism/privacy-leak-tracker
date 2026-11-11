@@ -1,176 +1,136 @@
 {
   "version": "1.1",
-  "generated_at": "2026-11-10T23:29:48+00:00",
-  "before_count": 1586,
-  "after_count": 1599,
-  "net_change": 13,
-  "new_count": 8,
+  "generated_at": "2026-11-11T01:16:43+00:00",
+  "before_count": 1599,
+  "after_count": 1607,
+  "net_change": 8,
+  "new_count": 6,
   "removed_count": 0,
-  "visible_before_count": 1586,
-  "visible_after_count": 1599,
-  "visible_net_change": 13,
-  "raw_before_count": 2285,
-  "raw_after_count": 2298,
-  "raw_net_change": 13,
+  "visible_before_count": 1599,
+  "visible_after_count": 1607,
+  "visible_net_change": 8,
+  "raw_before_count": 2298,
+  "raw_after_count": 2306,
+  "raw_net_change": 8,
   "new_candidate_ids": [
-    "2026-11-11-auto-9b73111a0a",
-    "2026-11-11-auto-e6a868ed94",
-    "2026-11-11-auto-bdfc5470c7",
-    "2026-11-11-auto-17d99f1b74",
-    "2026-11-11-auto-4973d7e895",
-    "2026-11-11-auto-a17e1eacdc",
-    "2026-11-11-auto-3ab9445755",
-    "2026-11-11-auto-ae9006c8b5"
+    "2026-11-11-auto-9ed3ee8d76",
+    "2026-11-11-auto-cdbbd8068b",
+    "2026-11-11-auto-d6d2205af4",
+    "2026-11-11-auto-afb0c2d027",
+    "2026-11-11-auto-e66796caa0",
+    "2026-11-11-auto-a33e375025"
   ],
   "new_candidates": [
     {
-      "id": "2026-11-11-auto-9b73111a0a",
+      "id": "2026-11-11-auto-9ed3ee8d76",
       "member_ids": [
-        "2026-11-11-auto-9b73111a0a"
+        "2026-11-11-auto-9ed3ee8d76"
       ],
       "priority": "C",
       "published": "2026-11-11",
-      "company": "モバイルオーダーサービス「PICKS",
-      "service": "",
-      "affected_count": 8312,
-      "summary": "モバイルオーダーサービス「PICKS」に不正アクセス、8,312人の個人情報が漏えい",
-      "sources": [
-        {
-          "name": "ScanNetSecurity",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9QbXlYbFpsbW16SVlaVHhJRmVYbmtxOWRTS0hsMnNoenlFWnJtbjVTRGR1YlhnUHlvTksxcXB0M0NQX0VtblpkU2p5Ny1VeENWdEhPVzFUR1g5ZU5MMDNiamxTWVFKZEpkZFlFTg?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-11-auto-e6a868ed94",
-      "member_ids": [
-        "2026-11-11-auto-e6a868ed94"
-      ],
-      "priority": "C",
-      "published": "2026-11-11",
-      "company": "パルマのWebサービス",
+      "company": "出光興産「idemitsuカーメンテ予約",
       "service": "",
       "affected_count": 0,
-      "summary": "パルマのWebサービスに不正アクセス、情報漏えいの有無を調査 外部専門機関と連携",
+      "summary": "出光興産「idemitsuカーメンテ予約」に不正アクセス 個人情報漏えいの可能性でサービス停止、予約変更・取消は店舗へ",
       "sources": [
         {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZjEyZFlFT210cnVRYzZiTkRUX2ptakp2Mkw4ZjBYSHZObU93UWpQT0tLSXlSSkx2ejV5eDFCcFBjc3hUck85anF4V0p6YkcwSGtxUWtHQWlsUTN1bFI5aTRWdVZZei1fTTJiV1FFdlozWGZGTE5aZmxmb2JrU1BkSlhMdm1yS3ZrT1NuZTZ6SHFMLUY2djVYLVVGcw?oc=5",
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTWRQekZqeHJEdnhXM3FKRHoyYVhiTmFfaGVVcnA4RWhmMXJIdlZZaFNQNm8xRkNUa2ZULVlYU1RMaVQ2elJqcV9LMXBhdEIxeEUyd0ZwOXl3amRNdjYzR1JsdHJBa28wb3ZrN0VGeUlWcDVaT2tVWGJrLXAyYmVDSnp0ejRrY3BDNFZJbFhXQVRsYXhVd3ZLLUNpaWpHSzV5a3ZIcDhhMVM?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-11-11-auto-bdfc5470c7",
+      "id": "2026-11-11-auto-cdbbd8068b",
       "member_ids": [
-        "2026-11-11-auto-bdfc5470c7"
+        "2026-11-11-auto-cdbbd8068b"
       ],
       "priority": "C",
       "published": "2026-11-11",
-      "company": "ビジュアルアーツ",
+      "company": "人気アーティストFC",
       "service": "",
       "affected_count": 0,
-      "summary": "ビジュアルアーツに不正アクセス、認証情報が保存されていた可能性のある端末で明確な痕跡は確認されず",
+      "summary": "人気アーティストFC、相次ぐ情報漏洩 ラルク、EBiDANら 「アララ」不正アクセスで(スポニチアネックス)",
       "sources": [
         {
-          "name": "ScanNetSecurity",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5KQTlfV0Qzek5oaDZiem5qM1BMcFNwNHhaaEstLTNaTFhycldTb3h4ZW1mbXMwY2ZsT2VVY0JKQmN4NUFnUDV4MU5PRm9VNDdGV0JfWWNjOUZ4RnNsOEdXZUNPdVFCeWJRV3NEdg?oc=5",
+          "name": "スポニチアネックス",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1NanF1QndrX0NqUDU5WHpibm42YWZZVjNHdkZReW5yb0djS2wteG5vSVZvUnVwYWhLOUlqUndjdkFrVmRzN1prOTNPbU43Sk90QlJqcmVKSjVLN3owazl4SjFDRkNNRnNaREJ1SkZta1VtWnNNMFZ0MjRaSlpzWkk?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-11-11-auto-17d99f1b74",
+      "id": "2026-11-11-auto-d6d2205af4",
       "member_ids": [
-        "2026-11-11-auto-17d99f1b74"
+        "2026-11-11-auto-d6d2205af4"
       ],
       "priority": "B",
       "published": "2026-11-11",
-      "company": "ティンパンアレイ",
+      "company": "バルテスHD「Qbook」会員メールアドレス47,502件",
       "service": "",
-      "affected_count": 1200000,
-      "summary": "ティンパンアレイに不正アクセス、延べ約120万件の会員情報が流出した可能性",
-      "sources": [
-        {
-          "name": "ScanNetSecurity",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBpRzg4eFJ5N0RXMi12bVd2c0hLUUI2ZmxjNF9rN2xhUTBHTUREdTZtWlJNZzNNS0Jzb0JUd0tVRXdUYy1MeTNvc3ZMQ0h6NnVpWDlwOWNFcGVRdnJJeFQtaEhLS0FLd1pTUEVfVA?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-11-auto-4973d7e895",
-      "member_ids": [
-        "2026-11-11-auto-4973d7e895"
-      ],
-      "priority": "C",
-      "published": "2026-11-11",
-      "company": "オンラインくじサイト「はにくじランド",
-      "service": "",
-      "affected_count": 0,
-      "summary": "オンラインくじサイト「はにくじランド」に不正アクセス、第三者による不正なコマンド実行と認証情報の不正利用の形跡を確認",
+      "affected_count": 47502,
+      "summary": "バルテスHD「Qbook」会員メールアドレス47,502件が流出 アララへの不正アクセスで",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE11Wi1QVEQ1RzUxVTNtWUpWUk9tNUpCTWtBT216dm1pbkhIcUdjV25aZTBCUTE1bDlJZXJmYU5GWGpVak02VHBzdklmeG8zV2NtaEN2Sl9aaEwyT2lSVWpURlVKQXJ6WjNtNHFFUw?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOOEtVc3M3c2l3clhVaEFleTBVT1pybm9iY2JURlJMTlZWWDZlUldDQVE1eUowQnlPRF84bDFiTGZQbjNoS0JNdEx1cTlqcUFYVTlJS0VVVVBQMFFQWm5TQWp0VFVYSWhTckxZYW9vc0dua3VDVS1aMjZyaWtha0ZUNHlVa25GVW5MaEtCZ2V4TFg?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-11-11-auto-a17e1eacdc",
+      "id": "2026-11-11-auto-afb0c2d027",
       "member_ids": [
-        "2026-11-11-auto-a17e1eacdc"
+        "2026-11-11-auto-afb0c2d027"
       ],
       "priority": "C",
       "published": "2026-11-11",
-      "company": "タイ国際航空、顧客情報流出の可能性 予約システム委託先",
+      "company": "Medi Face",
       "service": "",
       "affected_count": 0,
-      "summary": "タイ国際航空、顧客情報流出の可能性 予約システム委託先が不正アクセス被害",
+      "summary": "Medi Face、一部WebサイトにPHPの脆弱性を狙うサイバー攻撃 患者情報・AIドクター情報の流出は確認されず",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBhNTRyZWxETC10LWlvLXc4ZzU2eFpnRDd0WVpGSWpMZUxGcTlKTXEyaVZ4NFZrd0RuZExZQmd3N3ppZE1yaFB4dGxXbFZEeGRETmQtc3FaSmlEMUFFRGg5d0p5cEtJbWtXVW5SRWhVaUYzSGM?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWnJqc0lUWmdRSm8xQnpZZUdzdm10T1BQV1M3OTJ2dkQ5OFlxRWdDU1NZWVdnQUI3UDd5SVQ2LUxPeGNIendUMC1YX29ldnVqcnFwOEM4XzNVa3NPOGM2Sm1WWUlpbnZBLTc4UzJRbHNIOXFPZGZrei0yeG11MnQzM0FzOVh5UDloQjhXV1BwWG9aZmVkaFVUNA?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-11-11-auto-3ab9445755",
+      "id": "2026-11-11-auto-e66796caa0",
       "member_ids": [
-        "2026-11-11-auto-3ab9445755"
+        "2026-11-11-auto-e66796caa0"
       ],
       "priority": "C",
       "published": "2026-11-11",
-      "company": "富山県立大学の安否確認メール配信システム",
-      "service": "",
-      "affected_count": 3000,
-      "summary": "富山県立大学の安否確認メール配信システムに不正アクセス 学生・教職員約3000人分のアドレス流出(富山テレビ)",
-      "sources": [
-        {
-          "name": "富山テレビ",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9BdzVHRGVwV1BldG1ZcnRmd0I5N2lYU2NIQm5xblVOeXp2Rng3ekpGb3g3MDNncjhtNTI5QkZYLVAxcnBwNGc3YnprM0N2WkExUXdzb1lIVFI5Zm9IQVBsWnNwTm4xN2tYV1J2RzFxM2RET3g5VEhpSmlSSTNtSzg?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-11-auto-ae9006c8b5",
-      "member_ids": [
-        "2026-11-11-auto-ae9006c8b5"
-      ],
-      "priority": "C",
-      "published": "2026-11-11",
-      "company": "医療情報漏えい時の報告「システム事業者には求めていない",
+      "company": "三条市「じぶんで血糖チェック」のメール配信サービスでメルアド漏えいの可能性",
       "service": "",
       "affected_count": 0,
-      "summary": "医療情報漏えい時の報告「システム事業者には求めていない」、セキュリティ開示書の非該当件数「把握していない」 ~ 厚生労働大臣",
+      "summary": "三条市「じぶんで血糖チェック」のメール配信サービスでメルアド漏えいの可能性",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9mSFZzYXp4SUk2Q0k3NFBYVmh1ZzgzN21iS0pZbWpoTXhSLThkNlYtRHdXZ1diSlN3em16cVdYcEF6V2VwZ3dHbVJKa2tJNUljLUxkYmZwQVRxUnZ3bXczazlLbGY5SjRzYzVB?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9YSGdyalB6V0FBNXNsd3BtemhNM1U4UW5YRjJGdzhKZXZBVDVyTE5zNVR3R3J5ckZJVk9OOFNMQ3lTcDVjY3kxQkpB?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-11-auto-a33e375025",
+      "member_ids": [
+        "2026-11-11-auto-a33e375025"
+      ],
+      "priority": "C",
+      "published": "2026-11-11",
+      "company": "情報悪用防ぐ手だて急げ",
+      "service": "",
+      "affected_count": 0,
+      "summary": "【県警データ流出】情報悪用防ぐ手だて急げ",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE42STVlM1VtRVhJMHhyVGJZdi1HU2Zzd20wWmRxWjd2MTlVUTNkUVlhTDN2VnFIQmFQZUFFQUUyb0V1SUs2N2dUZnpkeS1PSGJGMGo5dkZpOWpEclk?oc=5",
           "official": false
         }
       ]
