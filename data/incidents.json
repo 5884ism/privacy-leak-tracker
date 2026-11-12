@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-12 11:18 JST",
+  "last_updated": "2026-11-12 12:53 JST",
   "incidents": [
     {
       "id": "2026-11-12-auto-7461e888ca",
@@ -57,7 +57,7 @@
       "affected_count": 14500,
       "status": "candidate",
       "cause": "報道自動検知",
-      "summary": "靖国神社に不正アクセス 約1万4500件の個人情報漏えい、パスワードが特定されるおそれも",
+      "summary": "靖国神社、お守りや国旗など販売するサイトを停止...不正アクセス受け個人情報1万4500件漏えい",
       "exposed_data": "要確認",
       "sources": [
         {
@@ -67,13 +67,17 @@
         {
           "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5fOXowQk1EV05EdUx3OXRuRUJCbFZIbVJHaTA0dVpIeXVvdGk0NU9hYXhqREhfbjI0MUg1RzhTOF9CekZDeF9pWTNRcy1JR3dYVzV6X0wyeXJoekd5T2dqZ3lJc01ucWdWbDVmQnAxM1o4dm5pazM0ODVTLVRIbWc?oc=5"
+        },
+        {
+          "name": "読売新聞",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBCVHZVd0xoRXAtejFDcWZ2THlrMndkTUF2THJDZW9MZHFWbkowWERhakZyTkZEMGFuTjJmdDdENjZmckRrcFF3NjREeEJSRjV4MDlOMmx3RVdBTVhtcDJOeWREcHlpZw?oc=5"
         }
       ],
       "auto_detected": true,
       "rss_pub_date": "Wed, 11 Nov 2026 10:11:24 GMT",
-      "article_count": 6,
+      "article_count": 8,
       "priority": "A",
-      "priority_score": 10
+      "priority_score": 8
     },
     {
       "id": "2026-11-12-auto-b898617cd0",
@@ -87,7 +91,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "朝日新聞",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8zd09qOGIwdmtxenM4VjQzbWJFMk0wdFhJSC1UZlNKRE1LUUVuTlF5ODY5U2JFY1pxZzF3enFCYmF0bmZwaVc2OVQ5OURpdDNwUzJMcTRYYWRHbUV5X3UwS0V6SkdMQUE?oc=5"
         }
       ],
@@ -131,12 +135,8 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "中国新聞デジタル",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ieVZ4U1VGbVN6TmxlU0FOczI3NEp1SHV3LVVmNVFxVE45M3hCSE5fQVZUMkRMRlI5MjdGMHZqbFhhNndXUlotSGZpaGFITDgyTF9CN3JVR2VYdw?oc=5"
-        },
-        {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFB0TU04ODNuQXphQ2xyNTgwTjdtR2hxNmxHdzB4VTlwLUZfSUFFSDhIdURlcTNjSkNvcHJjVUNtaFdiZHFpdWwxYXUwZw?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ieVZ4U1VGbVN6TmxlU0FOczI3NEp1SHV3LVVmNVFxVE45M3hCSE5fQVZUMkRMRlI5MjdGMHZqbFhhNndXUlotSGZpaGFITDgyTF9CN3JVR2VYdw?oc=5"
         }
       ],
       "auto_detected": true,
@@ -345,7 +345,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "時事通信",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE02OFJ4UVBqY3JWQXZ5UDlNYUN2U2RteHJOWmNZVmZZbHR2cWZKRUg0VUduOFk4ME9OQXZIMXhDeUNoRFNlSlp4Z0l4NHZHRXZZZW1qWEV4OU1BSlhYQ1c4LWRxRQ?oc=5"
         }
       ],
@@ -353,7 +353,7 @@
       "rss_pub_date": "Wed, 11 Nov 2026 06:54:00 GMT",
       "article_count": 3,
       "priority": "A",
-      "priority_score": 8
+      "priority_score": 7
     },
     {
       "id": "2026-11-12-auto-a198e8c8b0",
@@ -391,11 +391,15 @@
         {
           "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1WZlpyM0dvVnZxR2lYS0VldWF4a3h1NXZPUWxERnY1aTdTaW12MWFhZjNGTXhjRl85R2hLWmpqUzBsdEtieVhpZHNRX3hiQ1pWNjBB?oc=5"
+        },
+        {
+          "name": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE04VTlncHE3aVA0VXUzcERydG5ON1hWM216bWVvUDJWM05qT2JUWmpsT01NZ3p3ODQxNTBNc01CbEJhR1Y3M3B6bFY0dlBVeEJZWVFVTTJqYklnLUhkaEdpSTNia3lOalNpNlVOaU43REZha1FhQXlDNDlybGR3RnM?oc=5"
         }
       ],
       "auto_detected": true,
       "rss_pub_date": "Wed, 11 Nov 2026 09:20:00 GMT",
-      "article_count": 3,
+      "article_count": 4,
       "priority": "A",
       "priority_score": 8
     },
@@ -417,13 +421,17 @@
         {
           "name": "Yahoo!ニュース",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE10bzNibGxUTHhGeDFrRTA2dHBjVGhzNk5lbWZHbU1oWENyWmluSERlSUozNDFmSVQ4QjNrN3huc2g5eUpQUEFnOEFNOXBrZFZpYkY0TTRiREhDbnB1bGkyRjB4NjZzSkZBV1d5WTNtSjlFQ2E4bWxSdVdsT21kdlE?oc=5"
+        },
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54YTlMZFNDMGJsOHBsODdUQ0UycHFTUWJCay1jZ3dfZ3FzSjd5Z0JQV1lCQ0ZYYmNQN0ZsM0RCTHZiUzgyTTNRVmpwcTkyel82UVgyYjgxMmZnaFFSTDVTZW9RUXl5czQ?oc=5"
         }
       ],
       "auto_detected": true,
       "rss_pub_date": "Wed, 11 Nov 2026 06:34:48 GMT",
-      "article_count": 2,
+      "article_count": 3,
       "priority": "B",
-      "priority_score": 4
+      "priority_score": 5
     },
     {
       "id": "2026-11-12-auto-4ff52ba02c",
@@ -575,7 +583,7 @@
       ],
       "auto_detected": true,
       "rss_pub_date": "Wed, 11 Nov 2026 09:40:00 GMT",
-      "article_count": 3,
+      "article_count": 4,
       "priority": "B",
       "priority_score": 5
     },
@@ -703,11 +711,15 @@
         {
           "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1mZlJBaEx4U0VoUVVhRXBLQUhncEJtZmZDMzE0YTFodm9yQ0EyLTZMTTRaOUg5d3M5WTNhY0RiNTlNU2NzTmc1STUtcmF3cDlqQ2dhR25fVFg0RzZ5MWZqSDNoX1ItRGRz?oc=5"
+        },
+        {
+          "name": "静岡新聞DIGITAL",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1qM3hOdXBpQWhHbDVFVWVzRkpNYVZwMDlKTDJSRjRkX1JUSzlBdnYtYklmZnZyZTRkN0NHUDRQYjFnbEdBOVFNNExjVmk4dw?oc=5"
         }
       ],
       "auto_detected": true,
       "rss_pub_date": "Wed, 11 Nov 2026 08:39:33 GMT",
-      "article_count": 7,
+      "article_count": 8,
       "priority": "A",
       "priority_score": 11
     },
@@ -802,9 +814,9 @@
     {
       "id": "2026-11-12-auto-f591c9ff88",
       "published": "2026-11-12",
-      "company": "ヒプノシスマイクのファンクラブサイト運営 アクセルエンターメディア",
+      "company": "良品計画社長",
       "service": "",
-      "affected_count": 1086098,
+      "affected_count": 1090000,
       "status": "candidate",
       "cause": "報道自動検知",
       "summary": "ヒプノシスマイクのファンクラブサイト運営 アクセルエンターメディア、108万6,098件のメールアドレスなどの情報流出を確認-アララへのサイバー攻撃が波及|セキュリティニュースのセキュリティ対策Lab",
@@ -813,13 +825,21 @@
         {
           "name": "合同会社ロケットボーイズ",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPYmV3Vjk5Zm9MLVVhMmQ3MC05TTAyLUFDSEhudjlVcmdIS2JFbm94WC11ZXB0TXVJUE05UmViN3ZZcTB1YXM0Sk5XbHQzcWhZaTBqNjJVLWFGX08zcGs3d1RxZU50ZXNwWGFjVmNleDNuSS1ncmFiUWdBOWt4ejJIQ0o4SmxIMy1yd0F0S2VKMGJ1eVhSb2NJUE1JSGVudw?oc=5"
+        },
+        {
+          "name": "北海道新聞デジタル",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5JMTdQcTQzNmxndk13SHphMDY4dGN4QUJxWndlNV9NdVZiNFM1Yl9yeWx4dlNkUndXaWtyYWJXMVVvYVJOa1ZEaWwzajc1VHVHS05TellrUURBZw?oc=5"
+        },
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBJSU1mNDlfLThwbnBUZDhUVk9EUHB0ZVVMZmpoM2c0RG9rQUpBOWVlSEx0QzRxZWgxdEZ0SkhZTWZqcmd2UUxpczFWcHQwaS1TMlNYb1gtNkRqRU1rYkZsOC1TelNYSEVveVEyS2VHVXQ?oc=5"
         }
       ],
       "auto_detected": true,
       "rss_pub_date": "Wed, 11 Nov 2026 10:22:50 GMT",
-      "article_count": 1,
-      "priority": "B",
-      "priority_score": 5
+      "article_count": 3,
+      "priority": "A",
+      "priority_score": 10
     },
     {
       "id": "2026-11-12-auto-fb16925d3f",
@@ -833,7 +853,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "NOVAIST",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1FZV9lWXp5Q29SUEV2MmxNVUNHTFRaNjM2czBOMVA5eFFyVlVEYkJ2RFFLQTZkZHlGNDdCTHZ5ZTIxQnhzZWJxQVRfR18tY2ZVTzhHRGZ1QVlOZ0NLbTFCVDBSR21vOVE?oc=5"
         }
       ],
@@ -1005,19 +1025,23 @@
       "affected_count": 0,
       "status": "candidate",
       "cause": "報道自動検知",
-      "summary": "JFA STOREの後払い決済サービスで個人情報漏えい...“二次被害”についても報告",
+      "summary": "JFA STOREの後払い決済サービスで個人情報漏えい...“二次被害”についても報告(ゲキサカ)",
       "exposed_data": "要確認",
       "sources": [
         {
           "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE80WG9SRnFHR0s3QnRPdWxrT21DMHZwbTFfV2NkOWVxR0ZQNE9Yd3cxb0c0MVUzdHQxZ3lqakRPbU1LaUtRLVpMZGE4dDZMZDZ5ZUtQVVRQUnVoMXlEYkRBeDJR?oc=5"
+        },
+        {
+          "name": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ab3ppbHdGcnhaT3JEU0RxcW1fc1dpd1NDWXZmVFU5QnpPeU5kVFJwMVFIWWplaEJ4VW5HVHNhT1R1ZmZxZWZBMjBBMGxEOFlCYktObmZ2bkktaVBWd0xDT2hIdXVxQjRPdkpTVmRqbVZVc2QxYkY2LU0tWWxEdW8?oc=5"
         }
       ],
       "auto_detected": true,
       "rss_pub_date": "Wed, 11 Nov 2026 07:29:00 GMT",
-      "article_count": 1,
-      "priority": "C",
-      "priority_score": 1
+      "article_count": 2,
+      "priority": "B",
+      "priority_score": 4
     },
     {
       "id": "2026-11-12-auto-8183015404",
@@ -1361,7 +1385,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "ScanNetSecurity",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE10XzdJMU9KYmMzUjBaT2hvZHhmeV8wUXcwYkxpRTF6dUlxOHlCRHc0b2pMSVY1TEtpYmtGTFRVQzBqeWx3dTctd0NGcmRMNWUwd2hlelBPNWQ2bTJoWDRTZXZGMDk1NmxXYjBHQg?oc=5"
         }
       ],
@@ -1389,9 +1413,9 @@
       ],
       "auto_detected": true,
       "rss_pub_date": "Wed, 11 Nov 2026 23:05:23 GMT",
-      "article_count": 2,
-      "priority": "C",
-      "priority_score": 3
+      "article_count": 3,
+      "priority": "B",
+      "priority_score": 4
     },
     {
       "id": "2026-11-12-auto-e40daa426b",
@@ -1614,28 +1638,6 @@
       "priority_score": 7
     },
     {
-      "id": "2026-11-12-auto-9f6a7cabbd",
-      "published": "2026-11-12",
-      "company": "MUJIアプリ」へ",
-      "service": "",
-      "affected_count": 0,
-      "status": "candidate",
-      "cause": "報道自動検知",
-      "summary": "「MUJIアプリ」への不正アクセス、さらなる総合的セキュリティ対策が必要と判断しネットストア再開を延期",
-      "exposed_data": "要確認",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBXN1BzR0IzTkVRTUdHZkJfVzFteHpkTWF3YmtXNk1nYUdjVnRxeExYRnZGbWFOU2Fia2lzQ0V1RmVwa0VoYy1wWWs3eWlrbEdKMk81VEpkZXl3ak5NZ2c0U2I4eV9kSTJPTzJZcg?oc=5"
-        }
-      ],
-      "auto_detected": true,
-      "rss_pub_date": "Wed, 11 Nov 2026 23:05:13 GMT",
-      "article_count": 1,
-      "priority": "C",
-      "priority_score": 1
-    },
-    {
       "id": "2026-11-12-auto-059c104023",
       "published": "2026-11-12",
       "company": "ヤクルト本社ホームページ",
@@ -1675,6 +1677,270 @@
       ],
       "auto_detected": true,
       "rss_pub_date": "Wed, 11 Nov 2026 23:05:10 GMT",
+      "article_count": 1,
+      "priority": "C",
+      "priority_score": 1
+    },
+    {
+      "id": "2026-11-12-auto-eb08be1ef4",
+      "published": "2026-11-12",
+      "company": "メルマガ配信サービス",
+      "service": "",
+      "affected_count": 2241,
+      "status": "candidate",
+      "cause": "報道自動検知",
+      "summary": "メルマガ配信サービスに不正アクセス 岡山県管理の個人情報流出は「メールアドレス2241件」と判明 (KSB瀬戸内海放送)",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5YVGJjeUhvU2dMeFhRdDl2SXlSSk1VWWpKMkVCNzNWSEFTbU5tZ3lfM0N2SDJfUTFxTjZUenpyOU1vT2p1dk5XTU1Yd0Z4d1VQcjVFQ3JvMUJKMk50NVk0UElvZlFhSDBOdV9mYTI1TVVCd3NiM1F1bVhPREhmdGs?oc=5"
+        }
+      ],
+      "auto_detected": true,
+      "rss_pub_date": "Thu, 12 Nov 2026 02:34:37 GMT",
+      "article_count": 1,
+      "priority": "C",
+      "priority_score": 3
+    },
+    {
+      "id": "2026-11-12-auto-5cfd3f18f1",
+      "published": "2026-11-12",
+      "company": "ユーコープ、佐川急便へ",
+      "service": "",
+      "affected_count": 0,
+      "status": "candidate",
+      "cause": "報道自動検知",
+      "summary": "ユーコープ、佐川急便への不正アクセスで配送先の個人情報流出の可能性 「HAPPY COLLECTION」や衣料品回収キットが対象|セキュリティニュースのセキュリティ対策Lab",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWjlfTzRoWWFTTkhXSnVSZ3daeGcyUlgwQlhOaURYMWZRcjZWUXJTZW9HTXVGWTV4LWlFLVpzNng1T3JrXzc2NWhyMzYyMU5XemlFM3pGbWlJQnVaRDRWNHVtZ090ODhfb2cxdEQxclF2ZFA2Q3kzS1dhUWluOF9JSnJPb1ZveFp6TDFCSzAtZ215bnA3d2FQQUx0c0NnRVFXOHc?oc=5"
+        }
+      ],
+      "auto_detected": true,
+      "rss_pub_date": "Thu, 12 Nov 2026 02:15:46 GMT",
+      "article_count": 1,
+      "priority": "C",
+      "priority_score": 1
+    },
+    {
+      "id": "2026-11-12-auto-c31cb0d66e",
+      "published": "2026-11-12",
+      "company": "医療機関のWebサービス",
+      "service": "",
+      "affected_count": 0,
+      "status": "candidate",
+      "cause": "報道自動検知",
+      "summary": "医療機関のWebサービスで個人情報の漏えいが相次ぐ 予約サイト・問い合わせフォーム・委託先管理の点検を",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBuMkdMOWJuYWVlVHRyaUt4S2R5VnN5QXRFY2ZySWpqWHA3ZUF6RmlUZmpaYkZyclZPVmlWU2dRUE5QcE00dGE3MzQwSkVkZ0JWeXVWT1RmNmcxZU80eUxnTlE0Nk5rYklqUzRn?oc=5"
+        }
+      ],
+      "auto_detected": true,
+      "rss_pub_date": "Thu, 12 Nov 2026 03:11:15 GMT",
+      "article_count": 1,
+      "priority": "C",
+      "priority_score": 1
+    },
+    {
+      "id": "2026-11-12-auto-1c55838bd2",
+      "published": "2026-11-12",
+      "company": "メール配信サービス「アララメッセージ」へ",
+      "service": "",
+      "affected_count": 0,
+      "status": "candidate",
+      "cause": "報道自動検知",
+      "summary": "メール配信サービス「アララメッセージ」への不正アクセス、再開時期は未定",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "ScanNetSecurity",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE02eW9fdXZETGNMdk55Sk5FV0RQVUlKWmZuUGd4MWNVaGkwSndkdXBsUWdrWlVGdFFISmNCYU5Qb1pIRWt3cTJ0NkJ5LUhIWmN1MU5FOEFiMm9TNkVPclhwM2RhMFI5cEYyMC1ZdQ?oc=5"
+        }
+      ],
+      "auto_detected": true,
+      "rss_pub_date": "Wed, 11 Nov 2026 23:05:19 GMT",
+      "article_count": 1,
+      "priority": "C",
+      "priority_score": 1
+    },
+    {
+      "id": "2026-11-12-auto-47639f6b93",
+      "published": "2026-11-12",
+      "company": "良品計画社長「カード情報破棄すべきだった",
+      "service": "",
+      "affected_count": 0,
+      "status": "candidate",
+      "cause": "報道自動検知",
+      "summary": "良品計画社長「カード情報破棄すべきだった」 不正アクセスで陳謝",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE03TFM0TkJxWExNWlFPS3ZNUllXQVhYbTlrWEU5WkE1d2Zfbzh3UDdkNDZfMEVqM1JQejQyT2c3TjVNTy1qM1kzN0wzcFlpY25Sc0dieE00WlJzaXVZcGtlc2NiSUJGX3JzSzd0Mw?oc=5"
+        }
+      ],
+      "auto_detected": true,
+      "rss_pub_date": "Thu, 12 Nov 2026 03:20:04 GMT",
+      "article_count": 1,
+      "priority": "C",
+      "priority_score": 3
+    },
+    {
+      "id": "2026-11-12-auto-85127553bc",
+      "published": "2026-11-12",
+      "company": "電通デジタル",
+      "service": "",
+      "affected_count": 0,
+      "status": "candidate",
+      "cause": "報道自動検知",
+      "summary": "電通デジタル、「TONARIWA」における不正アクセスに伴う個人情報漏えいの可能性",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBKRG5ENkxpU2JkckUwRDd1Qk1SSmkzTDY2dzYxU0JrcnMxYlRwdXlVaExIcFZFbnJrb292ejNQTjJzeXUyX0NuY0FXZWh5dw?oc=5"
+        }
+      ],
+      "auto_detected": true,
+      "rss_pub_date": "Thu, 12 Nov 2026 02:28:15 GMT",
+      "article_count": 1,
+      "priority": "C",
+      "priority_score": 1
+    },
+    {
+      "id": "2026-11-12-auto-96619802f3",
+      "published": "2026-11-12",
+      "company": "山口県「やまぐちVitalityウォーク」で42人",
+      "service": "",
+      "affected_count": 3065,
+      "status": "candidate",
+      "cause": "報道自動検知",
+      "summary": "山口県「やまぐちVitalityウォーク」で42人の個人情報漏えい 申込者3,065人の一部が対象",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9vcmN4X3VhOFNxY1UxVF82TV9TaUNPX0gxQUtjbUhkX0hPMFZGNC1mWE9DeW9Ba1FHTzl5VDQyeVVjUVhnX1k2VUlFYy1SeHBlazVYRXBNejJVaDRER0pyMWlOMmNkQQ?oc=5"
+        }
+      ],
+      "auto_detected": true,
+      "rss_pub_date": "Thu, 12 Nov 2026 02:34:47 GMT",
+      "article_count": 1,
+      "priority": "C",
+      "priority_score": 3
+    },
+    {
+      "id": "2026-11-12-auto-6abde2a6a1",
+      "published": "2026-11-12",
+      "company": "靖国神社のオンライン授与品サイト",
+      "service": "",
+      "affected_count": 14500,
+      "status": "candidate",
+      "cause": "報道自動検知",
+      "summary": "靖国神社のオンライン授与品サイトで個人情報約1万4500件漏えい パスワード特定の恐れ",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBLVlkwcjFIcFpvem5FTlRjTFhBbktjZ3A4ODlja244M0dDZVYxb0dDV1F4a2ZJN1BVRjZYeDZSV0xmT2c3RjEzZHF6cGJxMHQyMjBtS25MWm43TWd4Z0J5aENfcTk?oc=5"
+        }
+      ],
+      "auto_detected": true,
+      "rss_pub_date": "Thu, 12 Nov 2026 02:38:30 GMT",
+      "article_count": 1,
+      "priority": "B",
+      "priority_score": 6
+    },
+    {
+      "id": "2026-11-12-auto-df2c72726d",
+      "published": "2026-11-12",
+      "company": "靖国神社通販サイト",
+      "service": "",
+      "affected_count": 14500,
+      "status": "candidate",
+      "cause": "報道自動検知",
+      "summary": "靖国神社通販サイトに不正アクセス 個人情報1万4500件流出",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZ2ZVTjVtR3R0WGJ0VlVTcGVhZzRiNE11NHFTV01QNlZnZDFKQ1ZKeGE2SGpOWFJDMEJzc1pIR01NcnZSLWp2RUpTRER3QlEwN1RkMU9wUTdHcmEtRnFoa3h1V0FySm9uNUctUF9QdEIxS2xfZDdZWW1TLWhJaVQ4NWdEbmxJMENq?oc=5"
+        }
+      ],
+      "auto_detected": true,
+      "rss_pub_date": "Thu, 12 Nov 2026 02:19:00 GMT",
+      "article_count": 1,
+      "priority": "B",
+      "priority_score": 4
+    },
+    {
+      "id": "2026-11-12-auto-10535cdf76",
+      "published": "2026-11-12",
+      "company": "韓国・金融保安院",
+      "service": "",
+      "affected_count": 0,
+      "status": "candidate",
+      "cause": "報道自動検知",
+      "summary": "韓国・金融保安院に不正アクセス、48社の約130ファイル流出...警察が捜査(KOREA WAVE)",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "KOREA WAVE",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1QekgwckY0NTZIb2s5LVY1MUNmaF9hTFRsbDBzaHFqOHk2NFFSTDB0S2c1Rk9YV1pJeEpwWnJCZUxMam1pN1FwMFctZGN1R0N6dERpZjRNRzNjVEI1OUZfTkEyLWtzYWp4NEgyTWhjZFVyLVEtM0wxNENwUnEzak0?oc=5"
+        }
+      ],
+      "auto_detected": true,
+      "rss_pub_date": "Thu, 12 Nov 2026 02:03:16 GMT",
+      "article_count": 1,
+      "priority": "C",
+      "priority_score": 1
+    },
+    {
+      "id": "2026-11-12-auto-9c0021acbd",
+      "published": "2026-11-12",
+      "company": "良品計画",
+      "service": "",
+      "affected_count": 0,
+      "status": "candidate",
+      "cause": "報道自動検知",
+      "summary": "良品計画、情報流出で会見 清水社長「多大なるご迷惑かけおわび」",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "47NEWS",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9HQldhOVh0dGVCLXAzT05VSW1qY1pJMGZZMXJsUkhERGVVLW5Dbl9TckVEOVNxMXREcmlBSG5xYUpsYkxHeHV4X3VkTQ?oc=5"
+        }
+      ],
+      "auto_detected": true,
+      "rss_pub_date": "Thu, 12 Nov 2026 03:43:28 GMT",
+      "article_count": 1,
+      "priority": "C",
+      "priority_score": 1
+    },
+    {
+      "id": "2026-11-12-auto-000c286950",
+      "published": "2026-11-12",
+      "company": "企業のAI利用",
+      "service": "",
+      "affected_count": 0,
+      "status": "candidate",
+      "cause": "報道自動検知",
+      "summary": "企業のAI利用、情報漏えいやデータ管理への不安は?INTSIG、日本企業のAI活用とセキュリティに関する実態調査を開始",
+      "exposed_data": "要確認",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE95d0lRWjVNY1NkUk1CQmpBaTRvVVkxTzNYQlZWbHROZGNPZjNvQXF1Zy05ZzRlSXBSZzI2eDJWdW9TNUROcThMWUtlWFhnU3hoSmcxRHpIWnFIdTJ3X1BYSTVsZUtwUmd6?oc=5"
+        }
+      ],
+      "auto_detected": true,
+      "rss_pub_date": "Thu, 12 Nov 2026 03:45:20 GMT",
       "article_count": 1,
       "priority": "C",
       "priority_score": 1
@@ -1857,13 +2123,17 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "合同会社ロケットボーイズ",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSFZ0LXRjV2ZJb1hycEEyTUVuVEF3N040UnFPY1l0X21JU2cwZTBocVBhVUxfeTVIQlFXdFNjYThYMkppSERxVGRIMlFueHpFWUU3QUJvNmNac0k5NXNiN1lLMGRGUG0xODBzR1JpTDFLek03WlMwdjZjNnp4aUE5WEtqdHhlRjFWcVBoeURTUGpDdVpuLTNHTXA1c1M?oc=5"
+        },
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9uazZVR3duLTUwTzR4c3oyM0RSWWRmc0I4TEFQSHJld2VFTVg2dDhiTkktOXlBOGhMaE1ORlJPSGRodndEN0psWkFPQkpBMEJLakhrTE0zYTFIOUNxRDZKNVFtZ1JnZw?oc=5"
         }
       ],
       "auto_detected": true,
       "rss_pub_date": "Tue, 10 Nov 2026 16:05:27 GMT",
-      "article_count": 3,
+      "article_count": 4,
       "priority": "B",
       "priority_score": 5
     },
@@ -1945,7 +2215,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "熊本日日新聞",
+          "name": "47NEWS",
           "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE00UmtNMi14a1Q3RlQxREdVTGRKQndPelgtLTdmVktmS1lOa0VmNUVhM2VTd2xpa0NwcjBacWl2X3pHRmJ5UllZRFBVSQ?oc=5"
         }
       ],
@@ -2068,7 +2338,7 @@
     {
       "id": "2026-11-11-auto-d2d8e8606f",
       "published": "2026-11-11",
-      "company": "サイバー攻撃による情報漏えい",
+      "company": "不正アクセスによる個人情報",
       "service": "",
       "affected_count": 0,
       "status": "candidate",
@@ -2079,35 +2349,43 @@
         {
           "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE93Y3JPN3d5ZG4xV1h4ZndpNURGM094OURKYXBWQUJfZExSckZoSU8yaG5NRXJrSTN2LTlzR1dwWk5aSjFkTExJd2RzbGdadmw3SmJKN3FIQ24tdmc?oc=5"
+        },
+        {
+          "name": "前橋市",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNaG9YOXlIeFBGWFdxUXlLYTFQSEduMlhkUkxydnA3RmN0dVctR0JoRzFPNnVobFJkREQtQWhaM1k4TWdaMzh1ZjdQSWdRVEJwb2tMTUJqVWtQRjlYS2NfNEJuaUo3SnNhS1d5WkRGQmtSSkdReFRqMEpUN1ZNaG5FUWJoQWRmaE5kSnpGeVFTUTF4dXpTQi1pWkJZcw?oc=5"
         }
       ],
       "auto_detected": true,
       "rss_pub_date": "Tue, 10 Nov 2026 21:00:00 GMT",
-      "article_count": 1,
-      "priority": "C",
-      "priority_score": 1
+      "article_count": 2,
+      "priority": "B",
+      "priority_score": 4
     },
     {
       "id": "2026-11-11-auto-17d99f1b74",
       "published": "2026-11-11",
       "company": "ティンパンアレイ",
       "service": "",
-      "affected_count": 1200000,
+      "affected_count": 1214183,
       "status": "candidate",
       "cause": "報道自動検知",
-      "summary": "ティンパンアレイに不正アクセス、延べ約120万件の会員情報が流出した可能性",
+      "summary": "KEYUCA(ケユカ)、メールアドレス121万4,183件が流出 アララへの不正アクセスで判明",
       "exposed_data": "要確認",
       "sources": [
         {
           "name": "ScanNetSecurity",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBpRzg4eFJ5N0RXMi12bVd2c0hLUUI2ZmxjNF9rN2xhUTBHTUREdTZtWlJNZzNNS0Jzb0JUd0tVRXdUYy1MeTNvc3ZMQ0h6NnVpWDlwOWNFcGVRdnJJeFQtaEhLS0FLd1pTUEVfVA?oc=5"
+        },
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQ2pRRlozVTh2NzVqN3lqTldmZlYxanE3eXcxdDJadmhmcTYtVi1JNEM5dDhRc2d6WW85WktIbWdDTVAtTmI1TG4yTDdoaUhmY0VmeHpiMk9sbkQ0ajdJVDBxeHRtMlpIRnNKUVl2Zzg4SkU1S01aN1B0djBRRUt4YWxNMnB5NUpUc3lXazlmSU8wbG5IaHNqS1ZjR2ozQQ?oc=5"
         }
       ],
       "auto_detected": true,
       "rss_pub_date": "Tue, 10 Nov 2026 23:05:07 GMT",
-      "article_count": 1,
-      "priority": "B",
-      "priority_score": 6
+      "article_count": 2,
+      "priority": "A",
+      "priority_score": 9
     },
     {
       "id": "2026-11-11-auto-4973d7e895",
@@ -2121,7 +2399,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "ScanNetSecurity",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE11Wi1QVEQ1RzUxVTNtWUpWUk9tNUpCTWtBT216dm1pbkhIcUdjV25aZTBCUTE1bDlJZXJmYU5GWGpVak02VHBzdklmeG8zV2NtaEN2Sl9aaEwyT2lSVWpURlVKQXJ6WjNtNHFFUw?oc=5"
         }
       ],
@@ -2607,19 +2885,23 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "ビジネス+IT",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE04ekNNR083aTI3c2s1MXZPNnJVTG9nWGI5US1FN3ZOSWdjLVZzempFLXNxS1hiaG1EMFhyOVJFeU41cXdRS1Y3a0RwdE9ZSEk?oc=5"
         },
         {
           "name": "BigGo ファイナンス",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9Vc3dOMGpsYjR6cEtCSEJzcDU2ZTlIeml6NGt6T2tYZDFOVkhpQ0VGSlppR08yczhzQmxjRkVaMHVETVhiaF9NaFRUQmNCTVZJb18tYjN2d2paYkl1WUlvcGxJV0lHUGVqUU1GbEJBSm1PcC1l?oc=5"
+        },
+        {
+          "name": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9xMl9fU1kwc01lSFJRaVZ2MDRJSG40YVRVbENlRzRtUkFxWG43OWFzWDc2TnpSR05zS21nVFNnd1o5akxlSldlamxXLW40azh6QTFhRkJUcXEtMjBHY0c1dzhETkNBd3k2UGlLU0lxZlQ3eTlEZEtnMjlKMXl3eE0?oc=5"
         }
       ],
       "auto_detected": true,
       "rss_pub_date": "Wed, 11 Nov 2026 05:16:00 GMT",
-      "article_count": 2,
+      "article_count": 3,
       "priority": "A",
-      "priority_score": 7
+      "priority_score": 8
     },
     {
       "id": "2026-11-11-auto-5a1c482bfb",
@@ -2655,11 +2937,11 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "読売新聞",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAxeW1xSG9kMDA0VXBLb2ZpalFoZnRoTG4wOUxMMkRlNjQ4SF8zUXNIbGpWRmVBYkJyaHVYS1daMkd5TWU5dml4M0JZQklxLVAwa0N6UnhMRXRGbUNjYTZ1dklXSkJxZw?oc=5"
         },
         {
-          "name": "Yahoo!ニュース",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5LdXFCby1lU1JwNC00aEhLam9OY09EZG8yTTJ2UHUtY0RSOEw3UEtOaXpCeDR2WWp4UXNGWXV0V2t5cmJRRl9HOUZBRVhBeHZYQVVrR2tvUWlDSEs4dFlBajZacmNEU2FyTjJUcXE3Zm1TU0RKU2MwdG11WUJNNUE?oc=5"
         }
       ],
@@ -2687,9 +2969,9 @@
       ],
       "auto_detected": true,
       "rss_pub_date": "Wed, 11 Nov 2026 02:36:32 GMT",
-      "article_count": 2,
+      "article_count": 3,
       "priority": "B",
-      "priority_score": 4
+      "priority_score": 5
     },
     {
       "id": "2026-11-11-auto-55210aa45e",
@@ -2777,7 +3059,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "合同会社ロケットボーイズ",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMnJTcnVJWFBwak1jeXdDWGcwQjZjd1l2ak1lQlI0LXlVbVFMRWtBR2RjNGIzc3ppejBXS1FJVlBGdXFLYThXc2pSSmxuZEZXLUUxVDZpbzhmWFloeGZXTVo0cEhnb1FmTTBuTGJCUkFPU09RbGtxekhibW9SRWhKVGxYWmg0QzJncDJxZFJDN25vbUNFdnZhb0l6X0NWdw?oc=5"
         }
       ],
@@ -2827,7 +3109,7 @@
       ],
       "auto_detected": true,
       "rss_pub_date": "Wed, 11 Nov 2026 05:31:02 GMT",
-      "article_count": 4,
+      "article_count": 5,
       "priority": "B",
       "priority_score": 5
     },
@@ -2869,7 +3151,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "LOGISTICS TODAY",
           "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1ZV29HeUpYMVpIQmUzMkJmQ2MxMVpBY3d1ck91cF9fd3N0bHFvamFlSG51TjVxc3N6aXoyVEZ1S01MSkJCbmJJSF9R?oc=5"
         }
       ],
@@ -2957,7 +3239,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "合同会社ロケットボーイズ",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbElrY1I2THBEY0FiOHJCZ3ZncVY5TFlqLUxfdHJUTTVxNU85N2kxSlFlaFZNLS1zVFhoZVlJcnJqRk1GSlJ6RnRkZkVuWTI2TUU1TWJmTHBuRzVsaEpvWkRMMFJudDVCd052NG05alMwbFJENmU3ZEtjV2Z0cW9xYlY2emdLeFF4SGJEdmhGazBGWmJJT0UyRkNUZw?oc=5"
         }
       ],
@@ -3025,11 +3307,15 @@
         {
           "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1kUE1iYnpxcGNmcWhXNGVlM1VqZFpNNkNpUi1jMk1Lb0FScVZvZzFURnI3MkFsbDQwTXhDM0NLcENZbVUyd3NkMWFrWjJ5WTVoaTAyN3FaOWgwZXNvUDg1cVFmZEx1LVN6WDlSZnlpclA4UQ?oc=5"
+        },
+        {
+          "name": "ITmedia",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE00NUNIcDZFdDJMeGF0RmpyTGlxczE4TUxqMkpMbFR5NTVMWnpLajNYc3FhUFNiQUtaV19Gd3Ywb0dLN1lwYXFOZWFjeU0yMEtHWlJxbnRPV2N0RVZrTHVfNnNJdk1ZcGZmemc?oc=5"
         }
       ],
       "auto_detected": true,
       "rss_pub_date": "Wed, 11 Nov 2026 06:27:06 GMT",
-      "article_count": 5,
+      "article_count": 6,
       "priority": "A",
       "priority_score": 10
     },
@@ -3133,7 +3419,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Yahoo!ニュース",
+          "name": "読売テレビ",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBpcjhGU3VPZ205V3dMVUVQYkt2bHBtNFZ0UU96dkh2SzB6NG92dENTMWR3MGRGcVNZUDB2cW1xV3Npb0tSUk5vUjBPUFUycExoOGdFYkFhSkdja1dMVU9fMVNYRW5vTm1xUloxZW94Q3dlY0IxZ3VrR3FBeldNU0U?oc=5"
         }
       ],
@@ -3197,10 +3483,6 @@
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE41T1RHR00zUW1lZjJHazBWQWxncVdLSVhEdXBMd2lmbXJWZkMxLUw2dXl2RUk5dGhrZ1d0U0xKWXdneUI3d0Q2M3pxVFVlVHI1UWVEalZZb3dnOFBWeGZ0VHU1Y1Y?oc=5"
         },
         {
-          "name": "毎日新聞",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1kdldBcHBUb09CaVR4Uzh1MERqWndjSGh5LVpPTDZvbl9VRjRyenVycHpNNFpuRmZvTmxVNDBpV296WFNZY2tuNWFhcm0wbTA4SG95WGVnS1JZRWt4aTBFYUFMeXlfQXRi?oc=5"
-        },
-        {
           "name": "福井新聞社",
           "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE43RDNGYWN1c0Z2WTVpS0dRTm1hemV0STcwcmJwU0dQZnZUVVUtWWwtRVZsTGxCNzZ5X3ltQUtmVWVOX01MWnIwbnQ4RVVJMkVaZUpzdmlVTENqU0lBYVE?oc=5"
         },
@@ -3225,17 +3507,13 @@
           "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNX2VES2hfalNPZkNEUHY3R3UweC03T3VBaC1zVUc3b1pfY19SdEdMQmJHRXRkZngyVVI4bVQ0YXFGM3NRNzN6WUtORXh6b0xzcTVyTlBqelE2SzdpT2JiaUhNeWNLdGU4OE9EQUkydURGek1aTm1pNEFKaUhSZEV0ZmJtUDN5NUVhRXpYRg?oc=5"
         },
         {
-          "name": "テレ朝NEWS",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5xUkItUEFOeDg2OWNKZTI1NTBMVlVPcmhsQTFvXzlBamFjQS1vUHlnUkJxMWZYc2xnc3JIWUdBSHRWdEI3N2RsQzRlUmdVaUFNei13S2E2bkVCUThNcDJDQXFMZ0dwekxkOEpPdWU5bTBlZw?oc=5"
-        },
-        {
           "name": "Yahoo!ニュース",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE04QU5EUW9RYkZFTE1SaXVNOWNaMjF4cTV3YUJjWnROcTBaM0UtdUJ4SnpIUFdFMTNyZHgtYjhnaDc4Z08wdHBFaUFvMUJJaDZkcWhZU2hmMExnTjBnSFloeGxXU2NjaUZGWlp1SlltUm9LeE9oSVlIX1BnenJOQzA?oc=5"
         }
       ],
       "auto_detected": true,
       "rss_pub_date": "Mon, 09 Nov 2026 11:14:39 GMT",
-      "article_count": 109,
+      "article_count": 110,
       "priority": "A",
       "priority_score": 12
     },
@@ -3339,12 +3617,8 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9FR2ZkME83Snl1a1BDU19BWEpELUp5Y1lTYWdfRUFySk5hSUhDUFlteF9HaHRta19mcjB6SzRCUzZDdThDcW5NOGtZalBRUC1YU3IxcnBzZ3QxMHpMZTZ6TmZRNFJLaXNZWHZHMkx0c05SODlrdEVSRWxhbXc0Qkk?oc=5"
-        },
-        {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5UbFFNVU5YZXhpeHFCWW9nbUxRN0JnekJpbTFOMTd3Y1hES29EaUdyNUJ1NWRqWFJ1ZFJMR0IydElqOW1ob0paSHVHbjdxeUhiaUc4MUI1SkQ?oc=5"
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9FR2ZkME83Snl1a1BDU19BWEpELUp5Y1lTYWdfRUFySk5hSUhDUFlteF9HaHRta19mcjB6SzRCUzZDdThDcW5NOGtZalBRUC1YU3IxcnBzZ3QxMHpMZTZ6TmZRNFJLaXNZWHZHMkx0c05SODlrdEVSRWxhbXc0Qkk?oc=5"
         }
       ],
       "auto_detected": true,
@@ -3367,10 +3641,6 @@
         {
           "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBRMmVDdFVtNndEMEZ3SVJ2cGV2MXF0TkpuOExGQ3l2RTk0TnNYa2FITHlpVmRMcjJKNlhFc3lCZFl0Zk55aG1jaWpPOGtEUG54dkE2dF9XOGlhaUw4cmJaRzVvN3E3aUxhamlybFFiMEp0RHNTcldtNk9ET0M4d2M?oc=5"
-        },
-        {
-          "name": "BigGo ファイナンス",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1FNnpXWTE3enhvRDVlNmdiQzVZOHJ5ei1CWVR5WTRsa1NlaHpOM2ZaS0lCTFhjR1JLZXZYanBONUxXd3hzYnBsTkZ5cVl4V2RFcVBRaVkwQjNIMzRXeDA5MGZOZWw1YnBDek54NFpJRFZfSnNL?oc=5"
         }
       ],
       "auto_detected": true,
@@ -3747,7 +4017,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "NHKニュース",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5RX1Q1WEpXa2pQOHFiVURwU3E1MlQ0VXFKVE1OejRZUDVoZFRER3VrOXJkdHUyM2pZSEhpVjMyd09yQ0piSHRIZDVUV1plTW10VW9UZ0FCeTc0V3Y3bzlj?oc=5"
         }
       ],
@@ -3883,7 +4153,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "ScanNetSecurity",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9yMzRZZnVvVVZmS3pyLTFSOG9xemswLVpUZTgxNEFlZXI3Q2l4VnJSTUd2b203RzhwVjBmSFhjS1dtWTBWS0NVcV90YU9ZZ0FkS3d2QUk2cFVTWWxLcmpEeGRLM2RiQ1JmbEJHcA?oc=5"
         }
       ],
@@ -4683,7 +4953,7 @@
       ],
       "auto_detected": true,
       "rss_pub_date": "Tue, 10 Nov 2026 09:30:54 GMT",
-      "article_count": 25,
+      "article_count": 26,
       "priority": "B",
       "priority_score": 6
     },
@@ -4853,7 +5123,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "合同会社ロケットボーイズ",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQd2hCUG90YXdESHM5RERJdG1uR3lveV9ER18wWjA3elA5M2pWVFh0Tk5uNE1Qb19TTGRUUkk0QWY2S2tERW91VGRxR3RoTjBwZmZlU09FV3gxazEzWTZWTV9iWGs3elc2YWJ4VUJFMnNsLW8tVTh3bFFfUjBKa1dkMGxxanV3cXhXUE5tS2pYT1ROcWtIRVRDelhhaDc5emN4OUcwVktfZWM?oc=5"
         }
       ],
@@ -5007,7 +5277,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "BigGo ファイナンス",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1obHIzY3kzQWM3UW1nYzJLcm1wd2Z3VUZyU1IwLTFvenZ3emV1X2swRDhRdXNjTFk2NDZBcE9fcG9PbXFYSEhCS2VnZGhST0tQMU1FX1hibk9GZXBPNlZBazY1eGFNbzIwV2JEczlYX0s1cXQt?oc=5"
         }
       ],
@@ -5271,7 +5541,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "合同会社ロケットボーイズ",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeXd0WEZobmJqZVNHSHFCMDdYV0hoTE53QU94dUpNSFN4aWpmbE1qZnRKT3FqNVVCeUoyUmEtSDlfUWh5b3JGcXYzWUNwWl9OSnJZUkdidHR3ZUNJUU5BcU5JM3dvRVNHR1pSNFR4bjBfLXJxalRPSlNlRktJUEppY0JWWDBpbG10dkc1R2xnZXlBRXg0bHR3M3hkWXE?oc=5"
         }
       ],
@@ -6611,7 +6881,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "ITmedia",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE55NVNWeXgzMS00djZVekZKWlZuQW4xOWFXOHlfaTNjbDk3MTBPb1dGRHNrdE80bXRSdEhJa1pKaTNCUVdBNHVZMFk1ZUpWLVV5UFRvaWhtdnhXd2FjOWFLeUtTZ0l2ckM3UlE?oc=5"
         }
       ],
@@ -7125,7 +7395,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "ニッキンONLINE",
+          "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE84M1hfc1lsUGI1VWRUbjBjekoyMlJUVjZtdXJUZktmbzNWVnFFWUc0VXgzeXR6UW03eE5GVFFzUU90dGs2SWlJQlJWTVFIMFBmMEFHbGRn?oc=5"
         }
       ],
@@ -7807,7 +8077,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "ケータイ Watch",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9zb0hDdlpFdUlTZkhpcURoOXB0WjY0OEY3b1J4X1Awc05OdURQNTgza1NJVk9HM2VkdTJSUTdTZldkVVdzQ1BqNWFzRXhIQ18x?oc=5"
         }
       ],
@@ -7815,7 +8085,7 @@
       "rss_pub_date": "Fri, 06 Nov 2026 11:35:39 GMT",
       "article_count": 24,
       "priority": "A",
-      "priority_score": 9
+      "priority_score": 8
     },
     {
       "id": "2026-11-07-auto-56eec5f0bf",
@@ -10789,7 +11059,7 @@
       "exposed_data": "要確認",
       "sources": [
         {
-          "name": "Googleニュース",
+          "name": "BigGo ファイナンス",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9MWTducFpwNTJLMnoxdWpxTHNQc2hoeFNoNWZVcVdxbm5HRU1vLUhhUUd5WnJqNG9URnB1bDk2bE1CV09tYmtCTVotV0dLTlBqM2tOdTlQRjVuWVpJM2NiQkpxa1pJS1hJdjhpRXo2WnhQV2pa?oc=5"
         }
       ],
@@ -11239,7 +11509,7 @@
       ],
       "auto_detected": true,
       "rss_pub_date": "Thu, 05 Nov 2026 23:05:32 GMT",
-      "article_count": 4,
+      "article_count": 7,
       "priority": "B",
       "priority_score": 5
     },
@@ -12660,7 +12930,7 @@
     {
       "id": "2026-11-06-auto-adef7a34d6",
       "published": "2026-11-06",
-      "company": "鹿児島の決済アプリ「Payどん",
+      "company": "キユーピー",
       "service": "",
       "affected_count": 120000,
       "status": "candidate",
@@ -12675,9 +12945,9 @@
       ],
       "auto_detected": true,
       "rss_pub_date": "Fri, 06 Nov 2026 04:51:40 GMT",
-      "article_count": 2,
+      "article_count": 3,
       "priority": "A",
-      "priority_score": 7
+      "priority_score": 9
     },
     {
       "id": "2026-11-06-auto-eb6a8131a7",
@@ -12859,7 +13129,7 @@
       ],
       "auto_detected": true,
       "rss_pub_date": "Fri, 06 Nov 2026 10:23:05 GMT",
-      "article_count": 15,
+      "article_count": 17,
       "priority": "A",
       "priority_score": 11
     },
@@ -13191,13 +13461,13 @@
           "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9INXZyamlmQVJRVUU1b0NPRkR6ZkVDZEFPb25INnNsRnR6djE0QUpiYWh5X2RvTGlrbzBvbmg1ai16U21CRzhLVnNwOXFIUDNLanU4ZVdTTnJLc18yWms0NlFqSDlkNzZ6OWgw?oc=5"
         },
         {
-          "name": "Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9yaUkzR2RldnJ6M3l6bmhKTmxrUVQ2TUR5cUk2dzk5UFhEMVhveEF5RUN3bEVWTE1xWGxpZ0RFQktrT1ZYcFNScm9JMG05TGo4X2piMVN3YnZNajNsVUtyX0ZIWnhjbWVVMmVhVDhvT21HeUF2V29ydGN0TEhYTlU?oc=5"
+          "name": "NOVAIST",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1CTDZNYWVqMDFOd2NpZDFTT2dDSmdmY0ZlVlJ3TGowTHpWUFlOcDU4aUFLZWFlSzkzYUNIWlpqY1lnclROYXZHVllORW9LcEVIUm1XTTZuWlhlckdCajJj?oc=5"
         }
       ],
       "auto_detected": true,
       "rss_pub_date": "Wed, 04 Nov 2026 11:19:15 GMT",
-      "article_count": 33,
+      "article_count": 34,
       "priority": "A",
       "priority_score": 10
     },
@@ -13617,7 +13887,7 @@
       "rss_pub_date": "Wed, 04 Nov 2026 08:37:17 GMT",
       "article_count": 6,
       "priority": "A",
-      "priority_score": 10
+      "priority_score": 9
     },
     {
       "id": "2026-11-05-auto-622f033e87",
@@ -14145,7 +14415,7 @@
       "rss_pub_date": "Wed, 04 Nov 2026 23:05:24 GMT",
       "article_count": 3,
       "priority": "B",
-      "priority_score": 5
+      "priority_score": 4
     },
     {
       "id": "2026-11-05-auto-aa01dd579e",
@@ -14541,7 +14811,7 @@
       "rss_pub_date": "Thu, 05 Nov 2026 00:30:51 GMT",
       "article_count": 7,
       "priority": "A",
-      "priority_score": 9
+      "priority_score": 8
     },
     {
       "id": "2026-11-05-auto-549c96cbc3",
@@ -14899,14 +15169,6 @@
         {
           "name": "Googleニュース",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWmc0ZVltN1JTeno5c0tLTlVCNDNhVWJqd19ZSHJ3dlhhOGUwQmtGQWJGSWNNYzJkUzFIaVJpX3gzZDVsTTk0U1VqTG9GRXEwTWc2QzhMRTdiY0NEalB2dmpHclVZOFkteW9QUnBDTlZ0NEJEdHNWd3FfRW1wN3pvaXVqeW1OWnJWVFlCQV95NkpVdw?oc=5"
-        },
-        {
-          "name": "ビジネス+IT",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBUMEhlX1A2djZzMVU5akVMak1YbGFka2tZaWtOWjFZZ0lucjZ2bWxGcEFSVFZzYUJTQkZrbEN2MGRwNGJoYVJKMVVMUXhyTThQQXM4?oc=5"
-        },
-        {
-          "name": "ASCII.jp",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5jNW40Q0dYVnVBNEVtN01od2tvNDdweU1jbVcwRjctVWVFZnZLQzl3eEtDT3Y5dzJreE4tRFpjbVNmV2VLa3h3YjZKbVluVnJQTV9SVQ?oc=5"
         }
       ],
       "auto_detected": true,
@@ -18063,7 +18325,7 @@
       "rss_pub_date": "Mon, 02 Nov 2026 10:59:00 GMT",
       "article_count": 2,
       "priority": "B",
-      "priority_score": 5
+      "priority_score": 4
     },
     {
       "id": "2026-11-03-auto-05ace51d3b",
@@ -56153,13 +56415,13 @@
     }
   ],
   "maintenance": {
-    "last_cleanup": "2026-11-12 11:17 JST",
-    "candidate_before": 2394,
+    "last_cleanup": "2026-11-12 12:53 JST",
+    "candidate_before": 2411,
     "removed_noise": 0,
     "removed_verified_duplicates": 0,
-    "merged_candidate_records": 0,
-    "candidate_after": 2394,
-    "new_candidates_added": 17,
+    "merged_candidate_records": 1,
+    "candidate_after": 2410,
+    "new_candidates_added": 12,
     "new_articles_merged": 25,
     "cleanup_version": "1.8"
   },

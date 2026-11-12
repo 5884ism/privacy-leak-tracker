@@ -1,196 +1,76 @@
 {
   "version": "1.1",
-  "generated_at": "2026-11-12T02:17:32+00:00",
-  "before_count": 1674,
-  "after_count": 1706,
-  "net_change": 32,
-  "new_count": 9,
+  "generated_at": "2026-11-12T03:54:19+00:00",
+  "before_count": 1706,
+  "after_count": 1704,
+  "net_change": -2,
+  "new_count": 3,
   "removed_count": 0,
-  "visible_before_count": 1674,
-  "visible_after_count": 1706,
-  "visible_net_change": 32,
-  "raw_before_count": 2394,
-  "raw_after_count": 2411,
-  "raw_net_change": 17,
+  "visible_before_count": 1706,
+  "visible_after_count": 1704,
+  "visible_net_change": -2,
+  "raw_before_count": 2411,
+  "raw_after_count": 2422,
+  "raw_net_change": 11,
   "new_candidate_ids": [
-    "2026-11-12-auto-f88d5ff479",
-    "2026-11-12-auto-15c3a99663",
-    "2026-11-12-auto-e40daa426b",
-    "2026-11-12-auto-d086aa3216",
-    "2026-11-12-auto-1e6bbdeec5",
-    "2026-11-12-auto-67e9400156",
-    "2026-11-12-auto-89097c77a0",
-    "2026-11-12-auto-3d7b1fd84a",
-    "2026-11-12-auto-4c9d47772d"
+    "2026-11-12-auto-c31cb0d66e",
+    "2026-11-12-auto-10535cdf76",
+    "2026-11-12-auto-000c286950"
   ],
   "new_candidates": [
     {
-      "id": "2026-11-12-auto-f88d5ff479",
+      "id": "2026-11-12-auto-c31cb0d66e",
       "member_ids": [
-        "2026-11-12-auto-f88d5ff479"
-      ],
-      "priority": "B",
-      "published": "2026-11-12",
-      "company": "宅配クリーニング「リナビス」でメールアドレス15万8,960件",
-      "service": "",
-      "affected_count": 158960,
-      "summary": "宅配クリーニング「リナビス」でメールアドレス15万8,960件が漏えい アララ「repica」への不正アクセスが波及",
-      "sources": [
-        {
-          "name": "合同会社ロケットボーイズ",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYWxuS1BJRUV1dl9ndjc1OXB6WkVVWkNNN1NhWU54OHBmcUtjRTRyZFZLTC01RmJfbzhFZERiSWRUOTdPQ181RTZ6OXh4MXI3X1ktcVpFTlJoRlNXbTRvNXdwalhCY2xrZHpxLWhLeENENXl3UTRyVXpwNXJ3eGh5Rm1TZkxzOGVYVFA2Ulp4RkpYSXNsVFFMV3poc18?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-12-auto-15c3a99663",
-      "member_ids": [
-        "2026-11-12-auto-15c3a99663"
-      ],
-      "priority": "B",
-      "published": "2026-11-12",
-      "company": "メール配信サービス「アララメッセージ",
-      "service": "",
-      "affected_count": 81329467,
-      "summary": "メール配信サービス「アララメッセージ」に不正アクセス、8,132万9,467件のメールアドレスが漏えい",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE10XzdJMU9KYmMzUjBaT2hvZHhmeV8wUXcwYkxpRTF6dUlxOHlCRHc0b2pMSVY1TEtpYmtGTFRVQzBqeWx3dTctd0NGcmRMNWUwd2hlelBPNWQ2bTJoWDRTZXZGMDk1NmxXYjBHQg?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-12-auto-e40daa426b",
-      "member_ids": [
-        "2026-11-12-auto-e40daa426b"
+        "2026-11-12-auto-c31cb0d66e"
       ],
       "priority": "C",
       "published": "2026-11-12",
-      "company": "Progate(プロゲート)、不正アクセスの原因はサービスアカウント鍵",
+      "company": "医療機関のWebサービス",
       "service": "",
       "affected_count": 0,
-      "summary": "Progate(プロゲート)、不正アクセスの原因はサービスアカウント鍵の流出 ハッカソン参加者の開発記録も漏えいのおそれ、11月10日に調査結果を公表|セキュリティニュースのセキュリティ対策Lab",
+      "summary": "医療機関のWebサービスで個人情報の漏えいが相次ぐ 予約サイト・問い合わせフォーム・委託先管理の点検を",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPR250aTdHMXNBOWpUWlp6R2FmcVBaODJUUDNVOExZSmZTQjIzN3dqVU8tRnkwQ3ZiMnI5TEVNcVRpby1WS0FnWk1kQXFYR1FnRl9uR1o4NEJWUW04SjZha3QxTWdFNzZzNU1TLTlQUWZweDlWelFESnNrandyVU00U3U4SmRXZFB1cWtMbGdKU0paVFBVZXo2azhNRXpyUTN4c25nWXE0MGpuUQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBuMkdMOWJuYWVlVHRyaUt4S2R5VnN5QXRFY2ZySWpqWHA3ZUF6RmlUZmpaYkZyclZPVmlWU2dRUE5QcE00dGE3MzQwSkVkZ0JWeXVWT1RmNmcxZU80eUxnTlE0Nk5rYklqUzRn?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-11-12-auto-d086aa3216",
+      "id": "2026-11-12-auto-10535cdf76",
       "member_ids": [
-        "2026-11-12-auto-d086aa3216"
+        "2026-11-12-auto-10535cdf76"
       ],
       "priority": "C",
       "published": "2026-11-12",
-      "company": "リロクラブの組織サーベイ「Reloエンゲージメンタルサーベイ」33社・4,741",
-      "service": "",
-      "affected_count": 4741,
-      "summary": "リロクラブの組織サーベイ「Reloエンゲージメンタルサーベイ」33社・4,741人の個人情報漏えい",
-      "sources": [
-        {
-          "name": "合同会社ロケットボーイズ",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVVJyQjZpTk9uM2p4WGh1d3lrWDMyX3BsYWRMeDNLMTk5Zk11TGxxVjEzSzdsRTVYVzBiUGtCYndpbU94M1JmRjFjQjBPWTEyd1FLeEpkWDZEVlFsQWFOeUktY0lGNFhiTG5Hb2xaOFhaVkU0VjZ4U250dUNsTHBJeTZ2OHVVS2pfekFTVnBZUnFHZGFCMHJZVUcybWJGVFltS0g0UGRiWTk?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-12-auto-1e6bbdeec5",
-      "member_ids": [
-        "2026-11-12-auto-1e6bbdeec5"
-      ],
-      "priority": "C",
-      "published": "2026-11-12",
-      "company": "三菱UFJフィナンシャル・グループ、株主のメールアドレス2万件",
-      "service": "",
-      "affected_count": 20000,
-      "summary": "三菱UFJフィナンシャル・グループ、株主のメールアドレス2万件が情報漏えい 電子ギフト委託先が利用するアララに不正アクセス",
-      "sources": [
-        {
-          "name": "合同会社ロケットボーイズ",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOamxPdlhKTF85ako1Q1dFbWxHcmpIWjg2U2lvc3RJcGF4bmhtWnpERGZ1RHdKcFl1ZVIyVFNnWmF0UXRqREh0TlhOcEJYZmR3cGFmT1Rwamo0X2d5cFg3Qllud3EtQ2sxclNtcURRQVpfZUVCQXVPd2E2MnRLS2dicmc1bWcwckhNc2xNdTJ3SG9OMENNbWRIUlJGdF8?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-12-auto-67e9400156",
-      "member_ids": [
-        "2026-11-12-auto-67e9400156"
-      ],
-      "priority": "B",
-      "published": "2026-11-12",
-      "company": "京都銘菓の美十「おたべ・京ばあむ」オンラインショップでメールアドレス流出 最大約",
-      "service": "",
-      "affected_count": 114000,
-      "summary": "京都銘菓の美十「おたべ・京ばあむ」オンラインショップでメールアドレス流出 最大約11万4,000件の情報流出、アララへの不正アクセスが波及|セキュリティニュースのセキュリティ対策Lab",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQT0Z2WVcwdnJXc1BDTFVlWjdVTGhJZGQ3cm1tRXJIUGlnUEdaQUctUmszQVJCOWZUNUU0Wl9VUmlSNEtpX0czYlFpVWtyXzRoc2tPb2xLQjNma0plNXZOV3hBbWF2M2Y2azFkQUJBS196bE9FMDFhMkU3Z1pjWXZKdlFTcUFsUF9uaHE5a0FCUHctaklzNmhUVjIzVXdhY2c?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-12-auto-89097c77a0",
-      "member_ids": [
-        "2026-11-12-auto-89097c77a0"
-      ],
-      "priority": "C",
-      "published": "2026-11-12",
-      "company": "サイバーセキュリティは一蓮托生。情報漏えいが続発する中での「Wi-Fiルーター見",
+      "company": "韓国・金融保安院",
       "service": "",
       "affected_count": 0,
-      "summary": "サイバーセキュリティは一蓮托生。情報漏えいが続発する中での「Wi-Fiルーター見直しの日」 【編集部コラム】",
+      "summary": "韓国・金融保安院に不正アクセス、48社の約130ファイル流出...警察が捜査(KOREA WAVE)",
       "sources": [
         {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE00M0c1R0Fma1RWQzFhNHhoSFptVGJwSVAxYnJINUlxM1FLc1dtV0hZaE5QVjU2QnVkemtvcTB5bXU4T3hwNGk3VEFyUTlkMWZTMV9ZdTdyVWZ2WGVoM3NIdUJ6X1luSjFERlFzQnU1djlaa1VxMUp6dw?oc=5",
+          "name": "KOREA WAVE",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1QekgwckY0NTZIb2s5LVY1MUNmaF9hTFRsbDBzaHFqOHk2NFFSTDB0S2c1Rk9YV1pJeEpwWnJCZUxMam1pN1FwMFctZGN1R0N6dERpZjRNRzNjVEI1OUZfTkEyLWtzYWp4NEgyTWhjZFVyLVEtM0wxNENwUnEzak0?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-11-12-auto-3d7b1fd84a",
+      "id": "2026-11-12-auto-000c286950",
       "member_ids": [
-        "2026-11-12-auto-3d7b1fd84a"
+        "2026-11-12-auto-000c286950"
       ],
       "priority": "C",
       "published": "2026-11-12",
-      "company": "住友生命と連携した健康増進事業",
+      "company": "企業のAI利用",
       "service": "",
       "affected_count": 0,
-      "summary": "住友生命と連携した健康増進事業で個人情報漏えい 42人の名前・生年月日など 山口県",
+      "summary": "企業のAI利用、情報漏えいやデータ管理への不安は?INTSIG、日本企業のAI活用とセキュリティに関する実態調査を開始",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9zYWh1WllkazVhTkhJOGRpX0p4dnpnNnEyUmlxMXdlSmZocVlINkdoWGNSRzcxeDhFc1lMZUJLYzdYZUNwMnRjUW1DNnJ0VGZrUEdzRDlpZ25wYWp6bjJ0a2lhYVNUaVE?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-12-auto-4c9d47772d",
-      "member_ids": [
-        "2026-11-12-auto-4c9d47772d"
-      ],
-      "priority": "B",
-      "published": "2026-11-12",
-      "company": "SMBC日興証券の持株会管理システム",
-      "service": "",
-      "affected_count": 56487,
-      "summary": "SMBC日興証券の持株会管理システムに不正アクセス 会員最大5万6487人の個人情報が漏えい、口座情報も対象に",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9lbUZnaWF2RTlZMmRLcXY2X1VsSHRtd002SWNwLXo2M2Z1N1JMUk5hbzhBQUh2blloMDlzVU82WFV6S0ZQc1l1RA?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE95d0lRWjVNY1NkUk1CQmpBaTRvVVkxTzNYQlZWbHROZGNPZjNvQXF1Zy05ZzRlSXBSZzI2eDJWdW9TNUROcThMWUtlWFhnU3hoSmcxRHpIWnFIdTJ3X1BYSTVsZUtwUmd6?oc=5",
           "official": false
         }
       ]
