@@ -1,18 +1,60 @@
 {
   "version": "1.1",
-  "generated_at": "2026-11-14T19:16:11+00:00",
+  "generated_at": "2026-11-14T23:03:54+00:00",
   "before_count": 1839,
-  "after_count": 1839,
-  "net_change": 0,
-  "new_count": 0,
+  "after_count": 1846,
+  "net_change": 7,
+  "new_count": 2,
   "removed_count": 0,
   "visible_before_count": 1839,
-  "visible_after_count": 1839,
-  "visible_net_change": 0,
-  "raw_before_count": 2634,
-  "raw_after_count": 2637,
-  "raw_net_change": 3,
-  "new_candidate_ids": [],
-  "new_candidates": [],
+  "visible_after_count": 1846,
+  "visible_net_change": 7,
+  "raw_before_count": 2637,
+  "raw_after_count": 2643,
+  "raw_net_change": 6,
+  "new_candidate_ids": [
+    "2026-11-15-auto-3f41b32ca5",
+    "2026-11-15-auto-65f468a797"
+  ],
+  "new_candidates": [
+    {
+      "id": "2026-11-15-auto-3f41b32ca5",
+      "member_ids": [
+        "2026-11-15-auto-3f41b32ca5"
+      ],
+      "priority": "B",
+      "published": "2026-11-15",
+      "company": "京阪HD、グループ4社のLINE利用者情報",
+      "service": "",
+      "affected_count": 224386,
+      "summary": "京阪HD、グループ4社のLINE利用者情報に流出のおそれ プロフィール情報は最大延べ22万4,386名、氏名なども対象",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPX3gxRUVKWmpVeXZVd0F6N3dwMVBqZXZjdkFnU2FwUUliUnJRdUoyb2VNR3NRc3UxWFhMd3dfZHFTMTIwT2wyZU41TlFIUUhGcmZQOVRhbDl6NXdpNHY4MS1VZnZ5T29JV0JDY19abTRaZVBGMjZ1LWgyVXF4ajNYM2l1aDFfSFhDZ1hVUnhNMUtkRGZtaFU4N2FybFQ?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-15-auto-65f468a797",
+      "member_ids": [
+        "2026-11-15-auto-65f468a797"
+      ],
+      "priority": "C",
+      "published": "2026-11-15",
+      "company": "流出情報悪用「第2波」か 詐欺",
+      "service": "",
+      "affected_count": 0,
+      "summary": "流出情報悪用「第2波」か 詐欺、成り済まし...拡大懸念 うごめく不審サーバー「有事前夜」",
+      "sources": [
+        {
+          "name": "西日本新聞me",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBqWGs0b0NmSmUwQS1KUWc3MFE2Rkl6N0l5TVRZSGZWM19BbmVObU8xbktZWEpRWk55RThWMXd6YTFLRnVNS0dnQUlMSzdPYkVDeUxrbFhR?oc=5",
+          "official": false
+        }
+      ]
+    }
+  ],
   "removed_candidates": []
 }
