@@ -1,76 +1,101 @@
 {
   "version": "1.1",
-  "generated_at": "2026-11-15T01:03:09+00:00",
-  "before_count": 1846,
-  "after_count": 1849,
-  "net_change": 3,
-  "new_count": 3,
+  "generated_at": "2026-11-15T02:47:20+00:00",
+  "before_count": 1849,
+  "after_count": 1855,
+  "net_change": 6,
+  "new_count": 4,
   "removed_count": 0,
-  "visible_before_count": 1846,
-  "visible_after_count": 1849,
-  "visible_net_change": 3,
-  "raw_before_count": 2643,
-  "raw_after_count": 2646,
-  "raw_net_change": 3,
+  "visible_before_count": 1849,
+  "visible_after_count": 1855,
+  "visible_net_change": 6,
+  "raw_before_count": 2646,
+  "raw_after_count": 2652,
+  "raw_net_change": 6,
   "new_candidate_ids": [
-    "2026-11-15-auto-d080a8c70a",
-    "2026-11-15-auto-507014616d",
-    "2026-11-15-auto-fcf7b8d9d4"
+    "2026-11-15-auto-90a907e532",
+    "2026-11-15-auto-79aac73187",
+    "2026-11-15-auto-3a22908e11",
+    "2026-11-15-auto-dae82e5f3d"
   ],
   "new_candidates": [
     {
-      "id": "2026-11-15-auto-d080a8c70a",
+      "id": "2026-11-15-auto-90a907e532",
       "member_ids": [
-        "2026-11-15-auto-d080a8c70a"
+        "2026-11-15-auto-90a907e532"
       ],
       "priority": "B",
       "published": "2026-11-15",
-      "company": "リンツ314万件漏えい 名前も知らない委託先から情報は漏れた",
+      "company": "【AI悪用の拠点確認】流出被害「第2波」懸念 サイバー攻撃",
       "service": "",
-      "affected_count": 3140000,
-      "summary": "リンツ314万件漏えい 名前も知らない委託先から情報は漏れた 預け先の死角(尾藤克之) - エキスパート",
+      "affected_count": 0,
+      "summary": "【AI悪用の拠点確認】流出被害「第2波」懸念 サイバー攻撃、収束見えず",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdFY0OWxLTFY2TUZOTmlISmRvanlVNlg5TnFEaGF3Mml2Q19GUkJ6bXJVVXZUcTlBdVFrT0hScEp2ZGJ4b1F2SDNUVG9SNU5RYXd5N19Hc2g2elJqTzcyRUxibkN6OVJ0T2ttd2hQQ2tPc1dkdXdheTZEVDZvallxS1lCcWExNUc2?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9WNTRwSzlCVXV4cDY1eHpUYWRsNmVBdjdYWGROYWd5cTFrT3ZQblh4ZWo0VHBZMzhSWDJ1YzBpUkVCYTM4NjY5RXNGb2dNZld0T0lRRmRfRktZd25uT0E?oc=5",
+          "official": false
+        },
+        {
+          "name": "西日本新聞me",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAzbFFLbXZfbnlWQllnNUdzZmkzZlFVUWhVSnRfNUFTTUlHYmhoLXhZVm5PVFUzbDhUMG84Y01iZW84R0o3MnJTbkZ2ZzBoTW9QaUdfSjVn?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-11-15-auto-507014616d",
+      "id": "2026-11-15-auto-79aac73187",
       "member_ids": [
-        "2026-11-15-auto-507014616d"
+        "2026-11-15-auto-79aac73187"
       ],
       "priority": "C",
       "published": "2026-11-15",
-      "company": "高知市、職員採用試験の受験者1,464件",
+      "company": "長崎県 佐世保市「させぼeコイン」、約3万5,600件のメールアドレス",
       "service": "",
-      "affected_count": 1464,
-      "summary": "高知市、職員採用試験の受験者1,464件の個人情報が漏えい ApplyNowへの不正アクセスで",
+      "affected_count": 35600,
+      "summary": "長崎県 佐世保市「させぼeコイン」、約3万5,600件のメールアドレスが情報漏洩 アララ 不正アクセスが波及",
       "sources": [
         {
-          "name": "合同会社ロケットボーイズ",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZExsSFZVNE5uZF96c3hXTHpPcnFDYzh3U2xNanFrRnk2M2l5M1NQMGxsNHRpZmZEeUJpT2FsNW1td3BxaXZTMmRsX3B6aE8wN1ZVeVlvN25Qb2l2UWhod3pPaGk0ejY3UVZjanFLSERDWDM4QnNYLVFKLXViMkpQbUtjQUxYV1JDNlpBX21VSktUekY5R0ZvS29B?oc=5",
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPczRFeW9yWUsxYnh5Ty03YktCeFVNMHFvN0hsT1BITXdSMVBxTXRrS0JDS1V1MVZWWUs0VFJQbExCcjBXMTBWbVN4cUlnMUlBZGlVSEdrUElPSTk4cE9vcG9yNkV5M3paME9XRFFBM09GSjhEcHBkSkdySk95RjVYWjA4YWxKTXE5UEdXb3NGZ3lTMWl3?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-11-15-auto-fcf7b8d9d4",
+      "id": "2026-11-15-auto-3a22908e11",
       "member_ids": [
-        "2026-11-15-auto-fcf7b8d9d4"
+        "2026-11-15-auto-3a22908e11"
       ],
       "priority": "B",
       "published": "2026-11-15",
-      "company": "アップルワールド「Rikisha Easy REZ!",
+      "company": "新潟市「e-NIIGATA」でメールアドレス3万7,931件",
       "service": "",
-      "affected_count": 582024,
-      "summary": "アップルワールド「Rikisha Easy REZ!」に不正アクセス、最大58万2,024件の個人情報漏洩の恐れ",
+      "affected_count": 37931,
+      "summary": "新潟市「e-NIIGATA」でメールアドレス3万7,931件が漏えい アララへの不正アクセス、申請通知メールは停止続く",
       "sources": [
         {
-          "name": "合同会社ロケットボーイズ",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONVNIYmZlRnFsbmc2XzlYNGsySVFJMktQeHZlaFZQMnktbGRyZmVSLTMtZU9WbDNkUEY4aUwwTVJhY3ljZVJuWTVhQVMzbzBVaXlHT25KS2FkVDc5NDByX1J2NW9QWUV6cW05SVdQRXFWcmFVS2Q1bTcwWGJxT3FLVjJfVnhyQUVCTG95WG1KTnVGaExvX0psN1FPRzVKVVAteWljVFN1ZTFscl9qLXJ1dXN4YnlFZ2Yz?oc=5",
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNblhDcjFuRVZzT1V5Qmp5X1owcXJYU3JpeU5maEcxNEdsS19FaHAzVnA0cGNYX25wRTQxcVhTc3NjSEFBRmp1RU9KcG1CcEZkck1KNm45clREdGJFbmhjZzIybGN0Z0hGX2lnaFAzc2MyVTI4VlJrZGRPMWJXSnBiM1dILThVVmZ1ajhLRkEzVGNvSlAzS3JCOWhLc0poM29UWFhF?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-15-auto-dae82e5f3d",
+      "member_ids": [
+        "2026-11-15-auto-dae82e5f3d"
+      ],
+      "priority": "C",
+      "published": "2026-11-15",
+      "company": "コインワン委託先侵入",
+      "service": "",
+      "affected_count": 0,
+      "summary": "コインワン委託先侵入で個人情報流出警告",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNbzhSSWtGNEo3RDBMa3dmVHVFUlg4SlNBYi1nUk53MkZOY2xYQmNSUV9CRUpTaTNqTzZqekdwU0xfX0duT0x6YzRZNmYwSDhSRnlmMzc2WFI3YXpBb2J6bjE4cDF6cm4wcHBQXzVkaEdJRlFjSVJ3UWJoU1JVaHBfctIBlAFBVV95cUxPOWxPTWpleWFnczNibFJzc1h2VFVWNkw3THg3WGFJUmc4UXF2ZDhoQ3lXdWk5WWtLcTR0UUlPc18wQVhraHZWS24zR0VpaW1WOW1wVk5nLWJGa1JLd2NVVmtiWG5SRTluWDNQN3ZtVXVsaFlfLW5kZHVBMHd4RTRYRFVwZlhoLURLaGt2Nm02cUFqY1Vo?oc=5",
           "official": false
         }
       ]
