@@ -1,56 +1,136 @@
 {
   "version": "1.1",
-  "generated_at": "2026-11-15T17:49:39+00:00",
-  "before_count": 1869,
-  "after_count": 1873,
-  "net_change": 4,
-  "new_count": 2,
+  "generated_at": "2026-11-15T22:56:43+00:00",
+  "before_count": 1873,
+  "after_count": 1881,
+  "net_change": 8,
+  "new_count": 6,
   "removed_count": 0,
-  "visible_before_count": 1869,
-  "visible_after_count": 1873,
-  "visible_net_change": 4,
-  "raw_before_count": 2664,
-  "raw_after_count": 2669,
-  "raw_net_change": 5,
+  "visible_before_count": 1873,
+  "visible_after_count": 1881,
+  "visible_net_change": 8,
+  "raw_before_count": 2669,
+  "raw_after_count": 2677,
+  "raw_net_change": 8,
   "new_candidate_ids": [
-    "2026-11-16-auto-439c0bf122",
-    "2026-11-16-auto-594dc0533b"
+    "2026-11-16-auto-ae5eb205f1",
+    "2026-11-16-auto-a2dc303456",
+    "2026-11-16-auto-615482f8d1",
+    "2026-11-16-auto-95eab2b508",
+    "2026-11-16-auto-5aaefb54e4",
+    "2026-11-16-auto-fada4b4245"
   ],
   "new_candidates": [
     {
-      "id": "2026-11-16-auto-439c0bf122",
+      "id": "2026-11-16-auto-ae5eb205f1",
       "member_ids": [
-        "2026-11-16-auto-439c0bf122"
+        "2026-11-16-auto-ae5eb205f1"
       ],
-      "priority": "B",
+      "priority": "C",
       "published": "2026-11-16",
-      "company": "台湾外交部の領事サイトにサイバー攻撃、旅券写真7万2702点",
+      "company": "広島ガス、電気契約情報約3,200件",
       "service": "",
-      "affected_count": 72702,
-      "summary": "台湾外交部の領事サイトにサイバー攻撃、旅券写真7万2702点が流出 海外の委任状2万6072点も窃取",
+      "affected_count": 3200,
+      "summary": "広島ガス、電気契約情報約3,200件に漏えいのおそれ 両毛システムズへのランサムウェア攻撃で判明",
       "sources": [
         {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWk5Scm42OFQteUJFTXFIT19KNllSU0FZVzZWOW84SkF3alp3blQzU2JyZW1GM3RlSkhMN2tMSnUzQUpuVDdudG5kRmM2ekxGbkFsVGJFMGg2aWwyb3R1bUZRUXF3aGo5WHlPeE5ZMng5ZU1ZaEVhdFZaZ1NEVUNBNmNlSjQ4dS0xMEpLNkdhQnhPNjBWVDlVXzVwUVQxQlpUOVdGQ1dJN2dsTDFr?oc=5",
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOa0Q3bWJDaFFwWU03SWtfMHlBc1N6TzRLSEwxVXpxNk1RWHdsS25VZmhsNGVKdUdCN19TN1QwY0hVV3BHUDdSdUVFYWl1UzJhWkRwem42VldfMWRXWndkZXJtNFBQMndQZGFGUnctcXhwdnNoNFpUbmxxa2lVTm1CeUZzYTkwX1VrSmh2N29kal93bk5vOWlWZTdWUnpUMmxRbFN5bVRwNUZvdw?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-11-16-auto-594dc0533b",
+      "id": "2026-11-16-auto-a2dc303456",
       "member_ids": [
-        "2026-11-16-auto-594dc0533b"
+        "2026-11-16-auto-a2dc303456"
       ],
       "priority": "C",
       "published": "2026-11-16",
-      "company": "福井県「ふくアプリ」、Pokepayへ",
+      "company": "プレイド「KARTE",
       "service": "",
       "affected_count": 0,
-      "summary": "福井県「ふくアプリ」、Pokepayへの不正アクセスで一時全面停止 11月15日16時45分に再開、BankPayチャージは停止継続",
+      "summary": "プレイド「KARTE」に不正アクセス、外部連携のシークレットキー・トークン無効化を要請 ネットワーク遮断完了も全面停止続く",
+      "sources": [
+        {
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRDFMV1VZQkU1R2kzeF9xdl9KSDJZTWVZZm00ajJJazctcnhSNVZiTkNUdkRaQkV2Yy1pUm1xb1k5bG9PZGFWNjlzMVJvbElQQWdCV0tPdUZmelJXVU5MazUyNDJtZ3VtNXZKMThLQl9XeHpQbXFRY1NIZVZUaG5TaDNSZ0lBRW04NnZwQ3JNQ0RmMGtwT01rbXRUN0NLVTI5eG1LODhuUQ?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-16-auto-615482f8d1",
+      "member_ids": [
+        "2026-11-16-auto-615482f8d1"
+      ],
+      "priority": "B",
+      "published": "2026-11-16",
+      "company": "ジーニー「GENIEE MA」不正アクセスの費用負担が3億3,600万円で確定",
+      "service": "",
+      "affected_count": 36000000,
+      "summary": "ジーニー「GENIEE MA」不正アクセスの費用負担が3億3,600万円で確定 クラウド計算資源の不正利用、1億5,500万円を追加計上|セキュリティニュースのセキュリティ対策Lab",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNMVN5RkRGdkpTa25MQXJ6RTJGU25KUUJUamozRk13bnNmb0FJaGhsT0RRVmhxQXF2Z2hGbzZKdmxfM1cxY2dFamxzWnVlaWY3cnRoTWFmOXZ4blo2Yk9EbHZQemZVYllHU1FlanoxdWdxdHJDT240R3JSYU9CcHFDem1jOUdDaDl4bGsxcUZDbGZJeHptclRLNktNSk1fb1pG?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMjZMYzVHcDc4N25XUmttdElGWG1zbVVZdkpiRUdmeXRucW94UVNaUXlNQlBvQ2M2TGl6d1hydVJ2dmhuTmJjQU9FUDZ6S3lRUVo0UHJkV2dpX2hQZjlRNlFjTGVQa2RMQS0wMHluTUU5ZERiRGxJWlBvVTlsSVdpd2FvMmFpQVdxZ2RjRHd1bmNKQUFEVFBTQUFrU0tiN1RtZkEtSDVaWFg?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-16-auto-95eab2b508",
+      "member_ids": [
+        "2026-11-16-auto-95eab2b508"
+      ],
+      "priority": "C",
+      "published": "2026-11-16",
+      "company": "独自電子マネー基盤 Pokepay",
+      "service": "",
+      "affected_count": 0,
+      "summary": "独自電子マネー基盤 Pokepay 不正アクセスの影響団体 まとめ ハチペイ・ほくペイ・ふくアプリ・めぶくPayと大学生協の停止・再開状況|セキュリティニュースのセキュリティ対策Lab",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZkpMdy1ZNzlQcEZwVWpMOFNEdmFwWW15dGJzYjNmbE8yUFBmQ3ctN2hwdmJ6YW9lZlNVamg2RjZrRUpZS05zVTllY0Q3YjJKU05oVmZ6c2tTSGJHNTJwMEFjTVRkdVhJcGdlcHpFbmFlN1BYTjNUazNnYlI4cm9CcndPeWRnZE1TQlQ3UFBreWNTb0RmVnc3Sl9EZkNLS0JoN05OajFPY1NhaUl3MEVuM3lR?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-16-auto-5aaefb54e4",
+      "member_ids": [
+        "2026-11-16-auto-5aaefb54e4"
+      ],
+      "priority": "C",
+      "published": "2026-11-16",
+      "company": "韓国の仮想通貨取引所コインワン、委託先から個人情報",
+      "service": "",
+      "affected_count": 0,
+      "summary": "韓国の仮想通貨取引所コインワン、委託先から個人情報が流出",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1GdFF0cm1iR1VGQVJtOVFzNm5ITEc5enNjOU92SmlMdlNORUkyVElsRjM2dTBtRjlaNHN0eGs2cFluaGJPVS1BZ2xLdXRwaVJVanU1cTlubkV3WlhEajZr?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-16-auto-fada4b4245",
+      "member_ids": [
+        "2026-11-16-auto-fada4b4245"
+      ],
+      "priority": "C",
+      "published": "2026-11-16",
+      "company": "Coinone委託先サーバー",
+      "service": "",
+      "affected_count": 0,
+      "summary": "Coinone委託先サーバーに不正アクセス、顧客情報流出の恐れ",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQM1hOLVJzb3FQY2c2dmJsQnJKdnppVUpncnhvdko5TzFiQndjZDM1M3dTMFN6ZURzbnNRanpDNkxBM2cyWkdjTjdyV09TVWZDR2t4d0JOUC14RkFnRXRsM0xlT2hNeHQxaU96Tl9Fbi1XbUFQMGJVY2s5cFRMbGhRMjZFb09CT05fbWVkWGVoanpnMWExNHY4ckI4Wk5MZDM0NHhPakVmNi04TTg?oc=5",
           "official": false
         }
       ]
