@@ -1,102 +1,256 @@
 {
   "version": "1.1",
-  "generated_at": "2026-11-16T01:02:32+00:00",
-  "before_count": 1881,
-  "after_count": 1891,
-  "net_change": 10,
-  "new_count": 4,
+  "generated_at": "2026-11-16T02:50:24+00:00",
+  "before_count": 1891,
+  "after_count": 1903,
+  "net_change": 12,
+  "new_count": 12,
   "removed_count": 0,
-  "visible_before_count": 1881,
-  "visible_after_count": 1891,
-  "visible_net_change": 10,
-  "raw_before_count": 2677,
-  "raw_after_count": 2689,
-  "raw_net_change": 12,
+  "visible_before_count": 1891,
+  "visible_after_count": 1903,
+  "visible_net_change": 12,
+  "raw_before_count": 2689,
+  "raw_after_count": 2704,
+  "raw_net_change": 15,
   "new_candidate_ids": [
-    "2026-11-16-auto-283462c001",
-    "2026-11-16-auto-56af67a97b",
-    "2026-11-16-auto-0fbe7baf43",
-    "2026-11-16-auto-cfcdd9eac8"
+    "2026-11-16-auto-3f640c4fa2",
+    "2026-11-16-auto-404c65f7e7",
+    "2026-11-16-auto-b3974f297c",
+    "2026-11-16-auto-9d5e85b4b5",
+    "2026-11-16-auto-32bed27b76",
+    "2026-11-16-auto-f4f061476c",
+    "2026-11-16-auto-a554007fa8",
+    "2026-11-16-auto-0dd3d00cee",
+    "2026-11-16-auto-9d129453b6",
+    "2026-11-16-auto-f5c32aeb47",
+    "2026-11-16-auto-0675d69764",
+    "2026-11-16-auto-e03e76c8e5"
   ],
   "new_candidates": [
     {
-      "id": "2026-11-16-auto-283462c001",
+      "id": "2026-11-16-auto-3f640c4fa2",
       "member_ids": [
-        "2026-11-16-auto-283462c001"
+        "2026-11-16-auto-3f640c4fa2"
       ],
       "priority": "C",
       "published": "2026-11-16",
-      "company": "三井住友信託銀行、顧客のメールアドレス2,351件",
+      "company": "ラキールのAWS不正アクセス、顧客環境で140人分",
       "service": "",
-      "affected_count": 2351,
-      "summary": "三井住友信託銀行、顧客のメールアドレス2,351件の流出を確認 Fleekdrive経由でアララへの不正アクセスが波及",
+      "affected_count": 140,
+      "summary": "ラキールのAWS不正アクセス、顧客環境で140人分の個人情報漏えいとサーバ侵入が判明(ビジネス+IT)",
       "sources": [
         {
-          "name": "合同会社ロケットボーイズ",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOYUhqVnR6bHRiWVdhTVJtZy1oeHI5MGtrTjlJRmtuRzRpUnlaRzFSOFlSN2NQcE5zTjRPZ2FzOWx3cDJ5TXpNUVRwUXE4cVlPNFdMMkJraUVPSm9wRVFMZDhHeEZYMWRqQ2doTndIMjRPVGphczluQW4ybGJfM2FXZjVDNUZUVE8xdW4teUFVekJXSWszUXc?oc=5",
+          "name": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE83cmxGU0t6ay1vN21VOWdyU1lUeTRVNEp1dk1zRWRwWWRMaFl2MWZoTnE1bVk0XzRMU2FhMEd2WXJpdUVCWUJOY2Q5Znl3SVZQNFVZZERjeUNpLVd3cXZaY3R2dVpmQkwwVk5PMERmajZWTkdhcmlSUEtYX01TRDg?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-11-16-auto-56af67a97b",
+      "id": "2026-11-16-auto-404c65f7e7",
       "member_ids": [
-        "2026-11-16-auto-56af67a97b"
+        "2026-11-16-auto-404c65f7e7"
       ],
       "priority": "B",
       "published": "2026-11-16",
-      "company": "靖國神社オンライン授与品・頒布品サイト",
+      "company": "MTG「Style」、最大2万6,757件",
       "service": "",
-      "affected_count": 14500,
-      "summary": "「靖國神社オンライン授与品・頒布品サイト」に不正アクセス、約1万4,500件の利用者の個人情報が漏えい",
+      "affected_count": 26757,
+      "summary": "MTG「Style」、最大2万6,757件の個人情報漏洩とLINE友だち情報最大5万4,465件に漏えいのおそれ-COMSBIへの不正アクセスで|セキュリティニュースのセキュリティ対策Lab",
       "sources": [
         {
-          "name": "ScanNetSecurity",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBOMVZ5aUxlMHQ1aVM2MWlTblpmRXl0U25vT0FOeDBucElGM0tTQkxDTWoxQ256Qm9wdWdIWnNxeTFOdjdZNElIaElxZDcyNmV2SVhKY2xqLUJxVzd4bVZrUng1NWF2SFlPOVAwSw?oc=5",
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcFp2YXBQZFFpWlVTZFRjV1dFdW5wc2l4SlFyQWR4Z1lXWkN2RGlEZzQ0azU2d2U2WE1fX216a3RXYXZ1Mkprc3l4Z2N6YUp1VEJDb0lyUDdfS3YyS2F0dUdoRXJxRXMyWE5wY2c0SFdkZW53YVBlN05HMEtnTE5Yai1GWExXUnZaRllXX0RBMVhvR1FKSFlIMFd3NXQ0emVCOVFz?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-11-16-auto-0fbe7baf43",
+      "id": "2026-11-16-auto-b3974f297c",
       "member_ids": [
-        "2026-11-16-auto-0fbe7baf43"
+        "2026-11-16-auto-b3974f297c"
       ],
       "priority": "C",
       "published": "2026-11-16",
-      "company": "エイコー、ランサムウェア被害を公表 11月9日に一部システム",
+      "company": "ラキール、AWSアクセスキー窃取で顧客環境にも不正アクセス",
+      "service": "",
+      "affected_count": 140,
+      "summary": "ラキール、AWSアクセスキー窃取で顧客環境にも不正アクセス 140名の個人情報漏えい、不正ユーザー作成も確認",
+      "sources": [
+        {
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZGxITzBUUzRUdzlmRVUwcjBQNDNKb2lDMUhISVc1OGRYS2JDODlyclNJb19YLWI5UncwSFl6alZXSFNlSGs4OUN3SUVSU0tCZVZmRmp0REwtQVNHdDNZSjRIQWlqbk5qVEdSRGZMQ0U0YWp3X0tmR3hSdVoyQVRRbjhldzJUZUJKWTZqblZuU2s4Sm9rbi1CY3AwTHgxT0l2c0dNTThBNUhSbnM?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-16-auto-9d5e85b4b5",
+      "member_ids": [
+        "2026-11-16-auto-9d5e85b4b5"
+      ],
+      "priority": "B",
+      "published": "2026-11-16",
+      "company": "山善、問い合わせ情報延べ1万508件",
+      "service": "",
+      "affected_count": 10508,
+      "summary": "山善、問い合わせ情報延べ1万508件に漏えいのおそれ 「山善ビズコム」では49名分の情報流出を確認",
+      "sources": [
+        {
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRVA3TjBMVUlNS2FpdW03bVExYndKQ1pqS1VSdkVwbGlnMXlIZE9wRWNOWkYwZTI3SjA1UnVDdnFlRlU4RFF1S29RWjBnX0FFbExINXBFNlhCU2hCOEZGbnNhdXpGbE8xY0g1TU83MGtpX0diXzQxWjZUSWZnS1N5NTlFNWJ2Q0VMSmZST0FOTzdacngwTnhOWjNvVTFnMl96eUhQaFE3VHQ?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-16-auto-32bed27b76",
+      "member_ids": [
+        "2026-11-16-auto-32bed27b76"
+      ],
+      "priority": "B",
+      "published": "2026-11-16",
+      "company": "Xリーグ、LINE登録情報1万3,126件",
+      "service": "",
+      "affected_count": 13126,
+      "summary": "Xリーグ、LINE登録情報1万3,126件が漏えい 氏名・メールアドレス55件も対象、COMSBIへの不正アクセスで",
+      "sources": [
+        {
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdzR5aU5HbHRnVEpxRDlJNUxlZkNsNVBUSjVwUnNPUF9hVmxvekFGVEhLXzJfcXlhU2pweGhCNEdIQXdyM2ZUV0ZjSkVzRDVFMWpEeGdTVlF1SXk3UTNjVWxXZFp6WUh2aE55eGtYeXgzcVlhbF82Mi1ac1MxYk1zeTVkU2NLSGtlN2dubjB6Sjk2RTZfUXl5ZA?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-16-auto-f4f061476c",
+      "member_ids": [
+        "2026-11-16-auto-f4f061476c"
+      ],
+      "priority": "C",
+      "published": "2026-11-16",
+      "company": "ちいかわくじ、配送先",
       "service": "",
       "affected_count": 0,
-      "summary": "エイコー、ランサムウェア被害を公表 11月9日に一部システムで不正アクセス確認、振込先変更を装う連絡に注意喚起",
+      "summary": "ちいかわくじ、配送先の個人情報が流出 オープンロジへの不正アクセスが4ストアに波及、11月27日予定の3商品を販売延期",
       "sources": [
         {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNblg5TDhLLUg0VXpvMVU3ejlpc2xJc2o0WUJFTjhHdDlDYzdkM0lGZHhOeTBlbjVjMExfTDNCaHJ0YTl3VXVwdG9fUUNTQ3JyQnFSU1Z0SWwwb09PTFl1c0dKRXNlRVNid3BWenF6QXBSdVZyOTFpUjVHTHRoUVpXN1dZRC13WEUzOWgyVmxIZzFQdGY0c2FTZk1iOGdmTGxvSkxXcEUwZ1U?oc=5",
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOFdUVUtaZjBvRzJFeFNJRXRXaExRTGFzRTJhZHpHeEtTQXByU1I4Rzk0T2JYa1hGWDB4UEVHVHU1SkpmMHZJV19nTy1XSUZGUklFeVVTclNQS2lrcy1fcjh5ZVhpUGJxV0tMRzdhZThMdUdWWFdvLTFfYVowOXBNSTVEbm02LThpcTh3a0Etc29LaGlMY0VxeFZ5YmlBblhYQnV3UkNreEFPdjZiSVFR?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-11-16-auto-cfcdd9eac8",
+      "id": "2026-11-16-auto-a554007fa8",
       "member_ids": [
-        "2026-11-16-auto-cfcdd9eac8",
-        "2026-11-16-auto-7fefedcb67"
+        "2026-11-16-auto-a554007fa8"
+      ],
+      "priority": "B",
+      "published": "2026-11-16",
+      "company": "One’sCloset(ワンズクローゼット)不正アクセス、約129万人",
+      "service": "",
+      "affected_count": 1290000,
+      "summary": "One’sCloset(ワンズクローゼット)不正アクセス、約129万人の顧客情報が影響対象 EC連携API接続キーの漏えいも確認",
+      "sources": [
+        {
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSUVwcEsxYUp4QnZYMkdxNGhMbXZIcS05WEpqby1MSHRUcFVZT3FUUWpGQ191TGRWUVV3dTIwX0xvSTNOSVhMcGJKWWFjanRlc2p5WXU0Q3hJcUQ3cVRlUW1qSnhHQ0NLUndSNUk1V3hxeVJfM2tQdG4yOENXUmlSN3ZlNmlGdlFObXVhR3JqQklQZkhWYnh4R2lxTUVDZGwyanhNM2ZRd0I?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-16-auto-0dd3d00cee",
+      "member_ids": [
+        "2026-11-16-auto-0dd3d00cee"
       ],
       "priority": "C",
       "published": "2026-11-16",
-      "company": "ホンダ、個人株主のメールアドレス1741件",
+      "company": "ネオ・ウィング運営 ECサイト「Neowing/CDJapan",
+      "service": "",
+      "affected_count": 285,
+      "summary": "ネオ・ウィング運営 ECサイト「Neowing/CDJapan」に不正アクセス、285件が調査対象 カード情報・セキュリティコード漏えいの可能性|セキュリティニュースのセキュリティ対策Lab",
+      "sources": [
+        {
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNkoxd3Y4aDJpQ1lYT3A2cjNTSHVuc0lfMm5DUHpuTzMycnczX21NUG1JNGw4RHNPb2ZQVkZKeXNaNEpkQy1XdGtBVkJtQWxfMzJ6Y0lRa0UzVHFRSkpRNm1OTy1JUllwb19FdVg4TkI0eF92Tm5sT3JuaEZLNFZBVXRDSEJtVlQ5b1ZXMzRRdjB0aFZmbFEwRTA5aw?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-16-auto-9d129453b6",
+      "member_ids": [
+        "2026-11-16-auto-9d129453b6"
+      ],
+      "priority": "B",
+      "published": "2026-11-16",
+      "company": "ブルボン子会社レーマン、メールアドレス1万4,136件",
+      "service": "",
+      "affected_count": 14136,
+      "summary": "ブルボン子会社レーマン、メールアドレス1万4,136件が流出 アララへの不正アクセスがGMOメイクショップ経由で波及",
+      "sources": [
+        {
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPOVEzTzE0eThucjJYdFU4WWE4Y1hYNG9OTVFtN19SVnRGOUVmOTRMQjNGVHA1NWU2MV9mS3ZuZUplMFNVWFJ2MWtUYkNWQzFUZUhUYkxXZmhpM21tNUFETXRnRXlPS01vUlg5dURrWV9tbjZfazYtS3RTS1N0T2JJSVBDT1B4bHYzbzVLRWJIczVQUFNBTm85U0U1bWtjV1pqM1FGS1l0Zw?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-16-auto-f5c32aeb47",
+      "member_ids": [
+        "2026-11-16-auto-f5c32aeb47"
+      ],
+      "priority": "C",
+      "published": "2026-11-16",
+      "company": "ホンダ株主のメール1,741件",
       "service": "",
       "affected_count": 1741,
-      "summary": "ホンダ、個人株主のメールアドレス1741件が流出...ギフトパッド経由で不正アクセス",
+      "summary": "ホンダ株主のメール1,741件が漏えい 三菱UFJ・堺市にも波及、委託先経由で被害拡大(ビジネス+IT)",
+      "sources": [
+        {
+          "name": "ビジネス+IT",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9EY3psSy1KdXI0YTNrUzR1OW00YVNxaFRCTVlxa0JUQm1OUFEyWC1obWN0Vkhpa1pFRkRpeXk0RFZXek56R3NZdk9adUw1NHJUcW0yRkdHZk02Z1FyOUl2M0NveF9FbnRVbUR6T3NmUFpZdU5VUG9DcjdtUHFiWnM?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-16-auto-0675d69764",
+      "member_ids": [
+        "2026-11-16-auto-0675d69764"
+      ],
+      "priority": "B",
+      "published": "2026-11-16",
+      "company": "愛知県の外食大手でも1078万件 急増する企業",
+      "service": "",
+      "affected_count": 10780000,
+      "summary": "愛知県の外食大手でも1078万件 急増する企業の情報漏えい 全国で約3億5000万件",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5qN3QyWUhnZHVYTTVCeTFGNTVjckFoRW1hV3JfSTVTTndYTDZZaHRSWVBpVHp5a3Z4NHN4d2ZRbjYzaHNnc2tDTHlpVXpDX3VvZ1V2T011R3NCUkFUQmNF?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8xQTlTNzZWTFNFR01GNzdCWS1Ub3BEUllIamk1RzhXcS02MjVlRE5vMjVmcm1uMTVkUmdNc3psTW5RLTRBUVNjOHlSM0xrQmY2U3c?oc=5",
           "official": false
-        },
+        }
+      ]
+    },
+    {
+      "id": "2026-11-16-auto-e03e76c8e5",
+      "member_ids": [
+        "2026-11-16-auto-e03e76c8e5"
+      ],
+      "priority": "B",
+      "published": "2026-11-16",
+      "company": "香港ディズニーでチケット窃盗か",
+      "service": "",
+      "affected_count": 10007,
+      "summary": "香港ディズニーでチケット窃盗か 不正アクセスで、1万7千枚",
+      "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9nblVvZGg2aWJHT25WYVNvLWZ5TEhkbFBsTjFwWFByTXFNQkEzcHczYzBEc2ZrTGRxejBzX2VDNUV4eExXZWpfTzFzenpZRk5wWFhEajZiRGl2cFZEZXFj0gFkQVVfeXFMTXZKTkxCOXVLbmVqcTlDalU5aVNaQWdKQjZQSHJaT0s5NGVDdDZSbjJYbWtwRDdHY0RnbzM0Z1VEZzNrdTJoVXdOTFc5MnFHSHNtVkN1Z05aZkZqbmFNaV9CdEhoVA?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNcG5sNGtSRWEzUDJDWldyekJSRXB5R0poY0JYNXNXdjRuNHhONU1fbHpYSDFyTkRqaWd1RERjbjFzS1hzMDJyUzBmU3h6V2xra0pOT3drNWgyUUE0SXhHSl9ZU044cmJfQUV1c0I4STl6LTQ0N2pDbVB0NVVYQk1YYVdXdElGakl5ZWfSAY8BQVVfeXFMUGU2RHJhOTF3T2pkTjZHVTFMZlFQaUJWakF4SDMwdUMyTy13eFk0MUtYZnRwWVJnMUxmNGxiQ3NVRGxVM0k2SGF6TGUzd245RUJob0F0QzRHSEIzZFoyUFY0MnFyNWpPdnVwRkt3WjFjY0RpR2pYNkFaZVFibEE3dWFxenhXbWtYNGN5QjU0ejA?oc=5",
           "official": false
         }
       ]
