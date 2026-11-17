@@ -1,197 +1,82 @@
 {
   "version": "1.1",
-  "generated_at": "2026-11-17T03:51:14+00:00",
-  "before_count": 1958,
-  "after_count": 1957,
-  "net_change": -1,
-  "new_count": 19,
-  "removed_count": 0,
-  "visible_before_count": 1958,
-  "visible_after_count": 1957,
-  "visible_net_change": -1,
-  "raw_before_count": 2766,
-  "raw_after_count": 2801,
-  "raw_net_change": 35,
+  "generated_at": "2026-11-17T04:36:51+00:00",
+  "before_count": 1957,
+  "after_count": 1966,
+  "net_change": 9,
+  "new_count": 3,
+  "removed_count": 1,
+  "visible_before_count": 1957,
+  "visible_after_count": 1966,
+  "visible_net_change": 9,
+  "raw_before_count": 2801,
+  "raw_after_count": 2804,
+  "raw_net_change": 3,
   "new_candidate_ids": [
-    "2026-11-17-auto-0b36b6e4cd",
-    "2026-11-17-auto-9ad59397af",
-    "2026-11-17-auto-6dc3d673c4",
-    "2026-11-17-auto-6a3a9de909",
-    "2026-11-17-auto-8a8a9d621b",
-    "2026-11-17-auto-b9a59bc4b2",
-    "2026-11-17-auto-7f42de139f",
-    "2026-11-17-auto-6684791515",
-    "2026-11-17-auto-fb3bef24c4",
-    "2026-11-17-auto-9b43dc9d4f",
-    "2026-11-17-auto-a6229b8155",
-    "2026-11-17-auto-4392b5632b",
-    "2026-11-17-auto-6cd2d6d37f",
-    "2026-11-17-auto-3960d24ea1",
-    "2026-11-17-auto-48fe58e9e5",
-    "2026-11-17-auto-91e4182cee",
-    "2026-11-17-auto-613d409a69",
-    "2026-11-17-auto-016f3111d8",
-    "2026-11-17-auto-216ddb2cde"
+    "2026-11-17-auto-853300b2ce",
+    "2026-11-17-auto-a5a88bd203",
+    "2026-11-17-auto-f1396aec39"
   ],
   "new_candidates": [
     {
-      "id": "2026-11-17-auto-0b36b6e4cd",
+      "id": "2026-11-17-auto-853300b2ce",
       "member_ids": [
-        "2026-11-17-auto-0b36b6e4cd"
+        "2026-11-17-auto-853300b2ce"
       ],
       "priority": "C",
       "published": "2026-11-17",
-      "company": "当社グループが利用する「KARTE」へ",
+      "company": "十文字学園女子大学へのサイバー攻撃",
       "service": "",
       "affected_count": 0,
-      "summary": "当社グループが利用する「KARTE」への不正アクセスに伴う情報漏えいに関するお知らせ",
-      "sources": [
-        {
-          "name": "WORLDコーポレートサイト",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1QSjNUMXNJbnNBN00zekJxbVVVVFFTc0hSM2RoT0VfU3dlYndXY2tYMGdvYzJPMTZxdFM1Z3FNWWZwQ3V0UnlPajRmV0p2c2twaEtnZXEwc3FveXgy?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-17-auto-9ad59397af",
-      "member_ids": [
-        "2026-11-17-auto-9ad59397af",
-        "2026-11-17-auto-b38cd551ce"
-      ],
-      "priority": "C",
-      "published": "2026-11-17",
-      "company": "スパコン「富岳」運用システム",
-      "service": "",
-      "affected_count": 4597,
-      "summary": "スパコン「富岳」運用システムに不正アクセス 最大4597人の個人情報漏えい恐れ 「理研の適切な対応が重要」木原官房長官",
-      "sources": [
-        {
-          "name": "TBS NEWS DIG",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9MR19wRUpfbjZyYnJfa1lYdTJnQlVsV0JlNUwyMkxJRmJreU9iQ005aVNUYWpEYVF6UlJjcE9VWXhQNGFYb2R1STV1dWJZWnBrcGN3STJvQQ?oc=5",
-          "official": false
-        },
-        {
-          "name": "INTERNET Watch",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9QVEg0UDd1VkFtZi1VZEx6dDZvTEJ6WmIwTU9veU1OR3NuZWhTV09VeUVmdVFoelo3bHBPa0ZycEZmSEpCVVlxTmM1SlU0eHhOWHU1S205OUZvMTZReElnZUhKa0Z0THRyWnRZdVJmQjUtbWdvZml3cEpSalR2RFE?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-17-auto-6dc3d673c4",
-      "member_ids": [
-        "2026-11-17-auto-6dc3d673c4"
-      ],
-      "priority": "C",
-      "published": "2026-11-17",
-      "company": "スパコン「富岳」、不正アクセスで運用停止",
-      "service": "",
-      "affected_count": 4597,
-      "summary": "スパコン「富岳」、不正アクセスで運用停止 最大4597人の個人情報漏えいの可能性",
-      "sources": [
-        {
-          "name": "CNET Japan",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0wSEtiYTFpd3VuVU1PMlMxOEdlTlFOZzNMZTZveXhlMmxOVTFZUUFTZHBkUjZXUjdSc1UxcTB6UEZmYWs0bzNfaGpCNmRhUXJGN2c?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-17-auto-6a3a9de909",
-      "member_ids": [
-        "2026-11-17-auto-6a3a9de909"
-      ],
-      "priority": "B",
-      "published": "2026-11-17",
-      "company": "LiPLUSホールディングス、サイバー攻撃で約28万件",
-      "service": "",
-      "affected_count": 280000,
-      "summary": "LiPLUSホールディングス、サイバー攻撃で約28万件の個人情報漏えいのおそれ Widsley「Telforce」への不正アクセスで",
-      "sources": [
-        {
-          "name": "合同会社ロケットボーイズ",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQT1dZUm1LX3ZwdmxiNTJLNXB3dUl6THMyamVpZzBNQW5Udnp0bUZ1Y1loVEdvY2Y4bHQyZUdqUHliWGN0elkwV2lMMGxZazhDbzlJcVEwcG9DQXlsV0pSdzJ4bnVGakE5cG5FZFJtTkZvWDgwbFktc2JfLWV3QjVxM0h4dmVRSUJ4bDgwR04wcVJ5S0ZSOE1XV3Z6VWQ?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-17-auto-8a8a9d621b",
-      "member_ids": [
-        "2026-11-17-auto-8a8a9d621b"
-      ],
-      "priority": "C",
-      "published": "2026-11-17",
-      "company": "プレイド-大幅続落",
-      "service": "",
-      "affected_count": 0,
-      "summary": "プレイド-大幅続落 不正アクセスで個人情報含む可能性のある情報漏えいを確認(トレーダーズ・ウェブ)",
-      "sources": [
-        {
-          "name": "Yahoo!ファイナンス",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQdVBmZ2l0WUtTZm9zUUJyVklRSEU1TmFZemJjNU15M0tfUC1VaVpydmwwNlZHSGlfdEpRU2VUeFpxM3RFZWlSZEVVZFY0ZDFQWklJRG1CWko0RF80a1hNbFlyOWdscGlLZzlhOUdOQm96TlFYcTVweUpDM083ZV9RdUE5SnVRd0k?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-17-auto-b9a59bc4b2",
-      "member_ids": [
-        "2026-11-17-auto-b9a59bc4b2"
-      ],
-      "priority": "C",
-      "published": "2026-11-17",
-      "company": "NewsPicksに管理ツールの脆弱性を突いた不正アクセス",
-      "service": "",
-      "affected_count": 0,
-      "summary": "NewsPicksに管理ツールの脆弱性を突いた不正アクセス",
-      "sources": [
-        {
-          "name": "ScanNetSecurity",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9fTjlDMWxmWk0xZzZZWW9JSkowMmtpMk5oX3YzTnhYR1p6NmZoTWx6Sk9rU1g4ZkhWUFg5bW51MVFHX2xQNGpmcHZVa29nei1icG8tcGRYRXBhZmZUZUtDbkdweVVEa1ZncmxXdw?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-17-auto-7f42de139f",
-      "member_ids": [
-        "2026-11-17-auto-7f42de139f"
-      ],
-      "priority": "B",
-      "published": "2026-11-17",
-      "company": "Cuenoteへ",
-      "service": "",
-      "affected_count": 58000,
-      "summary": "Cuenoteへの不正アクセス、インプレスのメールマガジン「DIGITAL X News」の会員情報 約5万8,000件が漏えい",
-      "sources": [
-        {
-          "name": "ScanNetSecurity",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBqNTRlZFB6STdLZjd1ZWE5TG1qYzNFTFN4aGNqMGhhSGRKb1F0RWdTdW5vMmlHb2Q2dWVZQWhNdENub3UzbVlTQTlSLTYzMjVFb19LcVVzUVVJNktDQkJiNEtXRUNDRmwtRjFBRw?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-17-auto-6684791515",
-      "member_ids": [
-        "2026-11-17-auto-6684791515"
-      ],
-      "priority": "C",
-      "published": "2026-11-17",
-      "company": "日本ハム「ニッポンハムお届けネット」、メールアドレス7,729件",
-      "service": "",
-      "affected_count": 7729,
-      "summary": "日本ハム「ニッポンハムお届けネット」、メールアドレス7,729件が流出 MakeRepeater経由でアララ不正アクセスの影響",
+      "summary": "十文字学園女子大学へのサイバー攻撃、ランサムウェア グループ SafePayが犯行主張 セキュリティ対策Lab独自調査で学生情報や学内資料を確認",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOeUlKbjlEcHl6VUVvbVRlVkp1dlNSTGNkenBBNlJxTG5YNi1YeVdJdnBZNlNXd1Z2TE44VkNvMmpnZ1Q2Tkw5N0JjZTR6RmRXUmxldUViaHVpWThfSnA4b3BpczVkV2NManZ0RHRKZVY4bXhjUGRLbEpvS0luOEZvUzFSWUh2eGUxWURaX2lqMDBxVy1oMEZKa01ERTZjQ1FrUXhKbXNsVWd2aHc4R3BNN1BB?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZERNbzIxenEwa2dCRnNiT3FfMzg4dkxRdEdSbUdzT2lKbVVDUVczeTI0X2x0czRtOXZUc0hQbTRiVmMzNTRoQW1OMmlLa2hjOG5tZGhOQWpSSTRxMWVOUmFvT3c1NVprWUdUNkMyNTJKa1RHc3RKb204UTV5eGdGamRWWDBFNUdCS05kWHJGQ244dWpQQjVBNHE2N2dxM2pxYVE?oc=5",
           "official": false
         }
       ]
     },
+    {
+      "id": "2026-11-17-auto-a5a88bd203",
+      "member_ids": [
+        "2026-11-17-auto-a5a88bd203"
+      ],
+      "priority": "C",
+      "published": "2026-11-17",
+      "company": "佐賀県警の女性巡査",
+      "service": "",
+      "affected_count": 0,
+      "summary": "佐賀県警の女性巡査、交際相手に捜査情報を漏えいした疑いで書類送検 停職3カ月、別の男性警察官も情報共有",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWFdvVkFqYlpwenktbmR1Q3VWakM2Y2htVjV4cVY1Qm5nOUgzLS1tZG9uVnRpbUxrM3NxR2pxeE0wRjVjRy1WN2IyNDlHQzViLXhvQVFvY3p3WjB1cUtpVzB4bWdRNGptdzhoZWRkVFJVMW9TN0phTmpyYU8xblZtUUZ6S0g1U3dvbU9QcWhJOFlPVVoyQnFERXNEakx3dHhEVWc?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-17-auto-f1396aec39",
+      "member_ids": [
+        "2026-11-17-auto-f1396aec39"
+      ],
+      "priority": "B",
+      "published": "2026-11-17",
+      "company": "【初心者向け】個人情報が漏れたらどうする?ブックオフ643万件流出のおそれと",
+      "service": "",
+      "affected_count": 6430000,
+      "summary": "【初心者向け】個人情報が漏れたらどうする?ブックオフ643万件流出のおそれと、今すぐできる5つの対策 Maladie (FKEZs796sp)",
+      "sources": [
+        {
+          "name": "FKEZs796sp",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQcGdYQ0RfRmRyejZBSkFBMktPQ28zenFXaGMybnVxUmJMUHFvX2ZPaHlYUnphYmxmakhwXzU2bkh6S2t1em9EbXNLOFN0VEJ1S09RSzdPa2xoUV9vc1dkMTZIZ19XUTMzZ0xKRUtCSlFCQnFjakNyZlA5Y19ZZjZQbDhvYWZWWmc?oc=5",
+          "official": false
+        }
+      ]
+    }
+  ],
+  "removed_candidates": [
     {
       "id": "2026-11-17-auto-fb3bef24c4",
       "member_ids": [
@@ -202,205 +87,7 @@
       "company": "スパコン「富岳」4222人",
       "service": "",
       "affected_count": 4222,
-      "summary": "スパコン「富岳」4222人の個人情報や研究データ流出か、取得情報で他システムへの接続試みた形跡も",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ROWl3bF9yQXJRNDljNkJRNmlhUXBITklZWnQ3aUlwZ3gteVd4elN6RGZzZFZnOVZXZTBQelVGLU9GWHNQY0o2cWhvZF91SUI0clpFdjFkYldwM096VmNzMEM4b0xxQQ?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-17-auto-9b43dc9d4f",
-      "member_ids": [
-        "2026-11-17-auto-9b43dc9d4f"
-      ],
-      "priority": "B",
-      "published": "2026-11-17",
-      "company": "北海道観光機構「HOKKAIDO LOVE!",
-      "service": "",
-      "affected_count": 63708,
-      "summary": "北海道観光機構「HOKKAIDO LOVE!」、LINE関連情報最大6万3,708件が流出 一部 キャンペーン 応募者の個人情報漏洩の恐れ|セキュリティニュースのセキュリティ対策Lab",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVktrRzRDY0hnOVoyQ3NCTTZTWkZwV2RuUzdkUVNkVTFBYW1USHdjWVpkR0t3WGR4VkJjR2MwdFVYWjlfeGZZRnBjemhhWTZnbDBSSHV1dVhYR3BHalJGbnhhUGg2dmttTzduYUlYdnBvQVI3SkdqUnlrQWlROEkwWjFwaUxsdFFTRUktSERscWl2bFRjYmVyTTh3cDF5TnczYmkxZHI5VUY?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-17-auto-a6229b8155",
-      "member_ids": [
-        "2026-11-17-auto-a6229b8155"
-      ],
-      "priority": "C",
-      "published": "2026-11-17",
-      "company": "流出したデータはどこへ...懸念強まるサイバー被害「第2波」 迫り来るフィッシン",
-      "service": "",
-      "affected_count": 0,
-      "summary": "流出したデータはどこへ...懸念強まるサイバー被害「第2波」 迫り来るフィッシング詐欺",
-      "sources": [
-        {
-          "name": "東京新聞",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE41UjMzN0pzWU1CZHA2WGZMXzlHZ20td081RzFXRktGMmR0UlBHaEI2Ujh1djRHQXZfRjB4WUZWblpUbGxCa1dCR3Y2Q29hb0tDNlo4?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-17-auto-4392b5632b",
-      "member_ids": [
-        "2026-11-17-auto-4392b5632b"
-      ],
-      "priority": "B",
-      "published": "2026-11-17",
-      "company": "フェイラー、LINE抽選サービスで最大76万4,429件",
-      "service": "",
-      "affected_count": 764429,
-      "summary": "フェイラー、LINE抽選サービスで最大76万4,429件の情報漏えい 14万7,164名の個人情報漏洩の恐れも",
-      "sources": [
-        {
-          "name": "合同会社ロケットボーイズ",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQQnNuWTR6ZG9pdnJ5endLMzV6dE1JRVRhdXF2MUdPQXE2UUZrTEozSnVaNmpkTXNjVUdjUkg5MnozUkVjMkUydkNBbGRGZUpOOGliVU1HQ3Z4ek9IbWMxc1dDY3NubzhHNlppYWlWbThDbnVhY3dlLURMSU1MRFo3blhoNzBxWWxmbjlwUk1HYXpyZGNGbEQ0WXN6cHhBTkVfNzRncHBXbUxWWnhF?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-17-auto-6cd2d6d37f",
-      "member_ids": [
-        "2026-11-17-auto-6cd2d6d37f"
-      ],
-      "priority": "C",
-      "published": "2026-11-17",
-      "company": "スパコン「富岳」不正アクセスで運用停止 研究データや外部接続用SSH鍵など流出の",
-      "service": "",
-      "affected_count": 0,
-      "summary": "スパコン「富岳」不正アクセスで運用停止 研究データや外部接続用SSH鍵など流出の可能性 他システムへの接続試行も確認",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9YdE9YN2dDZmwwVzA5SHA4a0t0MTdEVUtmLVBGUnJqbG1aWlcyWXNTRFVWTVZEWFVjVWh5YnM2TnVLUkpvMUgyQzBMMVp5cUpWVVBHTVlQN1hSajFFYnk0bGtIbFVBRGFWVVE?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-17-auto-3960d24ea1",
-      "member_ids": [
-        "2026-11-17-auto-3960d24ea1"
-      ],
-      "priority": "C",
-      "published": "2026-11-17",
-      "company": "不正アクセスに要する時間は「771日」から「0秒」へ。AIの悪用で素人でもハッカ",
-      "service": "",
-      "affected_count": 0,
-      "summary": "不正アクセスに要する時間は「771日」から「0秒」へ。AIの悪用で素人でもハッカーになれてしまう“超情報漏洩社会”の恐怖",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5HRkN6XzhMOE5JME5EdUhmSXJpelI3YWZjX0lwWmIxdzhyUkxLMmtGTUkzY1QtYmN4WjVGRVUyOGNKU25kN3BOelhOOWV1d0VGQzVac3NOM3JlNzVVZ3JsVHR6NjZxV3hGTjdpbDhIX0dGWlVSQm5VUlZWOWp1M0U?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-17-auto-48fe58e9e5",
-      "member_ids": [
-        "2026-11-17-auto-48fe58e9e5"
-      ],
-      "priority": "C",
-      "published": "2026-11-17",
-      "company": "テレ東オンラインくじ、配送先情報2,350件",
-      "service": "",
-      "affected_count": 2350,
-      "summary": "テレ東オンラインくじ、配送先情報2,350件が漏えい 「孤独のグルメ」「出川哲朗の充電させてもらえませんか?」が対象",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQnRjOFExUUVkZUppZmJNMnRWM09YWEFsZmVoSkwyN1BoUlFYVVJyOVJVLVQwLXF6bWN5ekd1b3oweE82NXVPV1RFaEJ1dHZDWnZpZkkwY1BnYnF2Y1Q1ZG1jTENENmlLdENmOTlnNWlnNTV3eVdWLS13dXlVSlN1SUV1TFpCRW9ybl9yWHp3SEVUem51Zm54c2VXUmZvU2VGYjlOSDQ3YmNRaFI5NklvXw?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-17-auto-91e4182cee",
-      "member_ids": [
-        "2026-11-17-auto-91e4182cee"
-      ],
-      "priority": "C",
-      "published": "2026-11-17",
-      "company": "LayerX",
-      "service": "",
-      "affected_count": 2070,
-      "summary": "LayerX、Notion AI経由で取引先担当者2,070件・採用候補者133件の情報に漏えいのおそれ Fireworks AIへの不正アクセスで",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONWkzaTBLUkV5Tml5YXJHYnIxem5VVDhzb0twaHBCcy1SMlpiUzA3ejRFMURrSWdqbDJpcUt6c2lPQUZwVzJ2YUVKZjJKUTRCMGc4VmlmT2dOZ1ZTdXQ1MHhiQnFYcUpKaU8zZV95d3FzMUdJdFRwTEJWXy1rOWY4QXR5dmJ4Z0JLSVRKZE9BSmZqUFlJV3dCRWRobmlsOVJiZ0hmRS1wZTZWWkJDMVVEa1VDMkJ6dw?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-17-auto-613d409a69",
-      "member_ids": [
-        "2026-11-17-auto-613d409a69"
-      ],
-      "priority": "C",
-      "published": "2026-11-17",
-      "company": "アクティブ運営の通販サイトにSQLインジェクション攻撃、最大5万4,916件",
-      "service": "",
-      "affected_count": 54916,
-      "summary": "アクティブ運営の通販サイトにSQLインジェクション攻撃、最大5万4,916件の顧客情報が流出した可能性",
-      "sources": [
-        {
-          "name": "ScanNetSecurity",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5PLUxCaGFxUTN6V2R1VUlVLUE0MnNCOVFCY0NhY0UzTXdYN1JaZDhnTDBtZDhHaFFPRHRBNlhQQmRPQWlvNmljU1ZIUVN0UGZmRDlPaUp5eUFZX19RSkJ4TUd6VFFpQW8xWU9SMA?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-17-auto-016f3111d8",
-      "member_ids": [
-        "2026-11-17-auto-016f3111d8"
-      ],
-      "priority": "C",
-      "published": "2026-11-17",
-      "company": "韓国メガコーヒー",
-      "service": "",
-      "affected_count": 0,
-      "summary": "韓国メガコーヒー、顧客30人の連絡先流出...委託先MetaMのサーバーがハッキング被害",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9SUllyOWJfeVQ4V3BTY09jdDdOSDYwT1Zyd0JzZkZFZnBNcTBaY2M0Z2M5TmlwYTk1bzNVam9lRDJteHRqcmJzZjhFTGE3UVREYTk4TUVmU01HcGxaY2V0a3Q2NFd5eWk2RUloZGdyUkhWM3hB?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-17-auto-216ddb2cde",
-      "member_ids": [
-        "2026-11-17-auto-216ddb2cde"
-      ],
-      "priority": "C",
-      "published": "2026-11-17",
-      "company": "mineoユーザーのメルアド",
-      "service": "",
-      "affected_count": 0,
-      "summary": "mineoユーザーのメルアドが漏えいした可能性 委託先で不正アクセス発生(ITmedia Mobile)",
-      "sources": [
-        {
-          "name": "ITmedia Mobile",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1nazZqZzBTNEc4VWt6SlFNcE5jRkd5UjBXZTVQTUg4dXhTX1ZUMFRxdm9YRXdOal95UDZaamF0VVFBU0xpOTVHaUFScFVaLXB6bXpVWWdILVJWWElCeHhTLTBIVnlUdkpWd3piaXkxamk5VXJqelBHdDRtVFBaUUE?oc=5",
-          "official": false
-        }
-      ]
+      "summary": "スパコン「富岳」4222人の個人情報や研究データ流出か、取得情報で他システムへの接続試みた形跡も"
     }
-  ],
-  "removed_candidates": []
+  ]
 }
