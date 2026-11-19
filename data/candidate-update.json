@@ -1,156 +1,387 @@
 {
   "version": "1.1",
-  "generated_at": "2026-11-19T03:38:54+00:00",
-  "before_count": 2089,
-  "after_count": 2097,
-  "net_change": 8,
-  "new_count": 7,
+  "generated_at": "2026-11-19T13:24:15+00:00",
+  "before_count": 2097,
+  "after_count": 2178,
+  "net_change": 81,
+  "new_count": 18,
   "removed_count": 0,
-  "visible_before_count": 2089,
-  "visible_after_count": 2097,
-  "visible_net_change": 8,
-  "raw_before_count": 3017,
-  "raw_after_count": 3027,
-  "raw_net_change": 10,
+  "visible_before_count": 2097,
+  "visible_after_count": 2178,
+  "visible_net_change": 81,
+  "raw_before_count": 3027,
+  "raw_after_count": 3072,
+  "raw_net_change": 45,
   "new_candidate_ids": [
-    "2026-11-19-auto-0af7126601",
-    "2026-11-19-auto-9c0e96f43e",
-    "2026-11-19-auto-1c5fc46f55",
-    "2026-11-19-auto-6a2e8330a4",
-    "2026-11-19-auto-2246fdbacc",
-    "2026-11-19-auto-7dfa7299c5",
-    "2026-11-19-auto-07406dcfcf"
+    "2026-11-19-auto-61b319ea7e",
+    "2026-11-19-auto-1bef8870a2",
+    "2026-11-19-auto-76cbf4fc01",
+    "2026-11-19-auto-05cdc2b3e9",
+    "2026-11-19-auto-88db4d1eed",
+    "2026-11-19-auto-3012af7494",
+    "2026-11-19-auto-1fabb4c2b4",
+    "2026-11-19-auto-24411683cd",
+    "2026-11-19-auto-e08908522a",
+    "2026-11-19-auto-5e6cbdfee4",
+    "2026-11-19-auto-73c08d1fe3",
+    "2026-11-19-auto-4c7080df15",
+    "2026-11-19-auto-9da689ad42",
+    "2026-11-19-auto-4b9c681600",
+    "2026-11-19-auto-0f2f4a1f66",
+    "2026-11-19-auto-4e8b72bc47",
+    "2026-11-19-auto-468fff3361",
+    "2026-11-19-auto-8abe25088e"
   ],
   "new_candidates": [
     {
-      "id": "2026-11-19-auto-0af7126601",
+      "id": "2026-11-19-auto-61b319ea7e",
       "member_ids": [
-        "2026-11-19-auto-0af7126601"
+        "2026-11-19-auto-61b319ea7e"
+      ],
+      "priority": "B",
+      "published": "2026-11-19",
+      "company": "三井ショッピングパークアプリ",
+      "service": "",
+      "affected_count": 0,
+      "summary": "三井ショッピングパークアプリに不正アクセス、ポイント会員の個人情報の一部漏えい...アプリ提供停止 (読売新聞オンライン)",
+      "sources": [
+        {
+          "name": "読売新聞",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9La0VpcjRYeG56bFdNbHFGcHQ2Q3dlYjBIWlROTlpnXzgzYWZ4SzJXdFRKbU81VzQyVmlxXzNGMmVnVlR6c1BNRmdwUkVhbUNtMXhicEdMR2hqQWx6S3pSOGVOX0U?oc=5",
+          "official": false
+        },
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWi1adzNucEdoNEN1cVBSc1pXSXBPcmhKTzdKdG5WdEZhTWlGYnJUTjNNUlJ6TmE4Z1Z6ZmZjRWxUNVZyT2ppMjZYT1FPNzJxNEEzRjJPRDNxcm12UE15WWg4TTU2N1l1b2dCM2JwVWJlZzNqWTlpWE13UjFyRU12Tl9mY3hCcF9wWWJFX0ZB?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-19-auto-1bef8870a2",
+      "member_ids": [
+        "2026-11-19-auto-1bef8870a2"
       ],
       "priority": "C",
       "published": "2026-11-19",
-      "company": "亀の井ホテル・スパリゾートハワイアンズなど5ブランド",
+      "company": "当社委託先システムへ",
       "service": "",
       "affected_count": 0,
-      "summary": "亀の井ホテル・スパリゾートハワイアンズなど5ブランドで個人情報漏えい LINE運用サービス「COMSBI」への不正アクセスで",
+      "summary": "当社委託先システムへの不正アクセスに伴う、「タイミー」ご利用事業者様の一部情報漏えいについて|ニュース",
       "sources": [
         {
-          "name": "合同会社ロケットボーイズ",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNzZEdUFtYXo5QTJQV2Rjd1BxZzBMSzRqejY1SHBVNU95aVhGUmFDMm83RTJmazRGS1U2Qks1b3ctVGMyUVM1Ql94dUtqX3hCSmw0TVg1ZU1yZU9BQmc5cHktMVZScy1ROWRQZnJMaGxSOXAyQUhMbnRveWN1YzZBTk1wY0dOcVhyMFdQSHpZakJ5V0VIdzI5NlBMSGc1MHU2VDd1Smx3?oc=5",
+          "name": "株式会社タイミー",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBnSlM3N1l5Wi15ZHRTaHhKdW9wUzhfN2hTbHB4RTNNdnJMUEZvVG53bUg1azJCTF85blNzZGZKSVRsSnZWS2UwempUN0xUWUVncFFMaw?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-11-19-auto-9c0e96f43e",
+      "id": "2026-11-19-auto-76cbf4fc01",
       "member_ids": [
-        "2026-11-19-auto-9c0e96f43e"
+        "2026-11-19-auto-76cbf4fc01"
       ],
       "priority": "B",
       "published": "2026-11-19",
-      "company": "Jリーグ・WEリーグ、238万3,616件",
+      "company": "福岡銀行、カードローン",
       "service": "",
-      "affected_count": 2383616,
-      "summary": "Jリーグ・WEリーグ、238万3,616件の情報漏えい-委託先 プレイドのKARTE 不正アクセスによるサイバー攻撃で",
+      "affected_count": 8132,
+      "summary": "福岡銀行、カードローンの個人情報流出8132人 提携先に不正アクセス",
+      "sources": [
+        {
+          "name": "日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5YWFBsVXUyS2ljWVJPdmRHU3BoUVpPUTFobzJsNnRTODJIU1NlaFpLOXVUTzVBUUFFNXdLSWNTWktUZERxalpCdE91OVNzR3FlVzVKbmZYRDZzWFc2d0JBbXdpVkFTZDBxQldERQ?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-19-auto-05cdc2b3e9",
+      "member_ids": [
+        "2026-11-19-auto-05cdc2b3e9"
+      ],
+      "priority": "A",
+      "published": "2026-11-19",
+      "company": "湘南美容クリニック」など",
+      "service": "",
+      "affected_count": 1624000,
+      "summary": "湘南美容クリニックなどSBCメディカルグループ、サイバー攻撃で162万4,000人を含む個人情報漏洩-パスワードや相談内容、トリビューでは施術情報も漏洩|セキュリティニュースのセキュリティ対策Lab",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRkE2Z2E0U0ZBRDROaXYxRUZsb3VoalZ2aTByVmdmRE50SXVkanVUTFVHbnZ1aVpvU3lDdzhWT1c4TGYyMnpfM1QwTlRHNlp4c0Fod2NkNWRBYmJiR05PdVplMGVGOUxLQmZ4eGktbG9Id0tpNHlKRndkMDlOdWVkdmtnR052bFlLODBsQXhnY2ZkWkt5S0E?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9sZU1aM2tmaXNRNEJfV2VUVUdXQ0RRQVZUclZsRFhtT1JuazI2M2FTLVV6UEMtR2ZNclBGS1I4TVZpRTBua196bTlFX1dybkN6VHc?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-11-19-auto-1c5fc46f55",
+      "id": "2026-11-19-auto-88db4d1eed",
       "member_ids": [
-        "2026-11-19-auto-1c5fc46f55"
+        "2026-11-19-auto-88db4d1eed"
+      ],
+      "priority": "C",
+      "published": "2026-11-19",
+      "company": "シャープや関電子会社",
+      "service": "",
+      "affected_count": 0,
+      "summary": "シャープや関電子会社で情報漏えい 「プレイド」不正アクセス",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5Hc3U3YVJVcVJTbFgzRW5kYU1ITGNqeHhpeVlISUR0ZjM1Yjk4MzlZNEQ4RDFHQV8ySExZSVBaTEVBNVFFVlNYR3ozMjNmMDlpLUt1ZnlsMHdVRHdZVVVj?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-19-auto-3012af7494",
+      "member_ids": [
+        "2026-11-19-auto-3012af7494",
+        "2026-11-19-auto-ab7312f8aa"
+      ],
+      "priority": "C",
+      "published": "2026-11-19",
+      "company": "学習管理システム「Schoo Swing",
+      "service": "",
+      "affected_count": 0,
+      "summary": "学習管理システム「Schoo Swing」に不正アクセス 教員ら86名分の情報漏えい 原因はサービスの一部の機能の脆弱性",
+      "sources": [
+        {
+          "name": "Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9YUDZ6N1NIbm5DdUlVR2laaG04TXNzeFh1VkdFX1U3NDhMbHpBQXlYWXZvdlptVzVYb1FYcWdSeHZ0TzRsREp1WTcwbkRLVTJ3dE94NnNfZktHV1FiNC1vU1ZuS3FWWWwtd3VQRC1hSGJReTFoYkw1MkdkNkJ2TGc?oc=5",
+          "official": false
+        },
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE52dW9STUNBRFNXVmZpNUFqSmU4M2JuRmhsczJQM0JEdG01U1dOdXJPOUVrOGtOQ0ZCYmE3a3RvV0dGOE12T1FlRA?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-19-auto-1fabb4c2b4",
+      "member_ids": [
+        "2026-11-19-auto-1fabb4c2b4"
+      ],
+      "priority": "A",
+      "published": "2026-11-19",
+      "company": "サントリー系で最大94万件超情報漏えい",
+      "service": "",
+      "affected_count": 940000,
+      "summary": "サントリーウエルネス情報漏えい 最大94万件超、KARTE|全国の記事|京都新聞 ON BUSINESS",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWlZCeUpIdHZ6OG15ZXRLTWZaX01wb0dYdE9SNTZ6N1JJcGhSdk5oUU1xNFNMYVc0WUEySVlzM01PU29yaGdIam9uMS0wS1duTS1mVVRIWF9qTFh4ZzJwcHoxQU5VTHE5WFEzblZOd19GUXZWMTRsT2NvdDZWdFltWmJ6VEF1S2hqaVdfMHJ3?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-19-auto-24411683cd",
+      "member_ids": [
+        "2026-11-19-auto-24411683cd"
       ],
       "priority": "B",
       "published": "2026-11-19",
-      "company": "トライアル「SU-PAY」で会員ID6万件",
+      "company": "エン転職」など",
+      "service": "",
+      "affected_count": 13000,
+      "summary": "「エン転職」などの顧客情報1.3万件流出 委託先への不正アクセスで",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE10MWRJbnlDNU4tRklNU3ZjUkFqcjRNMUpHSTZFRXYtVzV5NlZialQxNnE0ZkpDa3JoMkEwV1lral9Zb21ncFhRamw0M2NZaXpOQTNzNldqcFNaYWlXd3owNEVkUGMyVmNPX3Y0Yw?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-19-auto-e08908522a",
+      "member_ids": [
+        "2026-11-19-auto-e08908522a"
+      ],
+      "priority": "A",
+      "published": "2026-11-19",
+      "company": "湘南美容SBCに海外から77万回攻撃、162万人",
+      "service": "",
+      "affected_count": 770000,
+      "summary": "湘南美容SBCに海外から77万回攻撃、162万人の個人情報流出 パスワード平文保存が判明",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9GWk03dUhYRGRWcDRYQmlpTnd0T3dkTUtRaXM0ckU2TkZ5Rm1Xb2JQQko1aFFrS0dUWk9idWNrVWRhLWYyaXpBR3hhUmMtYjlPQ1ZiTS1PY2d1eVhDVHdVcDdvQ0wyQlBVWXpzU0doMHQ5WkhV?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-19-auto-5e6cbdfee4",
+      "member_ids": [
+        "2026-11-19-auto-5e6cbdfee4"
+      ],
+      "priority": "B",
+      "published": "2026-11-19",
+      "company": "Kyash、社内向けウェブツール",
+      "service": "",
+      "affected_count": 11996,
+      "summary": "Kyash、社内向けウェブツールに不正アクセス 最大1万1,996人の決済履歴などが情報漏洩",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOaVVfeGo1Nl9ya09DUW1ubmtEaGJ1eHoyOWY4amFuYWZkeHFTRDlMQVhYQ0ZwcTI3T3RkdUNaZ3B4TkllRlRzby1oRG1KSFNLRUJPNzlVTmVMTHM2TnVyTzBJNUlObXZLZlRtZUFJSkpwM1I4dU52cVBLcWdmOU0yLWhBVW4wRVlGejRnLWFyUzVRaGNCeUQxNkxGQ1BsOFU?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-19-auto-73c08d1fe3",
+      "member_ids": [
+        "2026-11-19-auto-73c08d1fe3"
+      ],
+      "priority": "B",
+      "published": "2026-11-19",
+      "company": "三菱UFJ eスマート証券、証券口座番号約6万件と年齢約10.5万件",
       "service": "",
       "affected_count": 60000,
-      "summary": "トライアル「SU-PAY」で会員ID6万件が漏えい プレイド「KARTE」への不正アクセスで",
-      "sources": [
-        {
-          "name": "合同会社ロケットボーイズ",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNQ0hSUVd3V1lKVGZiMFN2SmV2cmxSdWdDdjRnQ2Z4MmlaX0ptaGpCLURLRUc3b2NRdUZ6QW1VbWFwTWJZaGxRS2JodDAwTGFoWnpXT2pvMWFPWjZhVlUzVnZBbVF4RzExVUxnUS1ycVVvMG1oY0M3RVFjcHpiWGYtR3c3RXBOZ0hHRkdGWDBwZ3o0UUVIZ3FQWGhrbmVyMmk4?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-19-auto-6a2e8330a4",
-      "member_ids": [
-        "2026-11-19-auto-6a2e8330a4"
-      ],
-      "priority": "C",
-      "published": "2026-11-19",
-      "company": "百貨店の藤崎オンライン会員情報 約7万5000件漏えいの可能性 外部サービスへ",
-      "service": "",
-      "affected_count": 75000,
-      "summary": "百貨店の藤崎オンライン会員情報 約7万5000件漏えいの可能性 外部サービスへの不正アクセスで(ミヤギテレビ)",
-      "sources": [
-        {
-          "name": "ミヤギテレビ",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5OazRhdkhVR21HbkViVkVVaC1sTUhNWlN0TDBVRzNyZzhDcU9CM3BOMkI0ejFzQnBGT2VaTFJXTTBPUTEycTlDVHBReWxyRjBqSGdOMndlbVpvcWZkUnpNRzVJbjhKMGNzQlppa3JWT29CZjQ4TUNFX3ItLWZ1T2M?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-19-auto-2246fdbacc",
-      "member_ids": [
-        "2026-11-19-auto-2246fdbacc"
-      ],
-      "priority": "C",
-      "published": "2026-11-19",
-      "company": "警察のサイバー部門幹部が臨時会議",
-      "service": "",
-      "affected_count": 0,
-      "summary": "警察のサイバー部門幹部が臨時会議 個人情報の流出相次ぐなか",
+      "summary": "三菱UFJ eスマート証券、証券口座番号約6万件と年齢約10.5万件が漏えい 委託先プレイドの「KARTE」への不正アクセスで",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9TMWh4bWN4NTIwNmNpRWNqb08tWWdLdWNHVWhHNlBXWVBWbFVhMWItMTR4V0tQMlpWejU4bkxvZjZjU0NWcXo3d0Y1ajQzRU9aTFRjRERDeTJsSlhsYmpJ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE0zTDVXMFU2emN1X1pPQmd6RnU1R2JHVGcyYUhCeDBiQmpIU3lpWmp0MDRscjZYRnRsOUVhLXlnLTlFcXVUWTYyVA?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-11-19-auto-7dfa7299c5",
+      "id": "2026-11-19-auto-4c7080df15",
       "member_ids": [
-        "2026-11-19-auto-7dfa7299c5"
+        "2026-11-19-auto-4c7080df15"
       ],
-      "priority": "C",
+      "priority": "B",
       "published": "2026-11-19",
-      "company": "SBCメディカルグループへ",
+      "company": "北海道留萌市",
       "service": "",
-      "affected_count": 0,
-      "summary": "SBCメディカルグループへの不正アクセス被害による個人情報流出に関するお詫びとお知らせ(第1報)",
-      "sources": [
-        {
-          "name": "第1報",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5RTGVRR2lVeFRUWGs2bjRNczhSb2VGeE5jNlcxbXFqWm9ER3U1ZjRKT214bk5ZUEEwU2hkclVhWHhFT2ZXc0ZtbXNyeHUwZHpEbGRyTFZZblZPX2d5TVR4RThfU0xwaUZoeVE?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-19-auto-07406dcfcf",
-      "member_ids": [
-        "2026-11-19-auto-07406dcfcf"
-      ],
-      "priority": "C",
-      "published": "2026-11-19",
-      "company": "「GTA 6」未公開映像90本を流出させたハッカーがRockstar",
-      "service": "",
-      "affected_count": 0,
-      "summary": "「GTA 6」未公開映像90本を流出させたハッカーがRockstar GamesやUberなどへのサイバー攻撃を認める",
+      "affected_count": 70000,
+      "summary": "北海道留萌市、住基データ7万件超流出か 要支援者情報も",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRk9UN2JVZGU2aGpwOFVWQWJGNVRxaU5HbURqMXN3WHpxbjA4QzlsLWpHaGtfel8tazRCNTFsdFg2LTR0dGh1aXFFRklHUDdzRW9VN0JIRE1RRVI4bHZyRUtxX0lBbGpGd2tlMW5RWFcwSXVxRFJwY1FneFBoNXZURjI4TjFOei1oWmFGVE9rV3NaWm1oYU1IM2ZWLUI5aVJIV3c?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5yR2JjRjIwQjdIcXdiWFZPcW14d21jb1Vka3BpZVZlWlZpRVIySDd4eWdmT3F4NjhzQnF1cXJVSi1WUm9QYVB3MmpEd2YyZjNPUEtSMTRkX2FqRzUyeS12bUJ3UV9wNVJm?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-19-auto-9da689ad42",
+      "member_ids": [
+        "2026-11-19-auto-9da689ad42"
+      ],
+      "priority": "C",
+      "published": "2026-11-19",
+      "company": "決済システム",
+      "service": "",
+      "affected_count": 0,
+      "summary": "決済システムに不正アクセス 群馬・前橋市のめぶくPay | 上毛新聞電子版|群馬県のニュース・スポーツ情報",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5fTFhISnhDcG1mY09MTWV6M2RtU0dtM0xYeUNWbUFua2c2M1FhQnRCTHBEcTVkbWFhTl9wRURKaEFUVDBmeWxHRmJGYUFralFNMHo4cmJNdzVnQQ?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-19-auto-4b9c681600",
+      "member_ids": [
+        "2026-11-19-auto-4b9c681600"
+      ],
+      "priority": "C",
+      "published": "2026-11-19",
+      "company": "skyticketで別経路",
+      "service": "",
+      "affected_count": 1166,
+      "summary": "skyticketで別経路の情報流出 約1,166名分と15名のパスポート情報",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1EUGpKWlRVVkEtbUlFcS1weUFYeWxLMHNWYmhweVFVaDgyOFdPQlZXWlBmQ0RpU0dheDFhbUVIREtRb2t1MTlnbw?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-19-auto-0f2f4a1f66",
+      "member_ids": [
+        "2026-11-19-auto-0f2f4a1f66"
+      ],
+      "priority": "B",
+      "published": "2026-11-19",
+      "company": "タイミー",
+      "service": "",
+      "affected_count": 60000,
+      "summary": "タイミー、事業者情報最大22・6万人漏えい",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE10c1J3V2RrNWlMZmFHZ0FNV2pETS1pUG45bjczb2hhV0RYanJOWWdrVi1NeGRXS092eHMxanN1YThjZG13dFJHSHF4YzZaeFdLYTlHUnhtVWxVNzQ?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-19-auto-4e8b72bc47",
+      "member_ids": [
+        "2026-11-19-auto-4e8b72bc47"
+      ],
+      "priority": "C",
+      "published": "2026-11-19",
+      "company": "SecureNaviが利用するクラウドサービス「Notion」のAI機能の委託先",
+      "service": "",
+      "affected_count": 0,
+      "summary": "SecureNaviが利用するクラウドサービス「Notion」のAI機能の委託先に不正アクセス、回答を含むやりとりの記録が漏えいした可能性",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9MbS1rb0tGZWVMaERzZ0lMcjNSaHBrWm5BTkJnZFl1Um1GUEgzeldiOGVKRk5MbkE0T1VCWXFQNUxTY096dUFXVU9MeHpMcFZIQ3Q4N09sbWN5TkdlSkctQVNLeVhvWlF4dzBoUA?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-19-auto-468fff3361",
+      "member_ids": [
+        "2026-11-19-auto-468fff3361"
+      ],
+      "priority": "C",
+      "published": "2026-11-19",
+      "company": "OMデジタル 外部サービス",
+      "service": "",
+      "affected_count": 0,
+      "summary": "OMデジタル 外部サービスに不正アクセス 一部顧客情報が漏えい",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE82RmswekI0b2JDSmlDUHdHam9OU2lsQ25lWHA3Z3RrYWlLZVBOY1BzRGZuLUxhcjdLaEN2NGNrdWpUb1R6Rk8yVzI2ZEZERWVtdzlPb2diRFRsQm1qQlFkQlVIMEdGYlYxem1NZzFR?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-19-auto-8abe25088e",
+      "member_ids": [
+        "2026-11-19-auto-8abe25088e"
+      ],
+      "priority": "B",
+      "published": "2026-11-19",
+      "company": "大崎電気工業",
+      "service": "",
+      "affected_count": 0,
+      "summary": "大崎電気工業、ランサムウェア攻撃でスマートメーターの生産・出荷停止 埼玉・岩手の関連拠点に影響、再開時期は未定",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9aaklMQXh2SUhyRFNMMzBpcFhHZElVQmRKRktERE80YUJRY0V0WTB0eURYUHVSOWNtVkRtSnIySWRia2tKLUVFcXJ3Yy1Jd0M4WmpIdDRvV01HaklIWTZqbHd5eHF4S0E?oc=5",
           "official": false
         }
       ]
