@@ -1,116 +1,296 @@
 {
   "version": "1.1",
-  "generated_at": "2026-11-19T22:16:23+00:00",
-  "before_count": 2178,
-  "after_count": 1965,
-  "net_change": -213,
-  "new_count": 5,
+  "generated_at": "2026-11-20T02:25:24+00:00",
+  "before_count": 1965,
+  "after_count": 1995,
+  "net_change": 30,
+  "new_count": 14,
   "removed_count": 0,
-  "visible_before_count": 2178,
-  "visible_after_count": 1965,
-  "visible_net_change": -213,
-  "raw_before_count": 3072,
-  "raw_after_count": 3085,
-  "raw_net_change": 13,
+  "visible_before_count": 1965,
+  "visible_after_count": 1995,
+  "visible_net_change": 30,
+  "raw_before_count": 3085,
+  "raw_after_count": 3117,
+  "raw_net_change": 32,
   "new_candidate_ids": [
-    "2026-11-20-auto-1ea0b0336c",
-    "2026-11-20-auto-af8ff878b9",
-    "2026-11-20-auto-8d22a42805",
-    "2026-11-20-auto-1fec726b6a",
-    "2026-11-20-auto-600943a266"
+    "2026-11-20-auto-1b7b047cfb",
+    "2026-11-20-auto-ed0c5125b2",
+    "2026-11-20-auto-6b9137d8c4",
+    "2026-11-20-auto-b939d31428",
+    "2026-11-20-auto-ca70205513",
+    "2026-11-20-auto-49e9fcea23",
+    "2026-11-20-auto-a99a77e802",
+    "2026-11-20-auto-6cdd9d3121",
+    "2026-11-20-auto-eafd63586f",
+    "2026-11-20-auto-294cb9b09f",
+    "2026-11-20-auto-92ce52ae3f",
+    "2026-11-20-auto-d8ddc42109",
+    "2026-11-20-auto-46f1778e09",
+    "2026-11-20-auto-3fc9cd258d"
   ],
   "new_candidates": [
     {
-      "id": "2026-11-20-auto-1ea0b0336c",
+      "id": "2026-11-20-auto-1b7b047cfb",
       "member_ids": [
-        "2026-11-20-auto-1ea0b0336c"
+        "2026-11-20-auto-1b7b047cfb"
       ],
       "priority": "B",
       "published": "2026-11-20",
-      "company": "北海道・帯広の菓子メーカー「六花亭」サイト",
+      "company": "クリエイター向けプラットフォーム MOSH、92万8,617件",
       "service": "",
-      "affected_count": 8000,
-      "summary": "北海道・帯広の菓子メーカー「六花亭」サイト、「ウェブスキミング」でカード情報含む8000件流出か(読売新聞オンライン)",
+      "affected_count": 928617,
+      "summary": "クリエイター向けプラットフォーム MOSH、92万8,617件が情報漏えい プレイド「KARTE」への不正アクセスで",
       "sources": [
         {
-          "name": "読売新聞",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9aZG1mcDU1VUdlQ21QYWI0SE0tZm14VVI1RzdjVXpPNGZYTXE1WDZOMFk3MkEybmQ2Y2ZLU1dsQTFQUTlzX3BsY0J1VUREM29BRG5uclBnUXViVXVrUHBrWlFqbE9Ic2tLVFdtckNHRG5nblktdDhCUVZzTHg3TEU?oc=5",
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUGdRdTFhaEZDYkN2UVZWV2t5bTVVNWx2cVdtWE00cFVJY3lJUS01Q2JJQVExbjFUb3hkQWdTaGloZzByV0tNN1dtMkdDR1pZSmNLRGVfYjJ5QXhELUgxek9UUkQ1U2hTUlRLOHlyZEZSR1J5bFlfVkprZlRXdEhzcXF1MTRtdFd3UkhISWlmMGNsWFd1aWxfczNmUGt2bXM?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-11-20-auto-af8ff878b9",
+      "id": "2026-11-20-auto-ed0c5125b2",
       "member_ids": [
-        "2026-11-20-auto-af8ff878b9"
+        "2026-11-20-auto-ed0c5125b2"
+      ],
+      "priority": "B",
+      "published": "2026-11-20",
+      "company": "ビタブリッドジャパン、1万1,590名",
+      "service": "",
+      "affected_count": 11590,
+      "summary": "ビタブリッドジャパン、1万1,590名の個人情報漏えい 「KARTE」の関連機能を約5年前に利用終了もデータ残存",
+      "sources": [
+        {
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNMjJWX3V2V2dOUVZSdXVqV1RTWFpMQUdQVVpiQ1FsN0hxaFBHOVVuV3NILUQ0R0o5bjBVa0tpTUNUMFJsWjJUN19EdU45SHpzSnp0SDFDcnI5ZERHXzVIbThNdTNhOVZQTGU3UndzU3hLdHZoZFlEUlUweERzaDFsM1VfTFZuQU1XVWh5V0dFQURMTk9rLUlFQ2hn?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-20-auto-6b9137d8c4",
+      "member_ids": [
+        "2026-11-20-auto-6b9137d8c4"
       ],
       "priority": "C",
       "published": "2026-11-20",
-      "company": "「BEAUTY CITY」および「TB",
+      "company": "ソースネクスト、IR問い合わせフォーム設定不備で137件",
       "service": "",
-      "affected_count": 0,
-      "summary": "「BEAUTY CITY」および「TB WEB ORDER」におけるお客様情報漏えいに関するお詫びとお知らせ",
+      "affected_count": 137,
+      "summary": "ソースネクスト、IR問い合わせフォーム設定不備で137件の個人情報が閲覧可能に ~ 10 / 15 の不正アクセスとは別事案",
+      "sources": [
+        {
+          "name": "ScanNetSecurity",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB3bmpmc3hwVEhNNV84Zk5ob2JNMzRJa1hjN1B1NlNJMWdMUWF3SmJNUkM1U3Uyb2JZcm1qbkVMN3BTMmlTamJVZHFyZXhvYjRUaFNNd1J0LWdYSEJoN0pFLVh1TkpQUWVvdnFJNQ?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-20-auto-b939d31428",
+      "member_ids": [
+        "2026-11-20-auto-b939d31428"
+      ],
+      "priority": "B",
+      "published": "2026-11-20",
+      "company": "クボタ「KSAS」、1万5,000軒",
+      "service": "",
+      "affected_count": 15000,
+      "summary": "クボタ「KSAS」、1万5,000軒の情報流出のおそれ プレイド「KARTE」への不正アクセスで",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9NRkUxU2xWbVJIR0FuY2JsMEZMSEcyYkwtQ3RuSnBjb3JBdlJTU3BRVlNKQ204VEowUGNtbENoSnlpdzJXYTNEY0NTaFd4MF9xRFF4VmRWSjBaNTJCazRpUU9FSEwxemw2?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVGE3X1VxZnY1dHlDUGVmNTFPYVpndi1LMFpJUW84LWxLUUpVUnRTelpBRFEwdmg4cTJ0YURwQUpQNmYtVWoxVkd6LXZIaW1oc0VYZy1DTUpWR1JMY2EyUVI3Z05jX3hTSkFNdk12RFVjOUNBZEc0dVY1SzNhbTR0R1lOazRpSVVZSmpXaDBiMWE1TFhmb0hJVlcwdkRIQUdtSkE?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-11-20-auto-8d22a42805",
+      "id": "2026-11-20-auto-ca70205513",
       "member_ids": [
-        "2026-11-20-auto-8d22a42805"
+        "2026-11-20-auto-ca70205513"
       ],
-      "priority": "C",
+      "priority": "B",
       "published": "2026-11-20",
-      "company": "六花亭、クレカ情報約8000件流出か=オンラインショップ",
+      "company": "鍋屋バイテック会社、顧客情報8万7,759件",
       "service": "",
-      "affected_count": 8000,
-      "summary": "六花亭、クレカ情報約8000件流出か=オンラインショップに不正アクセス(時事通信)",
+      "affected_count": 87759,
+      "summary": "鍋屋バイテック会社、顧客情報8万7,759件が情報漏洩 プレイド「KARTE」への不正アクセスで",
       "sources": [
         {
-          "name": "時事通信",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRDFSM01zNEQ2enhySEtqMjJGVjFyRC15eFBiQkxrVlhOblRMaGsyNmVEX1lWV0ExWDZfZEZjSmt5NmRvTVR0YkhDUF9XOS1lVHF6Y1VYeTd1RGtvOENWWnRvM3V1d3V6alFGa252ODV4enlKX2hBYWJhLWFtLU1yb0c1cmZRQjg?oc=5",
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPOHhxU05RSFlHQXhWSWRLUTZkMG1pbENhN3FIM2hodFpUVWd0Slh6UGxXcXV0bDhrLTJsaHI2cHhsa2htR1lNd0MxZXQ5S2czV0w5QkhJWTFNb0hFc2x5Z0VjSDJkM25iNUlxaVI2emg4T2ZJSnU3NDJPZ0cwYm1IV3ppMUFOSklGZEVWcW1TNFd1NlNWV3ZONjFIdWFaRWM?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-11-20-auto-1fec726b6a",
+      "id": "2026-11-20-auto-49e9fcea23",
       "member_ids": [
-        "2026-11-20-auto-1fec726b6a"
+        "2026-11-20-auto-49e9fcea23"
       ],
       "priority": "C",
       "published": "2026-11-20",
-      "company": "プレイド利用社",
+      "company": "JNSA「情報セキュリティ理解度チェックサービス",
       "service": "",
       "affected_count": 0,
-      "summary": "プレイド利用社 顧客情報漏えい 不正アクセス被害波及",
+      "summary": "JNSA「情報セキュリティ理解度チェックサービス」に不正アクセス",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE11bVJkckJCcVd5eFpXYmxSVE9zcmJfU29sZFNhZnp4UW5IVVJjWHM0UFczZ0R3TlRvVk8xSUJQUTlibEZZYWR6MXc4NnZpYldDTHNhVV9zRnpuRWRNNGc?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBvU0tfdTE1UElLQ0Z0U3ViWWFaY1lBZVNGclhZalVaX0NPQncydmdPbk9sS0ljeFA2NnlGY2Z4bXd4MWJCOU5TNjg2RVdoWHU5WG8wa0V3X1Rmc3FTcmQ3S1AybjNLUko2V2pSVA?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-11-20-auto-600943a266",
+      "id": "2026-11-20-auto-a99a77e802",
       "member_ids": [
-        "2026-11-20-auto-600943a266"
+        "2026-11-20-auto-a99a77e802"
       ],
       "priority": "C",
       "published": "2026-11-20",
-      "company": "楽天G社債の上乗せ金利拡大",
+      "company": "FFGインダストリーズのデータ分析ツール",
       "service": "",
       "affected_count": 0,
-      "summary": "楽天G社債の上乗せ金利拡大、情報漏洩で警戒-1500億円劣後債控える",
+      "summary": "FFGインダストリーズのデータ分析ツールに不正アクセス 顧客・取引先1,221先の情報漏えいの恐れ",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE84S1NDTFM2WEY4WHRsd2NYaGNVaGVqRGZkUDM0bG9TQmlVdVZNNUJIaV96VTBFSnBNbTl5OW5lY2JZaWxPdmdSZW9oY0hON0VJaVk5ZWdyeE04OXNCWldOc3VlMjQ2ZGRES3JFV1N0RnBFMG9famln?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObFpNUzZyUjRYWGU1SUMxRHo0TFhnZHF6QVZoRC1MZEVYQ245UGZjTWdKRGFGdVdOa0FwaUN4WnZ4UktsbFdxT0haVThuUDVCUjNFeWpnUzlUV0lUampqUVlob1hMcUh6dEs1MUNpTmRIRlAydW9oLW5sRHR4V2JFSWtOeDI4UWdGeFBPSWdpZXNjM0pMSUFHXzVXWWNjaWlhbzNFU21B?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-20-auto-6cdd9d3121",
+      "member_ids": [
+        "2026-11-20-auto-6cdd9d3121"
+      ],
+      "priority": "C",
+      "published": "2026-11-20",
+      "company": "ソニー少額短期保険が社内利用する契約管理システムの開発・テスト環境",
+      "service": "",
+      "affected_count": 0,
+      "summary": "ソニー少額短期保険が社内利用する契約管理システムの開発・テスト環境に不正アクセス",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1hYkE5ai1iS2ltUFlyQXNLVS1oUG10RzAwV1h3UzRxNWNSQ3JlYjVIQXE2SU9oWmJ3MmNLNmE4SFNGRks2T0E1eWdTOHVaM2ZOZW1PTUdLQS1zVWZ4X2dwUHVkQ2hBOUdOZUxodQ?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-20-auto-eafd63586f",
+      "member_ids": [
+        "2026-11-20-auto-eafd63586f"
+      ],
+      "priority": "C",
+      "published": "2026-11-20",
+      "company": "本社イベントへの申し込みで利用 「テケト」から情報漏えいか",
+      "service": "",
+      "affected_count": 0,
+      "summary": "本社イベントへの申し込みで利用 「テケト」から情報漏えいか",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA3eUE4dmZMdHc4cXJ4M0U5Y2llVWl6aWhFQ29rd2kzTzVhNlFOb2VEZUtTUnFZNGpIUzhVUExxQzNRTGtOeTlGeEd4d2Y0Um1qVE8xcmVn?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-20-auto-294cb9b09f",
+      "member_ids": [
+        "2026-11-20-auto-294cb9b09f"
+      ],
+      "priority": "C",
+      "published": "2026-11-20",
+      "company": "インフキュリオンが上場来安値、ウォレット基盤へ",
+      "service": "",
+      "affected_count": 0,
+      "summary": "インフキュリオンが上場来安値、ウォレット基盤への不正アクセスで個人情報漏えい(ウエルスアドバイザー)",
+      "sources": [
+        {
+          "name": "ウエルスアドバイザー",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSmx2QTRRNEhMOGpCTzgybHgwdEF0RzJMX1c0VGhLWVRmMkNVdFJHQVFNMWlQbncteHFTRVRQc0xyNG1kWFVQak11TUprWTB6MlpmaU9YWjJiZHlwNDNUSjNxWmlDamNCSzBaWEthQlVDcWZuakpmbWpyZ1dRQjRlSWhCWWpSVms?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-20-auto-92ce52ae3f",
+      "member_ids": [
+        "2026-11-20-auto-92ce52ae3f"
+      ],
+      "priority": "B",
+      "published": "2026-11-20",
+      "company": "横浜銀行",
+      "service": "",
+      "affected_count": 110000,
+      "summary": "横浜銀行、顧客情報11万件超漏えい スマホアプリ利用者の一部、年代など",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9QbWlyYy1DUnZWVTFFRXZUeWtjZlo1c1VaT2lScjkya3hmb3p1ZmJRci1xVVVZdUdvbnExbW1fYWFhOUl1eXNHUHZkRnppT09rdTRjZVNGRjVrb0xWNlEwbkozdFowX1BK?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-20-auto-d8ddc42109",
+      "member_ids": [
+        "2026-11-20-auto-d8ddc42109"
+      ],
+      "priority": "B",
+      "published": "2026-11-20",
+      "company": "インターネット調査システム",
+      "service": "",
+      "affected_count": 0,
+      "summary": "インターネット調査システムに不正アクセス、個人情報の漏えいがないことを確認",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE11ejU4TWF6WTNvaHdkZW90MmV6aDg2NGRsOXhkY1R5MWNFU2l0TGZseWN3QnhkUUZDRmhsbzVxYzZqRXVZZ2RvdXQ0eXNuZjlBMjdMdnloWjBITVB0aklGMmlUNmpOZ1lkcnBr?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-20-auto-46f1778e09",
+      "member_ids": [
+        "2026-11-20-auto-46f1778e09"
+      ],
+      "priority": "C",
+      "published": "2026-11-20",
+      "company": "SNSによる情報漏えいの本質 ―リテラシーでは防げない理由―",
+      "service": "",
+      "affected_count": 0,
+      "summary": "SNSによる情報漏えいの本質 ―リテラシーでは防げない理由― #エキスパートトピ(森井昌克) - エキスパート",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUk8tN093bmtqQUJhekcyRm5DMDlEVE5icmpqSWZZWW85SmFwakxUdXNwZXF1bXhybGVSaFFBQXRISmQwVG0zVlIzeDY4Qm52eXJXRFlHd0psVjQ1b3A2SERkU3FwWXp5a2JEcDNQNHhiMXRwQ29vNVBocU9lSnhZa0N4OXF2dDlO?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-20-auto-3fc9cd258d",
+      "member_ids": [
+        "2026-11-20-auto-3fc9cd258d"
+      ],
+      "priority": "C",
+      "published": "2026-11-20",
+      "company": "米JPモルガン",
+      "service": "",
+      "affected_count": 0,
+      "summary": "米JPモルガン、取引先ハッキングで顧客データ流出の可能性を指摘 「n0n」が犯行声明",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBEYlRVUmZ4Z2psTk93aV9hQXU2MXZTeUFJeHlLZ1k0ZzM3TE45T2otM2s0c0otY3d3dHpmV0Q1LVFydUJLcEdScUx2VUZVV2llLXNPLWFXaVJMWkpybFhONFBEeUlKaDF0RVlyazVXVk9OSU1q?oc=5",
           "official": false
         }
       ]
