@@ -1,36 +1,176 @@
 {
   "version": "1.1",
-  "generated_at": "2026-11-21T02:26:36+00:00",
-  "before_count": 2205,
-  "after_count": 2206,
-  "net_change": 1,
-  "new_count": 1,
+  "generated_at": "2026-11-21T11:22:35+00:00",
+  "before_count": 2206,
+  "after_count": 2281,
+  "net_change": 75,
+  "new_count": 8,
   "removed_count": 0,
-  "visible_before_count": 2205,
-  "visible_after_count": 2206,
-  "visible_net_change": 1,
-  "raw_before_count": 3212,
-  "raw_after_count": 3213,
-  "raw_net_change": 1,
+  "visible_before_count": 2206,
+  "visible_after_count": 2281,
+  "visible_net_change": 75,
+  "raw_before_count": 3213,
+  "raw_after_count": 3230,
+  "raw_net_change": 17,
   "new_candidate_ids": [
-    "2026-11-21-auto-0790fb6c1a"
+    "2026-11-21-auto-d485a7d36b",
+    "2026-11-21-auto-4ed662836e",
+    "2026-11-21-auto-55ba0d848d",
+    "2026-11-21-auto-8160a3a74c",
+    "2026-11-21-auto-a533408113",
+    "2026-11-21-auto-b0aa086596",
+    "2026-11-21-auto-48f827b852",
+    "2026-11-21-auto-5e47d4b770"
   ],
   "new_candidates": [
     {
-      "id": "2026-11-21-auto-0790fb6c1a",
+      "id": "2026-11-21-auto-d485a7d36b",
       "member_ids": [
-        "2026-11-21-auto-0790fb6c1a"
+        "2026-11-21-auto-d485a7d36b"
       ],
-      "priority": "B",
+      "priority": "C",
       "published": "2026-11-21",
-      "company": "宿泊予約システムの「手間いらず",
+      "company": "ZebPay",
       "service": "",
-      "affected_count": 1000000,
-      "summary": "宿泊予約システムの「手間いらず」、情報流出最大100万人 不正アクセス",
+      "affected_count": 0,
+      "summary": "ZebPay、取引先MoEngageの侵害でユーザーデータ漏えいを警告 資金は無事",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1laGdHM0lQckIwZ1IwMERRd0VYNnZKc3lnTWR5WTc5anVHLTV5TGdmMFR3eVBTbnpDazczRzZtS2J4N3FrUEtpS3U1UzVjNkZpMjc2RS1TWXhFYnR4MEFZSDg2Wk5ncUs2alFGQw?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9zaTBkdjJDV0RTZVhyZGtscHdENmpXZE1vRXRuZWFjX2F3bGdmRmVwcS1RNVFnRVp3VEtRRlA5cDlyRFBDT2x5WEdDUTVlNEhmM2ZsanVkMTRBNnpKWFF5dXBBck90cndoQU1qdHdPMkFCa1BD?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-21-auto-4ed662836e",
+      "member_ids": [
+        "2026-11-21-auto-4ed662836e"
+      ],
+      "priority": "C",
+      "published": "2026-11-21",
+      "company": "長崎市公式観光サイトから個人情報流出 運営会社にデータ削除を指示するも残存《長崎",
+      "service": "",
+      "affected_count": 0,
+      "summary": "長崎市公式観光サイトから個人情報流出 運営会社にデータ削除を指示するも残存《長崎》",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5CR0F1LXFVOTgyMWpDODRaaFBjVUZFbXYwTDNYX3VGTTZkeVcyal92czdGUWlrNGk2c3VTYUYweGRFY2hYelhjdU5kRTFQR016MWl6LUs2S1ZybW1QZlVMUWc5TEQtaW5uZzh0Z1lFWTlUMlBkMlVZakZhSno0NzQ?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-21-auto-55ba0d848d",
+      "member_ids": [
+        "2026-11-21-auto-55ba0d848d"
+      ],
+      "priority": "C",
+      "published": "2026-11-21",
+      "company": "情報漏えい相次ぐ中...愛知県警がオンラインでの“セキュリティ診断”を開始",
+      "service": "",
+      "affected_count": 2600,
+      "summary": "情報漏えい相次ぐ中...愛知県警がオンラインでの“セキュリティ診断”を開始 不正アクセス被害に関する相談は先月までで約2600件 去年同時期比で約400件増加 | 名古屋・愛知・岐阜・三重のニュース【CBC news】 | CBC web (1ページ)",
+      "sources": [
+        {
+          "name": "1ページ",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1BOFhzaFpOd2UxQ0xFMnZBMGNjRlJabTRua1ZXUEVramw4aGtwMU14OGxWSTlSbGVOYVFnUU4wOS1Iem8yUUpZUkt5ZVF0NkprWHJ4ZmsyaUpodmIzQ2lmSGFRN2FtNWc?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-21-auto-8160a3a74c",
+      "member_ids": [
+        "2026-11-21-auto-8160a3a74c"
+      ],
+      "priority": "C",
+      "published": "2026-11-21",
+      "company": "国交省の建築認定システム",
+      "service": "",
+      "affected_count": 0,
+      "summary": "国交省の建築認定システムに不正アクセス、大臣認定の申請図書や個人情報が外部流出",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB4dkRPNFRrSkM5TGZDY2R0eG5qQWxNU09YYURnRTl3UTRkM1VZd2YzWm1pZ3RIRWdWVm8wUWc2YjdKbHpsRjB0M2cxSmJYYVBENXc?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-21-auto-a533408113",
+      "member_ids": [
+        "2026-11-21-auto-a533408113"
+      ],
+      "priority": "B",
+      "published": "2026-11-21",
+      "company": "九州電力送配電、約2万9500件",
+      "service": "",
+      "affected_count": 29500,
+      "summary": "九州電力送配電、約2万9500件の個人情報漏洩の恐れ",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE52WEFiX2pVODBreWc4N1hqREdnaDA4aXFsODF2WU9tVkJvbmlnemdRQUJWb3BKRDFMSnhLTnpUNTVYMzZWYlFITEdsNElieXpveUZHbzZDS04wYW9UbEcyZFVzRHN6ZjhVWWFOdw?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-21-auto-b0aa086596",
+      "member_ids": [
+        "2026-11-21-auto-b0aa086596"
+      ],
+      "priority": "B",
+      "published": "2026-11-21",
+      "company": "長崎市公式観光サイト登録",
+      "service": "",
+      "affected_count": 0,
+      "summary": "長崎市公式観光サイト登録の個人情報が漏えい 「プレイド」(東京)提供のサービスを利用",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5xVG45b0JMbmNfbVhBYlpkT3pwdWN6VURObVZXVkl6d053VGdLaUh2RzRIa2hkMnUwS3VDb09HTFgyTEJRUTZwR2IxTQ?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-21-auto-48f827b852",
+      "member_ids": [
+        "2026-11-21-auto-48f827b852"
+      ],
+      "priority": "C",
+      "published": "2026-11-21",
+      "company": "メルカリ、Notion AI経由で顧客1522人分",
+      "service": "",
+      "affected_count": 1522,
+      "summary": "メルカリ、Notion AI経由で顧客1522人分の情報流出か 委託先の委託先に記録残存",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBaSEU1M3o3QlgzQnJCUWdmVUhoZDluSVZNWlBGdjhPcG5TX29ObUtEOWFjaXZ4LWcwSUdtYnVxV3JSOVl2UGtPUDZWWGU3V2Q3RDk5Q0Q4WDN6SmNDQVpVemlBOTl5ZnN1S3h4U1JtQzI5RlNQ?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-21-auto-5e47d4b770",
+      "member_ids": [
+        "2026-11-21-auto-5e47d4b770"
+      ],
+      "priority": "C",
+      "published": "2026-11-21",
+      "company": "ついにAIチャットの中身がお漏らしされる日が来てしまったか」――メルカリ",
+      "service": "",
+      "affected_count": 3800,
+      "summary": "「ついにAIチャットの中身がお漏らしされる日が来てしまったか」――メルカリ、Notion AIで約3800人分の情報流出の恐れ",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE00bUlmQTM1N3Fpa00zSkRDT2IyVGJaZ0lFbTlxcWpfTkJiZWhoZUthbjlna1M0bG5tQW5HTU9MUXF6Zw?oc=5",
           "official": false
         }
       ]
