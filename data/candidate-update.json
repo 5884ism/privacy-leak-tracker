@@ -1,96 +1,96 @@
 {
   "version": "1.1",
-  "generated_at": "2026-11-23T01:43:26+00:00",
-  "before_count": 2340,
-  "after_count": 2346,
-  "net_change": 6,
+  "generated_at": "2026-11-23T02:55:09+00:00",
+  "before_count": 2346,
+  "after_count": 2350,
+  "net_change": 4,
   "new_count": 4,
   "removed_count": 0,
-  "visible_before_count": 2340,
-  "visible_after_count": 2346,
-  "visible_net_change": 6,
-  "raw_before_count": 3270,
-  "raw_after_count": 3276,
-  "raw_net_change": 6,
+  "visible_before_count": 2346,
+  "visible_after_count": 2350,
+  "visible_net_change": 4,
+  "raw_before_count": 3276,
+  "raw_after_count": 3281,
+  "raw_net_change": 5,
   "new_candidate_ids": [
-    "2026-11-23-auto-b027218bd6",
-    "2026-11-23-auto-516b33ce8a",
-    "2026-11-23-auto-f1217ee3bf",
-    "2026-11-23-auto-5a4fb6d371"
+    "2026-11-23-auto-c5e02d9f53",
+    "2026-11-23-auto-afd418f7db",
+    "2026-11-23-auto-9815169c7e",
+    "2026-11-23-auto-8860c8fac1"
   ],
   "new_candidates": [
     {
-      "id": "2026-11-23-auto-b027218bd6",
+      "id": "2026-11-23-auto-c5e02d9f53",
       "member_ids": [
-        "2026-11-23-auto-b027218bd6"
+        "2026-11-23-auto-c5e02d9f53"
       ],
       "priority": "B",
       "published": "2026-11-23",
-      "company": "WOW WORLD",
+      "company": "マンダム、3万6000人",
       "service": "",
-      "affected_count": 49000,
-      "summary": "WOW WORLDに不正アクセス、約4万9,000件が情報漏洩 Vポイントのメールアドレスも対象",
+      "affected_count": 36000,
+      "summary": "マンダム、3万6000人の顧客情報漏洩の恐れ 委託先に不正アクセス",
       "sources": [
         {
-          "name": "合同会社ロケットボーイズ",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTV9UaDFkS3VxaU5WNHBCdVNJMERUc3pRaXhlbng4ejBaNnl6QUxwckVESG8tNEZuajJCVW9ERnFmQy1OUmpGaFp5cmxudllYX3ROT1FjaTNxRXJEVkRjUDUzUi16NmgtY3RPYjM2eDJqVGlMcl9qOXBtTUxzaXF3MzVZaFp1T1ZHdHN1Rg?oc=5",
+          "name": "日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5tZW5wQlJNQmdmd3djRjJKRmEydjZiUVQweGI5b0NhS0RuM2RlclRENEprVkhUdmFMT21ybVJsQmxtbTJTTm5GeWF4VE5tOUpKSVl3NGhVS1ZyZVp0c0dLRUhaSE5WVHVmRHdqWA?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-11-23-auto-516b33ce8a",
+      "id": "2026-11-23-auto-afd418f7db",
       "member_ids": [
-        "2026-11-23-auto-516b33ce8a"
+        "2026-11-23-auto-afd418f7db"
       ],
       "priority": "B",
       "published": "2026-11-23",
-      "company": "クラシル「レシチャレ」最大約32万件",
+      "company": "キャンドゥ、通販メルマガのメールアドレス1万9,830件",
       "service": "",
-      "affected_count": 320000,
-      "summary": "クラシル「レシチャレ」最大約32万件の情報漏えい 「クラシルチラシ」約1,300件も対象、契約終了後のプレイドKARTEにデータ残存|セキュリティニュースのセキュリティ対策Lab",
+      "affected_count": 19830,
+      "summary": "キャンドゥ、通販メルマガのメールアドレス1万9,830件が流出 アララへの不正アクセスが波及",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdG5XeThYODV5LTRBREtkbldETEJBTkJuV2EyajZQeW44YjlKTkR6dkxoQVZicTVxbkR6MUtWazlMNFU1X01RQXJ0cktWQnhsZ2U4TXhZcHZfWjItUEM1QTZlbGNXYWhSOWFnSzN1cnowNFNvczNMb3Z2Z2RtZTlCLXFyMzJsLU1lS0o4cDBRVnFzc2VBVlJPSEpqLWZRMVhLRUdGNnZ4NjhoZk9wN1ZDaDV2OW9Pd3h5OHJXZk9QZw?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZjZhanFsN3dPYmFMQlFsV29lc3N4U3djVzZqeFZSbE44Nk96MGNPNXczN1hqbmhRZ1V0dHFVamtCMncwLTVuTDM3b0FzbFNuakVNUmdCLXU0N2NaQW5IaXpJYmxwMVhVWUIwVzRJZldDcXlMYWhRcU41eTFZWVdKdDNjTzZsQzdhWEtfOVhtZGdZYk5YSi1rSUVUX09KTjg2QUZLaXRmQQ?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-11-23-auto-f1217ee3bf",
+      "id": "2026-11-23-auto-9815169c7e",
       "member_ids": [
-        "2026-11-23-auto-f1217ee3bf"
+        "2026-11-23-auto-9815169c7e"
       ],
       "priority": "C",
       "published": "2026-11-23",
-      "company": "Kurly",
+      "company": "日本 マクドナルド、公式アプリのデータベース",
       "service": "",
-      "affected_count": 199,
-      "summary": "Kurly、キュレーターに続き役職員199人の情報も流出",
+      "affected_count": 0,
+      "summary": "日本 マクドナルド、公式アプリのデータベースに不正アクセスによるサイバー攻撃|セキュリティニュースのセキュリティ対策Lab",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9Sblc5NmxhNlhuQXpOeW9CRTM3RXRXMEloa1N5ZnFEZUdYZ3NaTkliOVpYVjdQQzVkQUQ4azYtQV9ISUZUNnI4UDhRbFlMT1JFdWRNa2YxQndiOFhjQkZYOEZaUUpPTW82cTN1Tl9BSmM2UHhONDlLTkc2ZHh3QzjSAZMBQVVfeXFMT2ZhazBIeXNBWmtGMFRpREppUlB2czF5V1NfUW56Z2VQVDg4dE92M1QwdlB3cFZZRkNOUlBFS05veC0tbllXQmMzN1A1NG9LTWpLcGNIT0xaOEFWSEV4RlhZNDdiTVVFNTRIMVh1eW1vZ1gxUHZwRzdpQWhNN3dZQ1JXb1I1c3N2Q044S0dXN0piNVRn?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUGpjN3EyNTZ4dTBIcTNJTjFKdGRHTHhxVG9hOVhrMjJ6V0ZvQ0VCN29GRjRxeG41aVluUTJsOVA1X1dCMVRuLXpXcmY5WWhVU0dWZVpWQkNFeDlWQURNU0lWY1N6QlVSakNPaEFMVzlQTG1GRVA1TnFLdTlBNUIwYjlBTGpBMDN6eGVQZTdRTFZTakVmRVNBODFZUzB0ODFyNjR6MkdXUzhoYjZXN3ZIdFVGcXdBUQ?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-11-23-auto-5a4fb6d371",
+      "id": "2026-11-23-auto-8860c8fac1",
       "member_ids": [
-        "2026-11-23-auto-5a4fb6d371"
+        "2026-11-23-auto-8860c8fac1"
       ],
-      "priority": "B",
+      "priority": "C",
       "published": "2026-11-23",
-      "company": "約5万円の不正利用を確認 クレジットカード情報流出か",
+      "company": "Samsung Securities、VOC受付",
       "service": "",
-      "affected_count": 50000,
-      "summary": "約5万円の不正利用を確認 クレジットカード情報流出か 流出が確認された客には見舞金を用意 六花亭",
+      "affected_count": 8241,
+      "summary": "Samsung Securities、VOC受付に不正アクセス 顧客8241人の個人情報漏えい",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBrU1ZhaHhUTUN0ZHFPcllRWVFxZzkzRXktMlRCZFB4NnowTUJCU0FCby1Henl1cWJUYVZSU2E1S3RGbWYzTmdlMTdaeVZpd0VHRXM1M2NOUzNMeUhSVTRJcUZmbmJMdzJfVW9fbnkyamxPSWZVLUdORWVyTdIBgAFBVV95cUxNWU1XWlpuSjcyQUl6aGJqVjdRcm1tSHpvclM0NzQzZ183cC1EdFQ3UXFGQjA5T0hxalRSVFc1dXhZcUYwNkxtVVJjZmRGYUV5ZUxiUzA2ajE2Z2xlRzNOeDdjSUpEcy1TUVRuTFdsNEdoZm9TVkZERktQR041WEsteA?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbGRvNTdtcHh2T0M3cmEyVTNuRVNET20tc0VORG9IdHdYUl9tRk5KeDViY293QkpWb0R1VGZUcGVtazdiejgwMHZ4T2R0UEN0RUNfaHFKX3JGYVhnMDlzSy1oaUlmOFFVU2Y4a0NDNEptWHptdkdNVi1ha3RycktIU1NZZXhyZUJDTWo2NnZkTnhwd01ncWdkVHJTVllCM3A0aEF6U1FfRkZfSDY5?oc=5",
           "official": false
         }
       ]
