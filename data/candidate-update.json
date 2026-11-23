@@ -1,96 +1,136 @@
 {
   "version": "1.1",
-  "generated_at": "2026-11-23T02:55:09+00:00",
-  "before_count": 2346,
-  "after_count": 2350,
-  "net_change": 4,
-  "new_count": 4,
+  "generated_at": "2026-11-23T13:01:41+00:00",
+  "before_count": 2350,
+  "after_count": 2356,
+  "net_change": 6,
+  "new_count": 6,
   "removed_count": 0,
-  "visible_before_count": 2346,
-  "visible_after_count": 2350,
-  "visible_net_change": 4,
-  "raw_before_count": 3276,
-  "raw_after_count": 3281,
-  "raw_net_change": 5,
+  "visible_before_count": 2350,
+  "visible_after_count": 2356,
+  "visible_net_change": 6,
+  "raw_before_count": 3281,
+  "raw_after_count": 3292,
+  "raw_net_change": 11,
   "new_candidate_ids": [
-    "2026-11-23-auto-c5e02d9f53",
-    "2026-11-23-auto-afd418f7db",
-    "2026-11-23-auto-9815169c7e",
-    "2026-11-23-auto-8860c8fac1"
+    "2026-11-23-auto-6cc50c53ef",
+    "2026-11-23-auto-6c605502ef",
+    "2026-11-23-auto-1a80f670c4",
+    "2026-11-23-auto-9a5748ad63",
+    "2026-11-23-auto-e5e58d47d1",
+    "2026-11-23-auto-e0af4295bf"
   ],
   "new_candidates": [
     {
-      "id": "2026-11-23-auto-c5e02d9f53",
+      "id": "2026-11-23-auto-6cc50c53ef",
       "member_ids": [
-        "2026-11-23-auto-c5e02d9f53"
+        "2026-11-23-auto-6cc50c53ef"
       ],
       "priority": "B",
       "published": "2026-11-23",
-      "company": "マンダム、3万6000人",
+      "company": "RAGTAG、最大37万人",
       "service": "",
-      "affected_count": 36000,
-      "summary": "マンダム、3万6000人の顧客情報漏洩の恐れ 委託先に不正アクセス",
+      "affected_count": 370000,
+      "summary": "RAGTAG、最大37万人の個人情報漏洩の恐れ- 委託先 プレイド「KARTE」への不正アクセスによるサイバー攻撃で",
       "sources": [
         {
-          "name": "日本経済新聞",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5tZW5wQlJNQmdmd3djRjJKRmEydjZiUVQweGI5b0NhS0RuM2RlclRENEprVkhUdmFMT21ybVJsQmxtbTJTTm5GeWF4VE5tOUpKSVl3NGhVS1ZyZVp0c0dLRUhaSE5WVHVmRHdqWA?oc=5",
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTzRvVUhLVDNETlVSQmJWQmo0VmYwdS0xSzgyNFVUb1V4MXZtZS1SMmI4VTFmZXJqZmx6akZ0YVA3VHlRdDNCWGQ4MVZXNDB6Q29lU3UtUWN5N1JHRmZOMnZoTWRodEl2czhKNXgyMDNQNks3TWRnTWxoYXNFR0RBOWdvWDFadHV0S1V3SFhxRkpXREhxSS1BOVhrd0pKQ0ZRSXBfdzhB?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-11-23-auto-afd418f7db",
+      "id": "2026-11-23-auto-6c605502ef",
       "member_ids": [
-        "2026-11-23-auto-afd418f7db"
-      ],
-      "priority": "B",
-      "published": "2026-11-23",
-      "company": "キャンドゥ、通販メルマガのメールアドレス1万9,830件",
-      "service": "",
-      "affected_count": 19830,
-      "summary": "キャンドゥ、通販メルマガのメールアドレス1万9,830件が流出 アララへの不正アクセスが波及",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZjZhanFsN3dPYmFMQlFsV29lc3N4U3djVzZqeFZSbE44Nk96MGNPNXczN1hqbmhRZ1V0dHFVamtCMncwLTVuTDM3b0FzbFNuakVNUmdCLXU0N2NaQW5IaXpJYmxwMVhVWUIwVzRJZldDcXlMYWhRcU41eTFZWVdKdDNjTzZsQzdhWEtfOVhtZGdZYk5YSi1rSUVUX09KTjg2QUZLaXRmQQ?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-23-auto-9815169c7e",
-      "member_ids": [
-        "2026-11-23-auto-9815169c7e"
+        "2026-11-23-auto-6c605502ef"
       ],
       "priority": "C",
       "published": "2026-11-23",
-      "company": "日本 マクドナルド、公式アプリのデータベース",
-      "service": "",
-      "affected_count": 0,
-      "summary": "日本 マクドナルド、公式アプリのデータベースに不正アクセスによるサイバー攻撃|セキュリティニュースのセキュリティ対策Lab",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUGpjN3EyNTZ4dTBIcTNJTjFKdGRHTHhxVG9hOVhrMjJ6V0ZvQ0VCN29GRjRxeG41aVluUTJsOVA1X1dCMVRuLXpXcmY5WWhVU0dWZVpWQkNFeDlWQURNU0lWY1N6QlVSakNPaEFMVzlQTG1GRVA1TnFLdTlBNUIwYjlBTGpBMDN6eGVQZTdRTFZTakVmRVNBODFZUzB0ODFyNjR6MkdXUzhoYjZXN3ZIdFVGcXdBUQ?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-23-auto-8860c8fac1",
-      "member_ids": [
-        "2026-11-23-auto-8860c8fac1"
-      ],
-      "priority": "C",
-      "published": "2026-11-23",
-      "company": "Samsung Securities、VOC受付",
+      "company": "韓国Samsung SecuritiesのVOCシステム",
       "service": "",
       "affected_count": 8241,
-      "summary": "Samsung Securities、VOC受付に不正アクセス 顧客8241人の個人情報漏えい",
+      "summary": "韓国Samsung SecuritiesのVOCシステムに不正アクセス、8,241人の情報流出...証券業界にハッキング警戒感",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPbGRvNTdtcHh2T0M3cmEyVTNuRVNET20tc0VORG9IdHdYUl9tRk5KeDViY293QkpWb0R1VGZUcGVtazdiejgwMHZ4T2R0UEN0RUNfaHFKX3JGYVhnMDlzSy1oaUlmOFFVU2Y4a0NDNEptWHptdkdNVi1ha3RycktIU1NZZXhyZUJDTWo2NnZkTnhwd01ncWdkVHJTVllCM3A0aEF6U1FfRkZfSDY5?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9SQXhMYUJDYl9YajBZNjFkc21HNTJuYkl5QVoyUVlIelgxNl9jNGJ0MndNSlpQcnZodm92S1dWZVN6R3Qyemx4aW9wR2EzWmxBWmJyMmQ0dXlNbmJ1NGVEZ2NuRnA5OFpOTk1EeGpTTzdveTQx?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-23-auto-1a80f670c4",
+      "member_ids": [
+        "2026-11-23-auto-1a80f670c4"
+      ],
+      "priority": "C",
+      "published": "2026-11-23",
+      "company": "マクドナルド公式アプリ",
+      "service": "",
+      "affected_count": 0,
+      "summary": "マクドナルド公式アプリに不正アクセス、位置情報と購入履歴が対象 氏名は含まれず",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11RVdJV1NxcGQ0MmZ0ZGNpQXZ6QzFKSV96dEZ0TWpDUlZyQUo0aUZMLURlNmdSSU96LUxYekRWQUJ0TllILWdJYXVaYXdPZnZwRUYw?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-23-auto-9a5748ad63",
+      "member_ids": [
+        "2026-11-23-auto-9a5748ad63"
+      ],
+      "priority": "B",
+      "published": "2026-11-23",
+      "company": "防災情報",
+      "service": "",
+      "affected_count": 30006,
+      "summary": "防災情報に不正アクセス メールアドレス約3 1 3万6千件漏えいか 岡山市などメール配信停止",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5lUGF0RGc3cGNxRUZoSExnLU16cE9mMmV2ektBOG16cklFUGI5NlpKMXNObzdaRGI5ekhmRElZRmZQM2FudVREN042TjhEbVlMR2lRX250Q2hkaEhQcGtlZDVsdjhDZ3RuNG90S2RsVWlVQQ?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-23-auto-e5e58d47d1",
+      "member_ids": [
+        "2026-11-23-auto-e5e58d47d1"
+      ],
+      "priority": "B",
+      "published": "2026-11-23",
+      "company": "新幹線のネット予約サービス",
+      "service": "",
+      "affected_count": 170000,
+      "summary": "新幹線のネット予約サービスの会員情報漏えい...JR3社で計約17万件 「ユミルリンク」への不正アクセス受け",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1rakNGOVM4aDRiZTk5YkJhUm5wXzQ1ai1PbDVtWF9LRFFyZXFqa3dmekZKa3dWeWVxNjl0SElwLS1sSnU2VzlKSDNGbWgxdjBhSlRuYnhjQW45NjJTLVpB?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-23-auto-e0af4295bf",
+      "member_ids": [
+        "2026-11-23-auto-e0af4295bf"
+      ],
+      "priority": "C",
+      "published": "2026-11-23",
+      "company": "セキュリティコード含むクレカ情報流出|六花亭が不正利用を確認",
+      "service": "",
+      "affected_count": 0,
+      "summary": "セキュリティコード含むクレカ情報流出|六花亭が不正利用を確認",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBHckZQbVNwM0pYQThELVlfcXJ1cnFrY1hPU0U0M3ZhLVlDaTc4SDlfODZGWTNUY25DSlRaM0R3U2k4eDBwU3YtUTBFQnZRWnpnQjFKWXBJY1NEV25PVDZ0QW1iX2NLMnNuSHlwazc1eHh1S0xjZkFLSnJB?oc=5",
           "official": false
         }
       ]
