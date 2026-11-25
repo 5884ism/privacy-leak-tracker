@@ -1,196 +1,36 @@
 {
   "version": "1.1",
-  "generated_at": "2026-11-25T04:14:32+00:00",
-  "before_count": 2415,
-  "after_count": 2434,
-  "net_change": 19,
-  "new_count": 9,
+  "generated_at": "2026-11-25T05:00:11+00:00",
+  "before_count": 2434,
+  "after_count": 2426,
+  "net_change": -8,
+  "new_count": 1,
   "removed_count": 0,
-  "visible_before_count": 2415,
-  "visible_after_count": 2434,
-  "visible_net_change": 19,
-  "raw_before_count": 3383,
-  "raw_after_count": 3403,
-  "raw_net_change": 20,
+  "visible_before_count": 2434,
+  "visible_after_count": 2426,
+  "visible_net_change": -8,
+  "raw_before_count": 3403,
+  "raw_after_count": 3404,
+  "raw_net_change": 1,
   "new_candidate_ids": [
-    "2026-11-25-auto-29ab914913",
-    "2026-11-25-auto-055504b42c",
-    "2026-11-25-auto-e2e340e1d3",
-    "2026-11-25-auto-50575a8724",
-    "2026-11-25-auto-20653ef426",
-    "2026-11-25-auto-1667100799",
-    "2026-11-25-auto-08779de633",
-    "2026-11-25-auto-9dd2d0eb39",
-    "2026-11-25-auto-b63e13e32e"
+    "2026-11-25-auto-dcb49b4049"
   ],
   "new_candidates": [
     {
-      "id": "2026-11-25-auto-29ab914913",
+      "id": "2026-11-25-auto-dcb49b4049",
       "member_ids": [
-        "2026-11-25-auto-29ab914913"
-      ],
-      "priority": "B",
-      "published": "2026-11-25",
-      "company": "三菱ケミカル・クリンスイ、1万466名",
-      "service": "",
-      "affected_count": 10466,
-      "summary": "三菱ケミカル・クリンスイ、1万466名の個人情報漏えい GoQSystemへの不正アクセスで楽天市場などECサイト 3店舗に影響",
-      "sources": [
-        {
-          "name": "合同会社ロケットボーイズ",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOV2RqU052T0RnVXdIOThsU0lLOEpQWTFURm5VeFRheWtqbGpNUjY1bUt1R0lVajF1TWZHenhhbU1fZ094YzB3SFBEaHZVWTBRMVFmV0hzYV9MdmtjS3Q2bEttWGkzZjhoU2NJMEFueTNsNk5NUDNTM2pZbGdIVVdpVTBNZkxQdjNTYzNCN3NOakdyS3oyNTFn?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-25-auto-055504b42c",
-      "member_ids": [
-        "2026-11-25-auto-055504b42c"
-      ],
-      "priority": "B",
-      "published": "2026-11-25",
-      "company": "JAXAの衛星データ提供システム",
-      "service": "",
-      "affected_count": 0,
-      "summary": "JAXAの衛星データ提供システムに不正アクセス コマンドインジェクション脆弱性悪用、アカウント情報流出",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE01RWYxOUY1dUpxZXp6VlFwQ2JSX3BPQnNSNnpia3o5dXBuQ2lXTmlodEFZeUJ6a19FMjhZTUFEWWF0MkZqMkFQQm9CYjNlOUhGVFZqVmNvakIyWi1GNXZubUVVVDNMS1REbFE?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-25-auto-e2e340e1d3",
-      "member_ids": [
-        "2026-11-25-auto-e2e340e1d3"
-      ],
-      "priority": "B",
-      "published": "2026-11-25",
-      "company": "山善コーポレートサイト",
-      "service": "",
-      "affected_count": 10508,
-      "summary": "山善コーポレートサイトに不正アクセス、「お問い合わせフォーム」への登録データ延べ1万508件の個人情報が漏えいした可能性",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBRU0stbjV1OUxZb3liNzJfUzU5amh6VG9kelhmREVnMGNIOXhtc1dyLVNEYjNEU0c5amx4SklJSW9JcXBPQUs1LWRLOThIcHpQTTBHUWNVSDVWZ1Rpbzh0ZVVPcEk5V0VmTWZDeA?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-25-auto-50575a8724",
-      "member_ids": [
-        "2026-11-25-auto-50575a8724"
-      ],
-      "priority": "A",
-      "published": "2026-11-25",
-      "company": "カード番号など顧客情報4万2107件",
-      "service": "",
-      "affected_count": 42107,
-      "summary": "カード番号など顧客情報4万2107件が流出...PLANTペイ、運用委託先に不正アクセス (福井新聞ONLINE)",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMzNpN2UyS0V4UVlLMnBQMXk3WDRlUGVzNDZCM20tNkk5Z1dnQVZnUHgzZUpfZVpuVjZvUnluSjEwdENBdkx5MkpvRXBVTThYNE9vU3NyUkhXVERlUDc2d0g1Tlp3c0YzVGpGX0czU1luQ3I5TEVQUDZKdDA0UGxFZ2RMbEhsV19XdUdnUkZn?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-25-auto-20653ef426",
-      "member_ids": [
-        "2026-11-25-auto-20653ef426"
+        "2026-11-25-auto-dcb49b4049"
       ],
       "priority": "C",
       "published": "2026-11-25",
-      "company": "旅行会社向け予約手配システム「Rikisha Easy REZ!",
+      "company": "「警告音。閉じられない」個人に身代金要求の攻撃も...相次ぐ不正アクセス 巧妙化",
       "service": "",
       "affected_count": 0,
-      "summary": "旅行会社向け予約手配システム「Rikisha Easy REZ!」に不正アクセス",
+      "summary": "「警告音。閉じられない」個人に身代金要求の攻撃も...相次ぐ不正アクセス 巧妙化する手口とは 北海道",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8yV05jMnZCZ29kTTN4azNnZDR1WEsweHJ6VjN3LU1NQUJnbVpXSWZkWmJGUmlDYkc4SXI2b011YzJESXdQSUI3c0xvWlVRcmZURURic05sWDF4WjJaUnJ4bTduUmN3XzJsRUxWVw?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-25-auto-1667100799",
-      "member_ids": [
-        "2026-11-25-auto-1667100799"
-      ],
-      "priority": "B",
-      "published": "2026-11-25",
-      "company": "仙台の老舗百貨店「藤崎」、最大約7万5,000件",
-      "service": "",
-      "affected_count": 75000,
-      "summary": "仙台の老舗百貨店「藤崎」、最大約7万5,000件の個人情報漏えいのおそれ プレイド「KARTE」への不正アクセスで",
-      "sources": [
-        {
-          "name": "合同会社ロケットボーイズ",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQWTFzUzJJTUlmZm9yRTRFU01rZmV6R3hfR3U4MWROWS1fVHRjb0loVHgyLTBRZTk3WVRJZlBPWmgwbDZ4MmVRc2ItN05RZUNTZDRlcF9kdDc0cTN6NHBiYjM5dXlNSVZzSzQ3dWs3LUp3TGdfdGRId1ZmblFHbXFUa0h5Uk15Y2dxVDNwd1RhU2JqS3BBc29UQUpMWmRKUQ?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-25-auto-08779de633",
-      "member_ids": [
-        "2026-11-25-auto-08779de633"
-      ],
-      "priority": "C",
-      "published": "2026-11-25",
-      "company": "アイ・エス・ビーのMDM「FiT SDM」「FiT サイネージ",
-      "service": "",
-      "affected_count": 0,
-      "summary": "アイ・エス・ビーのMDM「FiT SDM」「FiT サイネージ」に不正アクセス、全サービスを一時停止",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNGs2UmpWbWQyZHg2Q09uWFh3OHEyeVIwYVdhcTk5QTlIR1FlblhoVTlvZ0tiYnNKaUp2NG5CX2xQcXRSR2dza0wxRGJid1pLTy1NR0xNYzNCby1FbDJsaFNkckRhN1FZUUQwQ1djdW1rekZLNVNOZUdfaHMxdVl4ZUltVEJMOFBnUGlNczU3N3FlWXpYLUd0VA?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-25-auto-9dd2d0eb39",
-      "member_ids": [
-        "2026-11-25-auto-9dd2d0eb39"
-      ],
-      "priority": "C",
-      "published": "2026-11-25",
-      "company": "インフォネット「infoCMS",
-      "service": "",
-      "affected_count": 0,
-      "summary": "インフォネット「infoCMS」に不正アクセス、顧客Webサイトを一斉停止-上場企業サイトにも影響か",
-      "sources": [
-        {
-          "name": "合同会社ロケットボーイズ",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPeE1HR3lWOU9NdzV0Szl6Y3B2LXNVTkJPWFV1OFd6T3llMTlYZ2RFSFA1WHUzaTF2NE55Um56MWVrN0kwTDVkU2xoRXJKaXhWTkhCNThUMnR6YThORnpaMnQzakkyclpQcVRxUXpNVmdBU0F1emNQbUIxZnVXejRqaGRfRkcxajJUQ2pURVRaTmgwRWpOWmdwZV9mQUJ2aS1jdlFQQ2M5aktNdEE?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-25-auto-b63e13e32e",
-      "member_ids": [
-        "2026-11-25-auto-b63e13e32e"
-      ],
-      "priority": "C",
-      "published": "2026-11-25",
-      "company": "ヴェレダ公式ショップとベレッツァ",
-      "service": "",
-      "affected_count": 0,
-      "summary": "ヴェレダ公式ショップとベレッツァが不正アクセス被害でカード情報漏えいの可能性",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5jNENPZ0Q2UGlQVGttdElWdkZtdXc2WUlNSkpVV09ldDl3Z0lGRHRhRzJLY053dTBuN2t3NFozUTdHbmJQa3kzbHpxWjdzZ0JBN0E?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE54dXVPT21rQU1WY1ZHZkc4S0xNNXVBM2tUbE94a0pXaThQSEJORW5iZ0R5OHA2S19tMVZGcWpJVUE3NFU1NFBpMGJsWVJwclJaeHhjVzdXSlkwQUI4d1pHLXloMVJ6WTVHOU1iV19vUDJBdFNvWkpqYUxTd2Y1VlE?oc=5",
           "official": false
         }
       ]
