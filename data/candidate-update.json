@@ -1,275 +1,420 @@
 {
   "version": "1.1",
-  "generated_at": "2026-11-26T19:46:01+00:00",
-  "before_count": 2410,
-  "after_count": 2426,
-  "net_change": 16,
-  "new_count": 11,
-  "removed_count": 1,
-  "visible_before_count": 2410,
-  "visible_after_count": 2426,
-  "visible_net_change": 16,
-  "raw_before_count": 3532,
-  "raw_after_count": 3555,
-  "raw_net_change": 23,
+  "generated_at": "2026-11-27T03:00:07+00:00",
+  "before_count": 2426,
+  "after_count": 2450,
+  "net_change": 24,
+  "new_count": 20,
+  "removed_count": 0,
+  "visible_before_count": 2426,
+  "visible_after_count": 2450,
+  "visible_net_change": 24,
+  "raw_before_count": 3555,
+  "raw_after_count": 3584,
+  "raw_net_change": 29,
   "new_candidate_ids": [
-    "2026-11-27-auto-539b0d90ba",
-    "2026-11-27-auto-ab4a04fcf9",
-    "2026-11-27-auto-7e7106a9fa",
-    "2026-11-27-auto-c28cd22389",
-    "2026-11-27-auto-442175a907",
-    "2026-11-27-auto-aa29e4fea0",
-    "2026-11-27-auto-e1fb5276be",
-    "2026-11-27-auto-b870052572",
-    "2026-11-27-auto-7b5e885e79",
-    "2026-11-27-auto-b7582718f5",
-    "2026-11-27-auto-54513781bf"
+    "2026-11-27-auto-8267c5aa18",
+    "2026-11-27-auto-1d9fc711b3",
+    "2026-11-27-auto-5e1222094e",
+    "2026-11-27-auto-0d0fdd806c",
+    "2026-11-27-auto-0dd13b84b9",
+    "2026-11-27-auto-da5ec0a7d0",
+    "2026-11-27-auto-7e63380293",
+    "2026-11-27-auto-721cbc0e66",
+    "2026-11-27-auto-6b58e42973",
+    "2026-11-27-auto-d0d82e8242",
+    "2026-11-27-auto-1dc308ebb3",
+    "2026-11-27-auto-ce037294e7",
+    "2026-11-27-auto-1913c1eea2",
+    "2026-11-27-auto-2e5aa5c7ea",
+    "2026-11-27-auto-b576274656",
+    "2026-11-27-auto-f445d2f9df",
+    "2026-11-27-auto-4b2f45924c",
+    "2026-11-27-auto-34c6daaba9",
+    "2026-11-27-auto-454fc25ee4",
+    "2026-11-27-auto-59b2f76503"
   ],
   "new_candidates": [
     {
-      "id": "2026-11-27-auto-539b0d90ba",
+      "id": "2026-11-27-auto-8267c5aa18",
       "member_ids": [
-        "2026-11-27-auto-539b0d90ba"
+        "2026-11-27-auto-8267c5aa18"
       ],
       "priority": "B",
       "published": "2026-11-27",
-      "company": "エコ・アクション・ポイント",
+      "company": "MMD研究所、1万6,704件",
       "service": "",
-      "affected_count": 98000,
-      "summary": "「エコ・アクション・ポイント」に不正アクセス、最大9万8,000人の個人情報漏えいのおそれ 宇都宮市の登録者6,257人も対象",
+      "affected_count": 16704,
+      "summary": "MMD研究所、1万6,704件の情報漏えいが確定 ブラストメールへの不正アクセス、APIを使わずメール配信再開",
       "sources": [
         {
           "name": "合同会社ロケットボーイズ",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOUzlETWU5NjJtSS00b0lsS1FZZU1nVjhGdmY4dnFaV1BlXzB6bmFodzBWUEg1d1JUZVd5cVRqdnlJdFBTV2dYRWtRTnlHbFIzd0tjMHdZNHVPZmdoZkhqR2YwYkFWaUJzVG54X3ByakpQYWNURVo2QUFabWxYLVhrVmJJOA?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQT2prVllDeThwN3d4dU80aFE2RjZvQ1JxUXk5bzBqMG9lMU5NOUNTNzI3ZV9PY3dfMF9oa3U0WFVIalI2ZHBHc3ZXV3VsblE5MUVIZ2dPUVdzOXVndlhaLUVrakIxa0JnVUlDNWlPeXhUUG84dFZVMmZPMG55akRNek1CYmZtM2txU3ZCajFsVTdQRlJCWExOeEFqM1I?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-11-27-auto-ab4a04fcf9",
+      "id": "2026-11-27-auto-1d9fc711b3",
       "member_ids": [
-        "2026-11-27-auto-ab4a04fcf9",
-        "2026-11-27-auto-01729c093f"
+        "2026-11-27-auto-1d9fc711b3"
       ],
-      "priority": "A",
+      "priority": "B",
       "published": "2026-11-27",
-      "company": "三井不動産アプリ",
+      "company": "ファンケル 傘下のアテニア、最大66万3,481件",
       "service": "",
-      "affected_count": 3110009,
-      "summary": "三井不動産ポイント会員の個人情報漏えい、311万人対象...クレジットカード情報含まれず(読売新聞オンライン)",
-      "sources": [
-        {
-          "name": "NHKニュース",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5ELVEwazdTY3BUTGgtck90T0NLMUVqRm5FOGN5bFVnaUU5d3N5OGJXUU4ybVlRdjgtbG8wckJ2QnRjQWVNZVNIVnE0SFJCeDhiWXBWLVFTYzRfQmZ1dTRN?oc=5",
-          "official": false
-        },
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBuQ1B5ZVYxbnlwUTZHVS11bWZTQ3lHbk11M2dCOEhJeU16Z0EzLWdCNnpucDVEY0xGX2RiaWJQeS1YakVFWjQ2NUFLdGVkRk5EZUlSaGwzaDVXRXkzRjE1RzVKSDdfWGFLRkxUajNhcWptSC1nWl83VGNWcGNjM0U?oc=5",
-          "official": false
-        },
-        {
-          "name": "Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE41Q0ZyaGpuNkxjNEM0ejdsNy1wNllZQ19laFlkZG93WnY0a0paTUlTQ1BvN1c5X0dUcXdJeWZrdGZPenpSdVVfcklfMF81YUIxUmZKRFdUZmZXdG96UDJGeEg3VUdMQmNseUVIQURjUk8wTVpTa3RHZkVHYXdDa00?oc=5",
-          "official": false
-        },
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1RczN5b3BRazBoeVY3VVNiamZiSWVNZlYydHppejg4S3dBdjdGRmNkdzB0c2lqdUphMTYyeEZoVnY1SkJRVUVRTkR0cw?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-27-auto-7e7106a9fa",
-      "member_ids": [
-        "2026-11-27-auto-7e7106a9fa"
-      ],
-      "priority": "C",
-      "published": "2026-11-27",
-      "company": "文部科学省 入札システム",
-      "service": "",
-      "affected_count": 0,
-      "summary": "文部科学省 入札システムに不正アクセス 情報漏えいの可能性",
-      "sources": [
-        {
-          "name": "NHKニュース",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1aMGs3NXBVdm9lLXBHbUVHWHhqTTZUOWJRVDBjMmJMM2JGUjRpdXV1Vi13NjRBNV9ScHYxdTJxX2lJV1hITFZ1NzdBX3p3ajlGZEVWaXlDVHF5WXNRUDVZ?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-27-auto-c28cd22389",
-      "member_ids": [
-        "2026-11-27-auto-c28cd22389"
-      ],
-      "priority": "C",
-      "published": "2026-11-27",
-      "company": "焼肉きんぐ・丸源ラーメンなどを展開する物語コーポレーション、7万9,799件",
-      "service": "",
-      "affected_count": 79799,
-      "summary": "焼肉きんぐ・丸源ラーメンなどを展開する物語コーポレーション、7万9,799件の個人情報漏洩 委託先が運用管理するシステムへの不正アクセスで|セキュリティニュースのセキュリティ対策Lab",
+      "affected_count": 663481,
+      "summary": "ファンケル 傘下のアテニア、最大66万3,481件の情報漏えい-プレイド KARTEへの不正アクセスで 7年以上前に利用終了した顧客データが残存|セキュリティニュースのセキュリティ対策Lab",
       "sources": [
         {
           "name": "合同会社ロケットボーイズ",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbEdlcnh5NkhmakhIWlRfRVUzdTRNa2ZGcXUyS0VpZERZX0JjemtUeXZyLUJZOEk3aWx6VlZQNUJNQklSSVFRRzdoaGRDYllfUlQycXVTYlVrRkxlTF9YbG54RkR5UmVhaEZOcXpySTBpRkxXWUhENDdRcTBISWY2ZmQwak9tUm5OZ3BpTEpzb3poOThsMlh2VTktWWl1ejJUR21uNWt3?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQamV0cXRXNUJoRkFtLUdzbWh1d2pXejFrRDhsQ1l6X2Z1U0JNWlFhQlBkTFVHa19oTm5NelN0cllTYlBVeTRKZ3JtQW5iYmV0b1NIWnppbG9Pank2OTVzUVVGVlZ1bTZ4RENPVWUyMkxkeDVOUGZpdVprcUp3dFJnZlc0SkZ6TTV1S0E4?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-11-27-auto-442175a907",
+      "id": "2026-11-27-auto-5e1222094e",
       "member_ids": [
-        "2026-11-27-auto-442175a907"
+        "2026-11-27-auto-5e1222094e"
+      ],
+      "priority": "C",
+      "published": "2026-11-27",
+      "company": "不正アクセスで札幌のクリスマス抽選会が中止に",
+      "service": "",
+      "affected_count": 0,
+      "summary": "不正アクセスで札幌のクリスマス抽選会が中止に",
+      "sources": [
+        {
+          "name": "ScanNetSecurity",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1SQ2lrVHRZZVFucTBiSDlnYm9OQm95ekNxWDVzTTZYWTdPd1BHZkNhOVZXZXQyNU1wNkVkbzdWYjlMT3YxcWZOUS10bDAyZlFwVVVZbzN6TFB4Mm8zYlJBYUVSSzQ5QkpxMkJ3cw?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-auto-0d0fdd806c",
+      "member_ids": [
+        "2026-11-27-auto-0d0fdd806c"
       ],
       "priority": "B",
       "published": "2026-11-27",
-      "company": "みずほ銀、顧客情報最大3万3224件漏えい 委託先",
+      "company": "ヒューマンアジャスト",
       "service": "",
-      "affected_count": 33224,
-      "summary": "みずほ銀、顧客情報最大3万3224件漏えい 委託先の不正アクセスで",
+      "affected_count": 58510,
+      "summary": "ヒューマンアジャスト、店舗利用者5万8,510人とLINE登録者11万6,518人の情報漏洩が確定 ソニックムーブ「COMSBI」への不正アクセスで|セキュリティニュースのセキュリティ対策Lab",
       "sources": [
         {
-          "name": "ニッキンONLINE",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5DS2s0ZzBuZVc3RnZWN2RwcEJJWXJMckktRlZTNkhoZVBjYlVTMjRBZHd5dzRGNWxVZmJsajlFTEFPaXpJX2VCb3JzS3ExLTRmd2NGaVl3?oc=5",
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbjhIRWowVmxNMHFzWG5DOWZNOFFMU0dKaERkNFFkRUVuMkZ0Q0diczFsZUZvS0NGMlppMFNQcnAwempzbGg1REtYTlpHOTBDSE5VRWNLU2ZLWTZTcmhHSllIX1R4aGlnYi0xVndfVTJRaEQwNnRyWmIxZ1IwRkxKRDRtUjhGdVNMTjNBZTRn?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-11-27-auto-aa29e4fea0",
+      "id": "2026-11-27-auto-0dd13b84b9",
       "member_ids": [
-        "2026-11-27-auto-aa29e4fea0",
-        "2026-11-27-auto-4e5f1ab5d2"
+        "2026-11-27-auto-0dd13b84b9"
       ],
       "priority": "B",
       "published": "2026-11-27",
-      "company": "ニューバランスジャパン",
+      "company": "パルシステム「くらしと生協」、延べ11万8,806人",
       "service": "",
-      "affected_count": 120000,
-      "summary": "ニューバランスジャパン、情報漏えいの恐れ",
+      "affected_count": 118806,
+      "summary": "パルシステム「くらしと生協」、延べ11万8,806人の個人情報漏洩のおそれ 配送委託先の佐川急便への不正アクセスで",
       "sources": [
         {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBxRmZCVE0yWFhsSlB0RlJvUnMta2RGMWRMTzg3VlFTdFRsd2JSY3lMaHgzQ2hOMFhvMTExSmdyTW9wdno4cW00OWQ1NA?oc=5",
-          "official": false
-        },
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE40ZkY3TElDY2FfdHktOGlQcjlRY2NoX1J0U1BtUVk5UU9uMVI1VjFRRGdQcXgxclVzMHQ4LXkyS21WOHFFS0FCc1dKa3phYldwTk5aaHRyZUI1YlI2ZENz?oc=5",
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZjU1eWx6aGY1VHFtVGxwckhmWlNDY3kyZnJvM0Y3dGpiRk9tWHZKN0MwT0w5b3pleFRJQjdHbHYtQndPOUdTZS03ZjRoU3oxTUZNNzdpRDluOGJPNFFLRHBvYmQwazRPZ3VmeG9DMXI5Qm9UdThHRTRtUVRQUVBCUHhmSy1UeU1VZ1NuWDgxWGNBOUpFVTlNaHYzR1c2RjB3eFU5bmt0R0VISXFwbktlN3pQZTM?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-11-27-auto-e1fb5276be",
+      "id": "2026-11-27-auto-da5ec0a7d0",
       "member_ids": [
-        "2026-11-27-auto-e1fb5276be"
+        "2026-11-27-auto-da5ec0a7d0"
+      ],
+      "priority": "C",
+      "published": "2026-11-27",
+      "company": "三重大学、学生・教職員9,756名のメールアドレス1万4,074件",
+      "service": "",
+      "affected_count": 14074,
+      "summary": "三重大学、学生・教職員9,756名のメールアドレス1万4,074件が情報漏えい 安否確認システム「ANPIC」が利用するアララへの不正アクセスで|セキュリティニュースのセキュリティ対策Lab",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNNTkwOG53QVk5cGg2V2NRaFBRT195X2U2cUhlUzBFdV9pZHU0amlQSnRSVmtwd3pvV1NmenptQml0RlZkZDc0a2otQnZhR1YxdHdHTDJvMUpkckRULXNEcGNraUxCVjNFTnRWVGVtYzMxMmt6RWcwZ1J1cTB1aTRIRWpFTUJyRVotVGVqTjFfX3NhdGU4MVpTOGJjelJmRmYxY1Zn?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-auto-7e63380293",
+      "member_ids": [
+        "2026-11-27-auto-7e63380293"
+      ],
+      "priority": "C",
+      "published": "2026-11-27",
+      "company": "国分グループ本社「ROJI日本橋オンラインストア」、8,590件",
+      "service": "",
+      "affected_count": 8590,
+      "summary": "国分グループ本社「ROJI日本橋オンラインストア」、8,590件の個人情報漏洩の恐れ プレイド「KARTE」への不正アクセスで",
+      "sources": [
+        {
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUjllV1VsSnA1a1J3Z0lSUmdScnFNbHp3MlpRN3I1NXYxS0JZVTk0Y1hiUDBHeGJxLXNZWEZ4ZHdEVWtyTkF3MVVkTW1BdFVwWXpvSjVsTUhzREJ4dEs4TzBwZC1zOTN0REszSXdQb2dfbTA4Z0FKRGlPZU1WbEpGMWdIV0JiU1JZb1plTHJJbV9sZw?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-auto-721cbc0e66",
+      "member_ids": [
+        "2026-11-27-auto-721cbc0e66"
+      ],
+      "priority": "C",
+      "published": "2026-11-27",
+      "company": "中国銀行「ちゅうぎんビジネスポータル",
+      "service": "",
+      "affected_count": 0,
+      "summary": "中国銀行「ちゅうぎんビジネスポータル」の顧客情報が漏洩 プレイド「KARTE」への不正アクセスで、法人を狙うフィッシングに注意",
+      "sources": [
+        {
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcTl2dVVwX0Q5TXVza3FfVmJJb01rSWNsbkVlWDc5S0hiQnhKV0I0SWFycUxuQ2ZpX3Y4N3dWV1laSkkyTkgxdFlzRF9zTDRqWWJuY1dnTzdrZUVVdmRVMmw1cFQ0Z3dKd1ZLUVR1aFZzeHJBaVc1aDd4TnpGN3NwdW1FZVdPaDdCaUVwcGt6UzQwRmJpUVQ1dWstekdaVHcwTGNwNXB3?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-auto-6b58e42973",
+      "member_ids": [
+        "2026-11-27-auto-6b58e42973"
+      ],
+      "priority": "C",
+      "published": "2026-11-27",
+      "company": "カイクラ」のシンカ、社内業務サーバー",
+      "service": "",
+      "affected_count": 5286,
+      "summary": "「カイクラ」のシンカ、社内業務サーバーに不正アクセス 契約企業の請求先データなど5,286件が漏えい",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE02NllpbW1TOExtZHRnc2R5VFVuN1VoUEpJcDNIcHdSdXp2UWl4TkJKakJUTURMZ2l6NGk1UGlNcHE2dnFQd3ZTbA?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-auto-d0d82e8242",
+      "member_ids": [
+        "2026-11-27-auto-d0d82e8242"
+      ],
+      "priority": "C",
+      "published": "2026-11-27",
+      "company": "シンカ、社内業務システムへ",
+      "service": "",
+      "affected_count": 5286,
+      "summary": "シンカ、社内業務システムへの不正アクセスで5,286件の情報漏洩、うち個人情報4,777件 「カイクラ」の会話録音データの漏洩は確認されず|セキュリティニュースのセキュリティ対策Lab",
+      "sources": [
+        {
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPU1hSUTN5VXQ3SjQ5UnhXX0c3OUJwbjl2SjZ0cXJVOWFoX19nX3ZXbDdOWUU5bmcwU1d5X0lOTkdIdnd3azNoTHFRTHJOcEJYbnVGUFJDT0MzVE01VDBQTF9uWW0tTExBQWpEY0NQb3puWS1wcXhObEU3aEkyZ3J0TnpmVm5maEt4c0kya0JBWEpELWQ4Vk5oV2l3QlFiM2ZkX2YzTEhB?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-auto-1dc308ebb3",
+      "member_ids": [
+        "2026-11-27-auto-1dc308ebb3"
+      ],
+      "priority": "C",
+      "published": "2026-11-27",
+      "company": "くふうカンパニー「リテール・リーダーズ",
+      "service": "",
+      "affected_count": 0,
+      "summary": "くふうカンパニー「リテール・リーダーズ」に不正アクセス、サービス停止 相次ぐセキュリティインシデント",
+      "sources": [
+        {
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZC1Ia0pOZUNsY01nRDBxTUdxa2FtNXRXbEJJblZncFk4NmwwZ0hQamROQ0tDdFpZLTBpVVpfbFhNcGtacFIzVXIteUhxWHkwZTlUc2txaVhLTXEzZWg0dWF3MGN5UjM1d0QxTWVKS2x2d2RYWXZDeGhQOEI2RUl2OS1vQkxtYk54bTVMV0tTLXhDTXdrckNubEZVQQ?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-auto-ce037294e7",
+      "member_ids": [
+        "2026-11-27-auto-ce037294e7"
+      ],
+      "priority": "B",
+      "published": "2026-11-27",
+      "company": "パソナ、転職・再就職支援サービス",
+      "service": "",
+      "affected_count": 1040000,
+      "summary": "パソナ、転職・再就職支援サービスの個人情報を含む約104万件情報漏洩 電通デジタル「TONARIWA」への不正アクセスで",
+      "sources": [
+        {
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxObFZPR2RybGExQ05wTDdOcHhrQzRwdFZ1R0FHcTczMGoxNTJsbDRocUFGTUNXd1Bza2VoWmhRbnZjVFpiMGNxeWZMVE50SmphTWRZNFpNN3FHc2VhS0xCNW53TmxyUVBhZFB5X1MteFN6bzk3SkFycGl2N1ZtRDlDeHlZaXc1ZU5DUWdxRHZR?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-auto-1913c1eea2",
+      "member_ids": [
+        "2026-11-27-auto-1913c1eea2"
+      ],
+      "priority": "C",
+      "published": "2026-11-27",
+      "company": "保守用アカウントを利用しシンクライアント環境経由で侵入 ~",
+      "service": "",
+      "affected_count": 0,
+      "summary": "保守用アカウントを利用しシンクライアント環境経由で侵入 ~ エネコム社内ネットワークに不正アクセス",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5CTko2S1RMRG90dnNXRTM5eXVTc0E5T2JhanpyUUlDdTRmQmxpLWsyVnhSRDhKQVRMczBhMGQwcmlZal9mSk40YzlJY1daOWJPVERhY2c1UzE2XzNBVXYyUjFFNVBXM2M1QmVoSg?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-auto-2e5aa5c7ea",
+      "member_ids": [
+        "2026-11-27-auto-2e5aa5c7ea"
+      ],
+      "priority": "C",
+      "published": "2026-11-27",
+      "company": "三菱地所 8サービス",
+      "service": "",
+      "affected_count": 0,
+      "summary": "三菱地所 8サービスで情報漏洩 みなとみらいポイントアプリや丸の内関連サービスなど、プレイド「KARTE」への不正アクセスで",
+      "sources": [
+        {
+          "name": "合同会社ロケットボーイズ",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWWFsVWtsaG8xb1R0UmgyTmIwVUxqSEhGYlBGSXQ3S2gxeG05NDNfcE9oTFRYNk5FeDdISTJHOW5FSHBfNnNLaUJBWGlYVktGVGdScThzcFJ1d2x2VkgtWGZZT1lmYWV5bGFpRHR4LVlEOWkyVEZNUzZkRS0zWWd6NzZPUFUzMXA2aVZ0ckw5SVBKblk?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-auto-b576274656",
+      "member_ids": [
+        "2026-11-27-auto-b576274656"
       ],
       "priority": "A",
       "published": "2026-11-27",
-      "company": "みずほ銀行の顧客管理番号3万3224件漏えい",
+      "company": "集英社、「KARTE」へ",
       "service": "",
-      "affected_count": 33224,
-      "summary": "みずほ銀行の顧客管理番号3万3224件漏えい、氏名や口座の暗証番号など含まれず",
+      "affected_count": 700000,
+      "summary": "集英社、「KARTE」への不正アクセスで「ジャンプキャラクターズストア」会員の生年月日約70万件が漏えい",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBaRmtmM3pLeE9oY3htSGVUMnRDeEdndmpINnlsQ3BvdFhzREgyN0F0Ny1YdlB6NlZyRWh6c2RHSVVrWUZUQjQyTG02enBEQm00YTFySWtaLW9vVGphemJGMDNKaFI?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE03aGdzaERhNHF1V3VEeDRnd21SYjNYVHk5bXctTzZSeEVxeWxPMW1OSzVRU3dvbVgwWTluRHdERzdtc0NCY2VEeA?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-11-27-auto-b870052572",
+      "id": "2026-11-27-auto-f445d2f9df",
       "member_ids": [
-        "2026-11-27-auto-b870052572"
+        "2026-11-27-auto-f445d2f9df"
+      ],
+      "priority": "C",
+      "published": "2026-11-27",
+      "company": "FIFAの内部情報",
+      "service": "",
+      "affected_count": 0,
+      "summary": "FIFAの内部情報が流出...サイバー攻撃被害を認める。職員になりすまして不正アクセスか(フットボールチャンネル)",
+      "sources": [
+        {
+          "name": "フットボールチャンネル",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCWVl1Z2ZOQ3hlUkFFaG1Zd0hybUJiWjFRVzVtWTdTNzZGdTVrRERrZ2VHZFZNdVFKcWRyTXNJNVZTbmlSTHhRSkMxem5qME9WUXFZWWdrLVZnOHktelRCMDBHR0xpeWNXaS1mWElwVVQ5d3FVM2NVZGF2UHZDVUk?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-auto-4b2f45924c",
+      "member_ids": [
+        "2026-11-27-auto-4b2f45924c"
+      ],
+      "priority": "C",
+      "published": "2026-11-27",
+      "company": "大田原市",
+      "service": "",
+      "affected_count": 538,
+      "summary": "大田原市、メールアドレス538件漏えい アララ不正アクセス問題",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE53WC1oeWRhZFg5RnhMNW9iVm0tLWtleVJWeEFEYmZoV0U2N1N0M25pSG5LR2FOSFdpbkVXN3lBa1pjaFg0QmJDb0VNMnVFanJTR013Yk1xZVJ0WDg?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-auto-34c6daaba9",
+      "member_ids": [
+        "2026-11-27-auto-34c6daaba9"
+      ],
+      "priority": "C",
+      "published": "2026-11-27",
+      "company": "シンカが社内業務システムへ",
+      "service": "",
+      "affected_count": 5286,
+      "summary": "シンカが社内業務システムへの不正アクセスを公表し5,286件の情報漏えいを確認",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9CWVRRODhHVXIyYTNqVUM3eGtSWE9mOThmZmV0WVVLbTVCaWVOcV9xcER4SC1INlVyWGozYlBrM0NsVkdHUUR5MkFXRmJTR0U3VlE?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-27-auto-454fc25ee4",
+      "member_ids": [
+        "2026-11-27-auto-454fc25ee4"
       ],
       "priority": "B",
       "published": "2026-11-27",
-      "company": "メディシス、4万人超",
+      "company": "みずほ銀行、KARTE経由で顧客管理番号最大33,224件",
       "service": "",
-      "affected_count": 40000,
-      "summary": "メディシス、4万人超の個人情報流出",
+      "affected_count": 33224,
+      "summary": "みずほ銀行、KARTE経由で顧客管理番号最大33,224件が漏えい 3メガバンクすべてが公表",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBielI4dnBpNE01ZUtqUnVIY3pQTFQ2VkhJdko4c2M4ZnR5YzR0NEJSS0pEdTRjcXpDUzRxblZtVlc1OElxNHhIdWpR0gFPQVVfeXFMTjVCYVVvZTllZ3R1QWdQUFJLWVphQkJBbEVJbjZ0MzcwS0QtSkVUODRpeTIySHRJYUd2MTN6alNvX0tLVlJNcUNDcHJielZnaw?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBfQVNkVzJ5YUxVU1JZT3ZzMVZfYWdCRllyR0tsNW1raS03ZEFnUFl3ZTZkVnBsMlhNTVVOMG1oaXlwREZkbEJnM2xVNms0MXJBTzRwQ3l6d1V5dmxkM0x0UjlZVWk1bDlha1BiUnVDY2xpTE0?oc=5",
           "official": false
         }
       ]
     },
     {
-      "id": "2026-11-27-auto-7b5e885e79",
+      "id": "2026-11-27-auto-59b2f76503",
       "member_ids": [
-        "2026-11-27-auto-7b5e885e79"
+        "2026-11-27-auto-59b2f76503"
       ],
       "priority": "C",
       "published": "2026-11-27",
-      "company": "香港芸術祭",
+      "company": "クレカ番号とコードがセットで30ドル...",
       "service": "",
       "affected_count": 0,
-      "summary": "香港芸術祭に不正アクセス、個人情報流出",
+      "summary": "クレカ番号とコードがセットで30ドル... 流出個人情報、闇サイトで大量売買",
       "sources": [
         {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1SMUJqdmtCLTAzaEN6aW9OWS1QOENuTGpXX0NPWktpSjhiMTRuYW41SjFYalNfQlkwbi1NbWZ3NklaVDZGdVE?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-27-auto-b7582718f5",
-      "member_ids": [
-        "2026-11-27-auto-b7582718f5"
-      ],
-      "priority": "C",
-      "published": "2026-11-27",
-      "company": "セクシー動画を見ている姿が全世界に公開」...出会い・夜遊び系",
-      "service": "",
-      "affected_count": 0,
-      "summary": "「セクシー動画を見ている姿が全世界に公開」...出会い・夜遊び系の情報流出が招く“社会的抹殺”の恐怖と自己防衛術(SPA!)",
-      "sources": [
-        {
-          "name": "SPA!",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE53elZrS0xTTzc4UkxVQzhFdXJOMmJ1azlENEpzdHU1ZDBtUXlKbkEyZ3RQWmx3ZU5fTzNwVm51Zkxicl9ycXB0RW1BaGhKaEU2WHpILVlBb3lrNFZpd0xFUHAzOFdqQUY0bXE0UGw4VkF4a1JOV1BBcW9LWEc0X3c?oc=5",
-          "official": false
-        }
-      ]
-    },
-    {
-      "id": "2026-11-27-auto-54513781bf",
-      "member_ids": [
-        "2026-11-27-auto-54513781bf"
-      ],
-      "priority": "C",
-      "published": "2026-11-27",
-      "company": "アディーレ法律事務所で1800件情報漏れ=外部委託先",
-      "service": "",
-      "affected_count": 1800,
-      "summary": "アディーレ法律事務所で1800件情報漏れ=外部委託先に不正アクセス",
-      "sources": [
-        {
-          "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1XemhXOWVzbzZTUTQ1d1ROcWtNelVsZkRJemhvY3hoVE5JSHNUeW9vbEFxaTJlMWdBellIbDVac3ZnSFI1SVhCRGhCM3F3VUlUWmdSUEYtbmc?oc=5",
+          "name": "中日新聞Web",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE93RVVtWXZuRXBCU09vNEY5TTRMVWpsYmNwMVhIVERfeWN1R2xpMDJHSThwZTI5VHZRdENiZVVfbUFrbXRHb1JCcWVPSmRvengybjJ3VQ?oc=5",
           "official": false
         }
       ]
     }
   ],
-  "removed_candidates": [
-    {
-      "id": "2026-11-26-auto-e8ca2d1cd3",
-      "member_ids": [
-        "2026-11-26-auto-e8ca2d1cd3"
-      ],
-      "priority": "A",
-      "published": "2026-11-26",
-      "company": "ニューバランス",
-      "service": "",
-      "affected_count": 3740000,
-      "summary": "ニューバランスで情報漏洩、最大約374万件の顧客に影響-プレイド「KARTE」への不正アクセスによるサイバー攻撃で"
-    }
-  ]
+  "removed_candidates": []
 }
