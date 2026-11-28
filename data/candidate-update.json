@@ -1,36 +1,96 @@
 {
   "version": "1.1",
-  "generated_at": "2026-11-28T04:04:33+00:00",
-  "before_count": 2513,
-  "after_count": 2514,
-  "net_change": 1,
-  "new_count": 1,
+  "generated_at": "2026-11-28T13:12:57+00:00",
+  "before_count": 2514,
+  "after_count": 2465,
+  "net_change": -49,
+  "new_count": 4,
   "removed_count": 0,
-  "visible_before_count": 2513,
-  "visible_after_count": 2514,
-  "visible_net_change": 1,
-  "raw_before_count": 3665,
-  "raw_after_count": 3666,
-  "raw_net_change": 1,
+  "visible_before_count": 2514,
+  "visible_after_count": 2465,
+  "visible_net_change": -49,
+  "raw_before_count": 3666,
+  "raw_after_count": 3676,
+  "raw_net_change": 10,
   "new_candidate_ids": [
-    "2026-11-28-auto-ab561bf00e"
+    "2026-11-28-auto-3307c8cdb9",
+    "2026-11-28-auto-e7e4ab117f",
+    "2026-11-28-auto-e634bc13e5",
+    "2026-11-28-auto-b5c7367960"
   ],
   "new_candidates": [
     {
-      "id": "2026-11-28-auto-ab561bf00e",
+      "id": "2026-11-28-auto-3307c8cdb9",
       "member_ids": [
-        "2026-11-28-auto-ab561bf00e"
+        "2026-11-28-auto-3307c8cdb9"
       ],
-      "priority": "C",
+      "priority": "B",
       "published": "2026-11-28",
-      "company": "TMJ",
+      "company": "【激増 日本のデータ流出】個情委に半月で830件",
       "service": "",
-      "affected_count": 0,
-      "summary": "TMJ、「情報漏えい等 緊急お客様窓口サービス」の提供を開始",
+      "affected_count": 60000000,
+      "summary": "【激増 日本のデータ流出】個情委に半月で830件の不正アクセス報告、漏えい人数延べ2億6000万人超す",
       "sources": [
         {
           "name": "Googleニュース",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5NLXRtNFRYQ1dXVDNfbk1jOTItbHpxWTdMck9IdzRRQXJpWlBaUUVLZ0hkc2RrbmU2X0ZFclQyUzN6RW5FODVTbHQzSWFLUENqLWs3ck1HWVdmRjl3c2JnX1ZTNkZqM2lUNG5N?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4wMGNLTUhZYmMyMHFuVU91emNIcHNoaTN2WE15S0Exa0pWY2otX3BFbk4yMnBSMWtKbVExMkZZcmUzM2JUSi1VWGdfdnZ1RWlQZWRmRThxeVZuVG91TVZj?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-28-auto-e7e4ab117f",
+      "member_ids": [
+        "2026-11-28-auto-e7e4ab117f"
+      ],
+      "priority": "C",
+      "published": "2026-11-28",
+      "company": "静岡大の元教員が海外でPC盗まれ...約1400人分",
+      "service": "",
+      "affected_count": 1400,
+      "summary": "静岡大の元教員が海外でPC盗まれ...約1400人分の個人情報流出の可能性=静岡大学",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8wOV8tY1dLNjJiQmdDS1dENG1OT3FuWkJrY3V0SEtUcEtLbkthT09ZU3VSNmpOOHh4cWNUOU9vRTBtXzUyRFBGTExLcktNZkoxVHJjSWxkNEdMaXY0UnhlVUlzN2R2VVNaVndaM3FnQdIBdEFVX3lxTFBURGoyWUJIQW9MZm01X1ZwaUJBb282dGo0Ri15ZUhtamROTlBHZzEtaE1sTEtfVDhSX18xLVhZOXEwQjlFU3hEYWxzTmtVanRxVkJvMmRZSVBBTDBYZTBNRFJMeUItLVp2bVk2dkctcmZUQnVN?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-28-auto-e634bc13e5",
+      "member_ids": [
+        "2026-11-28-auto-e634bc13e5"
+      ],
+      "priority": "A",
+      "published": "2026-11-28",
+      "company": "インターネット郵便局",
+      "service": "",
+      "affected_count": 113855,
+      "summary": "インターネット郵便局がハッキング被害、書留郵便の顧客11万3855人の個人情報が流出 : 社会 : 財経日報",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNQmxHb2VLc09NaWZXX0IyZzV0T1RyMS1VdlBYSEZMTmRYQnFLTTEzV0t4bWhQRHpBem1GYVBweEJnZFJJYTFqaVpMLTc0a2M3SGVoVzUyT3hiYVp1OGlGWFhsTGhLOFEtcy1rb3pJN094ZjdYc2lQVjNyZkpQbGx1WGczVGpWWnJUYW1hb1ktR0hEUDBrZGFxOEM0WVZkYW5JNkhFdVJPM1F0YjdONHJPUGN6eThteTFxeTRpblFfMkZrZDVjNG5WaldhWHQ3ZDdC?oc=5",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": "2026-11-28-auto-b5c7367960",
+      "member_ids": [
+        "2026-11-28-auto-b5c7367960"
+      ],
+      "priority": "A",
+      "published": "2026-11-28",
+      "company": "GMOペパポ",
+      "service": "",
+      "affected_count": 110000,
+      "summary": "GMOペパポ、パスワード11万件超が平文のまま流出 「ロリポップ!」など4サービスで",
+      "sources": [
+        {
+          "name": "Googleニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE52d1JRNERIV2hqdEpqaU9kc3RXVjdGaWFSMnduaDdiSzZ6UFg3UEh2ZTNhN2VRYWEteW5CSFh4Qng3SWQ1UGh6STQxSjNzeGVIeVk4Ni1wNTViS1VNR3Y1RS1PU0dZTWFURTI0UUlOMFluUG0wZE5CN19INjQ4NHM?oc=5",
           "official": false
         }
       ]
